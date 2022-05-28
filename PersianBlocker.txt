@@ -1,0 +1,1496 @@
+! Title: PersianBlocker
+! Description: لیستی برای مسدود کردن تبلیغ ها و ردیاب ها در سایت های پارسی زبان / A list to block ads and trackers in Persian websites
+! Expires: 2 days
+! Last modified: 2022-05-28
+! Homepage: https://github.com/MasterKia/PersianBlocker
+! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
+!
+! Issues: https://github.com/MasterKia/PersianBlocker/issues
+! Suggestions: https://github.com/MasterKia/PersianBlocker/pulls
+
+
+!-------------------------v Experimental Generic Filters v-----------------------!
+! /files/adv/*
+! /statics/*$xhr
+! .ir/ads/
+!-------------------------^ Experimental Generic Filters ^-----------------------!
+
+
+!-------------------------v Ads/Trackers/Annoyances Filters v-----------------------!
+! >> A <<
+||asreasia.com/piwik
+
+||analytics.aasaam.com^
+||analytics-.aasaam.com^
+
+||adtodate.net^$3p
+||adwisedfs.com^$3p
+||adivery.com^$3p
+||adnegah.net^$3p
+||adpulse.ir^$3p
+||adsima.net^$3p
+||adtrace.io^$3p
+||akhbarrasmi.com^$3p
+||affili.ir^$3p
+||alexametrics.com^
+||amarfa.ir^$3p
+||ayyaar.ir^$3p
+! ^ Used on irna.ir
+
+||adro.co^$3p
+||affstat.adro.co
+||affstat.digikala.com
+||affiliate.digikala.com^$3p
+
+||1abzar.com/files/ads
+||1abzaar.ir/abzar/tools/no-rightclick.js
+||1abzaar.ir/abzar/tools/no-selects.js
+||1abzar.ir/abzar/tools/post-view/
+||1abzar.ir/abzar/tools/stat/
+
+||abzarfa.com/services/minicounter
+||abzarfa.com/services/onlineusres
+||abzarfa.com/tools/ip
+
+! >> B <<
+||backlink.behtarinseo.ir/ads
+||backority.ir^$3p
+||blogfa.com/a/
+
+! >> C <<
+||cloudflareinsights.com^
+||congoro.com^$3p
+
+@@||clickyab.com^$1p
+||clickyab.com^$3p
+! TODO: Report to Pete Lowe
+
+||chabok.io^$3p
+||clarity.ms^$3p
+||clickweb.click^$3p
+! TODO: Remove clickweb.click, but some websites still link to it
+
+! >> D <<
+||denutility.com/*/tabligh/
+! ^ Used on eghtesadnews.com
+
+||deemanetwork.com^$3p
+||deema.agency^$3p
+||click.digiato.com
+! ^ Used by Digiato, Vigiato, Rooziato
+||doubleclick.net^
+
+! >> E <<
+||epicgameads.com^
+! Used by gamesib.ir
+
+||e-earn.ir^$3p
+
+! >> F <<
+||farsbux.ir^$3p
+||fastclick.ir^$3p
+||fa-tools.ir/code/rightclick/right-click1.js
+||widget.fafait.net^$3p
+
+! >> G <<
+
+! >> H <<
+||hotjar.com^$3p
+||histats.com^$3p
+||heatmap.it^$3p
+||hantana.org^$3p
+
+! >> I <<
+||intrack.ir^$3p
+||instant.page^$3p
+||icanhazip.com^$3p
+! TODO: Investigate ^ (Used on takhfifan.com)
+||ipify.org^$3p
+||geoip.imber.live
+
+! >> J <<
+||jetbux.ir^$3p
+
+! >> K <<
+||kilipo.com/themes/default/player/plugins/vast/ads
+||kilipo.com/themes/default/player/plugins/ads
+
+||kajads.com^$3p
+||ads.karzar.net
+||kaprila.com^$3p
+
+||k2cod.com/ip/show-ip
+||k2cod.com/statistics/
+
+! >> L <<
+||landyab.com^$3p
+||linksaz.net^$3p
+||linkyar.com^$3p
+
+! >> M <<
+||mediaad.org^$3p
+||magnetadservices.com^$3p
+||merita.ir^$3p
+||metrix.ir^$3p
+||mitrarank.ir^$3p
+||track.mailerlite.com^
+
+! >> N <<
+||najva.com^$3p
+||netbina.com^$3p
+
+! >> O <<
+||cdn.onesignal.com^
+! ^ Used by downloadsoftware.ir, itna.ir
+
+! >> P <<
+||prchecker.info^
+! ^ Used by uplooder.net
+
+||peyvandha.ir^$3p
+||10.10.34.35
+! ^ Example: imovie-dl.org
+
+||phoenixad.io^$3p
+||partclick.ir^$3p
+||persianrank.ir^$3p
+||popgozar.com^$3p
+||popupplus.ir^$3p
+||popupme.net^$3p
+||pushe.co^$3p
+||p30rank.ir^$3p
+! TODO: Investigate whether p30rank is an ads/tracking site
+||pegah.tech^$3p
+||publica.ir^$3p
+
+||parsiblog.com/ga.js
+
+! >> Q <<
+
+! >> R <<
+||rozblog.com/include/rozblog_ads_js
+/include/rozblog_ads_js
+
+! >> S <<
+||sendpulse.com^$3p
+! ^ Used by sourceiran.com
+
+||statcounter.com^$3p
+
+||speedcurve.com^$3p
+! ^ Used on zoomit.ir
+
+||sanjagh.com^$3p
+||sanjagh.net^$3p
+
+||sibautomation.com^$3p
+! ^ Used by akhbarrasmi.com
+||ads.safarme.ir
+! ^ Used by kojaro.com
+||sabavision.com^$3p
+||simple-counter.com/hit.php^$3p
+||seyedrezabazyar.com/codetools/files/close-right-click.js
+
+! >> T <<
+||tabligheirani.ir^$3p
+||tbli.ir^$3p
+
+||toshare.io/dl/download.php?i=
+! ^ Used on barato.ir
+
+! ||tavoos.net^$3p
+||tavoos.net/services/banner
+||tavoos.net/bannerANDnative/
+||tavoos.net/services/vast/*$xhr
+||player.tavoos.net/vast.js
+||player.tavoos.net/jwpsrv.js
+
+||tapsell.ir^$3p
+||toppopup.com^$3p
+||cashback.takhfifan.com^$3p
+! TODO: Investigate ^
+||counter.toolsir.com^$3p
+
+||takskin.com/tools/online/
+||takskin.com/tools/show-ip/
+||takskin.com/abzar/norightclick/
+
+||tool.4tools.ir/tools/click-c/click-c.js
+||tool.4tools.ir/tools/click-l/click-l.js
+! >> U <<
+||utopclick.com^$3p
+||utop.ir^$3p
+||useinsider.com^$3p
+! ^ Used by Sheypoor.com
+||uptrendsdata.com^$3p
+! ^ Used by aftabir.com
+
+! >> V <<
+||vatanclick.ir^$3p
+
+! >> W <<
+||web.webpushs.com/js/push
+! ^ Used by zima.ir
+||weclick.ir^$3p
+||w3counter.com^$3p
+||webgozar.com/c.aspx*&t=counter
+||webgozar.ir/c.aspx*&t=counter
+||wideads.com^$3p
+||stats.wp.com^
+! ^ Used by icoff.ee
+
+! >> X <<
+||xjs.lol^$3p
+
+! >> Y <<
+||yektanet.com^$3p
+||yekbux.com^$3p
+||mc.yandex.ru^
+
+! >> Z <<
+||zarpop.com^$3p
+||zanboor.net^$3p
+! TODO: Remove zanboor.net, but some websites still link to it
+
+!-------------------------^ Ads/Trackers Filters ^-----------------------!
+
+
+!-------------------------v Site-Specific Filters v-----------------------!
+
+! >> A <<
+asriran.com##+js(alert-buster)
+||asriran.com/files/adv/$important
+||asriran.com/fa/generate/userid
+||excoino.com^$domain=asriran.com
+asriran.com##.webgardi_main.row
+asriran.com##.click1000_allcontent
+! TODO: Remove `@@||cdn.asriran.com^$image` from uBlock Unbreak
+
+||androidzoom.ir/wp-content/uploads/*/*.gif
+androidzoom.ir##.widget-container
+androidzoom.ir##.theiaStickySidebar
+androidzoom.ir##.download-link-ads-below
+androidzoom.ir##.kaprila
+
+||akharinnews.com/images/banners
+akharinnews.com###headerads
+akharinnews.com###left2
+akharinnews.com##.yn-bnr
+akharinnews.com###ads
+
+||asandl.com/Panel/$image
+asandl.com##.text-asan
+asandl.com##.game.post
+asandl.com##.asan125
+asandl.com##.asan250
+asandl.com##.asan468
+@@||image.asandl.com/Panel/templates/Sprit.png
+@@||img.cdn.asandl.com/Panel/templates/Sprit.png
+@@||asandl.com/ads/img/$image
+! ^ TODO: Report the last one to EasyList
+
+||arga-mag.com/wp-content/plugins/meks-easy-ads
+arga-mag.com##.top-ad
+arga-mag.com##.header-ad
+arga-mag.com##.bottom-ad
+arga-mag.com##.menu_right-side-ads
+arga-mag.com##.menu_left-side-ads
+arga-mag.com##.medic-box.inner.boxsh
+
+||androidina.net/images/asiatech
+||androidina.net/images/baner
+||androidina.net/analytics.js
+androidina.net###ads-text
+androidina.net###agahiBottom
+androidina.net##.banner_wrapp
+
+||amazing.ir/wp-content/plugins/google-analytics
+amazing.ir##.widget_custom_html.widget.widget_text
+
+||alef.ir/files/advertise/
+||alef.ir/news/visit
+
+||blog.akhbarrasmi.com/wp-content/plugins/*/analytics/
+
+alamto.com##li#bunyad-latest-posts-widget-2.latest-posts.widget:nth-of-type(4)
+alamto.com##.yn-bnr
+alamto.com###pos-article-display-66259
+
+! androidgozar.com##+js(aopr, website)
+androidgozar.com##+js(aopr, ShowPopUp)
+||androidgozar.com/agahi/
+||androidgozar.com/wp-admin/admin-ajax.php?postviews_id
+androidgozar.com##.post-sticky
+androidgozar.com##.cas-pubg
+! androidgozar.com##div[class^="col-"]:has(div>div>a[class="ag-agah"])
+
+||dsp.aparat.com/*/dsp/bid?ads_type
+||static.cdn.asset.aparat.com/agf/adCustom
+aparat.com##.side-ads
+aparat.com###sideAds
+aparat.com##.ad-link
+aparat.com##.ad-banner
+! TODO: Check for more possible filters
+
+||aftabir.com/uploads/banners/
+aftabir.com###footer_js_d1
+aftabir.com##.banner
+aftabir.com##.banner-container
+aftabir.com##.sidebar-fixed > .block
+aftabir.com##.col-sm-12 > .block > header
+aftabir.com##.boxRepo-12
+aftabir.com##section.block:nth-of-type(4)
+
+||aftabyazdonline.ir/templates/aftabeyazd/images/ads
+aftabyazdonline.ir##.co-ads
+
+||ads.akairan.com
+||ads.akaup.com
+
+||abipic.com/ads/
+abipic.com##.pt-3.text-center.py-2.bg-all-box
+abipic.com##.text-center.py-3.bg-all-box
+abipic.com##.ads-text-sid
+
+abzarfa.com##.top-ads
+abzarfa.com##div.right-sidebar:nth-of-type(1)
+abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-sidebar-cont
+abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-title
+
+1abzar.com##.ads-post
+
+||aftabnews.ir/files/adv/
+aftabnews.ir##.adv_r_news2
+aftabnews.ir##.adv_l_inner5
+
+! alaatv.com##+js(acis, watermarkAdData)
+||nodes.alaatv.com/upload/vast/xml/
+||ads.alaatv.com^
+
+androidsharp.com###toshare-dl-link
+||iranroid.com^$image,domain=androidsharp.com
+
+ariapix.net##.textads
+
+androidha.com##.app_introduce
+androidha.com##.ads_place
+
+||accpress.com/news/wp-content/plugins/better-adsmanager/
+||static.accpress.com/baner/
+accpress.com###text-25
+
+||afkarnews.com/statics/
+||afkarnews.com/servev2/$image
+afkarnews.com##.main-zxc
+
+apktops.ir##.widget_links
+apktops.ir##.asiatech
+
+! >> B <<
+||bultannews.com/files/adv/
+bultannews.com##.parent_txt_adv_container2
+
+||boursenews.ir/files/adv/
+||boursenews.ir/fa/generate/userid
+
+binanews.ir##+js(set, openTelegram, noopFunc)
+
+||bartarinha.ir/statics/
+||bartarinha.ir/servev*/*.gif
+bartarinha.ir##.zxc
+bartarinha.ir##.all_adv
+
+||barato.ir/wp-content/*/ad/
+barato.ir###featured > .owl-stage-outer
+
+buzdid.ir##.linkbox
+
+||barsadic.com/Scripts/MyJavaScript.js
+||barsadic.com/gif/*.gif
+barsadic.com##.alert-dismissible
+barsadic.com##div.text-center.col-md-3 > .paddingAll10.panel-success.panel
+
+||b-amooz.com/wp-content/plugins/sticky-ad
+
+@@||blogfa.com/static/ads/sample$image
+@@||blogfa.com/static/ads/adsonblogs.gif$image
+! TODO: Report to Easylist
+
+||banki.ir/images/banners/
+
+||bankemardom.ir/Files/Ads
+
+||backtory.com/Bucket/deepchart/DeepChartAnalytics.js
+
+borna.news##[href^="/advertisements/"]
+borna.news##.side_adv
+
+||beautyhome.ir/wp-content/plugins/meks-easy-ads
+||beautyhome.ir/wp-content/plugins/ads
+||beautyhome.ir/wp-content/plugins/sticky-ad
+||pic.beautyhome.ir/*.gif
+beautyhome.ir##.bdaia-e3-container
+beautyhome.ir##.widget_text.bdaia-widget.widget
+beautyhome.ir##.mks_ads_widget
+beautyhome.ir###ad-hoc-2
+
+||beytoote.com/ads/socket.io.js
+||beytoote.com/html_ads/ads_css/
+||storage.beytoote.com/images/adsbeytoote/
+||ads.beytoote.com
+@@||beytoote.com/ads/$image
+@@||beytoote.com/ads/js/$script
+! TODO: Report to EasyList, breaks beytoote.com/ads/advertising.php
+@@||ads.beytoote.com/live_chat
+! TODO: Report to uBlock Unbreak, breaks beytoote.com/ads/advertising.php
+beytoote.com###headerbar
+beytoote.com##.countclick
+beytoote.com##.m-banner-r
+beytoote.com##.pcfadv8
+beytoote.com##.content-slider
+beytoote.com##.hamsan-container
+
+||boyernews.com/wp-content/plugins/FAdvertisement/
+boyernews.com##.topAds
+boyernews.com##.ads-left
+boyernews.com##.tarh-forosh.panel-heading:nth-of-type(23)
+boyernews.com##center
+boyernews.com##.table-striped.table
+
+! >> C <<
+||cooldl.net/raul/Zula
+cooldl.net##.pm
+cooldl.net##.box-title
+cooldl.net##.moreads.widget_text
+cooldl.net#@#.ads-box
+cooldl.net#@#.ads-content
+! TODO: Report to EasyList (Self promotion)
+
+computeruser.ir##.after-post-ads
+
+||car.ir/najva
+
+||citna.ir/?q=simpleads
+||citna.ir/sites/default/files/googleanalytics/analytics
+||citna.ir/sites/default/files/images/ad
+citna.ir##.block-simpleads
+
+! ||cannews.aero/statics
+||cannews.aero/images/banner
+cannews.aero##.banner-cafe
+cannews.aero##.center-talgh
+
+||campec.ir/code/popup
+
+||click.ir/wp-content/plugins/mmt-ads/
+click.ir##.clads-inner
+
+||caffecinema.com/media/banners/
+@@||caffecinema.com/media/banners/telegram-$image
+
+! >> D <<
+||dustaan.com/files/*/smio-push-notification
+||dustaan.com/files/*/tracking
+
+||downloadkral.com/wp-admin/admin-ajax.php?postviews_id=
+||downloadkral.com/wp-content/cache/min/0/wp-content/plugins/wp-postviews
+
+dlroozaneh.ir##.index-adstop
+dlroozaneh.ir##aside.linkbox:nth-of-type(3)
+dlroozaneh.ir###main-sidepost > article:nth-of-type(3)
+
+||dlbook.net/wp-content/uploads/*/adv
+dlbook.net##.widget_custom_html.widget.widget_text
+dlbook.net##.mom_custom_text.widget
+
+delbaraneh.com##.widget_custom_html.widget.primary-sidebar-widget.w-t.h-ni.widget_text
+delbaraneh.com##.widget_text.widget.primary-sidebar-widget.w-t.h-i
+
+||dande6.com/wp-content/themes/dande6/css/videojs.ads
+
+||doctorwp.com/wp-content/plugins/better-ads
+doctorwp.com###home-2-col > .bs-vc-wrapper > .vc_col-sm-3.vc_column_container.bs-vc-column.wpb_column
+doctorwp.com##.widget_nav_menu.widget.primary-sidebar-widget.w-t.h-ni
+
+||donya-e-eqtesad.com/servev*
+! ||donya-e-eqtesad.com/statics
+donya-e-eqtesad.com##[href^="/advertisements/"]
+donya-e-eqtesad.com##.custom-ad-one
+donya-e-eqtesad.com##.zxc
+donya-e-eqtesad.com##.zxc-m
+donya-e-eqtesad.com##.type-resource-image
+
+||downloadsoftware.ir/images/ads/
+downloadsoftware.ir##.top-ads
+downloadsoftware.ir##.ads-fix-post
+downloadsoftware.ir##.ads-matni
+
+||dunro.com/dist/najva-messaging-sw.js
+||analytics.dunro.com
+||api.dunro.com/api/*/geoip
+
+downloadly.ir##.postfixedafterpost
+downloadly.ir##.stacking_default.valign_top.wpb_row:nth-of-type(8)
+
+||digiboy.ir/wp-content/img/sponsors/
+||digiboy.ir/wp-content/img/sidebar/
+||digiboy.ir/wp-content/img/header/
+digiboy.ir##.sidebar-digiads
+digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
+
+||ads.dabi.ir
+||dabi.ir/images/page-ads
+||dabi.ir/Upload/StaticBanners
+||dabi.ir/int//$image
+||dabi.ir/Upload/Boors3pic/empty-
+||dabi.ir/banner/Banner
+dabi.ir##.Js_Div5
+
+||digiato.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
+
+||digikala.com/sw.js
+||analytics.digikala.com
+@@||analytics.digikala.com/shopping/product-online-visitor/
+||tracker.digikala.com
+||new-sentry.digikala.com
+
+||sentry-new.divar.ir
+||ammaar.delivery.zeerak.cloud
+
+||doostihaa.com/wp-content/plugins/jw-player-7-for-wp-premium/jwplayer/gapro.js
+doostihaa.com##.adsfix_box
+doostihaa.com##.ads_txtcv
+doostihaa.com##aside.lefts_sides:nth-of-type(6)
+
+||cdn.hostdl.com/assets/downloadha.gif
+downloadha.com##.ads
+downloadha.com##.popup-ads
+
+||download.ir/api/geoip
+||download.ir/wp-content/uploads/*/Hostiran-ad.jpg
+download.ir###kaprila_linktable
+download.ir##.parsi-ads
+download.ir##.content-top-ads-box
+
+! >> E <<
+||farspatogh.ir/media/ads/
+||forum.moshaver.co/images/ads/
+e-teb.com##.ads
+brain.be-teb.com##.medicaldirectory-sidebar:nth-of-type(5) > .claims.sidebar-content > .cbp-l-project-details-title > span
+ravan.e-teb.com##div.medicaldirectory-sidebar:nth-of-type(6) > .claims.sidebar-content > .cbp-l-project-details-title > span
+
+||entekhab.ir/fa/generate/userid
+||entekhab.ir/files/adv/
+entekhab.ir##.social-tele
+entekhab.ir##.col-lg-9.col-md-8.col-sm-18.col-xs-36.col-3-2 > .col-xs-36.attention > header > .col-xs-36.blue-header
+entekhab.ir##.col-lg-9.col-md-8.col-sm-18.col-xs-36.col-3-2 > .col-xs-36.attention > section > .col-xs-36.attention-contents
+
+eghtesadnews.com##[href^="/advertisements/"]
+eghtesadnews.com##.zxc
+
+eghtesadonline.com##.talfighat-BS
+eghtesadonline.com##.type-resource-image
+
+elmefarda.com###head728
+elmefarda.com###ad640a
+elmefarda.com##.ads
+elmefarda.com###sidebar300 > .mywidget > .titles
+elmefarda.com##div.mywidget:nth-of-type(6)
+
+||emalls.ir/js/yektanet.js
+||emalls.ir/files/da/
+emalls.ir###ContentPlaceHolder1_divBanner
+
+ensafnews.com##.widget-ad-image
+ensafnews.com##.stream-item-widget
+
+||esetupdate.ir/adv/
+
+estekhtam.com#@#.ads-bottom
+
+||api.enama.ir/Ads/
+||api.enama.ir/WebFiles/_AdsBanner/
+! TODO: Investigate more filters
+
+! >> F <<
+fartaknews.com##[href^="/advertisements/"]
+fartaknews.com##.talfighat-row
+fartaknews.com##.ul-talfigh-con
+fartaknews.com##.inline-news-box
+
+||faradeed.ir/fa/generate/userid
+
+||fardanews.com/statics/
+fardanews.com##.txt-adv-box
+fardanews.com##.header-adv
+
+||fararu.com/fa/generate/userid
+||fararu.com/files/adv/
+
+||filcin.com/site/show-adv
+
+fastdic.com##.results__a
+
+freescript.ir##.FixedAdvertising
+freescript.ir##.left_ads
+freescript.ir##.right_ads
+freescript.ir##.top_ads
+freescript.ir##.left.sidebar_widget:nth-of-type(3)
+
+||faaltarin.com/adv-load.asp
+faaltarin.com##.advertisement
+@@||faaltarin.com/advertise-files/thumbnail$image
+! TODO: Report to EasyList
+
+faceit.ir##.pull-right.zm-post-lay-a-area
+faceit.ir##.header-mdh
+faceit.ir##.advertisement
+
+farnet.io##+js(acis, eif)
+||farnet.io/wp-content/plugins/better-adsmanager
+||farnet.io/wp-content/plugins/better-post-views
+farnet.io##.eif-link
+
+farsroid.com##+js(aopr, faPa)
+||farsroid.com/js/?url=$script
+! ||farsroid.com/api/os-info$xhr
+farsroid.com##.site-middle-banners
+farsroid.com##.gtm-farsroid-ads
+farsroid.com##.download-link-ads-below
+farsroid.com##.cas-pubg.cas
+farsroid.com#@#.place-ads
+! TODO: Report to Easylist
+
+||analysis.faradars.org
+
+||farsnews.ir/api/recordnewstextvisit?id=
+||tracker.farsnews.ir
+farsnews.ir##.float-menu-cookie
+farsnews.ir##.alert-cookie
+farsnews.ir###carousel_adsss
+farsnews.ir##.slick-arrow
+farsnews.ir##.p-0.d-lg-inline-block.d-none.col-3
+farsnews.ir##.w-100.news-box > .w-100.mt-3
+
+fa-tools.ir##.adv
+fa-tools.ir##.list
+fa-tools.ir##.t-adv
+fa-tools.ir##div.post:nth-of-type(2)
+
+! >> G <<
+||gostaresh.news/statics/
+gostaresh.news##.zxc_home
+gostaresh.news##.zxc_news
+
+gamesib.ir###next1-231
+gamesib.ir##.asd_top
+##.ads_3
+gamesib.ir##.fl.block_right > div.box_sh.ads_2
+gamesib.ir#@#.ads_2
+! TODO: Report to EasyList
+
+gooyait.com###ads-main-home
+gooyait.com##.ads-img
+gooyait.com#@#.page-ads
+gooyait.com#@#.banner-ads
+! TODO: Report to EasyList (gooyait.com/ads)
+
+gsm.ir##[href^="/ads/"]
+gsm.ir##.sidebar_tabliq
+
+||gamefa.com/wp-content/uploads/*/*.gif
+||gamefa.com/wp-content/uploads/*/ad
+||gamefa.com/wp-content/uploads/*/gamefabanner
+||gamefa.com/wp-content/uploads/*/banner
+gamefa.com##.baners
+gamefa.com###image-advertise
+gamefa.com##.fix-ads
+gamefa.com##.single-advertise:nth-of-type(3)
+
+||ghatreh.com/ads/
+||ghatreh.com/skins/default/js/analytics.js
+||ghatreh.com/skins/default/images/ads
+||ghatreh.com/skins/default/js/najva
+||ghatreh.com/skins/default/najva
+||otaghkhabar24.com/assets/files/ads/
+ghatreh.com##div.right_side:nth-of-type(9)
+
+||graphiran.com/wp-content/uploads/*/ads
+graphiran.com##div#leftcol-up:nth-of-type(1)
+graphiran.com##div#leftcol-body:nth-of-type(2)
+graphiran.com##div#rightcol-up:nth-of-type(1)
+graphiran.com##div#rightcol-body:nth-of-type(2)
+graphiran.com##div#leftcol-down:nth-of-type(3)
+graphiran.com##div#rightcol-down:nth-of-type(3)
+graphiran.com##.banner-center
+graphiran.com###leftcol > center
+graphiran.com###centercol > center > center
+
+! >> H <<
+||harfetaze.com/wp-content/uploads/ads/
+harfetaze.com##.sidebar-right
+
+||hadana.ir/wp-content/plugins/better-ads
+
+||hamgardy.com/Uploads/Advertisment/
+hamgardy.com##.sticky-ad
+
+||hiads.hidoctor.ir/
+||hidoctor.ir/hiads
+! ||hidoctor.ir/sw.js
+hidoctor.ir##.doctor-ads-item
+
+||hamshahrionline.ir/rest/visit
+hamshahrionline.ir#@##ads-container
+! TODO: Report to EasyList
+
+! >> I <<
+||iranart.news/statics
+iranart.news##.type-resource-image
+
+||itna.ir/images/advertise/
+itna.ir##.advertise_default
+
+imgurl.ir##.tab_box
+imgurl.ir##.links_footer
+imgurl.ir##.banner468
+
+||icivil.ir/omran/wp-content/cache/min/*/omran/wp-content/plugins/adrotate
+||icivil.ir/omran/wp-content/cache/busting/*/omran/wp-content/plugins/google-analytics
+icivil.ir##.header-ad
+imemar.icivil.ir###header_ad
+imemar.icivil.ir##.sb_ad
+
+||icoff.ee/fa/wp-admin/admin-ajax.php?postviews_id
+icoff.ee###sidebar-alt
+
+||iraniandog.com/iss
+
+||iranjib.ir/js/analytics
+||iranjib.ir/hitup.php
+iranjib.ir##.htmlad
+iranjib.ir##.biga
+iranjib.ir###pos-article-display-70266
+iranjib.ir###mainadv
+
+||irannaz.com/ax/
+irannaz.com##.Top2Adssss
+irannaz.com###topAdver
+irannaz.com##div.CBS.CenterBlock:nth-of-type(2)
+irannaz.com##div.CBS.CenterBlock:nth-of-type(3)
+irannaz.com##div.CBS.CenterBlock:nth-of-type(5)
+irannaz.com##div.CBS.CenterBlock:nth-of-type(6)
+
+||itresan.com/wp-content/cache/busting/
+||itresan.com/wp-content/plugins/better-adsmanager/
+||itresan.com/wp-content/uploads/*/*/*.gif
+itresan.com###NR-Ads
+! TODO: Remove "رپورتاژ آگهی"
+
+ilna.news##[href^="/advertisements/"]
+ilna.news##.zxc.w120
+ilna.news##.mt12.zxc
+ilna.news##.zxc.w300
+ilna.news##.zxc_type_text
+
+||isna.ir/rest/visit
+||cdn.isna.ir/d/*?ts=$image
+isna.ir##.main-content .container:has(aside.sidebar .box.ads) [class^=col]:has(#item):style(min-width: 75% !important; max-width: 100% !important;)
+isna.ir###box24
+isna.ir###box32
+isna.ir###box180
+isna.ir###box212
+
+itgheymat.com##.ads-box
+
+itbazar.com##.VueCarousel
+itbazar.com###banners-position-14
+
+||irna.ir/rest/visit
+irna.ir##.ads.box
+
+||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
+
+! >> J <<
+||jahannews.com/images/advertise/
+jahannews.com##.col-xs-36.col-sm-4.col-md-4.col-lg-4
+jahannews.com##.hidden-xs.col-sm-4.col-md-4.col-lg-4
+
+||mhvllvgrefplg.com/v.js
+||ucxfdvhuqwpig.com/vvja.js
+jesarat.com##.widget_custom_html
+jesarat.com##aside:nth-of-type(2)
+
+jobinja.ir##.c-forceToLogin__overlay
+jobinja.ir##.c-forceToLogin__message.o-box
+jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !important)
+! TODO: Remove from uBlock
+
+||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
+
+! >> K <<
+||cdn.khodrobank.com/images/banners/
+khodrobank.com##.mobile-fixed-banner
+
+||kilipo.com/themes/default/js/Fingerprintjs
+kilipo.com##.ads-placment
+! TODO: Report cookie notice to EasyList Cookie
+
+khabarban.com##[href^="/nf/sponsor/"]
+
+||s1.khf.nz/sites/default/files/upload_banner/ads
+||s1.khf.nz/sites/default/files/ads/
+khabarfarsi.com##.track-click
+khabarfarsi.com###ads_f
+khabarfarsi.com###banners_120_top_1
+khabarfarsi.com###block-block-120
+
+||karpishe.com/api/collect/job-click/
+
+||kojaro.com/kojaro/ui/js/banner.js
+kojaro.com##.banner-wrapper
+kojaro.com##.advertisement-in-topic
+kojaro.com##.bannercontainer
+kojaro.com##.mobileBanner
+@@||images.kojaro.com/assets/ad/advertise-2.jpg
+! TODO: Report to EasyList
+
+khabaronline.ir###mainbody:has(#ads-container) .main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
+khabaronline.ir###ads-container
+khabaronline.ir###header-ad
+khabaronline.ir###box193
+
+||koolakmag.ir/wp-admin/admin-ajax.php?postviews_id=
+koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
+
+! ||khabarpu.com/js/all_sc_without_yektanet.js
+||khabarpu.com/js/getscript.js
+khabarpu.com##div.rbox:nth-of-type(1)
+! @@||yektanet.com^$3p,domain=khabarpu.com
+! TODO: Fix the video getting crippled
+
+khabarfoori.com##.peyvand
+
+ketabesabz.com##+js(set, KetabrahPopup, noopFunc)
+ketabesabz.com##div.white-block:nth-of-type(2)
+
+||kalakamuz.ir/wp-content/uploads/ad
+kalakamuz.ir##div.black.row.box
+kalakamuz.ir##.textads
+kalakamuz.ir##.middle.inner-el.container > div.row.box:nth-of-type(2)
+kalakamuz.ir##.go-left.main > div.row.box:nth-of-type(1)
+
+kafebook.ir##.im-header-ad
+
+k2cod.com###table4 > tbody > tr > td > table > tbody > tr > td > center
+k2cod.com##table#table9.bgtable:nth-of-type(13)
+k2cod.com###table10 > tbody > tr > .textBoldColor
+k2cod.com##.bgleftmenu > div > div
+k2cod.com###table10
+
+! >> L <<
+lenzak.com##.adbar
+lenzak.com###custom_html-4
+lenzak.com###text-31
+lenzak.com###text-35
+
+lastsecond.ir##.ads-widget
+
+lahzeakhar.com##+js(set, customnotify, noopFunc)
+||lahzeakhar.com/ShowAds
+! ||lahzeakhar.com/sw.js
+
+! >> M <<
+mihangame.com##.widget_text.widget
+
+majalesalamat.com##.adwrap-widget
+majalesalamat.com###text-13
+
+||mashreghnews.ir/rest/visit
+||mashreghnews.ir/d/*/*.gif
+mashreghnews.ir##[id^="ad"]
+! mashreghnews.ir###box55
+! mashreghnews.ir###box56
+! mashreghnews.ir###box68
+
+moderndl.com##div.sidebar_item:nth-of-type(5)
+
+moroornews.com##[href^="/advertisements/"]
+moroornews.com##.txt-adv-box
+moroornews.com##.zxc
+
+mojnews.co##[href^="/advertisements/"]
+mojnews.com##.zxc
+mojnews.com##.txt-adv-box
+
+||mihanscript.net/wp-json/wp-statistics/
+
+mihanmarket.com##.sponsors
+news.mihanmarket.com###sponsor_wrapper
+news.mihanmarket.com##div.banner_v
+
+mihanfal.com##.mdiaad
+mihanfal.com##section.sidebox:nth-of-type(4)
+
+||mihandownload.com/sw.js
+||cdn.hostdl.com/img/mihandownload.gif
+mihandownload.com##.text-center.py-3.bg-all-box
+mihandownload.com##.pt-3.text-center.py-2.bg-all-box
+mihandownload.com##.text-center.mt-3.py-3.bg-all-box
+mihandownload.com##.ads-text-sid
+mihandownload.com##.alert-new
+
+||mehrnews.com/rest/visit
+mehrnews.com##.ads
+mehrnews.com###ads-container
+
+myhastidl.cam##+js(set, needpop, 0)
+myhastidl.cam##center:nth-of-type(2)
+myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
+
+! >> N <<
+nicmusic.net#@#.boxads
+! TODO: Report to EasyList
+
+||sentry.namava.ir
+! ||namava.ir/api/v1.0/users/anonymous-info
+! TODO: Remove arbitrary IP limitaion
+
+||adserver.netshahr.com^
+netshahr.com##.ads-a
+
+nodud.com##.advertorial
+
+||ninifile.com/content/js/niniVastAdsJs
+||stc.ninisite.com
+ninisite.com##.ad-wrapper
+ninisite.com###forum-native-ad
+
+||niksalehi.com/newspaper/wp-content/themes/new_niksalehi/counter_view.php
+niksalehi.com##.banner_sidebar
+niksalehi.com##.box-ads-single
+niksalehi.com##div.box-tag-single:nth-of-type(2)
+niksalehi.com##.box-custom.box_other
+@@||niksalehi.com/wp-content/uploads/*/adv
+! TODO: Report to EasyList
+
+||nex1music.ir/bnr/
+||via.placeholder.com^$domain=nex1music.ir
+@@||nex1music.ir/upload/ads/*$image
+! TODO : Report to EasyList
+
+namnak.com##.Dr.D2.Cu.o
+
+||namakstan.net/wp-content/cache/busting/1/gtm-
+
+! >> O <<
+opizo.me##+js(aeld, blur)
+omidnamehnews.ir##.adspanel
+
+! >> P <<
+||parsiblog.com/adv/
+||imencms.com/mobile/ptadv.jpg
+@@||parsiblog.com/Adv/imgs/
+! TODO: Report to EasyList (parsiblog.com/adv/default.htm)
+! TODO: Remove "سفارش تبلیغ" from parsiblog weblogs
+
+plus.ir##.top-ad
+
+picofile.com##.aa-container
+
+||parsnaz.com/ads
+parsnaz.com##.Res005
+parsnaz.com##.WCBC
+parsnaz.com##.topadver
+
+||persiangfx.com/tab/banner/
+persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > .sidebar-box-content
+persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
+
+! p30afzar.com##+js(aopr, faPa)
+||p30afzar.com/myjs/a.js
+||p30afzar.com/ext_files/*$image
+||androidsharp.com^$image,domain=p30afzar.com
+p30afzar.com##.ADS_header_all
+p30afzar.com##.download-link-ads-below
+
+||p30download.ir/tabliq/
+||p30download.ir/page/files/eset
+p30download.ir###kaprila_p30download_ir_related-top-post
+p30download.ir###kaprila_p30download_ir_related
+p30download.ir##.sidebar-tabliq.widget
+p30download.ir##.text-tabliq
+
+||film.persianv.com/frontend/js/ads/
+persianv.com##.ads_box
+persianv.com#@#.ads-text
+@@||persianv.com/wp-content/uploads/2021/11/adv-1.jpg
+! TODO: Report to Easylist
+
+||pishkhan.com/pishkhaanads/
+
+! ||pgnews.ir/templates/ainews/jquery-1.11.0.min.js$script,1p
+||pgnews.ir/uploads/*.gif
+pgnews.ir##div > div > a.toolt > .onsc
+! TODO: Modify pgnews.ir/templates/ainews/jquery-1.11.0.min.js to block ads
+
+||pedal.ir/wp-admin/admin-ajax.php?postviews_id
+pedal.ir##.stream-item-top
+
+||patoghu.com/analytics.js
+||patoghu.com/n/d/n.js
+||patoghu.com/n/d/w1.js
+||img.patoghu.com^$script
+patoghu.com##.bigtab-cont
+patoghu.com##.tabd
+
+parstools.com##.widget_whmcs_ads_widget.widget
+parstools.com##.wpb_content_element.sidebar.wpb_widgetised_column
+parstools.com##.topbanners
+
+parsnews.com##[href^="/advertisements/"]
+parsnews.com##.agahi-view
+parsnews.com##.adv_img
+
+parsipet.ir##.ad_global_header
+parsipet.ir##.body_wrapper > div:nth-of-type(4)
+
+! ||par30games.net/wp-content/uploads/*.gif
+par30games.net##[href^="https://playpod.ir/"]
+par30games.net#@#.sideads
+par30games.net##.fixedbanner
+par30games.net##.sidebar-box-shop
+par30games.net##.adbox
+@@||par30games.net/wp-content/uploads/*/advertise-plan$image
+! TODO: Report to EasyList
+
+||paperhub.ir/images/*.gif
+
+p30world.com##.post-ads
+p30world.com##.sidebar-ads
+forum.p30world.com###ad_global_below_navbar
+forum.p30world.com##.ad_global_header
+forum.p30world.com#@##ad_global_above_footer
+! TODO: Report to EasyList
+
+||1pezeshk.com/wp-content/plugins/better-adsmanager
+||1pezeshk.com/wp-content/plugins/post-views-counter
+1pezeshk.com##.adcontainer
+1pezeshk.com##.widget_better_rss_widget.widget.primary-sidebar-widget.w-t.h-ni
+1pezeshk.com##.insert-post-ads
+1pezeshk.com##.enhanced-text-widget.widget_text.vc-widget.widget.w-nt.h-ni
+1pezeshk.com##.xjehomzgnw
+
+8pic.ir##.main22
+8pic.ir##.links_footer
+8pic.ir##.up_submit > span
+! 8pic.ir##*[class*="main"]:has-text(تبلیغ)
+
+! >> Q <<
+
+! >> R <<
+rozblog.com##.advertising
+rozblog.com###middle-ads
+
+||rozup.ir/theme/*/img/txtad.png
+rozup.ir##.txtad
+rozup.ir##.center.body_c > div:nth-of-type(2)
+rozup.ir##.center.body_c > div > div
+
+@@||rabimo.com/wp-content/plugins/shop-submit-ads/assets/
+! TODO: Report to EasyList
+
+||rokna.net/zxc/*.htm$subdocument
+rokna.net##[href^="/advertisements/"]
+rokna.net##.zxc-padding-custom
+rokna.net##.padding-bottom-8
+rokna.net##.side_txt_zxc_inner
+rokna.net##.sanjagh
+
+||rouzegar.com/wp-content/plugins/better-adsmanager/
+||irancarpet.net^$image,domain=rouzegar.com
+rouzegar.com##.widget_better-ads
+rouzegar.com##.adloc-is-banner
+rouzegar.com##.widget_text.widget.primary-sidebar-widget.w-t.h-i
+
+||rooziato.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking
+
+||roozno.com/files/adv/
+roozno.com##.adv-box
+
+||rondbaz.com/js/analytics.js
+
+||rond.ir/Content/SimBannerFile/Files/
+||rond.ir/Content/images/homeImages/blank-loading.png
+rond.ir##.banner-box
+
+rastannews.ir##.all_ads
+
+||rajanews.com/sites/default/files/superadmin/*.gif
+rajanews.com###block-block-22.ads
+
+! >> S <<
+||samatak.com/ads
+
+||shop-theme.ir/code/popup
+
+||snn.ir/files/adv/
+||snn.ir/fa/generate/userid
+snn.ir##.adv_mobile
+
+sourceiran.com$removeparam=/utm_/
+||sourceiran.com/wp-content/plugins/layered-popups/js/ads
+sourceiran.com##.ads-link
+sourceiran.com##.middle-ads
+sourceiran.com#@#.ads-widget
+@@||sourceiran.com/wp-content/uploads/300-250.jpg
+! TODO: Report to EasyList (sourceiran.com/podcasts/)
+
+! ||shayanews.com/statics
+shayanews.com##.top_adv
+shayanews.com##.side_adv
+shayanews.com##.zxc
+
+||sakhtafzarmag.com/wp-content/uploads/ads/
+sakhtafzarmag.com##.bannergroup
+sakhtafzarmag.com###header-ads
+
+||seemorgh.com/images/*/ads/
+seemorgh.com##.bannergroup
+seemorgh.com##.bannergroupsam-full-width
+
+sarzamindownload.com##+js(set, BetterJsPop, noopFunc)
+||sarzamindownload.com/ppjs/
+||sarzamindownload.com/images/banners/
+sarzamindownload.com##.GSADSTop
+sarzamindownload.com##.GSLeftSide.col-lg-3.col-md-3.col-sm-12.col-xs-12 > div.widget_style_funcs.GSBlock > div > .widget_baslik.-baslik.sutunbaslik.title
+sarzamindownload.com##div.widget_style_funcs.GSBlock:nth-of-type(2) > div > .GSblock
+sarzamindownload.com##div.OpenTable:nth-of-type(2)
+sarzamindownload.com##div.OpenTable:nth-of-type(3)
+@@||sarzamindownload.com/images/Ads_Place.jpg$image,domain=sarzamindownload.com
+
+||softgozar.com/Image/SiteAde/
+softgozar.com###advBan
+softgozar.com##.adv_text
+softgozar.com###RightPan
+softgozar.com###PopAlert
+
+! https://github.com/uBlockOrigin/uAssets/issues/3011
+! https://github.com/uBlockOrigin/uAssets/issues/10883
+forum.soft98.ir##.shad
+soft98.ir##+js(nostif, hasAttributes)
+soft98.ir##+js(nostif, {e()})
+soft98.ir##+js(nosiif, remove)
+soft98.ir##article.card > div[class]:nth-child(5):style(pointer-events:none !important)
+soft98.ir##[class$="-link"] > .text-danger:upward(2)
+soft98.ir,~forum.soft98.ir##img[src*="forum.soft98.ir/"]:upward(1):style(pointer-events:none !important)
+soft98.ir##img[src*="hostdl"]:upward(1):style(pointer-events:none !important)
+*$image,strict3p,denyallow=cdn.soft98.ir,domain=soft98.ir|~forum.soft98.ir
+@@||soft98.ir^$ghide
+! TODO: Remove from uBlock
+
+! ||subf2m.co/files/*.gif
+! subf2m.co##.ads
+
+||softsaaz.ir/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js
+||softsaaz.ir/wp-content/uploads/*.gif
+softsaaz.ir##.stream-item
+
+skinak.ir##+js(nostif, show_modal)
+||up.skinak.ir/up/skinak/ads/
+@@||up.skinak.ir/up/skinak/upload/93/7/10/skinak-468x60.gif
+skinak.ir##.morders
+skinak.ir##.textads2
+skinak.ir##.main-ads
+skinak.ir##.ads-title
+skinak.ir###ads3
+! TODO: Chrome blocks popup from pop.skinak.ir and buttons on top
+
+||simcart.com/upload/banner
+simcart.com##.bannerLarge
+simcart.com##.banner9
+
+! shenoto.com##.ads-image
+
+||shahrsakhtafzar.com/fa/images/banners/
+shahrsakhtafzar.com##.ads2col
+shahrsakhtafzar.com##.ads2colmobile
+shahrsakhtafzar.com##.advert
+shahrsakhtafzar.com##[href^="/fa/component/flexbanners/click/"]
+
+||sena.ir/rest/visit
+sena.ir###ad7_40
+sena.ir##.footer-ads
+
+! ||salamdl.info/wp-content/uploads/*.gif
+salamdl.rip##.b-hd
+salamdl.rip###sidebar_ad
+salamdl.rip###ads-text
+salamdl.rip##.hideOnMobile
+salamdl.rip##.hidden-xs.hidden-sm.block
+
+||media.salamatnews.com/d/*.gif?
+
+||sakhtafzar.com/wp-json/wpstatistics/
+||sakhtafzar.com/wp-content/uploads/*.gif
+sakhtafzar.com##.bannersHome
+sakhtafzar.com#@#.ads_box
+sakhtafzar.com#@#.tz_ad300_widget
+sakhtafzar.com#@#.ads-title
+sakhtafzar.com#@#.ads-content
+! TODO: Report to EasyList, breaks /تبلیغات and removes Telegram channel bannr
+
+! ||safarme.ir/Files/SystemFiles/Templates/Portal/*/Scripts/newpages.j
+! TODO: Ask uAssest to remove the notifiction permission
+
+||saednews.com/bnr-ad/
+||saednews.com/res-ac/templates/saednews/banners/
+saednews.com##.w-100.justify-content-center.d-flex
+saednews.com##.mb-3.top-1.sticky-top
+saednews.com###header-banner-4
+saednews.com###rt-backlinks-pos
+
+saat24.news##[href^="/redirect/ads/"]
+saat24.news##.ads.box
+saat24.news###box145
+saat24.news###box167
+
+||1000site.ir/asset/media/banner
+1000site.ir##.kanban-col
+1000site.ir##.col-md-offset-6.col-md-3
+@@||1000site.ir/asset/images/images/adpage/$image
+@@1000site.ir/home/ads/asset/favicon.ico
+! TODO: Report to EasyList
+
+! >> T <<
+||tafrihi.com/wp-content/plugins/simple-ads
+
+techrato.com$removeparam=utm_source
+techrato.com##.header-ads
+techrato.com##*[id^="widget_sp_image-"]
+! techrato.com###widget_sp_image-126
+! techrato.com###widget_sp_image-127
+! techrato.com###widget_sp_image-130
+! techrato.com###widget_sp_image-131
+! techrato.com###widget_sp_image-134
+! techrato.com###widget_sp_image-135
+
+tigatravel.com##+js(nostif, /^/)
+||tigatravel.com/set_cookie_popup.php
+tigatravel.com##.fade
+tigatravel.com##.popup_block
+
+||takro.net/cdn-cgi/zaraz/
+||takro.net/cdn-cgi/apps/head
+
+timecity.ir##.banner
+timecity.ir##.sidebar-banners
+timecity.ir##.inner-wrapper-sticky > .mb-3
+
+||tabnak.ir/files/adv
+tabnak.ir##.footer_adv
+tabnak.ir##.home_adv_height
+
+! ||checks.telewebion.com
+||adengine.telewebion.com
+||rokhdad.telewebion.com
+telewebion.com##.rmp-ad-container
+! TODO: Remove arbitrary IP limitaion
+
+||takhfifan.com/static/matomo.js
+takhfifan.com##+js(nostif, redirect_url)
+
+tourismonline.co##.stream-item-mag.mag-box
+tourismonline.co##.stream-item-above-post.stream-item
+tourismonline.co##.ads-title
+tourismonline.co##.widget_custom_html.widget.container-wrapper.widget_text
+
+||toranji.ir/wp-content/uploads/*/*/Toranji-Ad
+toranji.ir###fpc-banner-top
+toranji.ir##.square-ad
+toranji.ir###top-right-ad
+
+topnaz.com##.light-text.footer-widgets
+
+||st-n.ads1-adnow.com/js/a.js
+top2download.com##.ads-box-red
+top2download.com##.ads-box-green
+
+4tools.ir##.ads
+
+||tiwall.com/api/adver/
+tiwall.com##.slider-banners.partial
+tiwall.com##.sponsor-link
+
+tinn.ir##[href^="/advertisements/"]
+tinn.ir##.type-resource-image
+
+||tgju.org/cdn-cgi/apps/head
+||static.accessban.com/advertisement/
+||api.accessban.com/v1/advertisement/
+tgju.org###popup-layer-container
+tgju.org##.bottom-left-ad
+tgju.org##.bottom-right-ad
+
+tejaratnews.com##.tj-ad-box
+tejaratnews.com##.home-web-surfing
+tejaratnews.com##.full-width-tabligh
+tejaratnews.com##.tj-ad-wrapper
+tejaratnews.com##div.widget.aside-widget:nth-of-type(5) > .section-title--dotted.section-title > .section-title__h
+
+||api.tebyan.net/api/TemplatePageBox/GetBoxesPlus
+tebyan.net#@#.theiaStickySidebar
+! TODO: Remove from uBlock Unbreak
+
+||newsmedia.tasnimnews.com/Tasnim/Uploaded/Ads/
+tasnimnews.com##.ad-item
+tasnimnews.com##.ads-footer
+
+||tarafdari.com/advertise
+||tarafdari.com/sites/default/files/apps/advertise
+||tarafdari.com/modules/statistics/statistics.php
+
+||adservice.google.com/adsid/integrator.js?domain=tamasha.com
+||tavoos.net^$domain=tamasha.com
+||tamasha-ws.farakav.com^$domain=tamasha.com
+
+talab.org##.Topadver
+
+taktemp.com##.link-ads
+taktemp.com##.topbanners
+
+||backlink.ir^$image,domain=takskin.com
+takskin.com##div.style-1.colored.box:nth-of-type(6)
+
+taknaz.ir##.Topadver
+taknaz.ir##.leftads
+taknaz.ir##div.Relement.Bstyle.RBC:nth-of-type(5)
+taknaz.ir##.ads120000
+
+20tayi.ir##.e3lan
+20tayi.ir###text-2
+20tayi.ir###text-3
+20tayi.ir###text-4
+20tayi.ir###text-5
+20tayi.ir###text-6
+20tayi.ir###text-7
+
+tamin.ir#@#.ads2
+@@||tamin.ir/content/ads/
+! TODO: Report to EasyList
+
+! >> U <<
+uplooder.net##.special_links
+uplooder.net##.text_adds_container
+
+uupload.ir##+js(nano-sib)
+||uupload.ir/img/*.gif
+uupload.ir###tabligh
+uupload.ir##.links_footer
+
+! https://github.com/nimasaj/uBOPa/issues/56
+up44.ir##+js(nano-sib, , , 0)
+up44.ir##div.sideheader2:nth-of-type(3)
+up44.ir##.full2.box.right
+
+||unp.ir/downloads/*/*.gif
+
+uploadboy.com##+js(nano-stb)
+uploadboy.com##+js(cookie-remover, captcha_key)
+||uploadboy.com/analytics.js
+||uploadboy.com/banner/
+uploadboy.com##.litebox
+uploadboy.com##a[href="http://www.asiatech.ir/"]
+
+! >> V <<
+||vazeh.com/cdn-cgi/apps/head
+||vazeh.com/banners/
+||sahandpress.ir/loader$domain=vazeh.com
+vazeh.com##div.side22:nth-of-type(1)
+
+||up.varoone.ir/view/*/adv
+||up.varoone.ir/view/*/*.gif
+varoone.ir##.headads
+varoone.ir##.fixpost
+varoone.ir##.gsh
+varoone.ir##.textads
+varoone.ir##.ads120
+varoone.ir##.ads468
+
+||vajehyab.com/img/ads
+
+||varzeshe3.com/js/ads
+||varzeshe3.com/banners/*$image
+||biz.varzesh3.com/events/view
+||news-view-api.varzesh3.com/view/
+||video-view-api.varzesh3.com/play/
+varzesh3.com##.adlink
+varzesh3.com##.header-ad
+varzesh3.com##.sticky-ad
+varzesh3.com##.right-ads
+varzesh3.com##.ima-ad-container
+
+||video-learn.ir/code/popup
+video-learn.ir#@#.header-adv
+
+||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
+
+||vista.ir/ads/
+vista.ir##[href^="/ad/"]
+vista.ir##.textad
+
+! >> W <<
+||webii.ir/Images/Banner/
+||webii.ir/images/loading.svg
+webii.ir###slider-box
+webii.ir##.mortabet-links
+webii.ir##div.row:nth-of-type(2) > .col-xs-12 > .category-side-ads
+webii.ir#@#.ads-sidebar
+webii.ir#@#.ads-box
+@@||webii.ir/upload/ads/$image
+! TODO: Report to Easylist
+
+||wikihoax.org/wp-content/plugins/eazy-ad-unblocker/
+||wikihoax.org/wp-content/uploads/*/*/ads
+||wikihoax.org/wp-content/cache/busting/1/wp-content/plugins/eazy-ad-unblocker/
+wikihoax.org##.two-ad-banners
+wikihoax.org##.widget-ad-image
+wikihoax.org##.stream-item-widget
+wikihoax.org##.adsBanner
+wikihoax.org##.widget_media_image.widget.container-wrapper
+
+webgoo.ir###kaprila_linktable_left
+webgoo.ir##.left-block-top
+
+! >> X <<
+
+! >> Y <<
+yasdl.com##.ads-block
+yasdl.com##.top-ads
+yasdl.com##.row.fixed-post.post
+
+yeknet.ir##+js(aopr, needpop)
+
+! >> Z <<
+zohur12.ir##.sideads
+
+zoomg.ir##+js(aopr, banner)
+||zoomg.ir/common/visitcount/*
+||zoomg.ir/cdn-cgi/apps/head/*$script
+||zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg
+||namava.ir/ZoomitAds/
+zoomg.ir##.main-top-ads
+zoomg.ir##.main-inside-ads
+zoomg.ir##.top-ads
+@@||cdn.zoomg.ir/banners/demo/advertise-zoomg.jpg$image,domain=zoomg.ir
+! TODO: Report to Easylist
+
+zoomit.ir##+js(aopr, banner)
+||zoomit.ir/common/visitcount/*
+zoomit.ir##.wide-adv-box
+zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
+@@||cdn01.zoomit.ir/assets/img/advertise-2.jpg$image,domain=zoomit.ir
+! TODO: Report to Easylist
+
+zoomtech.org###top_ads
+zoomtech.org###posts_single_ads
