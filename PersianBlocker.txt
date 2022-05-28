@@ -684,7 +684,6 @@ gostaresh.news##.zxc_news
 
 gamesib.ir###next1-231
 gamesib.ir##.asd_top
-##.ads_3
 gamesib.ir##.fl.block_right > div.box_sh.ads_2
 gamesib.ir#@#.ads_2
 ! TODO: Report to EasyList
