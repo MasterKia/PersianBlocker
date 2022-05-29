@@ -287,8 +287,6 @@ asandl.com##.asan250
 asandl.com##.asan468
 @@||image.asandl.com/Panel/templates/Sprit.png
 @@||img.cdn.asandl.com/Panel/templates/Sprit.png
-@@||asandl.com/ads/img/$image
-! ^ TODO: Report the last one to EasyList
 
 ||arga-mag.com/wp-content/plugins/meks-easy-ads
 arga-mag.com##.top-ad
@@ -413,10 +411,6 @@ barsadic.com##div.text-center.col-md-3 > .paddingAll10.panel-success.panel
 
 ||b-amooz.com/wp-content/plugins/sticky-ad
 
-@@||blogfa.com/static/ads/sample$image
-@@||blogfa.com/static/ads/adsonblogs.gif$image
-! TODO: Report to Easylist
-
 ||banki.ir/images/banners/
 
 ||bankemardom.ir/Files/Ads
@@ -439,11 +433,6 @@ beautyhome.ir###ad-hoc-2
 ||beytoote.com/html_ads/ads_css/
 ||storage.beytoote.com/images/adsbeytoote/
 ||ads.beytoote.com
-@@||beytoote.com/ads/images_$image,1p
-@@||beytoote.com/ads/js/$script,1p
-! TODO: Report to EasyList, breaks beytoote.com/ads/advertising.php
-@@||ads.beytoote.com/live_chat
-! TODO: Report to uBlock Unbreak, breaks beytoote.com/ads/advertising.php
 beytoote.com###headerbar
 beytoote.com##.countclick
 beytoote.com##.m-banner-r
@@ -465,7 +454,6 @@ cooldl.net##.box-title
 cooldl.net##.moreads.widget_text
 cooldl.net#@#.ads-box
 cooldl.net#@#.ads-content
-! TODO: Report to EasyList (Self promotion)
 
 computeruser.ir##.after-post-ads
 
@@ -659,8 +647,6 @@ farsroid.com##.site-middle-banners
 farsroid.com##.gtm-farsroid-ads
 farsroid.com##.download-link-ads-below
 farsroid.com##.cas-pubg.cas
-farsroid.com#@#.place-ads
-! TODO: Report to Easylist
 
 ||analysis.faradars.org
 
@@ -691,9 +677,6 @@ gamesib.ir#@#.ads_2
 
 gooyait.com###ads-main-home
 gooyait.com##.ads-img
-gooyait.com#@#.page-ads
-gooyait.com#@#.banner-ads
-! TODO: Report to EasyList (gooyait.com/ads)
 
 gsm.ir##[href^="/ads/"]
 gsm.ir##.sidebar_tabliq
@@ -852,8 +835,6 @@ kojaro.com##.banner-wrapper
 kojaro.com##.advertisement-in-topic
 kojaro.com##.bannercontainer
 kojaro.com##.mobileBanner
-@@||images.kojaro.com/assets/ad/advertise-2.jpg
-! TODO: Report to EasyList
 
 khabaronline.ir###mainbody:has(#ads-container) .main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
 khabaronline.ir###ads-container
@@ -949,9 +930,6 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
-nicmusic.net#@#.boxads
-! TODO: Report to EasyList
-
 ||sentry.namava.ir
 ! ||namava.ir/api/v1.0/users/anonymous-info
 ! TODO: Remove arbitrary IP limitaion
@@ -971,8 +949,6 @@ niksalehi.com##.banner_sidebar
 niksalehi.com##.box-ads-single
 niksalehi.com##div.box-tag-single:nth-of-type(2)
 niksalehi.com##.box-custom.box_other
-@@||niksalehi.com/wp-content/uploads/*/adv
-! TODO: Report to EasyList
 
 ||nex1music.ir/bnr/
 ||via.placeholder.com^$domain=nex1music.ir
@@ -990,8 +966,6 @@ omidnamehnews.ir##.adspanel
 ! >> P <<
 ||parsiblog.com/adv/
 ||imencms.com/mobile/ptadv.jpg
-@@||parsiblog.com/Adv/imgs/
-! TODO: Report to EasyList (parsiblog.com/adv/default.htm)
 ! TODO: Remove "سفارش تبلیغ" from parsiblog weblogs
 
 plus.ir##.top-ad
@@ -1024,8 +998,6 @@ p30download.ir##.text-tabliq
 ||film.persianv.com/frontend/js/ads/
 persianv.com##.ads_box
 persianv.com#@#.ads-text
-@@||persianv.com/wp-content/uploads/2021/11/adv-1.jpg
-! TODO: Report to Easylist
 
 ||pishkhan.com/pishkhaanads/
 
@@ -1070,8 +1042,6 @@ p30world.com##.post-ads
 p30world.com##.sidebar-ads
 forum.p30world.com###ad_global_below_navbar
 forum.p30world.com##.ad_global_header
-forum.p30world.com#@##ad_global_above_footer
-! TODO: Report to EasyList
 
 ||1pezeshk.com/wp-content/plugins/better-adsmanager
 ||1pezeshk.com/wp-content/plugins/post-views-counter
@@ -1144,7 +1114,6 @@ sourceiran.com##.ads-link
 sourceiran.com##.middle-ads
 sourceiran.com#@#.ads-widget
 @@||sourceiran.com/wp-content/uploads/300-250.jpg
-! TODO: Report to EasyList (sourceiran.com/podcasts/)
 
 ! ||shayanews.com/statics
 shayanews.com##.top_adv
@@ -1234,11 +1203,6 @@ salamdl.rip##.hidden-xs.hidden-sm.block
 ||sakhtafzar.com/wp-json/wpstatistics/
 ||sakhtafzar.com/wp-content/uploads/*.gif
 sakhtafzar.com##.bannersHome
-sakhtafzar.com#@#.ads_box
-sakhtafzar.com#@#.tz_ad300_widget
-sakhtafzar.com#@#.ads-title
-sakhtafzar.com#@#.ads-content
-! TODO: Report to EasyList, breaks /تبلیغات and removes Telegram channel bannr
 
 ! ||safarme.ir/Files/SystemFiles/Templates/Portal/*/Scripts/newpages.j
 ! TODO: Ask uAssest to remove the notifiction permission
@@ -1258,9 +1222,6 @@ saat24.news###box167
 ||1000site.ir/asset/media/banner
 1000site.ir##.kanban-col
 1000site.ir##.col-md-offset-6.col-md-3
-@@||1000site.ir/asset/images/images/adpage/$image
-@@||1000site.ir/home/ads/asset/favicon.ico
-! TODO: Report to EasyList
 
 ! >> T <<
 ||tafrihi.com/wp-content/plugins/simple-ads
@@ -1445,9 +1406,6 @@ vista.ir##.textad
 webii.ir###slider-box
 webii.ir##.mortabet-links
 webii.ir##div.row:nth-of-type(2) > .col-xs-12 > .category-side-ads
-webii.ir#@#.ads-sidebar
-webii.ir#@#.ads-box
-@@||webii.ir/upload/ads/$image
 ! TODO: Report to Easylist
 
 ||wikihoax.org/wp-content/plugins/eazy-ad-unblocker/
@@ -1482,15 +1440,11 @@ zoomg.ir##+js(aopr, banner)
 zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
-@@||cdn.zoomg.ir/banners/demo/advertise-zoomg.jpg$image,domain=zoomg.ir
-! TODO: Report to Easylist
 
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/*
 zoomit.ir##.wide-adv-box
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
-@@||cdn01.zoomit.ir/assets/img/advertise-2.jpg$image,domain=zoomit.ir
-! TODO: Report to Easylist
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
