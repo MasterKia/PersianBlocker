@@ -13,6 +13,8 @@
 ! /files/adv/*
 ! /statics/*$xhr
 ! .ir/ads/
+! admin-ajax.php?postviews_id=
+! wp-content/plugins/google-analytics
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
@@ -145,6 +147,8 @@
 ! ^ Used by downloadsoftware.ir, itna.ir
 
 ! >> P <<
+||popland.info^$3p
+
 ||prchecker.info^
 ! ^ Used by uplooder.net
 
@@ -153,6 +157,7 @@
 ! ^ Example: imovie-dl.org
 
 ||phoenixad.io^$3p
+||phoenixad.io^$popup
 ||partclick.ir^$3p
 ||persianrank.ir^$3p
 ||popgozar.com^$3p
@@ -169,6 +174,8 @@
 ! >> Q <<
 
 ! >> R <<
+||rizy.ir/js/ads.js
+
 ||rozblog.com/include/rozblog_ads_js
 /include/rozblog_ads_js
 
@@ -259,6 +266,9 @@
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+asiadl.ir##div[class="my-3"]
+asiadl.ir##.img-fluid.banner-img
+
 asriran.com##+js(alert-buster)
 ||asriran.com/files/adv/$important
 ||asriran.com/fa/generate/userid
@@ -562,6 +572,12 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! ezp30.com##+js(aopr, faPa)
+||ezp30.com/wp-content/themes/ezp30/pjs
+ezp30.com##.fix-ez
+ezp30.com##.ezp30-ads
+ezp30.com###ynpos-10831
+
 ||farspatogh.ir/media/ads/
 ||forum.moshaver.co/images/ads/
 e-teb.com##.ads
@@ -728,6 +744,12 @@ hamshahrionline.ir#@##ads-container
 ! TODO: Report to EasyList
 
 ! >> I <<
+iwo.ir##+js(nano-sib)
+@@||iwo.ir/ads.jpg
+@@||iwo.ir/data/home/ads.gif
+
+||ipinz.ir/wp-content/plugins/google-analytics
+
 ||iranart.news/statics
 iranart.news##.type-resource-image
 
@@ -795,6 +817,10 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+jalebamooz.com##.stream-item-top-wrapper
+jalebamooz.com###block-3
+jalebamooz.com###block-4
+
 ||jahannews.com/images/advertise/
 jahannews.com##.col-xs-36.col-sm-4.col-md-4.col-lg-4
 jahannews.com##.hidden-xs.col-sm-4.col-md-4.col-lg-4
@@ -930,6 +956,9 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+netpaak.com##.stream-item-widget
+netpaak.com##.stream-item-above-post.stream-item
+
 ||sentry.namava.ir
 ! ||namava.ir/api/v1.0/users/anonymous-info
 ! TODO: Remove arbitrary IP limitaion
@@ -1100,6 +1129,12 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+smusic.ir##.heading-ads
+smusic.ir##.sidebar-right > div.box:nth-of-type(1)
+
+||shirazsong.in/wp-content/plugins/google-analytics
+shirazsong.in##.no-mobile.out-container:nth-of-type(3)
+
 ||samatak.com/ads
 
 ||shop-theme.ir/code/popup
@@ -1224,6 +1259,8 @@ saat24.news###box167
 1000site.ir##.col-md-offset-6.col-md-3
 
 ! >> T <<
+trainbit.com##+js(nano-stb, , , 0)
+
 ||tafrihi.com/wp-content/plugins/simple-ads
 
 techrato.com$removeparam=utm_source
@@ -1341,6 +1378,8 @@ tamin.ir#@#.ads2
 ! TODO: Report to EasyList
 
 ! >> U <<
+||uptvs.com/wp-contents/plugins/viewstats
+
 uplooder.net##.special_links
 uplooder.net##.text_adds_container
 
@@ -1364,6 +1403,11 @@ uploadboy.com##.litebox
 uploadboy.com##a[href="http://www.asiatech.ir/"]
 
 ! >> V <<
+||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
+vgdl.ir##.stream-item-widget
+vgdl.ir##.alignnone
+
+
 ||vazeh.com/cdn-cgi/apps/head
 ||vazeh.com/banners/
 ||sahandpress.ir/loader$domain=vazeh.com
@@ -1423,6 +1467,8 @@ webgoo.ir##.left-block-top
 ! >> X <<
 
 ! >> Y <<
+||yun.ir/advertisement/
+
 yasdl.com##.ads-block
 yasdl.com##.top-ads
 yasdl.com##.row.fixed-post.post
