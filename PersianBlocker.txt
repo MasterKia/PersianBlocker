@@ -8,7 +8,7 @@
 ! Issues: https://github.com/MasterKia/PersianBlocker/issues
 ! Suggestions: https://github.com/MasterKia/PersianBlocker/pulls
 
-
+! TODO: Remove unbreak filters from uBlock/Adguard Unbreak after PersianBlocker is added
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! /files/adv/*
 ! /statics/*$xhr
@@ -297,6 +297,7 @@ asandl.com##.asan250
 asandl.com##.asan468
 @@||image.asandl.com/Panel/templates/Sprit.png
 @@||img.cdn.asandl.com/Panel/templates/Sprit.png
+@@||asandl.com/ads/img/$image,1p
 
 ||arga-mag.com/wp-content/plugins/meks-easy-ads
 arga-mag.com##.top-ad
@@ -396,6 +397,8 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+@@||blogfa.com/static/ads/
+
 ||bultannews.com/files/adv/
 bultannews.com##.parent_txt_adv_container2
 
@@ -449,6 +452,10 @@ beytoote.com##.m-banner-r
 beytoote.com##.pcfadv8
 beytoote.com##.content-slider
 beytoote.com##.hamsan-container
+@@||beytoote.com/ads/images_$image,1p
+@@||beytoote.com/ads/js/$script,1p
+@@||ads.beytoote.com/live_chat
+
 
 ||boyernews.com/wp-content/plugins/FAdvertisement/
 boyernews.com##.topAds
@@ -663,6 +670,7 @@ farsroid.com##.site-middle-banners
 farsroid.com##.gtm-farsroid-ads
 farsroid.com##.download-link-ads-below
 farsroid.com##.cas-pubg.cas
+farsroid.com#@#.place-ads
 
 ||analysis.faradars.org
 
@@ -689,10 +697,11 @@ gamesib.ir###next1-231
 gamesib.ir##.asd_top
 gamesib.ir##.fl.block_right > div.box_sh.ads_2
 gamesib.ir#@#.ads_2
-! TODO: Report to EasyList
 
 gooyait.com###ads-main-home
 gooyait.com##.ads-img
+gooyait.com#@#.page-ads
+gooyait.com#@#.banner-ads
 
 gsm.ir##[href^="/ads/"]
 gsm.ir##.sidebar_tabliq
@@ -861,6 +870,7 @@ kojaro.com##.banner-wrapper
 kojaro.com##.advertisement-in-topic
 kojaro.com##.bannercontainer
 kojaro.com##.mobileBanner
+@@||images.kojaro.com/assets/ad/advertise-$image,1p
 
 khabaronline.ir###mainbody:has(#ads-container) .main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
 khabaronline.ir###ads-container
@@ -956,6 +966,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+nicmusic.net#@#.boxads
+
 netpaak.com##.stream-item-widget
 netpaak.com##.stream-item-above-post.stream-item
 
@@ -978,6 +990,7 @@ niksalehi.com##.banner_sidebar
 niksalehi.com##.box-ads-single
 niksalehi.com##div.box-tag-single:nth-of-type(2)
 niksalehi.com##.box-custom.box_other
+@@||niksalehi.com/wp-content/uploads/*/adv
 
 ||nex1music.ir/bnr/
 ||via.placeholder.com^$domain=nex1music.ir
@@ -995,6 +1008,7 @@ omidnamehnews.ir##.adspanel
 ! >> P <<
 ||parsiblog.com/adv/
 ||imencms.com/mobile/ptadv.jpg
+@@||parsiblog.com/Adv/imgs/
 ! TODO: Remove "سفارش تبلیغ" from parsiblog weblogs
 
 plus.ir##.top-ad
@@ -1027,6 +1041,7 @@ p30download.ir##.text-tabliq
 ||film.persianv.com/frontend/js/ads/
 persianv.com##.ads_box
 persianv.com#@#.ads-text
+@@||persianv.com/wp-content/uploads/*/adv-$image,1p
 
 ||pishkhan.com/pishkhaanads/
 
@@ -1071,6 +1086,7 @@ p30world.com##.post-ads
 p30world.com##.sidebar-ads
 forum.p30world.com###ad_global_below_navbar
 forum.p30world.com##.ad_global_header
+forum.p30world.com#@##ad_global_above_footer
 
 ||1pezeshk.com/wp-content/plugins/better-adsmanager
 ||1pezeshk.com/wp-content/plugins/post-views-counter
@@ -1221,6 +1237,10 @@ shahrsakhtafzar.com##.ads2col
 shahrsakhtafzar.com##.ads2colmobile
 shahrsakhtafzar.com##.advert
 shahrsakhtafzar.com##[href^="/fa/component/flexbanners/click/"]
+sakhtafzar.com#@#.ads-title
+sakhtafzar.com#@#.ads-content
+sakhtafzar.com#@#.ads_box
+sakhtafzar.com#@#.tz_ad300_widget
 
 ||sena.ir/rest/visit
 sena.ir###ad7_40
@@ -1257,6 +1277,8 @@ saat24.news###box167
 ||1000site.ir/asset/media/banner
 1000site.ir##.kanban-col
 1000site.ir##.col-md-offset-6.col-md-3
+@@||1000site.ir/asset/images/images/adpage/$image,1p
+@@||1000site.ir/home/ads/asset/favicon.ico
 
 ! >> T <<
 trainbit.com##+js(nano-stb, , , 0)
@@ -1375,7 +1397,6 @@ taknaz.ir##.ads120000
 
 tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
-! TODO: Report to EasyList
 
 ! >> U <<
 ||uptvs.com/wp-contents/plugins/viewstats
@@ -1450,7 +1471,9 @@ vista.ir##.textad
 webii.ir###slider-box
 webii.ir##.mortabet-links
 webii.ir##div.row:nth-of-type(2) > .col-xs-12 > .category-side-ads
-! TODO: Report to Easylist
+webii.ir#@#.ads-sidebar
+webii.ir#@#.ads-box
+@@||webii.ir/upload/ads/$image,1p
 
 ||wikihoax.org/wp-content/plugins/eazy-ad-unblocker/
 ||wikihoax.org/wp-content/uploads/*/*/ads
@@ -1486,11 +1509,13 @@ zoomg.ir##+js(aopr, banner)
 zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
+@@||zoomg.ir/banners/demo/advertise-zoomg.jpg
 
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/*
 zoomit.ir##.wide-adv-box
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
+@@||zoomit.ir/assets/img/advertise-$image,1p
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
