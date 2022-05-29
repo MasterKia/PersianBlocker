@@ -61,7 +61,8 @@
 ||cloudflareinsights.com^
 ||congoro.com^$3p
 
-@@||clickyab.com^$1p
+! @@||clickyab.com^$1p
+||clickyab.com^$badfilter
 ||clickyab.com^$3p
 ! TODO: Report to Pete Lowe
 
