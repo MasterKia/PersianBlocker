@@ -439,8 +439,8 @@ beautyhome.ir###ad-hoc-2
 ||beytoote.com/html_ads/ads_css/
 ||storage.beytoote.com/images/adsbeytoote/
 ||ads.beytoote.com
-@@||beytoote.com/ads/$image
-@@||beytoote.com/ads/js/$script
+@@||beytoote.com/ads/images_$image,1p
+@@||beytoote.com/ads/js/$script,1p
 ! TODO: Report to EasyList, breaks beytoote.com/ads/advertising.php
 @@||ads.beytoote.com/live_chat
 ! TODO: Report to uBlock Unbreak, breaks beytoote.com/ads/advertising.php
