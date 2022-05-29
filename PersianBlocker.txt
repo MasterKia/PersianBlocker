@@ -1258,7 +1258,7 @@ saat24.news###box167
 1000site.ir##.kanban-col
 1000site.ir##.col-md-offset-6.col-md-3
 @@||1000site.ir/asset/images/images/adpage/$image
-@@1000site.ir/home/ads/asset/favicon.ico
+@@||1000site.ir/home/ads/asset/favicon.ico
 ! TODO: Report to EasyList
 
 ! >> T <<
