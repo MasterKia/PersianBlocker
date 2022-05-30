@@ -22,11 +22,7 @@
 
 1- نصب مرورگر فایرفاکس: ↲[نصب](https://play.google.com/store/apps/details?id=org.mozilla.firefox)↳
 
-2- نصب افزونه مسدود ساز _uBlock Origin_:
-<p align="center">
-<a href="https://addons.mozilla.org/firefox/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/17685483/170959265-af22fbb6-6c9d-4c1a-8682-da9558721ef2.png" alt="دریافت یوبلاک برای فایرفاکس"></a> 
-</p>
-
+2- نصب افزونه مسدود ساز _uBlock Origin_: توی فایرفاکس، سمت راست بالا یا پایین صفحه روی _سه نقطه_ بزنید و سپس گزینه _Add-ons_ یا _افزونه ها_ رو انتخاب کنید و بعد روی _Add-ons Manager_ یا _مدیریت افزونه ها_ بزنید. در صفحه جدید کافیست افزونه uBlock Origin را پیدا کرده و روی _بعلاوه_ (+) سمت راستش بزنید و گزینه _Add_ یا _افزودن_ را کلیک کنید تا افزونه برایتان نصب و فعال بشود.
 
 3- فعالسازی لیست مسدودساز سایت های پارسی: ↲[فعالسازی](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.txt&title=PersianBlocker)↳
 
