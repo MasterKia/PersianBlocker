@@ -1,5 +1,5 @@
 ! Title: PersianBlocker
-! Description: لیستی برای مسدود کردن تبلیغ ها و ردیاب ها در سایت های پارسی زبان / A list to block ads and trackers in Persian websites
+! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
 ! Last modified: 2022-05-30
 ! Homepage: https://github.com/MasterKia/PersianBlocker
