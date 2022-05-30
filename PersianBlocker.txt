@@ -67,7 +67,6 @@
 ! @@||clickyab.com^$1p
 ||clickyab.com^$badfilter
 ||clickyab.com^$3p
-! TODO: Report to Pete Lowe
 
 ||chabok.io^$3p
 ||clarity.ms^$3p
@@ -468,7 +467,6 @@ beytoote.com##.hamsan-container
 @@||beytoote.com/ads/images_$image,1p
 @@||beytoote.com/ads/js/$script,1p
 @@||ads.beytoote.com/live_chat
-
 
 ||boyernews.com/wp-content/plugins/FAdvertisement/
 boyernews.com##.topAds
@@ -1018,6 +1016,7 @@ namnak.com##.Dr.D2.Cu.o
 
 ! >> O <<
 opizo.me##+js(aeld, blur)
+
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
@@ -1032,7 +1031,6 @@ p30day.ir##.ads
 p30day.ir##.banners
 p30day.ir##.nomobilebanner
 p30day.ir##.textAds
-
 
 ||parsiblog.com/adv/
 ||imencms.com/mobile/ptadv.jpg
@@ -1474,7 +1472,6 @@ uploadboy.com##a[href="http://www.asiatech.ir/"]
 ||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
 vgdl.ir##.stream-item-widget
 vgdl.ir##.alignnone
-
 
 ||vazeh.com/cdn-cgi/apps/head
 ||vazeh.com/banners/
