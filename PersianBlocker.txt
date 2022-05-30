@@ -676,6 +676,7 @@ farnet.io##.eif-link
 farsroid.com##+js(aopr, faPa)
 ||farsroid.com/js/?url=$script
 ! ||farsroid.com/api/os-info$xhr
+||farsroid.com/wp-content/uploads/dicardo
 farsroid.com##.site-middle-banners
 farsroid.com##.gtm-farsroid-ads
 farsroid.com##.download-link-ads-below
