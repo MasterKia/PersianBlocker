@@ -2,7 +2,7 @@
 سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها(Trackers) در سایت های پارسی زبان!
 
 # راه اندازی در کامپیوتر
-**1- نصب افزونه مسدودساز _uBlock Origin_ (مرورگر پیشنهادی: _فایرفاکس_):**
+**1- نصب افزونه مسدودساز _uBlock Origin_ (مرورگر پیشنهادی = _فایرفاکس_):**
 <p align="center">
 <a href="https://addons.mozilla.org/firefox/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/17685483/170959265-af22fbb6-6c9d-4c1a-8682-da9558721ef2.png" alt="دریافت یوبلاک برای فایرفاکس"></a> 
 <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"><img src="https://user-images.githubusercontent.com/17685483/170962263-84d195d9-b32c-49f3-bda6-e2916be5ee95.png" alt="دریافت یوبلاک برای کروم"></a>
