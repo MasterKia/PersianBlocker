@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: لیستی برای مسدود کردن تبلیغ ها و ردیاب ها در سایت های پارسی زبان / A list to block ads and trackers in Persian websites
 ! Expires: 2 days
-! Last modified: 2022-05-28
+! Last modified: 2022-05-30
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
