@@ -13,6 +13,7 @@
 </p>
 
 2- فعالسازی لیست مسدودساز سایت های پارسی: ↲[فعالسازی](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.txt&title=PersianBlocker)↳
+در صفحه جدیدی که باز میشود بالا سمت راست گزینه _Subscribe_ یا _مشترک شدن_ را بزنید. 
 
 و پایان!
 
@@ -25,6 +26,7 @@
 2- نصب افزونه مسدود ساز _uBlock Origin_: توی فایرفاکس، سمت راست بالا یا پایین صفحه روی _سه نقطه_ بزنید و سپس گزینه _Add-ons_ یا _افزونه ها_ رو انتخاب کنید و بعد روی _Add-ons Manager_ یا _مدیریت افزونه ها_ بزنید. در صفحه جدید کافیست افزونه uBlock Origin را پیدا کرده و روی _بعلاوه_ (+) سمت راستش بزنید و گزینه _Add_ یا _افزودن_ را کلیک کنید تا افزونه برایتان نصب و فعال بشود.
 
 3- فعالسازی لیست مسدودساز سایت های پارسی: ↲[فعالسازی](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.txt&title=PersianBlocker)↳
+در صفحه جدیدی که باز میشود بالا سمت راست گزینه _Subscribe_ یا _مشترک شدن_ را بزنید. 
 
 و پایان!
 
