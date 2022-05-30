@@ -1016,6 +1016,10 @@ opizo.me##+js(aeld, blur)
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+par30dl.net##.adpar30
+par30dl.net##.adsidimg
+par30dl.net##div:has(:scope > div > div> strong:has-text(تبلیغ))
+
 ||p30day.ir/images/tabligh
 ||cdn.hostdl.com/img/p30day.gif
 p30day.ir##.adsblockpop
@@ -1302,6 +1306,19 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico
 
 ! >> T <<
+techna.news##.jmb_banner
+techna.news##[class="widget_text sidebar-box"]:has-text(تبلیغ)
+techna.news##[class="widget_text sidebar-box"]:has-text(وبگردی)
+! techna.news##div[class="widget_text sidebar-box"]:has(div[id*="kaprila_"])
+
+||technolife.ir/image/deema
+||technolife.ir/image/najva
+||technolife.ir/image/yekta
+
+||tabanmusic.com/p-pop/
+texahang.org##.myside.right-sidebar
+! TODO: Check again for new sidebar
+
 trainbit.com##+js(nano-stb, , , 0)
 
 ||tafrihi.com/wp-content/plugins/simple-ads
