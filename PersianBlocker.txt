@@ -163,7 +163,9 @@
 ||persianrank.ir^$3p
 ||popgozar.com^$3p
 ||popupplus.ir^$3p
+||popupplus.ir^$popup
 ||popupme.net^$3p
+||popupme.net^$popup
 ||pushe.co^$3p
 ||p30rank.ir^$3p
 ! TODO: Investigate whether p30rank is an ads/tracking site
@@ -219,6 +221,7 @@
 
 ||tapsell.ir^$3p
 ||toppopup.com^$3p
+||toppopup.com^$popup
 ||cashback.takhfifan.com^$3p
 ! TODO: Investigate ^
 ||counter.toolsir.com^$3p
