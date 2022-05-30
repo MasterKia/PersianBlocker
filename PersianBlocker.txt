@@ -684,6 +684,7 @@ farsroid.com##.site-middle-banners
 farsroid.com##.gtm-farsroid-ads
 farsroid.com##.download-link-ads-below
 farsroid.com##.cas-pubg.cas
+farsroid.com##.ads-dashed-banner
 farsroid.com#@#.place-ads
 
 ||analysis.faradars.org
