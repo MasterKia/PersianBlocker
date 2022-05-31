@@ -348,7 +348,9 @@ androidgozar.com##.cas-pubg
 
 ||dsp.aparat.com/*/dsp/bid?ads_type
 ||aparat.com/static/vendor/dox
-||static.cdn.asset.aparat.com/agf/adCustom
+! ||static.cdn.asset.aparat.com/agf/adCustom  
+! ||static.cdn.asset.aparat.com/agf-file/adsdes-1724.jpg
+||static.cdn.asset.aparat.com/agf
 aparat.com##.side-ads
 aparat.com###sideAds
 aparat.com##.ad-link
