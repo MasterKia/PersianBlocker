@@ -347,6 +347,7 @@ androidgozar.com##.cas-pubg
 ! androidgozar.com##div[class^="col-"]:has(div>div>a[class="ag-agah"])
 
 ||dsp.aparat.com/*/dsp/bid?ads_type
+||aparat.com/static/vendor/dox
 ||static.cdn.asset.aparat.com/agf/adCustom
 aparat.com##.side-ads
 aparat.com###sideAds
