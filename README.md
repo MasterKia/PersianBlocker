@@ -5,7 +5,7 @@
 
 به دلیل متفاوت و محدود بودن سازوکار افزونه ها در مرورگر سافاری، _امکان نصب افزونه مسدودساز در سافاری وجود ندارد_. در عوض میتوانید از فایرفاکس استفاده کنید.
 
-**1- نصب افزونه مسدودساز _uBlock Origin_ (مرورگر پیشنهادی = _فایرفاکس_):**
+**1- نصب افزونه مسدودساز _uBlock Origin_ (البته این لیست با افزونه مسدودساز _AdGuard_ هم سازگار است) (مرورگر پیشنهادی = _فایرفاکس_):**
 <p align="center">
 <a href="https://addons.mozilla.org/firefox/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/17685483/170959265-af22fbb6-6c9d-4c1a-8682-da9558721ef2.png" alt="دریافت یوبلاک برای فایرفاکس"></a> 
 <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"><img src="https://user-images.githubusercontent.com/17685483/170962263-84d195d9-b32c-49f3-bda6-e2916be5ee95.png" alt="دریافت یوبلاک برای کروم"></a>
@@ -27,7 +27,7 @@
 
 **1- نصب مرورگر فایرفاکس:** ↲[نصب](https://play.google.com/store/apps/details?id=org.mozilla.firefox)↳
 
-**2- نصب افزونه مسدود ساز _uBlock Origin_:**
+**2- نصب افزونه مسدود ساز _uBlock Origin_ (البته این لیست با افزونه مسدودساز _AdGuard_ هم سازگار است):**
 
 توی فایرفاکس، سمت راست بالا یا پایین صفحه روی _سه نقطه_ بزنید و سپس گزینه _Add-ons_ یا _افزونه ها_ رو انتخاب کنید و بعد روی _Add-ons Manager_ یا _مدیریت افزونه ها_ بزنید. در صفحه جدید کافیست افزونه uBlock Origin را پیدا کرده و روی _بعلاوه_ (+) سمت راستش بزنید و گزینه _Add_ یا _افزودن_ را کلیک کنید تا افزونه برایتان نصب و فعال بشود.
 
