@@ -1515,8 +1515,8 @@ varoone.ir##.ads468
 ||varzeshe3.com/js/ads
 ||varzeshe3.com/banners/*$image
 ||biz.varzesh3.com/events/view
-||news-view-api.varzesh3.com/view/
-||video-view-api.varzesh3.com/play/
+||news-view-api.varzesh3.com/view
+||video-view-api.varzesh3.com/play
 varzesh3.com##.adlink
 varzesh3.com##.header-ad
 varzesh3.com##.sticky-ad
@@ -1542,8 +1542,8 @@ webii.ir#@#.ads-sidebar
 webii.ir#@#.ads-box
 @@||webii.ir/upload/ads/$image,1p
 
-||wikihoax.org/wp-content/plugins/eazy-ad-unblocker/
-||wikihoax.org/wp-content/uploads/*/*/ads
+||wikihoax.org/wp-content/plugins/eazy-ad
+||wikihoax.org/wp-content/uploads/*/ads
 ||wikihoax.org/wp-content/cache/busting/1/wp-content/plugins/eazy-ad-unblocker/
 wikihoax.org##.two-ad-banners
 wikihoax.org##.widget-ad-image
@@ -1569,7 +1569,7 @@ yeknet.ir##+js(aopr, needpop)
 zohur12.ir##.sideads
 
 zoomg.ir##+js(aopr, banner)
-||zoomg.ir/common/visitcount/*
+||zoomg.ir/common/visitcount/
 ||zoomg.ir/cdn-cgi/apps/head/*$script
 ||zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg
 ||namava.ir/ZoomitAds/
@@ -1579,7 +1579,7 @@ zoomg.ir##.top-ads
 @@||zoomg.ir/banners/demo/advertise-zoomg.jpg
 
 zoomit.ir##+js(aopr, banner)
-||zoomit.ir/common/visitcount/*
+||zoomit.ir/common/visitcount/
 zoomit.ir##.wide-adv-box
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
 @@||zoomit.ir/assets/img/advertise-$image,1p
