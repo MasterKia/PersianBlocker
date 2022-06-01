@@ -51,4 +51,4 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.t
 و پایان!
 
  # گرامیداشت
-**PersianBlocker** (_GPLv3 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p)
+**PersianBlocker** (_GPLv3 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [Adblock Persian](https://ideone.com/K452p)
