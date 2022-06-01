@@ -1,12 +1,12 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-05-30
+! Last modified: 2022-06-01
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
-! Issues: https://github.com/MasterKia/PersianBlocker/issues
-! Suggestions: https://github.com/MasterKia/PersianBlocker/pulls
+! Issues/Suggestions: https://github.com/MasterKia/PersianBlocker/issues
+! Pull requests: https://github.com/MasterKia/PersianBlocker/pulls
 
 ! TODO: Remove unbreak filters from uBlock/Adguard Unbreak after PersianBlocker is added
 !-------------------------v Experimental Generic Filters v-----------------------!
