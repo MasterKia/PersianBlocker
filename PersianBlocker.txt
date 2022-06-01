@@ -84,6 +84,10 @@
 ||doubleclick.net^
 
 ! >> E <<
+!#if adguard
+||trustseal.enamad.ir^$third-party,cookie=cookiesession1 
+!#endif
+
 ||epicgameads.com^
 ! Used by gamesib.ir
 
@@ -182,6 +186,10 @@
 /include/rozblog_ads_js
 
 ! >> S <<
+!#if adguard
+||logo.samandehi.ir^$third-party,cookie=PID_
+!#endif
+
 ||sendpulse.com^$3p
 ! ^ Used by sourceiran.com
 
