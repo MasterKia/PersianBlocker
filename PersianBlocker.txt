@@ -157,7 +157,7 @@
 ! ^ Used by uplooder.net
 
 ||peyvandha.ir^$3p
-||10.10.34.35
+||10.10.34.35^$all
 ! ^ Example: imovie-dl.org
 
 ||phoenixad.io^$3p
