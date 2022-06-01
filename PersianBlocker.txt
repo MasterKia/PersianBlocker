@@ -251,13 +251,18 @@
 ||vatanclick.ir^$3p
 
 ! >> W <<
+||webpu.sh^$3p
+! Used by digistyle.com
+
 ||web.webpushs.com/js/push
 ! ^ Used by zima.ir
+
 ||weclick.ir^$3p
 ||w3counter.com^$3p
 ||webgozar.com/c.aspx*&t=counter
 ||webgozar.ir/c.aspx*&t=counter
 ||wideads.com^$3p
+
 ||stats.wp.com^
 ! ^ Used by icoff.ee
 
@@ -575,11 +580,19 @@ dabi.ir##.Js_Div5
 
 ||digiato.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
 
+||digikala.com^$removeparam=/promo/
+||digikala.com^$removeparam=bCode
+||digikala.com^$removeparam=/utm/
 ||digikala.com/sw.js
-||analytics.digikala.com
-@@||analytics.digikala.com/shopping/product-online-visitor/
 ||tracker.digikala.com
 ||new-sentry.digikala.com
+||analytics.digikala.com
+@@||analytics.digikala.com/shopping/product-online-visitor/
+||digikalajet.com^$removeparam=/promo/
+||digikalajet.com^$removeparam=/utm/
+||digistyle.com^$removeparam=/promo/
+||digistyle.com^$removeparam=/utm/
+||digistyle.com/tracker
 
 ||sentry-new.divar.ir
 ||ammaar.delivery.zeerak.cloud
