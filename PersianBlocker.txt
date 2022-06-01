@@ -1526,7 +1526,7 @@ varzesh3.com##.ima-ad-container
 ||video-learn.ir/code/popup
 video-learn.ir#@#.header-adv
 
-||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
+||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics
 
 ||vista.ir/ads/
 vista.ir##[href^="/ad/"]
