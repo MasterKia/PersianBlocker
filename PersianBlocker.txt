@@ -165,6 +165,7 @@
 ||partclick.ir^$3p
 ||persianrank.ir^$3p
 ||popgozar.com^$3p
+||popgozar.com^$popup
 ||popupplus.ir^$3p
 ||popupplus.ir^$popup
 ||popupme.net^$3p
