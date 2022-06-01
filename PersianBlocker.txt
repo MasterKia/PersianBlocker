@@ -85,7 +85,7 @@
 
 ! >> E <<
 !#if adguard
-||trustseal.enamad.ir^$third-party,cookie=cookiesession1 
+||trustseal.enamad.ir^$third-party,cookie
 !#endif
 
 ||epicgameads.com^
@@ -187,7 +187,7 @@
 
 ! >> S <<
 !#if adguard
-||logo.samandehi.ir^$third-party,cookie=PID_
+||logo.samandehi.ir^$third-party,cookie
 !#endif
 
 ||sendpulse.com^$3p
