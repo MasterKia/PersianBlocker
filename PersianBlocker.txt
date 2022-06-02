@@ -1523,8 +1523,6 @@ varzesh3.com##.header-ad
 varzesh3.com##.sticky-ad
 varzesh3.com##.right-ads
 varzesh3.com##.ima-ad-container
-varzesh3.com#@#.cm-message
-! ^ https://github.com/uBlockOrigin/uAssets/issues/13522
 
 ||video-learn.ir/code/popup
 video-learn.ir#@#.header-adv
