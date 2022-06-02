@@ -19,14 +19,13 @@
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
-!-------------------------v Ads/Trackers/Annoyances Filters v-----------------------!
+!-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
 ||asreasia.com/piwik
 
 ||analytics.aasaam.com^
 ||analytics-.aasaam.com^
 
-||adtodate.net^$3p
 ||adwisedfs.com^$3p
 ||adivery.com^$3p
 ||adnegah.net^$3p
@@ -35,10 +34,9 @@
 ||adtrace.io^$3p
 ||akhbarrasmi.com^$3p
 ||affili.ir^$3p
-||alexametrics.com^
 ||amarfa.ir^$3p
 ||ayyaar.ir^$3p
-! ^ Used on irna.ir
+! ^ Used by irna.ir
 
 ||adro.co^$3p
 ||affstat.adro.co
@@ -61,7 +59,6 @@
 ||blogfa.com/a/
 
 ! >> C <<
-||cloudflareinsights.com^
 ||congoro.com^$3p
 
 ! @@||clickyab.com^$1p
@@ -69,27 +66,21 @@
 ||clickyab.com^$3p
 
 ||chabok.io^$3p
-||clarity.ms^$3p
-||clickweb.click^$3p
-! TODO: Remove clickweb.click, but some websites still link to it
 
 ! >> D <<
 ||denutility.com/*/tabligh/
-! ^ Used on eghtesadnews.com
+! ^ Used by eghtesadnews.com
 
 ||deemanetwork.com^$3p
 ||deema.agency^$3p
+
 ||click.digiato.com
 ! ^ Used by Digiato, Vigiato, Rooziato
-||doubleclick.net^
 
 ! >> E <<
 !#if adguard
 ||trustseal.enamad.ir^$third-party,cookie
 !#endif
-
-||epicgameads.com^
-! Used by gamesib.ir
 
 ||e-earn.ir^$3p
 
@@ -102,17 +93,10 @@
 ! >> G <<
 
 ! >> H <<
-||hotjar.com^$3p
-||histats.com^$3p
-||heatmap.it^$3p
 ||hantana.org^$3p
 
 ! >> I <<
 ||intrack.ir^$3p
-||instant.page^$3p
-||icanhazip.com^$3p
-! TODO: Investigate ^ (Used on takhfifan.com)
-||ipify.org^$3p
 ||geoip.imber.live
 
 ! >> J <<
@@ -147,14 +131,9 @@
 ||netbina.com^$3p
 
 ! >> O <<
-||cdn.onesignal.com^
-! ^ Used by downloadsoftware.ir, itna.ir
 
 ! >> P <<
 ||popland.info^$3p
-
-||prchecker.info^
-! ^ Used by uplooder.net
 
 ||peyvandha.ir^$3p
 ||10.10.34.35^$all
@@ -191,31 +170,18 @@
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
 
-||sendpulse.com^$3p
-! ^ Used by sourceiran.com
-
-||statcounter.com^$3p
-
-||speedcurve.com^$3p
-! ^ Used on zoomit.ir
-
 ||sanjagh.com^$3p
 ||sanjagh.net^$3p
 
-||sibautomation.com^$3p
-! ^ Used by akhbarrasmi.com
 ||ads.safarme.ir
 ! ^ Used by kojaro.com
+
 ||sabavision.com^$3p
-||simple-counter.com/hit.php^$3p
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
 ||tabligheirani.ir^$3p
 ||tbli.ir^$3p
-
-||toshare.io/dl/download.php?i=
-! ^ Used on barato.ir
 
 ! ||tavoos.net^$3p
 ||tavoos.net/services/banner
@@ -240,29 +206,117 @@
 
 ||tool.4tools.ir/tools/click-c/click-c.js
 ||tool.4tools.ir/tools/click-l/click-l.js
+
 ! >> U <<
 ||utopclick.com^$3p
 ||utop.ir^$3p
-||useinsider.com^$3p
-! ^ Used by Sheypoor.com
-||uptrendsdata.com^$3p
-! ^ Used by aftabir.com
 
 ! >> V <<
 ||vatanclick.ir^$3p
 
 ! >> W <<
+||weclick.ir^$3p
+||webgozar.com/c.aspx*&t=counter
+||webgozar.ir/c.aspx*&t=counter
+
+! >> X <<
+
+! >> Y <<
+||yektanet.com^$3p
+||yekbux.com^$3p
+
+! >> Z <<
+||zarpop.com^$3p
+||zanboor.net^$3p
+! TODO: Remove zanboor.net, but some websites still link to it
+
+!-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------!
+
+
+!-------------------------v Non-Persian Ads/Trackers/Annoyances Filters Used In Persian Websites v-----------------------!
+
+! >> A <<
+||alexametrics.com^
+||adtodate.net^$3p
+
+! >> B <<
+! >> C <<
+||clarity.ms^$3p
+||cloudflareinsights.com^
+
+||clickweb.click^$3p
+! TODO: Remove clickweb.click, but some websites still link to it
+
+! >> D <<
+||doubleclick.net^
+
+! >> E <<
+||epicgameads.com^
+! Used by gamesib.ir
+
+! >> F <<
+! >> G <<
+! >> H <<
+||hotjar.com^$3p
+||histats.com^$3p
+||heatmap.it^$3p
+
+! >> I <<
+||instant.page^$3p
+||icanhazip.com^$3p
+! TODO: Investigate ^ (Used by takhfifan.com)
+||ipify.org^$3p
+
+! >> J <<
+! >> K <<
+! >> L <<
+! >> M <<
+! >> N <<
+! >> O <<
+||cdn.onesignal.com^
+! ^ Used by downloadsoftware.ir, itna.ir
+
+! >> P <<
+||prchecker.info^
+! ^ Used by uplooder.net
+
+! >> Q <<
+! >> R <<
+
+! >> S <<
+||statcounter.com^$3p
+||simple-counter.com/hit.php^$3p
+
+||sendpulse.com^$3p
+! ^ Used by sourceiran.com
+
+||speedcurve.com^$3p
+! ^ Used by zoomit.ir
+
+||sibautomation.com^$3p
+! ^ Used by akhbarrasmi.com
+
+! >> T <<
+||toshare.io/dl/download.php?i=
+! ^ Used by barato.ir
+
+! >> U <<
+||useinsider.com^$3p
+! ^ Used by Sheypoor.com
+
+||uptrendsdata.com^$3p
+! ^ Used by aftabir.com
+
+! >> V <<
+! >> W <<
+||w3counter.com^$3p
+||wideads.com^$3p
+
 ||webpu.sh^$3p
 ! Used by digistyle.com
 
 ||web.webpushs.com/js/push
 ! ^ Used by zima.ir
-
-||weclick.ir^$3p
-||w3counter.com^$3p
-||webgozar.com/c.aspx*&t=counter
-||webgozar.ir/c.aspx*&t=counter
-||wideads.com^$3p
 
 ||stats.wp.com^
 ! ^ Used by icoff.ee
@@ -271,16 +325,11 @@
 ||xjs.lol^$3p
 
 ! >> Y <<
-||yektanet.com^$3p
-||yekbux.com^$3p
 ||mc.yandex.ru^
 
 ! >> Z <<
-||zarpop.com^$3p
-||zanboor.net^$3p
-! TODO: Remove zanboor.net, but some websites still link to it
 
-!-------------------------^ Ads/Trackers Filters ^-----------------------!
+!-------------------------^ Non-Persian Ads/Trackers/Annoyances Filters used in Persian websites ^-----------------------!
 
 
 !-------------------------v Site-Specific Filters v-----------------------!
