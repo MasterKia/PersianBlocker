@@ -1450,8 +1450,10 @@ telewebion.com##.rmp-ad-container
 ! TODO: Remove arbitrary IP limitaion
 
 ||takhfifan.com/static/matomo.js
+||takhfifan.com/mtc.js
 takhfifan.com##+js(nostif, redirect_url)
 ! takhfifan.com##+js(rc, filter, , complete)
+takhfifan.com##+js(ra, disabled, , stay)
 takhfifan.com##.mask
 takhfifan.com##.filter:style(filter:none !important)
 ! ^ https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1145684991
