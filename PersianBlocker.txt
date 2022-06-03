@@ -26,7 +26,10 @@
 ||analytics.aasaam.com^
 ||analytics-.aasaam.com^
 
+||adwised.com^$3p
 ||adwisedfs.com^$3p
+||adwised.azureedge.net^$all
+
 ||adivery.com^$3p
 ||adnegah.net^$3p
 ||adpulse.ir^$3p
@@ -89,6 +92,9 @@
 ||fastclick.ir^$3p
 ||fa-tools.ir/code/rightclick/right-click1.js
 ||widget.fafait.net^$3p
+
+||farakav.com^$websocket
+! ^ TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 
 ! >> G <<
 
@@ -183,16 +189,14 @@
 ||tabligheirani.ir^$3p
 ||tbli.ir^$3p
 
-! ||tavoos.net^$3p
-||tavoos.net/services/banner
-||tavoos.net/bannerANDnative/
-||tavoos.net/services/vast/*$xhr
-! ||tavoos.net/tavoos_player/pushvideo/tavoos_push.js
-||tavoos.net/tavoos_player/pushvideo/
-! TODO: ^ Check if it breaks normal usage of tavoos.net videos
-||tavoos.net/services/retargeting
+||tavoos.net^$3p
 ||player.tavoos.net/vast.js
 ||player.tavoos.net/jwpsrv.js
+! ||tavoos.net/services/banner
+! ||tavoos.net/bannerANDnative/
+! ||tavoos.net/services/vast/*$xhr
+! ||tavoos.net/tavoos_player/pushvideo/tavoos_push.js
+! ||tavoos.net/services/retargeting
 
 ||tapsell.ir^$3p
 ||toppopup.com^$3p
@@ -575,6 +579,12 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image
 
 ! >> D <<
+||tadv.didestan.net
+||didestan.com/*/script/vast
+||didestan.com/stats
+||didestan.com/vast.js
+||didestan.com/video/vastlink.js
+
 ||dustaan.com/files/*/smio-push-notification
 ||dustaan.com/files/*/tracking
 
@@ -1057,6 +1067,9 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+||navatv.com/wp-admin/admin-ajax.php?action=adwised
+||navatv.com/?wordfence
+
 nicmusic.net#@#.boxads
 
 netpaak.com##.stream-item-widget
@@ -1493,9 +1506,7 @@ tasnimnews.com##.ads-footer
 ||tarafdari.com/sites/default/files/apps/advertise
 ||tarafdari.com/modules/statistics/statistics.php
 
-||adservice.google.com/adsid/integrator.js?domain=tamasha.com
-||tavoos.net^$domain=tamasha.com
-||tamasha-ws.farakav.com^$domain=tamasha.com
+! ||adservice.google.com/adsid/integrator.js?domain=tamasha.com
 
 talab.org##.Topadver
 
