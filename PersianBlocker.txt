@@ -636,6 +636,7 @@ dabi.ir##.Js_Div5
 ||digikala.com^$removeparam=/promo/
 ||digikala.com^$removeparam=bCode
 ||digikala.com^$removeparam=/utm/
+||digikala.com^$removeparam=affid
 ||digikala.com/sw.js
 ||tracker.digikala.com
 ||new-sentry.digikala.com
