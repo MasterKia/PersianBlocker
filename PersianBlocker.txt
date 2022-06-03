@@ -1437,6 +1437,8 @@ telewebion.com##.rmp-ad-container
 
 ||takhfifan.com/static/matomo.js
 takhfifan.com##+js(nostif, redirect_url)
+takhfifan.com##.mask
+! ^ TODO: https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1145616206
 
 tourismonline.co##.stream-item-mag.mag-box
 tourismonline.co##.stream-item-above-post.stream-item
