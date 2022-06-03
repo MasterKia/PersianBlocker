@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-06-02
+! Last modified: 2022-06-03
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
@@ -311,6 +311,9 @@
 ! >> W <<
 ||w3counter.com^$3p
 ||wideads.com^$3p
+
+||webengage.com^$3p
+! Used by takhfifan.com
 
 ||webpu.sh^$3p
 ! Used by digistyle.com
