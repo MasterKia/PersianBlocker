@@ -190,6 +190,7 @@
 ! ||tavoos.net/tavoos_player/pushvideo/tavoos_push.js
 ||tavoos.net/tavoos_player/pushvideo/
 ! TODO: ^ Check if it breaks normal usage of tavoos.net videos
+||tavoos.net/services/retargeting
 ||player.tavoos.net/vast.js
 ||player.tavoos.net/jwpsrv.js
 
