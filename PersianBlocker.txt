@@ -1658,3 +1658,5 @@ zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-t
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
+
+!-------------------------^ Site-Specific Filters ^-----------------------!
