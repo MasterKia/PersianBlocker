@@ -14,6 +14,7 @@
 ! /statics/*$xhr
 ! .ir/ads/
 ! admin-ajax.php?postviews_id=
+! admin-ajax.php?action=adwised
 ! wp-content/plugins/google-analytics
 ! ||cdn.hostdl.com/*/*.gif
 !-------------------------^ Experimental Generic Filters ^-----------------------!
@@ -139,6 +140,9 @@
 ! >> O <<
 
 ! >> P <<
+||popupdl.ir^$3p
+! ^ Used by dlfox.com
+
 ||popland.info^$3p
 
 ||peyvandha.ir^$3p
@@ -579,6 +583,19 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image
 
 ! >> D <<
+||dlfox.com/wp-content/uploads/*/*.gif
+||dlfox.com/wp-admin/admin-ajax.php?action=adwised
+dlfox.com##.ADS_wrapper
+dlfox.com##.WK_ads
+dlfox.com##.ads_area_small_banner
+dlfox.com##.banner_small_dlbox_b
+dlfox.com##.single_post_banner
+dlfox.com##.blog_list
+dlfox.com###block-6
+dlfox.com##.custom-html-widget.textwidget
+dlfox.com##.litespeed-loaded.entered.aligncenter
+dlfox.com##.bottom_single_message
+
 ||tadv.didestan.net
 ||didestan.com/*/script/vast
 ||didestan.com/stats
@@ -790,6 +807,15 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+gold-team.org##+js(nano-sib)
+||gold-team.org/wp-admin/admin-ajax.php?postviews_id=
+gold-team.org##.size-full.attachment-full
+gold-team.org##.aligncenter.wp-image-9273.size-full
+
+gamesetup.ir##+js(acis, vc_url)
+||gamesetup.ir/wp-content/uploads/*/ads
+gamesetup.ir##.sidebar > div.box:nth-of-type(5)
+
 ||gostaresh.news/statics/
 gostaresh.news##.zxc_home
 gostaresh.news##.zxc_news
@@ -836,6 +862,11 @@ graphiran.com###leftcol > center
 graphiran.com###centercol > center > center
 
 ! >> H <<
+hamtamovie.lol##+js(nano-stb)
+||hamtamovie.lol/gtag
+hamtamovie.lol##.col-sm-9.main-right > .col-sm-3 > aside.block:nth-of-type(2)
+hamtamovie.lol##.text-center.justify-content-around.row
+
 ||harfetaze.com/wp-content/uploads/ads/
 harfetaze.com##.sidebar-right
 
@@ -1019,6 +1050,10 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||mer30download.com/wp-content/uploads/*/ad
+mer30download.com##.adsfix_box
+mer30download.com##.ads
+
 mihangame.com##.widget_text.widget
 
 majalesalamat.com##.adwrap-widget
@@ -1400,6 +1435,9 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico
 
 ! >> T <<
+||topseda.ir/wp-content/plugins/google-analytics
+topseda.ir##.advertisment
+
 techna.news##.jmb_banner
 techna.news##[class="widget_text sidebar-box"]:has-text(تبلیغ)
 techna.news##[class="widget_text sidebar-box"]:has-text(وبگردی)
