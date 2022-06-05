@@ -8,15 +8,23 @@
 ! Issues/Suggestions: https://github.com/MasterKia/PersianBlocker/issues
 ! Pull requests: https://github.com/MasterKia/PersianBlocker/pulls
 
-! TODO: Remove unbreak filters from uBlock/Adguard Unbreak after PersianBlocker is added
+! TODO: Remove unbreak filters from Adguard Unbreak after PersianBlocker is added
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! /files/adv/*
 ! /statics/*$xhr
 ! .ir/ads/
+
 ! admin-ajax.php?postviews_id=
 ! admin-ajax.php?action=adwised
+
 ! wp-content/plugins/google-analytics
+! wp-content/plugins/better-ads
+
 ! ||cdn.hostdl.com/*/*.gif
+
+! ##[href^="https://gameup.ir/"]
+
+! /najva.js
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
@@ -140,8 +148,13 @@
 ! >> O <<
 
 ! >> P <<
+||popunder.ir^$3p
+||popunder.ir^$popup
+! TODO: Remove it, Used by marzfun.com
+
 ||popupdl.ir^$3p
-! ^ Used by dlfox.com
+||popupdl.ir^$popup
+! ^ TODO: Remove it, Used by dlfox.com
 
 ||popland.info^$3p
 
@@ -151,6 +164,8 @@
 
 ||phoenixad.io^$3p
 ||phoenixad.io^$popup
+||phoenixad.io/click^$all
+
 ||partclick.ir^$3p
 ||persianrank.ir^$3p
 ||popgozar.com^$3p
@@ -176,6 +191,9 @@
 /include/rozblog_ads_js
 
 ! >> S <<
+||sendword.ir^$all
+! Used by i-video.ir
+
 !#if adguard
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
@@ -190,6 +208,9 @@
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
+||titr.online^$3p
+! ^ Used by my-film.pw
+
 ||tabligheirani.ir^$3p
 ||tbli.ir^$3p
 
@@ -248,6 +269,9 @@
 ||alexametrics.com^
 ||adtodate.net^$3p
 
+||a-ads.com^
+! Used by mybia4music.com
+
 ! >> B <<
 ! >> C <<
 ||clarity.ms^$3p
@@ -281,6 +305,9 @@
 ! >> L <<
 ! >> M <<
 ! >> N <<
+||js-agent.newrelic.com^
+! ^ Used by virgool.io
+
 ! >> O <<
 ||cdn.onesignal.com^
 ! ^ Used by downloadsoftware.ir, itna.ir
@@ -293,6 +320,9 @@
 ! >> R <<
 
 ! >> S <<
+||system-notify.app^
+! Used by marzfun.com
+
 ||statcounter.com^$3p
 ||simple-counter.com/hit.php^$3p
 
@@ -347,6 +377,12 @@
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+applicationha.com##+js(aopr, faPa)
+||applicationha.com/wp-admin/admin-ajax.php?postviews_id=
+applicationha.com##.baner
+
+anaj.ir##[href^="https://gameup.ir/"]
+
 ! ||abadis.ir/ajaxcmd/stat/
 ||abadis.ir/libs/async/ads
 ||abadis.ir/ajaxcmd/adssetcacheok/
@@ -486,6 +522,10 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+||behmusic.com/wp-content/*/behpopup.js
+behmusic.com##.mp_left > .mpbb_ads.mpb_body
+behmusic.com##.mp_right > .mpbb_ads.mpb_body
+
 @@||blogfa.com/static/ads/
 
 ||bultannews.com/files/adv/
@@ -553,6 +593,19 @@ boyernews.com##center
 boyernews.com##.table-striped.table
 
 ! >> C <<
+! coffeeapps.ir##+js(nowoif)
+coffeeapps.ir##+js(aopr, nocontext)
+coffeeapps.ir##+js(acis, disableSelection, reEnable)
+||coffeeapps.ir/cof-p.php
+coffeeapps.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+coffeeapps.ir##.ads-sidebar
+coffeeapps.ir##.ads-sticky
+coffeeapps.ir##.no-list-marker.block-content
+coffeeapps.ir##h5:has-text(لینک)
+coffeeapps.ir###ADbox-1
+coffeeapps.ir##.soh-tab-d
+coffeeapps.ir##.ymaco
+
 ||cooldl.net/raul/Zula
 cooldl.net##.pm
 cooldl.net##.box-title
@@ -583,6 +636,12 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image
 
 ! >> D <<
+download1music.ir##[id^="pos-article-display-"]
+download1music.ir##a:has(a>img[class^="aligncenter size-full "])
+
+||digiro.ir/wp-content/plugins/better-ads
+||digiro.ir/wp-content/uploads/*/*.gif
+
 ||dlfox.com/wp-content/uploads/*/*.gif
 ||dlfox.com/wp-admin/admin-ajax.php?action=adwised
 dlfox.com##.ADS_wrapper
@@ -741,6 +800,10 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+||freedownload.ir/images/customer/
+freedownload.ir##.custom
+freedownload.ir##.customads
+
 fartaknews.com##[href^="/advertisements/"]
 fartaknews.com##.talfighat-row
 fartaknews.com##.ul-talfigh-con
@@ -768,7 +831,6 @@ freescript.ir##.left.sidebar_widget:nth-of-type(3)
 ||faaltarin.com/adv-load.asp
 faaltarin.com##.advertisement
 @@||faaltarin.com/advertise-files/thumbnail$image
-! TODO: Report to EasyList
 
 faceit.ir##.pull-right.zm-post-lay-a-area
 faceit.ir##.header-mdh
@@ -791,6 +853,7 @@ farsroid.com##.ads-dashed-banner
 farsroid.com#@#.place-ads
 
 ||analysis.faradars.org
+||faradars.org^$removeparam=/utm/
 
 ||farsnews.ir/api/recordnewstextvisit?id=
 ||tracker.farsnews.ir
@@ -807,6 +870,8 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+||getandroid.ir/Files/js/landinga.js
+
 gold-team.org##+js(nano-sib)
 ||gold-team.org/wp-admin/admin-ajax.php?postviews_id=
 gold-team.org##.size-full.attachment-full
@@ -882,9 +947,11 @@ hidoctor.ir##.doctor-ads-item
 
 ||hamshahrionline.ir/rest/visit
 hamshahrionline.ir#@##ads-container
-! TODO: Report to EasyList
 
 ! >> I <<
+||i-video.ir/ipop.js
+||i-video.ir/ipop.php
+
 iwo.ir##+js(nano-sib)
 @@||iwo.ir/ads.jpg
 @@||iwo.ir/data/home/ads.gif
@@ -974,7 +1041,6 @@ jesarat.com##aside:nth-of-type(2)
 jobinja.ir##.c-forceToLogin__overlay
 jobinja.ir##.c-forceToLogin__message.o-box
 jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !important)
-! TODO: Remove from uBlock
 
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
@@ -1050,6 +1116,23 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+mybia4music.com##+js(aopr, pa_vc_url)
+||mybia4music.com/wp-content/plugins/wp-postviews/
+||mybia4music.com/wp-admin/admin-ajax.php?postviews_id=
+mybia4music.com##.adstext
+mybia4music.com##.ads-banner
+mybia4music.com###left > div.box:nth-of-type(1)
+
+||marzfun.com/wp-content/plugins/google-analytics
+marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
+
+||my-film.pw/wp-content/uploads/*/ad
+||my-film.pw/wp-admin/admin-ajax.php?postviews_id=
+my-film.pw##.maincontent > center
+my-film.pw##tbody
+my-film.pw###titr-box
+my-film.pw##.textads
+
 ||mer30download.com/wp-content/uploads/*/ad
 mer30download.com##.adsfix_box
 mer30download.com##.ads
@@ -1102,6 +1185,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+netnevesht.com#@#.widget-ad
+
 ||navatv.com/wp-admin/admin-ajax.php?action=adwised
 ||navatv.com/?wordfence
 
@@ -1134,7 +1219,6 @@ niksalehi.com##.box-custom.box_other
 ||nex1music.ir/bnr/
 ||via.placeholder.com^$domain=nex1music.ir
 @@||nex1music.ir/upload/ads/*$image
-! TODO : Report to EasyList
 
 namnak.com##.Dr.D2.Cu.o
 
@@ -1230,7 +1314,6 @@ par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
 par30games.net##.adbox
 @@||par30games.net/wp-content/uploads/*/advertise-plan$image
-! TODO: Report to EasyList
 
 ||paperhub.ir/images/*.gif
 
@@ -1265,7 +1348,6 @@ rozup.ir##.center.body_c > div:nth-of-type(2)
 rozup.ir##.center.body_c > div > div
 
 @@||rabimo.com/wp-content/plugins/shop-submit-ads/assets/
-! TODO: Report to EasyList
 
 ||rokna.net/zxc/*.htm$subdocument
 rokna.net##[href^="/advertisements/"]
@@ -1297,6 +1379,16 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||shomanews.com/rss-files.php
+||shomanews.com/statics
+||shomanews.com/servev2/*.gif
+||shomanews.com/player/vastlink.js
+shomanews.com##[href^="/advertisements/"]
+shomanews.com##.banner_mnb
+shomanews.com##.type-resource-image.type-resource
+shomanews.com##.noprint.generalBoxStyle
+shomanews.com##.generalBoxStyle.mt16
+
 ||stnews.ir/ads/
 
 smusic.ir##.heading-ads
@@ -1361,7 +1453,6 @@ soft98.ir,~forum.soft98.ir##img[src*="forum.soft98.ir/"]:upward(1):style(pointer
 soft98.ir##img[src*="hostdl"]:upward(1):style(pointer-events:none !important)
 *$image,strict3p,denyallow=cdn.soft98.ir,domain=soft98.ir|~forum.soft98.ir
 @@||soft98.ir^$ghide
-! TODO: Remove from uBlock
 
 ! ||subf2m.co/files/*.gif
 ! subf2m.co##.ads
@@ -1435,6 +1526,12 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico
 
 ! >> T <<
+takblog.net###popbox-blackout
+takblog.net###box_1398
+
+||titr.online/api/stats
+titr.online##.inline-4d
+
 ||topseda.ir/wp-content/plugins/google-analytics
 topseda.ir##.advertisment
 
@@ -1535,8 +1632,6 @@ tejaratnews.com##.tj-ad-wrapper
 tejaratnews.com##div.widget.aside-widget:nth-of-type(5) > .section-title--dotted.section-title > .section-title__h
 
 ||api.tebyan.net/api/TemplatePageBox/GetBoxesPlus
-tebyan.net#@#.theiaStickySidebar
-! TODO: Remove from uBlock Unbreak
 
 ||newsmedia.tasnimnews.com/Tasnim/Uploaded/Ads/
 tasnimnews.com##.ad-item
@@ -1573,6 +1668,9 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+||upmusics.com/najva.js
+upmusics.com##.upbu
+
 ||uptvs.com/wp-contents/plugins/viewstats
 ! uptvs.com###anetwork-PB
 ! uptvs.com##.my-ads
@@ -1602,6 +1700,8 @@ uploadboy.com##.litebox
 uploadboy.com##a[href="http://www.asiatech.ir/"]
 
 ! >> V <<
+virgool.io##.js-userLogin-popup
+
 ||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
 vgdl.ir##.stream-item-widget
 vgdl.ir##.alignnone
@@ -1667,6 +1767,10 @@ webgoo.ir##.left-block-top
 ! >> X <<
 
 ! >> Y <<
+||yektablog.net/js/adjs.php
+yektablog.net###popbox-blackout
+yektablog.net###box_1398
+
 ||yun.ir/advertisement/
 
 yasdl.com##.ads-block
