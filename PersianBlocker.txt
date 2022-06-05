@@ -462,7 +462,7 @@ abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-title
 aftabnews.ir##.adv_r_news2
 aftabnews.ir##.adv_l_inner5
 
-! alaatv.com##+js(acis, watermarkAdData)
+alaatv.com##+js(acis, watermarkAdData)
 ||nodes.alaatv.com/upload/vast/xml/
 ||ads.alaatv.com^
 
