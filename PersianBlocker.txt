@@ -1235,6 +1235,12 @@ opizo.me##+js(aeld, blur)
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+! ||p30konkor.com/wp-content/plugins/better-ads
+||p30konkor.com/wp-content/uploads/*/*.gif
+p30konkor.com###header-ad1
+p30konkor.com##.vc_col-has-fill
+p30konkor.com###text-19
+
 par30dl.net##.adpar30
 par30dl.net##.adsidimg
 par30dl.net##div:has(:scope > div > div> strong:has-text(تبلیغ))
