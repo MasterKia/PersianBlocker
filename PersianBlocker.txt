@@ -111,6 +111,9 @@
 ||hantana.org^$3p
 
 ! >> I <<
+||s.infogram.com^
+! ^ Used by hiapple.ir
+
 ||intrack.ir^$3p
 ||geoip.imber.live
 
@@ -225,11 +228,12 @@
 ! ||tavoos.net/tavoos_player/pushvideo/tavoos_push.js
 ! ||tavoos.net/services/retargeting
 
+||cashback.takhfifan.com^$3p
+! TODO: Investigate ^
+
 ||tapsell.ir^$3p
 ||toppopup.com^$3p
 ||toppopup.com^$popup
-||cashback.takhfifan.com^$3p
-! TODO: Investigate ^
 ||counter.toolsir.com^$3p
 
 ||takskin.com/tools/online/
@@ -355,6 +359,7 @@
 ! >> W <<
 ||w3counter.com^$3p
 ||wideads.com^$3p
+||wideads.com^$popup
 
 ||webengage.com^$3p
 ! Used by takhfifan.com
@@ -805,6 +810,8 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+farskids.me#@#.ads-banner
+
 ||freedownload.ir/images/customer/
 freedownload.ir##.custom
 freedownload.ir##.customads
@@ -954,6 +961,8 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+! idehaltech.com##.sidebar-column-secondary.sidebar-column.col-sm-2
+
 ||i-video.ir/ipop.js
 ||i-video.ir/ipop.php
 
@@ -1109,6 +1118,11 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+||lamtakam.com/img/ad
+lamtakam.com##.msg_ad_explain
+lamtakam.com##.msg_ad_subject
+lamtakam.com##.msg_ad_pictorial
+
 lenzak.com##.adbar
 lenzak.com###custom_html-4
 lenzak.com###text-31
@@ -1121,6 +1135,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||montiego.ir/dl/popmon.js
+montiego.ir##.txt-ads-sl
+
+msbmusic.ir##+js(set, needpop, 0)
+
 mybia4music.com##+js(aopr, pa_vc_url)
 ||mybia4music.com/wp-content/plugins/wp-postviews/
 ||mybia4music.com/wp-admin/admin-ajax.php?postviews_id=
@@ -1190,6 +1209,12 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+! nex1.ir##+js(set, needpop, 1)
+||nex1.ir/p.js
+||nex1.ir/p.php
+
+netgasht.com##+js(set, needpop, 0)
+
 netnevesht.com#@#.widget-ad
 
 ||navatv.com/wp-admin/admin-ajax.php?action=adwised
@@ -1350,6 +1375,10 @@ forum.p30world.com#@##ad_global_above_footer
 ! >> Q <<
 
 ! >> R <<
+radiojavan-iran.com##.ads.big_post
+radiojavan-iran.com##.ads_box
+radiojavan-iran.com##.cat
+
 rozblog.com##.advertising
 rozblog.com###middle-ads
 
@@ -1390,6 +1419,9 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+sornamusic.ir##.textwidget
+sornamusic.ir##aside:nth-of-type(5)
+
 ||shomanews.com/rss-files.php
 ||shomanews.com/statics
 ||shomanews.com/servev2/*.gif
@@ -1537,6 +1569,12 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico
 
 ! >> T <<
+techfars.com##.right-ads
+techfars.com##.left-ads
+
+||technet24.ir/wp-content/plugins/better-ads
+technet24.ir##.havdqrmf-align-right
+
 takblog.net###popbox-blackout
 takblog.net###box_1398
 
