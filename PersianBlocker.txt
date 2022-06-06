@@ -134,12 +134,14 @@
 ||linkyar.com^$3p
 
 ! >> M <<
+||metrix.ir^$3p
+||trc.metrix.ir^$all
+! Used by digikala.com
+
 ||mediaad.org^$3p
 ||magnetadservices.com^$3p
 ||merita.ir^$3p
-||metrix.ir^$3p
 ||mitrarank.ir^$3p
-||track.mailerlite.com^
 
 ! >> N <<
 ||najva.com^$3p
@@ -303,7 +305,10 @@
 ! >> J <<
 ! >> K <<
 ! >> L <<
+
 ! >> M <<
+||track.mailerlite.com^
+
 ! >> N <<
 ||js-agent.newrelic.com^
 ! ^ Used by virgool.io
