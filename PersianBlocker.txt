@@ -700,7 +700,7 @@ delbaraneh.com##.widget_text.widget.primary-sidebar-widget.w-t.h-i
 doctorwp.com###home-2-col > .bs-vc-wrapper > .vc_col-sm-3.vc_column_container.bs-vc-column.wpb_column
 doctorwp.com##.widget_nav_menu.widget.primary-sidebar-widget.w-t.h-ni
 
-||donya-e-eqtesad.com/servev*
+||donya-e-eqtesad.com/servev
 ! ||donya-e-eqtesad.com/statics
 donya-e-eqtesad.com##[href^="/advertisements/"]
 donya-e-eqtesad.com##.custom-ad-one
