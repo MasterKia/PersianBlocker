@@ -1834,6 +1834,7 @@ yektablog.net###popbox-blackout
 yektablog.net###box_1398
 
 ||yun.ir/advertisement/
+yun.ir##.advertisements
 
 yasdl.com##.ads-block
 yasdl.com##.top-ads
