@@ -788,6 +788,7 @@ entekhab.ir##.col-lg-9.col-md-8.col-sm-18.col-xs-36.col-3-2 > .col-xs-36.attenti
 eghtesadnews.com##[href^="/advertisements/"]
 eghtesadnews.com##.zxc
 
+eghtesadonline.com##.tiny_linky_boxes
 eghtesadonline.com##.talfighat-BS
 eghtesadonline.com##.type-resource-image
 
