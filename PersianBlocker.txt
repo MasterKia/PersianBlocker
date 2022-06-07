@@ -1838,6 +1838,10 @@ webgoo.ir##.left-block-top
 yektablog.net###popbox-blackout
 yektablog.net###box_1398
 
+! https://github.com/uBlockOrigin/uAssets/issues/13610#issuecomment-1148656995
+!#if adguard
+yun.ir#%#//scriptlet('set-cookie-reload', 'bypasstimer', '10')
+!#endif
 ||yun.ir/advertisement/
 yun.ir##.advertisements
 
