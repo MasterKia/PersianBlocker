@@ -411,7 +411,6 @@ asriran.com##+js(alert-buster)
 ||excoino.com^$domain=asriran.com
 asriran.com##.webgardi_main.row
 asriran.com##.click1000_allcontent
-! TODO: Remove `@@||cdn.asriran.com^$image` from uBlock Unbreak
 
 ||androidzoom.ir/wp-content/uploads/*/*.gif
 androidzoom.ir##.widget-container
