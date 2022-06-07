@@ -532,6 +532,9 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+||byst.ir/ThemesStore/ads
+||byst.ir/Visit/view
+
 ||behmusic.com/wp-content/*/behpopup.js
 behmusic.com##.mp_left > .mpbb_ads.mpb_body
 behmusic.com##.mp_right > .mpbb_ads.mpb_body
@@ -1262,6 +1265,14 @@ opizo.me##+js(aeld, blur)
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||pichak.net/nohe/amar.js
+||pichak.net/ads/
+pichak.net##.dailylink
+pichak.net##div > font > font > font > p
+pichak.net##div > font > font > .menuheader
+pichak.net##center > center > center > center
+pichak.net##body > div > font
+
 ! ||p30konkor.com/wp-content/plugins/better-ads
 ||p30konkor.com/wp-content/uploads/*/*.gif
 p30konkor.com###header-ad1
