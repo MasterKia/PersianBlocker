@@ -66,9 +66,6 @@
 ||abzarfa.com/tools/ip
 
 ! >> B <<
-||customfingerprints.bablosoft.com/clientsafe.js
-! ^ Used by yun.ir on shortlinks
-
 ||backlink.behtarinseo.ir/ads
 ||backority.ir^$3p
 ||blogfa.com/a/
@@ -282,6 +279,9 @@
 ! Used by mybia4music.com
 
 ! >> B <<
+||customfingerprints.bablosoft.com/clientsafe.js
+! ^ Used by yun.ir on shortlinks
+
 ! >> C <<
 ||clarity.ms^$3p
 ||cloudflareinsights.com^
