@@ -961,6 +961,8 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+||analytics.irancell.ir^
+
 ! idehaltech.com##.sidebar-column-secondary.sidebar-column.col-sm-2
 
 ||i-video.ir/ipop.js
