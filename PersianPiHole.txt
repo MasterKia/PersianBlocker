@@ -42,6 +42,7 @@ affstat.adro.co
 affstat.digikala.com
 affiliate.digikala.com
 
+dsp.aparat.com
 # >> B <<
 backlink.behtarinseo.ir
 backority.ir
@@ -152,6 +153,7 @@ ads.safarme.ir
 # ^ Used by kojaro.com
 
 sabavision.com
+plus.sabavision.com
 
 # >> T <<
 titr.online
