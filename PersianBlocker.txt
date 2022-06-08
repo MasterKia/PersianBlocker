@@ -31,6 +31,10 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+!#if adguard
+||aparat.com^$third-party,cookie
+!#endif
+
 ||asreasia.com/piwik
 
 ||analytics.aasaam.com^
