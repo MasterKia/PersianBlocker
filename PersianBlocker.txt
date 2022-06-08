@@ -279,7 +279,7 @@
 ! Used by mybia4music.com
 
 ! >> B <<
-||customfingerprints.bablosoft.com/clientsafe.js
+||customfingerprints.bablosoft.com^
 ! ^ Used by yun.ir on shortlinks
 
 ! >> C <<
@@ -370,7 +370,7 @@
 ||webpu.sh^$3p
 ! Used by digistyle.com
 
-||web.webpushs.com/js/push
+||web.webpushs.com^
 ! ^ Used by zima.ir
 
 ||stats.wp.com^
