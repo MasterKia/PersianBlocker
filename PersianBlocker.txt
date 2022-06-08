@@ -9,6 +9,7 @@
 ! Pull requests: https://github.com/MasterKia/PersianBlocker/pulls
 
 ! TODO: Remove unbreak filters from Adguard Unbreak after PersianBlocker is added
+! TODO: Remove Persian filters from "Adguard Base filter" when PersianBlocker is added
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! /files/adv/*
 ! /statics/*$xhr
