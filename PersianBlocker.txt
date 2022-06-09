@@ -37,30 +37,29 @@
 
 ||asreasia.com/piwik
 
-||analytics.aasaam.com^
-||analytics-.aasaam.com^
+||analytics.aasaam.com^$all
+||analytics-.aasaam.com^$all
 
-||adwised.com^$3p
-||adwisedfs.com^$3p
+||adwised.com^$all
+||adwisedfs.com^$all
 ||adwised.azureedge.net^$all
 
-||adivery.com^$3p
-||adnegah.net^$3p
-||adpulse.ir^$3p
-||adsima.net^$3p
-||adtrace.io^$3p
+||adivery.com^$all
+||adnegah.net^$all
+||adpulse.ir^$all
+||adsima.net^$all
+||adtrace.io^$all
 ||akhbarrasmi.com^$3p
-||affili.ir^$3p
-||amarfa.ir^$3p
-||ayyaar.ir^$3p
+||affili.ir^$all
+||amarfa.ir^$all
+||ayyaar.ir^$all
 ! ^ Used by irna.ir
 
-||adro.co^$3p
-||affstat.adro.co
-||affstat.digikala.com
-||affiliate.digikala.com^$3p
+||adro.co^$all
+||affstat.adro.co^$all
+||affstat.digikala.com^$all
+||affiliate.digikala.com^$all
 
-||1abzar.com/files/ads
 ||1abzaar.ir/abzar/tools/no-rightclick.js
 ||1abzaar.ir/abzar/tools/no-selects.js
 ||1abzar.ir/abzar/tools/post-view/
@@ -76,22 +75,22 @@
 ||blogfa.com/a/
 
 ! >> C <<
-||congoro.com^$3p
+||congoro.com^$all
 
 ! @@||clickyab.com^$1p
 ||clickyab.com^$badfilter
-||clickyab.com^$3p
+||clickyab.com^$all
 
-||chabok.io^$3p
+||chabok.io^$all
 
 ! >> D <<
 ||denutility.com/*/tabligh/
 ! ^ Used by eghtesadnews.com
 
-||deemanetwork.com^$3p
-||deema.agency^$3p
+||deemanetwork.com^$all
+||deema.agency^$all
 
-||click.digiato.com
+||click.digiato.com^$all
 ! ^ Used by Digiato, Vigiato, Rooziato
 
 ! >> E <<
@@ -102,8 +101,8 @@
 ||e-earn.ir^$3p
 
 ! >> F <<
-||farsbux.ir^$3p
-||fastclick.ir^$3p
+||farsbux.ir^$all
+||fastclick.ir^$all
 ||fa-tools.ir/code/rightclick/right-click1.js
 ||widget.fafait.net^$3p
 
@@ -113,82 +112,74 @@
 ! >> G <<
 
 ! >> H <<
-||hantana.org^$3p
+||hantana.org^$all
 
 ! >> I <<
-||s.infogram.com^
-! ^ Used by hiapple.ir
-
 ||intrack.ir^$3p
-||geoip.imber.live
+||geoip.imber.live^$all
 
 ! >> J <<
-||jetbux.ir^$3p
+||jetbux.ir^$all
 
 ! >> K <<
 ||kilipo.com/themes/default/player/plugins/vast/ads
 ||kilipo.com/themes/default/player/plugins/ads
 
-||kajads.com^$3p
+||kajads.com^$all
 ||ads.karzar.net
-||kaprila.com^$3p
+||kaprila.com^$all
 
 ||k2cod.com/ip/show-ip
 ||k2cod.com/statistics/
 
 ! >> L <<
-||landyab.com^$3p
+||landyab.com^$all
 ||linksaz.net^$3p
 ||linkyar.com^$3p
 
 ! >> M <<
-||metrix.ir^$3p
+||metrix.ir^$all
 ||trc.metrix.ir^$all
-! Used by digikala.com
+! ^ Used by digikala.com
 
-||mediaad.org^$3p
-||magnetadservices.com^$3p
-||merita.ir^$3p
-||mitrarank.ir^$3p
+||mediaad.org^$all
+||magnetadservices.com^$all
+||merita.ir^$all
+||mitrarank.ir^$all
 
 ! >> N <<
-||najva.com^$3p
-||netbina.com^$3p
+||najva.com^$all
+||netbina.com^$all
 
 ! >> O <<
 
 ! >> P <<
-||popunder.ir^$3p
-||popunder.ir^$popup
+||popunder.ir^$all
 ! TODO: Remove it, Used by marzfun.com
 
-||popupdl.ir^$3p
-||popupdl.ir^$popup
+||popupdl.ir^$all
 ! ^ TODO: Remove it, Used by dlfox.com
 
-||popland.info^$3p
+||popland.info^$all
 
 ||peyvandha.ir^$3p
 ||10.10.34.35^$all
 ! ^ Example: imovie-dl.org
 
-||phoenixad.io^$3p
-||phoenixad.io^$popup
-||phoenixad.io/click^$all
+||phoenixad.io^$all
+! ||phoenixad.io^$popup
+! ||phoenixad.io/click^$all
 
 ||partclick.ir^$3p
 ||persianrank.ir^$3p
-||popgozar.com^$3p
-||popgozar.com^$popup
-||popupplus.ir^$3p
-||popupplus.ir^$popup
-||popupme.net^$3p
-||popupme.net^$popup
-||pushe.co^$3p
+||popgozar.com^$all
+||popupplus.ir^$all
+||popupme.net^$all
+||pushe.co^$all
 ||p30rank.ir^$3p
 ! TODO: Investigate whether p30rank is an ads/tracking site
 ||pegah.tech^$3p
-||publica.ir^$3p
+||publica.ir^$all
 
 ||parsiblog.com/ga.js
 
@@ -208,23 +199,23 @@
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
 
-||sanjagh.com^$3p
-||sanjagh.net^$3p
+||sanjagh.com^$all
+||sanjagh.net^$all
 
-||ads.safarme.ir
+||ads.safarme.ir^$all
 ! ^ Used by kojaro.com
 
-||sabavision.com^$3p
+||sabavision.com^$all
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
 ||titr.online^$3p
 ! ^ Used by my-film.pw
 
-||tabligheirani.ir^$3p
-||tbli.ir^$3p
+||tabligheirani.ir^$all
+||tbli.ir^$all
 
-||tavoos.net^$3p
+||tavoos.net^$all
 ||player.tavoos.net/vast.js
 ||player.tavoos.net/jwpsrv.js
 ! ||tavoos.net/services/banner
@@ -236,10 +227,9 @@
 ||cashback.takhfifan.com^$3p
 ! TODO: Investigate ^
 
-||tapsell.ir^$3p
-||toppopup.com^$3p
-||toppopup.com^$popup
-||counter.toolsir.com^$3p
+||tapsell.ir^$all
+||toppopup.com^$all
+||counter.toolsir.com^$all
 
 ||takskin.com/tools/online/
 ||takskin.com/tools/show-ip/
@@ -252,11 +242,11 @@
 ||userfriendly.ir^$all
 ! ^ Used by bils.ir
 
-||utopclick.com^$3p
-||utop.ir^$3p
+||utopclick.com^$all
+||utop.ir^$all
 
 ! >> V <<
-||vatanclick.ir^$3p
+||vatanclick.ir^$all
 
 ! >> W <<
 ||weclick.ir^$3p
@@ -266,12 +256,12 @@
 ! >> X <<
 
 ! >> Y <<
-||yektanet.com^$3p
-||yekbux.com^$3p
+||yektanet.com^$all
+||yekbux.com^$all
 
 ! >> Z <<
-||zarpop.com^$3p
-||zanboor.net^$3p
+||zarpop.com^$all
+||zanboor.net^$all
 ! TODO: Remove zanboor.net, but some websites still link to it
 
 !-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------!
@@ -312,6 +302,9 @@
 ||heatmap.it^$3p
 
 ! >> I <<
+||s.infogram.com^
+! ^ Used by hiapple.ir
+
 ||instant.page^$3p
 ||icanhazip.com^$3p
 ! TODO: Investigate ^ (Used by takhfifan.com)
@@ -512,6 +505,7 @@ abzarfa.com##div.right-sidebar:nth-of-type(1)
 abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-sidebar-cont
 abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-title
 
+||1abzar.com/files/ads
 1abzar.com##.ads-post
 
 ||aftabnews.ir/files/adv/
