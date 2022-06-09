@@ -1606,6 +1606,7 @@ takmili.com##+js(set, disable_copy, noopFunc)
 takmili.com##+js(set, disable_drag_text, noopFunc)
 takmili.com##+js(set, disable_hot_keys, noopFunc)
 takmili.com##+js(set, disable_drag_images, noopFunc)
+takmili.com##+js(set, dealWithPrintScrKey, noopFunc)
 takmili.com##+js(ra, draggable, , stay)
 ||takmili.com/wp-content/plugins/wccp-pro
 ||takmili.com/wp-content/plugins/google-analytics
