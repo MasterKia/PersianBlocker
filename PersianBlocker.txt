@@ -249,6 +249,9 @@
 ||tool.4tools.ir/tools/click-l/click-l.js
 
 ! >> U <<
+||userfriendly.ir^$all
+! ^ Used by bils.ir
+
 ||utopclick.com^$3p
 ||utop.ir^$3p
 
@@ -539,6 +542,9 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+bils.ir###iddivtoplevelscript
+bils.ir##div:nth-of-type(3)
+
 ||byst.ir/ThemesStore/ads
 ||byst.ir/Visit/view
 
@@ -972,6 +978,9 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+||ipsite.ir^$all
+! ^ Used by bils.ir (ipsite.ir/JSShow/js20212022.js)
+
 ||analytics.irancell.ir^
 
 ! idehaltech.com##.sidebar-column-secondary.sidebar-column.col-sm-2
@@ -1771,6 +1780,9 @@ uploadboy.com##.litebox
 uploadboy.com##a[href="http://www.asiatech.ir/"]
 
 ! >> V <<
+vakil.net##+js(acis, document.oncontextmenu)
+vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
 virgool.io##.js-userLogin-popup
 
 ||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
