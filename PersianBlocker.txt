@@ -1284,6 +1284,7 @@ omidnamehnews.ir##.adspanel
 ! >> P <<
 ||pichak.net/nohe/amar.js
 ||pichak.net/ads/
+pichak.net##noscript:remove()
 pichak.net##.dailylink
 pichak.net##div > font > font > font > p
 pichak.net##div > font > font > .menuheader
