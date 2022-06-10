@@ -163,7 +163,7 @@
 ||popland.info^$all
 
 ||peyvandha.ir^$3p
-||10.10.34.35^$all
+||10.10.34.^$all
 ! ^ Example: imovie-dl.org
 
 ||phoenixad.io^$all
