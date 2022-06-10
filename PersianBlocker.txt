@@ -1510,6 +1510,7 @@ softgozar.com##.adv_text
 softgozar.com###RightPan
 softgozar.com###PopAlert
 softgozar.com##.AdvertiseD2Ban
+softgozar.com##.DTOPBan
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3011
 ! https://github.com/uBlockOrigin/uAssets/issues/10883
