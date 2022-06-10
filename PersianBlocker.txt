@@ -115,7 +115,7 @@
 ||hantana.org^$all
 
 ! >> I <<
-||intrack.ir^$3p
+||intrack.ir^$all
 ||geoip.imber.live^$all
 
 ! >> J <<
