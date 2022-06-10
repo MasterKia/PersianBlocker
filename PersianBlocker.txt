@@ -863,6 +863,7 @@ farnet.io##+js(acis, eif)
 ||farnet.io/wp-content/plugins/better-adsmanager
 ||farnet.io/wp-content/plugins/better-post-views
 farnet.io##.eif-link
+farnet.io##.bsw-8.listing-item-blog-5 > .clearfix.item-inner:has-text(تبلیغاتی)
 
 farsroid.com##+js(aopr, faPa)
 ||farsroid.com/js/?url=$script
