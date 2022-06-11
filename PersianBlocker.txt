@@ -745,17 +745,17 @@ dabi.ir##.Js_Div5
 ||digikala.com^$removeparam=/utm/
 ||digikala.com^$removeparam=affid
 ||digikala.com/sw.js
-||tracker.digikala.com
-||new-sentry.digikala.com
-||analytics.digikala.com
+||tracker.digikala.com^$all
+||new-sentry.digikala.com^$all
+||analytics.digikala.com^$all
 @@||analytics.digikala.com/shopping/product-online-visitor/
 ||digikalajet.com^$removeparam=/promo/
 ||digikalajet.com^$removeparam=/utm/
 ||digistyle.com^$removeparam=/promo/
 ||digistyle.com^$removeparam=/utm/
-||digistyle.com/tracker
+||digistyle.com/tracker^$all
 
-||sentry-new.divar.ir
+||sentry-new.divar.ir^$all
 ||ammaar.delivery.zeerak.cloud
 
 ||doostihaa.com/wp-content/plugins/jw-player-7-for-wp-premium/jwplayer/gapro.js
@@ -1077,6 +1077,13 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+khanoumi.com$removeparam=/itm/
+khanoumi.com$removeparam=/utm/
+mag.khanoumi.com##.widget-ad-image
+@@||ads.khanoumi.com/storage/*$image,1p
+@@||ads.khanoumi.com/api/services/app/AdsTrackingPanel/Post$xhr,1p
+! TODO: Block the click tracking (https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1152662348)
+
 ||cdn.khodrobank.com/images/banners/
 khodrobank.com##.mobile-fixed-banner
 
@@ -1153,6 +1160,10 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||meghdadit.com/api/Subscriber/is-firsttime-user
+@@||meghdadit.com/files/ad/*$image,1p
+@@||mag.meghdadit.com/wp-content/uploads/2022/05/advertising-in-telegram$image,1p
+
 ||montiego.ir/dl/popmon.js
 montiego.ir##.txt-ads-sl
 
@@ -1243,7 +1254,7 @@ nicmusic.net#@#.boxads
 netpaak.com##.stream-item-widget
 netpaak.com##.stream-item-above-post.stream-item
 
-||sentry.namava.ir
+||sentry.namava.ir^$all
 ! ||namava.ir/api/v1.0/users/anonymous-info
 ! TODO: Remove arbitrary IP limitaion
 
@@ -1447,6 +1458,8 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||snappfood.ir/*/track^$all
+
 sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
 
