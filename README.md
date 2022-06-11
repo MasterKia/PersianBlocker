@@ -3,7 +3,7 @@
 
 **🎉🎉🎉 لیست PersianBlocker به لیست های Regional (منطقه ای) افزونه uBlock Origin افزوده شد.** 
 
-(تنظیمات -> زبونه Filter lists یا فیلترلیست ها -> بخش Regions, languages (مناطق، زبان ها)
+> تنظیمات -> زبونه Filter lists یا فیلترلیست ها -> بخش Regions, languages (مناطق، زبان ها)
 
 ![image](https://user-images.githubusercontent.com/17685483/173194632-0d0eeca8-eb36-4edd-a5cc-80abb236ae27.png)
 
