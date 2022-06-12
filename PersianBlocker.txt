@@ -1081,12 +1081,13 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
-khanoumi.com$removeparam=/itm/
-khanoumi.com$removeparam=/utm/
+! https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1153092391
+khanoumi.com##+js(rc, ads-track, , stay)
+||khanoumi.com$removeparam=/itm/
+||khanoumi.com$removeparam=/utm/
 mag.khanoumi.com##.widget-ad-image
 @@||ads.khanoumi.com/storage/*$image,1p
-@@||ads.khanoumi.com/api/services/app/AdsTrackingPanel/Post$xhr,1p
-! TODO: Block the click tracking (https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1152662348)
+! @@||ads.khanoumi.com/api/services/app/AdsTrackingPanel/Post$xhr,1p
 
 ||cdn.khodrobank.com/images/banners/
 khodrobank.com##.mobile-fixed-banner
