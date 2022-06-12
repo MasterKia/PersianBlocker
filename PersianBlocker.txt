@@ -1293,6 +1293,9 @@ opizo.me##+js(aeld, blur)
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||parspack.com$removeparam=/utm/
+! Example: bottom of zoomit.ir
+
 ||pichak.net/nohe/amar.js
 ||pichak.net/ads/
 pichak.net##noscript:remove()
@@ -1493,7 +1496,7 @@ shirazsong.in##.no-mobile.out-container:nth-of-type(3)
 ||snn.ir/fa/generate/userid
 snn.ir##.adv_mobile
 
-sourceiran.com$removeparam=/utm/
+||sourceiran.com$removeparam=/utm/
 ||sourceiran.com/wp-content/plugins/layered-popups/js/ads
 sourceiran.com##.ads-link
 sourceiran.com##.middle-ads
@@ -1664,7 +1667,7 @@ trainbit.com##+js(nano-stb, , , 0)
 
 ||tafrihi.com/wp-content/plugins/simple-ads
 
-techrato.com$removeparam=/utm/
+||techrato.com$removeparam=/utm/
 techrato.com##.header-ads
 techrato.com##*[id^="widget_sp_image-"]
 ! techrato.com###widget_sp_image-126
