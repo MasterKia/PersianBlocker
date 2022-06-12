@@ -1083,6 +1083,7 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ! >> K <<
 ! https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1153092391
 khanoumi.com##+js(rc, ads-track, , stay)
+||ads.khanoumi.com/api/services/app/adstrackingpanel^$all
 ||khanoumi.com$removeparam=/itm/
 ||khanoumi.com$removeparam=/utm/
 mag.khanoumi.com##.widget-ad-image
