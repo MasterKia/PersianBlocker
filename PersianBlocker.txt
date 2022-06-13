@@ -1621,6 +1621,28 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+! ||api.torob.com^$removeparam=~prk
+||api.torob.com^$removeparam=source
+||api.torob.com^$removeparam=uid
+||api.torob.com^$removeparam=discover_method
+||api.torob.com^$removeparam=_bt__experiment
+! ||api.torob.com^$removeparam=search_id
+! ^ Sometimes causes infinite loading
+||api.torob.com^$removeparam=suid
+||api.torob.com^$removeparam=bvid
+||api.torob.com^$removeparam=session_id
+||api.torob.com^$removeparam=is_adv
+||api.torob.com^$removeparam=btn
+||api.torob.com^$removeparam=shop_rank
+||api.torob.com^$removeparam=device
+||api.torob.com^$removeparam=_url_referrer
+||api.torob.com^$removeparam=_http_referrer
+||api.torob.com^$removeparam=_ft__shop_score
+||api.torob.com^$removeparam=_ft__ab_test
+! ||api.torob.com/*/base-product/details-log-click^
+! Causes infinite loading
+torob.com##.seller-element.shop-card:has-text(آگهی)
+
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
 takmili.com##+js(acis, document.oncontextmenu)
 takmili.com##+js(set, disable_copy, noopFunc)
