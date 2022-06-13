@@ -550,7 +550,7 @@ bils.ir##div:nth-of-type(3)
 behmusic.com##.mp_left > .mpbb_ads.mpb_body
 behmusic.com##.mp_right > .mpbb_ads.mpb_body
 
-@@||blogfa.com/static/ads/
+@@||blogfa.com/static/ads/$image,1p
 
 ||bultannews.com/files/adv/
 bultannews.com##.parent_txt_adv_container2
@@ -607,7 +607,7 @@ beytoote.com##.content-slider
 beytoote.com##.hamsan-container
 @@||beytoote.com/ads/images_$image,1p
 @@||beytoote.com/ads/js/$script,1p
-@@||ads.beytoote.com/live_chat
+@@||ads.beytoote.com/live_chat$1p
 
 ||boyernews.com/wp-content/plugins/FAdvertisement/
 boyernews.com##.topAds
@@ -657,7 +657,7 @@ cannews.aero##.center-talgh
 click.ir##.clads-inner
 
 ||caffecinema.com/media/banners/
-@@||caffecinema.com/media/banners/telegram-$image
+@@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
 download1music.ir##[id^="pos-article-display-"]
@@ -749,10 +749,11 @@ dabi.ir##.Js_Div5
 ||digikala.com^$removeparam=/utm/
 ||digikala.com^$removeparam=affid
 ||digikala.com/sw.js
+||digikala.com/tracker^$all
 ||tracker.digikala.com^$all
 ||new-sentry.digikala.com^$all
 ||analytics.digikala.com^$all
-@@||analytics.digikala.com/shopping/product-online-visitor/
+@@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 ||digikalajet.com^$removeparam=/promo/
 ||digikalajet.com^$removeparam=/utm/
 ||digistyle.com^$removeparam=/promo/
@@ -857,7 +858,7 @@ freescript.ir##.left.sidebar_widget:nth-of-type(3)
 
 ||faaltarin.com/adv-load.asp
 faaltarin.com##.advertisement
-@@||faaltarin.com/advertise-files/thumbnail$image
+@@||faaltarin.com/advertise-files/thumbnail$image,1p
 
 faceit.ir##.pull-right.zm-post-lay-a-area
 faceit.ir##.header-mdh
@@ -989,8 +990,8 @@ hamshahrionline.ir#@##ads-container
 ||i-video.ir/ipop.php
 
 iwo.ir##+js(nano-sib)
-@@||iwo.ir/ads.jpg
-@@||iwo.ir/data/home/ads.gif
+@@||iwo.ir/ads.jpg$image,1p
+@@||iwo.ir/data/home/ads.gif$image,1p
 
 ||ipinz.ir/wp-content/plugins/google-analytics
 
@@ -1167,7 +1168,7 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 
 ! >> M <<
 ||meghdadit.com/api/Subscriber/is-firsttime-user
-@@||meghdadit.com/files/ad/*$image,1p
+@@||meghdadit.com/files/ad/$image,1p
 @@||mag.meghdadit.com/wp-content/uploads/2022/05/advertising-in-telegram$image,1p
 
 ||montiego.ir/dl/popmon.js
@@ -1279,11 +1280,11 @@ niksalehi.com##.banner_sidebar
 niksalehi.com##.box-ads-single
 niksalehi.com##div.box-tag-single:nth-of-type(2)
 niksalehi.com##.box-custom.box_other
-@@||niksalehi.com/wp-content/uploads/*/adv
+@@||niksalehi.com/wp-content/uploads/*/adv$image,1p
 
 ||nex1music.ir/bnr/
 ||via.placeholder.com^$domain=nex1music.ir
-@@||nex1music.ir/upload/ads/*$image
+@@||nex1music.ir/upload/ads/$image,1p
 
 namnak.com##.Dr.D2.Cu.o
 
@@ -1328,7 +1329,7 @@ p30day.ir##.textAds
 
 ||parsiblog.com/adv/
 ||imencms.com/mobile/ptadv.jpg
-@@||parsiblog.com/Adv/imgs/
+@@||parsiblog.com/Adv/imgs/$image,1p
 ! TODO: Remove "سفارش تبلیغ" from parsiblog weblogs
 
 plus.ir##.top-ad
@@ -1397,7 +1398,7 @@ par30games.net#@#.sideads
 par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
 par30games.net##.adbox
-@@||par30games.net/wp-content/uploads/*/advertise-plan$image
+@@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p
 
 ||paperhub.ir/images/*.gif
 
@@ -1434,8 +1435,6 @@ rozblog.com###middle-ads
 rozup.ir##.txtad
 rozup.ir##.center.body_c > div:nth-of-type(2)
 rozup.ir##.center.body_c > div > div
-
-@@||rabimo.com/wp-content/plugins/shop-submit-ads/assets/
 
 ||rokna.net/zxc/*.htm$subdocument
 rokna.net##[href^="/advertisements/"]
@@ -1526,7 +1525,7 @@ sarzamindownload.com##.GSLeftSide.col-lg-3.col-md-3.col-sm-12.col-xs-12 > div.wi
 sarzamindownload.com##div.widget_style_funcs.GSBlock:nth-of-type(2) > div > .GSblock
 sarzamindownload.com##div.OpenTable:nth-of-type(2)
 sarzamindownload.com##div.OpenTable:nth-of-type(3)
-@@||sarzamindownload.com/images/Ads_Place.jpg$image,domain=sarzamindownload.com
+@@||sarzamindownload.com/images/Ads_Place.jpg$image,1p
 
 ||softgozar.com/Image/SiteAde/
 softgozar.com###advBan
@@ -1619,7 +1618,7 @@ saat24.news###box167
 1000site.ir##.kanban-col
 1000site.ir##.col-md-offset-6.col-md-3
 @@||1000site.ir/asset/images/images/adpage/$image,1p
-@@||1000site.ir/home/ads/asset/favicon.ico
+@@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
@@ -1916,13 +1915,13 @@ zoomg.ir##+js(aopr, banner)
 zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
-@@||zoomg.ir/banners/demo/advertise-zoomg.jpg
+@@||cdn.zoomg.ir/banners/demo/advertise-$image,1p
 
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/
 zoomit.ir##.wide-adv-box
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
-@@||zoomit.ir/assets/img/advertise-$image,1p
+@@||cdn01.zoomit.ir/assets/img/advertise-$image,1p
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
