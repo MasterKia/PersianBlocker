@@ -72,6 +72,8 @@
 ! >> B <<
 ||backlink.behtarinseo.ir/ads
 ||backority.ir^$3p
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/99240
 ||blogfa.com/a/
 
 ! >> C <<
@@ -90,6 +92,8 @@
 ||deemanetwork.com^$all
 ||deema.agency^$all
 
+! https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
+! https://github.com/AdguardTeam/AdguardFilters/issues/79983
 ||click.digiato.com^$all
 ! ^ Used by Digiato, Vigiato, Rooziato
 
@@ -216,8 +220,14 @@
 ||tbli.ir^$all
 
 ||tavoos.net^$all
-||player.tavoos.net/vast.js
-||player.tavoos.net/jwpsrv.js
+@@||player.tavoos.net/jwplayer.js$script
+@@||player.tavoos.net/jwplayer.core.controls.html5.js$script
+@@||player.tavoos.net/tavoos-player.css$stylesheet
+@@||player.tavoos.net/assets/fonts/$font
+@@||player.tavoos.net/assets/$image
+! ^ Example: film.tebyan.net
+! ||player.tavoos.net/jwpsrv.js
+! ||player.tavoos.net/vast.js
 ! ||tavoos.net/services/banner
 ! ||tavoos.net/bannerANDnative/
 ! ||tavoos.net/services/vast/*$xhr
@@ -406,11 +416,15 @@ abadis.ir##x
 asiadl.ir##div[class="my-3"]
 asiadl.ir##.img-fluid.banner-img
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/96707
 asriran.com##+js(alert-buster)
 ||asriran.com/files/adv/$important
 ||asriran.com/fa/generate/userid
+||cdn.asriran.com/media/vendors/videojs/css/videojs.ads.css
+||cdn.asriran.com/media/jwplayer//vast.js
 ||excoino.com^$domain=asriran.com
-asriran.com##.webgardi_main.row
+asriran.com##.adv_sticky
+asriran.com##.webgardi_main
 asriran.com##.click1000_allcontent
 
 ||androidzoom.ir/wp-content/uploads/*/*.gif
@@ -595,16 +609,19 @@ beautyhome.ir##.widget_text.bdaia-widget.widget
 beautyhome.ir##.mks_ads_widget
 beautyhome.ir###ad-hoc-2
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/96101
 ||beytoote.com/ads/socket.io.js
-||beytoote.com/html_ads/ads_css/
+||beytoote.com/html_ads/
 ||storage.beytoote.com/images/adsbeytoote/
 ||ads.beytoote.com
 beytoote.com###headerbar
+beytoote.com###bil_fix_top_pc
 beytoote.com##.countclick
-beytoote.com##.m-banner-r
-beytoote.com##.pcfadv8
+beytoote.com##div[class^="pcfadv"]
 beytoote.com##.content-slider
 beytoote.com##.hamsan-container
+beytoote.com##.m-banner-r
+beytoote.com##.c-ads-banner
 @@||beytoote.com/ads/images_$image,1p
 @@||beytoote.com/ads/js/$script,1p
 @@||ads.beytoote.com/live_chat$1p
@@ -666,6 +683,7 @@ download1music.ir##a:has(a>img[class^="aligncenter size-full "])
 ||digiro.ir/wp-content/plugins/better-ads
 ||digiro.ir/wp-content/uploads/*/*.gif
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ||dlfox.com/wp-content/uploads/*/*.gif
 ||dlfox.com/wp-admin/admin-ajax.php?action=adwised
 dlfox.com##.ADS_wrapper
@@ -716,6 +734,7 @@ donya-e-eqtesad.com##.zxc
 donya-e-eqtesad.com##.zxc-m
 donya-e-eqtesad.com##.type-resource-image
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/56925
 ||downloadsoftware.ir/images/ads/
 downloadsoftware.ir##.top-ads
 downloadsoftware.ir##.ads-fix-post
@@ -725,14 +744,19 @@ downloadsoftware.ir##.ads-matni
 ||analytics.dunro.com
 ||api.dunro.com/api/*/geoip
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/33352
+! https://github.com/AdguardTeam/AdguardFilters/issues/90477
 downloadly.ir##.postfixedafterpost
 downloadly.ir##.stacking_default.valign_top.wpb_row:nth-of-type(8)
+downloadly.ir###kaprila_linktable
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/109129
 ||digiboy.ir/wp-content/img/sponsors/
 ||digiboy.ir/wp-content/img/sidebar/
 ||digiboy.ir/wp-content/img/header/
+digiboy.ir###header-bar
 digiboy.ir##.sidebar-digiads
-digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
+digiboy.ir##.slider-tab-ring:not(:has(>:has-text(دیدگاه)))
 
 ||ads.dabi.ir
 ||dabi.ir/images/page-ads
@@ -742,6 +766,7 @@ digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
 ||dabi.ir/banner/Banner
 dabi.ir##.Js_Div5
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/79983
 ||digiato.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
 
 ||digikala.com^$removeparam=/promo/
@@ -768,6 +793,7 @@ doostihaa.com##.adsfix_box
 doostihaa.com##.ads_txtcv
 doostihaa.com##aside.lefts_sides:nth-of-type(6)
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ||cdn.hostdl.com/assets/downloadha.gif
 downloadha.com##.ads
 downloadha.com##.popup-ads
@@ -797,9 +823,12 @@ entekhab.ir##.social-tele
 entekhab.ir##.col-lg-9.col-md-8.col-sm-18.col-xs-36.col-3-2 > .col-xs-36.attention > header > .col-xs-36.blue-header
 entekhab.ir##.col-lg-9.col-md-8.col-sm-18.col-xs-36.col-3-2 > .col-xs-36.attention > section > .col-xs-36.attention-contents
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/104314
 eghtesadnews.com##[href^="/advertisements/"]
 eghtesadnews.com##.zxc
+eghtesadnews.com##.advs-wrapper
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/95321
 eghtesadonline.com##.tiny_linky_boxes
 eghtesadonline.com##.talfighat-BS
 eghtesadonline.com##.type-resource-image
@@ -871,6 +900,7 @@ farnet.io##.eif-link
 farnet.io##.clearfix.item-inner:has-text(تبلیغاتی)
 ! TODO: Fix farnet.io/pr
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 farsroid.com##+js(aopr, faPa)
 ||farsroid.com/js/?url=$script
 ! ||farsroid.com/api/os-info$xhr
@@ -979,6 +1009,9 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+! https://github.com/AdguardTeam/AdguardFilters/issues/115273
+imvbox.com##div[class^="cr-banner-"]
+
 ||ipsite.ir^$all
 ! ^ Used by bils.ir (ipsite.ir/JSShow/js20212022.js)
 
@@ -1116,10 +1149,13 @@ kojaro.com##.bannercontainer
 kojaro.com##.mobileBanner
 @@||images.kojaro.com/assets/ad/advertise-$image,1p
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/33437
+! https://github.com/AdguardTeam/AdguardFilters/issues/101735
 khabaronline.ir###mainbody:has(#ads-container) .main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
 khabaronline.ir###ads-container
 khabaronline.ir###header-ad
 khabaronline.ir###box193
+khabaronline.ir##.ads
 
 ||koolakmag.ir/wp-admin/admin-ajax.php?postviews_id=
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
@@ -1150,6 +1186,8 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+languagedownload.ir##.type-sticky.status-publish
+
 ||lamtakam.com/img/ad
 lamtakam.com##.msg_ad_explain
 lamtakam.com##.msg_ad_subject
@@ -1167,6 +1205,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/AdguardTeam/AdguardFilters/issues/56886
+mobile.ir##.b
+mobile.ir##.apnl
+mobile.ir###bottombanner
+
 ||meghdadit.com/api/Subscriber/is-firsttime-user
 @@||meghdadit.com/files/ad/$image,1p
 @@||mag.meghdadit.com/wp-content/uploads/2022/05/advertising-in-telegram$image,1p
@@ -1245,6 +1288,10 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+! https://github.com/AdguardTeam/AdguardFilters/issues/83080
+||namasha.com/visit?id=
+||static.namasha.com/content/player*/vast.js
+
 ! nex1.ir##+js(set, needpop, 1)
 ||nex1.ir/p.js
 ||nex1.ir/p.php
@@ -1392,6 +1439,7 @@ parsnews.com##.adv_img
 parsipet.ir##.ad_global_header
 parsipet.ir##.body_wrapper > div:nth-of-type(4)
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/83232
 ! ||par30games.net/wp-content/uploads/*.gif
 par30games.net##[href^="https://playpod.ir/"]
 par30games.net#@#.sideads
@@ -1527,6 +1575,7 @@ sarzamindownload.com##div.OpenTable:nth-of-type(2)
 sarzamindownload.com##div.OpenTable:nth-of-type(3)
 @@||sarzamindownload.com/images/Ads_Place.jpg$image,1p
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/92877
 ||softgozar.com/Image/SiteAde/
 softgozar.com###advBan
 softgozar.com##.adv_text
@@ -1572,6 +1621,8 @@ simcart.com##.banner9
 
 ! shenoto.com##.ads-image
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/78626
+! https://github.com/AdguardTeam/AdguardFilters/issues/81762
 ||shahrsakhtafzar.com/fa/images/banners/
 shahrsakhtafzar.com##.ads2col
 shahrsakhtafzar.com##.ads2colmobile
@@ -1756,10 +1807,13 @@ tiwall.com##.sponsor-link
 tinn.ir##[href^="/advertisements/"]
 tinn.ir##.type-resource-image
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/96925
 ||tgju.org/cdn-cgi/apps/head
 ||static.accessban.com/advertisement/
+||static.accessban.com/images/advertisement/
 ||api.accessban.com/v1/advertisement/
 tgju.org###popup-layer-container
+tgju.org##.advertise
 tgju.org##.bottom-left-ad
 tgju.org##.bottom-right-ad
 
@@ -1769,12 +1823,21 @@ tejaratnews.com##.full-width-tabligh
 tejaratnews.com##.tj-ad-wrapper
 tejaratnews.com##div.widget.aside-widget:nth-of-type(5) > .section-title--dotted.section-title > .section-title__h
 
-||api.tebyan.net/api/TemplatePageBox/GetBoxesPlus
+! https://github.com/AdguardTeam/AdguardFilters/issues/121462
+! ||api.tebyan.net/api/TemplatePageBox/GetBoxesPlus
+||tebyan.net/Base/UserLog^
+||tebyan.net/Home/UserLog^
+||tebyan.net/home/Visit^
+||tebyan.net/film/counter^
+||film.tebyan.net/files/jwplayer//vast.js
+tebyan.net##.ads
+article.tebyan.net##.AdsContainer
 
 ||newsmedia.tasnimnews.com/Tasnim/Uploaded/Ads/
 tasnimnews.com##.ad-item
 tasnimnews.com##.ads-footer
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/88769
 ||tarafdari.com/advertise
 ||tarafdari.com/sites/default/files/apps/advertise
 ||tarafdari.com/modules/statistics/statistics.php
@@ -1929,6 +1992,10 @@ yeknet.ir##+js(aopr, needpop)
 ! >> Z <<
 zohur12.ir##.sideads
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/28759
+! https://github.com/AdguardTeam/AdguardFilters/issues/78626
+! https://github.com/AdguardTeam/AdguardFilters/issues/79988
+! https://github.com/AdguardTeam/AdguardFilters/issues/110569
 zoomg.ir##+js(aopr, banner)
 ||zoomg.ir/common/visitcount/
 ||zoomg.ir/cdn-cgi/apps/head/*$script
@@ -1939,6 +2006,8 @@ zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
 @@||cdn.zoomg.ir/banners/demo/advertise-$image,1p
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/78626
+! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/
 zoomit.ir##.wide-adv-box
