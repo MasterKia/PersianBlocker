@@ -1695,7 +1695,7 @@ saat24.news###box167
 ||api.torob.com^$removeparam=_ft__shop_score
 ||api.torob.com^$removeparam=_ft__ab_test
 ! ||api.torob.com/*/base-product/details-log-click^
-! Causes infinite loading
+! ^ Causes infinite loading
 torob.com##.seller-element.shop-card:has-text(آگهی)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
