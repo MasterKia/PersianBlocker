@@ -1595,6 +1595,10 @@ soft98.ir,~forum.soft98.ir##img[src*="forum.soft98.ir/"]:upward(1):style(pointer
 soft98.ir##article.card > div[class]:nth-child(5):style(pointer-events:none !important)
 soft98.ir##[class$="-link"] > .text-danger:upward(2)
 soft98.ir##img[src*="hostdl"]:upward(1):style(pointer-events:none !important)
+soft98.ir##.b7d9x:remove()
+soft98.ir###sideb4r-sticky:remove()
+soft98.ir###sidebar > section.card > .card-header:has-text(آسیـاتک):remove()
+soft98.ir##.text-center.card-body:remove()
 forum.soft98.ir##.shad
 @@||soft98.ir^$ghide
 
