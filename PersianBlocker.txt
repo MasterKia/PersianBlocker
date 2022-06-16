@@ -779,13 +779,16 @@ dabi.ir##.Js_Div5
 ||tracker.digikala.com^$all
 ||new-sentry.digikala.com^$all
 ||analytics.digikala.com^$all
+digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
+digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center)
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
+
 ||digikalajet.com^$removeparam=/promo/
 ||digikalajet.com^$removeparam=/utm/
 ||digistyle.com^$removeparam=/promo/
 ||digistyle.com^$removeparam=/utm/
 ||digistyle.com/tracker^$all
-digikala.com##.mb-4:has-text(Ad)
+
 
 ||sentry-new.divar.ir^$all
 ||ammaar.delivery.zeerak.cloud
