@@ -780,7 +780,7 @@ dabi.ir##.Js_Div5
 ||new-sentry.digikala.com^$all
 ||analytics.digikala.com^$all
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
-digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center)
+digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward(1)
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 
