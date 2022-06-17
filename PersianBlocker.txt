@@ -1486,6 +1486,7 @@ rozblog.com##.advertising
 rozblog.com###middle-ads
 
 ||rozup.ir/theme/*/img/txtad.png
+*$image,strict3p,domain=rozup.ir
 rozup.ir##.txtad
 rozup.ir##.center.body_c > div:nth-of-type(2)
 rozup.ir##.center.body_c > div > div
