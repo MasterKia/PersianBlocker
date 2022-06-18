@@ -1959,6 +1959,10 @@ vista.ir##[href^="/ad/"]
 vista.ir##.textad
 
 ! >> W <<
+wikisemnan.com###text-12
+wikisemnan.com###text-24
+wikisemnan.com#@#.ads-image
+
 ||webii.ir/Images/Banner/
 ||webii.ir/images/loading.svg
 webii.ir###slider-box
