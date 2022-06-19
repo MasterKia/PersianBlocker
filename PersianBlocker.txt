@@ -550,6 +550,8 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+||behrah.com/tabligh.js
+
 ||b2n.ir/static/banners/advt.png
 ||b2n.ir/adv
 b2n.ir##.banner
