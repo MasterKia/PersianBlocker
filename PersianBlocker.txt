@@ -1025,6 +1025,7 @@ imvbox.com##div[class^="cr-banner-"]
 
 ||analytics.irancell.ir^
 
+! https://github.com/MasterKia/PersianBlocker/pull/2
 idehalmag.com##.primary-sidebar-widget:has(a[rel*=sponsored])
 idehaltech.com##.secondary-sidebar-widget:has(a[rel*=sponsored])
 
