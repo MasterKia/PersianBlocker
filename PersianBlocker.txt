@@ -1025,7 +1025,8 @@ imvbox.com##div[class^="cr-banner-"]
 
 ||analytics.irancell.ir^
 
-! idehaltech.com##.sidebar-column-secondary.sidebar-column.col-sm-2
+idehalmag.com##.primary-sidebar-widget:has(a[rel*=sponsored])
+idehaltech.com##.secondary-sidebar-widget:has(a[rel*=sponsored])
 
 ||i-video.ir/ipop.js
 ||i-video.ir/ipop.php
