@@ -492,6 +492,7 @@ aparat.com##.side-ads
 aparat.com###sideAds
 aparat.com##.ad-link
 aparat.com##.ad-banner
+aparat.com##.dsp-ad
 aparat.com#@#.list-responsive.list-wrapper
 ! ^ TODO: Investigate
 ! TODO: Check for more possible filters
