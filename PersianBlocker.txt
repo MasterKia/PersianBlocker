@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-06-09
+! Last modified: 2022-07-08
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
@@ -31,6 +31,9 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||amaroid.net^$all
+||lnk.amaroid.net^$all
+
 !#if adguard
 ||aparat.com^$third-party,cookie
 !#endif
@@ -268,6 +271,8 @@
 ! >> X <<
 
 ! >> Y <<
+||yelloadwise.ir^$all
+
 ||yektanet.com^$all
 ||yekbux.com^$all
 
