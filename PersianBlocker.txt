@@ -871,6 +871,10 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+footballi.net##.ads-row
+footballi.net##.mediaad-top-row
+footballi.net##.mediaad-row
+
 farskids.me#@#.ads-banner
 
 ||freedownload.ir/images/customer/
@@ -1165,6 +1169,8 @@ kojaro.com##.banner-wrapper
 kojaro.com##.advertisement-in-topic
 kojaro.com##.bannercontainer
 kojaro.com##.mobileBanner
+kojaro.com##.homepage-content
+kojaro.com##.article-mobile-inContent
 @@||images.kojaro.com/assets/ad/advertise-$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
@@ -1464,6 +1470,7 @@ par30games.net#@#.sideads
 par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
 par30games.net##.adbox
+par30games.net##.mobilebanner
 @@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p
 
 ||paperhub.ir/images/*.gif
