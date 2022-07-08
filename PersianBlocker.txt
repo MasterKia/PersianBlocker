@@ -26,6 +26,8 @@
 ! ##[href^="https://gameup.ir/"]
 
 ! /najva.js
+
+! /jwplayer/vast.js
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
@@ -871,7 +873,15 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+||fb-gw.bef.rest^$all
+||api.footballi.net/api/*/user/init^$all
+||api.footballi.net/api/*/news/visit^$all
+||sentry.footballiapp.com^$all
+||footballi.net/assets/shared-application/scripts/analytics
+||footballi.net/assets/shared-application/scripts/jwplayer/vast.js
+||footballi.net/video/*/undefined/vast.js
 footballi.net##.ads-row
+footballi.net##.ads-row-left
 footballi.net##.mediaad-top-row
 footballi.net##.mediaad-row
 
@@ -1229,6 +1239,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||myket.ir^$removeparam=/utm/
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56886
 mobile.ir##.b
 mobile.ir##.apnl
