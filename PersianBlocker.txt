@@ -33,6 +33,10 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||adtube.ir^$all
+
+||advn.ir^$all
+
 ||amaroid.net^$all
 ||lnk.amaroid.net^$all
 
@@ -75,13 +79,17 @@
 ||abzarfa.com/tools/ip
 
 ! >> B <<
+||radar.bayan.ir^$all
+
 ||backlink.behtarinseo.ir/ads
-||backority.ir^$3p
+||backority.ir^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99240
 ||blogfa.com/a/
 
 ! >> C <<
+||clickaval.com^$all
+
 ||congoro.com^$all
 
 ! @@||clickyab.com^$1p
@@ -91,6 +99,8 @@
 ||chabok.io^$all
 
 ! >> D <<
+||davedbux.ir^$all
+
 ||denutility.com/*/tabligh/
 ! ^ Used by eghtesadnews.com
 
@@ -110,6 +120,7 @@
 ||e-earn.ir^$3p
 
 ! >> F <<
+||facepop.org^$all
 ||farsbux.ir^$all
 ||fastclick.ir^$all
 ||fa-tools.ir/code/rightclick/right-click1.js
@@ -163,6 +174,8 @@
 ! >> O <<
 
 ! >> P <<
+||popina.ir^$all
+
 ||popunder.ir^$all
 ! TODO: Remove it, Used by marzfun.com
 
@@ -180,7 +193,7 @@
 ! ||phoenixad.io/click^$all
 
 ||partclick.ir^$3p
-||persianrank.ir^$3p
+||persianrank.ir^$all
 ||popgozar.com^$all
 ||popupplus.ir^$all
 ||popupme.net^$all
@@ -201,6 +214,8 @@
 /include/rozblog_ads_js
 
 ! >> S <<
+||slideskin.ir/ads/pop.php^$all
+
 ||sendword.ir^$all
 ! Used by i-video.ir
 
@@ -218,6 +233,10 @@
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
+||te1.ir^$all
+
+||talapop.ir^$all
+
 ||titr.online^$3p
 ! ^ Used by my-film.pw
 
@@ -239,7 +258,7 @@
 ! ||tavoos.net/tavoos_player/pushvideo/tavoos_push.js
 ! ||tavoos.net/services/retargeting
 
-||cashback.takhfifan.com^$3p
+||cashback.takhfifan.com^$all
 ! TODO: Investigate ^
 
 ||tapsell.ir^$all
@@ -646,6 +665,8 @@ boyernews.com##center
 boyernews.com##.table-striped.table
 
 ! >> C <<
+||sentry.cafebazaar.org^$all
+
 ! coffeeapps.ir##+js(nowoif)
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
@@ -883,6 +904,7 @@ estekhtam.com#@#.ads-bottom
 footballi.net##.ads-row
 footballi.net##.ads-row-left
 footballi.net##.mediaad-top-row
+footballi.net##.mediaad-row-top
 footballi.net##.mediaad-row
 
 farskids.me#@#.ads-banner
@@ -2060,6 +2082,7 @@ zoomg.ir##.top-ads
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/
 zoomit.ir##.wide-adv-box
+zoomit.ir##.wide-adv-row-home
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
 @@||cdn01.zoomit.ir/assets/img/advertise-$image,1p
 
