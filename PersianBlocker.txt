@@ -2080,6 +2080,10 @@ zoomg.ir##+js(aopr, banner)
 zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
+zoomg.ir##.afterintro
+!#if env_mobile
+zoomg.ir###mobileBannerAfterTags
+!#endif
 @@||cdn.zoomg.ir/banners/demo/advertise-$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
