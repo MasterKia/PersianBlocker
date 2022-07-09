@@ -2081,10 +2081,16 @@ zoomg.ir##.top-ads
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
-||analytics.zoomit.ir^$all
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/
+||analytics.zoomit.ir^$all
+zoomit.ir##.wide-adv-row
 zoomit.ir##.wide-adv-row-home
+!#if env_mobile
+zoomit.ir##.InsideArticleIntro
+zoomit.ir##.article-mobile-inContent
+zoomit.ir###mobileBannerAfterTags
+!#endif
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
 @@||cdn01.zoomit.ir/assets/img/advertise-$image,1p
 
