@@ -14,13 +14,18 @@
 # ------------------------------------[FILTERS]-------------------------------------
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
-
 # >> A <<
+adtube.ir
+
+advn.ir
+
+amaroid.net
+lnk.amaroid.net
+
+asreasia.com/piwik
+
 analytics.aasaam.com
-analytics-1.aasaam.com
-analytics-2.aasaam.com
-analytics-3.aasaam.com
-analytics-4.aasaam.com
+analytics-.aasaam.com
 
 adwised.com
 adwisedfs.com
@@ -31,7 +36,7 @@ adnegah.net
 adpulse.ir
 adsima.net
 adtrace.io
-akhbarrasmi.com
+akhbarrasmi.com$3p
 affili.ir
 amarfa.ir
 ayyaar.ir
@@ -42,35 +47,37 @@ affstat.adro.co
 affstat.digikala.com
 affiliate.digikala.com
 
-dsp.aparat.com
 # >> B <<
-backlink.behtarinseo.ir
+radar.bayan.ir
+
 backority.ir
 
 # >> C <<
+clickaval.com
 congoro.com
-
 clickyab.com
-
 chabok.io
 
 # >> D <<
-denutility.com
-# ^ Used by eghtesadnews.com
+davedbux.ir
 
 deemanetwork.com
 deema.agency
 
+# https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
+# https://github.com/AdguardTeam/AdguardFilters/issues/79983
 click.digiato.com
 # ^ Used by Digiato, Vigiato, Rooziato
 
 # >> E <<
-e-earn.ir
 
 # >> F <<
+facepop.org
 farsbux.ir
 fastclick.ir
-widget.fafait.net
+
+ads.farakav.com
+#  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 
 # >> G <<
 
@@ -78,9 +85,6 @@ widget.fafait.net
 hantana.org
 
 # >> I <<
-s.infogram.com
-# ^ Used by hiapple.ir
-
 intrack.ir
 geoip.imber.live
 
@@ -100,7 +104,7 @@ linkyar.com
 # >> M <<
 metrix.ir
 trc.metrix.ir
-# Used by digikala.com
+# ^ Used by digikala.com
 
 mediaad.org
 magnetadservices.com
@@ -114,15 +118,19 @@ netbina.com
 # >> O <<
 
 # >> P <<
+popina.ir
+
 popunder.ir
 # TODO: Remove it, Used by marzfun.com
 
 popupdl.ir
-# ^ TODO: Remove it, Used by dlfox.com
+#  TODO: Remove it, Used by dlfox.com
 
 popland.info
 
-10.10.34.35
+peyvandha.ir
+10.10.34.
+10.10.34.*
 # ^ Example: imovie-dl.org
 
 phoenixad.io
@@ -133,9 +141,7 @@ popgozar.com
 popupplus.ir
 popupme.net
 pushe.co
-p30rank.ir
 # TODO: Investigate whether p30rank is an ads/tracking site
-pegah.tech
 publica.ir
 
 # >> Q <<
@@ -153,9 +159,11 @@ ads.safarme.ir
 # ^ Used by kojaro.com
 
 sabavision.com
-plus.sabavision.com
 
 # >> T <<
+te1.ir
+talapop.ir
+
 titr.online
 # ^ Used by my-film.pw
 
@@ -163,15 +171,19 @@ tabligheirani.ir
 tbli.ir
 
 tavoos.net
+# ^ Example: film.tebyan.net
 
 cashback.takhfifan.com
-# TODO: Investigate ^
+# TODO: Investigate 
 
 tapsell.ir
 toppopup.com
 counter.toolsir.com
 
 # >> U <<
+userfriendly.ir
+# ^ Used by bils.ir
+
 utopclick.com
 utop.ir
 
@@ -179,14 +191,15 @@ utop.ir
 vatanclick.ir
 
 # >> W <<
-weclick.ir
 webgozar.com
 webgozar.ir
-# webgozar has polls and tracking
+wideads.com
 
 # >> X <<
 
 # >> Y <<
+yelloadwise.ir
+
 yektanet.com
 yekbux.com
 
@@ -195,125 +208,4 @@ zarpop.com
 zanboor.net
 # TODO: Remove zanboor.net, but some websites still link to it
 
-#-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------#
-
-#-------------------------v Non-Persian Ads/Trackers/Annoyances Filters Used In Persian Websites v-----------------------#
-
-# >> A <<
-alexametrics.com
-adtodate.net
-
-a-ads.com
-# Used by mybia4music.com
-
-# >> B <<
-customfingerprints.bablosoft.com
-# ^ Used by yun.ir on shortlinks
-
-# >> C <<
-clarity.ms
-cloudflareinsights.com
-
-clickweb.click
-# TODO: Remove clickweb.click, but some websites still link to it
-
-# >> D <<
-doubleclick.net
-
-# >> E <<
-epicgameads.com
-# Used by gamesib.ir
-
-# >> F <<
-# >> G <<
-# >> H <<
-hotjar.com
-histats.com
-heatmap.it
-
-# >> I <<
-instant.page
-icanhazip.com
-# TODO: Investigate ^ (Used by takhfifan.com)
-ipify.org
-
-# >> J <<
-# >> K <<
-# >> L <<
-
-# >> M <<
-track.mailerlite.com
-
-# >> N <<
-js-agent.newrelic.com
-# ^ Used by virgool.io
-
-# >> O <<
-cdn.onesignal.com
-# ^ Used by downloadsoftware.ir, itna.ir
-
-# >> P <<
-prchecker.info
-# ^ Used by uplooder.net
-
-# >> Q <<
-# >> R <<
-
-# >> S <<
-system-notify.app
-# Used by marzfun.com
-
-statcounter.com
-simple-counter.com/hit.php
-
-sendpulse.com
-# ^ Used by sourceiran.com
-
-speedcurve.com
-# ^ Used by zoomit.ir
-
-sibautomation.com
-# ^ Used by akhbarrasmi.com
-
-# >> T <<
-toshare.io
-# ^ Used by barato.ir
-
-# >> U <<
-useinsider.com
-# ^ Used by Sheypoor.com
-
-uptrendsdata.com
-# ^ Used by aftabir.com
-
-# >> V <<
-# >> W <<
-w3counter.com
-wideads.com
-
-webengage.com
-# Used by takhfifan.com
-
-webpu.sh
-# Used by digistyle.com
-
-web.webpushs.com
-# ^ Used by zima.ir
-
-stats.wp.com
-# ^ Used by icoff.ee
-
-# >> X <<
-xjs.lol
-
-# >> Y <<
-mc.yandex.ru
-
-# >> Z <<
-
-#-------------------------^ Non-Persian Ads/Trackers/Annoyances Filters used in Persian websites ^-----------------------#
-
-
-#-------------------------v Site-Specific Filters v-----------------------#
-
-#-------------------------^ Site-Specific Filters ^-----------------------#
+#------------------------- Persian Ads/Trackers/Annoyances Filters -----------------------#
