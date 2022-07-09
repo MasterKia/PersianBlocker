@@ -2086,6 +2086,7 @@ zoomit.ir##+js(aopr, banner)
 ||analytics.zoomit.ir^$all
 zoomit.ir##.wide-adv-row
 zoomit.ir##.wide-adv-row-home
+zoomit.ir##.bannercontainer
 !#if env_mobile
 zoomit.ir##.InsideArticleIntro
 zoomit.ir##.article-mobile-inContent
