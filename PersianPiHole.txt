@@ -22,8 +22,6 @@ advn.ir
 amaroid.net
 lnk.amaroid.net
 
-asreasia.com/piwik
-
 analytics.aasaam.com
 analytics-.aasaam.com
 
@@ -36,7 +34,6 @@ adnegah.net
 adpulse.ir
 adsima.net
 adtrace.io
-akhbarrasmi.com$3p
 affili.ir
 amarfa.ir
 ayyaar.ir
