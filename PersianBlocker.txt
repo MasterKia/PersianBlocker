@@ -201,7 +201,6 @@
 ||pushe.co^$all
 ||p30rank.ir^$3p
 ! TODO: Investigate whether p30rank is an ads/tracking site
-||pegah.tech^$3p
 ||publica.ir^$all
 
 ||parsiblog.com/ga.js
@@ -284,7 +283,6 @@
 ||vatanclick.ir^$all
 
 ! >> W <<
-||weclick.ir^$3p
 ||webgozar.com/c.aspx*&t=counter
 ||webgozar.ir/c.aspx*&t=counter
 ||wideads.com^$all
