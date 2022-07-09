@@ -903,11 +903,14 @@ estekhtam.com#@#.ads-bottom
 ||footballi.net/assets/shared-application/scripts/analytics
 ||footballi.net/assets/shared-application/scripts/jwplayer/vast.js
 ||footballi.net/video/*/undefined/vast.js
-footballi.net#@#.ads-row
+!#if env_mobile
+footballi.net##.ads-row
+footballi.net##.mobile-header:style(top: 0 !important)
 footballi.net##.ads-row-left
 footballi.net##.mediaad-top-row
 footballi.net##.mediaad-row-top
 footballi.net##.mediaad-row
+!#endif
 
 farskids.me#@#.ads-banner
 
