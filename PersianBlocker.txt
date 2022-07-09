@@ -127,6 +127,7 @@
 ||widget.fafait.net^$3p
 
 ||farakav.com^$websocket
+||ads.farakav.com^$all
 ! ^ TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 
 ! >> G <<
@@ -192,7 +193,7 @@
 ! ||phoenixad.io^$popup
 ! ||phoenixad.io/click^$all
 
-||partclick.ir^$3p
+||partclick.ir^$all
 ||persianrank.ir^$all
 ||popgozar.com^$all
 ||popupplus.ir^$all
@@ -334,6 +335,9 @@
 
 ! >> F <<
 ! >> G <<
+||getclicky.com^
+! ^ Used by iranviva.com
+
 ! >> H <<
 ||hotjar.com^$3p
 ||histats.com^$3p
