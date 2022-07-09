@@ -2081,6 +2081,7 @@ zoomg.ir##.top-ads
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
+||analytics.zoomit.ir^$all
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/
 zoomit.ir##.wide-adv-row-home
