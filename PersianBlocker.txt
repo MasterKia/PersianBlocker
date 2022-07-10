@@ -896,6 +896,8 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+! https://github.com/MasterKia/PersianBlocker/issues/4
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1179570047
 ||fb-gw.bef.rest^$all
 ||api.footballi.net/api/*/user/init^$all
 ||api.footballi.net/api/*/news/visit^$all
@@ -1201,13 +1203,16 @@ khabarfarsi.com###block-block-120
 
 ||karpishe.com/api/collect/job-click/
 
+! https://github.com/MasterKia/PersianBlocker/issues/4
 ||kojaro.com/kojaro/ui/js/banner.js
 kojaro.com##.banner-wrapper
 kojaro.com##.advertisement-in-topic
 kojaro.com##.bannercontainer
-kojaro.com##.mobileBanner
 kojaro.com##.homepage-content
+!#if env_mobile
+kojaro.com##.mobileBanner
 kojaro.com##.article-mobile-inContent
+!#endif
 @@||images.kojaro.com/assets/ad/advertise-$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
@@ -1503,6 +1508,7 @@ parsipet.ir##.ad_global_header
 parsipet.ir##.body_wrapper > div:nth-of-type(4)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83232
+! https://github.com/MasterKia/PersianBlocker/issues/4
 ! ||par30games.net/wp-content/uploads/*.gif
 par30games.net##[href^="https://playpod.ir/"]
 par30games.net#@#.sideads
@@ -2079,6 +2085,7 @@ zohur12.ir##.sideads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110569
+! https://github.com/MasterKia/PersianBlocker/issues/4
 zoomg.ir##+js(aopr, banner)
 ||zoomg.ir/common/visitcount/
 ||zoomg.ir/cdn-cgi/apps/head/*$script
@@ -2095,6 +2102,7 @@ zoomg.ir###mobileBannerAfterTags
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
+! https://github.com/MasterKia/PersianBlocker/issues/4
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/
 ||analytics.zoomit.ir^$all
