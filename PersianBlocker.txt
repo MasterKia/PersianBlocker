@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-07-09
+! Last modified: 2022-07-10
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
@@ -1017,6 +1017,7 @@ gooyait.com#@#.banner-ads
 gsm.ir##[href^="/ads/"]
 gsm.ir##.sidebar_tabliq
 
+! https://github.com/MasterKia/PersianBlocker/issues/8
 ||gamefa.com/wp-content/uploads/*/*.gif
 ||gamefa.com/wp-content/uploads/*/ad
 ||gamefa.com/wp-content/uploads/*/gamefabanner
@@ -1025,6 +1026,8 @@ gamefa.com##.baners
 gamefa.com###image-advertise
 gamefa.com##.fix-ads
 gamefa.com##.single-advertise:nth-of-type(3)
+gamefa.com###fix-advertise
+! TODO: Remove ".fix-ads"
 
 ||ghatreh.com/ads/
 ||ghatreh.com/skins/default/js/analytics.js
