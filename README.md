@@ -81,7 +81,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianPiHole.tx
 1- از [اینجا](https://github.com/signup) توی گیتهاب ثبت نام کنید.
 
 2- از بخش [«Issues (مشکلات)»](https://github.com/MasterKia/PersianBlocker/issues/new) میتونید هرگونه مشکل با سایتی و یا پیشنهادی که دارید رو با من درمیون بذارید.
-* برای گزارش مشکل در سایت، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
+* برای گزارش مشکل، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
 
 #  [![GPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/gpl-3.0.en.html) لایسنس (پروانه)
 
