@@ -513,6 +513,7 @@ androidgozar.com##.cas-pubg
 ! androidgozar.com##div[class^="col-"]:has(div>div>a[class="ag-agah"])
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
+||aparat.com^$removeparam=/utm/
 ||dsp.aparat.com/*/dsp/bid?ads_type
 ||aparat.com/static/vendor/dox
 ||aparat.com/agf
@@ -521,8 +522,6 @@ aparat.com###sideAds
 aparat.com##.ad-link
 aparat.com##.ad-banner
 aparat.com##.dsp-ad
-aparat.com#@#.list-responsive.list-wrapper
-! ^ TODO: Investigate
 ! TODO: Check for more possible filters
 
 ||aftabir.com/uploads/banners/
