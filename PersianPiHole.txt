@@ -23,7 +23,7 @@ amaroid.net
 lnk.amaroid.net
 
 analytics.aasaam.com
-analytics-.aasaam.com
+analytics-*.aasaam.com
 
 adwised.com
 adwisedfs.com
