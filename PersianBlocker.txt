@@ -1695,11 +1695,18 @@ simcart.com##.banner9
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81762
+! https://github.com/MasterKia/PersianBlocker/issues/7
 ||shahrsakhtafzar.com/fa/images/banners/
+! shahrsakhtafzar.com##[href^="/fa/component/flexbanners/click/"]
 shahrsakhtafzar.com##.ads2col
+shahrsakhtafzar.com##.flexbanneritem
+shahrsakhtafzar.com##.pishnahad.custom > p
+shahrsakhtafzar.com###g-top
+!#if env_mobile
 shahrsakhtafzar.com##.ads2colmobile
-shahrsakhtafzar.com##.advert
-shahrsakhtafzar.com##[href^="/fa/component/flexbanners/click/"]
+shahrsakhtafzar.com##.mobile-fix-bottom
+!#endif
+
 sakhtafzar.com#@#.ads-title
 sakhtafzar.com#@#.ads-content
 sakhtafzar.com#@#.ads_box
