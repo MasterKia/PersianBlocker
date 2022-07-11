@@ -1999,8 +1999,14 @@ vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 virgool.io##.js-userLogin-popup
 
 ||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
-vgdl.ir##.stream-item-widget
-vgdl.ir##.alignnone
+||vgdl.ir/wp-content/uploads/*/*.gif
+||vgdl.ir/wp-content/uploads/*/*-ad-*$image
+vgdl.ir##.stream-item-top-wrapper
+vgdl.ir##.stream-item-above-post
+vgdl.ir#@#.stream-item-widget
+vgdl.ir##.stream-item-widget:has(a[href*="faradars.org"])
+vgdl.ir##.ads-fadeout
+@@||vgdl.ir/wp-content/uploads/*/how-to-fix-error-vgdl.ir_.gif$image,1p
 
 ||vazeh.com/cdn-cgi/apps/head
 ||vazeh.com/banners/
