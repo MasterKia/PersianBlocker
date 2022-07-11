@@ -1999,10 +1999,13 @@ vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 virgool.io##.js-userLogin-popup
 
 ||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
+||vgdl.ir/wp-content/uploads/*.gif
 vgdl.ir##body > div:nth-of-type(2)
 vgdl.ir##.stream-item-widget
 vgdl.ir##.stream-item-above-post
 vgdl.ir##.stream-item-top-wrapper
+vgdl.ir##.stream-item-mag
+vgdl.ir##.ads-fadeout
 
 ||vazeh.com/cdn-cgi/apps/head
 ||vazeh.com/banners/
