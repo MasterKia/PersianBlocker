@@ -1998,6 +1998,7 @@ vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 
 virgool.io##.js-userLogin-popup
 
+! https://github.com/MasterKia/PersianBlocker/pull/10
 ||vgdl.ir/wp-admin/admin-ajax.php?postviews_id=
 ||vgdl.ir/wp-content/uploads/*/*.gif
 ||vgdl.ir/wp-content/uploads/*/*-ad-*$image
