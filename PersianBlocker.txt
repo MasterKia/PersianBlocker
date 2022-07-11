@@ -175,6 +175,9 @@
 ! >> O <<
 
 ! >> P <<
+||phonroid.com^$all
+! ^ Example: par30games.net
+
 ||popina.ir^$all
 
 ||popunder.ir^$all
@@ -1511,13 +1514,14 @@ parsipet.ir##.body_wrapper > div:nth-of-type(4)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83232
 ! https://github.com/MasterKia/PersianBlocker/issues/4
-! ||par30games.net/wp-content/uploads/*.gif
+! https://github.com/MasterKia/PersianBlocker/issues/9
 par30games.net##[href^="https://playpod.ir/"]
-par30games.net#@#.sideads
+par30games.net##.fixedadv:upward(3)
 par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
-par30games.net##.adbox
+!#if env_mobile
 par30games.net##.mobilebanner
+!#endif
 @@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p
 
 ||paperhub.ir/images/*.gif
