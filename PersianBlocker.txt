@@ -1855,8 +1855,8 @@ timecity.ir##.banner
 timecity.ir##.sidebar-banners
 timecity.ir##.inner-wrapper-sticky > .mb-3
 
-||tabnak.ir/files/adv
-tabnak.ir##.footer_adv
+||cdn.tabnak.ir/files/adv/
+@@||cdn.tabnak.ir/files/adv/1557*.png$image
 tabnak.ir##.home_adv_height
 
 ! ||checks.telewebion.com
