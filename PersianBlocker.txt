@@ -1860,6 +1860,7 @@ timecity.ir##.inner-wrapper-sticky > .mb-3
 ||tabnak.ir/fa/ads/redirect^$all
 tabnak.ir##[href*="/ads/redirect/"]
 tabnak.ir##.film_box:has-text(مدرسه آنلاین)
+tabnak.ir##.stitle_box:has(.top_title:has-text(وب گردی))
 tabnak.ir##.home_adv_height
 tabnak.ir#@#.footer_adv
 !#if env_mobile
