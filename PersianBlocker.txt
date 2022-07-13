@@ -1856,16 +1856,17 @@ timecity.ir##.sidebar-banners
 timecity.ir##.inner-wrapper-sticky > .mb-3
 
 ! https://github.com/MasterKia/PersianBlocker/pull/12
+tabnak.ir##+js(set, renderAds, noopFunc)
 ||tabnak.ir/files/adv
 ||tabnak.ir/fa/ads/redirect^$all
 tabnak.ir##[href*="/ads/redirect/"]
 tabnak.ir##.film_box:has-text(مدرسه آنلاین)
 tabnak.ir##.stitle_box:has(.top_title:has-text(وب گردی))
 tabnak.ir##.home_adv_height
-tabnak.ir#@#.footer_adv
 !#if env_mobile
 tabnak.ir##.adv_header_fixed
 !#endif
+tabnak.ir#@#.footer_adv
 @@||cdn.tabnak.ir/files/adv/15572_972.png$image,1p
 @@||cdn.tabnak.ir/files/adv/15573_676.png$image,1p
 @@||cdn.tabnak.ir/files/adv/15574_675.png$image,1p
