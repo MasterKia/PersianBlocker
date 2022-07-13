@@ -1495,6 +1495,7 @@ pgnews.ir##div > div > a.toolt > .onsc
 
 ||pedal.ir/wp-admin/admin-ajax.php?postviews_id
 pedal.ir##.stream-item-top
+pedal.ir##.widget_custom_html:has(img[src*=".gif"])
 
 ||patoghu.com/analytics.js
 ||patoghu.com/n/d/n.js
@@ -1550,6 +1551,8 @@ forum.p30world.com#@##ad_global_above_footer
 ! >> Q <<
 
 ! >> R <<
+||rightel.ir^$removeparam=/utm/
+
 radiojavan-iran.com##.ads.big_post
 radiojavan-iran.com##.ads_box
 radiojavan-iran.com##.cat
