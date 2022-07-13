@@ -719,6 +719,8 @@ download1music.ir##a:has(a>img[class^="aligncenter size-full "])
 
 ||digiro.ir/wp-content/plugins/better-ads
 ||digiro.ir/wp-content/uploads/*/*.gif
+digiro.ir##.texttab
+digiro.ir##.uizv
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ||dlfox.com/wp-content/uploads/*/*.gif
