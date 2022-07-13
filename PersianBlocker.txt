@@ -1856,7 +1856,7 @@ timecity.ir##.sidebar-banners
 timecity.ir##.inner-wrapper-sticky > .mb-3
 
 ! https://github.com/MasterKia/PersianBlocker/pull/12
-tabnak.ir##+js(set, renderAds, null)
+tabnak.ir##+js(acis, document.write, renderAds)
 ||tabnak.ir/files/adv
 ||tabnak.ir/fa/ads/redirect^$all
 tabnak.ir##[href*="/ads/redirect/"]
@@ -1867,10 +1867,6 @@ tabnak.ir##.home_adv_height
 !#if env_mobile
 tabnak.ir##.adv_header_fixed
 !#endif
-tabnak.ir#@#.footer_adv
-@@||cdn.tabnak.ir/files/adv/15572_972.png$image,1p
-@@||cdn.tabnak.ir/files/adv/15573_676.png$image,1p
-@@||cdn.tabnak.ir/files/adv/15574_675.png$image,1p
 
 ! ||checks.telewebion.com
 ||adengine.telewebion.com
