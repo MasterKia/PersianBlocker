@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-07-10
+! Last modified: 2022-07-13
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
@@ -1856,10 +1856,11 @@ timecity.ir##.sidebar-banners
 timecity.ir##.inner-wrapper-sticky > .mb-3
 
 ! https://github.com/MasterKia/PersianBlocker/pull/12
-tabnak.ir##+js(set, renderAds, noopFunc)
+tabnak.ir##+js(set, renderAds, null)
 ||tabnak.ir/files/adv
 ||tabnak.ir/fa/ads/redirect^$all
 tabnak.ir##[href*="/ads/redirect/"]
+tabnak.ir##.adv_logo
 tabnak.ir##.film_box:has-text(مدرسه آنلاین)
 tabnak.ir##.stitle_box:has(.top_title:has-text(وب گردی))
 tabnak.ir##.home_adv_height
