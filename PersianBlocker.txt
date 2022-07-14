@@ -516,7 +516,7 @@ androidgozar.com##.cas-pubg
 ! androidgozar.com##div[class^="col-"]:has(div>div>a[class="ag-agah"])
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
-||aparat.com^$removeparam=/utm/
+||aparat.com^$removeparam=/^utm_/
 ||dsp.aparat.com/*/dsp/bid?ads_type
 ||aparat.com/static/vendor/dox
 ||aparat.com/agf
@@ -810,7 +810,7 @@ dabi.ir##.Js_Div5
 
 ||digikala.com^$removeparam=/promo/
 ||digikala.com^$removeparam=bCode
-||digikala.com^$removeparam=/utm/
+||digikala.com^$removeparam=/^utm_/
 ||digikala.com^$removeparam=affid
 ||digikala.com^$removeparam=cpcAdToken
 ||digikala.com/sw.js
@@ -824,9 +824,9 @@ digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 
 ||digikalajet.com^$removeparam=/promo/
-||digikalajet.com^$removeparam=/utm/
+||digikalajet.com^$removeparam=/^utm_/
 ||digistyle.com^$removeparam=/promo/
-||digistyle.com^$removeparam=/utm/
+||digistyle.com^$removeparam=/^utm_/
 ||digistyle.com/tracker^$all
 
 
@@ -976,7 +976,7 @@ farsroid.com##.ads-dashed-banner
 farsroid.com#@#.place-ads
 
 ||analysis.faradars.org
-||faradars.org^$removeparam=/utm/
+||faradars.org^$removeparam=/^utm_/
 
 ||farsnews.ir/api/recordnewstextvisit?id=
 ||tracker.farsnews.ir
@@ -1186,8 +1186,8 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ! https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1153092391
 khanoumi.com##+js(rc, ads-track, , stay)
 ||ads.khanoumi.com/api/services/app/adstrackingpanel^$all
-||khanoumi.com$removeparam=/itm/
-||khanoumi.com$removeparam=/utm/
+||khanoumi.com^$removeparam=/itm/
+||khanoumi.com^$removeparam=/^utm_/
 mag.khanoumi.com##.widget-ad-image
 @@||ads.khanoumi.com/storage/*$image,1p
 ! @@||ads.khanoumi.com/api/services/app/AdsTrackingPanel/Post$xhr,1p
@@ -1278,7 +1278,7 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
-||myket.ir^$removeparam=/utm/
+||myket.ir^$removeparam=/^utm_/
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56886
 mobile.ir##.b
@@ -1418,7 +1418,7 @@ opizo.me##+js(aeld, blur)
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
-||parspack.com$removeparam=/utm/
+||parspack.com^$removeparam=/^utm_/
 ! Example: bottom of zoomit.ir
 
 ||pichak.net/nohe/amar.js
@@ -1551,7 +1551,7 @@ forum.p30world.com#@##ad_global_above_footer
 ! >> Q <<
 
 ! >> R <<
-||rightel.ir^$removeparam=/utm/
+||rightel.ir^$removeparam=/^utm_/
 
 radiojavan-iran.com##.ads.big_post
 radiojavan-iran.com##.ads_box
@@ -1630,7 +1630,7 @@ shirazsong.in##.no-mobile.out-container:nth-of-type(3)
 ||snn.ir/fa/generate/userid
 snn.ir##.adv_mobile
 
-||sourceiran.com$removeparam=/utm/
+||sourceiran.com^$removeparam=/^utm_/
 ||sourceiran.com/wp-content/plugins/layered-popups/js/ads
 sourceiran.com##.ads-link
 sourceiran.com##.middle-ads
@@ -1838,7 +1838,7 @@ trainbit.com##+js(nano-stb, , , 0)
 
 ||tafrihi.com/wp-content/plugins/simple-ads
 
-||techrato.com$removeparam=/utm/
+||techrato.com^$removeparam=/^utm_/
 techrato.com##.header-ads
 techrato.com##*[id^="widget_sp_image-"]
 ! techrato.com###widget_sp_image-126
@@ -2040,6 +2040,7 @@ varoone.ir##.textads
 varoone.ir##.ads120
 varoone.ir##.ads468
 
+||vajehyab.com^$removeparam=/^utm_/
 ||vajehyab.com/img/ads
 
 ||varzeshe3.com/js/ads
