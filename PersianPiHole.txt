@@ -67,6 +67,8 @@ click.digiato.com
 # ^ Used by Digiato, Vigiato, Rooziato
 
 # >> E <<
+emenshowapp.xyz
+# ^ Phishing
 
 # >> F <<
 facepop.org
