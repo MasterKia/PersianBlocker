@@ -113,6 +113,9 @@
 ! ^ Used by Digiato, Vigiato, Rooziato
 
 ! >> E <<
+||emenshowapp.xyz^$all
+! ^ Phishing
+
 !#if adguard
 ||trustseal.enamad.ir^$third-party,cookie
 !#endif
