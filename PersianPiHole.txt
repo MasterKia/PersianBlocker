@@ -131,6 +131,8 @@ popupdl.ir
 popland.info
 
 peyvandha.ir
+10.10.34.35
+10.10.34.36
 10.10.34.
 10.10.34.*
 # ^ Example: imovie-dl.org
