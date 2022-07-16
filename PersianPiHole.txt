@@ -172,8 +172,9 @@ titr.online
 tabligheirani.ir
 tbli.ir
 
-tavoos.net
+# tavoos.net
 # ^ Example: film.tebyan.net
+# OISD maintainer: If a domain is used for ads, but also is required for "wanted content" (like video playback) it should not be blocked by domain/hosts lists. But rather left to handle by content blockers instead. (uBlock Origin, etc).
 
 cashback.takhfifan.com
 # TODO: Investigate 
