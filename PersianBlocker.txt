@@ -2034,7 +2034,8 @@ vgdl.ir##.stream-item-top-wrapper
 vgdl.ir##.stream-item-above-post
 vgdl.ir#@#.stream-item-widget
 vgdl.ir##.stream-item-widget:has(a[href*="faradars.org"])
-vgdl.ir##.ads-fadeout
+vgdl.ir##.bottom_ads
+vgdl.ir##.fix_ads
 @@||vgdl.ir/wp-content/uploads/*/how-to-fix-error-vgdl.ir_.gif$image,1p
 
 ||vazeh.com/cdn-cgi/apps/head
