@@ -1080,6 +1080,7 @@ hamshahrionline.ir#@##ads-container
 ! >> I <<
 ! https://github.com/MasterKia/PersianBlocker/issues/14
 ||imna.ir/rest/visit^
+imna.ir##.main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
 imna.ir##[href^="/redirect/ads/"]
 imna.ir##.ads
 imna.ir###ads-container
