@@ -1078,6 +1078,13 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+! https://github.com/MasterKia/PersianBlocker/issues/14
+||imna.ir/rest/visit^
+imna.ir##[href^="/redirect/ads/"]
+imna.ir##.ads
+imna.ir###ads-container
+imna.ir##.box:has(header:has-text(تبلیغات متنی))
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115273
 imvbox.com##div[class^="cr-banner-"]
 
