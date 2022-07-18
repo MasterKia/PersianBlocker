@@ -1055,6 +1055,17 @@ graphiran.com##.banner-center
 graphiran.com###leftcol > center
 graphiran.com###centercol > center > center
 
+! https://github.com/MasterKia/PersianBlocker/pull/16
+||gadgetnews.net/wp-content/uploads/*.gif
+||gadgetnews.net/wp-content/uploads/*/Ad-$image
+gadgetnews.net##.ads-top
+gadgetnews.net##.ads-post
+gadgetnews.net##.ad-cell
+gadgetnews.net##.widget_text
+!#if env_mobile
+gadgetnews.net##.sticky-ad
+!#endif
+
 ! >> H <<
 hamtamovie.lol##+js(nano-stb)
 ||hamtamovie.lol/gtag
