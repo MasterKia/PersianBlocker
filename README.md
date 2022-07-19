@@ -85,7 +85,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianPiHole.tx
 
 #  [![AGPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/agpl-3.0.en.html) لایسنس (پروانه)
 
-لیست **PersianBlocker** یک لیست آزاد تحت پروانه GPL نسخه 3 میباشد (AGPLv3)؛ یعنی شما به عنوان کاربر این _آزادی ها_ رو دارید:
+لیست **PersianBlocker** یک لیست آزاد تحت پروانه AGPL نسخه 3 میباشد (AGPLv3)؛ یعنی شما به عنوان کاربر این _آزادی ها_ رو دارید:
 
 0- آزادی استفاده از لیست به هر منظور و دلیل (برای انجام هر کاری)
 
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianPiHole.tx
 
 3- آزادی به اشتراک گذاشتن نسخه های تغییریافته لیست با دیگران
 
-* میتونید متن کامل لایسنس (پروانه) GPLv3 رو از [اینجا](https://www.gnu.org/licenses/agpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
+* میتونید متن کامل لایسنس (پروانه) AGPLv3 رو از [اینجا](https://www.gnu.org/licenses/agpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
 
 
  # ❤️ گرامیداشت
