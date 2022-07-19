@@ -1311,7 +1311,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 
 ! >> M <<
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78854099
-! mopon.ir##+js(acis, document.querySelector, 720)
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1189425786
+mopon.ir##+js(aeld, click, 720)
 ^utm_source=mopon^$removeparam=/^utm_/
 
 ||myket.ir^$removeparam=/^utm_/
