@@ -83,9 +83,9 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianPiHole.tx
 2- از بخش [«Issues (مشکلات)»](https://github.com/MasterKia/PersianBlocker/issues/new) میتونید هرگونه مشکل با سایتی و یا پیشنهادی که دارید رو با من درمیون بذارید.
 * برای گزارش مشکل، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
 
-#  [![GPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/gpl-3.0.en.html) لایسنس (پروانه)
+#  [![AGPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/agpl-3.0.en.html) لایسنس (پروانه)
 
-لیست **PersianBlocker** یک لیست آزاد تحت پروانه GPL نسخه 3 میباشد (GPLv3)؛ یعنی شما به عنوان کاربر این _آزادی ها_ رو دارید:
+لیست **PersianBlocker** یک لیست آزاد تحت پروانه GPL نسخه 3 میباشد (AGPLv3)؛ یعنی شما به عنوان کاربر این _آزادی ها_ رو دارید:
 
 0- آزادی استفاده از لیست به هر منظور و دلیل (برای انجام هر کاری)
 
@@ -95,11 +95,11 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianPiHole.tx
 
 3- آزادی به اشتراک گذاشتن نسخه های تغییریافته لیست با دیگران
 
-* میتونید متن کامل لایسنس (پروانه) GPLv3 رو از [اینجا](https://www.gnu.org/licenses/gpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
+* میتونید متن کامل لایسنس (پروانه) GPLv3 رو از [اینجا](https://www.gnu.org/licenses/agpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
 
 
  # ❤️ گرامیداشت
-**PersianBlocker** (_GPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [Adblock Persian](https://ideone.com/K452p)
+**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [Adblock Persian](https://ideone.com/K452p)
 
 راهنمایی ها و کمک های بی دریغ این افراد به من در ساخت و گسترش این لیست کمک زیادی کرد:
 - [@nimasaj](https://github.com/nimasaj)
