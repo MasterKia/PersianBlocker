@@ -1074,6 +1074,9 @@ gadgetnews.net##.sticky-ad
 !#endif
 
 ! >> H <<
+||gourls.ir^$popup
+hamisheonline.com##+js(acis, document.onclick, Hamisheonlinepaps)
+
 hamtamovie.lol##+js(nano-stb)
 ||hamtamovie.lol/gtag
 hamtamovie.lol##.col-sm-9.main-right > .col-sm-3 > aside.block:nth-of-type(2)
