@@ -2049,6 +2049,9 @@ uploadboy.com##.litebox
 uploadboy.com##a[href="http://www.asiatech.ir/"]
 
 ! >> V <<
+vipofilm.com##.ads
+vipofilm.com##.bg_title.title:has-text(تبلیغات):upward(1)
+
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
 vakil.net##+js(acis, document.oncontextmenu)
 vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
