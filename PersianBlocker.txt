@@ -3,7 +3,7 @@
 ! Expires: 2 days
 ! Last modified: 2022-07-20
 ! Homepage: https://github.com/MasterKia/PersianBlocker
-! Licence: GPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
+! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
 ! Issues/Suggestions: https://github.com/MasterKia/PersianBlocker/issues
 ! Pull requests: https://github.com/MasterKia/PersianBlocker/pulls
@@ -15,11 +15,12 @@
 ! /statics/*$xhr
 ! .ir/ads/
 
-! admin-ajax.php?postviews_id=
-! admin-ajax.php?action=adwised
+! /admin-ajax.php?postviews_id=
+! /admin-ajax.php?action=adwised
 
 ! wp-content/plugins/google-analytics
 ! wp-content/plugins/better-ads
+! wp-content/plugins/adwised
 
 ! ||cdn.hostdl.com/*/*.gif
 
@@ -1099,6 +1100,8 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+||profile.iwmf.ir^$removeparam=/^utm_/
+
 ! https://github.com/MasterKia/PersianBlocker/issues/14
 ||imna.ir/rest/visit^
 imna.ir##.main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
@@ -1920,15 +1923,15 @@ telewebion.com##.rmp-ad-container
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1145684991
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78854099
+^utm_source=takhfifan^$removeparam=/^utm_/
+^utm_source=takhfifan^$removeparam=tatoken
+||takhfifan.com/static/matomo.js
+||takhfifan.com/mtc.js
 ! takhfifan.com##+js(nostif, redirect_url)
 ! takhfifan.com##+js(rc, filter, , complete)
 takhfifan.com##+js(ra, disabled, , stay)
 takhfifan.com##.mask
 takhfifan.com##.filter:style(filter:none !important)
-^utm_source=takhfifan^$removeparam=/^utm_/
-^utm_source=takhfifan^$removeparam=tatoken
-||takhfifan.com/static/matomo.js
-||takhfifan.com/mtc.js
 
 tourismonline.co##.stream-item-mag.mag-box
 tourismonline.co##.stream-item-above-post.stream-item
@@ -2017,6 +2020,9 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+||upera.tv^$removeparam=ref
+! ||affil.charkhoneh.com^$removeparam=affiliateId
+
 ||upmusics.com/najva.js
 upmusics.com##.upbu
 
@@ -2049,6 +2055,8 @@ uploadboy.com##.litebox
 uploadboy.com##a[href="http://www.asiatech.ir/"]
 
 ! >> V <<
+||vipofilm.com/wp-content/plugins/adwised/assets/adwisedpop.js
+||vipofilm.com/wp-admin/admin-ajax.php?action=adwised
 vipofilm.com##.ads
 vipofilm.com##.bg_title.title:has-text(تبلیغات):upward(1)
 
