@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 3- آزادی به اشتراک گذاشتن نسخه های تغییریافته لیست با دیگران
 
-* میتونید متن کامل لایسنس (پروانه) AGPLv3 رو از [اینجا](https://www.gnu.org/licenses/agpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
+* میتونید متن کامل پروانه AGPLv3 رو از [اینجا](https://www.gnu.org/licenses/agpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
 
 
  # ❤️ گرامیداشت
