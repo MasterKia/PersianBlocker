@@ -2195,11 +2195,11 @@ zoomit.ir##.wide-adv-box
 zoomit.ir##.wide-adv-row
 zoomit.ir##.wide-adv-row-home
 zoomit.ir##.bannercontainer
+zoomit.ir##.price-sticky
 !#if env_mobile
 zoomit.ir##.InsideArticleIntro
 zoomit.ir##.article-mobile-inContent
 zoomit.ir###mobileBannerAfterTags
-zoomit.ir##.price-sticky
 !#endif
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
 @@||cdn01.zoomit.ir/assets/img/advertise-$image,1p
