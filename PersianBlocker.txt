@@ -1933,10 +1933,17 @@ tourismonline.co##.stream-item-above-post.stream-item
 tourismonline.co##.ads-title
 tourismonline.co##.widget_custom_html.widget.container-wrapper.widget_text
 
-||toranji.ir/wp-content/uploads/*/*/Toranji-Ad
+! https://github.com/MasterKia/PersianBlocker/issues/17
+! ||toranji.ir/wp-content/uploads/*/*/Toranji-Ad
+||toranji.ir/wp-content/uploads/*/*.gif
+||toranji.ir/najva-messaging-sw.js^$all
+toranji.ir##.content-container:has(.ad-reportage)
 toranji.ir###fpc-banner-top
-toranji.ir##.square-ad
+toranji.ir#@#.square-ad
+toranji.ir##.square-ad:not(:has(#featured-posts))
+toranji.ir###mostvisited:has(.widget-title:has-text(تبلیغات متنی))
 toranji.ir###top-right-ad
+@@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,1p
 
 topnaz.com##.light-text.footer-widgets
 
