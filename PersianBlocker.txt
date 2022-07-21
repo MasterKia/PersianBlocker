@@ -90,13 +90,8 @@
 
 ! >> C <<
 ||clickaval.com^$all
-
 ||congoro.com^$all
-
-! @@||clickyab.com^$1p
-||clickyab.com^$badfilter
 ||clickyab.com^$all
-
 ||chabok.io^$all
 
 ! >> D <<
