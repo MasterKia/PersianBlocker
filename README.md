@@ -123,4 +123,6 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- لیست جامع Energized Protection (در نسخه Regional) (بزودی)
 
+\- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
+
 \- ~مسدودساز داخلی مرورگر برومیت~ (به دلیل پشتیبانی نکردن از فیلتر های CSS و جاوااسکریپتی)
