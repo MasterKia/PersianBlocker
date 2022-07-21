@@ -2172,11 +2172,13 @@ zohur12.ir##.sideads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110569
 ! https://github.com/MasterKia/PersianBlocker/issues/4
+! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1191150998
 zoomg.ir##+js(aopr, banner)
 ||zoomg.ir/common/visitcount/
 ||zoomg.ir/cdn-cgi/apps/head/*$script
 ||zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg
 ||namava.ir/ZoomitAds/
+zoomg.ir##.wide-adv-box
 zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
