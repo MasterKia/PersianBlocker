@@ -72,10 +72,10 @@ _اما اگه روی لینک زدید و کار نکرد:_
 
 # 🕳 راه اندازی در AdGuard Home و PiHole و دیگر مسدودساز های DNS
 
-از لیست **PersianPiHole** (برگرفته از لیست PersianBlocker) استفاده کنید:
-https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianPiHole.txt
+از لیست **PersianBlockerHosts** (برگرفته از لیست PersianBlocker) استفاده کنید:
+https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
 
-* [اینجا](https://github.com/AdguardTeam/HostlistsRegistry/issues/59) به AdGuard Home پیشنهاد دادم که لیست **PersianPiHole** به لیست های پیشفرض افزوده بشه.
+* [اینجا](https://github.com/AdguardTeam/HostlistsRegistry/issues/59) به AdGuard Home پیشنهاد دادم که لیست **PersianBlockerHosts** به لیست های پیشفرض افزوده بشه.
 
 # 🤝 مشارکت
 1- از [اینجا](https://github.com/signup) توی گیتهاب ثبت نام کنید.
