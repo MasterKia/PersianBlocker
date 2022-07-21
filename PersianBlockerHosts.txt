@@ -1,0 +1,305 @@
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: PersianPiHole
+# Expires: 2 day
+# Homepage: https://github.com/MasterKia/PersianBlocker
+# Help: https://github.com/MasterKia/PersianBlocker/blob/main/README.md
+# License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
+# ------------------------------------[SUPPORT]-------------------------------------
+# مشارکت کنید:
+# - گزارش دادن تبلیغات و ردیاب هایی که مسدود نشده اند
+# - گزارش دادن مثبت کاذب ها
+# -------------------------------------[INFO]---------------------------------------
+#
+# سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
+# ------------------------------------[FILTERS]-------------------------------------
+
+#-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
+# >> A <<
+adtube.ir
+advn.ir
+
+amaroid.net
+lnk.amaroid.net
+
+analytics.aasaam.com
+analytics-2.aasaam.com
+analytics-3.aasaam.com
+analytics-*.aasaam.com
+
+adwised.com
+adwisedfs.com
+adwised.azureedge.net
+
+adivery.com
+adnegah.net
+adpulse.ir
+adsima.net
+adtrace.io
+affili.ir
+amarfa.ir
+ayyaar.ir
+# ^ Used by irna.ir
+
+adro.co
+affstat.adro.co
+affstat.digikala.com
+affiliate.digikala.com
+
+# >> B <<
+radar.bayan.ir
+backority.ir
+
+# >> C <<
+clickaval.com
+congoro.com
+clickyab.com
+chabok.io
+
+# >> D <<
+davedbux.ir
+
+deemanetwork.com
+deema.agency
+
+# https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
+# https://github.com/AdguardTeam/AdguardFilters/issues/79983
+click.digiato.com
+# ^ Used by Digiato, Vigiato, Rooziato
+
+# >> E <<
+emenshowapp.xyz
+# ^ Phishing
+
+# >> F <<
+facepop.org
+farsbux.ir
+fastclick.ir
+
+ads.farakav.com
+#  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
+
+# >> G <<
+
+# >> H <<
+hantana.org
+
+# >> I <<
+intrack.ir
+geoip.imber.live
+
+# >> J <<
+jetbux.ir
+
+# >> K <<
+kajads.com
+ads.karzar.net
+kaprila.com
+
+# >> L <<
+landyab.com
+linksaz.net
+linkyar.com
+
+# >> M <<
+metrix.ir
+trc.metrix.ir
+# ^ Used by digikala.com
+
+mediaad.org
+magnetadservices.com
+merita.ir
+mitrarank.ir
+
+# >> N <<
+najva.com
+netbina.com
+
+# >> O <<
+
+# >> P <<
+phonroid.com
+# ^ Example: par30games.net
+
+popina.ir
+
+popunder.ir
+# TODO: Remove it, Used by marzfun.com
+
+popupdl.ir
+#  TODO: Remove it, Used by dlfox.com
+
+popland.info
+
+peyvandha.ir
+10.10.34.35
+10.10.34.36
+10.10.34.
+10.10.34.*
+# ^ Example: imovie-dl.org
+
+phoenixad.io
+
+partclick.ir
+persianrank.ir
+popgozar.com
+popupplus.ir
+popupme.net
+pushe.co
+publica.ir
+
+# >> Q <<
+
+# >> R <<
+
+# >> S <<
+sendword.ir
+# Used by i-video.ir
+
+sanjagh.com
+sanjagh.net
+
+ads.safarme.ir
+# ^ Used by kojaro.com
+
+sabavision.com
+
+# >> T <<
+te1.ir
+talapop.ir
+tabligheirani.ir
+tbli.ir
+
+# tavoos.net
+# ^ Example: film.tebyan.net
+# OISD maintainer: If a domain is used for ads, but also is required for "wanted content" (like video playback) it should not be blocked by domain/hosts lists. But rather left to handle by content blockers instead. (uBlock Origin, etc).
+
+cashback.takhfifan.com
+# TODO: Investigate 
+
+tapsell.ir
+toppopup.com
+counter.toolsir.com
+
+# >> U <<
+userfriendly.ir
+# ^ Used by bils.ir
+
+utopclick.com
+utop.ir
+
+# >> V <<
+vatanclick.ir
+
+# >> W <<
+# webgozar.com
+# webgozar.ir
+# ^ They have tracking, but they also have polls
+
+wideads.com
+
+# >> X <<
+
+# >> Y <<
+yelloadwise.ir
+yektanet.com
+yekbux.com
+
+# >> Z <<
+zarpop.com
+zanboor.net
+# TODO: Remove zanboor.net, but some websites still link to it
+
+#------------------------- Persian Ads/Trackers/Annoyances Filters -----------------------#
+
+#-------------------------v Site-Specific Filters v-----------------------#
+
+# >> A <<
+dsp.aparat.com
+
+ads.akairan.com
+ads.akaup.com
+
+ads.alaatv.com
+
+
+
+# >> B <<
+
+# >> C <<
+sentry.cafebazaar.org
+
+
+# >> D <<
+tadv.didestan.net
+
+analytics.dunro.com
+
+ads.dabi.ir
+
+tracker.digikala.com
+new-sentry.digikala.com
+# analytics.digikala.com
+# ^ Shows online visitors
+
+sentry-new.divar.ir
+ammaar.delivery.zeerak.cloud
+
+# >> E <<
+
+# >> F <<
+fb-gw.bef.rest
+sentry.footballiapp.com
+
+analysis.faradars.org
+
+tracker.farsnews.ir
+# >> G <<
+
+# >> H <<
+hiads.hidoctor.ir
+
+# >> I <<
+ipsite.ir
+
+analytics.irancell.ir
+# >> J <<
+
+# >> K <<
+
+# >> L <<
+
+# >> M <<
+
+# >> N <<
+sentry.namava.ir
+
+adserver.netshahr.com
+
+stc.ninisite.com
+# >> O <<
+
+# >> P <<
+
+# >> Q <<
+
+# >> R <<
+
+# >> S <<
+
+# >> T <<
+adengine.telewebion.com
+rokhdad.telewebion.com
+
+# >> U <<
+
+# >> V <<
+
+# >> W <<
+
+# >> X <<
+
+# >> Y <<
+
+# >> Z <<
+analytics.zoomit.ir
+#-------------------------^ Site-Specific Filters ^-----------------------#
