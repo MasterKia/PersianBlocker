@@ -117,7 +117,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- مسدودساز داخلی مرورگر ویوالدی (بزودی)
 
-\- برنامه AdGuard Home (مسدودساز DNS) (در حال پیگیری)
+\- نرم افزار AdGuard Home (مسدودساز DNS) (در حال پیگیری)
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
 
