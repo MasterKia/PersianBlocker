@@ -101,8 +101,26 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
  # ❤️ گرامیداشت
 **PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [Adblock Persian](https://ideone.com/K452p)
 
-راهنمایی ها و کمک های بی دریغ این افراد به من در ساخت و گسترش این لیست کمک زیادی کرد:
+راهنمایی ها و کمک های بی دریغ این افراد، به من در ساخت و گسترش این لیست کمک زیادی کرد:
 - [@nimasaj](https://github.com/nimasaj)
 - [@Yuki2718](https://github.com/Yuki2718)
 - [@krystian3w](https://github.com/krystian3w)
 - [@DRSDavidSoft](https://github.com/DRSDavidSoft)
+
+پروژه هایی که از این لیست استفاده میکنند:
+
+\- [افزونه uBlock Origin](https://github.com/gorhill/uBlock/blob/master/assets/assets.json#L482)
+
+\- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
+
+\- مسدودساز داخلی مرورگر بریو (سازگار با لیست های uBlock Origin) (در حال پیگیری)
+
+\- مسدودساز داخلی مرورگر ویوالدی (بزودی)
+
+\- برنامه AdGuard Home (مسدودساز DNS) (در حال پیگیری)
+
+\- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
+
+\- لیست جامع Energized Protection (در نسخه Regional) (بزودی)
+
+\- ~مسدودساز داخلی مرورگر برومیت~ (به دلیل پشتیبانی نکردن از فیلتر های CSS و جاوااسکریپتی)
