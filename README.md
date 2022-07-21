@@ -113,15 +113,15 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
 
-\- مسدودساز داخلی مرورگر بریو (سازگار با لیست های uBlock Origin) (در حال پیگیری)
+\- مسدودساز داخلی مرورگر بریو (سازگار با لیست های uBlock Origin) (در دست پیگیری)
 
 \- مسدودساز داخلی مرورگر ویوالدی (بزودی)
 
-\- نرم افزار AdGuard Home (مسدودساز DNS) (در حال پیگیری)
+\- نرم افزار AdGuard Home (مسدودساز DNS) (در دست پیگیری)
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
 
-\- لیست جامع Energized Protection (در نسخه Regional) (بزودی)
+\- لیست جامع Energized Protection (در نسخه Regional) (در دست پیگیری)
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
