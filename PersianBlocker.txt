@@ -1070,6 +1070,10 @@ gadgetnews.net##.sticky-ad
 !#endif
 
 ! >> H <<
+! https://github.com/MasterKia/PersianBlocker/issues/18
+||honarehzendegi.com/cdn-cgi/challenge-platform^$all
+honarehzendegi.com#@#.logo-ad
+
 ||gourls.ir^$popup
 hamisheonline.com##+js(acis, document.onclick, Hamisheonlinepaps)
 
