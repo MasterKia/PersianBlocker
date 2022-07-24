@@ -1,5 +1,5 @@
 # ------------------------------------[UPDATE]--------------------------------------
-# Title: PersianPiHole
+# Title: PersianBlocker (Hosts)
 # Expires: 2 day
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # Help: https://github.com/MasterKia/PersianBlocker/blob/main/README.md
