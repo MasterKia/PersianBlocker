@@ -1557,6 +1557,7 @@ parsipet.ir##.body_wrapper > div:nth-of-type(4)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83232
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/9
+! https://github.com/MasterKia/PersianBlocker/pull/19
 par30games.net##[href^="https://playpod.ir/"]
 par30games.net##.fixedadv:upward(3)
 par30games.net##.fixedbanner
