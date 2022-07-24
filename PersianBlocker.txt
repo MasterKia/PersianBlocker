@@ -1561,6 +1561,7 @@ par30games.net##[href^="https://playpod.ir/"]
 par30games.net##.fixedadv:upward(3)
 par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
+par30games.net##.ads
 !#if env_mobile
 par30games.net##.mobilebanner
 !#endif
