@@ -1730,6 +1730,14 @@ forum.soft98.ir##.shad
 ! ||subf2m.co/files/*.gif
 ! subf2m.co##.ads
 
+subf2m.ir##+js(set, needpop, 0)
+||idna.news^$domain=subf2m.ir
+subf2m.ir##.text-ads-1
+subf2m.ir##p:has-text(خرید فالوور)
+subf2m.ir##.backoritybase
+subf2m.ir##.news-box
+subf2m.ir##.widgets.bg-custom.box
+
 ||softsaaz.ir/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js
 ||softsaaz.ir/wp-content/uploads/*.gif
 softsaaz.ir##.stream-item
