@@ -1055,6 +1055,9 @@ graphiran.com###centercol > center > center
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1187678746
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78801679
 ! https://github.com/AdguardTeam/AdguardFilters/commit/55e563159f6ec18a700fc2fada7241a7f74c1023#commitcomment-78801052
+!#if (!adguard_ext_safari && !adguard_app_ios && !adguard_ext_android_cb)
+||gadgetnews.net/wp-content/uploads/*.gif
+!#endif
 gadgetnews.net#@#.ads-top
 gadgetnews.net##.ads-top:style(visibility: hidden !important;)
 gadgetnews.net##.logo:style(position: static !important;)
@@ -1064,9 +1067,6 @@ gadgetnews.net##.ads-post
 gadgetnews.net###ad14
 !#if env_mobile
 gadgetnews.net##.sticky-ad
-!#endif
-!#if (!adguard_ext_safari && !adguard_app_ios && !adguard_ext_android_cb)
-||gadgetnews.net/wp-content/uploads/*.gif
 !#endif
 
 ! >> H <<
