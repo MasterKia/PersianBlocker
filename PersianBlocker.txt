@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-07-21
+! Last modified: 2022-07-26
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 !
@@ -2206,9 +2206,11 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1190674411
+! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1194334858
 zoomit.ir##+js(aopr, banner)
 ||zoomit.ir/common/visitcount/^
 ||analytics.zoomit.ir^$all
+zoomit.ir##.showCaseWrapper:style(width: 100% !important;)
 zoomit.ir##.wide-adv-box
 zoomit.ir##.wide-adv-row
 zoomit.ir##.wide-adv-row-home
