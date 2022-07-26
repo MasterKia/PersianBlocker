@@ -901,6 +901,7 @@ estekhtam.com#@#.ads-bottom
 ! >> F <<
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1179570047
+! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1194334858
 ||fb-gw.bef.rest^$all
 ||api.footballi.net/api/*/user/init^$all
 ||api.footballi.net/api/*/news/visit^$all
@@ -908,14 +909,13 @@ estekhtam.com#@#.ads-bottom
 ||footballi.net/assets/shared-application/scripts/analytics
 ||footballi.net/assets/shared-application/scripts/jwplayer/vast.js
 ||footballi.net/video/*/undefined/vast.js
-!#if env_mobile
+! Below rules were only for mobile:
 footballi.net##.ads-row
 footballi.net##.mobile-header:style(top: 0 !important)
 footballi.net##.ads-row-left
 footballi.net##.mediaad-top-row
 footballi.net##.mediaad-row-top
 footballi.net##.mediaad-row
-!#endif
 
 farskids.me#@#.ads-banner
 
