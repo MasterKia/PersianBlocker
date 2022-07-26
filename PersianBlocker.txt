@@ -2222,8 +2222,8 @@ zoomit.ir##.InsideArticleIntro
 zoomit.ir##.article-mobile-inContent
 zoomit.ir###mobileBannerAfterTags
 !#endif
-zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(آگهی))
-@@||cdn01.zoomit.ir/assets/img/advertise-$image,1p
+zoomit.ir##.item-list-row:has(a[href*="/pr/"])
+@@||zoomit.ir/assets/img/advertise-$image,1p
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
