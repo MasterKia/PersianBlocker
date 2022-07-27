@@ -2208,7 +2208,6 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1190674411
 ! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1194334858
 zoomit.ir##+js(aopr, banner)
-||zoomit.ir/zoomit/ui/js/banner.min.js^
 ||zoomit.ir/common/visitcount/^
 ||analytics.zoomit.ir^$all
 zoomit.ir##.showCaseWrapper:style(width: 100% !important;)
