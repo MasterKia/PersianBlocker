@@ -969,8 +969,7 @@ farnet.io##+js(acis, eif)
 ||farnet.io/wp-content/plugins/better-adsmanager
 ||farnet.io/wp-content/plugins/better-post-views
 farnet.io##.eif-link
-farnet.io##.clearfix.item-inner:has-text(تبلیغاتی)
-! TODO: Fix farnet.io/pr
+farnet.io##.content-column:not(> .archive-title:has-text(رپرتاژ تبلیغاتی)) .item-inner:has(a[href*="/pr/"])
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 farsroid.com##+js(aopr, faPa)
