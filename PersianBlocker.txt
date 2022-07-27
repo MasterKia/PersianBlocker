@@ -805,7 +805,11 @@ digiboy.ir##.slider-tab-ring:not(:has(>:has-text(دیدگاه)))
 dabi.ir##.Js_Div5
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79983
+! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1196597720
 ||digiato.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
+digiato.com##.homeMainBanner
+digiato.com##.todaysNewsList__sidebar
+digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 
 ||digikala.com^$removeparam=/promo/
 ||digikala.com^$removeparam=bCode
