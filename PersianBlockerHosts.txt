@@ -262,6 +262,8 @@ hiads.hidoctor.ir
 ipsite.ir
 
 analytics.irancell.ir
+
+websocket.ilna.ir
 # >> J <<
 
 # >> K <<
