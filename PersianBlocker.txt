@@ -582,6 +582,12 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1198560570
+||bama.ir^$removeparam=/^utm_/
+||apm.bama.ir^$all
+||bama.ir/api/car/detail/visit^$all
+||bama.ir/NormalUser/Scripts/PageJS/userTracking.js^$all
+
 ||behrah.com/tabligh.js
 
 ||b2n.ir/static/banners/advt.png
