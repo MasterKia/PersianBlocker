@@ -1191,8 +1191,10 @@ ilna.news##.zxc_type_text
 ||ilna.ir/servev2/*.gif
 ||websocket.ilna.ir$all
 ilna.ir##.zxc
+!#if !env_mobile
 ilna.ir##.xcon12:style(margin: auto !important;)
 ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
+!#endif
 
 ||isna.ir/rest/visit
 ||cdn.isna.ir/d/*?ts=$image
