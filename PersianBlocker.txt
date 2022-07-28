@@ -1181,19 +1181,17 @@ irannaz.com##div.CBS.CenterBlock:nth-of-type(6)
 itresan.com###NR-Ads
 ! TODO: Remove "رپورتاژ آگهی"
 
-ilna.news##[href^="/advertisements/"]
-ilna.news##.zxc.w120
-ilna.news##.mt12.zxc
-ilna.news##.zxc.w300
-ilna.news##.zxc_type_text
-
 ! https://github.com/MasterKia/PersianBlocker/issues/22
 ||ilna.ir/servev2/*.gif
 ||websocket.ilna.ir$all
+ilna.ir##[href^="/advertisements/"]
 ilna.ir##.zxc
 !#if !env_mobile
 ilna.ir##.xcon12:style(margin: auto !important;)
 ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
+!#endif
+!#if env_mobile
+ilna.ir##.zxc-mobile
 !#endif
 
 ||isna.ir/rest/visit
