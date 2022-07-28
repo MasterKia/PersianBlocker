@@ -287,6 +287,7 @@ stc.ninisite.com
 # >> R <<
 
 # >> S <<
+file.soft98.ir
 
 # >> T <<
 adengine.telewebion.com
