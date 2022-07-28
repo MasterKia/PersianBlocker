@@ -224,6 +224,7 @@ ads.alaatv.com
 
 
 # >> B <<
+apm.bama.ir
 
 # >> C <<
 sentry.cafebazaar.org
