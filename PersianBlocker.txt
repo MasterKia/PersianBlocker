@@ -1748,9 +1748,10 @@ soft98.ir##[class$="-link"] > .text-danger:upward(2)
 soft98.ir##img[src*="hostdl"]:upward(1):style(pointer-events:none !important)
 soft98.ir###kaprila_soft98_ir_related-top-post:upward(2)
 soft98.ir##div[id] > a[onclick] > img[alt*="Amazon"]:upward(2)
-soft98.ir##.b8d10x:remove()
-soft98.ir###sidebar > section.card > .card-header:has-text(آسیــا‌تک):upward(1):remove()
-soft98.ir###sideb6r-sticky:remove()
+soft98.ir##div[id] a[onclick*="ga"]:upward(2)
+soft98.ir##.b8d11x:remove()
+soft98.ir###sidebar > section.card > .card-header:has-text(آسیــاتک):upward(1):remove()
+soft98.ir###sideb7r-sticky:remove()
 ! soft98.ir##.text-center.card-body:remove()
 forum.soft98.ir##.shad
 @@||soft98.ir^$ghide
