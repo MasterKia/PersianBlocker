@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 0.5 days
-! Last modified: 2022-07-29
+! Last modified: 2022-07-30
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1752,7 +1752,8 @@ soft98.ir##img[src*="hostdl"]:upward(3):remove()
 soft98.ir##div[id] img[src*="file.soft98.ir"]:remove()
 soft98.ir##.b8d12y:remove()
 soft98.ir###sidebar > section.card > .card-header:has-text(آ):upward(1):remove()
-soft98.ir###sidebar > section.card > .card-header:not(:has-text(لیست)):upward(1):remove()
+soft98.ir###sidebar > section.card > .card-header:not(:has-text(لیسـت)):upward(1):remove()
+soft98.ir###sidebar > section.card:not(:has(.top-list)):remove()
 soft98.ir###sideb9r-sticky:remove()
 soft98.ir##[id*="r-sticky"]:remove()
 @@||soft98.ir^$ghide
