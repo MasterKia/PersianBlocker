@@ -516,6 +516,7 @@ androidgozar.com##.cas-pubg
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
 ||aparat.com^$removeparam=/^utm_/
+||aparat.com^$removeparam=referer
 ||dsp.aparat.com/*/dsp/bid?ads_type
 ||aparat.com/static/vendor/dox
 ||aparat.com/agf
@@ -1659,6 +1660,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/25
+||sedayiran.com/files/adv/
+sedayiran.com##.adv_top
+
 searchline.ir##+js(acis, document.oncontextmenu)
 searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
