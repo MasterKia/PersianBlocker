@@ -97,6 +97,10 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 * میتونید متن کامل پروانه AGPLv3 رو از [اینجا](https://www.gnu.org/licenses/agpl-3.0.en.html) بخونید ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17685483/181917804-14172d8c-37b1-46c6-87b2-cdc1b8f8add3.png" alt="agplv3-with-text-162x68">
+</p>
+
 
  # ❤️ گرامیداشت
 **PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [Adblock Persian](https://ideone.com/K452p)
