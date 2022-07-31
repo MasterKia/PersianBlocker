@@ -229,7 +229,6 @@ apm.bama.ir
 # >> C <<
 sentry.cafebazaar.org
 
-
 # >> D <<
 tadv.didestan.net
 
