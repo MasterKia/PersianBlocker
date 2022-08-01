@@ -1201,8 +1201,9 @@ ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
 ilna.ir##.zxc-mobile
 !#endif
 
+! https://github.com/MasterKia/PersianBlocker/issues/26
 ||isna.ir/rest/visit
-||cdn.isna.ir/d/*?ts=$image
+||cdn.isna.ir/d/*.gif$1p
 isna.ir##.main-content .container:has(aside.sidebar .box.ads) [class^=col]:has(#item):style(min-width: 75% !important; max-width: 100% !important;)
 isna.ir###box24
 isna.ir###box32
