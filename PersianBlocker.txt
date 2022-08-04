@@ -2172,6 +2172,9 @@ vista.ir##[href^="/ad/"]
 vista.ir##.textad
 
 ! >> W <<
+! https://github.com/MasterKia/PersianBlocker/issues/29
+||wcity4.site/wp-json/wp-statistics^
+
 wikisemnan.com###text-12
 wikisemnan.com###text-24
 wikisemnan.com#@#.ads-image
