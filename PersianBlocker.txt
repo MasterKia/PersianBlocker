@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 0.5 days
-! Last modified: 2022-08-03
+! Last modified: 2022-08-04
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1336,6 +1336,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/MasterKia/PersianBlocker/issues/27
+mobo.news##.ads-full-banner-img
+
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78854099
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1189425786
 mopon.ir##+js(aeld, click, 720)
