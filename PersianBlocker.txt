@@ -80,6 +80,8 @@
 ||abzarfa.com/tools/ip
 
 ! >> B <<
+||behinava.com^$all
+
 ||radar.bayan.ir^$all
 
 ||backlink.behtarinseo.ir/ads
