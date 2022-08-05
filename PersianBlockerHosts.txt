@@ -46,6 +46,7 @@ affstat.digikala.com
 affiliate.digikala.com
 
 # >> B <<
+behinava.com
 radar.bayan.ir
 backority.ir
 
