@@ -2223,6 +2223,19 @@ yasdl.com##.row.fixed-post.post
 yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
+! https://github.com/MasterKia/PersianBlocker/issues/30
+||zibamoon.com/Files/Ads^
+zibamoon.com###BannerHome
+zibamoon.com##.BannerA
+zibamoon.com##.Banner
+zibamoon.com##.AdAreaDetail
+zibamoon.com##.NewsLetterPopUp
+zibamoon.com###RelatedContentPopupArea
+zibamoon.com##[id^="BehinAva"]
+!#if env_mobile
+zibamoon.com##.MobileBannerArea
+!#endif
+
 zohur12.ir##.sideads
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28759
