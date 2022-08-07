@@ -1248,6 +1248,17 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/33
+||konkur.in/image/ads/
+@@||dl.konkur.in/image/ads/gold.png$image,1p
+konkur.in##[id^="tabligh"]
+konkur.in##.sidebar-taliq:style(visibility: hidden; !important;)
+konkur.in##.text-center:has-text(پست تبلیغاتی):upward(3)
+konkur.in##.tabliqat-text
+!#if env_mobile
+konkur.in###mobileBottomAd
+!#endif
+
 ! https://github.com/MasterKia/PersianBlocker/issues/32
 ||konkur.info/wp-content/uploads/*.gif
 konkur.info##.size-large.attachment-large
