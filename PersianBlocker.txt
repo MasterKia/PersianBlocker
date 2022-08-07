@@ -1248,6 +1248,12 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/32
+||konkur.info/wp-content/uploads/*.gif
+konkur.info##.size-large.attachment-large
+konkur.info##.elementor-element-d41b3d1
+konkur.info##.adsside
+
 ! https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1153092391
 khanoumi.com##+js(rc, ads-track, , stay)
 ||ads.khanoumi.com/api/services/app/adstrackingpanel^$all
