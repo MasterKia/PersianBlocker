@@ -1771,16 +1771,14 @@ softgozar.com##.DTOPBan
 ! https://github.com/MasterKia/PersianBlocker/issues/23
 ! کاربران باید این آزادی را داشته باشند که چه چیزی وارد مرورگرشان میشود، نه صاحب سایت
 !#if adguard
-soft98.ir##+js(nostif, , 3001)
+soft98.ir##+js(nostif, , 3002)
 soft98.ir##header[id]:has(.row):remove()
 soft98.ir##:xpath(/html/body/div[*]/div/div[2]):remove()
-soft98.ir##:xpath(/html/body/div[*]/div/aside/section[1]/header):remove()
-soft98.ir##:xpath(/html/body/div[*]/div/aside/section[1]/div):remove()
+soft98.ir##:xpath(/html/body/div[*]/div/aside/section[*]):has(img[src*="cdn.hostdl.com"]):remove()
 soft98.ir##:xpath(/html/body/div[*]/div[*]/aside/div/section/header):remove()
 soft98.ir##:xpath(/html/body/div[*]/div/aside/div/section/div):remove()
-soft98.ir##[style*="color:"]:upward(2):remove()
+soft98.ir##strong[style]:upward(2):remove()
 soft98.ir##[href*="SMostafa.ir"]:remove()
-soft98.ir##*:has-text(F5):remove()
 ||soft98.ir/engine/modules/antibot/antibot.php^$all
 ||soft98.ir/engine/ajax/controller.php^$all
 ||file.soft98.ir^$image,redirect=nooptext
