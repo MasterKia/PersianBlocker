@@ -1610,6 +1610,7 @@ parsipet.ir##.body_wrapper > div:nth-of-type(4)
 ! https://github.com/MasterKia/PersianBlocker/issues/9
 ! https://github.com/MasterKia/PersianBlocker/pull/19
 par30games.net##[href^="https://playpod.ir/"]
+par30games.net##.top-large-ads
 par30games.net##.fixedadv:upward(3)
 par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
