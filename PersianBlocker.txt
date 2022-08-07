@@ -48,7 +48,7 @@
 ||asreasia.com/piwik
 
 ||analytics.aasaam.com^$all
-||analytics-.aasaam.com^$all
+||analytics-*.aasaam.com^$all
 
 ||adwised.com^$all
 ||adwisedfs.com^$all
@@ -104,6 +104,7 @@
 
 ||deemanetwork.com^$all
 ||deema.agency^$all
+||deemaagency.ir^$all
 
 ! https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79983
@@ -617,10 +618,14 @@ bultannews.com##.parent_txt_adv_container2
 
 binanews.ir##+js(set, openTelegram, noopFunc)
 
+! https://github.com/MasterKia/PersianBlocker/issues/31
 ||bartarinha.ir/statics/
 ||bartarinha.ir/servev*/*.gif
 bartarinha.ir##.zxc
 bartarinha.ir##.all_adv
+!#if env_mobile
+bartarinha.ir##.fixed_adv_mob
+!#endif
 
 ||barato.ir/wp-content/*/ad/
 barato.ir###featured > .owl-stage-outer
