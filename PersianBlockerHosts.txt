@@ -61,6 +61,7 @@ davedbux.ir
 
 deemanetwork.com
 deema.agency
+deemaagency.ir
 
 # https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
 # https://github.com/AdguardTeam/AdguardFilters/issues/79983
