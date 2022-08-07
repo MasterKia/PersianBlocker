@@ -81,12 +81,11 @@ _اما اگه روی لینک زدید و کار نکرد:_
 # ⛓ راه اندازی در گوشی (آیفون)
 تا جایی که میدونم توی آیفون هیچ راهی برای نصب افزونه های مسدودساز در سافاری یا حتی فایرفاکس وجود نداره.
 
-# 🕳 راه اندازی در AdGuard Home و PiHole و دیگر مسدودساز های DNS
+# 🕳 راه اندازی در مسدودساز های DNS (AdGuard Home و Pi-Hole)
 
 از لیست **PersianBlockerHosts** (برگرفته از لیست PersianBlocker) استفاده کنید:
-https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
 
-* [اینجا](https://github.com/AdguardTeam/HostlistsRegistry/issues/59) به AdGuard Home پیشنهاد دادم که لیست **PersianBlockerHosts** به لیست های پیشفرض افزوده بشه.
+https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
 
 # 🤝 مشارکت
 1- از [اینجا](https://github.com/signup) توی گیتهاب ثبت نام کنید.
@@ -128,15 +127,15 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
 
-\- مسدودساز داخلی مرورگر بریو (سازگار با لیست های uBlock Origin) (در دست پیگیری)
+\- مسدودساز داخلی مرورگر بریو ([در دست پیگیری](https://github.com/brave/adblock-resources/issues/72))
 
 \- مسدودساز داخلی مرورگر ویوالدی (بزودی)
 
-\- نرم افزار AdGuard Home (مسدودساز DNS) (در دست پیگیری)
+\- نرم افزار AdGuard Home (مسدودساز DNS) ([در دست پیگیری](https://github.com/AdguardTeam/HostlistsRegistry/issues/59))
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
 
-\- لیست جامع Energized Protection (در نسخه Regional) (در دست پیگیری)
+\- لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
