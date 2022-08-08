@@ -1771,24 +1771,26 @@ softgozar.com##.DTOPBan
 ! https://github.com/MasterKia/PersianBlocker/issues/23
 ! کاربران باید این آزادی را داشته باشند که چه چیزی وارد مرورگرشان میشود، نه صاحب سایت
 !#if adguard
-soft98.ir##+js(nostif, , 3002)
-soft98.ir##header[id]:has(.row):remove()
-soft98.ir##:xpath(/html/body/div[*]/div/div[2]):remove()
-soft98.ir##:xpath(/html/body/div[*]/div/aside/section[*]):has(img[src*="cdn.hostdl.com"]):remove()
+soft98.ir##+js(rc, c3e1y2, *, stay)
+soft98.ir##[class^="c3e1y2"]
+soft98.ir##:xpath(/html/body/div[*]/div/div[*]/div/div[1]):has(a[href*="insta"]):remove()
+soft98.ir##[href*="linkdoni.soft98.ir"]:remove()
+soft98.ir##:xpath(/html/body/div[*]/div[*]/aside/section[*]/header):remove()
 soft98.ir##:xpath(/html/body/div[*]/div[*]/aside/div/section/header):remove()
 soft98.ir##:xpath(/html/body/div[*]/div/aside/div/section/div):remove()
-soft98.ir##strong[style]:upward(2):remove()
 soft98.ir##[href*="SMostafa.ir"]:remove()
 ||soft98.ir/engine/modules/antibot/antibot.php^$all
 ||soft98.ir/engine/ajax/controller.php^$all
-||file.soft98.ir^$image,redirect=nooptext
-||cdn.hostdl.com^$image,redirect=nooptext
+||file.soft98.ir^$image,redirect=click2load.html
+||cdn.hostdl.com^$image,redirect=click2load.html
 ||linkdoni.soft98.ir^$all
 ||iranicard.ir^$all,domain=soft98.ir
+||iranicard.ir^$removeparam=/^utm_/
 ||asiatech.ir^$all,domain=soft98.ir
+||asiatech.ir^$removeparam=/^utm_/
+||cdn.hostdl.com/goto/soft98^$all
 ||sysban.ir^$all,domain=soft98.ir
 ||smostafa.ir^$all,domain=soft98.ir
-soft98.ir##.collapsed:after:style(content: "در صورت دیدن هرگونه مشکل در سایت و یا پیغامی برای غیرفعال کردن افزونه حذف تبلیغات، کافیست به تنظیمات افزونه مسدودسازتان بروید و لیست PersianBlocker را بروز کنید." !important; color: #E6000D !important; visibility: visible !important; font-size: medium !important;)
 @@||soft98.ir^$ghide
 !#endif
 ! TOOD: Keep an eye on it
