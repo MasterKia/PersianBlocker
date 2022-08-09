@@ -1769,7 +1769,7 @@ softgozar.com##.DTOPBan
 ! https://github.com/uBlockOrigin/uAssets/issues/3011
 ! https://github.com/uBlockOrigin/uAssets/issues/10883
 ! https://github.com/MasterKia/PersianBlocker/issues/23
-! Addresed in uBlock Origin Quick-Fixes list and AdGuard Base Filters
+! soft98.ir: Addressed in uBlock Origin Quick-Fixes list and AdGuard Base Filters
 ! TOOD: Keep an eye on it
 
 ! ||subf2m.co/files/*.gif
