@@ -51,6 +51,7 @@ radar.bayan.ir
 backority.ir
 
 # >> C <<
+chavosh.org
 clickaval.com
 congoro.com
 clickyab.com
