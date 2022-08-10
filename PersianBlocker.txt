@@ -91,11 +91,11 @@
 ||blogfa.com/a/
 
 ! >> C <<
+||chavosh.org^$all
 ||clickaval.com^$all
 ||congoro.com^$all
 ||clickyab.com^$all
 ||chabok.io^$all
-||chavosh.org^$all
 
 ! >> D <<
 ||davedbux.ir^$all
