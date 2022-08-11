@@ -2218,6 +2218,11 @@ webgoo.ir##.left-block-top
 ! >> X <<
 
 ! >> Y <<
+! https://github.com/MasterKia/PersianBlocker/issues/36
+||yektapress.com/files/adv/
+yektapress.com##.col-2:style(width: 60% !important;)
+yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
+
 ||yektablog.net/js/adjs.php
 yektablog.net###popbox-blackout
 yektablog.net###box_1398
