@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-08-10
+! Last modified: 2022-08-14
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1130,6 +1130,11 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+||iranecar.com^$removeparam=/^utm_/
+||iranecar.com/wp-admin/admin-ajax.php?postviews_id=
+iranecar.com#@#.stream-item-widget
+iranecar.com#@#.widget-ad-image
+
 ||profile.iwmf.ir^$removeparam=/^utm_/
 
 ! https://github.com/MasterKia/PersianBlocker/issues/14
@@ -1349,6 +1354,8 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+||lendo.ir^$removeparam=/^utm_/
+
 languagedownload.ir##.type-sticky.status-publish
 
 ||lamtakam.com/img/ad
@@ -1368,6 +1375,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||mipersia.com/wp-content/cache/caos-analytics
+
 ! https://github.com/MasterKia/PersianBlocker/issues/27
 mobo.news##.ads-full-banner-img
 
@@ -1461,6 +1470,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+||netbarg.com/matomo.js
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83080
 ||namasha.com/visit?id=
 ||static.namasha.com/content/player*/vast.js
@@ -1650,6 +1661,7 @@ forum.p30world.com#@##ad_global_above_footer
 ! 8pic.ir##*[class*="main"]:has-text(تبلیغ)
 
 ! >> Q <<
+||sentry.quera.org^$all
 
 ! >> R <<
 ||rightel.ir^$removeparam=/^utm_/
@@ -1697,6 +1709,8 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||serveriran.net/wp-content/plugins/wccp-pro
+
 ! https://github.com/MasterKia/PersianBlocker/issues/25
 ||sedayiran.com/files/adv/
 sedayiran.com##.adv_top
