@@ -838,7 +838,7 @@ digiato.com##.todaysNewsList__sidebar
 digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی)).rowList > li:has(a[href*="/promoted/"])
 
-||digikala.com^$removeparam=/promo/
+||digikala.com^$removeparam=/^promo/
 ||digikala.com^$removeparam=bCode
 ||digikala.com^$removeparam=/^utm_/
 ||digikala.com^$removeparam=affid
@@ -851,6 +851,7 @@ digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward(1)
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
+digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 
 ||digikalajet.com^$removeparam=/promo/
