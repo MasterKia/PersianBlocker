@@ -2307,209 +2307,209 @@ zoomtech.org###posts_single_ads
 !-------------------------v Scam Exchange/Cryptocurrency Sites v-----------------------!
 
 ! https://github.com/Webamoozcom/warning-list/discussions/8
-||unifunds.com^$all
+||unifunds.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/18
-||wiseling.com^$all
+||wiseling.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/19
-||mrdigicoin.io^$all
+||mrdigicoin.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/15
-||liyamtoken.com^$all
+||liyamtoken.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/22
-||coin-hash.com^$all
+||coin-hash.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/23
-||cryptoland.com^$all
+||cryptoland.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/26
-||mtabdil.com^$all
+||mtabdil.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/45
-||aitrades.com^$all
+||aitrades.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/19
-||aryana.io^$all
+||aryana.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/52
-||synchrobit.io^$all
+||synchrobit.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/46
-||ratinbank.com^$all
+||ratinbank.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/44
-||general.tradings.ir^$all
+||general.tradings.ir^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/47
-||coinstwf.com^$all
+||coinstwf.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/19
-||aryacoin.io^$all
-||ayapay.aryacoin.io^$all
+||aryacoin.io^$doc
+||ayapay.aryacoin.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/49
-||propertiq.io^$all
+||propertiq.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/50
-||bixbcoin.com^$all
+||bixbcoin.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/23
-||bridge.link^$all
+||bridge.link^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/25
-||impero.solutions^$all
+||impero.solutions^$doc
 
 ! Discussion?
-||excoino.com^$all
+||excoino.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/54
-||dedino.ir^$all
+||dedino.ir^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/55
-||imsmining.com^$all
+||imsmining.com^$doc
 
 ! آمیتیس?
 
 ! https://github.com/Webamoozcom/warning-list/discussions/56
-||arongroups.co^$all
+||arongroups.co^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/27
 ! https://github.com/Webamoozcom/warning-list/discussions/74
-||portal.gpm.ltd^$all
-||gpm.ltd^$all
+||portal.gpm.ltd^$doc
+||gpm.ltd^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/57
-||coinsmining.energy^$all
+||coinsmining.energy^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/58
-||persia.exchange^$all
+||persia.exchange^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/26
-||mttcoin.com^$all
+||mttcoin.com^$doc
 
 ! Discussion?
-||irancloudmining.com^$all
+||irancloudmining.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/62
-||healour.com^$all
+||healour.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/58
-||farda.exchange^$all
+||farda.exchange^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/58
-||coinohit.com^$all
+||coinohit.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/50
-||bixb.exchange^$all
+||bixb.exchange^$doc
 
 ! Discussion?
-||axotrade.com^$all
+||axotrade.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/17
-||nokontoken.com^$all
+||nokontoken.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/12
-||yoozbit.com^$all
+||yoozbit.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/14
-||asaccoin.com^$all
+||asaccoin.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/20
-||hamyarminer.net^$all
+||hamyarminer.net^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/39
-||defigroups.com^$all
+||defigroups.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/41
 ! What domain?
 
 ! https://github.com/Webamoozcom/warning-list/discussions/42
-||ecompanypoll.com^$all
+||ecompanypoll.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/43
-||leumia.io^$all
+||leumia.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/37
-||bemchain.io^$all
+||bemchain.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/34
-||tastenfts.com^$all
+||tastenfts.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/35
-||pcoinglobal.com^$all
+||pcoinglobal.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/29
-||treenvest.com^$all
+||treenvest.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/30
-||artanlife.club^$all
+||artanlife.club^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/33
-||icbroker.com^$all
+||icbroker.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/31
-||ai.marketing^$all
+||ai.marketing^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/38
-||emway.ir^$all
+||emway.ir^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/60
-||guhtoken.org^$all
+||guhtoken.org^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/65
-||orbitnetwork.net^$all
+||orbitnetwork.net^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/67
-||espadannet.ir^$all
+||espadannet.ir^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/66
-||kingmoney.io^$all
+||kingmoney.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/66
-||utbyte.io^$all
+||utbyte.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/70
-||quahl.com^$all
+||quahl.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/72
-||denatoken.com^$all
+||denatoken.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/75
-||behkamcoin.com^$all
+||behkamcoin.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/77
-||dagcoin.org^$all
+||dagcoin.org^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/80
-||coinwallet.biz^$all
+||coinwallet.biz^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/81
-||ww1.traderbully.com^$all
+||ww1.traderbully.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/84
-||soodland.com^$all
+||soodland.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/86
-||minepi.com^$all
+||minepi.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/87
-||irancoinmine.com^$all
+||irancoinmine.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/88
-||laqira.io^$all
+||laqira.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/89
-||waykingroup.com^$all
+||waykingroup.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/90
-||bnbmatrix.io^$all
+||bnbmatrix.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/92
-||smartgalaxy.finance^$all
+||smartgalaxy.finance^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/94
-||bahatoken.site^$all
+||bahatoken.site^$doc
 
 !-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------!
