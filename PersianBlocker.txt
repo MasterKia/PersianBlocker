@@ -1336,6 +1336,9 @@ khabarpu.com##div.rbox:nth-of-type(1)
 ! @@||yektanet.com^$3p,domain=khabarpu.com
 ! TODO: Fix the video getting crippled
 
+! https://github.com/MasterKia/PersianBlocker/issues/38
+khabarfoori.com##[href*="/advertisements/"]
+khabarfoori.com##.zxc
 khabarfoori.com##.peyvand
 
 ketabesabz.com##+js(set, KetabrahPopup, noopFunc)
@@ -1711,6 +1714,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/37
+shahraranews.ir##[href*="/fa/ads/"]
+shahraranews.ir##.ads
+
 ||serveriran.net/wp-content/plugins/wccp-pro
 
 ! https://github.com/MasterKia/PersianBlocker/issues/25
