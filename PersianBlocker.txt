@@ -853,7 +853,7 @@ digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward(1)
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="fakeBadge"]:style(font-size: 1.4rem !important;)
-digikala.com##.text-caption-strong:has-text(غیر اصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2);)
+digikala.com##.text-caption-strong:has-text(غیر اصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2); padding-right: calc(2 * var(--spacing-base)) !important; padding-left: calc(2 * var(--spacing-base)) !important; margin-bottom: calc(1 * var(--spacing-base)) !important;)
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 
 ||digikalajet.com^$removeparam=/promo/
