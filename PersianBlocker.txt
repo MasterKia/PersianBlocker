@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-08-14
+! Last modified: 2022-08-15
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -848,10 +848,12 @@ digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی
 ||tracker.digikala.com^$all
 ||new-sentry.digikala.com^$all
 ||analytics.digikala.com^$all
+digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward(1)
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
-digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
+digikala.com##[class*="fakeBadge"]:style(font-size: 1.4rem !important;)
+digikala.com##.text-caption-strong:has-text(غیر اصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2);)
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 
 ||digikalajet.com^$removeparam=/promo/
