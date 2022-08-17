@@ -1010,14 +1010,14 @@ farsroid.com#@#.place-ads
 ||analysis.faradars.org
 ||faradars.org^$removeparam=/^utm_/
 
+! https://github.com/MasterKia/PersianBlocker/pull/39
+||media.farsnews.ir/Uploaded/Files/Documents/*.gif
 ||farsnews.ir/api/recordnewstextvisit?id=
-||tracker.farsnews.ir
-farsnews.ir##.float-menu-cookie
-farsnews.ir##.alert-cookie
+||tracker.farsnews.ir^
 farsnews.ir###carousel_adsss
-farsnews.ir##.slick-arrow
-farsnews.ir##.p-0.d-lg-inline-block.d-none.col-3
-farsnews.ir##.w-100.news-box > .w-100.mt-3
+farsnews.ir##.ad-mobile-none
+farsnews.ir##.ads-native
+farsnews.ir#@#div.alert-cookie
 
 fa-tools.ir##.adv
 fa-tools.ir##.list
