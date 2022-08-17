@@ -146,7 +146,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
 
-\- مسدودساز داخلی مرورگر بریو ([در دست پیگیری](https://github.com/brave/adblock-resources/issues/72))
+\- [مسدودساز داخلی مرورگر بریو](https://github.com/brave/adblock-resources/blob/master/filter_lists/regional.json#L203)
 
 \- مسدودساز داخلی مرورگر ویوالدی (بزودی)
 
