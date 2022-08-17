@@ -150,7 +150,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- مسدودساز داخلی مرورگر ویوالدی (بزودی)
 
-\- نرم افزار AdGuard Home (مسدودساز DNS) ([در دست پیگیری](https://github.com/AdguardTeam/HostlistsRegistry/issues/59))
+\- نرم افزار AdGuard Home (مسدودساز DNS) ([در دست پیگیری](https://github.com/AdguardTeam/HostlistsRegistry/tree/main/filters/regional/filter_19_IRN_PersianBlocker)
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
 
