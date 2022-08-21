@@ -1324,11 +1324,10 @@ kojaro.com##.article-mobile-inContent
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101735
-khabaronline.ir###mainbody:has(#ads-container) .main-content:style(max-width: 100% !important; flex-grow: 1 !important;)
-khabaronline.ir###ads-container
+khabaronline.ir##.container:has(#ads-container):style(max-width: 95% !important; flex-grow: 1 !important;)
 khabaronline.ir###header-ad
-khabaronline.ir###box193
 khabaronline.ir##.ads
+khabaronline.ir##.bg-gray-links.box
 
 ||koolakmag.ir/wp-admin/admin-ajax.php?postviews_id=
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
