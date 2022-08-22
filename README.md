@@ -7,10 +7,7 @@ https://t.me/PersianBlocker
 
 لیست **PersianBlocker** جزو لیست های _پیشفرض_ افزونه **uBlock Origin** و **AdGuard** میباشد.
 
-# حذف تبلیغات سافت98:
-برای خلاص شدن از ضدمسدودساز (Anti-Adblock) مزخرف سافت98، کافیست این افزونه فایرفاکس را نصب کنید (افزونه برای کروم به زودی):
-
-https://addons.mozilla.org/addon/soft98-anti-adblock-bypass/
+# برای حذف تبلیغات سافت98 [اینجا کلیک کنید](https://github.com/MasterKia/PersianBlocker/issues/40)
 
 
 - [راه اندازی در کامپیوتر](#-راه-اندازی-در-کامپیوتر)
