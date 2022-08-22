@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Soft98 AdBlock Detector Bypasser
-// @namespace    http://tampermonkey.net/
+// @namespace    Violentmonkey Scripts
 // @version      0.1
 // @description  Gives yet another challenge to SMostafa
 // @author       Some guy somewhere
