@@ -1851,9 +1851,9 @@ simcart.com##.banner9
 ! shahrsakhtafzar.com##[href^="/fa/component/flexbanners/click/"]
 shahrsakhtafzar.com##.ads2col
 shahrsakhtafzar.com##.flexbanneritem
-shahrsakhtafzar.com##.pishnahad.custom > p
 shahrsakhtafzar.com###g-top
 !#if env_mobile
+shahrsakhtafzar.com###logoads
 shahrsakhtafzar.com##.ads2colmobile
 shahrsakhtafzar.com##.mobile-fix-bottom
 !#endif
