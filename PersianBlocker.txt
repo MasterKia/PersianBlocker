@@ -2123,6 +2123,10 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+uplod.ir##.free_ad_con
+uplod.ir##.footer-back-link
+uplod.ir##.logo_full_view
+
 ||upera.tv^$removeparam=ref
 ! ||affil.charkhoneh.com^$removeparam=affiliateId
 
