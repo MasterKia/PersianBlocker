@@ -1,7 +1,7 @@
 ! Title: Webamooz Warning List
 ! Description: لیست هشدار وب آموز
-! Expires: 4 days
-! Last modified: 2022-08-07
+! Expires: 10 days
+! Last modified: 2022-08-23
 ! Homepage: https://webamoozcom.github.io/warning-list
 ! Licence: MIT (https://github.com/Webamoozcom/warning-list/blob/master/LICENSE)
 
@@ -212,5 +212,26 @@
 
 ! https://github.com/Webamoozcom/warning-list/discussions/94
 ||bahatoken.site^$doc
+
+! https://github.com/Webamoozcom/warning-list/discussions/119
+||shamining.com^$doc
+
+! https://github.com/Webamoozcom/warning-list/discussions/121
+||teeth1.info^$doc
+
+! https://github.com/Webamoozcom/warning-list/discussions/125
+||t.me/BITBOD_TRADING_CLUB^$doc
+
+! https://github.com/Webamoozcom/warning-list/discussions/127
+! What domain?
+
+! https://github.com/Webamoozcom/warning-list/discussions/130
+||wintap.io^$doc
+
+! https://github.com/Webamoozcom/warning-list/discussions/131
+! What domain?
+
+! https://github.com/Webamoozcom/warning-list/discussions/132
+||frzss.com^$doc
 
 !-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------!
