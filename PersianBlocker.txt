@@ -15,7 +15,7 @@
 ! /statics/*$xhr
 ! .ir/ads/
 
-! /admin-ajax.php?postviews_id=
+! /admin-ajax.php?postviews_id= => some sites use it to show "بازدید: "
 ! /admin-ajax.php?action=adwised
 
 ! wp-content/plugins/google-analytics
