@@ -1878,6 +1878,7 @@ simcart.com##.banner9
 shahrsakhtafzar.com##.ads2col
 shahrsakhtafzar.com##.flexbanneritem
 shahrsakhtafzar.com###g-top
+shahrsakhtafzar.com##.items-row:has(.sazitem_imgcat:has-text(رپورتاژ آگهی)):not(:matches-path(/fa/news/pr))
 !#if env_mobile
 shahrsakhtafzar.com###logoads
 shahrsakhtafzar.com##.ads2colmobile
