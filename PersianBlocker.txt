@@ -598,6 +598,7 @@ apktops.ir##.asiatech
 ||b2n.ir/static/banners/advt.png
 ||b2n.ir/adv
 b2n.ir##.banner
+b2n.ir##.abox
 
 bils.ir###iddivtoplevelscript
 bils.ir##div:nth-of-type(3)
@@ -1702,6 +1703,8 @@ forum.p30world.com#@##ad_global_above_footer
 ||sentry.quera.org^$all
 
 ! >> R <<
+||rizy.ir/img/*.gif
+
 ||rightel.ir^$removeparam=/^utm_/
 
 radiojavan-iran.com##.ads.big_post
