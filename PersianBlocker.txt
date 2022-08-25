@@ -734,6 +734,9 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+delgarm.com##[href*="/banners/click/"]
+delgarm.com##.weblink
+
 1da.ir,1ea.ir##+js(set, window.blurred, false)
 ||1da.ir/img/*.gif
 ||1ea.ir/img/rep/Ads
@@ -1744,6 +1747,9 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+shereno.com##.b_box
+shereno.com##.widget:has(.widget_title:has-text(پیوند))
+
 ! https://github.com/MasterKia/PersianBlocker/issues/37
 shahraranews.ir##[href*="/fa/ads/"]
 shahraranews.ir##.ads
