@@ -734,6 +734,14 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+1da.ir,1ea.ir##+js(set, window.blurred, false)
+||1da.ir/img/*.gif
+||1ea.ir/img/rep/Ads
+1da.ir##.left.col-md-4
+1da.ir##.khp-site-info p
+1ea.ir##.phoenixad
+1ea.ir##a[rel="dofollow"]
+
 download1music.ir##[id^="pos-article-display-"]
 download1music.ir##a:has(a>img[class^="aligncenter size-full "])
 
