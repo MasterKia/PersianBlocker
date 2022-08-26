@@ -798,13 +798,14 @@ delbaraneh.com##.widget_text.widget.primary-sidebar-widget.w-t.h-i
 doctorwp.com###home-2-col > .bs-vc-wrapper > .vc_col-sm-3.vc_column_container.bs-vc-column.wpb_column
 doctorwp.com##.widget_nav_menu.widget.primary-sidebar-widget.w-t.h-ni
 
-||donya-e-eqtesad.com/servev
+! https://github.com/MasterKia/PersianBlocker/issues/43
 ! ||donya-e-eqtesad.com/statics
-donya-e-eqtesad.com##[href^="/advertisements/"]
-donya-e-eqtesad.com##.custom-ad-one
+||donya-e-eqtesad.com/servev*/*.gif
+donya-e-eqtesad.com##[href^="/advertisements/triggered/"]
 donya-e-eqtesad.com##.zxc
 donya-e-eqtesad.com##.zxc-m
-donya-e-eqtesad.com##.type-resource-image
+donya-e-eqtesad.com##.custom-ad-one
+donya-e-eqtesad.com##.general-box:has(.box-header:has-text(وب گردی))
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56925
 ||downloadsoftware.ir/images/ads/
