@@ -1572,6 +1572,14 @@ opizo.me##+js(aeld, blur)
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+! https://github.com/MasterKia/PersianBlocker/issues/45
+||pezeshket.com/wp-content/uploads/*.gif
+pezeshket.com###stream-item-widget-3
+pezeshket.com##.dialog-lightbox-message
+pezeshket.com#@#.widget-ad-image
+pezeshket.com#@#.stream-item-widget
+@@||pezeshket.com/wp-content/uploads/2022/07/%D9%BE%D8%B1%D8%B3%D8%B4-%D9%88-%D9%BE%D8%A7%D8%B3%D8%AE.gif
+
 ||parspack.com^$removeparam=/^utm_/
 ! Example: bottom of zoomit.ir
 
