@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-08-25
+! Last modified: 2022-08-26
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -898,6 +898,11 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+||ecoiran.com/servev*/*.gif
+ecoiran.com##[href^="/advertisements/triggered/"]
+ecoiran.com##.zxc
+ecoiran.com##.latestContents:has(.bTitle:has-text(وب گردی))
+
 ! ezp30.com##+js(aopr, faPa)
 ||ezp30.com/wp-content/themes/ezp30/pjs
 ezp30.com##.fix-ez
