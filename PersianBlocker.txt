@@ -739,6 +739,7 @@ delgarm.com##[href*="/banners/click/"]
 delgarm.com##.weblink
 
 1da.ir,1ea.ir,2ad.ir##+js(set, window.blurred, false)
+1da.ir,1ea.ir,2ad.ir##+js(set, window.onblur, false)
 ||1da.ir/img/*.gif
 ||1ea.ir/img/rep/Ads
 1da.ir##a:not([href*="1da.ir"]):not([href*="instagram.com"]):not([href*="t.me"])
