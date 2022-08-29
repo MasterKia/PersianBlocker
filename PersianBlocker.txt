@@ -899,6 +899,8 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+emeil.ir##[class*="text_ads"]
+
 ||ecoiran.com/servev*/*.gif
 ecoiran.com##[href^="/advertisements/triggered/"]
 ecoiran.com##.zxc
