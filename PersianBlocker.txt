@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-08-28
+! Last modified: 2022-08-29
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1136,6 +1136,10 @@ gadgetnews.net##.sticky-ad
 !#endif
 
 ! >> H <<
+harmonydl.us###ads
+harmonydl.us##.cside1 > .hside2:has-text(تبلیغات):upward(.cside1)
+harmonydl.us##.tabliq
+
 ! https://github.com/MasterKia/PersianBlocker/issues/18
 ||honarehzendegi.com/cdn-cgi/challenge-platform^$all
 honarehzendegi.com#@#.logo-ad
