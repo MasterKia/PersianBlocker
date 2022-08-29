@@ -2395,6 +2395,8 @@ zoomtech.org###posts_single_ads
 !-------------------------^ Site-Specific Filters ^-----------------------!
 
 !-------------------------v Scam Exchange/Cryptocurrency Sites v-----------------------!
+! https://webamoozcom.github.io/warning-list/
+
 
 ! Discussion?
 ||excoino.com^$doc
