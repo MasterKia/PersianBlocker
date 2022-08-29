@@ -2404,10 +2404,10 @@ zoomtech.org###posts_single_ads
 ! Discussion?
 ||irancloudmining.com^$doc
 
-! آمیتیس?
-
 ! Discussion?
 ||axotrade.com^$doc
+
+! آمیتیس?
 
 ! https://github.com/Webamoozcom/warning-list/discussions/41
 ! What domain?
