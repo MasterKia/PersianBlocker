@@ -6,7 +6,7 @@
 // @author       Some guy somewhere
 // @match        http://*.soft98.ir/*
 // @match        https://*.soft98.ir/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=soft98.ir
+// @icon         https://www.google.com/s2/favicons?sz=128&domain=soft98.ir
 // @grant        none
 // @run-at       document-start
 // @updateURL    https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/Soft98AntiAdbBypass.user.js
