@@ -312,6 +312,8 @@ analytics.zoomit.ir
 #-------------------------^ Site-Specific Filters ^-----------------------#
 
 #-------------------------v Scam Exchange/Cryptocurrency Sites v-----------------------#
+# https://webamoozcom.github.io/warning-list/
+
 
 # Discussion?
 excoino.com
@@ -319,12 +321,18 @@ excoino.com
 # Discussion?
 irancloudmining.com
 
-# آمیتیس?
-
 # Discussion?
 axotrade.com
 
+# آمیتیس?
+
 # https://github.com/Webamoozcom/warning-list/discussions/41
+# What domain?
+
+# https://github.com/Webamoozcom/warning-list/discussions/127
+# What domain?
+
+# https://github.com/Webamoozcom/warning-list/discussions/131
 # What domain?
 
 
@@ -348,13 +356,11 @@ wiseling.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/19
 mrdigicoin.io
-
-# https://github.com/Webamoozcom/warning-list/discussions/19
+mrdigicoin.org
+mrdigicoin.eu
 aryana.io
-
-# https://github.com/Webamoozcom/warning-list/discussions/19
 aryacoin.io
-ayapay.aryacoin.io
+aryastake.io
 
 # https://github.com/Webamoozcom/warning-list/discussions/20
 hamyarminer.net
@@ -364,8 +370,6 @@ coin-hash.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/23
 cryptoland.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/23
 bridge.link
 
 # https://github.com/Webamoozcom/warning-list/discussions/25
@@ -373,14 +377,10 @@ impero.solutions
 
 # https://github.com/Webamoozcom/warning-list/discussions/26
 mtabdil.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/26
 mttcoin.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/27
-# https://github.com/Webamoozcom/warning-list/discussions/74
-portal.gpm.ltd
-gpm.ltd
+unique.finance
 
 # https://github.com/Webamoozcom/warning-list/discussions/29
 treenvest.com
@@ -432,8 +432,6 @@ propertiq.io
 
 # https://github.com/Webamoozcom/warning-list/discussions/50
 bixbcoin.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/50
 bixb.exchange
 
 # https://github.com/Webamoozcom/warning-list/discussions/52
@@ -453,11 +451,7 @@ coinsmining.energy
 
 # https://github.com/Webamoozcom/warning-list/discussions/58
 persia.exchange
-
-# https://github.com/Webamoozcom/warning-list/discussions/58
 coinohit.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/58
 farda.exchange
 
 # https://github.com/Webamoozcom/warning-list/discussions/60
@@ -471,8 +465,6 @@ orbitnetwork.net
 
 # https://github.com/Webamoozcom/warning-list/discussions/66
 kingmoney.io
-
-# https://github.com/Webamoozcom/warning-list/discussions/66
 utbyte.io
 
 # https://github.com/Webamoozcom/warning-list/discussions/67
@@ -484,6 +476,9 @@ quahl.com
 # https://github.com/Webamoozcom/warning-list/discussions/72
 denatoken.com
 
+# https://github.com/Webamoozcom/warning-list/discussions/74
+gpm.ltd
+
 # https://github.com/Webamoozcom/warning-list/discussions/75
 behkamcoin.com
 
@@ -494,7 +489,7 @@ dagcoin.org
 coinwallet.biz
 
 # https://github.com/Webamoozcom/warning-list/discussions/81
-ww1.traderbully.com
+traderbully.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/84
 soodland.com
@@ -529,16 +524,9 @@ teeth1.info
 # https://github.com/Webamoozcom/warning-list/discussions/125
 t.me/BITBOD_TRADING_CLUB
 
-# https://github.com/Webamoozcom/warning-list/discussions/127
-# What domain?
-
 # https://github.com/Webamoozcom/warning-list/discussions/130
 wintap.io
 
-# https://github.com/Webamoozcom/warning-list/discussions/131
-# What domain?
-
 # https://github.com/Webamoozcom/warning-list/discussions/132
 frzss.com
-
 #-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------#
