@@ -2410,6 +2410,12 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/41
 ! What domain?
 
+! https://github.com/Webamoozcom/warning-list/discussions/127
+! What domain?
+
+! https://github.com/Webamoozcom/warning-list/discussions/131
+! What domain?
+
 
 ! https://github.com/Webamoozcom/warning-list/discussions/8
 ||unifunds.com^$doc
@@ -2431,13 +2437,11 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/19
 ||mrdigicoin.io^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/19
+||mrdigicoin.org^$doc
+||mrdigicoin.eu^$doc
 ||aryana.io^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/19
 ||aryacoin.io^$doc
-||ayapay.aryacoin.io^$doc
+||aryastake.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/20
 ||hamyarminer.net^$doc
@@ -2447,8 +2451,6 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/23
 ||cryptoland.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/23
 ||bridge.link^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/25
@@ -2456,14 +2458,10 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/26
 ||mtabdil.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/26
 ||mttcoin.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/27
-! https://github.com/Webamoozcom/warning-list/discussions/74
-||portal.gpm.ltd^$doc
-||gpm.ltd^$doc
+||unique.finance^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/29
 ||treenvest.com^$doc
@@ -2515,8 +2513,6 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/50
 ||bixbcoin.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/50
 ||bixb.exchange^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/52
@@ -2536,11 +2532,7 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/58
 ||persia.exchange^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/58
 ||coinohit.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/58
 ||farda.exchange^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/60
@@ -2554,8 +2546,6 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/66
 ||kingmoney.io^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/66
 ||utbyte.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/67
@@ -2567,6 +2557,9 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/72
 ||denatoken.com^$doc
 
+! https://github.com/Webamoozcom/warning-list/discussions/74
+||gpm.ltd^$doc
+
 ! https://github.com/Webamoozcom/warning-list/discussions/75
 ||behkamcoin.com^$doc
 
@@ -2577,7 +2570,7 @@ zoomtech.org###posts_single_ads
 ||coinwallet.biz^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/81
-||ww1.traderbully.com^$doc
+||traderbully.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/84
 ||soodland.com^$doc
@@ -2612,14 +2605,8 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/125
 ||t.me/BITBOD_TRADING_CLUB^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/127
-! What domain?
-
 ! https://github.com/Webamoozcom/warning-list/discussions/130
 ||wintap.io^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/131
-! What domain?
 
 ! https://github.com/Webamoozcom/warning-list/discussions/132
 ||frzss.com^$doc
