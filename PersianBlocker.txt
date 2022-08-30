@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-08-29
+! Last modified: 2022-08-30
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -587,6 +587,8 @@ apktops.ir##.widget_links
 apktops.ir##.asiatech
 
 ! >> B <<
+biainobokhor.ir##.step:nth-of-type(4):after:style(content: 'هشدار از طرف لیست PersianBlocker: با ثبت کردن این اطلاعات، این سایت می‌تواند آدرس خانه و همه اطلاعات شما که در حساب‌کاربری اسنپ‌فود ثبت شده است را مشاهده کند و یا حتی اقدام به تغییر اطلاعات و ثبت سفارش کند. از این سایت با ریسک خودتان استفاده کنید و بعد از اتمام بررسی، دکمه "خروج" در سایت اسنپ‌فود را زده تا Token شما لغو شده و دسترسی این سایت به حساب‌کاربری شما قطع شود.' !important; color: #E6000D !important; margin-top: 20px !important;)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1198560570
 ||bama.ir^$removeparam=/^utm_/
 ||apm.bama.ir^$all
