@@ -1285,6 +1285,9 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+||jabeh.com/assets/videojs-contrib-ads
+||jabeh.com/analytics^
+
 jalebamooz.com##.stream-item-top-wrapper
 jalebamooz.com###block-3
 jalebamooz.com###block-4
