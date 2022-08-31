@@ -1983,7 +1983,11 @@ saat24.news###box167
 ||api.torob.com^$removeparam=_ft__ab_test
 ! ||api.torob.com/*/base-product/details-log-click^
 ! ^ Causes infinite loading
-torob.com##.seller-element.shop-card:has-text(آگهی)
+torob.com##.seller-element.shop-card:has(.click_vijhe)
+!#if env_mobile
+torob.com##.sellers_section > div > div:has(.click_vijhe)
+torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
+!#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
 takmili.com##+js(acis, document.oncontextmenu)
