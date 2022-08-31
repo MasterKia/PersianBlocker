@@ -1985,7 +1985,8 @@ saat24.news###box167
 ! ^ Causes infinite loading
 torob.com##.seller-element.shop-card:has(.click_vijhe)
 !#if env_mobile
-torob.com##.sellers_section > div > div:has(.click_vijhe)
+torob.com##.sellers_section:not(:has(.modal-header)) > div > div:has(.click_vijhe)
+torob.com##.sellers_section > div > div > div > div > div > div > div:has(.click_vijhe)
 torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
 !#endif
 
