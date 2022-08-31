@@ -2633,7 +2633,11 @@ zoomtech.org###posts_single_ads
 
 ! https://t.me/MiladNouriChannel/685
 ! https://instagram.com/p/Ch7u5KrjAkP
+! https://cyber-alerts.com/2022/08/27/websites-related-to-usdtpkpgmail-com
 ||usdtbang.com^$all
 ||usdteng.com^$all
+||usdtcan.com^$all
+||usdtbbc.com^$all
+||imtokenwallet.biz^$all
 
 !-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------!
