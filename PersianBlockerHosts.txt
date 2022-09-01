@@ -530,6 +530,7 @@ wintap.io
 # https://github.com/Webamoozcom/warning-list/discussions/132
 frzss.com
 
+
 # https://t.me/MiladNouriChannel/685
 # https://instagram.com/p/Ch7u5KrjAkP
 # https://cyber-alerts.com/2022/08/27/websites-related-to-usdtpkpgmail-com/
