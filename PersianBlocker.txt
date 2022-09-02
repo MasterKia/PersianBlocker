@@ -1588,6 +1588,11 @@ namnak.com##.Dr.D2.Cu.o
 
 ! >> O <<
 opizo.me##+js(aeld, blur)
+! https://github.com/uBlockOrigin/uAssets/commit/9eb324a7dff561f00b270f076a5ed31ad841ab17#commitcomment-82863816
+!#if ext_ublock
+opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/):others()
+opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
+!#endif
 
 omidnamehnews.ir##.adspanel
 
