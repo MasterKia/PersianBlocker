@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-08-31
+! Last modified: 2022-09-02
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -435,6 +435,10 @@
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://github.com/MasterKia/PersianBlocker/issues/46
+asemooni.com##.right-sidebar img[title="محل تبلیغات شما"]
+asemooni.com##.right-sidebar img[title="رپورتاژ"] 
+
 applicationha.com##+js(aopr, faPa)
 ||applicationha.com/wp-admin/admin-ajax.php?postviews_id=
 applicationha.com##.baner
