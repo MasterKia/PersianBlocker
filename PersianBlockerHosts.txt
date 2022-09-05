@@ -1,3 +1,4 @@
+[AdBlock]
 # ------------------------------------[UPDATE]--------------------------------------
 # Title: PersianBlocker (Hosts)
 # Expires: 2 day
