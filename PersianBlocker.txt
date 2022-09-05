@@ -429,6 +429,7 @@
 
 ! >> A <<
 ! https://github.com/MasterKia/PersianBlocker/issues/48
+||arzcenter.com/static/plugin/gtag.js
 arzcenter.com##[href*="nobitex.ir"]
 
 ! https://github.com/MasterKia/PersianBlocker/issues/46
