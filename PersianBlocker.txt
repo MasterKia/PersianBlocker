@@ -428,6 +428,9 @@
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://github.com/MasterKia/PersianBlocker/issues/48
+arzcenter.com##[href*="nobitex.ir"]
+
 ! https://github.com/MasterKia/PersianBlocker/issues/46
 asemooni.com##.right-sidebar img[title="محل تبلیغات شما"]
 asemooni.com##.right-sidebar img[title="رپورتاژ"] 
