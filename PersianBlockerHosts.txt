@@ -155,6 +155,8 @@ publica.ir
 # >> R <<
 
 # >> S <<
+statsfa.com
+
 sendword.ir
 # Used by i-video.ir
 
