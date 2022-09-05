@@ -1,7 +1,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-09-02
+! Last modified: 2022-09-05
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -220,6 +220,7 @@
 /include/rozblog_ads_js
 
 ! >> S <<
+||statsfa.com^$all
 ||slideskin.ir/ads/pop.php^$all
 
 ||sendword.ir^$all
@@ -240,7 +241,6 @@
 
 ! >> T <<
 ||te1.ir^$all
-
 ||talapop.ir^$all
 
 ||titr.online^$3p
@@ -256,13 +256,6 @@
 @@||player.tavoos.net/assets/fonts/$font
 @@||player.tavoos.net/assets/$image
 ! ^ Example: film.tebyan.net
-! ||player.tavoos.net/jwpsrv.js
-! ||player.tavoos.net/vast.js
-! ||tavoos.net/services/banner
-! ||tavoos.net/bannerANDnative/
-! ||tavoos.net/services/vast/*$xhr
-! ||tavoos.net/tavoos_player/pushvideo/tavoos_push.js
-! ||tavoos.net/services/retargeting
 
 ||cashback.takhfifan.com^$all
 ! TODO: Investigate ^
@@ -1972,6 +1965,17 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+! https://github.com/MasterKia/PersianBlocker/issues/47
+||technews-iran.com/wp-content/cache/min/*/amp-ad-
+||ad.technews-iran.com^$image
+||app.technews-iran.com^$removeparam=_gl
+||app.technews-iran.com^$removeparam=_ga
+technews-iran.com##[href*="ad.technews-iran.com/go"]
+technews-iran.com##.jl_ads_section > .widget_media_image
+technews-iran.com##.elementor-hidden-phone:has([href*="ad.technews-iran.com"])
+technews-iran.com##.elementor-element-cd0549f:style(width: 100% !important;)
+technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 100% !important; margin-right: 0 !important;)
+
 ^utm_source=Torob^$removeparam=/^utm_/
 ! ||api.torob.com^$removeparam=~prk
 ||api.torob.com^$removeparam=source
