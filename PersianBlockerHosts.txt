@@ -16,6 +16,7 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
+adskav.com
 adtube.ir
 advn.ir
 
@@ -119,6 +120,7 @@ najva.com
 netbina.com
 
 # >> O <<
+on-click.ir
 
 # >> P <<
 phonroid.com
