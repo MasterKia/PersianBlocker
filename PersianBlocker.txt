@@ -1197,6 +1197,7 @@ hamshahrionline.ir#@##ads-container
 ! >> I <<
 ! https://github.com/MasterKia/PersianBlocker/issues/50
 ||ifilo.net^$removeparam=/^utm_/
+ifilo.net##.si.au._m0.sd.vb:style(max-height: 100% !important;)
 ifilo.net#@#.adver
 
 itarfand.com##+js(acis, jQuery, contextmenu)
