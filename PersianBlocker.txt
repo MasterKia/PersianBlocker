@@ -1314,6 +1314,12 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+! https://github.com/MasterKia/PersianBlocker/issues/51
+jeyran.net##+js(acis, document.oncontextmenu)
+jeyran.net##.content_item:has(a[href*="/category/ads/"])
+jeyran.net##.sidebar-area .image
+jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
+
 ||jabeh.com/assets/videojs-contrib-ads
 ||jabeh.com/analytics^
 
