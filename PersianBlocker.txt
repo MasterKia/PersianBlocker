@@ -917,6 +917,12 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/issues/50
+||ejiga.com/content/player/js/rmp-vast.js
+||ejiga.com/content/player/css/rmp-vast.css
+ejiga.com##.adv
+ejiga.com##.adv-ttl
+
 emeil.ir##[class*="text_ads"]
 
 ||ecoiran.com/servev*/*.gif
