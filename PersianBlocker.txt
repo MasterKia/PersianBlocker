@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-09-05
+! Last modified: 2022-09-06
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -35,8 +35,8 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||adskav.com^$all
 ||adtube.ir^$all
-
 ||advn.ir^$all
 
 ||amaroid.net^$all
@@ -177,6 +177,7 @@
 ||netbina.com^$all
 
 ! >> O <<
+||on-click.ir^$all
 
 ! >> P <<
 ||phonroid.com^$all
@@ -241,6 +242,16 @@
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
+||tamasha.com^$removeparam=vastUrl
+||tamasha.com/et/play?ntt=
+||tamasha.com/dist/*/contrib/player/js/videojs.ima.min.js
+||tamasha.com/dist/*/contrib/player/js/videojs-contrib.min.js
+||tamasha.com/dist/*/contrib/player/js/ima
+||tamasha.com/dist/*/js/ads_tracker.min.js
+||tamasha.com/dist/*/js/tracker.min.js
+@@||tamasha.com/embed^$subdocument
+! Example: ejiga.com/w/SQxMqtz
+
 ||te1.ir^$all
 ||talapop.ir^$all
 
@@ -1178,6 +1189,11 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+! https://github.com/MasterKia/PersianBlocker/issues/50
+ifilo.net##.wall-side
+ifilo.net##.co-s8.co-m9:style(width: 100% !important;)
+ifilo.net#@#.adver
+
 itarfand.com##+js(acis, jQuery, contextmenu)
 itarfand.com##.sin-part
 
