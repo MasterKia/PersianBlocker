@@ -48,6 +48,7 @@
 
 ||asreasia.com/piwik
 
+||aasaam.com^$3p
 ||analytics.aasaam.com^$all
 ||analytics-*.aasaam.com^$all
 
