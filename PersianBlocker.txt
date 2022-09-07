@@ -1048,8 +1048,12 @@ fartaknews.com##.inline-news-box
 ||faradeed.ir/fa/generate/userid
 
 ||fardanews.com/statics/
-fardanews.com##.txt-adv-box
 fardanews.com##.header-adv
+fardanews.com##.txt-adv-box
+fardanews.com##.zxc
+fardanews.com##.others_media
+fardanews.com##.sticky_notify2
+fardanews.com##.n-first-col-left:style(width: 100% !important;)
 
 ||fararu.com/fa/generate/userid
 ||fararu.com/files/adv/
@@ -1121,6 +1125,10 @@ gamesetup.ir##.sidebar > div.box:nth-of-type(5)
 ||gostaresh.news/statics/
 gostaresh.news##.zxc_home
 gostaresh.news##.zxc_news
+gostaresh.news##.main_wrapper:style(max-width: 95% !important;)
+gostaresh.news##.right_col:style(width: 95% !important;)
+gostaresh.news##.page_first_clm:style(width: 70% !important;)
+gostaresh.news##.page_second_clm:style(width: 30% !important;)
 
 gamesib.ir###next1-231
 gamesib.ir##.asd_top
@@ -1366,6 +1374,10 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+||khabareazad.com/aec.min.js^
+khabareazad.com##[class^="zxc"]
+khabareazad.com##.sticky_notify
+
 ! https://github.com/MasterKia/PersianBlocker/issues/33
 ||konkur.in/image/ads/
 @@||dl.konkur.in/image/ads/gold.png$image,1p
@@ -2243,6 +2255,7 @@ article.tebyan.net##.AdsContainer
 ||newsmedia.tasnimnews.com/Tasnim/Uploaded/Ads/
 tasnimnews.com##.ad-item
 tasnimnews.com##.ads-footer
+tasnimnews.com##.col-md-9:style(width: 100% !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88769
 ||tarafdari.com/advertise
