@@ -1490,6 +1490,7 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! >> M <<
 mosalasonline.com##.zxc
 mosalasonline.com##.news-col-2 .related-news
+mosalasonline.com##.sticky_notify
 mosalasonline.com##.news-col-1:style(width: 70% !important;)
 mosalasonline.com##.news-col-2:style(width: 30% !important;)
 
