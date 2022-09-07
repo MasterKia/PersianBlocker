@@ -179,6 +179,11 @@
 ||mitrarank.ir^$all
 
 ! >> N <<
+||newswidget.net^$all
+||vidomusic.org^$all
+||pantatec.ae^$all
+! Used by mosalasonline.com
+
 ||najva.com^$all
 ||netbina.com^$all
 
@@ -1483,6 +1488,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+mosalasonline.com##.zxc
+mosalasonline.com##.news-col-2 .related-news
+mosalasonline.com##.news-col-1:style(width: 70% !important;)
+mosalasonline.com##.news-col-2:style(width: 30% !important;)
+
 ||mipersia.com/wp-content/cache/caos-analytics
 
 ! https://github.com/MasterKia/PersianBlocker/issues/27
