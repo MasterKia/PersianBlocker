@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-09-06
+! Last modified: 2022-09-07
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2396,6 +2396,7 @@ yun.ir##.advertisements
 yasdl.com##.ads-block
 yasdl.com##.top-ads
 yasdl.com##.row.fixed-post.post
+yasdl.com##.sidebar-textads
 
 yeknet.ir##+js(aopr, needpop)
 
