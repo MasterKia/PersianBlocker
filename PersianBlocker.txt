@@ -1855,15 +1855,14 @@ searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-s
 sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
 
-||shomanews.com/rss-files.php
-||shomanews.com/statics
-||shomanews.com/servev2/*.gif
-||shomanews.com/player/vastlink.js
-shomanews.com##[href^="/advertisements/"]
-shomanews.com##.banner_mnb
-shomanews.com##.type-resource-image.type-resource
-shomanews.com##.noprint.generalBoxStyle
-shomanews.com##.generalBoxStyle.mt16
+||shomanews.com/box.php^$3p
+||shomanews.com/player/vastlink.js^
+||shomanews.com/player/vast.js^
+||shomanews.com/rss-rasa.php^
+shomanews.com##.mnb
+shomanews.com##.mauto_div
+shomanews.com##.generalBoxStyle:has-text(تبلیغات متنی)
+shomanews.com##.row_one_content:style(width: 100% !important;)
 
 ||stnews.ir/ads/
 
