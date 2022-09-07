@@ -669,6 +669,9 @@ barsadic.com##div.text-center.col-md-3 > .paddingAll10.panel-success.panel
 
 borna.news##[href^="/advertisements/"]
 borna.news##.side_adv
+borna.news##.cols_cnt:style(max-width: 95% !important;)
+borna.news##.first_col, .n_first_col:style(width: 70% !important;)
+borna.news##.second_col, .n_second_col:style(width: 30% !important;)
 
 ||beautyhome.ir/wp-content/plugins/meks-easy-ads
 ||beautyhome.ir/wp-content/plugins/ads
