@@ -1827,6 +1827,11 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||shomavaeghtesad.com/rss-rasa.php^
+shomavaeghtesad.com##.zxc
+shomavaeghtesad.com##.column_1:style(width: 70% !important;)
+shomavaeghtesad.com##.column_2:style(width: 30% !important;)
+
 ||sheypoor.com/js/analytics-
 
 shereno.com##.b_box
