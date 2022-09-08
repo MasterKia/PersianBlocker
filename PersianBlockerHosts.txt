@@ -105,6 +105,7 @@ ads.karzar.net
 kaprila.com
 
 # >> L <<
+linkfars.com
 landyab.com
 linksaz.net
 linkyar.com
@@ -181,6 +182,7 @@ ads.safarme.ir
 sabavision.com
 
 # >> T <<
+triboon.net
 te1.ir
 talapop.ir
 tabligheirani.ir
