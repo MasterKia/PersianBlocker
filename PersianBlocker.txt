@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 2022-09-07
+! Last modified: 2022-09-08
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1229,6 +1229,9 @@ hidoctor.ir##.doctor-ads-item
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+! https://github.com/MasterKia/PersianBlocker/issues/56
+||iraneconomist.com/files/adv^
+
 ! https://github.com/MasterKia/PersianBlocker/issues/50
 ||ifilo.net^$removeparam=/^utm_/
 ifilo.net##.si.au._m0.sd.vb:style(max-height: 100% !important;)
