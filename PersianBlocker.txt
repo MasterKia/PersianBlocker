@@ -1404,6 +1404,13 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/65
+||khaandaniha.ir/Upload/Public/Advertisement^
+khaandaniha.ir##.ads-containter
+khaandaniha.ir###textads-contents
+khaandaniha.ir##.col-md-21:style(width: 70% !important;)
+khaandaniha.ir##.col-md-9:style(width: 30% !important;)
+
 ||khabareazad.com/aec.min.js^
 khabareazad.com##[class^="zxc"]
 khabareazad.com##.sticky_notify
