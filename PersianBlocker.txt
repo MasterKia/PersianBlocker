@@ -1367,6 +1367,11 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+! https://github.com/MasterKia/PersianBlocker/issues/61
+||dummyimage.com^$domain=jahaneghtesad.com
+||jahaneghtesad.com/wp-content/plugins/top-10^
+||jahaneghtesad.com/wp-content/uploads/matomo^
+
 ! https://github.com/MasterKia/PersianBlocker/issues/51
 jeyran.net##+js(acis, document.oncontextmenu)
 jeyran.net##.content_item:has(a[href*="/category/ads/"])
