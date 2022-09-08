@@ -939,6 +939,10 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/issues/57
+econews.ir##.advertise-place
+econews.ir##.container:style(width: 95% !important;)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/55
 ||eghtesaad24.ir/files/adv^
 
