@@ -261,6 +261,8 @@
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
+||triboon.net^$all
+
 ||tamasha.com^$removeparam=vastUrl
 ||tamasha.com/et/play?ntt=
 ||tamasha.com/dist/*/contrib/player/js/videojs.ima.min.js
@@ -1887,6 +1889,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/62
+||setare.com/wp-content/tags/yn_bnr
+setare.com##.pb0.stickyscroll_widget
+
 ||shomavaeghtesad.com/rss-rasa.php^
 shomavaeghtesad.com##.zxc
 shomavaeghtesad.com##.column_1:style(width: 70% !important;)
