@@ -939,6 +939,9 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/issues/60
+eghtesademeli.com##.sidebar-home:has(.ads_0)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/59
 ||eghtesadgardan.ir/files/adv^
 eghtesadgardan.ir##.container:style(width: 95% !important;)
