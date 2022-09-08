@@ -939,6 +939,11 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/issues/58
+||okcs.com^$domain=eghtesadepooya.ir
+eghtesadepooya.ir##.all_ads
+eghtesadepooya.ir##.container:style(width: 95% !important;)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/57
 econews.ir##.advertise-place
 econews.ir##.container:style(width: 95% !important;)
