@@ -164,6 +164,7 @@
 ||k2cod.com/statistics/
 
 ! >> L <<
+||linkfars.com^$all
 ||landyab.com^$all
 ||linksaz.net^$3p
 ||linkyar.com^$3p
