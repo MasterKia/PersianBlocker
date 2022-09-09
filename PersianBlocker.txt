@@ -1142,6 +1142,9 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+! https://github.com/MasterKia/PersianBlocker/issues/67
+||ghatar.com/wp-content/uploads/*.gif
+
 ||getandroid.ir/Files/js/landinga.js
 
 gold-team.org##+js(nano-sib)
