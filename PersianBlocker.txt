@@ -31,7 +31,8 @@
 
 ! /jwplayer/vast.js
 
-! ##.zxc
+! https://github.com/MasterKia/PersianBlocker/issues/68#issuecomment-1241797575
+##.zxc
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
