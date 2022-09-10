@@ -1049,7 +1049,6 @@ farachart.com##.p-single.blog-post:upward(1):style(width: 100% !important;)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1179570047
-! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1194334858
 ! https://github.com/MasterKia/PersianBlocker/pull/71
 ||fb-gw.bef.rest^$all
 ||api.footballi.net/api/*/user/init^$all
