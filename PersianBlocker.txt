@@ -2007,10 +2007,19 @@ softgozar.com###PopAlert
 softgozar.com##.AdvertiseD2Ban
 softgozar.com##.DTOPBan
 
-! https://github.com/uBlockOrigin/uAssets/issues/3011
-! https://github.com/uBlockOrigin/uAssets/issues/10883
-! https://github.com/MasterKia/PersianBlocker/issues/23
-! soft98.ir: Addressed in uBlock Origin Quick-Fixes list and AdGuard Base Filters
+! https://github.com/MasterKia/PersianBlocker/issues/40
+! soft98.ir: Addressed in uBlock Origin Quick-Fixes list
+soft98.ir,~forum.soft98.ir##+js(aeld, mousedown)
+||linkdoni.soft98.ir^$all
+||iranick0d.ir^$all
+||asiatech.ir^$all,domain=soft98.ir
+||hostdl.com^$all,domain=soft98.ir
+||smostafa.ir^$all,domain=soft98.ir
+||sysban.ir^$all,domain=soft98.ir
+||file.soft98.ir^$image,redirect=click2load.html,domain=~forum.soft98.ir
+||cdn.hostdl.com^$image,redirect=click2load.html,domain=soft98.ir|~forum.soft98.ir
+^utm_source=soft98^$removeparam=/^utm_/
+@@||soft98.ir^$ghide
 ! TOOD: Keep an eye on it
 
 ! ||subf2m.co/files/*.gif
