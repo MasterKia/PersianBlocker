@@ -2009,17 +2009,23 @@ softgozar.com##.DTOPBan
 
 ! https://github.com/MasterKia/PersianBlocker/issues/40
 ! soft98.ir: Addressed in uBlock Origin Quick-Fixes list
+!#if adguard
 soft98.ir,~forum.soft98.ir##+js(aeld, mousedown)
-||linkdoni.soft98.ir^$all
-||iranick0d.ir^$all
-||asiatech.ir^$all,domain=soft98.ir
-||hostdl.com^$all,domain=soft98.ir
-||smostafa.ir^$all,domain=soft98.ir
-||sysban.ir^$all,domain=soft98.ir
 ||file.soft98.ir^$image,redirect=click2load.html,domain=~forum.soft98.ir
 ||cdn.hostdl.com^$image,redirect=click2load.html,domain=soft98.ir|~forum.soft98.ir
 ^utm_source=soft98^$removeparam=/^utm_/
+.ir^$popup,domain=soft98.ir,3p
+||linkdoni.soft98.ir^$all
+||iranick0d.ir^$all
+||iranicard.ir^$all,domain=soft98.ir
+||asiatech.ir^$all,domain=soft98.ir
+||hostdl.com^$all,domain=soft98.ir
+||cdn.hostdl.com/goto/soft98^$all
+||smostafa.ir^$all,domain=soft98.ir
+||sysban.ir^$all,domain=soft98.ir
 @@||soft98.ir^$ghide
+!#endif
+
 ! TOOD: Keep an eye on it
 
 ! ||subf2m.co/files/*.gif
