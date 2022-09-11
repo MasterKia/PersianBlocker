@@ -1,11 +1,13 @@
 [uBlock Origin]
 ! Title: Soft98NoAds
 ! Description: لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
-! Expires: 4 days
-! Last modified: 2022-09-10
+! Expires: 0.5 days
+! Last modified: 2022-09-11
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
+||file.soft98.ir^
+||cdn.hostdl.com^
 soft98.ir##header a[target]:has(img):remove()
 soft98.ir##li:has-text(اخبار وب):remove()
 soft98.ir##a[href*="linkdoni.soft98.ir"]:upward(div):remove()
@@ -13,6 +15,14 @@ soft98.ir##:xpath(/html/body/div/div/div[3]):remove()
 soft98.ir##aside div:has(a[href*="cdn.hostdl.com"]):remove()
 soft98.ir##aside section:not(:has(a[href*="/tags/"])):remove()
 soft98.ir##main > article > aside:has(a[href*="sysban.ir"]):remove()
-soft98.ir##footer > div > :has(a[rel]):remove()
+soft98.ir##footer > div > :has(a[href*="asiatech.ir"]):remove()
+soft98.ir##footer > div[id$="-SMostafa"] a:remove()
+soft98.ir##footer > div[id$="-SMostafa"] > div:remove()
+soft98.ir##footer > div[id$="-SMostafa"]:after:style(content: 'پاک‌سازی شده توسط PersianBlocker و برادران' !important; color: #fff !important; font-size: .875rem !important; text-shadow: 1px 1px 0 rgba(0,0,0,.5) !important;)
 soft98.ir###kaprila_soft98_ir_related-top-post:after:style(content: '🏴‍☠️ از سافت۹۸ پاک و بی‌تبلیغ لذت ببرید 🏴‍☠️' !important; color: #7bad49 !important; font-size: 1.8em !important;)
-soft98.ir#@#title:remove()
+soft98.ir##.nav:remove()
+soft98.ir###sk0 > hr:remove()
+soft98.ir###tk0lm:style(height:auto !important;)
+soft98.ir##aside .ck0df:remove()
+soft98.ir##.list-group > button:remove()
+soft98.ir##[class$="-photo-camera-red"]:remove()
