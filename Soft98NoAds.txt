@@ -29,3 +29,5 @@ soft98.ir###tk0lm:style(height:auto !important;)
 soft98.ir##aside .ck0df:remove()
 soft98.ir##.list-group > button:remove()
 soft98.ir##[class$="-photo-camera-red"]:remove()
+soft98.ir##div[style*="display:none"]:has(a[href*="soft98.ir/soft/"]):style(display: block !important;)
+soft98.ir##[class*="js-enable-noneli"]
