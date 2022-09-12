@@ -1797,9 +1797,12 @@ persianv.com#@#.ads-text
 pgnews.ir##div > div > a.toolt > .onsc
 ! TODO: Modify pgnews.ir/templates/ainews/jquery-1.11.0.min.js to block ads
 
+! https://github.com/MasterKia/PersianBlocker/issues/13
 ||pedal.ir/wp-admin/admin-ajax.php?postviews_id
+||pedal.ir/wp-content/uploads/*.gif
 pedal.ir##.stream-item-top
 pedal.ir##.widget_custom_html:has(img[src*=".gif"])
+pedal.ir###custom_html-108
 
 ||patoghu.com/analytics.js
 ||patoghu.com/n/d/n.js
