@@ -308,6 +308,7 @@ sentry.quera.org
 
 # >> S <<
 file.soft98.ir
+linkdoni.soft98.ir
 
 # >> T <<
 adengine.telewebion.com
