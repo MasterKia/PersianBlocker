@@ -2014,24 +2014,29 @@ softgozar.com##.DTOPBan
 ! soft98.ir: Addressed in uBlock Origin Quick-Fixes list
 instagram.com##+js(window-close-if, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
 !#if adguard
-soft98.ir,~forum.soft98.ir##+js(aeld, mousedown)
-soft98.ir##+js(window-close-if, /link-)
-sysban.ir##+js(window-close-if, /telephone-service)
-smostafa.ir##+js(window-close-if, /^/)
-||file.soft98.ir^$image,redirect=click2load.html,domain=~forum.soft98.ir
-||cdn.hostdl.com^$image,redirect=click2load.html,domain=soft98.ir|~forum.soft98.ir
-^utm_source=soft98^$removeparam=/^utm_/
-.ir^$popup,domain=soft98.ir,3p
-! ||linkdoni.soft98.ir^$all
-||iranick0d.ir^$all
-||iranicard.ir^$all,domain=soft98.ir
-||asiatech.ir^$all,domain=soft98.ir
-||hostdl.com^$all,domain=soft98.ir
-! ||cdn.hostdl.com/goto/soft98^$all
-||smostafa.ir^$all,domain=soft98.ir
-||sysban.ir^$all,domain=soft98.ir
-soft98.ir##*:has-text(@):has(a[href*="soft98.ir/user"]):not(body,html):remove()
-@@||soft98.ir^$ghide
+*$csp=script-src,domain=soft98.ir|~forum.soft98.ir
+soft98.ir,~forum.soft98.ir##header a[target]:has(img)
+soft98.ir,~forum.soft98.ir##li:has(.fa-news)
+soft98.ir,~forum.soft98.ir##a[href*="linkdoni.soft98.ir"]:upward(div)
+soft98.ir,~forum.soft98.ir##:xpath(/html/body/div/div/div[3])
+soft98.ir,~forum.soft98.ir##div:has(#kaprila_soft98_ir_related-top-post)
+soft98.ir,~forum.soft98.ir##aside hr:remove()
+soft98.ir,~forum.soft98.ir##aside div:has(a[href*="cdn.hostdl.com"]):remove()
+soft98.ir,~forum.soft98.ir##aside section:not(:has(a[href*="/tags/"]))
+soft98.ir,~forum.soft98.ir##main > article > aside:has(a[href*="sysban.ir"])
+soft98.ir,~forum.soft98.ir##footer > div > :has(a[href*="asiatech.ir"])
+soft98.ir,~forum.soft98.ir##footer > div[id$="-SMostafa"]
+soft98.ir,~forum.soft98.ir##div[style*="display:none"]:has(a[href*=".soft98.ir/"]):style(display: block !important;)
+soft98.ir,~forum.soft98.ir##div[id$="-android"], div[id$="-os"], div[id$="-comment"]:style(display: block !important; opacity: 1 !important;)
+soft98.ir,~forum.soft98.ir##header button
+soft98.ir,~forum.soft98.ir##.collapsed
+soft98.ir,~forum.soft98.ir##aside > section ul[id]:style(height: auto !important;)
+soft98.ir,~forum.soft98.ir##main button
+soft98.ir,~forum.soft98.ir##main .alert:has(a[href=""])
+soft98.ir,~forum.soft98.ir##main .alert:has(a[data-toggle])
+soft98.ir,~forum.soft98.ir##article dd:has(a[href="#"])
+||file.soft98.ir^$domain=soft98.ir|~forum.soft98.ir
+||cdn.hostdl.com^$domain=soft98.ir|~forum.soft98.ir
 !#endif
 
 ! TOOD: Keep an eye on it
