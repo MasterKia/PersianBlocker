@@ -7,6 +7,7 @@
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
 *$script,domain=soft98.ir|~forum.soft98.ir
+*$csp=script-src,domain=soft98.ir|~forum.soft98.ir
 ||file.soft98.ir^$domain=soft98.ir|~forum.soft98.ir
 ||cdn.hostdl.com^$domain=soft98.ir|~forum.soft98.ir
 soft98.ir##header a[target]:has(img):remove()
