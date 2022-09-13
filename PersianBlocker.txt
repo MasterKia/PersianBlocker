@@ -2035,7 +2035,7 @@ soft98.ir,~forum.soft98.ir##main button
 soft98.ir,~forum.soft98.ir##main .alert:has(a[href=""])
 soft98.ir,~forum.soft98.ir##main .alert:has(a[data-toggle])
 soft98.ir,~forum.soft98.ir##article dd:has(a[href="#"])
-!#if adguard_ext_firefox
+!#if (adguard_ext_firefox || adguard_app_windows || adguard_app_mac || adguard_app_android)
 soft98.ir,~forum.soft98.ir##^header a[target]:has(img)
 soft98.ir,~forum.soft98.ir##^li:has(.fa-news)
 soft98.ir,~forum.soft98.ir##^a[href*="linkdoni.soft98.ir"]:upward(div)
