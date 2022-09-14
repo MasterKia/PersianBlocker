@@ -2014,7 +2014,7 @@ softgozar.com##.DTOPBan
 ! soft98.ir: Addressed in uBlock Origin Quick-Fixes list
 instagram.com##+js(window-close-if, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
 !#if adguard
-*$csp=script-src,domain=linkdoni.soft98.ir
+*$script,domain=linkdoni.soft98.ir
 soft98.ir,~forum.soft98.ir##+js(aeld, mousedown)
 soft98.ir,~forum.soft98.ir##+js(window-close-if, /link-)
 sysban.ir##+js(window-close-if, /telephone-service)
@@ -2033,6 +2033,9 @@ soft98.ir,~forum.soft98.ir##img[src*="file.soft98.ir"]:style(height: 90px !impor
 soft98.ir,~forum.soft98.ir##*:has-text(@):has(a[href*="soft98.ir/user"]):not(body,html):remove()
 soft98.ir,~forum.soft98.ir##*:has-text(@):has(a[href*="s98.ir/"]):not(body,html):remove()
 linkdoni.soft98.ir##html:remove()
+!#if (adguard_ext_firefox || adguard_app_windows || adguard_app_mac || adguard_app_android)
+linkdoni.soft98.ir##^body, title
+!#endif
 @@||soft98.ir^$ghide
 !#endif
 
