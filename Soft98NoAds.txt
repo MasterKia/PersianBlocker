@@ -6,7 +6,9 @@
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
-*$csp=script-src,domain=linkdoni.soft98.ir
+instagram.com##+js(window-close-if, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)
+
+*$script,domain=linkdoni.soft98.ir
 soft98.ir,~forum.soft98.ir##+js(aeld, mousedown)
 soft98.ir,~forum.soft98.ir##+js(window-close-if, /link-)
 sysban.ir##+js(window-close-if, /telephone-service)
@@ -25,4 +27,7 @@ soft98.ir,~forum.soft98.ir##img[src*="file.soft98.ir"]:style(height: 90px !impor
 soft98.ir,~forum.soft98.ir##*:has-text(@):has(a[href*="soft98.ir/user"]):not(body,html):remove()
 soft98.ir,~forum.soft98.ir##*:has-text(@):has(a[href*="s98.ir/"]):not(body,html):remove()
 linkdoni.soft98.ir##html:remove()
+!#if env_firefox
+linkdoni.soft98.ir##^body, title
+!#endif
 @@||soft98.ir^$ghide
