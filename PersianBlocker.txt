@@ -1089,7 +1089,6 @@ fartaknews.com##.inline-news-box
 
 ||faradeed.ir/fa/generate/userid
 
-||fardanews.com/statics/
 fardanews.com##.header-adv
 fardanews.com##.txt-adv-box
 fardanews.com##.zxc
@@ -1167,13 +1166,16 @@ gamesetup.ir##+js(acis, vc_url)
 ||gamesetup.ir/wp-content/uploads/*/ads
 gamesetup.ir##.sidebar > div.box:nth-of-type(5)
 
+! https://github.com/MasterKia/PersianBlocker/commit/ccd9af83ced447f363fd706df92df2f5d0756156#commitcomment-84035664
 ||gostaresh.news/statics/
 gostaresh.news##.zxc_home
 gostaresh.news##.zxc_news
+!#if !env_mobile
 gostaresh.news##.main_wrapper:style(max-width: 95% !important;)
 gostaresh.news##.right_col:style(width: 95% !important;)
 gostaresh.news##.page_first_clm:style(width: 70% !important;)
 gostaresh.news##.page_second_clm:style(width: 30% !important;)
+!#endif
 
 gamesib.ir###next1-231
 gamesib.ir##.asd_top
@@ -2368,7 +2370,9 @@ tejaratnews.com##div.widget.aside-widget:nth-of-type(5) > .section-title--dotted
 tebyan.net##.ads
 article.tebyan.net##.AdsContainer
 
+! https://github.com/MasterKia/PersianBlocker/commit/ccd9af83ced447f363fd706df92df2f5d0756156#commitcomment-84036682
 ||newsmedia.tasnimnews.com/Tasnim/Uploaded/Ads/
+tasnimnews.com##.ads
 tasnimnews.com##.ad-item
 tasnimnews.com##.ads-footer
 tasnimnews.com##.col-md-9:style(width: 100% !important;)
