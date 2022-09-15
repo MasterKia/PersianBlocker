@@ -1432,11 +1432,14 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 
 ! >> K <<
 ! https://github.com/MasterKia/PersianBlocker/issues/65
+! https://github.com/MasterKia/PersianBlocker/commit/7e101d27a104aa1bbd6a75c5849ea120bdfc78f7#r84036961
 ||khaandaniha.ir/Upload/Public/Advertisement^
 khaandaniha.ir##.ads-containter
 khaandaniha.ir###textads-contents
+!#if !env_mobile
 khaandaniha.ir##.col-md-21:style(width: 70% !important;)
 khaandaniha.ir##.col-md-9:style(width: 30% !important;)
+!#endif
 
 ||khabareazad.com/aec.min.js^
 khabareazad.com##[class^="zxc"]
