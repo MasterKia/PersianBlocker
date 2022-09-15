@@ -1088,9 +1088,12 @@ fartaknews.com##.inline-news-box
 
 ||faradeed.ir/fa/generate/userid
 
+! https://github.com/MasterKia/PersianBlocker/commit/ccd9af83ced447f363fd706df92df2f5d0756156#commitcomment-84053159
 fardanews.com##.header-adv
 fardanews.com##.txt-adv-box
 fardanews.com##.zxc
+fardanews.com##.zxc-visible-fixed
+fardanews.com##.zxc-stik
 fardanews.com##.others_media
 fardanews.com##.sticky_notify2
 fardanews.com##.n-first-col-left:style(width: 100% !important;)
