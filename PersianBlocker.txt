@@ -161,7 +161,7 @@
 ||kilipo.com/themes/default/player/plugins/ads
 
 ||kajads.com^$all
-||ads.karzar.net
+||ads.karzar.net^$all
 ||kaprila.com^$all
 
 ||k2cod.com/ip/show-ip
@@ -1932,6 +1932,11 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/73
+sharghdaily.com##.header_adv
+sharghdaily.com##.zxc
+sharghdaily.com##.zxc_home
+
 ! https://github.com/MasterKia/PersianBlocker/issues/62
 ||setare.com/wp-content/tags/yn_bnr
 setare.com##.pb0.stickyscroll_widget
