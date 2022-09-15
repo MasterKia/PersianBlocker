@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-09-14
+! Last modified: 2022-09-15
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -106,6 +106,9 @@
 ||congoro.ir^$all
 
 ! >> D <<
+||24d.ir^$all
+||l.24d.ir^$all
+
 ||davedbux.ir^$all
 
 ||denutility.com^$all
@@ -1397,6 +1400,8 @@ jeyran.net##.sidebar-area .image
 jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
 
 ||jabeh.com/assets/videojs-contrib-ads
+||jabeh.com/assets/videojs.ima.min.js
+||jabeh.com/assets/videojs.ima.min.css
 ||jabeh.com/analytics^
 
 jalebamooz.com##.stream-item-top-wrapper
@@ -1653,6 +1658,18 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+! https://github.com/MasterKia/PersianBlocker/issues/72
+||niniban.com/files/adv^
+niniban.com##.row-adv-2tayi
+niniban.com##.panel-ads-h
+niniban.com##.New-adv
+niniban.com##.height-adv
+niniban.com##.padding_news_right_adv, .padd-news-advertise
+niniban.com##.box:has(a[href*="/ads/redirect"])
+niniban.com##.fixed_box_adv
+niniban.com##.footer_adv
+niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
+
 ||netbarg.com/matomo.js
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83080
