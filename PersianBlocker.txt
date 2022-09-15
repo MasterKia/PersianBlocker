@@ -970,7 +970,6 @@ eghtesadepooya.ir##.all_ads
 eghtesadepooya.ir##.container:style(width: 95% !important;)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/57
-! https://github.com/MasterKia/PersianBlocker/pull/74
 econews.ir##.advertise-place
 econews.ir##.province-advertise
 econews.ir##main > div:has([href*="/advertising/"])
