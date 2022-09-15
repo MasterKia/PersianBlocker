@@ -82,15 +82,23 @@ _اما اگه روی لینک زدید و کار نکرد:_
  
   `brave://adblock`
   
-  و لیست **IRN: PersianBlocker** رو فعّال کنید.
+  و لیست **IRN: PersianBlocker** رو فعّال کنید [(تصویر)](https://user-images.githubusercontent.com/17685483/184549564-409bb6f9-2c00-45e6-b22f-a34c365ccfdc.png).
 
-  https://user-images.githubusercontent.com/17685483/184549564-409bb6f9-2c00-45e6-b22f-a34c365ccfdc.png
+  
+✳️ برای فعّالسازی لیست در برنامه ادگارد اندروید، به این مسیر برید و اونجا لیست **Persian Blocker** رو انتخاب کنید و اگه لیست اونجا نیست یعنی برنامتون قدیمیه و باید بروزش کنید [(تصویر)](https://user-images.githubusercontent.com/17685483/190410297-daa38065-7331-4d05-812a-81ceb29efdf1.png):
+
+_Settings => Content Blocking => Filters => Language-Specific_  
   
 ⚠️ امکان نصب افزونه مسدودساز در _کروم اندروید_ (و مرورگر های برپایه کرومیوم اندروید مانند _اِج، بریو، اپرا و ویوالدی_) وجود ندارد (به علت پشتیبانی نکردن کرومیوم اندروید از افزونه ها).
 
 ⚠️ مرورگر کیوی برای اندروید از افزونه ها پشتیبانی میکنه اما با افزونه های مسدودساز [به خوبی سازگار نیست و مشکلاتی داره](https://github.com/uBlockOrigin/uAssets/issues/11438#issuecomment-1019771072).
 
-⚠️ مرورگر برومایت برای اندروید، مسدودساز داخلی داره اما از فیلتر های CSS (برای پنهان کردن تبلیغات و موارد دیگه) و از فیلتر های جاوااسکریپتی پشتیبانی نمیکنه. با این حال شما میتونید به کمک [این آموزش](https://github.com/xarantolus/filtrite#using-your-own-filter-lists)، یک لیست برپایه PersianBlocker و سازگار با برومایت بسازید.
+⚠️ مرورگر برومایت برای اندروید، مسدودساز داخلی داره اما از فیلتر های CSS (برای پنهان کردن تبلیغات و موارد دیگه) و از فیلتر های جاوااسکریپتی پشتیبانی نمیکنه. با این حال شما میتونید به کمک [این آموزش](https://github.com/xarantolus/filtrite#using-your-own-filter-lists)، یک لیست برپایه **PersianBlocker** و سازگار با برومایت بسازید.
+  
+لیستی برگرفته از PersianBlocker که کاربر @chromer030 برای برومایت درست کرده:
+  
+https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
+  
   
 </details>
 
