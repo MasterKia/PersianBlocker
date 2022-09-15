@@ -954,6 +954,9 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/discussions/70#discussioncomment-3655852
+||etma.ir/fa/LogSiteVisit^
+
 ! https://github.com/MasterKia/PersianBlocker/issues/68
 etemadonline.com##.zxc
 
