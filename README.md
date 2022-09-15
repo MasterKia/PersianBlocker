@@ -13,7 +13,7 @@ https://t.me/PersianBlocker
 - [راه‌اندازی در کامپیوتر](#-راه-اندازی-در-کامپیوتر)
 - [راه‌اندازی در گوشی (اندروید)](#-راه-اندازی-در-گوشی-اندروید)
 - [راه‌اندازی در گوشی (آیفون)](#-راه-اندازی-در-گوشی-آیفون)
-- [راه‌اندازی در مسدودساز های DNS مانند AdGuard Home و AdAway](https://github.com/MasterKia/PersianBlocker#-%D8%B1%D8%A7%D9%87%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%B1-%D9%85%D8%B3%D8%AF%D9%88%D8%AF%D8%B3%D8%A7%D8%B2-%D9%87%D8%A7%DB%8C-dns-%D9%85%D8%A7%D9%86%D9%86%D8%AF-adguard-home-%D9%88-adaway)
+- [راه‌اندازی در مسدودساز های DNS (مانند AdGuard Home و AdAway)](https://github.com/MasterKia/PersianBlocker#-%D8%B1%D8%A7%D9%87%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%B1-%D9%85%D8%B3%D8%AF%D9%88%D8%AF%D8%B3%D8%A7%D8%B2-%D9%87%D8%A7%DB%8C-dns-%D9%85%D8%A7%D9%86%D9%86%D8%AF-adguard-home-%D9%88-adaway)
 - [مشارکت](#-مشارکت)
 - [لایسنس (پروانه)](#-لایسنس-پروانه)
 - [گرامیداشت](#️-گرامیداشت)
