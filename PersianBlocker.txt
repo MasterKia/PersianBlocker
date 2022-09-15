@@ -249,6 +249,7 @@
 ||sendword.ir^$all
 ! Used by i-video.ir
 
+logo.samandehi.ir##^responseheader(set-cookie)
 !#if adguard
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
