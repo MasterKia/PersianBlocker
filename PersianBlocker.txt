@@ -1571,10 +1571,10 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! >> M <<
 ! https://github.com/MasterKia/PersianBlocker/commit/4a1e751ebf579aac2de11c99a9b250d6d6dbbf7c#commitcomment-84077844
 mosalasonline.com##.zxc
+mosalasonline.com##.zxc-visible-fixed
 mosalasonline.com##.news-col-2 .related-news
 mosalasonline.com##.sticky_notify
 ! !#if env_mobile
-mosalasonline.com##.zxc-visible-fixed
 mosalasonline.com##.mobile-visible-fixed
 ! !#endif
 !#if !env_mobile
