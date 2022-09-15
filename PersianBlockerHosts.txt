@@ -55,6 +55,8 @@ backority.ir
 
 # >> C <<
 chavosh.org
+ck.chavosh.org
+
 clickaval.com
 clickyab.com
 chabok.io
