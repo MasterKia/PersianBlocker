@@ -2069,7 +2069,8 @@ sysban.ir##+js(window-close-if, /telephone-service)
 smostafa.ir##+js(window-close-if, /^/)
 ||file.soft98.ir^$image,redirect=1x1.gif,domain=soft98.ir|~forum.soft98.ir
 ||file2.soft98.ir^$image,redirect=1x1.gif,domain=soft98.ir|~forum.soft98.ir
-||file*.soft98.ir^$image,redirect=1x1.gif,domain=soft98.ir|~forum.soft98.ir
+||file3.soft98.ir^$image,redirect=1x1.gif,domain=soft98.ir|~forum.soft98.ir
+||file4.soft98.ir^$image,redirect=1x1.gif,domain=soft98.ir|~forum.soft98.ir
 ||cdn.hostdl.com^$image,redirect=1x1.gif,domain=soft98.ir|~forum.soft98.ir
 soft98.ir,~forum.soft98.ir##img[src*="file.soft98.ir"]:style(height: 90px !important; width: 728px !important;)
 ^utm_source=soft98^$removeparam=/^utm_/
