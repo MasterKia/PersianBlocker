@@ -1905,7 +1905,9 @@ forum.p30world.com#@##ad_global_above_footer
 ! https://github.com/MasterKia/PersianBlocker/issues/52
 ||rouydad24.ir/files/adv^
 rouydad24.ir##.tabligh-logo
+!#if !env_mobile
 rouydad24.ir##.container, .main:style(width: 95% !important;)
+!#endif
 
 ||rizy.ir/img/*.gif
 
