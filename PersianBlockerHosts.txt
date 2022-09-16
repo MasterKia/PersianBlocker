@@ -314,6 +314,9 @@ sentry.quera.org
 # >> S <<
 file.soft98.ir
 linkdoni.soft98.ir
+file2.soft98.ir
+file*.soft98.ir
+s0ft98.ir
 
 # >> T <<
 adengine.telewebion.com
