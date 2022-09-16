@@ -315,7 +315,8 @@ sentry.quera.org
 file.soft98.ir
 linkdoni.soft98.ir
 file2.soft98.ir
-file*.soft98.ir
+file3.soft98.ir
+file4.soft98.ir
 s0ft98.ir
 
 # >> T <<
