@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-09-16
+! Last modified: 2022-09-17
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -741,6 +741,8 @@ charbzaban.com##figcaption
 chetor.com###custom_html-51
 chetor.com##.linkbox:upward(4)
 chetor.com#@#.ads-block
+@@||chetor.com/wp-content/uploads/2016/04/instagram-banner.chetor-media2.gif$image,1p
+@@||chetor.com/wp-content/uploads/2021/07/book-banner.1250.240.2.gif$image,1p
 
 ||sentry.cafebazaar.org^$all
 
