@@ -33,6 +33,11 @@
 
 ! https://github.com/MasterKia/PersianBlocker/issues/68#issuecomment-1241797575
 ##.zxc
+##.zxc-m
+##.zxc-visible-fixed
+##.zxc-stik
+##.zxc-mobile
+##.zxc-padding-custom
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
