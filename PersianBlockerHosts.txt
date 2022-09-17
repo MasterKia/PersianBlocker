@@ -312,7 +312,6 @@ sentry.quera.org
 # >> R <<
 
 # >> S <<
-file.soft98.ir
 linkdoni.soft98.ir
 
 # >> T <<
