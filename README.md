@@ -155,6 +155,8 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- مسدودساز داخلی مرورگر ویوالدی (بزودی)
 
+\- [مسدودساز داخلی مرورگر برومایت](https://github.com/chromer030/filtrite/releases/latest/download/persian.dat) (از فیلتر های CSS و جاوااسکریپتی پشتیبانی نمی‌کند)
+
 \- [نرم افزار AdGuard Home (مسدودساز DNS)](https://github.com/AdguardTeam/HostlistsRegistry/tree/main/filters/regional/filter_19_IRN_PersianBlocker)
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
@@ -163,4 +165,4 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
-\- ~مسدودساز داخلی مرورگر برومایت~ (به دلیل پشتیبانی نکردن از فیلتر های CSS و جاوااسکریپتی)
+\- [لیست Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains#source)
