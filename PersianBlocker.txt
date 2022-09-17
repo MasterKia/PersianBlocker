@@ -1579,6 +1579,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/MasterKia/PersianBlocker/issues/79
+||modirnameh.ir/wp-content/uploads/*.gif
+modirnameh.ir##.sezfvg
+modirnameh.ir##.sticky-column:not(:has(a[href*="modirnameh.ir"]))
+
 ! https://github.com/MasterKia/PersianBlocker/commit/4a1e751ebf579aac2de11c99a9b250d6d6dbbf7c#commitcomment-84077844
 mosalasonline.com##.zxc
 mosalasonline.com##.zxc-visible-fixed
