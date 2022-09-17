@@ -1690,12 +1690,13 @@ myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 niniban.com##.row-adv-2tayi
 niniban.com##.panel-ads-h
 niniban.com##.New-adv
-niniban.com##.height-adv
 niniban.com##.padding_news_right_adv, .padd-news-advertise
 niniban.com##.box:has(a[href*="/ads/redirect"])
 niniban.com##.fixed_box_adv
 niniban.com##.footer_adv
+!#if !env_mobile
 niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
+!#endif
 
 ||netbarg.com/matomo.js
 
