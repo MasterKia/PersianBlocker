@@ -1974,6 +1974,14 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/78
+||shmi.ir/wp-content/uploads/*gif
+shmi.ir##.ads
+shmi.ir##.left_banner
+shmi.ir##.links
+shmi.ir##.left_news_box > .left:style(width: 100% !important;)
+shmi.ir##.main_right_archsing > .single:style(width: 100% !important;)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/73
 sharghdaily.com##.header_adv
 sharghdaily.com##.zxc
