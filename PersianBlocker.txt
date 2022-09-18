@@ -571,11 +571,13 @@ androidgozar.com##.cas-pubg
 ||dsp.aparat.com/*/dsp/bid?ads_type
 ||aparat.com/static/vendor/dox
 ||aparat.com/agf
+||aparat.com/external/romeo^
 aparat.com##.side-ads
 aparat.com###sideAds
 aparat.com##.ad-link
 aparat.com##.ad-banner
 aparat.com##.dsp-ad
+aparat.com##.video-list-wrapper.list-responsive:has(.ad)
 ! TODO: Check for more possible filters
 
 ||aftabir.com/uploads/banners/
