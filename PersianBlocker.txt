@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-09-17
+! Last modified: 2022-09-18
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2102,6 +2102,10 @@ smostafa.ir##+js(window-close-if, /^/)
 ^utm_source=soft98^$removeparam=utm_campaign
 ^utm_source=soft98^$removeparam=utm_content
 ^utm_source=soft98^$doc,popup
+^utm_source=s98^$removeparam=utm_source
+^utm_source=s98^$removeparam=utm_campaign
+^utm_source=s98^$removeparam=utm_content
+^utm_source=s98^$doc,popup
 .ir^$popup,domain=soft98.ir|~forum.soft98.ir,3p
 ||iranick0d.ir^$doc,popup
 ||iranicard.ir^$doc,popup,domain=soft98.ir
@@ -2110,10 +2114,12 @@ smostafa.ir##+js(window-close-if, /^/)
 cdn.hostdl.com##^responseheader(location)
 ||smostafa.ir^$doc,popup,domain=soft98.ir
 ||sysban.ir^$doc,popup,domain=soft98.ir
-||iranicard.ir/خرید-اکانت-اسپاتیفای-spotify-2/?utm_medium=banner^$csp=script-src
-||asiatech.ir/tabestan1401/?utm_medium=referral^$csp=script-src
-iranicard.ir##:matches-path(/utm_medium=banner/) html:remove()
-asiatech.ir##:matches-path(/utm_medium=referral/) html:remove()
+||iranicard.ir/خرید-اکانت-اسپاتیفای-spotify-2/?utm_medium^$csp=script-src
+||asiatech.ir/tabestan1401/?utm_medium^$csp=script-src
+||ok-ex.io/?utm_medium^$csp=script-src
+iranicard.ir##:matches-path(/utm_medium=/) html:remove()
+asiatech.ir##:matches-path(/utm_medium=/) html:remove()
+ok-ex.io##:matches-path(/utm_medium=/) html:remove()
 linkdoni.soft98.ir##html:remove()
 !#if (adguard_ext_firefox || adguard_app_windows || adguard_app_mac || adguard_app_android)
 linkdoni.soft98.ir##^body, title
