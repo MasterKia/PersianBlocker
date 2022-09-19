@@ -1594,6 +1594,12 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/MasterKia/PersianBlocker/issues/77
+||moviemag.ir/media/com_rstbox/js/engagebox.js^
+||moviemag.ir/media/com_rstbox/css/engagebox.css^
+moviemag.ir##.banneritem:has(a[href*="/banners/click/"])
+moviemag.ir##.eb-inst
+
 ! https://github.com/MasterKia/PersianBlocker/issues/79
 ||modirnameh.ir/wp-content/uploads/*.gif
 modirnameh.ir##.sezfvg
