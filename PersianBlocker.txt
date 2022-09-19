@@ -1168,6 +1168,11 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+! https://github.com/MasterKia/PersianBlocker/issues/83
+7ganj.ir##.meta-ad
+7ganj.ir##.herald-ad:not(:has(a[href*="kurdsoft"])):not(:has(a[href*="7ganj.ir"]))
+7ganj.ir##.herald-sidebar .widget:has(.widget-title:has-text(تبلیغات)) p:not(:has(a[href*="kurdsoft"])):not(:has(a[href*="7ganj.ir"]))
+
 ! https://github.com/MasterKia/PersianBlocker/issues/67
 ||ghatar.com/wp-content/uploads/*.gif
 
