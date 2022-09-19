@@ -2016,8 +2016,11 @@ setare.com##.cyt-ad-content
 
 ||shomavaeghtesad.com/rss-rasa.php^
 shomavaeghtesad.com##.zxc
+shomavaeghtesad.com##.adv
+!#if !env_mobile 
 shomavaeghtesad.com##.column_1:style(width: 70% !important;)
 shomavaeghtesad.com##.column_2:style(width: 30% !important;)
+!#endif
 
 ||sheypoor.com/js/analytics-
 
