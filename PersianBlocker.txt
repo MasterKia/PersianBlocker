@@ -1557,6 +1557,7 @@ khabarpu.com##div.rbox:nth-of-type(1)
 khabarfoori.com##[href*="/advertisements/"]
 khabarfoori.com##.zxc
 khabarfoori.com##.peyvand
+khabarfoori.com##.rowTwo .right_side, .rowTwo .column_1:style(width: 100% !important;)
 
 ketabesabz.com##+js(set, KetabrahPopup, noopFunc)
 ketabesabz.com##div.white-block:nth-of-type(2)
