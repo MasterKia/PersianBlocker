@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-09-18
+! Last modified: 2022-09-20
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1549,6 +1549,9 @@ khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !impor
 khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
 khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
 !#endif
+! !#if env_mobile
+khabaronline.ir###ads-container:has-text(خواندنی ها)
+! !#endif
 
 ||koolakmag.ir/wp-admin/admin-ajax.php?postviews_id=
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
