@@ -2613,9 +2613,11 @@ xip.li###text:has-text(ثانیه)
 
 ! >> Y <<
 ! https://github.com/MasterKia/PersianBlocker/issues/36
-||yektapress.com/files/adv/
+||yektapress.com/files/adv^
+!#if !env_mobile
 yektapress.com##.col-2:style(width: 60% !important;)
 yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
+!#endif
 
 ||yektablog.net/js/adjs.php
 yektablog.net###popbox-blackout
