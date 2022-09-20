@@ -745,6 +745,10 @@ boyernews.com##.table-striped.table
 ||charbzaban.com/wp-content/uploads/*.gif
 charbzaban.com##.widget:has(.widgettitle:has-text(/پیشنهاد|مفید/))
 charbzaban.com##figcaption
+! Don't remove the if below:
+!#if env_mobile
+charbzaban.com##.at_bottom
+!#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/35
 ||chetor.com/wp-content/uploads/*.gif
