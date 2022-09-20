@@ -1538,15 +1538,17 @@ kojaro.com##.article-mobile-inContent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101735
 ! https://github.com/MasterKia/PersianBlocker/issues/41
-khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !important;)
-khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
-khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
 khabaronline.ir###header-ad
 khabaronline.ir##.ads
 khabaronline.ir##[href^="/redirect/ads/"]
 khabaronline.ir##.bg-gray-links.box
-khabaronline.ir###ads-container > .list-thumbs.title-only.list.box
 khabaronline.ir#@##ads-container
+khabaronline.ir###ads-container > .list-thumbs.title-only.list.box
+!#if !env_mobile
+khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !important;)
+khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
+khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
+!#endif
 
 ||koolakmag.ir/wp-admin/admin-ajax.php?postviews_id=
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
