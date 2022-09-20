@@ -2046,6 +2046,7 @@ searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-s
 sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
 
+! https://github.com/MasterKia/PersianBlocker/commit/b1113d568e008e898fe79226bc0c6e2dc82eaadd
 ||shomanews.com/box.php^$3p
 ||shomanews.com/player/vastlink.js^
 ||shomanews.com/player/vast.js^
@@ -2053,6 +2054,8 @@ sornamusic.ir##aside:nth-of-type(5)
 shomanews.com##.mnb
 shomanews.com##.mauto_div
 shomanews.com##.generalBoxStyle:has-text(تبلیغات متنی)
+shomanews.com##.mt16:has(span:has-text(از دست ندهید))
+shomanews.com##.noagahi:not(:has(a[itemprop="url"]))
 shomanews.com##.row_one_content:style(width: 100% !important;)
 
 ||stnews.ir/ads/
