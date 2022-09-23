@@ -1936,6 +1936,9 @@ pedal.ir###custom_html-108
 ||img.patoghu.com^$script
 patoghu.com##.bigtab-cont
 patoghu.com##.tabd
+! !#if env_mobile
+patoghu.com##.cntmobad
+! !#endif
 
 parstools.com##.widget_whmcs_ads_widget.widget
 parstools.com##.wpb_content_element.sidebar.wpb_widgetised_column
