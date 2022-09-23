@@ -1036,9 +1036,20 @@ eghtesadnews.com##.zxc
 eghtesadnews.com##.advs-wrapper
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95321
+! https://github.com/MasterKia/PersianBlocker/issues/85
+eghtesadonline.com##+js(aeld, scroll)
+||eghtesadonline.com/servev2/*.gif
+||websocket.eghtesadonline.com^$all
+eghtesadonline.com##[href*="/advertisements/triggered/"]
+eghtesadonline.com##.zxc
+eghtesadonline.com###carousel:remove()
 eghtesadonline.com##.tiny_linky_boxes
 eghtesadonline.com##.talfighat-BS
-eghtesadonline.com##.type-resource-image
+eghtesadonline.com##.shopping_list
+eghtesadonline.com##.backlink
+!#if !env_mobile
+eghtesadonline.com##.right-news-wrap:style(width: 100% !important;)
+!#endif
 
 elmefarda.com###head728
 elmefarda.com###ad640a
