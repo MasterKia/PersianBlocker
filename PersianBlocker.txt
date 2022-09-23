@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-09-20
+! Last modified: 2022-09-23
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1445,9 +1445,11 @@ jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !
 ||jabeh.com/assets/videojs.ima.min.css
 ||jabeh.com/analytics^
 
+! https://github.com/MasterKia/PersianBlocker/issues/85
 jalebamooz.com##.stream-item-top-wrapper
 jalebamooz.com###block-3
 jalebamooz.com###block-4
+jalebamooz.com##li:has([href^="https://jalebamooz.com/reportage/"])
 
 ||jahannews.com/images/advertise/
 jahannews.com##.col-xs-36.col-sm-4.col-md-4.col-lg-4
