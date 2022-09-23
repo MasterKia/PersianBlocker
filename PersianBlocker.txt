@@ -1339,6 +1339,9 @@ imvbox.com##div[class^="cr-banner-"]
 ! https://github.com/MasterKia/PersianBlocker/pull/2
 idehalmag.com##.primary-sidebar-widget:has(a[rel*=sponsored])
 idehaltech.com##.secondary-sidebar-widget:has(a[rel*=sponsored])
+! https://github.com/MasterKia/PersianBlocker/issues/85
+idehalmag.com##:not(:matches-path(/reportage)) .main-term-4998:remove()
+idehaltech.com##:not(:matches-path(/reportage)) .main-term-4662:remove()
 
 ||i-video.ir/ipop.js
 ||i-video.ir/ipop.php
