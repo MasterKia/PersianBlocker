@@ -820,10 +820,12 @@ delgarm.com##.weblink
 download1music.ir##[id^="pos-article-display-"]
 download1music.ir##a:has(a>img[class^="aligncenter size-full "])
 
-||digiro.ir/wp-content/plugins/better-ads
-||digiro.ir/wp-content/uploads/*/*.gif
-digiro.ir##.texttab
+! https://github.com/MasterKia/PersianBlocker/issues/85
+||digiro.ir/wp-content/plugins/better-adsmanager^
+||digiro.ir/wp-content/uploads/*.gif
+digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
 digiro.ir##.uizv
+digiro.ir##.texttab
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ||dlfox.com/wp-content/uploads/*/*.gif
