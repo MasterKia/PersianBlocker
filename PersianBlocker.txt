@@ -2492,6 +2492,9 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+uptrack.ir##[href*="b2n.ir"]
+uptrack.ir##.aside_box:has(.aside_box_title:has-text(لینک های ویژه))
+
 uplod.ir##.free_ad_con
 uplod.ir##.footer-back-link
 uplod.ir##.logo_full_view
