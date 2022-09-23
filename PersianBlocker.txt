@@ -2037,6 +2037,12 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/86
+||salameno.com/rest/visit^
+||media.salameno.com/d/*.gif
+salameno.com##.ads
+salameno.com##.box:has(header:has-text(مفید))
+
 ! https://github.com/MasterKia/PersianBlocker/issues/78
 ||shmi.ir/wp-content/uploads/*gif
 shmi.ir##.ads
