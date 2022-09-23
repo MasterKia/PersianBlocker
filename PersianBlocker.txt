@@ -1629,6 +1629,10 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||mihand.ir/wp-content/uploads/*.gif
+mihand.ir##.entry:has(.title:has-text(تبلیغات))
+mihand.ir##.text-ads
+
 ! https://github.com/MasterKia/PersianBlocker/issues/77
 ||moviemag.ir/media/com_rstbox/js/engagebox.js^
 ||moviemag.ir/media/com_rstbox/css/engagebox.css^
