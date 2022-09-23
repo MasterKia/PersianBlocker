@@ -1732,6 +1732,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+nab-music.com##+js(aopr, vc_url)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/72
 ! https://github.com/MasterKia/PersianBlocker/pull/81
 ||niniban.com/files/adv/*.gif
