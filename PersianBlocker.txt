@@ -1760,8 +1760,10 @@ netnevesht.com#@#.widget-ad
 
 nicmusic.net#@#.boxads
 
-netpaak.com##.stream-item-widget
-netpaak.com##.stream-item-above-post.stream-item
+! https://github.com/MasterKia/PersianBlocker/issues/85
+||netpaak.com/wp-content/uploads/*.gif
+netpaak.com##.stream-item-above-post
+netpaak.com###text-5
 
 ||sentry.namava.ir^$all
 ! ||namava.ir/api/v1.0/users/anonymous-info
