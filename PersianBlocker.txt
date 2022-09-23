@@ -1790,6 +1790,7 @@ nicmusic.net#@#.boxads
 ! https://github.com/MasterKia/PersianBlocker/issues/85
 ||netpaak.com/wp-content/uploads/*.gif
 netpaak.com##.stream-item-above-post
+netpaak.com##.stream-item-widget
 netpaak.com###text-5
 
 ||sentry.namava.ir^$all
