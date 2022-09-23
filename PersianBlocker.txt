@@ -1833,11 +1833,17 @@ pichak.net##center > center > center > center
 pichak.net##center:nth-of-type(2) > center
 pichak.net##body > div > font
 
-! ||p30konkor.com/wp-content/plugins/better-ads
-||p30konkor.com/wp-content/uploads/*/*.gif
+! https://github.com/MasterKia/PersianBlocker/issues/85
+! ||p30konkor.com/wp-content/plugins/better-adsmanager^
+||p30konkor.com/wp-content/uploads/*.gif
 p30konkor.com###header-ad1
-p30konkor.com##.vc_col-has-fill
-p30konkor.com###text-19
+p30konkor.com###p30konkor-ads-p div:has(p > a[rel]):not(:has(a[href*="p30konkor.com"]))
+p30konkor.com###p30konkor-ads-p a[rel="follow"]
+p30konkor.com##.widget:has(.h-text:has-text(لینک های پیشنهادی))
+p30konkor.com##.vc_col-sm-4:style(width: 100% !important;)
+! !#if env_mobile
+p30konkor.com###parandeh-b2
+! !#endif
 
 par30dl.net##.adpar30
 par30dl.net##.adsidimg
