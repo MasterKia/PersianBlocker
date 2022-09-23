@@ -154,7 +154,7 @@
 ! >> H <<
 ||cdn.hostdl.com/img/*.gif$image,3p,domain=~soft98.ir
 ! ^ Example: p30day.ir
-! cdn.hostdl.com/img/mihandownload.gif, cdn.hostdl.com/assets/downloadha.gif
+!  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, cdn.hostdl.com/img/p30day.gif
 
 ||hantana.org^$all
 
