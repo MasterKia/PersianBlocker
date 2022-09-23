@@ -23,8 +23,6 @@
 ! wp-content/plugins/better-ads
 ! wp-content/plugins/adwised
 
-! ||cdn.hostdl.com/*/*.gif
-
 ! ##[href^="https://gameup.ir/"]
 
 ! /najva.js
@@ -154,6 +152,10 @@
 ! >> G <<
 
 ! >> H <<
+||cdn.hostdl.com/img/*.gif$image,3p,domain=~soft98.ir
+! ^ Example: p30day.ir
+! cdn.hostdl.com/img/mihandownload.gif, cdn.hostdl.com/assets/downloadha.gif
+
 ||hantana.org^$all
 
 ! >> I <<
@@ -959,7 +961,6 @@ doostihaa.com##.ads_txtcv
 doostihaa.com##aside.lefts_sides:nth-of-type(6)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
-||cdn.hostdl.com/assets/downloadha.gif
 downloadha.com##.ads
 downloadha.com##.popup-ads
 
@@ -1716,7 +1717,6 @@ mihanfal.com##.mdiaad
 mihanfal.com##section.sidebox:nth-of-type(4)
 
 ||mihandownload.com/sw.js
-||cdn.hostdl.com/img/mihandownload.gif
 mihandownload.com##.text-center.py-3.bg-all-box
 mihandownload.com##.pt-3.text-center.py-2.bg-all-box
 mihandownload.com##.text-center.mt-3.py-3.bg-all-box
@@ -1843,13 +1843,14 @@ par30dl.net##.adpar30
 par30dl.net##.adsidimg
 par30dl.net##div:has(:scope > div > div> strong:has-text(تبلیغ))
 
+! https://github.com/MasterKia/PersianBlocker/issues/85
 ||p30day.ir/images/tabligh
-||cdn.hostdl.com/img/p30day.gif
-p30day.ir##.adsblockpop
 p30day.ir##.ads
 p30day.ir##.banners
-p30day.ir##.nomobilebanner
+p30day.ir##.afc_popup
 p30day.ir##.textAds
+p30day.ir##.adsblockpop
+p30day.ir###kaprila_linktable
 
 ||parsiblog.com/adv/
 ||imencms.com/mobile/ptadv.jpg
