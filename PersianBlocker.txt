@@ -145,7 +145,7 @@
 ||fa-tools.ir/code/rightclick/right-click1.js
 ||widget.fafait.net^$3p
 
-||farakav.com^$websocket
+||farakav.com^$all
 ||ads.farakav.com^$all
 ! ^ TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 
@@ -2621,23 +2621,22 @@ varoone.ir##.ads468
 ||vajehyab.com^$removeparam=/^utm_/
 ||vajehyab.com/img/ads
 
-||varzeshe3.com/js/ads
-||varzeshe3.com/banners/*$image
-||biz.varzesh3.com/events/view
-||news-view-api.varzesh3.com/view
-||video-view-api.varzesh3.com/play
-varzesh3.com##.adlink
-varzesh3.com##.header-ad
-varzesh3.com##.sticky-ad
+||biz-cdn.varzesh3.com/banners^
+||static.varzesh3.com/js/ads.js^
+||biz.varzesh3.com/vast^
+||biz.varzesh3.com/events/view^
+||news-view-api.varzesh3.com^$all
+||video-view-api.varzesh3.com^$all
+varzesh3.com##.left-side-ad-col
 varzesh3.com##.right-ads
-varzesh3.com##.ima-ad-container
+varzesh3.com##.adbox:not(.adbar)
 
-||video-learn.ir/code/popup
+||video-learn.ir/code/popup^
 video-learn.ir#@#.header-adv
 
-||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics
+||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager^
 
-||vista.ir/ads/
+||vista.ir/ads^
 vista.ir##[href^="/ad/"]
 vista.ir##.textad
 
@@ -2649,7 +2648,7 @@ wikisemnan.com###text-12
 wikisemnan.com###text-24
 wikisemnan.com#@#.ads-image
 
-||webii.ir/Images/Banner/
+||webii.ir/Images/Banner^
 ||webii.ir/images/loading.svg
 webii.ir###slider-box
 webii.ir##.mortabet-links
@@ -2658,9 +2657,9 @@ webii.ir#@#.ads-sidebar
 webii.ir#@#.ads-box
 @@||webii.ir/upload/ads/$image,1p
 
-||wikihoax.org/wp-content/plugins/eazy-ad
+||wikihoax.org/wp-content/plugins/eazy-ad-unblocker^
+||wikihoax.org/wp-content/cache/busting/1/wp-content/plugins/eazy-ad-unblocker^
 ||wikihoax.org/wp-content/uploads/*/ads
-||wikihoax.org/wp-content/cache/busting/1/wp-content/plugins/eazy-ad-unblocker/
 wikihoax.org##.two-ad-banners
 wikihoax.org##.widget-ad-image
 wikihoax.org##.stream-item-widget
@@ -2672,7 +2671,7 @@ webgoo.ir##.left-block-top
 
 ! >> X <<
 xip.li##+js(set, count, 0)
-xip.li###text:has-text(ثانیه)
+xip.li##.form-inline:others()
 
 ! >> Y <<
 ! https://github.com/MasterKia/PersianBlocker/issues/36
@@ -2690,7 +2689,8 @@ yektablog.net###box_1398
 !#if adguard
 yun.ir#%#//scriptlet('set-cookie-reload', 'bypasstimer', '10')
 !#endif
-||yun.ir/advertisement/
+*$frame,domain=yun.ir
+||yun.ir/advertisement^
 yun.ir##.advertisements
 
 yasdl.com##.ads-block
@@ -2722,10 +2722,8 @@ zohur12.ir##.sideads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110569
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 zoomg.ir##+js(aopr, banner)
-||zoomg.ir/common/visitcount/
-||zoomg.ir/cdn-cgi/apps/head/*$script
+||zoomg.ir/common/visitcount^
 ||zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg
-||namava.ir/ZoomitAds/
 zoomg.ir##.wide-adv-box
 zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
@@ -2748,12 +2746,12 @@ zoomit.ir##.wide-adv-row
 zoomit.ir##.wide-adv-row-home
 zoomit.ir##.bannercontainer
 zoomit.ir##.price-sticky
+zoomit.ir##.item-list-row:has(a[href*="/pr/"])
 ! !#if env_mobile
 zoomit.ir##.InsideArticleIntro
 zoomit.ir##.article-mobile-inContent
 zoomit.ir###mobileBannerAfterTags
 ! !#endif
-zoomit.ir##.item-list-row:has(a[href*="/pr/"])
 @@||zoomit.ir/assets/img/advertise-$image,1p
 
 zoomtech.org###top_ads
@@ -2761,9 +2759,8 @@ zoomtech.org###posts_single_ads
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
 
-!-------------------------v Scam Exchange/Cryptocurrency Sites v-----------------------!
+!-------------------------v Scam Sites v-----------------------!
 ! https://webamoozcom.github.io/warning-list/
-
 
 ! Discussion?
 ||excoino.com^$doc
@@ -2990,4 +2987,4 @@ zoomtech.org###posts_single_ads
 ||usdtbbc.com^$all
 ||imtokenwallet.biz^$all
 
-!-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------!
+!-------------------------^ Scam Sites ^-----------------------!
