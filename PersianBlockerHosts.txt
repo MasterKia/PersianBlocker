@@ -89,6 +89,7 @@ facepop.org
 farsbux.ir
 fastclick.ir
 
+farakav.com
 ads.farakav.com
 #  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 
@@ -321,6 +322,8 @@ rokhdad.telewebion.com
 # >> U <<
 
 # >> V <<
+news-view-api.varzesh3.com
+video-view-api.varzesh3.com
 
 # >> W <<
 
