@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-09-23
+! Last modified: 2022-09-24
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -829,6 +829,9 @@ download1music.ir##.d1yekta
 digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
 digiro.ir##.uizv
 digiro.ir##.texttab
+! !#if env_mobile
+digiro.ir##.main-term-3705
+! !#endif
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ||dlfox.com/wp-content/uploads/*/*.gif
