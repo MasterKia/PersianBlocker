@@ -18,7 +18,6 @@
 # >> A <<
 adexo.ir
 adskav.com
-adtube.ir
 advn.ir
 
 amaroid.net
@@ -31,7 +30,6 @@ analytics-*.aasaam.com
 
 adwised.com
 adwisedfs.com
-adwised.azureedge.net
 
 adivery.com
 adnegah.net
@@ -300,8 +298,6 @@ websocket.ilna.ir
 # >> N <<
 sentry.namava.ir
 
-adserver.netshahr.com
-
 stc.ninisite.com
 # >> O <<
 
@@ -433,23 +429,11 @@ emway.ir
 # https://github.com/Webamoozcom/warning-list/discussions/39
 defigroups.com
 
-# https://github.com/Webamoozcom/warning-list/discussions/42
-ecompanypoll.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/43
 leumia.io
 
-# https://github.com/Webamoozcom/warning-list/discussions/44
-general.tradings.ir
-
 # https://github.com/Webamoozcom/warning-list/discussions/45
 aitrades.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/46
-ratinbank.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/47
-coinstwf.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/49
 propertiq.io
@@ -460,9 +444,6 @@ bixb.exchange
 
 # https://github.com/Webamoozcom/warning-list/discussions/52
 synchrobit.io
-
-# https://github.com/Webamoozcom/warning-list/discussions/54
-dedino.ir
 
 # https://github.com/Webamoozcom/warning-list/discussions/55
 imsmining.com
@@ -491,14 +472,8 @@ orbitnetwork.net
 kingmoney.io
 utbyte.io
 
-# https://github.com/Webamoozcom/warning-list/discussions/67
-espadannet.ir
-
 # https://github.com/Webamoozcom/warning-list/discussions/70
 quahl.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/72
-denatoken.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/74
 gpm.ltd
@@ -541,9 +516,6 @@ bahatoken.site
 
 # https://github.com/Webamoozcom/warning-list/discussions/119
 shamining.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/121
-teeth1.info
 
 # https://github.com/Webamoozcom/warning-list/discussions/125
 t.me/BITBOD_TRADING_CLUB
