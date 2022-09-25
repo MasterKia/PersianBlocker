@@ -902,9 +902,9 @@ downloadly.ir##.stacking_default.valign_top.wpb_row:nth-of-type(8)
 downloadly.ir###kaprila_linktable
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109129
-||digiboy.ir/wp-content/img/sponsors/
-||digiboy.ir/wp-content/img/sidebar/
-||digiboy.ir/wp-content/img/header/
+||digiboy.ir/wp-content/img/sponsors^
+||digiboy.ir/wp-content/img/sidebar^
+||digiboy.ir/wp-content/img/header^
 digiboy.ir###header-bar
 digiboy.ir##.sidebar-digiads
 digiboy.ir##.slider-tab-ring:not(:has(>:has-text(دیدگاه)))
