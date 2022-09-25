@@ -30,6 +30,7 @@ analytics-*.aasaam.com
 
 adwised.com
 adwisedfs.com
+adwised.azureedge.net
 
 adivery.com
 adnegah.net
