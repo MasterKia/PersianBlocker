@@ -241,14 +241,19 @@ https://basic.rethinkdns.com
 
 * [متن کامل پروانه AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
 
-
-</div>
   
  # ❤️ گرامیداشت
+ 
+ </div>
+ 
 **PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains) (_MIT License_)
 
+<div dir="rtl">
+  
 پروژه هایی که از این لیست استفاده میکنند:
 
+</div>  
+  
 \- [افزونه uBlock Origin](https://github.com/gorhill/uBlock/blob/master/assets/assets.json#L482)
 
 \- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
@@ -271,3 +276,11 @@ https://basic.rethinkdns.com
 \- [لیست Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains#source)
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
+
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/17685483/192322452-e9a8d712-d4cb-4d80-8607-7da93b509aef.png">
+  
+  
+</p>  
