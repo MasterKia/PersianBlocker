@@ -1,5 +1,7 @@
 # PersianBlocker
 
+<div dir="rtl">
+  
 سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها (Trackers) در سایت های پارسی زبان!
 
 🔔 **گروه تلگرام**: [@PersianBlocker](https://t.me/PersianBlocker)
@@ -222,6 +224,8 @@ https://basic.rethinkdns.com
 * برای گزارش مشکل، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
 * امکان فرستادن گزارش در گروه تلگرامی [@PersianBlocker](https://t.me/PersianBlocker) هم وجود دارد.
 
+* گفتگوی [«گزارش و درخواست بررسی ردیاب‌ها»](https://github.com/MasterKia/PersianBlocker/discussions/70)  
+  
 
 #  [![AGPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/agpl-3.0.en.html) لایسنس (پروانه)
 
@@ -238,6 +242,8 @@ https://basic.rethinkdns.com
 * [متن کامل پروانه AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
 
 
+</div>
+  
  # ❤️ گرامیداشت
 **PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains) (_MIT License_)
 
