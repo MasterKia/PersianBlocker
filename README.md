@@ -252,7 +252,6 @@ https://basic.rethinkdns.com
   
 پروژه هایی که از این لیست استفاده میکنند:
 
-</div>  
   
 \- [افزونه uBlock Origin](https://github.com/gorhill/uBlock/blob/master/assets/assets.json#L482)
 
@@ -277,7 +276,10 @@ https://basic.rethinkdns.com
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
+  
+</div>  
 
+  
 <p align="center">
   
 <img src="https://user-images.githubusercontent.com/17685483/192322452-e9a8d712-d4cb-4d80-8607-7da93b509aef.png" height="270" width="270">
