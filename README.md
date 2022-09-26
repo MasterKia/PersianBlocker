@@ -191,9 +191,16 @@ https://basic.rethinkdns.com/1:IAAgAA==
   
 1-eaacaaa.max.rethinkdns.com
   
+- [آدرس DNS رمزگذاری نشده](https://kb.controld.com/en/3rd-party-filters) برای تنظیم روی مودم و روتر (به همراه لیست جامع OISD Full که شامل **PersianBlockerHosts** هم می‌شود):
+  
+76.76.2.32
+  
+76.76.10.32
+  
 برای افزودن لیست های دیگر و ساخت DNS دلخواه خودتان می‌توانید به سایت زیر بروید:
   
 https://basic.rethinkdns.com
+  
   
 </details>
 
