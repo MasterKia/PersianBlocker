@@ -157,6 +157,8 @@ _Settings => Content Blocking => Filters => Language-Specific_
   
 https://github.com/SamadiPour/iran-hosted-domains/blob/main/README.fa.md
   
+https://github.com/SamadiPour/iran-hosted-domains/releases/latest
+  
 </details>  
 
 ***
@@ -196,3 +198,63 @@ https://basic.rethinkdns.com
 </details>
 
 ***
+
+<details>
+  <summary dir="rtl"><h4>⛓ راه‌اندازی در آیفون ⛓</h4></summary>
+
+تا جایی که میدونم توی آیفون _هیچ راهی_ برای نصب افزونه‌های مسدودساز در سافاری یا حتی فایرفاکس وجود نداره.  
+  
+</details>
+
+***
+
+# 🤝 مشارکت
+1- از [اینجا](https://github.com/signup) توی گیت‌هاب ثبت نام کنید.
+
+2- از بخش [«Issues (مشکلات)»](https://github.com/MasterKia/PersianBlocker/issues/new) میتونید هرگونه مشکل با سایتی و یا پیشنهادی که دارید رو درمیون بذارید.
+* برای گزارش مشکل، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
+* امکان فرستادن گزارش در گروه تلگرامی [@PersianBlocker](https://t.me/PersianBlocker) هم وجود دارد.
+
+
+#  [![AGPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/agpl-3.0.en.html) لایسنس (پروانه)
+
+لیست **PersianBlocker** یک لیست آزاد تحت پروانه AGPL نسخه 3 میباشد (AGPLv3)؛ یعنی شما به عنوان کاربر این _آزادی ها_ رو دارید:
+
+1- آزادی استفاده از لیست به هر منظور و دلیل (برای انجام هر کاری)
+
+2- آزادی مطالعه و تغییر لیست (برای انجام کار مدنظر شما)
+
+3- آزادی به اشتراک گذاشتن لیست با دیگران
+
+4- آزادی به اشتراک گذاشتن نسخه های تغییریافته لیست با دیگران
+
+* [متن کامل پروانه AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) ([ترجمه پارسی](https://lists.gnu.org/archive/html/www-fa-general/2013-02/msg00001.html)).
+
+
+ # ❤️ گرامیداشت
+**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains) (_MIT License_)
+
+پروژه هایی که از این لیست استفاده میکنند:
+
+\- [افزونه uBlock Origin](https://github.com/gorhill/uBlock/blob/master/assets/assets.json#L482)
+
+\- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
+
+\- [مسدودساز داخلی مرورگر بریو](https://github.com/brave/adblock-resources/blob/master/filter_lists/regional.json#L203)
+
+\- مسدودساز داخلی مرورگر ویوالدی (در دست پیگیری)
+
+\- مسدودساز داخلی مرورگر برومایت
+
+\- [نرم‌افزار Rethink اندروید (Firewall+DNS)](https://github.com/serverless-dns/blocklists/blob/main/blocklistConfig.json#L1556)
+
+
+\- [نرم افزار AdGuard Home (مسدودساز DNS)](https://github.com/AdguardTeam/HostlistsRegistry/tree/main/filters/regional/filter_19_IRN_PersianBlocker)
+
+\- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
+
+\- لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))
+
+\- [لیست Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains#source)
+
+\- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
