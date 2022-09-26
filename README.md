@@ -280,7 +280,7 @@ https://basic.rethinkdns.com
 
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/17685483/192322452-e9a8d712-d4cb-4d80-8607-7da93b509aef.png">
+<img src="https://user-images.githubusercontent.com/17685483/192322452-e9a8d712-d4cb-4d80-8607-7da93b509aef.png" height="270" width="270">
   
   
 </p>  
