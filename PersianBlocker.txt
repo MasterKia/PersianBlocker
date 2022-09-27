@@ -96,7 +96,7 @@
 ||backority.ir^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99240
-||blogfa.com/a/
+||blogfa.com/a^
 
 ! >> C <<
 ||chavosh.org^$all
@@ -1409,11 +1409,11 @@ irannaz.com##div.CBS.CenterBlock:nth-of-type(3)
 irannaz.com##div.CBS.CenterBlock:nth-of-type(5)
 irannaz.com##div.CBS.CenterBlock:nth-of-type(6)
 
-||itresan.com/wp-content/cache/busting/
-||itresan.com/wp-content/plugins/better-adsmanager/
-||itresan.com/wp-content/uploads/*/*/*.gif
+||itresan.com/wp-content/cache/busting^
+||itresan.com/wp-content/plugins/better-adsmanager^
+||itresan.com/wp-content/uploads/*.gif
 itresan.com###NR-Ads
-! TODO: Remove "رپورتاژ آگهی"
+itresan.com##.listing-item-blog:has(a[href*="/author/ads/"])
 
 ! https://github.com/MasterKia/PersianBlocker/issues/22
 ||ilna.ir/servev2/*.gif
@@ -1582,11 +1582,10 @@ khabaronline.ir###ads-container:has-text(خواندنی ها)
 ||koolakmag.ir/wp-admin/admin-ajax.php?postviews_id=
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
 
-! ||khabarpu.com/js/all_sc_without_yektanet.js
-||khabarpu.com/js/getscript.js
-khabarpu.com##div.rbox:nth-of-type(1)
-! @@||yektanet.com^$3p,domain=khabarpu.com
-! TODO: Fix the video getting crippled
+||khabarpu.com/js/getscript.js^
+||khabarpu.com/js/all_sc_without_yektanet.js^
+khabarpu.com##.rbox .rbox-h:has-text(تبلیغات):upward(.rbox)
+khabarpu.com##.inline_ads
 
 ! https://github.com/MasterKia/PersianBlocker/issues/38
 khabarfoori.com##[href*="/advertisements/"]
