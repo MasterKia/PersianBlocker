@@ -282,7 +282,7 @@ https://basic.rethinkdns.com
   
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/17685483/192322452-e9a8d712-d4cb-4d80-8607-7da93b509aef.png" height="270" width="270">
+<img src="https://user-images.githubusercontent.com/55192376/192527565-5ce4f488-622d-4c13-9b74-1025e615d5c1.svg" height="270" width="270">
   
   
 </p>  
