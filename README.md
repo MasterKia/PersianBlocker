@@ -97,7 +97,7 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.t
   
 ⚠️ مسدودساز داخلی مرورگر برومایت، از فیلتر های CSS (برای پنهان کردن تبلیغات) و از فیلتر های جاوااسکریپتی و برخی موارد دیگه پشتیبانی نمی‌کنه. با این حال شما می‌تونید [به کمک این آموزش](https://github.com/xarantolus/filtrite#using-your-own-filter-lists)، یک لیست سازگار با برومایت بسازید.
   
-لیستی برپایه **PersianBlocker** که کاربر @chromer030 برای برومایت درست کرده:
+لیستی برپایه **PersianBlocker** که کاربر [Chromer030](https://github.com/Chromer030) برای برومایت درست کرده:
 
 https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
   
@@ -155,7 +155,7 @@ _Settings => Content Blocking => Filters => Language-Specific_
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در نرم‌افزار های Qv2ray و SagerNet و Shadowrocket و Clash 🕳</h4></summary>
 
-از لیست Iran Hosted Domains که شامل لیست **PersianBlocker** می‌شود و توسط کاربر @SamadiPour درست شده استفاده کنید:
+از لیست Iran Hosted Domains که شامل لیست **PersianBlockerHosts** می‌شود و توسط کاربر [SamadiPour](https://github.com/SamadiPour) درست شده استفاده کنید:
   
 https://github.com/SamadiPour/iran-hosted-domains/blob/main/README.fa.md
   
