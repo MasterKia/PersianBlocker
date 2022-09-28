@@ -61,6 +61,7 @@
 ||adwised.com^$all
 ||adwisedfs.com^$all
 ||adwised.azureedge.net^$all
+! TODO: Remove adwised.azureedge.net, but navatv.com still links to it
 
 ||adivery.com^$all
 ||adnegah.net^$all
