@@ -286,3 +286,15 @@ https://basic.rethinkdns.com
   
   
 </p>  
+
+<div dir="rtl">
+
+این لیست با هدف برگرداندن آزادی به کاربران ساخته شده؛ آزادیِ این‌که **_چه چیزی وارد مرورگرشان می‌شود و چه چیزی وارد نمی‌شود_**، و حمایت‌های شما انگیزه‌ای برای ادامه این مسیر خواهد بود.
+
+</div>
+
+XMR:
+
+`88GPgT11rw4Vj2QKM3AwFphwJbqFe6KfkPBiGG9YtVfaA1bTEzrehM3WC7KoRjDGCmFt3hP9hU2XYGsMK8rtvoKi6G3FoDu`
+
+![image](https://user-images.githubusercontent.com/17685483/192696054-472f2c92-6d38-4023-ba17-ac2a74041ba6.png)
