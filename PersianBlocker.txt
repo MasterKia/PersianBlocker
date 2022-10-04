@@ -2051,6 +2051,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||sid.ir/adv^
+sid.ir###arasideadvertising
+sid.ir##.advertising
+
 ! https://github.com/MasterKia/PersianBlocker/issues/86
 ||salameno.com/rest/visit^
 ||media.salameno.com/d/*.gif
