@@ -2575,12 +2575,13 @@ up44.ir##.full2.box.right
 
 ||unp.ir/downloads/*/*.gif
 
-uploadboy.com##+js(nano-stb)
-uploadboy.com##+js(cookie-remover, captcha_key)
+uploadboy.com##+js(ra, disabled, #btn_download)
 ||uploadboy.com/analytics.js
-||uploadboy.com/banner/
-uploadboy.com##.litebox
+||uploadboy.com/banner^
 uploadboy.com##a[href="http://www.asiatech.ir/"]
+uploadboy.com##.litebox
+uploadboy.com##.time_circles
+uploadboy.com##[id^="mediaad"]:upward(.text-center)
 
 ! >> V <<
 ||vipofilm.com/wp-content/plugins/adwised/assets/adwisedpop.js
