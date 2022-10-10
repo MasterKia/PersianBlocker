@@ -2579,12 +2579,17 @@ up44.ir##.full2.box.right
 
 ||unp.ir/downloads/*/*.gif
 
-uploadboy.com##+js(ra, disabled, #btn_download)
-||uploadboy.com/analytics.js
+uploadboy.com##+js(cookie-remover, captcha_key)
+uploadboy.com##+js(acs, $, navigator.appVersion)
+uploadboy.com##form[name="F1"] > input[id="usr_resolution"]:remove()
+uploadboy.com##form[name="F1"] > input[id="usr_os"]:remove()
+uploadboy.com##form[name="F1"] > input[id="usr_browser"]:remove()
+uploadboy.com##form[name="F1"] > input[name="referer"]:remove()
+||uploadboy.com/analytics.js^
 ||uploadboy.com/banner^
-uploadboy.com##a[href="http://www.asiatech.ir/"]
-uploadboy.com##.litebox
 uploadboy.com##.time_circles
+uploadboy.com##.litebox
+uploadboy.com##a[href="http://www.asiatech.ir/"]
 uploadboy.com##[id^="mediaad"]:upward(.text-center)
 
 ! >> V <<
