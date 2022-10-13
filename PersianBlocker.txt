@@ -214,8 +214,6 @@
 ! TODO: Remove it, Used by marzfun.com
 
 ||popupdl.ir^$all
-! ^ TODO: Remove it, Used by dlfox.com
-
 ||popland.info^$all
 
 ||peyvandha.ir^$3p
@@ -223,9 +221,6 @@
 ! ^ Example: imovie-dl.org
 
 ||phoenixad.io^$all
-! ||phoenixad.io^$popup
-! ||phoenixad.io/click^$all
-
 ||partclick.ir^$all
 ||persianrank.ir^$all
 ||popgozar.com^$all
@@ -838,18 +833,17 @@ digiro.ir##.main-term-3705
 ! !#endif
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
-||dlfox.com/wp-content/uploads/*/*.gif
+! https://github.com/AdguardTeam/AdguardFilters/issues/131661
 ||dlfox.com/wp-admin/admin-ajax.php?action=adwised
-dlfox.com##.ADS_wrapper
+||cdn.dlfox.com/wp-content/uploads/*.gif
+.gif^$image,domain=dlfox.com
+dlfox.com##a[href*="gameriver.ir"]
+dlfox.com##a[href*="dlfox.com/adspage"] > img
 dlfox.com##.WK_ads
-dlfox.com##.ads_area_small_banner
-dlfox.com##.banner_small_dlbox_b
-dlfox.com##.single_post_banner
+dlfox.com##.shbanner_cover:upward(div[class^="col"])
+dlfox.com##.home_mid_ads
+dlfox.com##.ADS_wrapper
 dlfox.com##.blog_list
-dlfox.com###block-6
-dlfox.com##.custom-html-widget.textwidget
-dlfox.com##.litespeed-loaded.entered.aligncenter
-dlfox.com##.bottom_single_message
 
 ||tadv.didestan.net
 ||didestan.com/*/script/vast
