@@ -2132,8 +2132,7 @@ shirazsong.in##.no-mobile.out-container:nth-of-type(3)
 
 ||shop-theme.ir/code/popup
 
-||snn.ir/files/adv/
-||snn.ir/fa/generate/userid
+||snn.ir/files/adv^
 snn.ir##.adv_mobile
 
 ||sourceiran.com^$removeparam=/^utm_/
