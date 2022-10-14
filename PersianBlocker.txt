@@ -2392,13 +2392,7 @@ trainbit.com##+js(nano-stb, , , 0)
 
 ||techrato.com^$removeparam=/^utm_/
 techrato.com##.header-ads
-techrato.com##*[id^="widget_sp_image-"]
-! techrato.com###widget_sp_image-126
-! techrato.com###widget_sp_image-127
-! techrato.com###widget_sp_image-130
-! techrato.com###widget_sp_image-131
-! techrato.com###widget_sp_image-134
-! techrato.com###widget_sp_image-135
+techrato.com##[id^="widget_sp_image-"]
 
 tigatravel.com##+js(nostif, /^/)
 ||tigatravel.com/set_cookie_popup.php
