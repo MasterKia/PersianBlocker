@@ -2393,8 +2393,10 @@ trainbit.com##+js(nano-stb, , , 0)
 ||tafrihi.com/wp-content/plugins/simple-ads
 
 ||techrato.com^$removeparam=/^utm_/
-techrato.com##.header-ads
 techrato.com##[id^="widget_sp_image-"]
+techrato.com##.header-ads
+techrato.com##.ads-300x250
+techrato.com##.ads-cpc-post
 
 tigatravel.com##+js(nostif, /^/)
 ||tigatravel.com/set_cookie_popup.php
