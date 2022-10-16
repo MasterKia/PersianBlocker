@@ -2505,9 +2505,9 @@ tasnimnews.com##.ads-footer
 tasnimnews.com##.col-md-9:style(width: 100% !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88769
-||tarafdari.com/advertise
-||tarafdari.com/sites/default/files/apps/advertise
-||tarafdari.com/modules/statistics/statistics.php
+||tarafdari.com/advertise^
+||tarafdari.com/modules/statistics^
+tarafdari.com##.column-side > .block > .block-title:has-text(وبگردی):upward(.block)
 
 ! ||adservice.google.com/adsid/integrator.js?domain=tamasha.com
 
