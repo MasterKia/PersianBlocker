@@ -129,9 +129,6 @@
 ! ^ Used by Digiato, Vigiato, Rooziato
 
 ! >> E <<
-||emenshowapp.xyz^$all
-! ^ Phishing
-
 !#if adguard
 ||trustseal.enamad.ir^$third-party,cookie
 !#endif
@@ -2969,5 +2966,8 @@ zoomtech.org###posts_single_ads
 ||usdtcan.com^$all
 ||usdtbbc.com^$all
 ||imtokenwallet.biz^$all
+
+||emenshowapp.xyz^$all
+! ^ Phishing
 
 !-------------------------^ Scam Sites ^-----------------------!
