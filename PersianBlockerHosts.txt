@@ -81,8 +81,6 @@ click.digiato.com
 # ^ Used by Digiato, Vigiato, Rooziato
 
 # >> E <<
-emenshowapp.xyz
-# ^ Phishing
 
 # >> F <<
 facepop.org
@@ -537,5 +535,8 @@ usdteng.com
 usdtcan.com
 usdtbbc.com
 imtokenwallet.biz
+
+emenshowapp.xyz
+# ^ Phishing
 
 #-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------#
