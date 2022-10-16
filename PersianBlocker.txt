@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-10-13
+! Last modified: 2022-10-16
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -897,9 +897,14 @@ downloadsoftware.ir##.ads-matni
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33352
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90477
-downloadly.ir##.postfixedafterpost
-downloadly.ir##.stacking_default.valign_top.wpb_row:nth-of-type(8)
-downloadly.ir###kaprila_linktable
+||downloadly.ir/wp-content/plugins/blackswanlab-click-counter^
+downloadly.ir###page-content > .wpb_row:has(a[href*="faradars.org"])
+downloadly.ir###kaprila_downloadly_ir_static-post:upward(.g-cols)
+downloadly.ir###kaprila_downloadly_ir_top-side:upward(.g-cols)
+downloadly.ir###kaprila_downloadly_ir_side-2:upward(.g-cols)
+downloadly.ir###kaprila_linktable:upward(.g-cols)
+downloadly.ir##.postfixedafterpost:upward(.g-cols)
+downloadly.ir###faradars
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109129
 ||digiboy.ir/wp-content/img/sponsors^
