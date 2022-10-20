@@ -155,7 +155,9 @@
 
 ! >> I <<
 ||intrack.ir^$all
+
 ||geoip.imber.live^$all
+! ^ Example: malltina.com
 
 ! >> J <<
 ||jetbux.ir^$all
