@@ -76,8 +76,6 @@
 
 ||adro.co^$all
 ||affstat.adro.co^$all
-||affstat.digikala.com^$all
-||affiliate.digikala.com^$all
 
 ||1abzaar.ir/abzar/tools/no-rightclick.js
 ||1abzaar.ir/abzar/tools/no-selects.js
@@ -941,10 +939,12 @@ digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی
 ||digikala.com^$removeparam=affid
 ||digikala.com^$removeparam=cpcAdToken
 ||digikala.com/sw.js
-||digikala.com/tracker^$all
+||digikala.com/tracker^
 ||tracker.digikala.com^$all
 ||new-sentry.digikala.com^$all
 ||analytics.digikala.com^$all
+||affstat.digikala.com^$all
+||affiliate.digikala.com^$all
 digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward(1)
@@ -962,8 +962,7 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||digikalajet.com^$removeparam=/^utm_/
 ||digistyle.com^$removeparam=/promo/
 ||digistyle.com^$removeparam=/^utm_/
-||digistyle.com/tracker^$all
-
+||digistyle.com/tracker^
 
 ||sentry-new.divar.ir^$all
 ||ammaar.delivery.zeerak.cloud
