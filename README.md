@@ -222,10 +222,11 @@ https://basic.rethinkdns.com
 
 2- از بخش [«Issues (مشکلات)»](https://github.com/MasterKia/PersianBlocker/issues/new) میتونید هرگونه مشکل با سایتی و یا پیشنهادی که دارید رو درمیون بذارید.
 
-* برای گزارش مشکل، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
-* امکان فرستادن گزارش در گروه تلگرامی [@PersianBlocker](https://t.me/PersianBlocker) هم وجود دارد.
+\* برای گزارش مشکل، فقط کافیه «نشانی سایت + عکس از سایت + توضیح درباره مشکل» رو بفرستید.
+  
+\* امکان فرستادن گزارش در گروه تلگرامی [@PersianBlocker](https://t.me/PersianBlocker) هم وجود دارد.
 
-* گفتگوی [«گزارش و درخواست بررسی ردیاب‌ها»](https://github.com/MasterKia/PersianBlocker/discussions/70)  
+\* گفتگوی [«گزارش و درخواست بررسی ردیاب‌ها»](https://github.com/MasterKia/PersianBlocker/discussions/70)  
   
 
 #  [![AGPL-3.0 License](https://img.shields.io/github/license/MasterKia/PersianBlocker)](https://www.gnu.org/licenses/agpl-3.0.en.html) لایسنس (پروانه)
