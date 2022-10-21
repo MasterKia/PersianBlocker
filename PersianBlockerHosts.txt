@@ -294,6 +294,8 @@ websocket.ilna.ir
 # >> L <<
 
 # >> M <<
+affiliate.malltina.com
+sentry.malltina.com
 
 # >> N <<
 sentry.namava.ir
