@@ -16,6 +16,7 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
+analytics.asiatech.ir
 adexo.ir
 adskav.com
 advn.ir
@@ -109,6 +110,7 @@ ads.karzar.net
 kaprila.com
 
 # >> L <<
+analytics.labbayk.ir
 linkfars.com
 landyab.com
 linksaz.net
@@ -294,6 +296,8 @@ websocket.ilna.ir
 # >> L <<
 
 # >> M <<
+analytic.magland.ir
+
 affiliate.malltina.com
 sentry.malltina.com
 
