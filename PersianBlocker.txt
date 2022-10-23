@@ -468,6 +468,10 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+||analytics.asiatech.ir^$all
+
+||192.168.10.113^$all,domain=airport.ir
+
 artmusics.top##+js(nowoif)
 artmusics.top##.left > .box > .title:has-text(تبلیغات):upward(.box)
 
@@ -742,6 +746,8 @@ boyernews.com##center
 boyernews.com##.table-striped.table
 
 ! >> C <<
+||chaapaar.ir/ads^$all
+
 ! https://github.com/MasterKia/PersianBlocker/issues/69
 ||charbzaban.com/wp-content/uploads/*.gif
 charbzaban.com##.widget:has(.widgettitle:has-text(/پیشنهاد|مفید/))
@@ -1643,6 +1649,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||magland.ir/banner_images^
+||analytic.magland.ir^$all
+
 ! ||malltina.com^$removeparam=/^upn_/
 ||affiliate.malltina.com^$all
 ||sentry.malltina.com^$all
