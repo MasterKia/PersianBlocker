@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-10-21
+! Last modified: 2022-10-28
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1564,7 +1564,7 @@ khabarfarsi.com###ads_f
 khabarfarsi.com###banners_120_top_1
 khabarfarsi.com###block-block-120
 
-||karpishe.com/api/collect/job-click/
+||karpishe.com/api/collect/job-click^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ||kojaro.com/kojaro/ui/js/banner.js
