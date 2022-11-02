@@ -36,6 +36,9 @@
 ##.zxc-stik
 ##.zxc-mobile
 ##.zxc-padding-custom
+##.zxc-header-zxc
+##.home-zxc
+##.side_txt_zxc_inner
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
