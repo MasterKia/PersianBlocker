@@ -190,6 +190,10 @@
 ||mitrarank.ir^$all
 
 ! >> N <<
+||nastooh.ir^$3p
+||analytics.nastooh.ir^$all
+! Example: sahebkhabar.ir
+
 ||newswidget.net^$all
 ||vidomusic.org^$all
 ||pantatec.ae^$all
