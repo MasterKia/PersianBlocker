@@ -2050,12 +2050,13 @@ rozup.ir##.txtad
 rozup.ir##.center.body_c > div:nth-of-type(2)
 rozup.ir##.center.body_c > div > div
 
-||rokna.net/zxc/*.htm$subdocument
-rokna.net##[href^="/advertisements/"]
+rokna.net##.zxc
+rokna.net##.zxc-header-zxc
+rokna.net##.home-zxc
 rokna.net##.zxc-padding-custom
-rokna.net##.padding-bottom-8
 rokna.net##.side_txt_zxc_inner
 rokna.net##.sanjagh
+rokna.net##.padding-bottom-8
 
 ||rouzegar.com/wp-content/plugins/better-adsmanager/
 ||irancarpet.net^$image,domain=rouzegar.com
