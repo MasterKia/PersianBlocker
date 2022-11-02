@@ -548,8 +548,4 @@ imtokenwallet.biz
 emenshowapp.xyz
 # ^ Phishing
 
-# https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
-# https://farnet.io/1401/08/324594/rubika-is-detected-as-malware/
-rubika.ir
-
 #-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------#
