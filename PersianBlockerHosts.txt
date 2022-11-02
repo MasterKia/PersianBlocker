@@ -127,6 +127,9 @@ merita.ir
 mitrarank.ir
 
 # >> N <<
+analytics.nastooh.ir
+# Example: sahebkhabar.ir
+
 newswidget.net
 vidomusic.org
 pantatec.ae
