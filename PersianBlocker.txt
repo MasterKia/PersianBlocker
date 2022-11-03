@@ -44,6 +44,7 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||error-tracking.arvancloud.com^$all
 ||adexo.ir^$all
 ||adskav.com^$all
 ||advn.ir^$all
