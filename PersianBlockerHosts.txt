@@ -327,6 +327,8 @@ sentry.quera.org
 linkdoni.soft98.ir
 
 # >> T <<
+ad.technews-iran.com
+
 adengine.telewebion.com
 rokhdad.telewebion.com
 
