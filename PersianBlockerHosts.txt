@@ -95,6 +95,9 @@ ads.farakav.com
 # >> G <<
 
 # >> H <<
+sentry.hamravesh.com
+# Example: behtarino.com
+
 hantana.org
 
 # >> I <<
@@ -255,6 +258,7 @@ ads.alaatv.com
 
 
 # >> B <<
+metrix.behtarino.com
 apm.bama.ir
 
 # >> C <<
