@@ -775,17 +775,22 @@ chetor.com#@#.ads-block
 ||sentry.cafebazaar.org^$all
 
 ! coffeeapps.ir##+js(nowoif)
+||coffeeapps.ir/cof-p.php^
+||coffeeapps.ir/wp-content/plugins/wp-content-copy-protector^
+!#if env_firefox
+coffeeapps.ir##^script:has-text(wpcp)
+coffeeapps.ir##^script[id^="wpcp"]
+coffeeapps.ir##^div[id^="wpcp"]
+!#endif
+!#if env_chromium
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
-||coffeeapps.ir/cof-p.php
+!#endif
 coffeeapps.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-coffeeapps.ir##.ads-sidebar
 coffeeapps.ir##.ads-sticky
-coffeeapps.ir##.no-list-marker.block-content
-coffeeapps.ir##h5:has-text(لینک)
+coffeeapps.ir##.ads-sidebar
+coffeeapps.ir###sidebar > .block > h5:has-text(لینک های متنی):upward(.block)
 coffeeapps.ir###ADbox-1
-coffeeapps.ir##.soh-tab-d
-coffeeapps.ir##.ymaco
 
 ||cooldl.net/raul/Zula
 cooldl.net##.pm
