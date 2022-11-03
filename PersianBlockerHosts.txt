@@ -117,6 +117,9 @@ linksaz.net
 linkyar.com
 
 # >> M <<
+ir.mihanstore.net
+# Example: uploadgoogle.com
+
 metrix.ir
 trc.metrix.ir
 # ^ Used by digikala.com
