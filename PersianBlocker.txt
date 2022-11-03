@@ -2361,14 +2361,12 @@ saat24.news###box167
 
 ! >> T <<
 ! https://github.com/MasterKia/PersianBlocker/issues/47
-||technews-iran.com/wp-content/cache/min/*/amp-ad-
-||ad.technews-iran.com^$image
+||ad.technews-iran.com^$all
 ||app.technews-iran.com^$removeparam=_gl
 ||app.technews-iran.com^$removeparam=_ga
-technews-iran.com##[href*="ad.technews-iran.com/go"]
-technews-iran.com##.jl_ads_section > .widget_media_image
-technews-iran.com##.elementor-hidden-phone:has([href*="ad.technews-iran.com"])
-technews-iran.com##.elementor-element-cd0549f:style(width: 100% !important;)
+||technews-iran.com/wp-content/cache/min/*/amp-ad-
+technews-iran.com##.sidebar > .d-flex > aside > section > figure:has(a[href*="ad.technews-iran.com/"]):upward(.sidebar)
+technews-iran.com##.col-xs-12 > article:has(a[href*="/category/pr/"])
 technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 100% !important; margin-right: 0 !important;)
 
 ^utm_source=Torob^$removeparam=/^utm_/
