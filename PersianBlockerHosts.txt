@@ -17,7 +17,6 @@
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
 error-tracking.arvancloud.com
-analytics.asiatech.ir
 adexo.ir
 adskav.com
 advn.ir
@@ -249,14 +248,13 @@ zanboor.net
 #-------------------------v Site-Specific Filters v-----------------------#
 
 # >> A <<
+analytics.asiatech.ir
 dsp.aparat.com
 
 ads.akairan.com
 ads.akaup.com
 
 ads.alaatv.com
-
-
 
 # >> B <<
 metrix.behtarino.com
