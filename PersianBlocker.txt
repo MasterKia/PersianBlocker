@@ -150,6 +150,10 @@
 ! >> G <<
 
 ! >> H <<
+||hamravesh.com^$3p
+||sentry.hamravesh.com^$all
+! Example: behtarino.com
+
 ||cdn.hostdl.com/img/*.gif$image,3p,domain=~soft98.ir
 ! ^ Example: p30day.ir
 !  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, cdn.hostdl.com/img/p30day.gif
@@ -651,6 +655,8 @@ apktops.ir##.apktops-slider-section ul > li:not(:has(a[href="https://t.me/+UgVXT
 apktops.ir##.spcontent
 
 ! >> B <<
+||metrix.behtarino.com^$all
+
 ||static.bourse24.ir/images/ads^
 bourse24.ir##[href*="bourse24.ir/ads/click/"]
 bourse24.ir##.ads-margin-bot
