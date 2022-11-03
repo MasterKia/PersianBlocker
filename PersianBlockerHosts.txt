@@ -16,6 +16,7 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
+error-tracking.arvancloud.com
 analytics.asiatech.ir
 adexo.ir
 adskav.com
