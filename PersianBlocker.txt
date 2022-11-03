@@ -183,6 +183,9 @@
 ||linkyar.com^$3p
 
 ! >> M <<
+||ir.mihanstore.net^$all
+! Example: uploadgoogle.ir
+
 ||metrix.ir^$all
 ||trc.metrix.ir^$all
 ! ^ Used by digikala.com
@@ -2580,6 +2583,8 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+uploadgoogle.ir##+js(nowoif)
+
 uptrack.ir##[href*="b2n.ir"]
 uptrack.ir##.aside_box:has(.aside_box_title:has-text(لینک های ویژه))
 
