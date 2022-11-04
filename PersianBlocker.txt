@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-11-03
+! Last modified: 2022-11-04
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1889,6 +1889,8 @@ opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||parsaspace.com/Content/new/js/analytics.js^
+
 ! https://github.com/MasterKia/PersianBlocker/issues/45
 ||pezeshket.com/wp-content/uploads/*.gif
 pezeshket.com###stream-item-widget-3
