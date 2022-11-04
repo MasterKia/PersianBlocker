@@ -571,9 +571,9 @@ amazing.ir##.widget_custom_html.widget.widget_text
 
 ||blog.akhbarrasmi.com/wp-content/plugins/*/analytics/
 
-alamto.com##li#bunyad-latest-posts-widget-2.latest-posts.widget:nth-of-type(4)
 alamto.com##.yn-bnr
 alamto.com###pos-article-display-66259
+alamto.com##.sidebar.col-4 > ul > li > h4:has-text(رپورتاژ آگهی):upward(li)
 
 ! androidgozar.com##+js(aopr, website)
 androidgozar.com##+js(aopr, ShowPopUp)
@@ -598,14 +598,13 @@ aparat.com##.dsp-ad
 aparat.com##.video-list-wrapper.list-responsive:has(.ad)
 ! TODO: Check for more possible filters
 
-||aftabir.com/uploads/banners/
-aftabir.com###footer_js_d1
-aftabir.com##.banner
+||aftabir.com/uploads/banners^
+! ||aftabir.com/uploads/reportages^
 aftabir.com##.banner-container
-aftabir.com##.sidebar-fixed > .block
-aftabir.com##.col-sm-12 > .block > header
-aftabir.com##.boxRepo-12
-aftabir.com##section.block:nth-of-type(4)
+aftabir.com###footer_js_d1
+aftabir.com##.col-md-4 > .mb-10 > .block > header > h2:has-text(رپرتاژ):upward(.block)
+aftabir.com##.sidebar-fixed > .block > header > h2:has-text(وبگردی):upward(.block)
+aftabir.com##.col-md-8 > .mb-10 > .block > header > h2:has-text(وبگردی):upward(.block)
 
 ||aftabyazdonline.ir/templates/aftabeyazd/images/ads
 aftabyazdonline.ir##.co-ads
@@ -1336,7 +1335,7 @@ harmonydl.us##.cside1 > .hside2:has-text(تبلیغات):upward(.cside1)
 harmonydl.us##.tabliq
 
 ! https://github.com/MasterKia/PersianBlocker/issues/18
-||honarehzendegi.com/cdn-cgi/challenge-platform^$all
+||honarehzendegi.com/cdn-cgi/challenge-platform^
 honarehzendegi.com#@#.logo-ad
 
 ||gourls.ir^$popup
@@ -1570,7 +1569,7 @@ konkur.info##.adsside
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1153092391
 khanoumi.com##+js(rc, ads-track, , stay)
-||ads.khanoumi.com/api/services/app/adstrackingpanel^$all
+||ads.khanoumi.com/api/services/app/adstrackingpanel^
 ||khanoumi.com^$removeparam=/itm/
 ||khanoumi.com^$removeparam=/^utm_/
 mag.khanoumi.com##.widget-ad-image
@@ -2163,7 +2162,7 @@ sedayiran.com##.adv_top
 searchline.ir##+js(acis, document.oncontextmenu)
 searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-||snappfood.ir/*/track^$all
+||snappfood.ir/*/track^
 
 sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
@@ -2505,7 +2504,7 @@ tourismonline.co##.widget_custom_html.widget.container-wrapper.widget_text
 ! https://github.com/MasterKia/PersianBlocker/issues/17
 ! ||toranji.ir/wp-content/uploads/*/*/Toranji-Ad
 ||toranji.ir/wp-content/uploads/*/*.gif
-||toranji.ir/najva-messaging-sw.js^$all
+||toranji.ir/najva-messaging-sw.js^
 toranji.ir##.content-container:has(.ad-reportage)
 toranji.ir###fpc-banner-top
 toranji.ir#@#.square-ad
