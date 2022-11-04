@@ -86,9 +86,9 @@
 ||1abzar.ir/abzar/tools/post-view/
 ||1abzar.ir/abzar/tools/stat/
 
-||abzarfa.com/services/minicounter
-||abzarfa.com/services/onlineusres
-||abzarfa.com/tools/ip
+||abzarfa.com/services/minicounter^$script
+||abzarfa.com/services/onlineusres^$script
+||abzarfa.com/tools/ip^$script
 
 ! >> B <<
 ||behinava.com^$all
@@ -616,11 +616,6 @@ aftabyazdonline.ir##.co-ads
 abipic.com##.pt-3.text-center.py-2.bg-all-box
 abipic.com##.text-center.py-3.bg-all-box
 abipic.com##.ads-text-sid
-
-abzarfa.com##.top-ads
-abzarfa.com##div.right-sidebar:nth-of-type(1)
-abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-sidebar-cont
-abzarfa.com##div.right-sidebar:nth-of-type(4) > .right-title
 
 ||1abzar.com/files/ads
 1abzar.com##.ads-post
