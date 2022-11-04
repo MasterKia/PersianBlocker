@@ -753,15 +753,15 @@ beytoote.com##.c-ads-banner
 @@||beytoote.com/ads/js/$script,1p
 @@||ads.beytoote.com/live_chat$1p
 
-||boyernews.com/wp-content/plugins/FAdvertisement/
-boyernews.com##.topAds
-boyernews.com##.ads-left
-boyernews.com##.tarh-forosh.panel-heading:nth-of-type(23)
-boyernews.com##center
-boyernews.com##.table-striped.table
+||boyernews.com/wp-content/plugins/FAdvertisement^
+boyernews.com##.leftads
+boyernews.com##.col-md-3 > .panel > .tarh-forosh
+boyernews.com##.col-md-3 > .panel > center
+@@||boyernews.com/wp-content/plugins/FAdvertisement/images/BE7C40CE-BAEA-954A-B842-C98F3423EB1D.jpg$image,1p
+@@||boyernews.com/wp-content/plugins/FAdvertisement/images/E77FB7B0-C797-40C2-D105-545084EE2E57.jpg$image,1p
 
 ! >> C <<
-||chaapaar.ir/ads^$all
+||chaapaar.ir/ads^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/69
 ||charbzaban.com/wp-content/uploads/*.gif
