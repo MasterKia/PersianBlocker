@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-11-04
+! Last modified: 2022-11-09
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -38,7 +38,7 @@
 ##.zxc-padding-custom
 ##.zxc-header-zxc
 ##.home-zxc
-##.side_txt_zxc_inner
+##.side_txt_zxc
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
@@ -2070,13 +2070,22 @@ rozup.ir##.txtad
 rozup.ir##.center.body_c > div:nth-of-type(2)
 rozup.ir##.center.body_c > div > div
 
+||rokna.net/rss-files.php^
 rokna.net##.zxc
 rokna.net##.zxc-header-zxc
 rokna.net##.home-zxc
+rokna.net##.adv-cnt
 rokna.net##.zxc-padding-custom
-rokna.net##.side_txt_zxc_inner
+rokna.net##.side_txt_zxc
 rokna.net##.sanjagh
 rokna.net##.padding-bottom-8
+rokna.net##.box-doc > .documentary-news-cnt > header:has-text(بازرگانی):upward(.box-doc)
+rokna.net##.various-cnt > header:has-text(بازرگانی):upward(.various-cnt)
+rokna.net##.news-col-1 #rssbank:upward(.container)
+! !#if env_mobile
+rokna.net##.top_fixed_mob
+rokna.net##.zxc_c9
+! !#endif
 
 ||rouzegar.com/wp-content/plugins/better-adsmanager/
 ||irancarpet.net^$image,domain=rouzegar.com
