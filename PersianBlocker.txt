@@ -2083,7 +2083,7 @@ rokna.net##.box-doc > .documentary-news-cnt > header:has-text(بازرگانی):
 rokna.net##.various-cnt > header:has-text(بازرگانی):upward(.various-cnt)
 rokna.net##.news-col-1 #rssbank:upward(.container)
 ! !#if env_mobile
-rokna.net##.top_fixed_mob
+rokna.net##.top_fixed_mob:remove()
 rokna.net##.zxc_c9
 ! !#endif
 
