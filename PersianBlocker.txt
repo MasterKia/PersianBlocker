@@ -1761,7 +1761,8 @@ mashreghnews.ir##[id^="ad"]
 ! mashreghnews.ir###box56
 ! mashreghnews.ir###box68
 
-moderndl.com##div.sidebar_item:nth-of-type(5)
+moderndl.com###ads__bottom_of_the_header
+moderndl.com##.sidebar_item > .sidebar_item__inner > .sidebar_item__title:has-text(تبلیغات متنی):upward(.sidebar_item)
 
 moroornews.com##[href^="/advertisements/"]
 moroornews.com##.txt-adv-box
