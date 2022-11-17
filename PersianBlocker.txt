@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-11-10
+! Last modified: 2022-11-17
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -12,6 +12,27 @@
 ! TODO: Remove unbreak filters from Adguard Unbreak after PersianBlocker is added
 ! TODO: Remove Persian filters from "Adguard Base filter" when PersianBlocker is added
 !-------------------------v Experimental Generic Filters v-----------------------!
+! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
+!! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir
+/wp-admin/admin-ajax.php?postviews_id=$xhr
+
+! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
+!! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
+!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com 
+*##.zxc
+##.zxc-m
+##.zxc-stik
+##.zxc_news
+##.zxc_home
+##.zxc-mobile
+##.zxc-header-zxc
+##.zxc-visible-fixed
+##.zxc-padding-custom
+##.main-zxc
+##.home-zxc
+##.side_txt_zxc
+! ##.zxc_c9
+
 ! /files/adv/*
 ! /statics/*$xhr
 ! .ir/ads/
@@ -27,20 +48,6 @@
 ! /najva.js
 
 ! /jwplayer/vast.js
-
-! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir, mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir
-/wp-admin/admin-ajax.php?postviews_id=$xhr
-
-! https://github.com/MasterKia/PersianBlocker/issues/68#issuecomment-1241797575
-##.zxc
-##.zxc-m
-##.zxc-visible-fixed
-##.zxc-stik
-##.zxc-mobile
-##.zxc-padding-custom
-##.zxc-header-zxc
-##.home-zxc
-##.side_txt_zxc
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 
 
