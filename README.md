@@ -131,10 +131,10 @@ https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
   
 ۱- این نرم‌افزار رو [از F-Droid](https://f-droid.org/en/packages/com.celzero.bravedns) یا [از Google Play Store](https://play.google.com/store/apps/details?id=com.celzero.bravedns) نصب کنید.
 
-۲- توی نرم‌افزار، بالا سمت چپ روی بخش DNS بزنید و گزینه RethinkDNS رو انتخاب کنید. توی صفحه بعد روی علامت مداد جلوی گزینه RDNS Plus کلیک کنید و بعد دکمه Edit رو بزنید. توی صفحه جدید زبونه Advanced رو باز کنید و این عبارت رو جستجو کنید: «OISD» و بعد تیک سمت راستش رو بزنید و پایین صفحه گزینه Apply رو انتخاب کنید تا لیست جامع OISD Full که **PersianBlocker** هم شاملش میشه براتون فعّال بشه.
+۲- توی نرم‌افزار، بالا سمت چپ روی بخش DNS بزنید و گزینه RethinkDNS رو انتخاب کنید. توی صفحه بعد روی علامت مداد جلوی گزینه RDNS Plus کلیک کنید و بعد دکمه Edit رو بزنید. توی صفحه جدید زبونه Advanced رو باز کنید و این عبارت رو جستجو کنید: «Persian Blocker» و بعد تیک سمت راستش رو بزنید و پایین صفحه گزینه Apply رو انتخاب کنید تا لیست براتون فعّال بشه.
   
-لیست **PersianBlocker** بزودی به لیست های پیش‌فرض این نرم‌افزار افزوده خواهد شد.
-  
+یا اینکه می‌تونید لیست جامع «OISD» که **PersianBlocker** هم شاملش میشه رو فعّال کنید تا تبلیغات و ردیاب‌ها در سایت های انگلیسی‌زبان هم مسدود بشه. 
+
 </details>
 
 ***
@@ -184,20 +184,27 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
   
 ⚠️ به هیچ وجه از این قابلیت _در کنار_ افزونه‌های مسدودساز مانند uBlock Origin استفاده نکنید چون باعث تداخل و مسدودسازی اشتباه می‌شود.  
   
+- آدرس DoH:
+
+`https://sky.rethinkdns.com/1:EAACAA==`
   
 - آدرس DoH (به همراه لیست جامع OISD Full که شامل **PersianBlockerHosts** هم می‌شود):  
   
-https://basic.rethinkdns.com/1:IAAgAA==
+`https://basic.rethinkdns.com/1:IAAgAA==`
+
+- آدرس DoT:
+
+`1-caaaeaa.max.rethinkdns.com`
   
 - آدرس DoT (به همراه لیست جامع OISD Full که شامل **PersianBlockerHosts** هم می‌شود):  
   
-1-eaacaaa.max.rethinkdns.com
+`1-eaacaaa.max.rethinkdns.com`
   
 - [آدرس DNS رمزگذاری نشده](https://kb.controld.com/en/3rd-party-filters) برای تنظیم روی مودم و روتر (به همراه لیست جامع OISD Full که شامل **PersianBlockerHosts** هم می‌شود):
   
-76.76.2.32
+`76.76.2.32`
   
-76.76.10.32
+`76.76.10.32`
   
 برای افزودن لیست های دیگر و ساخت DNS دلخواه خودتان می‌توانید به سایت زیر بروید:
   
@@ -267,6 +274,7 @@ https://basic.rethinkdns.com
 
 \- [نرم‌افزار Rethink اندروید (Firewall+DNS)](https://github.com/serverless-dns/blocklists/blob/main/blocklistConfig.json#L1556)
 
+\- [سامانه RethinkDNS](https://github.com/serverless-dns/blocklists/pull/50#issuecomment-1312457401)
 
 \- [نرم افزار AdGuard Home (مسدودساز DNS)](https://github.com/AdguardTeam/HostlistsRegistry/tree/main/filters/regional/filter_19_IRN_PersianBlocker)
 
