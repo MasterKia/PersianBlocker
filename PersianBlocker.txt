@@ -918,7 +918,7 @@ donya-e-eqtesad.com##.custom-ad-one
 donya-e-eqtesad.com##.general-box:has(.box-header:has-text(وب گردی))
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56925
-||downloadsoftware.ir/images/ads/
+||downloadsoftware.ir/images/ads^
 downloadsoftware.ir##.top-ads
 downloadsoftware.ir##.ads-fix-post
 downloadsoftware.ir##.ads-matni
