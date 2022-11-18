@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-11-17
+! Last modified: 2022-11-18
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -931,6 +931,7 @@ donya-e-eqtesad.com##.general-box:has(.box-header:has-text(وب گردی))
 downloadsoftware.ir##.top-ads
 downloadsoftware.ir##.ads-fix-post
 downloadsoftware.ir##.ads-matni
+downloadsoftware.ir##:not(:matches-path(/%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98)) .art-post > .head-post > .cat-post:has-text(رپورتاژ):upward(.art-post)
 
 ||dunro.com/dist/najva-messaging-sw.js
 ||analytics.dunro.com
