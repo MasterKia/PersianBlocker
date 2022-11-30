@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
-# Last modified: 2022-11-30
+# Last modified: 2022-12-01
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -39,6 +39,7 @@
 0.0.0.0 behinava.com
 0.0.0.0 radar.bayan.ir
 0.0.0.0 backority.ir
+0.0.0.0 cayot.ir
 0.0.0.0 chavosh.org
 0.0.0.0 ck.chavosh.org
 0.0.0.0 clickaval.com
