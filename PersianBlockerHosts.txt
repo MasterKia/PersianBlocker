@@ -240,7 +240,7 @@ zarpop.com
 zanboor.net
 # TODO: Remove zanboor.net, but some websites still link to it
 
-#------------------------- Persian Ads/Trackers/Annoyances Filters -----------------------#
+#-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------#
 
 #-------------------------v Site-Specific Filters v-----------------------#
 
