@@ -166,13 +166,30 @@ https://github.com/SamadiPour/iran-hosted-domains/releases/latest
 ***
 
 <details>
-  <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز DNS (مانند AdGuard Home و AdAway) 🕳</h4></summary>
+  <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز DNS (مانند AdGuard Home) 🕳</h4></summary>
 
 
 از لیست **PersianBlockerHosts** (برگرفته از لیست PersianBlocker) استفاده کنید:
 
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt  
   
+</details>
+
+***
+
+<details>
+  <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز HOSTS (مانند AdAway یا HostsMan) 🕳</h4></summary>
+
+نسخه `0.0.0.0` (پیشنهادی):
+
+https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/zero/HOSTS
+
+نسخه `127.0.0.1` :
+
+https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/HOSTS
+
+
+با سپاس از [@mohsenr7596](https://github.com/mohsenr7596).
 </details>
 
 ***
