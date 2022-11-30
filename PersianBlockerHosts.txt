@@ -1,18 +1,15 @@
 [AdBlock]
-# ------------------------------------[UPDATE]--------------------------------------
 # Title: PersianBlocker (Hosts)
+# Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
+# Last modified: 2022-11-30
 # Homepage: https://github.com/MasterKia/PersianBlocker
-# Help: https://github.com/MasterKia/PersianBlocker/blob/main/README.md
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
-# ------------------------------------[SUPPORT]-------------------------------------
-# مشارکت کنید:
-# - گزارش دادن تبلیغات و ردیاب هایی که مسدود نشده اند
-# - گزارش دادن مثبت کاذب ها
-# -------------------------------------[INFO]---------------------------------------
-#
-# سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-# ------------------------------------[FILTERS]-------------------------------------
+
+! مشکل ها/پیشنهاد ها: https://github.com/MasterKia/PersianBlocker/issues
+! مشارکت: https://github.com/MasterKia/PersianBlocker/pulls
+
+# لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
