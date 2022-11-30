@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-11-30
+! Last modified: 2022-12-01
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -111,6 +111,9 @@
 ||blogfa.com/a^
 
 ! >> C <<
+||cayot.ir^$all
+! Example: tamasha.com/v/DDlMB
+
 ||chavosh.org^$all
 ||ck.chavosh.org^$all
 
@@ -155,7 +158,6 @@
 
 ||farakav.com^$all
 ||ads.farakav.com^$all
-! ^ TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 
 ! >> G <<
 
@@ -2368,6 +2370,13 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+tamasha.com##+js(set, socketUrl, undefined)
+tamasha.com##+js(set, VASTEnabled, false)
+tamasha.com##+js(set, vastURL, [])
+tamasha.com##+js(cookie-remover, tracker_visitor_id)
+||tamasha.com/visid^
+! Example: tamasha.com/v/DDlMB
+
 ! https://github.com/MasterKia/PersianBlocker/issues/47
 ||ad.technews-iran.com^$all
 ||app.technews-iran.com^$removeparam=_gl
