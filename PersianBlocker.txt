@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-11-27
+! Last modified: 2022-11-30
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1476,13 +1476,10 @@ ilna.ir##.zxc-mobile
 ! !#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/26
-||isna.ir/rest/visit
-||cdn.isna.ir/d/*.gif$1p
-isna.ir##.main-content .container:has(aside.sidebar .box.ads) [class^=col]:has(#item):style(min-width: 75% !important; max-width: 100% !important;)
-isna.ir###box24
-isna.ir###box32
-isna.ir###box180
-isna.ir###box212
+! https://github.com/MasterKia/PersianBlocker/issues/92
+||isna.ir/rest/visit^
+isna.ir##.ads
+isna.ir##.col-md-7:style(width: 75% !important;)
 
 itgheymat.com##.ads-box
 
