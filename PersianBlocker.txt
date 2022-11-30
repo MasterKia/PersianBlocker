@@ -6,11 +6,10 @@
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
-! Issues/Suggestions: https://github.com/MasterKia/PersianBlocker/issues
-! Pull requests: https://github.com/MasterKia/PersianBlocker/pulls
+! مشکل ها/پیشنهاد ها: https://github.com/MasterKia/PersianBlocker/issues
+! مشارکت: https://github.com/MasterKia/PersianBlocker/pulls
 
-! TODO: Remove unbreak filters from Adguard Unbreak after PersianBlocker is added
-! TODO: Remove Persian filters from "Adguard Base filter" when PersianBlocker is added
+!  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
 !! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir
@@ -19,7 +18,7 @@
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
 !! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
 !!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com 
-*##.zxc
+##.zxc
 ##.zxc-m
 ##.zxc-stik
 ##.zxc_news
@@ -84,6 +83,7 @@
 ||akhbarrasmi.com^$3p
 ||affili.ir^$all
 ||amarfa.ir^$all
+
 ||ayyaar.ir^$all
 ! ^ Used by irna.ir
 
