@@ -519,10 +519,8 @@ applicationha.com##.baner
 
 anaj.ir##.tab_news > a[href*="gameup.ir"]
 
-! ||abadis.ir/ajaxcmd/stat/
-||abadis.ir/libs/async/ads
-||abadis.ir/ajaxcmd/adssetcacheok/
-||abadis.ir/pages/ads/
+||img.abadis.ir/pages/ads^
+||abadis.ir/libs/async/ads.min.js^
 abadis.ir##x
 
 asiadl.ir##div[class="my-3"]
