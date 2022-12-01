@@ -294,6 +294,9 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
+||trustseal.e-rasaneh.ir^$all
+! Example: anaj.ir
+
 ||triboon.net^$all
 
 ||tamasha.com^$removeparam=vastUrl
