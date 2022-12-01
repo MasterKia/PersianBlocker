@@ -517,7 +517,7 @@ asemooni.com##.right-sidebar > p > a > img[title="رپورتاژ"]
 
 applicationha.com##.baner
 
-anaj.ir##[href^="https://gameup.ir/"]
+anaj.ir##.tab_news > a[href*="gameup.ir"]
 
 ! ||abadis.ir/ajaxcmd/stat/
 ||abadis.ir/libs/async/ads
