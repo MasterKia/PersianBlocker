@@ -512,7 +512,6 @@ arzcenter.com##a[href*="nobitex.ir"]
 ! https://github.com/MasterKia/PersianBlocker/issues/46
 asemooni.com##.right-sidebar > p > a > img[title="رپورتاژ"]
 
-applicationha.com##+js(aopr, faPa)
 applicationha.com##.baner
 
 anaj.ir##[href^="https://gameup.ir/"]
