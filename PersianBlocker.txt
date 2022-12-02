@@ -524,15 +524,21 @@ anaj.ir##.tab_news > a[href*="gameup.ir"]
 abadis.ir##x
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96707
-asriran.com##+js(alert-buster)
-||asriran.com/files/adv/$important
-||asriran.com/fa/generate/userid
-||cdn.asriran.com/media/vendors/videojs/css/videojs.ads.css
-||cdn.asriran.com/media/jwplayer//vast.js
-||excoino.com^$domain=asriran.com
-asriran.com##.adv_sticky
-asriran.com##.webgardi_main
+asriran.com##+js(no-xhr-if, /fa/generate/userid)
+||asriran.com/files/fa/adv^
+! ||asriran.com/fa/generate/userid^
+||asriran.com/media/jwplayer//vast.js^
+||asriran.com/media/vendors/videojs/js/videojs-preroll.js^
+||asriran.com/media/vendors/videojs/css/videojs-preroll.css^
+||asriran.com/media/vendors/videojs/js/videojs.ads.min.js^
+||asriran.com/media/vendors/videojs/css/videojs.ads.css^
+asriran.com##.advRemove
+asriran.com##.webgardi_main > #txtadv5 > a[href*="asriran.com/fa/ads/redirect/"]
 asriran.com##.click1000_allcontent
+asriran.com##.col-sm-12 span:has-text(وبگردی):upward(.col-sm-12)
+asriran.com##.common-main:style(width: 90% !important;)
+asriran.com##.col1:style(width: 75% !important;)
+asriran.com##.col2:style(width: 25% !important;)
 
 ||androidzoom.ir/wp-content/uploads/*/*.gif
 androidzoom.ir##.widget-container
