@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-01
+! Last modified: 2022-12-02
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -522,9 +522,6 @@ anaj.ir##.tab_news > a[href*="gameup.ir"]
 ||img.abadis.ir/pages/ads^
 ||abadis.ir/libs/async/ads.min.js^
 abadis.ir##x
-
-asiadl.ir##div[class="my-3"]
-asiadl.ir##.img-fluid.banner-img
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96707
 asriran.com##+js(alert-buster)
