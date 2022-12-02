@@ -552,11 +552,10 @@ androidzoom.ir###sidebar .widget a[href*="faradars.org"] > img[alt*="فرادر�
 androidzoom.ir##.kpl_linktable
 androidzoom.ir##.content:style(width: 100% !important;)
 
-||akharinnews.com/images/banners
-akharinnews.com###headerads
+||akharinnews.com/images^
 akharinnews.com###left2
-akharinnews.com##.yn-bnr
 akharinnews.com###ads
+akharinnews.com##.yn-bnr:upward(.custom)
 
 ||asandl.com/Panel/$image
 asandl.com##.text-asan
