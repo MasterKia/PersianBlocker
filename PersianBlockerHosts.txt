@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
-# Last modified: 2022-12-01
+# Last modified: 2022-12-02
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -108,6 +108,9 @@ geoip.imber.live
 jetbux.ir
 
 # >> K <<
+api.karpishe.com
+# Example: asrakhbar.com
+
 kajads.com
 ads.karzar.net
 kaprila.com
