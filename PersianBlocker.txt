@@ -594,12 +594,10 @@ alamto.com##.yn-bnr
 alamto.com###pos-article-display-66259
 alamto.com##.sidebar.col-4 > ul > li > h4:has-text(رپورتاژ آگهی):upward(li)
 
-! androidgozar.com##+js(aopr, website)
-androidgozar.com##+js(aopr, ShowPopUp)
-||androidgozar.com/agahi/
-androidgozar.com##.post-sticky
-androidgozar.com##.cas-pubg
-! androidgozar.com##div[class^="col-"]:has(div>div>a[class="ag-agah"])
+androidgozar.com##+js(set, ShowPopUp, false)
+||androidgozar.com/abli^
+androidgozar.com##.post-sticky:upward(.row)
+androidgozar.com##.ag-agah
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
 ||aparat.com^$removeparam=/^utm_/
