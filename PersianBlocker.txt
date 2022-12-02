@@ -17,12 +17,13 @@
 
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
 !! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
-!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com 
+!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news 
 ##.zxc
 ##.zxc-m
 ##.zxc-stik
-##.zxc_news
 ##.zxc_home
+##.zxc_news
+##.zxc_matni
 ##.zxc-mobile
 ##.zxc-header-zxc
 ##.zxc-visible-fixed
@@ -1885,6 +1886,17 @@ namnak.com##.Dr.D2.Cu.o
 ||namakstan.net/wp-content/cache/busting/1/gtm-
 
 ! >> O <<
+! https://github.com/MasterKia/PersianBlocker/issues/93
+||websocket.55online.news^$all
+||55online.news/aec.min.js^
+||55online.news/rss-files.php^
+55online.news##.zxc_home
+55online.news##.zxc
+55online.news##.zxc_news
+55online.news##.featured_news
+55online.news###webgardi_list:upward(.section_cnt)
+55online.news##.zxc_matni
+
 98oldmusics.site##+js(nowoif)
 98oldmusics.site##[id^="ads-"]:upward(.panel)
 
