@@ -182,6 +182,9 @@
 ||jetbux.ir^$all
 
 ! >> K <<
+||api.karpishe.com^$all
+! Example: asrkhabar.com
+
 ||kilipo.com/themes/default/player/plugins/vast/ads
 ||kilipo.com/themes/default/player/plugins/ads
 
@@ -497,6 +500,8 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+||asrkhabar.com/files/adv^
+
 ||analytics.asiatech.ir^$all
 
 ||192.168.10.113^$all,domain=airport.ir
@@ -1598,6 +1603,8 @@ khabarfarsi.com###banners_120_top_1
 khabarfarsi.com###block-block-120
 
 ||karpishe.com/api/collect/job-click^
+||karpishe.com/api/actionlog^
+||karpishe.com/api/shared/log^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ||kojaro.com/kojaro/ui/js/banner.js
