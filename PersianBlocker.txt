@@ -530,8 +530,8 @@ abadis.ir##x
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96707
 asriran.com##+js(no-xhr-if, /fa/generate/userid)
-||asriran.com/files/fa/adv^
 ! ||asriran.com/fa/generate/userid^
+||asriran.com/files/fa/adv^
 ||asriran.com/media/jwplayer//vast.js^
 ||asriran.com/media/vendors/videojs/js/videojs-preroll.js^
 ||asriran.com/media/vendors/videojs/css/videojs-preroll.css^
@@ -545,11 +545,11 @@ asriran.com##.common-main:style(width: 90% !important;)
 asriran.com##.col1:style(width: 75% !important;)
 asriran.com##.col2:style(width: 25% !important;)
 
-||androidzoom.ir/wp-content/uploads/*/*.gif
-androidzoom.ir##.widget-container
-androidzoom.ir##.theiaStickySidebar
-androidzoom.ir##.download-link-ads-below
-androidzoom.ir##.kaprila
+androidzoom.ir##.e3lan
+androidzoom.ir###sidebar .widget div[id^="kaprila_linktable"]:upward(.widget)
+androidzoom.ir###sidebar .widget a[href*="faradars.org"] > img[alt*="فرادرس"]:upward(.widget)
+androidzoom.ir##.kpl_linktable
+androidzoom.ir##.content:style(width: 100% !important;)
 
 ||akharinnews.com/images/banners
 akharinnews.com###headerads
