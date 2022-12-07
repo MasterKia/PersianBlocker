@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-02
+! Last modified: 2022-12-07
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -32,6 +32,9 @@
 ##.home-zxc
 ##.side_txt_zxc
 ! ##.zxc_c9
+
+! cafejozve.ir, downloadly.ir, download.ir, p30day.ir, webgoo.ir
+###kaprila_linktable
 
 ! /files/adv/*
 ! /statics/*$xhr
@@ -1541,6 +1544,9 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+||khoshamoz.ir/img/Ads^
+khoshamoz.ir###kaprila_linktable
+
 ! https://github.com/MasterKia/PersianBlocker/issues/65
 ! https://github.com/MasterKia/PersianBlocker/commit/7e101d27a104aa1bbd6a75c5849ea120bdfc78f7#r84036961
 ||khaandaniha.ir/Upload/Public/Advertisement^
