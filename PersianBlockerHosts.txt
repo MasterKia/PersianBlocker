@@ -321,7 +321,7 @@ sentry.namava.ir
 
 stc.ninisite.com
 # >> O <<
-! https://github.com/MasterKia/PersianBlocker/issues/93
+# https://github.com/MasterKia/PersianBlocker/issues/93
 websocket.55online.news
 
 # >> P <<
