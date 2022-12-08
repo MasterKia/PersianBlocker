@@ -334,6 +334,11 @@ logo.samandehi.ir##^responseheader(set-cookie)
 @@||player.tavoos.net/assets/fonts/$font
 @@||player.tavoos.net/assets/$image
 ! ^ Example: film.tebyan.net
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script
+@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$stylesheet
+@@||tavoos.net/tavoos_player/jwplayer/assets/$image
+! ^ Example: alef.ir/news/4010916082.html
 
 ||cashback.takhfifan.com^$all
 ! Example: https://portal.server.ir/cart.php?a=confproduct&i=0
@@ -592,8 +597,9 @@ androidina.net###ads-text
 
 amazing.ir##.widget > .widget-top:has-text(آگهی متنی):upward(.widget)
 
-||alef.ir/files/advertise/
-||alef.ir/news/visit
+||alef.ir/files/advertise^
+||alef.ir/assets/*/jquery.visit.js^
+||alef.ir/news/visit.html^
 
 ||blog.akhbarrasmi.com/wp-content/plugins/*/analytics/
 
