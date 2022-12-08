@@ -583,12 +583,12 @@ arga-mag.com##.bottom-ad
 arga-mag.com##.main:style(width: 74.3% !important;)
 arga-mag.com##.col-sm-push-2:style(right: unset !important;)
 
-||androidina.net/images/asiatech
-||androidina.net/images/baner
-||androidina.net/analytics.js
+||androidina.net/analytics.js^
+||androidina.net/images/asiatech_
+androidina.net##.ads
+androidina.net###ads-sticky
+androidina.net##.col-md-12 > .title:has-text(لینک دوستان)
 androidina.net###ads-text
-androidina.net###agahiBottom
-androidina.net##.banner_wrapp
 
 ||amazing.ir/wp-content/plugins/google-analytics
 amazing.ir##.widget_custom_html.widget.widget_text
