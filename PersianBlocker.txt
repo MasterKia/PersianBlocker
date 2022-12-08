@@ -1647,8 +1647,8 @@ khabaronline.ir###ads-container:has-text(خواندنی ها)
 
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
 
+khabarpu.com##+js(nano-stb, document.getElementById, *, 0.01)
 ||khabarpu.com/js/getscript.js^
-||khabarpu.com/js/all_sc_without_yektanet.js^
 khabarpu.com##.rbox .rbox-h:has-text(تبلیغات):upward(.rbox)
 khabarpu.com##.inline_ads
 
