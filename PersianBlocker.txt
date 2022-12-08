@@ -590,8 +590,7 @@ androidina.net###ads-sticky
 androidina.net##.col-md-12 > .title:has-text(لینک دوستان)
 androidina.net###ads-text
 
-||amazing.ir/wp-content/plugins/google-analytics
-amazing.ir##.widget_custom_html.widget.widget_text
+amazing.ir##.widget > .widget-top:has-text(آگهی متنی):upward(.widget)
 
 ||alef.ir/files/advertise/
 ||alef.ir/news/visit
