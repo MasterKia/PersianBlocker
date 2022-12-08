@@ -570,13 +570,18 @@ asandl.com##.text-asan
 @@||img.cdn.asandl.com/Panel/AsanDl-3.gif$image,1p
 @@||asandl.com/ads/img/AsanDl-$image,1p
 
-||arga-mag.com/wp-content/plugins/meks-easy-ads
-arga-mag.com##.top-ad
+||arga-mag.com/file/img/*.gif
+||arga-mag.com/wp-content/plugins/meks-easy-ads-widget^
 arga-mag.com##.header-ad
+arga-mag.com##.top-ad
+arga-mag.com##.mks_ads_widget
+arga-mag.com##.menu_left-side-ads:upward(.boxsh)
+arga-mag.com##.menu_right-side-ads:upward(.boxsh)
+arga-mag.com###yektanet-pos-2:upward(.boxsh)
+arga-mag.com##.webgardi
 arga-mag.com##.bottom-ad
-arga-mag.com##.menu_right-side-ads
-arga-mag.com##.menu_left-side-ads
-arga-mag.com##.medic-box.inner.boxsh
+arga-mag.com##.main:style(width: 74.3% !important;)
+arga-mag.com##.col-sm-push-2:style(right: unset !important;)
 
 ||androidina.net/images/asiatech
 ||androidina.net/images/baner
