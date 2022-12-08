@@ -6,7 +6,7 @@
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
-# مشکل ها/پیشنهاد ها: https://github.com/MasterKia/PersianBlocker/issues
+# مشکل/پیشنهاد: https://github.com/MasterKia/PersianBlocker/issues
 # مشارکت: https://github.com/MasterKia/PersianBlocker/pulls
 
 # لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
