@@ -170,9 +170,11 @@
 ||sentry.hamravesh.com^$all
 ! Example: behtarino.com
 
+!  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, 
+!! cdn.hostdl.com/img/p30day.gif, cdn.hostdl.com/banners/asandownload.gif
 ||cdn.hostdl.com/img/*.gif$image,3p,domain=~soft98.ir
-! ^ Example: p30day.ir
-!  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, cdn.hostdl.com/img/p30day.gif
+||cdn.hostdl.com/banners/*.gif$image,3p,domain=~soft98.ir
+||cdn.hostdl.com/assets/*.gif$image,3p,domain=~soft98.ir
 
 ||hantana.org^$all
 
@@ -559,15 +561,14 @@ akharinnews.com###left2
 akharinnews.com###ads
 akharinnews.com##.yn-bnr:upward(.custom)
 
-||asandl.com/Panel/$image
-asandl.com##.text-asan
+||img.cdn.asandl.com/Panel/*.gif
 asandl.com##.game.post
-asandl.com##.asan125
-asandl.com##.asan250
-asandl.com##.asan468
-@@||image.asandl.com/Panel/templates/Sprit.png
-@@||img.cdn.asandl.com/Panel/templates/Sprit.png
-@@||asandl.com/ads/img/$image,1p
+asandl.com##.content-box
+asandl.com##.box:not(.counter, .post)
+asandl.com##.widget-asan:has(a[rel="nofollow"][target="_blank"])
+asandl.com##.text-asan
+@@||img.cdn.asandl.com/Panel/AsanDl-3.gif$image,1p
+@@||asandl.com/ads/img/AsanDl-$image,1p
 
 ||arga-mag.com/wp-content/plugins/meks-easy-ads
 arga-mag.com##.top-ad
