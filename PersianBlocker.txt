@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-07
+! Last modified: 2022-12-08
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2679,7 +2679,6 @@ uploadboy.com##form[name="F1"] > input[id="usr_browser"]:remove()
 uploadboy.com##form[name="F1"] > input[name="referer"]:remove()
 ||uploadboy.com/analytics.js^
 ||uploadboy.com/banner^
-uploadboy.com##.time_circles
 uploadboy.com##.litebox
 uploadboy.com##a[href="http://www.asiatech.ir/"]
 uploadboy.com##[id^="mediaad"]:upward(.text-center)
