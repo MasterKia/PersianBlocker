@@ -674,10 +674,11 @@ accpress.com###text-25
 ||afkarnews.com/servev2/$image
 afkarnews.com##.main-zxc
 
-apktops.ir##.widget_links
-apktops.ir##.asiatech
 apktops.ir##.apktops-slider-section ul > li:not(:has(a[href="https://t.me/+UgVXT9YqXOs0MQTy"])):remove()
-apktops.ir##.spcontent
+apktops.ir##.spcontent:upward(.post)
+apktops.ir##.post-article > .content > .row .entry-content:has-text(اسپاتیفای پرمیوم از APKTOPS):upward(.post-article)
+apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
+apktops.ir##.asiatech
 
 ! >> B <<
 ||metrix.behtarino.com^$all
