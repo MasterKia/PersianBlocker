@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-08
+! Last modified: 2022-12-11
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2006,11 +2006,11 @@ persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
 p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
-||p30download.ir/tabliq/
-||p30download.ir/page/files/eset
+p30download.ir###fxp
+p30download.ir##.sidebar-tabliq
+p30download.ir##.basic-list-linkdump
 p30download.ir###kaprila_p30download_ir_related-top-post
 p30download.ir###kaprila_p30download_ir_related
-p30download.ir##.sidebar-tabliq.widget
 p30download.ir##.text-tabliq
 
 ||film.persianv.com/frontend/js/ads/
