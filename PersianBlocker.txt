@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-15
+! Last modified: 2022-12-17
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2861,22 +2861,14 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/MasterKia/PersianBlocker/issues/4
-zoomit.ir##+js(aopr, banner)
-||zoomit.ir/common/visitcount/^
+! https://github.com/MasterKia/PersianBlocker/issues/99
 ||analytics.zoomit.ir^$all
-zoomit.ir##.showCaseWrapper:style(width: 100% !important;)
-zoomit.ir##.wide-adv-box
-zoomit.ir##.wide-adv-row
-zoomit.ir##.wide-adv-row-home
-zoomit.ir##.bannercontainer
-zoomit.ir##.price-sticky
-zoomit.ir##.item-list-row:has(a[href*="/pr/"])
-! !#if env_mobile
-zoomit.ir##.InsideArticleIntro
-zoomit.ir##.article-mobile-inContent
-zoomit.ir###mobileBannerAfterTags
-! !#endif
-@@||zoomit.ir/assets/img/advertise-$image,1p
+||api2.zoomit.ir/ads^$all
+zoomit.ir##+js(no-xhr-if, ads)
+zoomit.ir##[class^="AdvertisingParser"]
+zoomit.ir##[class^="DisplaySkeleton__DisplayRoot"]
+zoomit.ir##[class*="BrowseArticleItem___StyledFlex"]:has(a[href*="/pr/"])
+zoomit.ir##[class*="SupporterText"]:upward([class^="col__Col"])
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
