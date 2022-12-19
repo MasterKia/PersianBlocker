@@ -1946,9 +1946,6 @@ pezeshket.com#@#.widget-ad-image
 pezeshket.com#@#.stream-item-widget
 @@||pezeshket.com/wp-content/uploads/2022/07/%D9%BE%D8%B1%D8%B3%D8%B4-%D9%88-%D9%BE%D8%A7%D8%B3%D8%AE.gif
 
-||parspack.com^$removeparam=/^utm_/
-! Example: bottom of zoomit.ir
-
 ||pichak.net/nohe/amar.js
 ||pichak.net/ads/
 pichak.net##noscript:remove()
@@ -2877,6 +2874,7 @@ zoomit.ir##[class^="AdvertisingParser"]
 zoomit.ir##[class^="DisplaySkeleton__DisplayRoot"]
 zoomit.ir##[class*="BrowseArticleItem___StyledFlex"]:has(a[href*="/pr/"])
 zoomit.ir##[class*="SupporterText"]:upward([class^="col__Col"])
+zoomit.ir##footer a[href*="parspack.com?utm_source=zoomit"]:upward(.col-sm-5)
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
