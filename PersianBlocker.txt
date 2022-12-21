@@ -1577,6 +1577,15 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/101
+||khanefootball.com/aec.min.js^
+||websocket.khanefootball.com^$all
+khanefootball.com##.zxc_home
+khanefootball.com##.zxc
+khanefootball.com##.mrauto
+khanefootball.com##.position-g5
+khanefootball.com##.bahavadaran-news > .header-section:has-text(دیگر رسانه ها)
+
 ||khoshamoz.ir/img/Ads^
 khoshamoz.ir###kaprila_linktable
 
