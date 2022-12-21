@@ -2100,6 +2100,9 @@ forum.p30world.com#@##ad_global_above_footer
 ||sentry.quera.org^$all
 
 ! >> R <<
+||rahnamato.ir/common/visitcount^
+rahnamato.ir##.c-advertisement
+
 rasm.io##[class^="RequireAuth_mainBox"]
 rasm.io##[class*="hsCode_LimitedItem"]:style(-webkit-filter: none !important; filter: none !important; pointer-events: auto !important;)
 
