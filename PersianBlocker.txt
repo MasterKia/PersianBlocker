@@ -1020,7 +1020,7 @@ digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی
 ||affiliate.digikala.com^$all
 digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
-digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward(1)
+digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward([class^="product-list"])
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
 ! !#if env_mobile
 digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
