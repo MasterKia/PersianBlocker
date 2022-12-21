@@ -1405,7 +1405,10 @@ hamgardy.com##.sticky-ad
 ! ||hidoctor.ir/sw.js
 hidoctor.ir##.doctor-ads-item
 
-||hamshahrionline.ir/rest/visit
+! https://github.com/AdguardTeam/AdguardFilters/issues/136402
+||hamshahrionline.ir/rest/visit^
+hamshahrionline.ir##.ads.box
+hamshahrionline.ir###ads-container > .box > header:has-text(وبگردی):upward(.box)
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
