@@ -2438,6 +2438,9 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+! https://github.com/MasterKia/PersianBlocker/issues/102
+||titrebartar.com/images/banners/*.gif
+
 tamasha.com##+js(set, socketUrl, undefined)
 tamasha.com##+js(set, VASTEnabled, false)
 tamasha.com##+js(set, vastURL, [])
