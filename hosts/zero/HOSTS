@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
-# Last modified: 2022-12-02
+# Last modified: 2022-12-21
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -159,6 +159,7 @@
 0.0.0.0 ipsite.ir
 0.0.0.0 analytics.irancell.ir
 0.0.0.0 websocket.ilna.ir
+0.0.0.0 websocket.khanefootball.com
 0.0.0.0 analytic.magland.ir
 0.0.0.0 affiliate.malltina.com
 0.0.0.0 sentry.malltina.com
