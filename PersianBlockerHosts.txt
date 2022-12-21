@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
-# Last modified: 2022-12-02
+# Last modified: 2022-12-21
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -307,6 +307,8 @@ websocket.ilna.ir
 # >> J <<
 
 # >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/101
+websocket.khanefootball.com
 
 # >> L <<
 
