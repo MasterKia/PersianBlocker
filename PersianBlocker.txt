@@ -1206,8 +1206,6 @@ fartaknews.com##.talfighat-row
 fartaknews.com##.ul-talfigh-con
 fartaknews.com##.inline-news-box
 
-||faradeed.ir/fa/generate/userid
-
 ! https://github.com/MasterKia/PersianBlocker/commit/ccd9af83ced447f363fd706df92df2f5d0756156#commitcomment-84053159
 fardanews.com##.header-adv
 fardanews.com##.txt-adv-box
