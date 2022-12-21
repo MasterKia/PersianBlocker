@@ -1046,8 +1046,11 @@ doostihaa.com##.ads_txtcv
 doostihaa.com##aside.lefts_sides:nth-of-type(6)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
+! https://github.com/MasterKia/PersianBlocker/issues/100
+||downloadha.com/wp-content/plugins/top-10/includes/js/top-10-tracker.min.js^
 downloadha.com##.ads
 downloadha.com##.popup-ads
+downloadha.com###ADbox-2
 
 ||download.ir/api/geoip
 ||download.ir/wp-content/uploads/*/Hostiran-ad.jpg
