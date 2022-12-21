@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-19
+! Last modified: 2022-12-21
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1218,8 +1218,16 @@ fardanews.com##.others_media
 fardanews.com##.sticky_notify2
 fardanews.com##.n-first-col-left:style(width: 100% !important;)
 
-||fararu.com/fa/generate/userid
-||fararu.com/files/adv/
+||fararu.com/files/adv^
+fararu.com##.news_slider_sec2
+fararu.com##.webgardi_adv
+@@||video.cdn.yektanet.com/video-$script,domain=fararu.com
+@@||native-ad-placement-cdn.yektanet.com/static/video_scripts//video-$script,domain=fararu.com
+@@||cdn.yektanet.com/video-js/video.min.js$script,domain=fararu.com
+@@||cdn.yektanet.com/video-js/video-js.min.css$stylesheet,domain=fararu.com
+@@||cdn.yektanet.com/fonts/$font,domain=fararu.com
+@@||cdn.yektanet.com/vast/vast-client.min.js$script,domain=fararu.com
+@@||cdn.yektanet.com/video-js/silvermine-videojs-quality-selector.min.js$script,domain=fararu.com
 
 ||filcin.com/site/show-adv
 
