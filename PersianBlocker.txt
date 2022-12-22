@@ -58,6 +58,8 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||analyt.ir^$all
+
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^$all
 ||error-tracking.arvancloud.com^$all
 
@@ -748,6 +750,8 @@ binanews.ir##+js(set, openTelegram, noopFunc)
 ||bartarinha.ir/servev*/*.gif
 bartarinha.ir##.zxc
 bartarinha.ir##.all_adv
+bartarinha.ir##.reportage
+bartarinha.ir##.others_web
 ! !#if env_mobile
 bartarinha.ir##.fixed_adv_mob
 ! !#endif
