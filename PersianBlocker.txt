@@ -12,7 +12,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
-!! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir
+!! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir, avaz-kurd.ir, songestan1.xyz
 /wp-admin/admin-ajax.php?postviews_id=$xhr
 
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
@@ -58,7 +58,9 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||scripts-ads.s3.ir-thr-at1.arvanstorage.com^$all
 ||error-tracking.arvancloud.com^$all
+
 ||adexo.ir^$all
 ||adskav.com^$all
 ||advn.ir^$all
@@ -373,6 +375,8 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ! ||wideads.com^$popup
 
 ! >> X <<
+||xjs.lol^$all
+! avaz-kurd.ir
 
 ! >> Y <<
 ||yelloadwise.ir^$all
@@ -508,7 +512,6 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ! ^ Used by icoff.ee
 
 ! >> X <<
-||xjs.lol^$3p
 
 ! >> Y <<
 ||mc.yandex.ru^
@@ -521,6 +524,10 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+avaz-kurd.ir##.page-body > .post:not(article) > .yn-bnr:empty:upward(.post)
+avaz-kurd.ir##.page-body > .post:not(article) > [id^="pos-article-"]:empty:upward(.post)
+avaz-kurd.ir##.sidebar-right > .box > .title:has-text(لینک های مفید):upward(.box)
+
 ||asrkhabar.com/files/adv^
 
 ||analytics.asiatech.ir^$all
