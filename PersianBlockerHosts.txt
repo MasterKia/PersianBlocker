@@ -293,6 +293,9 @@ ammaar.delivery.zeerak.cloud
 # >> E <<
 
 # >> F <<
+# https://github.com/MasterKia/PersianBlocker/issues/107
+analytics.football360.ir
+
 fb-gw.bef.rest
 sentry.footballiapp.com
 
