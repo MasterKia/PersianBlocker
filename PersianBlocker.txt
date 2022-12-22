@@ -23,6 +23,7 @@
 ##.zxc-stik
 ##.zxc_home
 ##.zxc_news
+##.zxc_left
 ##.zxc_matni
 ##.zxc-mobile
 ##.zxc-header-zxc
@@ -30,6 +31,7 @@
 ##.zxc-padding-custom
 ##.main-zxc
 ##.home-zxc
+##.top_zxc
 ##.side_txt_zxc
 ! ##.zxc_c9
 
@@ -1306,9 +1308,10 @@ gamesetup.ir##+js(acis, vc_url)
 gamesetup.ir##.sidebar > div.box:nth-of-type(5)
 
 ! https://github.com/MasterKia/PersianBlocker/commit/ccd9af83ced447f363fd706df92df2f5d0756156#commitcomment-84035664
-||gostaresh.news/statics/
+||gostaresh.news/statics^
 gostaresh.news##.zxc_home
 gostaresh.news##.zxc_news
+gostaresh.news##.zxc_left
 !#if !env_mobile
 gostaresh.news##.main_wrapper:style(max-width: 95% !important;)
 gostaresh.news##.right_col:style(width: 95% !important;)
