@@ -1186,6 +1186,10 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+! https://github.com/MasterKia/PersianBlocker/issues/107
+||analytics.football360.ir^$all
+||football360.ir/api/advertisements^
+
 ! https://github.com/MasterKia/PersianBlocker/issues/42
 ||farachart.com/wp-content/plugins/google-analytics-for-wordpress^
 ||farachart.com/wp-content/plugins/ultimate-member/assets/js/um-gdpr
