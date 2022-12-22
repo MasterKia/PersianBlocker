@@ -11,6 +11,7 @@
 # لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
+127.0.0.1 analyt.ir
 127.0.0.1 error-tracking.arvancloud.com
 127.0.0.1 scripts-ads.s3.ir-thr-at1.arvanstorage.com
 127.0.0.1 adexo.ir
