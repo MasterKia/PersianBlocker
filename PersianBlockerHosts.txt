@@ -13,7 +13,9 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
+scripts-ads.s3.ir-thr-at1.arvanstorage.com
 error-tracking.arvancloud.com
+
 adexo.ir
 adskav.com
 advn.ir
@@ -238,6 +240,8 @@ vatanclick.ir
 wideads.com
 
 # >> X <<
+xjs.lol
+# avaz-kurd.ir
 
 # >> Y <<
 yelloadwise.ir
