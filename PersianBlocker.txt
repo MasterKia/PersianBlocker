@@ -1724,6 +1724,8 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+loudmusic.ir##.singleads
+
 ||lendo.ir^$removeparam=/^utm_/
 
 languagedownload.ir##.type-sticky.status-publish
@@ -1966,6 +1968,10 @@ opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+power-music.ir##.ytn-hamsan
+power-music.ir##.yn-bnr
+power-music.ir##.sidbar > p > strong:has-text(پیوندها):upward(.sidbar)
+
 parsroid.net##.my-single-t-p
 
 ||parsaspace.com/Content/new/js/analytics.js^
