@@ -1932,6 +1932,10 @@ opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+! https://github.com/MasterKia/PersianBlocker/issues/103
+||par30media.com/wp-content/uploads/*.gif
+par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مفید):upward(aside)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/105
 parsfootball.com###ads-120 > .textwidget > p > a
 parsfootball.com##[class*="block-ads"]
