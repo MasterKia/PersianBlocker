@@ -2411,6 +2411,9 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+! https://github.com/MasterKia/PersianBlocker/issues/106
+top90.ir##.side1:has(a[title][rel="noopener noreferrer"])
+
 ! https://github.com/MasterKia/PersianBlocker/issues/102
 ||titrebartar.com/images/banners/*.gif
 
