@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-22
+! Last modified: 2022-12-25
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -405,48 +405,19 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Non-Persian Ads/Trackers/Annoyances Filters Used In Persian Websites v-----------------------!
 
 ! >> A <<
-||alexametrics.com^
 ||adtodate.net^$3p
 
-||a-ads.com^
-! Used by mybia4music.com
-
 ! >> B <<
-||customfingerprints.bablosoft.com^
-! ^ Used by yun.ir on shortlinks
-
 ! >> C <<
-||clarity.ms^$3p
-||cloudflareinsights.com^
-
-||clickweb.click^$3p
-! TODO: Remove clickweb.click, but some websites still link to it
-
 ! >> D <<
-||doubleclick.net^
-
 ! >> E <<
-||epicgameads.com^
-! Used by gamesib.ir
-
 ! >> F <<
 ! >> G <<
-||getclicky.com^
-! ^ Used by iranviva.com
-
 ! >> H <<
-||hotjar.com^$3p
-||histats.com^$3p
-||heatmap.it^$3p
-
 ! >> I <<
-||s.infogram.com^
-! ^ Used by hiapple.ir
-
 ||instant.page^$3p
 ||icanhazip.com^$3p
 ! TODO: Investigate ^ (Used by takhfifan.com)
-||ipify.org^$3p
 
 ! >> J <<
 ! >> K <<
@@ -456,17 +427,12 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||track.mailerlite.com^
 
 ! >> N <<
-||js-agent.newrelic.com^
-! ^ Used by virgool.io
 
 ! >> O <<
 ||cdn.onesignal.com^
 ! ^ Used by downloadsoftware.ir, itna.ir
 
 ! >> P <<
-||prchecker.info^
-! ^ Used by uplooder.net
-
 ! >> Q <<
 ! >> R <<
 
@@ -479,9 +445,6 @@ logo.samandehi.ir##^responseheader(set-cookie)
 
 ||sendpulse.com^$3p
 ! ^ Used by sourceiran.com
-
-||speedcurve.com^$3p
-! ^ Used by zoomit.ir
 
 ||sibautomation.com^$3p
 ! ^ Used by akhbarrasmi.com
@@ -499,25 +462,14 @@ logo.samandehi.ir##^responseheader(set-cookie)
 
 ! >> V <<
 ! >> W <<
-||w3counter.com^$3p
-
-||webengage.com^$3p
-! Used by takhfifan.com
-
 ||webpu.sh^$3p
 ! Used by digistyle.com
 
 ||web.webpushs.com^
 ! ^ Used by zima.ir
 
-||stats.wp.com^
-! ^ Used by icoff.ee
-
 ! >> X <<
-
 ! >> Y <<
-||mc.yandex.ru^
-
 ! >> Z <<
 
 !-------------------------^ Non-Persian Ads/Trackers/Annoyances Filters used in Persian websites ^-----------------------!
