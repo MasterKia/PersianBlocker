@@ -2879,6 +2879,9 @@ zoomit.ir##[class^="DisplaySkeleton__DisplayRoot"]
 zoomit.ir##[class*="BrowseArticleItem___StyledFlex"]:has(a[href*="/pr/"])
 zoomit.ir##[class*="SupporterText"]:upward([class^="col__Col"])
 zoomit.ir##footer a[href*="parspack.com?utm_source=zoomit"]:upward(.col-sm-5)
+! !#if env_mobile
+zoomit.ir##.price-sticky
+! !#endif
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
