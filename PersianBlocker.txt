@@ -1544,6 +1544,11 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/104
+khabarvarzeshi.com###top-ad
+khabarvarzeshi.com##.ads.box
+khabarvarzeshi.com###box358
+
 ! https://github.com/MasterKia/PersianBlocker/issues/101
 ||khanefootball.com/aec.min.js^
 ||websocket.khanefootball.com^$all
