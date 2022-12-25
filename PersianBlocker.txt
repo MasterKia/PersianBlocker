@@ -1703,6 +1703,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/MasterKia/PersianBlocker/issues/108
+minevisam.com##.srjtbaungo
+
 ||magland.ir/banner_images^
 ||analytic.magland.ir^$all
 
