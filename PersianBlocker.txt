@@ -637,7 +637,6 @@ ariapix.net##.textads
 androidha.com##.app_introduce
 androidha.com##.ads_place
 
-||accpress.com/news/wp-content/plugins/better-adsmanager/
 ||static.accpress.com/baner/
 accpress.com###text-25
 
@@ -869,7 +868,6 @@ download1music.ir##section li:not(:has([href^="https://download1music.ir/"]))
 download1music.ir##.d1yekta
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-||digiro.ir/wp-content/plugins/better-adsmanager^
 ||digiro.ir/wp-content/uploads/*.gif
 digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
 digiro.ir##.uizv
@@ -1220,7 +1218,6 @@ faceit.ir##.advertisement
 
 ! https://github.com/MasterKia/PersianBlocker/issues/84
 farnet.io##+js(acis, eif)
-||farnet.io/wp-content/plugins/better-adsmanager^
 ||farnet.io/wp-content/plugins/better-post-views^
 farnet.io##.eif:not(:has(a[href*="farnet.io"]))
 farnet.io##.content-column:not(> .archive-title:has-text(رپرتاژ تبلیغاتی)) .item-inner:has(a[href*="/pr/"])
@@ -1473,7 +1470,6 @@ irannaz.com##div.CBS.CenterBlock:nth-of-type(5)
 irannaz.com##div.CBS.CenterBlock:nth-of-type(6)
 
 ||itresan.com/wp-content/cache/busting^
-||itresan.com/wp-content/plugins/better-adsmanager^
 ||itresan.com/wp-content/uploads/*.gif
 itresan.com###NR-Ads
 itresan.com##.listing-item-blog:has(a[href*="/author/ads/"])
@@ -1955,7 +1951,6 @@ pichak.net##center:nth-of-type(2) > center
 pichak.net##body > div > font
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-! ||p30konkor.com/wp-content/plugins/better-adsmanager^
 ||p30konkor.com/wp-content/uploads/*.gif
 p30konkor.com###header-ad1
 p30konkor.com###p30konkor-ads-p div:has(p > a[rel]):not(:has(a[href*="p30konkor.com"]))
@@ -2073,7 +2068,6 @@ forum.p30world.com###ad_global_below_navbar
 forum.p30world.com##.ad_global_header
 forum.p30world.com#@##ad_global_above_footer
 
-||1pezeshk.com/wp-content/plugins/better-adsmanager
 ||1pezeshk.com/wp-content/plugins/post-views-counter
 1pezeshk.com##.adcontainer
 1pezeshk.com##.widget_better_rss_widget.widget.primary-sidebar-widget.w-t.h-ni
@@ -2137,7 +2131,6 @@ rokna.net##.top_fixed_mob:remove()
 rokna.net##.zxc_c9
 ! !#endif
 
-||rouzegar.com/wp-content/plugins/better-adsmanager/
 ||irancarpet.net^$image,domain=rouzegar.com
 rouzegar.com##.widget_better-ads
 rouzegar.com##.adloc-is-banner
