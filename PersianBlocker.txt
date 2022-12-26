@@ -1382,6 +1382,8 @@ hamshahrionline.ir###ads-container > .box > header:has-text(وبگردی):upward
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+iranidata.com##.m-ads:upward(.sidebar-left-item.content)
+
 iranstar.com##+js(ra, onselectstart|oncopy|oncontextmenu, body)
 iranstar.com##+js(acis, jQuery, Drupal)
 iranstar.com##.ads-div-block
