@@ -12,12 +12,12 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
-!! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir, avaz-kurd.ir, songestan1.xyz
+!! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir, avaz-kurd.ir, songestan1.xyz, deltapayam.com
 /wp-admin/admin-ajax.php?postviews_id=$xhr
 
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
 !! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
-!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news 
+!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news
 ##.zxc
 ##.zxc-m
 ##.zxc-stik
@@ -839,6 +839,12 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/109
+deltapayam.com##.bd-adsbar
+deltapayam.com##.delta-top-content-ads
+deltapayam.com##.delta-content-ads
+deltapayam.com##.bd-sidebar > div > .widget > .block-title:has-text(تبلیغات):upward(.widget)
+
 digiato.com##.digiBannerArea
 
 ! https://github.com/MasterKia/PersianBlocker/commit/26c10ed9dbd342000990334905f345ddecbe6bb6#commitcomment-87467148
