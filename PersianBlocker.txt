@@ -768,6 +768,10 @@ boyernews.com##.col-md-3 > .panel > center
 @@||boyernews.com/wp-content/plugins/FAdvertisement/images/E77FB7B0-C797-40C2-D105-545084EE2E57.jpg$image,1p
 
 ! >> C <<
+! https://github.com/MasterKia/PersianBlocker/issues/111
+chibepoosham.com##img[alt="ad banner"]
+chibepoosham.com##.mtn-ads-content-sticky
+
 cafejozve.ir###kaprila_linktable
 
 ||chaapaar.ir/ads^
