@@ -379,7 +379,8 @@ logo.samandehi.ir##^responseheader(set-cookie)
 
 ! >> X <<
 ||xjs.lol^$all
-! avaz-kurd.ir
+||xmlx.lol^$all
+! avaz-kurd.ir, power-music.ir
 
 ! >> Y <<
 ||yelloadwise.ir^$all
@@ -1966,6 +1967,7 @@ par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مف
 parsfootball.com###ads-120 > .textwidget > p > a
 parsfootball.com##[class*="block-ads"]
 
+||power-music.ir/sw.js^
 power-music.ir##.ytn-hamsan
 power-music.ir##.yn-bnr
 power-music.ir##.sidbar > p > strong:has-text(پیوندها):upward(.sidbar)
