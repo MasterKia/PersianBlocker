@@ -285,6 +285,7 @@
 
 ||rozblog.com/include/rozblog_ads_js
 /include/rozblog_ads_js
+||rzb.ir/code/popup^
 
 ! >> S <<
 ||shahrekhabar.com^$3p
