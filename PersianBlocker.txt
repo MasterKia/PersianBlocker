@@ -1136,6 +1136,8 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+filmha.top##.abvertise > .container > a:not(a[href="https://t.me/filmha_top"])
+
 ! https://github.com/MasterKia/PersianBlocker/issues/107
 ||analytics.football360.ir^$all
 ||football360.ir/api/advertisements^
