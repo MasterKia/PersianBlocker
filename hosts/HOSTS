@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
-# Last modified: 2022-12-22
+# Last modified: 2022-12-27
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -130,6 +130,7 @@
 127.0.0.1 utop.ir
 127.0.0.1 vatanclick.ir
 127.0.0.1 wideads.com
+127.0.0.1 xmlx.lol
 127.0.0.1 xjs.lol
 127.0.0.1 yelloadwise.ir
 127.0.0.1 yektanet.com
