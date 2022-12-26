@@ -2027,6 +2027,7 @@ p30download.ir##.basic-list-linkdump
 p30download.ir###kaprila_p30download_ir_related-top-post
 p30download.ir###kaprila_p30download_ir_related
 p30download.ir##.text-tabliq
+p30download.ir##.footer-sections2:has(h4:has-text(لینک ها)) > ul > li:not(:has(a[href*="p30download.ir"]))
 
 ||film.persianv.com/frontend/js/ads/
 persianv.com##.ads_box
