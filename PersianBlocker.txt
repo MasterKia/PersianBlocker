@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-25
+! Last modified: 2022-12-26
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1685,6 +1685,10 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+listen2music.ir##.down-box-ads
+listen2music.ir##.down-box1
+listen2music.ir##.side_left > .side > .title:has-text(تبلیغات متنی):upward(.side_left)
+
 loudmusic.ir##.singleads
 
 ||lendo.ir^$removeparam=/^utm_/
