@@ -2516,6 +2516,8 @@ takmili.com##style:has-text(wccp):remove()
 takmili.com##style:has-text(user-select):remove()
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
+! https://github.com/MasterKia/PersianBlocker/issues/112
+techfars.com##.baners
 techfars.com##.right-ads
 techfars.com##.left-ads
 techfars.com##:not(:matches-path(/category/website/reportage/)) .box:has-text(رپورتاژ آگهی)
