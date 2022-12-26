@@ -1548,6 +1548,13 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/110
+||khodropluss.ir/wp-json/wp-statistics^
+khodropluss.ir##.top_img_ads
+khodropluss.ir##.ads_bt_box
+khodropluss.ir##.ads_singles_post
+khodropluss.ir##.aside_boxs > .title_nt_box:has-text(تبلیغ):upward(.aside_boxs)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/104
 khabarvarzeshi.com###top-ad
 khabarvarzeshi.com##.ads.box
