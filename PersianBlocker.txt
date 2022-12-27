@@ -3155,3 +3155,16 @@ zoomtech.org###posts_single_ads
 ||rubika.ir^$all,domain=~web.rubika.ir
 
 !-------------------------^ Scam Sites ^-----------------------!
+
+!-------------------------v Warning for video censorship sites v-----------------------!
+www.google.com##.g a[href*="filmr.ir"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="doostihaa.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="uptvs.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="netpaak.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+
+duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="doostihaa.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="uptvs.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="netpaak.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+
+!-------------------------^ Warning for video censorship sites ^-----------------------!
