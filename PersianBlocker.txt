@@ -1511,7 +1511,8 @@ isna.ir##.col-md-7:style(width: 75% !important;)
 
 itgheymat.com##.ads-box
 
-itbazar.com##.VueCarousel
+! https://github.com/MasterKia/PersianBlocker/issues/115
+itbazar.com###slideshow[class="rounded"]
 itbazar.com###banners-position-14
 
 ||irna.ir/rest/visit
