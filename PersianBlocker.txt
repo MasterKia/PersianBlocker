@@ -265,8 +265,7 @@
 ||popupplus.ir^$all
 ||popupme.net^$all
 ||pushe.co^$all
-||p30rank.ir^$3p
-! TODO: Investigate whether p30rank is an ads/tracking site
+||p30rank.ir^$all
 ||publica.ir^$all
 
 ||parsiblog.com/ga.js
@@ -274,6 +273,7 @@
 ! >> Q <<
 
 ! >> R <<
+||rankirani.ir^$all
 ||rasaaa.com^$3p
 
 ^utm_source=rokhdad^$removeparam=/^utm_/
@@ -2129,6 +2129,11 @@ forum.p30world.com#@##ad_global_above_footer
 ||sentry.quera.org^$all
 
 ! >> R <<
+! https://github.com/MasterKia/PersianBlocker/issues/114
+||rayamag.com/piwik^
+rayamag.com##.bannermiddle
+rayamag.com##.mybannerimg
+
 ||rahnamato.ir/common/visitcount^
 rahnamato.ir##.c-advertisement
 
