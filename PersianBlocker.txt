@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-27
+! Last modified: 2022-12-28
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -288,6 +288,9 @@
 ||rzb.ir/code/popup^
 
 ! >> S <<
+||offers.sapra.ir^$all
+! Example: gapfilm.ir
+
 ||shahrekhabar.com^$3p
 ||statsfa.com^$all
 ||slideskin.ir/ads/pop.php^$all
@@ -1266,6 +1269,8 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+||core.gapfilm.ir/api/*/Banner/GetBanner?bannerId=
+
 ! https://github.com/MasterKia/PersianBlocker/issues/83
 7ganj.ir##.meta-ad
 7ganj.ir#@#.herald-ad
