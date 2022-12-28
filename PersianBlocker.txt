@@ -656,6 +656,13 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+!#if env_firefox
+bandmoviez.one##^script:has-text(protoUrl)
+!#endif
+!#if env_chromium
+bandmoviez.one##+js(acis, document.onclick, checkCookie)
+!#endif
+
 ! https://github.com/MasterKia/PersianBlocker/issues/98
 bikarsho.ir##.stream-item
 bikarsho.ir##.stream-item-widget
@@ -1269,6 +1276,15 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+!#if env_firefox
+gharbtv.com##^script:has-text(vc_url)
+!#endif
+!#if env_chromium
+gharbtv.com##+js(acis, needpop)
+!#endif
+gharbtv.com##.card-ads
+gharbtv.com##.bottom-ads
+
 ||core.gapfilm.ir/api/*/Banner/GetBanner?bannerId=
 
 ! https://github.com/MasterKia/PersianBlocker/issues/83
