@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 2 day
-# Last modified: 2022-12-27
+# Last modified: 2022-12-28
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -111,6 +111,7 @@
 127.0.0.1 publica.ir
 127.0.0.1 rankirani.ir
 127.0.0.1 rssbank.ir
+127.0.0.1 offers.sapra.ir
 127.0.0.1 statsfa.com
 127.0.0.1 sendword.ir
 127.0.0.1 sanjagh.com
