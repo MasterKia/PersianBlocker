@@ -2761,10 +2761,11 @@ uploadboy.com##a[href="http://www.asiatech.ir/"]
 uploadboy.com##[id^="mediaad"]:upward(.text-center)
 
 ! >> V <<
-||vipofilm.com/wp-content/plugins/adwised/assets/adwisedpop.js
+||vipofilm.com/wp-content/plugins/adwised/assets/adwisedpop.js^
 ||vipofilm.com/wp-admin/admin-ajax.php?action=adwised
+vipofilm.com##.tabligh
 vipofilm.com##.ads
-vipofilm.com##.bg_title.title:has-text(تبلیغات):upward(1)
+vipofilm.com##aside > .title:has-text(تبلیغات):upward(aside)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
 vakil.net##+js(acis, document.oncontextmenu)
