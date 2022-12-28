@@ -3179,15 +3179,15 @@ zoomtech.org###posts_single_ads
 !-------------------------^ Scam Sites ^-----------------------!
 
 !-------------------------v Warning for video censorship sites v-----------------------!
-www.google.com##.g a[href*="filmr.ir"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="doostihaa.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="uptvs.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="netpaak.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="hexdownload.co"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="filimserial.ir"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="gapfilm.ir"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="filimo.com"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="cooldl.net"] > * > span:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="filmr.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="doostihaa.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="uptvs.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="netpaak.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="hexdownload.co"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="filimserial.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="gapfilm.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="filimo.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="cooldl.net"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !#if env_mobile
 www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
