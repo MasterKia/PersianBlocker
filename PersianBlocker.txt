@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-28
+! Last modified: 2022-12-29
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2328,9 +2328,11 @@ shayanews.com##.top_adv
 shayanews.com##.side_adv
 shayanews.com##.zxc
 
-||sakhtafzarmag.com/wp-content/uploads/ads/
-sakhtafzarmag.com##.bannergroup
+||dinu.ir^$image,domain=sakhtafzarmag.com
+||sakhtafzarmag.com/wp-content/uploads/ads^
 sakhtafzarmag.com###header-ads
+sakhtafzarmag.com##.bannergroup
+sakhtafzarmag.com##.dinu:upward(.widget)
 
 ||seemorgh.com/images/*/ads/
 seemorgh.com##.bannergroup
