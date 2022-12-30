@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-30
+! Last modified: 2022-12-31
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -483,6 +483,14 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+!#if env_firefox
+androidparsi.ir##^script:has-text(vc_url)
+!#endif
+!#if env_chromium
+androidparsi.ir##+js(acis, needpop)
+!#endif
+androidparsi.ir##.app_ads_banner
+
 avaz-kurd.ir##.page-body > .post:not(article) > .yn-bnr:empty:upward(.post)
 avaz-kurd.ir##.page-body > .post:not(article) > [id^="pos-article-"]:empty:upward(.post)
 avaz-kurd.ir##.sidebar-right > .box > .title:has-text(لینک های مفید):upward(.box)
