@@ -2368,7 +2368,6 @@ sysban.ir##+js(window-close-if, /telephone-service)
 smostafa.ir##+js(window-close-if, /^/)
 ^utm_source=soft98^$doc,popup,domain=asiatech.ir|iranicard.ir|ok-ex.io|limoo.host
 .ir^$popup,domain=soft98.ir|~forum.soft98.ir,3p
-||iranick0d.ir^$doc,popup
 ||iranicard.ir^$doc,popup,domain=soft98.ir
 ||iranicard.ir^$removeparam=/utm_source|utm_campaign|utm_content/
 ||asiatech.ir^$doc,popup,domain=soft98.ir
