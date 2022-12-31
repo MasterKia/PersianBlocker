@@ -484,9 +484,7 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
-!#if env_firefox
 androidparsi.ir##^script:has-text(vc_url)
-!#endif
 !#if env_chromium
 androidparsi.ir##+js(acis, needpop)
 !#endif
@@ -665,9 +663,7 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
-!#if env_firefox
 bandmoviez.one##^script:has-text(protoUrl)
-!#endif
 !#if env_chromium
 bandmoviez.one##+js(acis, document.onclick, checkCookie)
 !#endif
@@ -819,11 +815,9 @@ chetor.com#@#.ads-block
 ! coffeeapps.ir##+js(nowoif)
 ||coffeeapps.ir/cof-p.php^
 ||coffeeapps.ir/wp-content/plugins/wp-content-copy-protector^
-!#if env_firefox
 coffeeapps.ir##^script:has-text(wpcp)
 coffeeapps.ir##^script[id^="wpcp"]
 coffeeapps.ir##^div[id^="wpcp"]
-!#endif
 !#if env_chromium
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
@@ -1292,9 +1286,7 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
-!#if env_firefox
 gharbtv.com##^script:has-text(vc_url)
-!#endif
 !#if env_chromium
 gharbtv.com##+js(acis, needpop)
 !#endif
@@ -2955,9 +2947,7 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
-!#if env_firefox
 zoomit.ir##^script:has-text(bannersAsJson)
-!#endif
 !#if env_chromium
 zoomit.ir##+js(aopr, banner)
 !#endif
