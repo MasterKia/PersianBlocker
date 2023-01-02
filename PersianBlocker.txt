@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2022-12-31
+! Last modified: 2023-01-02
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1002,6 +1002,8 @@ digiato.com##.todaysNewsList__sidebar
 digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی)).rowList > li:has(a[href*="/promoted/"])
 
+digikala.com##+js(no-xhr-if, cpc)
+digikala.com##+js(json-prune, data.intrack)
 ||digikala.com^$removeparam=/^promo/
 ||digikala.com^$removeparam=bCode
 ||digikala.com^$removeparam=/^utm_/
@@ -1023,7 +1025,8 @@ digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="BaseLayoutStaticFooterAppInstall"]
 ! !#endif
 digikala.com##[class*="fakeBadge"]:style(font-size: 1.4rem !important;)
-digikala.com##.text-caption-strong:has-text(غیر اصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2); padding-right: calc(2 * var(--spacing-base)) !important; padding-left: calc(2 * var(--spacing-base)) !important; margin-bottom: calc(1 * var(--spacing-base)) !important;)
+digikala.com##.text-caption-strong:has-text(غیراصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2); padding-right: calc(2 * var(--spacing-base)) !important; padding-left: calc(2 * var(--spacing-base)) !important; margin-bottom: calc(1 * var(--spacing-base)) !important;)
+digikala.com###commentSection article:has(p[class*="text-caption-strong color-500"]):style(border-radius: 12px !important; background-color: rgba(var(--color-hint-object-caution-rgb),.1);)
 digikala.com##.user-select-none:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 @@||analytics.digikala.com/shopping/product-online-visitor/$xhr,1p
 
