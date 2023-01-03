@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-01-02
+! Last modified: 2023-01-03
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -488,6 +488,9 @@ androidparsi.ir##^script:has-text(vc_url)
 !#if env_chromium
 androidparsi.ir##+js(acis, needpop)
 !#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+androidparsi.ir##+js(acis, needpop)
+!#endif
 androidparsi.ir##.app_ads_banner
 
 avaz-kurd.ir##.page-body > .post:not(article) > .yn-bnr:empty:upward(.post)
@@ -667,6 +670,9 @@ bandmoviez.one##^script:has-text(protoUrl)
 !#if env_chromium
 bandmoviez.one##+js(acis, document.onclick, checkCookie)
 !#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+bandmoviez.one##+js(acis, document.onclick, checkCookie)
+!#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/98
 bikarsho.ir##.stream-item
@@ -819,6 +825,10 @@ coffeeapps.ir##^script:has-text(wpcp)
 coffeeapps.ir##^script[id^="wpcp"]
 coffeeapps.ir##^div[id^="wpcp"]
 !#if env_chromium
+coffeeapps.ir##+js(aopr, nocontext)
+coffeeapps.ir##+js(acis, disableSelection, reEnable)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
 !#endif
@@ -1291,6 +1301,9 @@ fa-tools.ir##div.post:nth-of-type(2)
 ! >> G <<
 gharbtv.com##^script:has-text(vc_url)
 !#if env_chromium
+gharbtv.com##+js(acis, needpop)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 gharbtv.com##+js(acis, needpop)
 !#endif
 gharbtv.com##.card-ads
@@ -2952,6 +2965,9 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 zoomit.ir##^script:has-text(bannersAsJson)
 !#if env_chromium
+zoomit.ir##+js(aopr, banner)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 zoomit.ir##+js(aopr, banner)
 !#endif
 zoomit.ir##+js(no-xhr-if, /ads|visit/)
