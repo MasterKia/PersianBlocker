@@ -726,9 +726,12 @@ bartarinha.ir##.zxc
 bartarinha.ir##.all_adv
 bartarinha.ir##.reportage
 bartarinha.ir##.others_web
-! !#if env_mobile
+!#if env_mobile
 bartarinha.ir##.fixed_adv_mob
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+bartarinha.ir##.fixed_adv_mob
+!#endif
 
 ||barato.ir/wp-content/*/ad/
 barato.ir###featured > .owl-stage-outer
@@ -752,6 +755,11 @@ borna.news##[href^="/advertisements/"]
 borna.news##.side_adv
 borna.news##.webgardi
 !#if !env_mobile
+borna.news##.cols_cnt:style(max-width: 95% !important;)
+borna.news##.first_col, .n_first_col:style(width: 70% !important;)
+borna.news##.second_col, .n_second_col:style(width: 30% !important;)
+!#endif
+!#if (!adguard_app_android && !adguard_app_ios)
 borna.news##.cols_cnt:style(max-width: 95% !important;)
 borna.news##.first_col, .n_first_col:style(width: 70% !important;)
 borna.news##.second_col, .n_second_col:style(width: 30% !important;)
@@ -803,8 +811,10 @@ cafejozve.ir###kaprila_linktable
 ||charbzaban.com/wp-content/uploads/*.gif
 charbzaban.com##.widget:has(.widgettitle:has-text(/پیشنهاد|مفید/))
 charbzaban.com##figcaption
-! Don't remove the if below:
 !#if env_mobile
+charbzaban.com##.at_bottom
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
 charbzaban.com##.at_bottom
 !#endif
 
@@ -878,9 +888,12 @@ digiato.com##.digiBannerArea
 
 ! https://github.com/MasterKia/PersianBlocker/commit/26c10ed9dbd342000990334905f345ddecbe6bb6#commitcomment-87467148
 darooyab.ir###rightPanelContent > div > .a_class1:not(.a_class1[href*="darooyab.ir"])
-! !#if env_mobile
+!#if env_mobile
 darooyab.ir##.DivContent_BottomOfPageAdvertising
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+darooyab.ir##.DivContent_BottomOfPageAdvertising
+!#endif
 
 ||ta.dideo.ir/ad^
 
@@ -907,9 +920,12 @@ download1music.ir##.d1yekta
 digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
 digiro.ir##.uizv
 digiro.ir##.texttab
-! !#if env_mobile
+!#if env_mobile
 digiro.ir##.main-term-3705
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+digiro.ir##.main-term-3705
+!#endif
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131661
@@ -1005,9 +1021,12 @@ dabi.ir##.Js_Div5
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1197045471
 ||digiato.com/wp-content/plugins/duracelltomi-google-tag-manager/js/analytics-talk-content-tracking.js
 digiato.com##.homeMainBanner
-! !#if env_mobile
+!#if env_mobile
 digiato.com##.digiBannerMobile
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+digiato.com##.digiBannerMobile
+!#endif
 digiato.com##.todaysNewsList__sidebar
 digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی)).rowList > li:has(a[href*="/promoted/"])
@@ -1030,10 +1049,14 @@ digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward([class^="product-list"])
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
-! !#if env_mobile
+!#if env_mobile
 digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="BaseLayoutStaticFooterAppInstall"]
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
+digikala.com##[class*="BaseLayoutStaticFooterAppInstall"]
+!#endif
 digikala.com##[class*="fakeBadge"]:style(font-size: 1.4rem !important;)
 digikala.com##.text-caption-strong:has-text(غیراصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2); padding-right: calc(2 * var(--spacing-base)) !important; padding-left: calc(2 * var(--spacing-base)) !important; margin-bottom: calc(1 * var(--spacing-base)) !important;)
 digikala.com###commentSection article:has(p[class*="text-caption-strong color-500"]):style(border-radius: 12px !important; background-color: rgba(var(--color-hint-object-caution-rgb),.1);)
@@ -1149,6 +1172,9 @@ eghtesadonline.com##.talfighat-BS
 eghtesadonline.com##.shopping_list
 eghtesadonline.com##.backlink
 !#if !env_mobile
+eghtesadonline.com##.right-news-wrap:style(width: 100% !important;)
+!#endif
+!#if (!adguard_app_android && !adguard_app_ios)
 eghtesadonline.com##.right-news-wrap:style(width: 100% !important;)
 !#endif
 
@@ -1341,6 +1367,12 @@ gostaresh.news##.right_col:style(width: 95% !important;)
 gostaresh.news##.page_first_clm:style(width: 70% !important;)
 gostaresh.news##.page_second_clm:style(width: 30% !important;)
 !#endif
+!#if (!adguard_app_android && !adguard_app_ios)
+gostaresh.news##.main_wrapper:style(max-width: 95% !important;)
+gostaresh.news##.right_col:style(width: 95% !important;)
+gostaresh.news##.page_first_clm:style(width: 70% !important;)
+gostaresh.news##.page_second_clm:style(width: 30% !important;)
+!#endif
 
 gamesib.ir###next1-231
 gamesib.ir##.asd_top
@@ -1398,9 +1430,12 @@ gadgetnews.net##.ad-cell
 gadgetnews.net##.widget_text
 gadgetnews.net##.ads-post
 gadgetnews.net###ad14
-! !#if env_mobile
+!#if env_mobile
 gadgetnews.net##.sticky-ad
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+gadgetnews.net##.sticky-ad
+!#endif
 
 ! >> H <<
 harmonydl.us###ads
@@ -1544,9 +1579,16 @@ ilna.ir##.zxc
 ilna.ir##.xcon12:style(margin: auto !important;)
 ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
 !#endif
-! !#if env_mobile
+!#if (!adguard_app_android && !adguard_app_ios)
+ilna.ir##.xcon12:style(margin: auto !important;)
+ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
+!#endif
+!#if env_mobile
 ilna.ir##.zxc-mobile
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+ilna.ir##.zxc-mobile
+!#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/26
 ! https://github.com/MasterKia/PersianBlocker/issues/92
@@ -1576,6 +1618,9 @@ jeyran.net##+js(acis, document.oncontextmenu)
 jeyran.net##.content_item:has(a[href*="/category/ads/"])
 jeyran.net##.sidebar-area .image
 !#if !env_mobile
+jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
+!#endif
+!#if (!adguard_app_android && !adguard_app_ios)
 jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
 !#endif
 
@@ -1639,6 +1684,10 @@ khaandaniha.ir###textads-contents
 khaandaniha.ir##.col-md-21:style(width: 70% !important;)
 khaandaniha.ir##.col-md-9:style(width: 30% !important;)
 !#endif
+!#if (!adguard_app_android && !adguard_app_ios)
+khaandaniha.ir##.col-md-21:style(width: 70% !important;)
+khaandaniha.ir##.col-md-9:style(width: 30% !important;)
+!#endif
 
 ||khabareazad.com/aec.min.js^
 khabareazad.com##[class^="zxc"]
@@ -1653,10 +1702,14 @@ konkur.in##.sidebar-taliq:style(visibility: hidden; !important;)
 konkur.in##.text-center:has-text(پست تبلیغاتی):upward(3)
 konkur.in##.tabliqat-text
 konkur.in##.m-top10:has-text(تبلیغات)
-! !#if env_mobile
+!#if env_mobile
 konkur.in##.vvv
 konkur.in###mobileBottomAd
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+konkur.in##.vvv
+konkur.in###mobileBottomAd
+!#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/32
 ||konkur.info/wp-content/uploads/*.gif
@@ -1699,10 +1752,14 @@ kojaro.com##.banner-wrapper
 kojaro.com##.advertisement-in-topic
 kojaro.com##.bannercontainer
 kojaro.com##.homepage-content
-! !#if env_mobile
+!#if env_mobile
 kojaro.com##.mobileBanner
 kojaro.com##.article-mobile-inContent
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+kojaro.com##.mobileBanner
+kojaro.com##.article-mobile-inContent
+!#endif
 @@||images.kojaro.com/assets/ad/advertise-$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
@@ -1719,9 +1776,17 @@ khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !impor
 khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
 khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
 !#endif
-! !#if env_mobile
+!#if (!adguard_app_android && !adguard_app_ios)
+khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !important;)
+khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
+khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
+!#endif
+!#if env_mobile
 khabaronline.ir###ads-container:has-text(خواندنی ها)
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+khabaronline.ir###ads-container:has-text(خواندنی ها)
+!#endif
 
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
 
@@ -1815,10 +1880,17 @@ mosalasonline.com##.zxc
 mosalasonline.com##.zxc-visible-fixed
 mosalasonline.com##.news-col-2 .related-news
 mosalasonline.com##.sticky_notify
-! !#if env_mobile
+!#if env_mobile
 mosalasonline.com##.mobile-visible-fixed
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+mosalasonline.com##.mobile-visible-fixed
+!#endif
 !#if !env_mobile
+mosalasonline.com##.news-col-1:style(width: 70% !important;)
+mosalasonline.com##.news-col-2:style(width: 30% !important;)
+!#endif
+!#if (!adguard_app_android && !adguard_app_ios)
 mosalasonline.com##.news-col-1:style(width: 70% !important;)
 mosalasonline.com##.news-col-2:style(width: 30% !important;)
 !#endif
@@ -1928,9 +2000,15 @@ niniban.com##.padding_news_right_adv, .padd-news-advertise
 !#if !env_mobile
 niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
 !#endif
-! !#if env_mobile
+!#if (!adguard_app_android && !adguard_app_ios)
+niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
+!#endif
+!#if env_mobile
 niniban.com##.instant_news_2
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+niniban.com##.instant_news_2
+!#endif
 
 ||netbarg.com/matomo.js
 
@@ -2050,9 +2128,12 @@ p30konkor.com###p30konkor-ads-p div:has(p > a[rel]):not(:has(a[href*="p30konkor.
 p30konkor.com###p30konkor-ads-p a[rel="follow"]
 p30konkor.com##.widget:has(.h-text:has-text(لینک های پیشنهادی))
 p30konkor.com##.vc_col-sm-4:style(width: 100% !important;)
-! !#if env_mobile
+!#if env_mobile
 p30konkor.com###parandeh-b2
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+p30konkor.com###parandeh-b2
+!#endif
 
 par30dl.net##.adpar30
 par30dl.net##.adsidimg
@@ -2124,9 +2205,12 @@ pedal.ir###custom_html-108
 ||img.patoghu.com^$script
 patoghu.com##.bigtab-cont
 patoghu.com##.tabd
-! !#if env_mobile
+!#if env_mobile
 patoghu.com##.cntmobad
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+patoghu.com##.cntmobad
+!#endif
 
 parstools.com##.widget_whmcs_ads_widget.widget
 parstools.com##.wpb_content_element.sidebar.wpb_widgetised_column
@@ -2149,9 +2233,12 @@ par30games.net##.fixedadv:upward(3)
 par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
 par30games.net##.ads
-! !#if env_mobile
+!#if env_mobile
 par30games.net##.mobilebanner
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+par30games.net##.mobilebanner
+!#endif
 @@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p
 
 ||paperhub.ir/images/*.gif
@@ -2195,6 +2282,9 @@ rouydad24.ir##.tabligh-logo
 !#if !env_mobile
 rouydad24.ir##.container, .main:style(width: 95% !important;)
 !#endif
+!#if (!adguard_app_android && !adguard_app_ios)
+rouydad24.ir##.container, .main:style(width: 95% !important;)
+!#endif
 
 ||rizy.ir/img/*.gif
 
@@ -2225,10 +2315,14 @@ rokna.net##.padding-bottom-8
 rokna.net##.box-doc > .documentary-news-cnt > header:has-text(بازرگانی):upward(.box-doc)
 rokna.net##.various-cnt > header:has-text(بازرگانی):upward(.various-cnt)
 rokna.net##.news-col-1 #rssbank:upward(.container)
-! !#if env_mobile
+!#if env_mobile
 rokna.net##.top_fixed_mob:remove()
 rokna.net##.zxc_c9
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+rokna.net##.top_fixed_mob:remove()
+rokna.net##.zxc_c9
+!#endif
 
 ||irancarpet.net^$image,domain=rouzegar.com
 rouzegar.com##.widget_better-ads
@@ -2286,6 +2380,10 @@ setare.com##.cyt-ad-content
 shomavaeghtesad.com##.zxc
 shomavaeghtesad.com##.adv
 !#if !env_mobile 
+shomavaeghtesad.com##.column_1:style(width: 70% !important;)
+shomavaeghtesad.com##.column_2:style(width: 30% !important;)
+!#endif
+!#if (!adguard_app_android && !adguard_app_ios)
 shomavaeghtesad.com##.column_1:style(width: 70% !important;)
 shomavaeghtesad.com##.column_2:style(width: 30% !important;)
 !#endif
@@ -2455,12 +2553,17 @@ simcart.com##.banner9
 shahrsakhtafzar.com##.ads2col
 shahrsakhtafzar.com##.flexbanneritem
 shahrsakhtafzar.com###g-top
-shahrsakhtafzar.com##.items-row:has(.sazitem_imgcat:has-text(رپورتاژ آگهی)):not(:matches-path(/fa/news/pr))
-! !#if env_mobile
+shahrsakhtafzar.com##:not(:matches-path(/fa/news/pr)) .items-row:has(.sazitem_imgcat:has-text(رپورتاژ آگهی))
+!#if env_mobile
 shahrsakhtafzar.com###logoads
 shahrsakhtafzar.com##.ads2colmobile
 shahrsakhtafzar.com##.mobile-fix-bottom
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+shahrsakhtafzar.com###logoads
+shahrsakhtafzar.com##.ads2colmobile
+shahrsakhtafzar.com##.mobile-fix-bottom
+!#endif
 
 sakhtafzar.com#@#.ads-title
 sakhtafzar.com#@#.ads-content
@@ -2553,11 +2656,16 @@ technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 
 ! ||api.torob.com/*/base-product/details-log-click^
 ! ^ Causes infinite loading
 torob.com##.seller-element.shop-card:has(.click_vijhe)
-! !#if env_mobile
+!#if env_mobile
 torob.com##.sellers_section:not(:has(.modal-header)) > div > div:has(.click_vijhe)
 torob.com##.sellers_section > div > div > div > div > div > div > div:has(.click_vijhe)
 torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+torob.com##.sellers_section:not(:has(.modal-header)) > div > div:has(.click_vijhe)
+torob.com##.sellers_section > div > div > div > div > div > div > div:has(.click_vijhe)
+torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
+!#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
 takmili.com##+js(acis, document.oncontextmenu)
@@ -2905,6 +3013,10 @@ xip.li##.form-inline:others()
 yektapress.com##.col-2:style(width: 60% !important;)
 yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
 !#endif
+!#if (!adguard_app_android && !adguard_app_ios)
+yektapress.com##.col-2:style(width: 60% !important;)
+yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
+!#endif
 
 ||yektablog.net/js/adjs.php
 yektablog.net###popbox-blackout
@@ -2935,9 +3047,12 @@ zibamoon.com##.AdAreaDetail
 zibamoon.com##.NewsLetterPopUp
 zibamoon.com###RelatedContentPopupArea
 zibamoon.com##[id^="BehinAva"]
-! !#if env_mobile
+!#if env_mobile
 zibamoon.com##.MobileBannerArea
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+zibamoon.com##.MobileBannerArea
+!#endif
 
 zohur12.ir##.sideads
 
@@ -2954,9 +3069,12 @@ zoomg.ir##.main-top-ads
 zoomg.ir##.main-inside-ads
 zoomg.ir##.top-ads
 zoomg.ir##.afterintro
-! !#if env_mobile
+!#if env_mobile
 zoomg.ir###mobileBannerAfterTags
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+zoomg.ir###mobileBannerAfterTags
+!#endif
 @@||cdn.zoomg.ir/banners/demo/advertise-$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
@@ -2980,9 +3098,12 @@ zoomit.ir##[class^="DisplaySkeleton__DisplayRoot"]
 zoomit.ir##[class*="BrowseArticleItem___StyledFlex"]:has(a[href*="/pr/"])
 zoomit.ir##[class*="SupporterText"]:upward([class^="col__Col"])
 zoomit.ir##footer a[href*="parspack.com?utm_source=zoomit"]:upward(.col-sm-5)
-! !#if env_mobile
+!#if env_mobile
 zoomit.ir##.price-sticky
-! !#endif
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
+zoomit.ir##.price-sticky
+!#endif
 
 zoomtech.org###top_ads
 zoomtech.org###posts_single_ads
@@ -3215,6 +3336,18 @@ www.google.com##.g a[href*="cooldl.net"]> h3:after:style(content: ' [دارای 
 www.google.com##.g a[href*="naabmovie.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !#if env_mobile
+www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="doostihaa.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="uptvs.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="netpaak.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="hexdownload.co"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="filimserial.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="gapfilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="filimo.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="cooldl.net"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="naabmovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
 www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="doostihaa.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="uptvs.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
