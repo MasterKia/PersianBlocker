@@ -3381,4 +3381,7 @@ oila.tj##+js(aopr, window.LOCO_DATA.copyrightTranslation)
 ||oila.tj/storage/iframe^$subdocument
 oila.tj##.new-banner
 
+! https://github.com/MasterKia/PersianBlocker/issues/117
+||takvim.tj/animation/adv_top_slide^
+takvim.tj##a[name^=Advertisement]:upward(.wb_element)
 !-------------------------^ Tajikistan sites ^-----------------------!
