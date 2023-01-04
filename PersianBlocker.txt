@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-01-03
+! Last modified: 2023-01-04
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -485,7 +485,7 @@ logo.samandehi.ir##^responseheader(set-cookie)
 
 ! >> A <<
 androidparsi.ir##^script:has-text(vc_url)
-!#if env_chromium
+!#if !cap_html_filtering
 androidparsi.ir##+js(acis, needpop)
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
@@ -667,7 +667,7 @@ apktops.ir##.asiatech
 
 ! >> B <<
 bandmoviez.one##^script:has-text(protoUrl)
-!#if env_chromium
+!#if !cap_html_filtering
 bandmoviez.one##+js(acis, document.onclick, checkCookie)
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
@@ -831,18 +831,19 @@ chetor.com#@#.ads-block
 ! coffeeapps.ir##+js(nowoif)
 ||coffeeapps.ir/cof-p.php^
 ||coffeeapps.ir/wp-content/plugins/wp-content-copy-protector^
-coffeeapps.ir##^script:has-text(wpcp)
-coffeeapps.ir##^script[id^="wpcp"]
-coffeeapps.ir##^div[id^="wpcp"]
-!#if env_chromium
+coffeeapps.ir##^script[id^="wpcp_"]
+coffeeapps.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+coffeeapps.ir##^style:has-text(@media print)
+!#if !cap_html_filtering
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
+coffeeapps.ir##style:has-text(@media print):remove()
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
+coffeeapps.ir##style:has-text(@media print):remove()
 !#endif
-coffeeapps.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 coffeeapps.ir##.ads-sticky
 coffeeapps.ir##.ads-sidebar
 coffeeapps.ir###sidebar > .block > h5:has-text(لینک های متنی):upward(.block)
@@ -1326,7 +1327,7 @@ fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
 gharbtv.com##^script:has-text(vc_url)
-!#if env_chromium
+!#if !cap_html_filtering
 gharbtv.com##+js(acis, needpop)
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
@@ -3082,7 +3083,7 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 zoomit.ir##^script:has-text(bannersAsJson)
-!#if env_chromium
+!#if !cap_html_filtering
 zoomit.ir##+js(aopr, banner)
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
