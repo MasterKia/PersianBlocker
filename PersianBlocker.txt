@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-01-04
+! Last modified: 2023-01-07
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1719,13 +1719,13 @@ konkur.info##.elementor-element-d41b3d1
 konkur.info##.adsside
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13658#issuecomment-1153092391
-khanoumi.com##+js(rc, ads-track, , stay)
-||ads.khanoumi.com/api/services/app/adstrackingpanel^
-||khanoumi.com^$removeparam=/itm/
+||khanoumi.com^$removeparam=/^itm_/
 ||khanoumi.com^$removeparam=/^utm_/
+khanoumi.com##[onclick^="sendDataLayer"]:remove-attr(onclick)
+khanoumi.com##[onclick^="sendBannerDataLayer"]:remove-attr(onclick)
+khanoumi.com##[onclick^="sendCardDataLayer"]:remove-attr(onclick)
+khanoumi.com##[onclick^="sendViewMoreDataLayer"]:remove-attr(onclick)
 mag.khanoumi.com##.widget-ad-image
-@@||ads.khanoumi.com/storage/*$image,1p
-! @@||ads.khanoumi.com/api/services/app/AdsTrackingPanel/Post$xhr,1p
 
 ||cdn.khodrobank.com/images/banners/
 khodrobank.com##.mobile-fixed-banner
