@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-01-09
+! Last modified: 2023-01-11
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -3136,45 +3136,20 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/131
 ! What domain?
 
-
-! https://github.com/Webamoozcom/warning-list/discussions/8
-||unifunds.com^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/12
 ||yoozbit.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/14
-||asaccoin.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/15
-||liyamtoken.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/17
 ||nokontoken.com^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/18
-||wiseling.com^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/19
-||mrdigicoin.io^$doc
-||mrdigicoin.org^$doc
-||mrdigicoin.eu^$doc
 ||aryana.io^$doc
 ||aryacoin.io^$doc
 ||aryastake.io^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/20
-||hamyarminer.net^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/22
-||coin-hash.com^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/23
 ||cryptoland.com^$doc
 ||bridge.link^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/25
-||impero.solutions^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/26
 ||mtabdil.com^$doc
@@ -3189,17 +3164,8 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/30
 ||artanlife.club^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/31
-||ai.marketing^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/33
-||icbroker.com^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/34
 ||tastenfts.com^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/35
-||pcoinglobal.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/37
 ||bemchain.io^$doc
@@ -3226,25 +3192,14 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/52
 ||synchrobit.io^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/55
-||imsmining.com^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/56
 ||arongroups.co^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/57
-||coinsmining.energy^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/58
 ||persia.exchange^$doc
-||coinohit.com^$doc
-||farda.exchange^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/60
 ||guhtoken.org^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/62
-||healour.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/65
 ||orbitnetwork.net^$doc
@@ -3259,17 +3214,11 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/74
 ||gpm.ltd^$doc
 
-! https://github.com/Webamoozcom/warning-list/discussions/75
-||behkamcoin.com^$doc
-
 ! https://github.com/Webamoozcom/warning-list/discussions/77
 ||dagcoin.org^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/80
 ||coinwallet.biz^$doc
-
-! https://github.com/Webamoozcom/warning-list/discussions/81
-||traderbully.com^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/84
 ||soodland.com^$doc
