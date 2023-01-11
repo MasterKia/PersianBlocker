@@ -397,45 +397,20 @@ axotrade.com
 # https://github.com/Webamoozcom/warning-list/discussions/131
 # What domain?
 
-
-# https://github.com/Webamoozcom/warning-list/discussions/8
-unifunds.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/12
 yoozbit.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/14
-asaccoin.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/15
-liyamtoken.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/17
 nokontoken.com
 
-# https://github.com/Webamoozcom/warning-list/discussions/18
-wiseling.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/19
-mrdigicoin.io
-mrdigicoin.org
-mrdigicoin.eu
 aryana.io
 aryacoin.io
 aryastake.io
 
-# https://github.com/Webamoozcom/warning-list/discussions/20
-hamyarminer.net
-
-# https://github.com/Webamoozcom/warning-list/discussions/22
-coin-hash.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/23
 cryptoland.com
 bridge.link
-
-# https://github.com/Webamoozcom/warning-list/discussions/25
-impero.solutions
 
 # https://github.com/Webamoozcom/warning-list/discussions/26
 mtabdil.com
@@ -450,17 +425,8 @@ treenvest.com
 # https://github.com/Webamoozcom/warning-list/discussions/30
 artanlife.club
 
-# https://github.com/Webamoozcom/warning-list/discussions/31
-ai.marketing
-
-# https://github.com/Webamoozcom/warning-list/discussions/33
-icbroker.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/34
 tastenfts.com
-
-# https://github.com/Webamoozcom/warning-list/discussions/35
-pcoinglobal.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/37
 bemchain.io
@@ -487,25 +453,14 @@ bixb.exchange
 # https://github.com/Webamoozcom/warning-list/discussions/52
 synchrobit.io
 
-# https://github.com/Webamoozcom/warning-list/discussions/55
-imsmining.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/56
 arongroups.co
 
-# https://github.com/Webamoozcom/warning-list/discussions/57
-coinsmining.energy
-
 # https://github.com/Webamoozcom/warning-list/discussions/58
 persia.exchange
-coinohit.com
-farda.exchange
 
 # https://github.com/Webamoozcom/warning-list/discussions/60
 guhtoken.org
-
-# https://github.com/Webamoozcom/warning-list/discussions/62
-healour.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/65
 orbitnetwork.net
@@ -520,17 +475,11 @@ quahl.com
 # https://github.com/Webamoozcom/warning-list/discussions/74
 gpm.ltd
 
-# https://github.com/Webamoozcom/warning-list/discussions/75
-behkamcoin.com
-
 # https://github.com/Webamoozcom/warning-list/discussions/77
 dagcoin.org
 
 # https://github.com/Webamoozcom/warning-list/discussions/80
 coinwallet.biz
-
-# https://github.com/Webamoozcom/warning-list/discussions/81
-traderbully.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/84
 soodland.com
