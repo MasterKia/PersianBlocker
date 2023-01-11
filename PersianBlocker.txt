@@ -2254,6 +2254,8 @@ forum.p30world.com###ad_global_below_navbar
 forum.p30world.com##.ad_global_header
 forum.p30world.com#@##ad_global_above_footer
 
+@@||www.pindo.ir^
+
 ||1pezeshk.com/wp-content/plugins/post-views-counter
 1pezeshk.com##.adcontainer
 1pezeshk.com##.widget_better_rss_widget.widget.primary-sidebar-widget.w-t.h-ni
