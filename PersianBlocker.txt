@@ -879,6 +879,8 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+dlrozaneh.ir##.index-adstop > a:not([href*="dlrozaneh.ir"])
+
 ! https://github.com/MasterKia/PersianBlocker/issues/109
 deltapayam.com##.bd-adsbar
 deltapayam.com##.delta-top-content-ads
