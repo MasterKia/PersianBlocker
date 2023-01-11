@@ -3286,6 +3286,13 @@ www.google.com##.g a[href*="gapfilm.ir"]> h3:after:style(content: ' [دارای 
 www.google.com##.g a[href*="filimo.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="cooldl.net"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="naabmovie.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="upera.tv"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="upera.shop"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="namava.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="sorenmovie.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="pishgammovie.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="marzfun.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="par30media.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !#if env_mobile
 www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3298,6 +3305,13 @@ www.google.com##a[href*="gapfilm.ir"] div[role="link"]:after:style(content: ' [�
 www.google.com##a[href*="filimo.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="cooldl.net"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="naabmovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upera.tv"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upera.shop"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="namava.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="sorenmovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="pishgammovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="marzfun.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="par30media.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3310,6 +3324,13 @@ www.google.com##a[href*="gapfilm.ir"] div[role="link"]:after:style(content: ' [�
 www.google.com##a[href*="filimo.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="cooldl.net"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="naabmovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upera.tv"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upera.shop"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="namava.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="sorenmovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="pishgammovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="marzfun.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="par30media.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3322,6 +3343,13 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="gapfilm.ir"]:after:style(
 duckduckgo.com##a[data-testid="result-title-a"][href*="filimo.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="cooldl.net"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="naabmovie.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="upera.tv"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="upera.shop"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="namava.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="sorenmovie.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="pishgammovie.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="marzfun.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="par30media.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !-------------------------^ Warning for video censorship sites ^-----------------------!
 
