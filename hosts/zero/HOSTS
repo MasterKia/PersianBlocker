@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-# Expires: 2 day
-# Last modified: 2022-12-28
+# Expires: 4 day
+# Last modified: 2022-01-11
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -188,32 +188,19 @@
 0.0.0.0 excoino.com
 0.0.0.0 irancloudmining.com
 0.0.0.0 axotrade.com
-0.0.0.0 unifunds.com
 0.0.0.0 yoozbit.com
-0.0.0.0 asaccoin.com
-0.0.0.0 liyamtoken.com
 0.0.0.0 nokontoken.com
-0.0.0.0 wiseling.com
-0.0.0.0 mrdigicoin.io
-0.0.0.0 mrdigicoin.org
-0.0.0.0 mrdigicoin.eu
 0.0.0.0 aryana.io
 0.0.0.0 aryacoin.io
 0.0.0.0 aryastake.io
-0.0.0.0 hamyarminer.net
-0.0.0.0 coin-hash.com
 0.0.0.0 cryptoland.com
 0.0.0.0 bridge.link
-0.0.0.0 impero.solutions
 0.0.0.0 mtabdil.com
 0.0.0.0 mttcoin.com
 0.0.0.0 unique.finance
 0.0.0.0 treenvest.com
 0.0.0.0 artanlife.club
-0.0.0.0 ai.marketing
-0.0.0.0 icbroker.com
 0.0.0.0 tastenfts.com
-0.0.0.0 pcoinglobal.com
 0.0.0.0 bemchain.io
 0.0.0.0 emway.ir
 0.0.0.0 defigroups.com
@@ -223,23 +210,16 @@
 0.0.0.0 bixbcoin.com
 0.0.0.0 bixb.exchange
 0.0.0.0 synchrobit.io
-0.0.0.0 imsmining.com
 0.0.0.0 arongroups.co
-0.0.0.0 coinsmining.energy
 0.0.0.0 persia.exchange
-0.0.0.0 coinohit.com
-0.0.0.0 farda.exchange
 0.0.0.0 guhtoken.org
-0.0.0.0 healour.com
 0.0.0.0 orbitnetwork.net
 0.0.0.0 kingmoney.io
 0.0.0.0 utbyte.io
 0.0.0.0 quahl.com
 0.0.0.0 gpm.ltd
-0.0.0.0 behkamcoin.com
 0.0.0.0 dagcoin.org
 0.0.0.0 coinwallet.biz
-0.0.0.0 traderbully.com
 0.0.0.0 soodland.com
 0.0.0.0 minepi.com
 0.0.0.0 irancoinmine.com
