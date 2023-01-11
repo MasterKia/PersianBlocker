@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-# Expires: 2 day
-# Last modified: 2022-12-28
+# Expires: 4 day
+# Last modified: 2022-01-11
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -188,32 +188,19 @@
 127.0.0.1 excoino.com
 127.0.0.1 irancloudmining.com
 127.0.0.1 axotrade.com
-127.0.0.1 unifunds.com
 127.0.0.1 yoozbit.com
-127.0.0.1 asaccoin.com
-127.0.0.1 liyamtoken.com
 127.0.0.1 nokontoken.com
-127.0.0.1 wiseling.com
-127.0.0.1 mrdigicoin.io
-127.0.0.1 mrdigicoin.org
-127.0.0.1 mrdigicoin.eu
 127.0.0.1 aryana.io
 127.0.0.1 aryacoin.io
 127.0.0.1 aryastake.io
-127.0.0.1 hamyarminer.net
-127.0.0.1 coin-hash.com
 127.0.0.1 cryptoland.com
 127.0.0.1 bridge.link
-127.0.0.1 impero.solutions
 127.0.0.1 mtabdil.com
 127.0.0.1 mttcoin.com
 127.0.0.1 unique.finance
 127.0.0.1 treenvest.com
 127.0.0.1 artanlife.club
-127.0.0.1 ai.marketing
-127.0.0.1 icbroker.com
 127.0.0.1 tastenfts.com
-127.0.0.1 pcoinglobal.com
 127.0.0.1 bemchain.io
 127.0.0.1 emway.ir
 127.0.0.1 defigroups.com
@@ -223,23 +210,16 @@
 127.0.0.1 bixbcoin.com
 127.0.0.1 bixb.exchange
 127.0.0.1 synchrobit.io
-127.0.0.1 imsmining.com
 127.0.0.1 arongroups.co
-127.0.0.1 coinsmining.energy
 127.0.0.1 persia.exchange
-127.0.0.1 coinohit.com
-127.0.0.1 farda.exchange
 127.0.0.1 guhtoken.org
-127.0.0.1 healour.com
 127.0.0.1 orbitnetwork.net
 127.0.0.1 kingmoney.io
 127.0.0.1 utbyte.io
 127.0.0.1 quahl.com
 127.0.0.1 gpm.ltd
-127.0.0.1 behkamcoin.com
 127.0.0.1 dagcoin.org
 127.0.0.1 coinwallet.biz
-127.0.0.1 traderbully.com
 127.0.0.1 soodland.com
 127.0.0.1 minepi.com
 127.0.0.1 irancoinmine.com
