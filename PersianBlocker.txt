@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-01-11
+! Last modified: 2023-01-27
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -3295,6 +3295,8 @@ www.google.com##.g a[href*="sorenmovie.ir"]> h3:after:style(content: ' [دارا
 www.google.com##.g a[href*="pishgammovie.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="marzfun.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="par30media.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="sansorha.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="karanmovie.org"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !#if env_mobile
 www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3314,6 +3316,8 @@ www.google.com##a[href*="sorenmovie.ir"] div[role="link"]:after:style(content: '
 www.google.com##a[href*="pishgammovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="marzfun.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="par30media.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="sansorha.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="karanmovie.org"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 www.google.com##a[href*="filmr.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3333,6 +3337,8 @@ www.google.com##a[href*="sorenmovie.ir"] div[role="link"]:after:style(content: '
 www.google.com##a[href*="pishgammovie.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="marzfun.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="par30media.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="sansorha.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="karanmovie.org"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3352,6 +3358,8 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="sorenmovie.ir"]:after:sty
 duckduckgo.com##a[data-testid="result-title-a"][href*="pishgammovie.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="marzfun.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="par30media.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="sansorha.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="karanmovie.org"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !-------------------------^ Warning for video censorship sites ^-----------------------!
 
