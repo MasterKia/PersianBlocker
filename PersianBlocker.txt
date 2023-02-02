@@ -673,6 +673,12 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+! https://github.com/MasterKia/PersianBlocker/issues/124
+||bazdeh.org/wp-content/uploads/*.gif$image
+||bazdeh.org/wp-content/plugins/better-post-views^$script
+bazdeh.org##.vfozk
+bazdeh.org##.widget > .section-heading > .h-text:has-text(لینکستون):upward(.widget)
+
 bandmoviez.one##^script:has-text(protoUrl)
 !#if !cap_html_filtering
 bandmoviez.one##+js(acis, document.onclick, checkCookie)
