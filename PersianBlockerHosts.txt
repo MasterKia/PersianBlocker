@@ -51,6 +51,8 @@ affstat.digikala.com
 affiliate.digikala.com
 
 # >> B <<
+boorantech.com
+
 behinava.com
 radar.bayan.ir
 backority.ir
@@ -363,6 +365,9 @@ rokhdad.telewebion.com
 # >> U <<
 
 # >> V <<
+# https://github.com/MasterKia/PersianBlocker/issues/121
+websocket.varandaz.com
+
 news-view-api.varzesh3.com
 video-view-api.varzesh3.com
 
