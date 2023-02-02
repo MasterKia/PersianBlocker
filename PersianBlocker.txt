@@ -19,7 +19,7 @@
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
 !! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
 !!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news, 
-!!!! sobhtazeh.news
+!!!! sobhtazeh.news, varandaz.com
 !#if env_mobile
 *##.zxc
 !#endif
@@ -118,6 +118,8 @@
 ||abzarfa.com/tools/ip^$script
 
 ! >> B <<
+||boorantech.com^$all
+
 ! https://github.com/MasterKia/PersianBlocker/issues/123
 blogsazan.com##.ads_link8
 blogsazan.com##.blog_center_bar > center > a[href*="eramblog.com/action/static_ads"]
@@ -2970,6 +2972,12 @@ uploadboy.com##a[href="http://www.asiatech.ir/"]
 uploadboy.com##[id^="mediaad"]:upward(.text-center)
 
 ! >> V <<
+! https://github.com/MasterKia/PersianBlocker/issues/121
+||websocket.varandaz.com^$all
+varandaz.com##.zxc
+varandaz.com##.zxc_matni
+varandaz.com##.zxc-visible-fixed
+
 ||vipofilm.com/wp-content/plugins/adwised/assets/adwisedpop.js^
 ||vipofilm.com/wp-admin/admin-ajax.php?action=adwised
 vipofilm.com##.tabligh
