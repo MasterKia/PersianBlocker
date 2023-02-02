@@ -2748,8 +2748,8 @@ techfars.com##.right-ads
 techfars.com##.left-ads
 techfars.com##:not(:matches-path(/category/website/reportage/)) .box:has-text(رپورتاژ آگهی)
 
-||technet24.ir/wp-content/plugins/better-ads
-technet24.ir##.havdqrmf-align-right
+! https://github.com/MasterKia/PersianBlocker/issues/127
+||technet24.ir/wp-content/uploads/*.gif
 
 takblog.net###popbox-blackout
 takblog.net###box_1398
