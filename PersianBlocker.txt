@@ -1120,6 +1120,13 @@ download.ir##.parsi-ads
 download.ir##.content-top-ads-box
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/issues/122
+||elmevarzesh.com/loader.js^$script
+elmevarzesh.com###middle a > img[title*="تبلیغات"]
+elmevarzesh.com###sidebar a:not([href*="elmevarzesh.com/"]) > img[width="300"][height="200"]
+elmevarzesh.com##.col-md-8 a:not([href*="elmevarzesh.com/"]) > img[width="728"][height="90"]
+elmevarzesh.com##.footer-content .tag-cloud:upward(.foot-col)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/97
 etelanews.com##.left_pos_mod > .l_box.imgs
 etelanews.com##.r_box:has(p)
