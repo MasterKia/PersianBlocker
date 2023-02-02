@@ -18,7 +18,11 @@
 
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
 !! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
-!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news
+!!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news, 
+!!!! sobhtazeh.news
+!#if env_mobile
+*##.zxc
+!#endif
 ##.zxc
 ##.zxc-m
 ##.zxc-stik
@@ -37,6 +41,9 @@
 ! ##.zxc_c9
 
 ! cafejozve.ir, downloadly.ir, download.ir, p30day.ir, webgoo.ir
+!#if env_mobile
+*###kaprila_linktable
+!#endif
 ###kaprila_linktable
 
 ! /files/adv/*
@@ -2351,6 +2358,14 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/125
+||websocket.sobhtazeh.news^$all
+||sobhtazeh.news/rss-file.php^$xhr
+||sobhtazeh.news/player/vast.js^$script
+||sobhtazeh.news/player/vastlink.js^$script
+sobhtazeh.news##.zxc
+sobhtazeh.news##.vebgardi
+
 ! https://github.com/MasterKia/PersianBlocker/issues/126
 ||shabakeh-mag.com/sites/default/files/images/body/*.gif
 ||shabakeh-mag.com/sites/default/files/styles/shabake2_popular/public/images/ad^
