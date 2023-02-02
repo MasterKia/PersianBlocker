@@ -1238,6 +1238,8 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+||filmin.info/wp-content/uploads/*.gif
+
 ||20file.org/script/p2.js^
 ||cdn.jsdelivr.net^$domain=20file.org
 20file.org##.container55
