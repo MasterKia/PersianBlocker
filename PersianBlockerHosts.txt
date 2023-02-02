@@ -349,6 +349,9 @@ sentry.quera.org
 # >> R <<
 
 # >> S <<
+# https://github.com/MasterKia/PersianBlocker/issues/125
+websocket.sobhtazeh.news
+
 linkdoni.soft98.ir
 
 # >> T <<
