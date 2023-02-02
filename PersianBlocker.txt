@@ -118,6 +118,16 @@
 ||abzarfa.com/tools/ip^$script
 
 ! >> B <<
+! https://github.com/MasterKia/PersianBlocker/issues/123
+blogsazan.com##.ads_link8
+blogsazan.com##.blog_center_bar > center > a[href*="eramblog.com/action/static_ads"]
+blogsazan.com##.blog_center_bar > .main_title:has-text(مطالب پیشنهادی)
+blogsazan.com##.blog_right_bar > .main_title:has-text(آخرین مطالب مجله)
+blogsazan.com##.blog_right_bar > .main_title:has-text(آخرین مطالب مجله) + .main_content_free
+blogsazan.com##.hamsandiv
+blogsazan.com##.blog-home-ads-blog
+blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 10px; text-align:center; font-size:13px;"] > a:upward(.main_content)
+
 ||behinava.com^$all
 
 ||radar.bayan.ir^$all
@@ -673,6 +683,9 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+! https://github.com/MasterKia/PersianBlocker/issues/123
+blogsazan.com###macy-container > article > .articlebox > a[href*="/blogsazan.com/mag/reportage"]:upward(article)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/124
 ||bazdeh.org/wp-content/uploads/*.gif$image
 ||bazdeh.org/wp-content/plugins/better-post-views^$script
