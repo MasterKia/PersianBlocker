@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-01-27
+! Last modified: 2023-02-02
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2351,6 +2351,17 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/126
+||shabakeh-mag.com/sites/default/files/images/body/*.gif
+||shabakeh-mag.com/sites/default/files/styles/shabake2_popular/public/images/ad^
+||shabakeh-mag.com/modules/statistics^
+shabakeh-mag.com##.popup-box-wrapper
+shabakeh-mag.com##.ads:not(:has(a[href*="shabakeh-mag.com"]))
+shabakeh-mag.com###block-views-ad-link-block-1
+shabakeh-mag.com###block-views-shabake2-clone-of-ad-link-block
+shabakeh-mag.com###block-views-ad-link-block-2
+shabakeh-mag.com##.field-name-ads-under-summery
+
 ||sid.ir/adv^
 sid.ir###arasideadvertising
 sid.ir##.advertising
