@@ -1,7 +1,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 4 day
-# Last modified: 2022-01-11
+# Last modified: 2022-02-02
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -175,6 +175,7 @@
 0.0.0.0 stc.ninisite.com
 0.0.0.0 websocket.55online.news
 0.0.0.0 sentry.quera.org
+0.0.0.0 websocket.sobhtazeh.news
 0.0.0.0 linkdoni.soft98.ir
 0.0.0.0 ad.technews-iran.com
 0.0.0.0 adengine.telewebion.com
