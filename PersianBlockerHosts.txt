@@ -518,6 +518,7 @@ shamining.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/125
 #t.me/BITBOD_TRADING_CLUB
+bitbod_trading_club.t.me
 
 # https://github.com/Webamoozcom/warning-list/discussions/130
 wintap.io
