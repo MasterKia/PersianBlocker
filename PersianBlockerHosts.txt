@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 4 day
-# Last modified: 2022-02-02
+# Last modified: 2022-02-03
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -517,7 +517,7 @@ bahatoken.site
 shamining.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/125
-t.me/BITBOD_TRADING_CLUB
+#t.me/BITBOD_TRADING_CLUB
 
 # https://github.com/Webamoozcom/warning-list/discussions/130
 wintap.io
