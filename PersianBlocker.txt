@@ -982,9 +982,7 @@ dlfox.com##.blog_list
 
 ||downloadkral.com/wp-content/cache/min/0/wp-content/plugins/wp-postviews
 
-dlroozaneh.ir##.index-adstop
-dlroozaneh.ir##aside.linkbox:nth-of-type(3)
-dlroozaneh.ir###main-sidepost > article:nth-of-type(3)
+dlrozaneh.ir##.linkbox > header:has-text(تبلیغات متنی):upward(.linkbox)
 
 ||dlbook.net/wp-content/uploads/*/adv
 dlbook.net##.widget_custom_html.widget.widget_text
