@@ -908,6 +908,7 @@ click.ir##.clads-inner
 
 ! >> D <<
 dlrozaneh.ir##.index-adstop > a:not([href*="dlrozaneh.ir"])
+dlrozaneh.ir##.linkbox > header:has-text(تبلیغات متنی):upward(.linkbox)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/109
 deltapayam.com##.bd-adsbar
@@ -981,8 +982,6 @@ dlfox.com##.blog_list
 ||dustaan.com/files/*/tracking
 
 ||downloadkral.com/wp-content/cache/min/0/wp-content/plugins/wp-postviews
-
-dlrozaneh.ir##.linkbox > header:has-text(تبلیغات متنی):upward(.linkbox)
 
 ||dlbook.net/wp-content/uploads/*/adv
 dlbook.net##.widget_custom_html.widget.widget_text
