@@ -1235,6 +1235,9 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+||filmsky.ir/wp-content/plugins/layered-popups^$script,xhr
+filmsky.ir##.widget > .widget_title:has-text(پیوندهای مفید):upward(.widget)
+
 farsifilm.ir##.aside-inner > .widget-sidebar > .title:has-text(/بنر شماره|تبلیغات متنی/):upward(.widget-sidebar)
 
 filmino.me##.flex-ad-body
