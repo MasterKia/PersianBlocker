@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-03
+! Last modified: 2023-02-04
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1235,6 +1235,8 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+farsifilm.ir##.aside-inner > .widget-sidebar > .title:has-text(/بنر شماره|تبلیغات متنی/):upward(.widget-sidebar)
+
 filmino.me##.flex-ad-body
 
 ||filmin.info/wp-content/uploads/*.gif
@@ -3399,7 +3401,7 @@ www.google.com##.g a[href*="plus.telewebion.com"]> h3:after:style(content: ' [د
 www.google.com##.g a[href*="filmnet.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="funofilm.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="wilm.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="upmedia.movier"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="upmedia.movie"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="modernfilm.ir"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="movineh.com"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="niikidaily.info"]> h3:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3462,7 +3464,7 @@ www.google.com##a[href*="plus.telewebion.com"] div[role="link"]:after:style(cont
 www.google.com##a[href*="filmnet.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="funofilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="wilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="upmedia.movier"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upmedia.movie"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="modernfilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="movineh.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="niikidaily.info"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3525,7 +3527,7 @@ www.google.com##a[href*="plus.telewebion.com"] div[role="link"]:after:style(cont
 www.google.com##a[href*="filmnet.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="funofilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="wilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="upmedia.movier"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upmedia.movie"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="modernfilm.ir"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="movineh.com"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="niikidaily.info"] div[role="link"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3588,7 +3590,7 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="plus.telewebion.com"]:aft
 duckduckgo.com##a[data-testid="result-title-a"][href*="filmnet.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="funofilm.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="wilm.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="upmedia.movier"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="upmedia.movie"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="modernfilm.ir"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="movineh.com"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="niikidaily.info"]:after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
