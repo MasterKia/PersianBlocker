@@ -2678,6 +2678,10 @@ saat24.news###box167
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+! https://github.com/MasterKia/PersianBlocker/issues/129
+^utm_source=takhfife.com^$doc,removeparam=/^utm_/
+takhfife.com##.adcbar
+
 ! https://github.com/MasterKia/PersianBlocker/issues/113
 tehranrasaneh.ir##[class^="adv"]:not(.adv8, .adv19)
 
