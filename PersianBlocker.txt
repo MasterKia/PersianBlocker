@@ -66,6 +66,7 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||affilio.ir^$all
 ||analyt.ir^$all
 
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^$all
@@ -3133,21 +3134,24 @@ zohur12.ir##.sideads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110569
 ! https://github.com/MasterKia/PersianBlocker/issues/4
+zoomg.ir##^script:has-text(bannersAsJson)
+!#if !cap_html_filtering
 zoomg.ir##+js(aopr, banner)
-||zoomg.ir/common/visitcount^
-||zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg
-zoomg.ir##.wide-adv-box
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+zoomg.ir##+js(aopr, banner)
+!#endif
+||zoomg.ir/common/visitcount^$xhr,1p
+||cdn.zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg$image,1p
 zoomg.ir##.main-top-ads
-zoomg.ir##.main-inside-ads
-zoomg.ir##.top-ads
-zoomg.ir##.afterintro
+zoomg.ir##.wide-ad-row
 !#if env_mobile
 zoomg.ir###mobileBannerAfterTags
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 zoomg.ir###mobileBannerAfterTags
 !#endif
-@@||cdn.zoomg.ir/banners/demo/advertise-$image,1p
+@@||cdn.zoomg.ir/banners/demo/advertise-zoomg.jpg$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
