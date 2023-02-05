@@ -1655,6 +1655,9 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+! https://github.com/MasterKia/PersianBlocker/issues/128
+||jobsacademy.ir/wp-content/uploads/*.gif
+
 ! https://github.com/MasterKia/PersianBlocker/issues/61
 ||dummyimage.com^$domain=jahaneghtesad.com
 ||jahaneghtesad.com/wp-content/plugins/top-10^
