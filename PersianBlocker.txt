@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-04
+! Last modified: 2023-02-05
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -3113,14 +3113,12 @@ yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
 ! https://github.com/MasterKia/PersianBlocker/issues/30
-||zibamoon.com/Files/Ads^
-zibamoon.com###BannerHome
+||zibamoon.com/Files/Ads/$image,1p
 zibamoon.com##.BannerA
-zibamoon.com##.Banner
-zibamoon.com##.AdAreaDetail
-zibamoon.com##.NewsLetterPopUp
-zibamoon.com###RelatedContentPopupArea
-zibamoon.com##[id^="BehinAva"]
+zibamoon.com###BannerHome
+zibamoon.com##div[id^="BehinAva"]
+zibamoon.com##.DetailArea > .AdAreaDetail
+zibamoon.com##.LeftSide > .TableOfContent > div[style="text-align:center;"]:has-text(صفحات مرتبط):upward(.TableOfContent)
 !#if env_mobile
 zibamoon.com##.MobileBannerArea
 !#endif
