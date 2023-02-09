@@ -264,6 +264,9 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||on-click.ir^$all
 
 ! >> P <<
+||promizer.com^$all
+! ^ Example: eghtesadonline.com
+
 ||phonroid.com^$all
 ! ^ Example: par30games.net
 
