@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 4 day
-# Last modified: 2022-02-05
+# Last modified: 2022-02-09
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -157,6 +157,9 @@ netbina.com
 on-click.ir
 
 # >> P <<
+promizer.com
+# ^ Example: eghtesadonline.com
+
 phonroid.com
 # ^ Example: par30games.net
 
