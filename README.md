@@ -21,7 +21,6 @@
 ***
 
 برای دیدن هر مورد، روی آن کلیک کنید 👇🏻 
-***
 
 <details>
   <summary dir="rtl"><h4>🖥 راه‌اندازی در کامپیوتر 🖥</h4></summary>
@@ -50,8 +49,6 @@
   
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در مرورگر فایرفاکس اندروید 📱</h4></summary>
 
@@ -74,8 +71,6 @@
   
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در مرورگر بریو اندروید 📱</h4></summary>
   
@@ -86,8 +81,6 @@
 و [طبق این تصویر](https://user-images.githubusercontent.com/17685483/184549564-409bb6f9-2c00-45e6-b22f-a34c365ccfdc.png)، لیست **IRN: PersianBlocker** رو فعّال کنید.
   
 </details>
-
-***
 
 <details>
     <summary dir="rtl"><h4>📱 راه‌اندازی در مرورگر ویوالدی اندروید 📱</h4></summary>
@@ -100,8 +93,6 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.t
   
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در مرورگر برومایت اندروید 📱</h4></summary>
   
@@ -113,8 +104,6 @@ https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
   
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در مرورگر کیوی اندروید 📱</h4></summary>
 
@@ -124,8 +113,6 @@ https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
  
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در مرورگر گوگل کروم (کرومیوم) و ماکروسافت اِج و اپرا اندروید 📱</h4></summary>
 
@@ -133,7 +120,6 @@ https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
   
 </details>  
 
-***
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در نرم‌افزار Rethink (Firewall+DNS) اندروید 📱</h4></summary>
  
@@ -147,8 +133,6 @@ https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
 
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>📱 راه‌اندازی در نرم‌افزار ادگارد اندروید 📱</h4></summary>
 
@@ -159,8 +143,6 @@ https://github.com/chromer030/filtrite/releases/latest/download/persian.dat
 _Settings => Content Blocking => Filters => Language-Specific_  
   
 </details>  
-
-***
 
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در نرم‌افزار های Qv2ray و SagerNet و Shadowrocket و Clash 🕳</h4></summary>
@@ -173,8 +155,6 @@ https://github.com/SamadiPour/iran-hosted-domains/releases/latest
   
 </details>  
 
-***
-
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز DNS (مانند AdGuard Home) 🕳</h4></summary>
 
@@ -184,8 +164,6 @@ https://github.com/SamadiPour/iran-hosted-domains/releases/latest
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt  
   
 </details>
-
-***
 
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز HOSTS (مانند AdAway یا HostsMan) 🕳</h4></summary>
@@ -201,8 +179,6 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/HOSTS
 
 با سپاس از [@mohsenr7596](https://github.com/mohsenr7596).
 </details>
-
-***
 
 <details>
   <summary dir="rtl"><h4>🕳 مسدودسازی تبلیغات و ردیاب‌ها به کمک DNS 🕳</h4></summary>
@@ -240,16 +216,12 @@ https://basic.rethinkdns.com
   
 </details>
 
-***
-
 <details>
   <summary dir="rtl"><h4>⛓ راه‌اندازی در آیفون ⛓</h4></summary>
 
 تا جایی که میدونم توی آیفون _هیچ راهی_ برای نصب افزونه‌های مسدودساز در سافاری یا حتی فایرفاکس وجود نداره.  
   
 </details>
-
-***
 
 # 🤝 مشارکت
 1- از [اینجا](https://github.com/signup) توی گیت‌هاب ثبت نام کنید.
@@ -289,27 +261,29 @@ https://basic.rethinkdns.com
 پروژه هایی که از این لیست استفاده میکنند:
 
   
-\- [افزونه uBlock Origin](https://github.com/gorhill/uBlock/blob/master/assets/assets.json#L482)
+\- [افزونه uBlock Origin](https://github.com/gorhill/uBlock/blob/33b839fdd03f74689df3ee2b5c25a06435b350e0/assets/assets.json#L478-L491)
 
-\- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker)
+\- [افزونه AdGuard](https://github.com/AdguardTeam/FiltersRegistry/tree/101680b0dfd9059ad3fc3fcb71f5755c9ff1f87a/filters/ThirdParty/filter_235_PersianBlocker)
 
-\- [مسدودساز داخلی مرورگر بریو](https://github.com/brave/adblock-resources/blob/master/filter_lists/regional.json#L203)
+\- [مسدودساز داخلی مرورگر بریو](https://github.com/brave/adblock-resources/blob/61cf21b19a53b3a2c3f7ad286c433501b97c6ed7/filter_lists/regional.json#L189-L199)
 
-\- مسدودساز داخلی مرورگر ویوالدی (در دست پیگیری)
+\- ~~مسدودساز داخلی مرورگر ویوالدی~~ پیگیری شد اما به نتیجه‌ای نرسید
 
-\- مسدودساز داخلی مرورگر برومایت
+\- [مسدودساز داخلی مرورگر برومایت](https://github.com/chromer030/filtrite/releases/latest/download/persian.dat)
 
-\- [نرم‌افزار Rethink اندروید (Firewall+DNS)](https://github.com/serverless-dns/blocklists/blob/main/blocklistConfig.json#L1556)
+\- [نرم‌افزار Rethink اندروید (Firewall+DNS)](https://github.com/serverless-dns/blocklists/blob/b8492d00fabf8748dfc32710d632d4f983bdfd21/blocklistConfig.json#L1555-L1564)
 
-\- [سامانه RethinkDNS](https://github.com/serverless-dns/blocklists/pull/50#issuecomment-1312457401)
+\- [RethinkDNS](https://github.com/serverless-dns/blocklists/blob/b8492d00fabf8748dfc32710d632d4f983bdfd21/blocklistConfig.json#L1555-L1564)
 
-\- [نرم افزار AdGuard Home (مسدودساز DNS)](https://github.com/AdguardTeam/HostlistsRegistry/tree/main/filters/regional/filter_19_IRN_PersianBlocker)
+\- [نرم‌افزار AdGuard Home (مسدودساز DNS)](https://github.com/AdguardTeam/HostlistsRegistry/tree/fbc630cce1b7fa551c9daaf0afc869998c8384d0/filters/regional/filter_19_IRN_PersianBlocker)
+
+\- [AdGuard DNS](https://github.com/AdguardTeam/AdGuardSDNSFilter/blob/e699a76495ab12b72e93095e9f8df668da06e51a/configuration.json#L253-L259)
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
 
 \- لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))
 
-\- [لیست Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains#source)
+\- [لیست Iran Hosted Domains](https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md#%D9%85%D9%86%D8%A7%D8%A8%D8%B9)
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
