@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-09
+! Last modified: 2023-02-12
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -3341,30 +3341,23 @@ zoomtech.org###posts_single_ads
 ! https://github.com/Webamoozcom/warning-list/discussions/125
 ||t.me/BITBOD_TRADING_CLUB^$doc
 
+! https://github.com/Webamoozcom/warning-list/discussions/129
+||ccnnetwork.co^$doc
+
 ! https://github.com/Webamoozcom/warning-list/discussions/130
 ||wintap.io^$doc
 
 ! https://github.com/Webamoozcom/warning-list/discussions/132
 ||frzss.com^$doc
 
+!-------------------------^ Scam Sites ^-----------------------!
 
-! https://t.me/MiladNouriChannel/685
-! https://instagram.com/p/Ch7u5KrjAkP
-! https://cyber-alerts.com/2022/08/27/websites-related-to-usdtpkpgmail-com
-||usdtbang.com^$all
-||usdteng.com^$all
-||usdtcan.com^$all
-||usdtbbc.com^$all
-||imtokenwallet.biz^$all
-
-||emenshowapp.xyz^$all
-! ^ Phishing
-
+!-------------------v Malware/Phishing Sites v-----------------!
 ! https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
 ! https://farnet.io/1401/08/324594/rubika-is-detected-as-malware/
 ||rubika.ir^$all,domain=~web.rubika.ir
 
-!-------------------------^ Scam Sites ^-----------------------!
+!-------------------^ Malware/Phishing Sites ^-----------------!
 
 !-------------------------v Warning for video censorship sites v-----------------------!
 ! https://github.com/MasterKia/PersianBlocker/issues/119
