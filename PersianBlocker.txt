@@ -914,6 +914,9 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/130
+daneshchi.ir##div[id^="ads"]
+
 dlrozaneh.ir##.index-adstop > a:not([href*="dlrozaneh.ir"])
 dlrozaneh.ir##.linkbox > header:has-text(تبلیغات متنی):upward(.linkbox)
 
