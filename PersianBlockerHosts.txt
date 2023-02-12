@@ -385,7 +385,7 @@ video-view-api.varzesh3.com
 analytics.zoomit.ir
 #-------------------------^ Site-Specific Filters ^-----------------------#
 
-#-------------------------v Scam Exchange/Cryptocurrency Sites v-----------------------#
+#-------------------------v Scam Sites v-----------------------#
 # https://webamoozcom.github.io/warning-list/
 
 
@@ -524,23 +524,17 @@ shamining.com
 #t.me/BITBOD_TRADING_CLUB
 bitbod_trading_club.t.me
 
+# https://github.com/Webamoozcom/warning-list/discussions/129
+ccnnetwork.co
+
 # https://github.com/Webamoozcom/warning-list/discussions/130
 wintap.io
 
 # https://github.com/Webamoozcom/warning-list/discussions/132
 frzss.com
 
+#-------------------------^ Scam Sites ^-----------------------#
 
-# https://t.me/MiladNouriChannel/685
-# https://instagram.com/p/Ch7u5KrjAkP
-# https://cyber-alerts.com/2022/08/27/websites-related-to-usdtpkpgmail-com/
-usdtbang.com
-usdteng.com
-usdtcan.com
-usdtbbc.com
-imtokenwallet.biz
+#-------------------v Malware/Phishing Sites v-----------------#
 
-emenshowapp.xyz
-# ^ Phishing
-
-#-------------------------^ Scam Exchange/Cryptocurrency Sites ^-----------------------#
+#-------------------^ Malware/Phishing Sites ^-----------------#
