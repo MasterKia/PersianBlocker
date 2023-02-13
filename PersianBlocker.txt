@@ -2720,7 +2720,8 @@ technews-iran.com##.col-xs-12 > article:has(a[href*="/category/pr/"])
 technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 100% !important; margin-right: 0 !important;)
 
 ^utm_source=Torob^$doc,removeparam=/^utm_/
-! ||api.torob.com^$removeparam=~prk
+||api.torob.com^$removeparam=android_app_ver
+||api.torob.com^$removeparam=pre_prk
 ||api.torob.com^$removeparam=source
 ||api.torob.com^$removeparam=uid
 ||api.torob.com^$removeparam=discover_method
