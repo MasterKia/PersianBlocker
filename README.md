@@ -147,7 +147,7 @@ _Settings => Content Blocking => Filters => Language-Specific_
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در نرم‌افزار های Qv2ray و SagerNet و Shadowrocket و Clash 🕳</h4></summary>
 
-از لیست Iran Hosted Domains که شامل لیست **PersianBlockerHosts** می‌شود و توسط کاربر [bootmortis](https://github.com/bootmortis) درست شده استفاده کنید:
+از لیست Iran Hosted Domains که شامل لیست **PersianBlockerHosts** می‌شود و توسط جمعی از کاربران درست شده استفاده کنید:
   
 https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md
   
