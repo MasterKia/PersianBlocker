@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-12
+! Last modified: 2023-02-13
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -3352,6 +3352,9 @@ zoomtech.org###posts_single_ads
 
 ! https://github.com/Webamoozcom/warning-list/discussions/132
 ||frzss.com^$doc
+
+! https://github.com/Webamoozcom/warning-list/discussions/138
+||hoho.mobi^$doc
 
 !-------------------------^ Scam Sites ^-----------------------!
 
