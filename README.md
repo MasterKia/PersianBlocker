@@ -147,11 +147,11 @@ _Settings => Content Blocking => Filters => Language-Specific_
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در نرم‌افزار های Qv2ray و SagerNet و Shadowrocket و Clash 🕳</h4></summary>
 
-از لیست Iran Hosted Domains که شامل لیست **PersianBlockerHosts** می‌شود و توسط کاربر [SamadiPour](https://github.com/SamadiPour) درست شده استفاده کنید:
+از لیست Iran Hosted Domains که شامل لیست **PersianBlockerHosts** می‌شود و توسط جمعی از کاربران درست شده استفاده کنید:
   
-https://github.com/SamadiPour/iran-hosted-domains/blob/main/README.fa.md
+https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md
   
-https://github.com/SamadiPour/iran-hosted-domains/releases/latest
+https://github.com/bootmortis/iran-hosted-domains/releases/latest
   
 </details>  
 
@@ -254,7 +254,7 @@ https://basic.rethinkdns.com
  
  </div>
  
-**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/SamadiPour/iran-hosted-domains) (_MIT License_)
+**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/bootmortis/iran-hosted-domains) (_MIT License_)
 
 <div dir="rtl">
   
@@ -283,7 +283,7 @@ https://basic.rethinkdns.com
 
 \- لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))
 
-\- [لیست Iran Hosted Domains](https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md#%D9%85%D9%86%D8%A7%D8%A8%D8%B9)
+\- [لیست Iran Hosted Domains](https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md#%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D9%88-%DA%AF%D8%B1%D8%A7%D9%85%DB%8C%D8%AF%D8%A7%D8%B4%D8%AA)
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
