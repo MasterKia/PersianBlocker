@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-13
+! Last modified: 2023-02-14
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -282,7 +282,7 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||popland.info^$all
 
 ||peyvandha.ir^$3p
-||10.10.34.^$all
+||10.10.34.*^$all
 ! ^ Example: imovie-dl.org
 
 ||phoenixad.io^$all
