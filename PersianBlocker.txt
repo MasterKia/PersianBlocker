@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-14
+! Last modified: 2023-02-16
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2804,11 +2804,13 @@ trainbit.com##+js(nano-stb, , , 0)
 
 ||tafrihi.com/wp-content/plugins/simple-ads
 
-||techrato.com^$removeparam=/^utm_/
-techrato.com##[id^="widget_sp_image-"]
-techrato.com##.header-ads
-techrato.com##.ads-300x250
-techrato.com##.ads-cpc-post
+! https://github.com/MasterKia/PersianBlocker/issues/132
+||techrato.com/wp-content/uploads/*.gif$image,1p
+techrato.com##.tab-cpc
+techrato.com##.tab-dpd-post
+techrato.com##div[class^="ads"]
+techrato.com##.widget > p > #KajAds_Panel:upward(.widget)
+techrato.com##:not(:matches-path(/tag/%D8%B1%D9%BE%D9%88%D8%B1%D8%AA%D8%A7%DA%98-%D8%A2%DA%AF%D9%87%DB%8C/)) .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)
 
 tigatravel.com##+js(nostif, /^/)
 ||tigatravel.com/set_cookie_popup.php
