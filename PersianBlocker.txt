@@ -111,6 +111,7 @@
 
 ||adro.co^$all
 ||affstat.adro.co^$all
+||adro.ir^$all
 
 ||1abzaar.ir/abzar/tools/no-rightclick.js
 ||1abzaar.ir/abzar/tools/no-selects.js
