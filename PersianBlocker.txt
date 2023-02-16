@@ -1122,11 +1122,11 @@ downloadha.com##.ads
 downloadha.com##.popup-ads
 downloadha.com###ADbox-2
 
-||download.ir/api/geoip
-||download.ir/wp-content/uploads/*/Hostiran-ad.jpg
-download.ir###kaprila_linktable
-download.ir##.parsi-ads
-download.ir##.content-top-ads-box
+||download.ir/api/geoip$xhr,1p
+download.ir##.top-full-ads
+download.ir##.parsi-ads:upward(.widget)
+download.ir##aside > .widget .textwidget-title:has-text(تبلیغات):upward(.widget)
+download.ir##aside img[alt="جایگاه تبلیغات"]
 
 ! >> E <<
 ! https://github.com/MasterKia/PersianBlocker/issues/122
