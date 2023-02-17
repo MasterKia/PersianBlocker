@@ -1711,6 +1711,12 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/134
+||khabarerooz.com/servev2/*.gif$image,1p
+||khabarerooz.com/linkhelpers^$xhr,1p
+khabarerooz.com##.zxc
+khabarerooz.com##.news-bottom-link
+
 ! https://github.com/MasterKia/PersianBlocker/issues/110
 ||khodropluss.ir/wp-json/wp-statistics^
 khodropluss.ir##.top_img_ads
