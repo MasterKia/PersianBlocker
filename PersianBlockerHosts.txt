@@ -1,8 +1,8 @@
 [AdBlock]
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-# Expires: 4 day
-# Last modified: 2022-02-13
+# Expires: 5 day
+# Last modified: 2022-02-17
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -48,6 +48,7 @@ ayyaar.ir
 
 adro.co
 affstat.adro.co
+adro.ir
 affstat.digikala.com
 affiliate.digikala.com
 
