@@ -1,0 +1,7 @@
+# See https://github.com/github/linguist/blob/master/docs/overrides.md
+
+# Attribute definitions
+[attr]adb   linguist-detectable linguist-language=AdBlock
+
+# AdBlock filter files
+*.txt adb
