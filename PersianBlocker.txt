@@ -69,6 +69,7 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||adrooz.com^$all
 ||affilio.ir^$all
 ||analyt.ir^$all
 
@@ -2155,6 +2156,13 @@ opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||analytics.plaza.ir^$all
+||plaza.ir/location/find-client-location^$xhr,1p
+||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xhr,1p
+plaza.ir##.ad--content
+plaza.ir##.post > .post__content > .post__category:has-text(رپورتاژ آگهی):upward(.post)
+plaza.ir#@#.ad__header
+
 ! https://github.com/MasterKia/PersianBlocker/issues/103
 ||par30media.com/wp-content/uploads/*.gif
 par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مفید):upward(aside)
