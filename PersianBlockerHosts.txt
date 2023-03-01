@@ -13,6 +13,7 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
+adrooz.com
 affilio.ir
 analyt.ir
 
@@ -349,6 +350,7 @@ stc.ninisite.com
 websocket.55online.news
 
 # >> P <<
+analytics.plaza.ir
 
 # >> Q <<
 sentry.quera.org
