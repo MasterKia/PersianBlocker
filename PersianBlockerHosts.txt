@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 5 day
-# Last modified: 2022-02-17
+# Last modified: 2022-03-01
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -536,6 +536,13 @@ frzss.com
 
 # https://github.com/Webamoozcom/warning-list/discussions/138
 hoho.mobi
+
+# https://github.com/Webamoozcom/warning-list/discussions/170
+unitedsolarinfinity.com
+
+# https://github.com/Webamoozcom/warning-list/discussions/171
+mogo-crypto.net
+
 #-------------------------^ Scam Sites ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
