@@ -3752,3 +3752,10 @@ oila.tj##.new-banner
 ||takvim.tj/animation/adv_top_slide^
 takvim.tj##a[name^=Advertisement]:upward(.wb_element)
 !-------------------------^ Tajikistan sites ^-----------------------!
+
+!------------------------v Afghanistan sites v-----------------------!
+benawa.com##.benawa_contentarea .benawa_treeads:upward(.benawa_contentarea)
+benawa.com##.pix_of_day
+benawa.com##div[style="margin-top:4px;overflow:hidden;"]
+benawa.com##div[style="margin-top:5px;margin-bottom:3px; overflow:hidden;"]
+!------------------------^ Afghanistan sites ^-----------------------!
