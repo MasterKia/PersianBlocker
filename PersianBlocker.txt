@@ -367,16 +367,18 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||tbli.ir^$all
 
 ||tavoos.net^$all
-@@||player.tavoos.net/jwplayer.js$script
-@@||player.tavoos.net/jwplayer.core.controls.html5.js$script
-@@||player.tavoos.net/tavoos-player.css$stylesheet
-@@||player.tavoos.net/assets/fonts/$font
-@@||player.tavoos.net/assets/$image
-! ^ Example: film.tebyan.net
-@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script
-@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script
-@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$stylesheet
-@@||tavoos.net/tavoos_player/jwplayer/assets/$image
+@@||player.tavoos.net/jwplayer.js$script,3p
+@@||player.tavoos.net/jwplayer.core.controls.html5.js$script,3p
+@@||player.tavoos.net/jwplayer.core.controls.js$script,3p
+@@||player.tavoos.net/provider.hlsjs.js$script,3p
+@@||player.tavoos.net/tavoos-player.css$css,3p
+@@||player.tavoos.net/assets/fonts/$font,3p
+@@||player.tavoos.net/assets/$image,3p
+! ^ Example: film.tebyan.net, namayesh.com
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script,3p
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script,3p
+@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$css,3p
+@@||tavoos.net/tavoos_player/jwplayer/assets/$image,3p
 ! ^ Example: alef.ir/news/4010916082.html
 
 ||cashback.takhfifan.com^$all
@@ -1921,6 +1923,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,1p
+||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,1p
+||mihanvideo.com/log^$xhr,1p
+mihanvideo.com##.side-ads
+
 ||movienama.com/wp-content/uploads/*.gif$image
 movienama.com##.opanel-ads
 
@@ -2063,6 +2070,13 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+||namayesh.com/assets/ads^$image
+! ^ no $1p, because it's used by mihanvideo.com
+||namayesh.com/configuration/v1/video/*/lazyads^$xhr,1p
+||namayesh.com/configuration/v1/video/*/log^$xhr,1p
+namayesh.com###advertise
+namayesh.com###promotion
+
 nab-music.com##+js(aopr, vc_url)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/72
