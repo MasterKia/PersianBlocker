@@ -144,7 +144,7 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||backority.ir^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99240
-||blogfa.com/a^
+||blogfa.com/a^$script,1p
 
 ! >> C <<
 ||cayot.ir^$all
