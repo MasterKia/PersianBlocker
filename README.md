@@ -149,9 +149,9 @@ _Settings => Content Blocking => Filters => Language-Specific_
 
 از لیست Iran Hosted Domains که شامل لیست **PersianBlockerHosts** می‌شود و توسط جمعی از کاربران درست شده استفاده کنید:
   
-https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md
+https://github.com/MasterKia/iran-hosted-domains/blob/main/README.fa.md
   
-https://github.com/bootmortis/iran-hosted-domains/releases/latest
+https://github.com/MasterKia/iran-hosted-domains/releases/latest
   
 </details>  
 
@@ -254,7 +254,7 @@ https://basic.rethinkdns.com
  
  </div>
  
-**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/bootmortis/iran-hosted-domains) (_MIT License_)
+**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/MasterKia/iran-hosted-domains) (_AGPL-3.0 License_)
 
 <div dir="rtl">
   
