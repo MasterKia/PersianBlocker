@@ -2255,6 +2255,7 @@ persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
 p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
+p30download.ir##+js(acis, document.getElementById, style.display)
 p30download.ir###fxp
 p30download.ir##.sidebar-tabliq
 p30download.ir##.basic-list-linkdump
