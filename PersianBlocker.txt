@@ -402,10 +402,10 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||vatanclick.ir^$all
 
 ! >> W <<
-||webgozar.com/c.aspx*&t=counter
-||webgozar.ir/c.aspx*&t=counter
+||webgozar.ir/c.aspx?Code=*&t=counter$script,3p
+||webgozar.com/c.aspx?Code=*&t=counter$script,3p
+
 ||wideads.com^$all
-! ||wideads.com^$popup
 
 ! >> X <<
 ||xjs.lol^$all
