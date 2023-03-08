@@ -1,0 +1,28 @@
+[uBlock Origin]
+! Title: PersonalBlocker
+! Description: فیلتر هایی که به نظرم کاربردی میان (:
+! Expires: 7 days
+! Homepage: https://github.com/MasterKia/PersianBlocker
+! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/142820
+||youtube.com/redirect?$doc,removeparam=event
+||youtube.com/redirect?$doc,removeparam=redir_token
+||youtube.com/redirect?$doc,removeparam=v
+
+! https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-remote-fonts
+$font,3p,from=~reddit.com
+
+! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#header
+! https://simoahava.com/analytics/server-side-tagging-google-tag-manager/
+*$1p,strict3p,script,header=via:1.1 google
+
+! https://github.com/gorhill/uBlock/wiki/Privacy-stuff#gravatar-et-al
+||gravatar.com^$3p
+
+! DMCA "Protected" badge
+||dmca.com^$3p
+
+! "Use your Google Account to sign in to" prompt
+! https://twitter.com/pgl/status/1592685221111267329
+||accounts.google.com/gsi/*$xhr,script,3p
