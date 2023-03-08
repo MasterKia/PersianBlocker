@@ -347,14 +347,10 @@ logo.samandehi.ir##^responseheader(set-cookie)
 
 ||triboon.net^$all
 
-||tamasha.com^$removeparam=vastUrl
-||tamasha.com/et/play?ntt=
-||tamasha.com/dist/*/contrib/player/js/videojs.ima.min.js
-||tamasha.com/dist/*/contrib/player/js/videojs-contrib.min.js
-||tamasha.com/dist/*/contrib/player/js/ima
-||tamasha.com/dist/*/js/ads_tracker.min.js
-||tamasha.com/dist/*/js/tracker.min.js
-@@||tamasha.com/embed^$subdocument
+@@||tamasha.com/embed^$frame,3p
+||tamasha.com/embed^$3p,removeparam=vastUrl
+||tamasha.com/dist/*/js/ads_tracker.min.js^$script
+||tamasha.com/dist/*/js/tracker.min.js^$script
 ! Example: ejiga.com/w/SQxMqtz
 
 ||te1.ir^$all
@@ -1180,8 +1176,8 @@ econews.ir##.container:style(width: 95% !important;)
 ||eghtesaad24.ir/files/adv^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/50
-||ejiga.com/content/player/js/rmp-vast.js
-||ejiga.com/content/player/css/rmp-vast.css
+||ejiga.com/content/player/js/rmp-vast.js^$script,1p
+||ejiga.com/content/player/css/rmp-vast.css^$css,1p
 ejiga.com##.adv
 ejiga.com##.adv-ttl
 
@@ -2750,7 +2746,12 @@ tamasha.com##+js(set, socketUrl, undefined)
 tamasha.com##+js(set, VASTEnabled, false)
 tamasha.com##+js(set, vastURL, [])
 tamasha.com##+js(cookie-remover, tracker_visitor_id)
-||tamasha.com/visid^
+||tamasha.com/dist/*/contrib/player/js/ima3.min.js^$script
+||tamasha.com/dist/*/contrib/player/js/videojs.ima.min.js^$script
+||tamasha.com/dist/*/contrib/player/css/videojs.ima.min.css^$css
+||tamasha.com/dist/*/contrib/player/js/videojs-contrib.min.js^$script
+||tamasha.com/dist/*/contrib/player/css/videojs-contrib.min.css^$css
+||tamasha.com/visid^$xhr
 ! Example: tamasha.com/v/DDlMB
 
 ! https://github.com/MasterKia/PersianBlocker/issues/47
