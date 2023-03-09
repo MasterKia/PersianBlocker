@@ -367,6 +367,7 @@ logo.samandehi.ir##^responseheader(set-cookie)
 @@||player.tavoos.net/jwplayer.js$script,3p
 @@||player.tavoos.net/jwplayer.core.controls.html5.js$script,3p
 @@||player.tavoos.net/jwplayer.core.controls.js$script,3p
+@@||player.tavoos.net/jwplayer.stats.js^$script,3p
 @@||player.tavoos.net/provider.hlsjs.js$script,3p
 @@||player.tavoos.net/tavoos-player.css$css,3p
 @@||player.tavoos.net/assets/fonts/$font,3p
