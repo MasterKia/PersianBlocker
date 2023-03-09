@@ -914,6 +914,9 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/137
+drdmag.com##a[href^="https://zaya.io/"]
+
 ! https://github.com/MasterKia/PersianBlocker/issues/136
 ||cdn.dolatebahar.ir/upload/Ads^$image,1p
 ||sai.co.ir^$3p,domain=dolatebahar.ir
