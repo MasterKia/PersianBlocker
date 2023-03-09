@@ -114,10 +114,11 @@
 ||affstat.adro.co^$all
 ||adro.ir^$all
 
-||1abzaar.ir/abzar/tools/no-rightclick.js
-||1abzaar.ir/abzar/tools/no-selects.js
-||1abzar.ir/abzar/tools/post-view/
-||1abzar.ir/abzar/tools/stat/
+||1abzar.ir/abzar/tools/porbazdid^$script,3p
+||1abzar.ir/abzar/tools/stat^$script,3p
+||1abzar.ir/abzar/tools/post-view^$script,3p
+||1abzaar.ir/abzar/tools/no-selects.js^$script,3p
+||1abzaar.ir/abzar/tools/no-rightclick.js^$script,3p
 
 ||abzarfa.com/services/minicounter^$script
 ||abzarfa.com/services/onlineusres^$script
@@ -659,8 +660,10 @@ abipic.com##.pt-3.text-center.py-2.bg-all-box
 abipic.com##.text-center.py-3.bg-all-box
 abipic.com##.ads-text-sid
 
-||1abzar.com/files/ads
+||1abzar.com/files/ads.gif^$image,1p
+||1abzar.com/ads^$image,1p
 1abzar.com##.ads-post
+1abzar.com##.link-paeen
 
 ||aftabnews.ir/files/adv/
 aftabnews.ir##.adv_r_news2
