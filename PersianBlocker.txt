@@ -2009,6 +2009,9 @@ mybia4music.com##^script:has-text(pa_vc_url)
 !#if !cap_html_filtering
 mybia4music.com##+js(acis, pa_vc_url)
 !#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+mybia4music.com##+js(acis, pa_vc_url)
+!#endif
 mybia4music.com##.ads-banner
 mybia4music.com##aside#left > .box > .title:has-text(تبلیغات):upward(.box)
 mybia4music.com#@#.adlink
