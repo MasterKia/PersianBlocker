@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-08
+! Last modified: 2023-03-09
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1999,11 +1999,14 @@ montiego.ir##.txt-ads-sl
 
 msbmusic.ir##+js(set, needpop, 0)
 
-mybia4music.com##+js(aopr, pa_vc_url)
-||mybia4music.com/wp-content/plugins/wp-postviews/
-mybia4music.com##.adstext
+mybia4music.com##^script:has-text(pa_vc_url)
+!#if !cap_html_filtering
+mybia4music.com##+js(acis, pa_vc_url)
+!#endif
 mybia4music.com##.ads-banner
-mybia4music.com###left > div.box:nth-of-type(1)
+mybia4music.com##aside#left > .box > .title:has-text(تبلیغات):upward(.box)
+mybia4music.com#@#.adlink
+mybia4music.com#@#.adstext
 
 ||marzfun.com/wp-content/plugins/google-analytics
 marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
