@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-09
+! Last modified: 2023-03-10
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -418,13 +418,14 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||yelloadwise.ir^$all
 
 ||yektanet.com^$all
-@@||video.cdn.yektanet.com/video-$script,domain=fararu.com|gostaresh.news
-@@||native-ad-placement-cdn.yektanet.com/static/video_scripts//video-$script,domain=fararu.com|gostaresh.news
-@@||cdn.yektanet.com/video-js/video.min.js$script,domain=fararu.com|gostaresh.news
-@@||cdn.yektanet.com/video-js/video-js.min.css$stylesheet,domain=fararu.com|gostaresh.news
-@@||cdn.yektanet.com/fonts/$font,domain=fararu.com|gostaresh.news
-@@||cdn.yektanet.com/vast/vast-client.min.js$script,domain=fararu.com|gostaresh.news
-@@||cdn.yektanet.com/video-js/silvermine-videojs-quality-selector.min.js$script,domain=fararu.com|gostaresh.news
+@@||video.cdn.yektanet.com/video-$script,3p,domain=gostaresh.news
+@@||native-ad-placement-cdn.yektanet.com/static/video_scripts//video-$script,3p,domain=gostaresh.news
+@@||native-ad-placement-cdn.yektanet.com/static/video_scripts/video-$script,3p,domain=fararu.com
+@@||yektanet.com/static/video.min.js^$script,3p,domain=fararu.com|gostaresh.news
+@@||yektanet.com/static/video-js.min.css^$css,3p,domain=fararu.com|gostaresh.news
+@@||cdn.yektanet.com/fonts/$font,3p,domain=fararu.com|gostaresh.news
+@@||yektanet.com/static/vast-client.js^$script,3p,domain=fararu.com|gostaresh.news
+@@||yektanet.com/static/silvermine-videojs-quality-selector.min.js^$script,3p,domain=fararu.com|gostaresh.news
 
 ||yekbux.com^$all
 
