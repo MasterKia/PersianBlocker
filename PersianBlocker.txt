@@ -2742,6 +2742,16 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+tarfandha.org##^script:has-text(vc_url)
+!#if !cap_html_filtering
+tarfandha.org##+js(acis, vc_url)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+tarfandha.org##+js(acis, vc_url)
+!#endif
+tarfandha.org##.textads
+! TODO: Hide links under "پرسش و پاسخ"
+
 ||tvrooz.com/analytics.js^$script,1p
 ||tvrooz.com/tvrooz-analytics.js^$script,1p
 
