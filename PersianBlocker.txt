@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-10
+! Last modified: 2023-03-11
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -483,8 +483,8 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ! ^ Used by akhbarrasmi.com
 
 ! >> T <<
-||toshare.io/dl/download.php?i=
-! ^ Used by barato.ir
+||toshare.io/dl/download.php^$script,3p
+! ^ Used by barato.ir, dailymobile.ir
 
 ! >> U <<
 ||useinsider.com^$3p
@@ -917,6 +917,18 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/140
+dailymobile.ir##^script:has-text(vc_url)
+!#if !cap_html_filtering
+dailymobile.ir##+js(acis, vc_url)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+dailymobile.ir##+js(acis, vc_url)
+!#endif
+||parsaspace.com^$image,3p,domain=dailymobile.ir
+dailymobile.ir##.adsboxfix
+dailymobile.ir##div[style*="position: fixed; right: 0px; bottom: 0px;"]:has(> .close-fixedSd)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/137
 drdmag.com##a[href^="https://zaya.io/"]
 
