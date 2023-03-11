@@ -2750,7 +2750,7 @@ tarfandha.org##+js(acis, vc_url)
 tarfandha.org##+js(acis, vc_url)
 !#endif
 tarfandha.org##.textads
-! TODO: Hide links under "پرسش و پاسخ"
+tarfandha.org##.behtarinseo
 
 ||tvrooz.com/analytics.js^$script,1p
 ||tvrooz.com/tvrooz-analytics.js^$script,1p
