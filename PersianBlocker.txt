@@ -138,10 +138,8 @@ blogsazan.com##.blog-home-ads-blog
 blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 10px; text-align:center; font-size:13px;"] > a:upward(.main_content)
 
 ||behinava.com^$all
-
 ||radar.bayan.ir^$all
-
-||backlink.behtarinseo.ir/ads
+||behtarinseo.ir^$all
 ||backority.ir^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99240
@@ -515,10 +513,10 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ! >> A <<
 androidparsi.ir##^script:has-text(vc_url)
 !#if !cap_html_filtering
-androidparsi.ir##+js(acis, needpop)
+androidparsi.ir##+js(acis, vc_url)
 !#endif
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-androidparsi.ir##+js(acis, needpop)
+androidparsi.ir##+js(acis, vc_url)
 !#endif
 androidparsi.ir##.app_ads_banner
 
@@ -1392,13 +1390,6 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
-gharbtv.com##^script:has-text(vc_url)
-!#if !cap_html_filtering
-gharbtv.com##+js(acis, needpop)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-gharbtv.com##+js(acis, needpop)
-!#endif
 gharbtv.com##.card-ads
 gharbtv.com##.bottom-ads
 
@@ -1419,9 +1410,8 @@ gold-team.org##+js(nano-sib)
 gold-team.org##.size-full.attachment-full
 gold-team.org##.aligncenter.wp-image-9273.size-full
 
-gamesetup.ir##+js(acis, vc_url)
-||gamesetup.ir/wp-content/uploads/*/ads
-gamesetup.ir##.sidebar > div.box:nth-of-type(5)
+||tarfandha.org/pop/popmain.js^$script
+gamesetup.ir##.sidebar > .box > .behtarinbacklink:upward(.box)
 
 ! https://github.com/MasterKia/PersianBlocker/commit/ccd9af83ced447f363fd706df92df2f5d0756156#commitcomment-84035664
 ||gostaresh.news/statics^
