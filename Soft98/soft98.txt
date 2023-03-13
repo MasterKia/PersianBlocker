@@ -1,0 +1,11 @@
+! Title: Soft98
+! Expires: 12 h
+! Add this to your "userResourcesLocation" (inside "I am an advanced user"):
+! https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/Soft98/soft98.js
+
+soft98.ir##+js(soft98)
+soft98.ir##div:has(> a > img[src*=".gif"][data-backup*=".gif"]):style(clip-path: circle(0) !important;)
+soft98.ir##div[class]:has(> header:has-text(آسیاتک)):style(clip-path: circle(0) !important;)
+soft98.ir##header:has-text(ﺗﺒﻠﻴﻐﺎﺕ):upward(div[class]):style(clip-path: circle(0) !important;)
+soft98.ir##footer > div[id*="SMostafa"]:style(clip-path: circle(0) !important;)
+soft98.ir##aside:has-text(سیسبان):style(clip-path: circle(0) !important;)
