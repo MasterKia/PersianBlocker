@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-11
+! Last modified: 2023-03-16
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2475,6 +2475,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/142
+sariasan.com##.ush_image_2
+sariasan.com##.widget > h3:has-text(مطالب مفید):upward(.widget)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/125
 ||websocket.sobhtazeh.news^$all
 ||sobhtazeh.news/rss-file.php^$xhr
