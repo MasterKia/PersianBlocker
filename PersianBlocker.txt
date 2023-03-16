@@ -1679,6 +1679,22 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+! https://github.com/MasterKia/PersianBlocker/issues/141
+jafekri.com##^script[id^="wccp_"]
+jafekri.com##*:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+jafekri.com##^style:has-text(@media print)
+!#if !cap_html_filtering
+jafekri.com##+js(acis, reEnable)
+jafekri.com##+js(acis, document.oncontextmenu)
+jafekri.com##+js(acis, jQuery, wccp_pro)
+jafekri.com##+js(acis, clear_body_at_all_for_extentions)
+jafekri.com##style:has-text(@media print):remove()
+!#endif
+||jafekri.com/wp-content/plugins/wccp-pro^$script,css,xhr,image
+||podbean.com/player^$xhr,removeparam=referrer
+||podbean.com/pb^$media,removeparam=pbss
+podbean.com##.download-dialog
+
 ! https://github.com/MasterKia/PersianBlocker/issues/128
 ||jobsacademy.ir/wp-content/uploads/*.gif
 
