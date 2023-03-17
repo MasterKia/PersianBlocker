@@ -511,6 +511,11 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://github.com/MasterKia/PersianBlocker/issues/144
+alldriver.ir###kaprila_linktable
+alldriver.ir###popular
+alldriver.ir##.lolo
+
 androidparsi.ir##^script:has-text(vc_url)
 !#if !cap_html_filtering
 androidparsi.ir##+js(acis, vc_url)
