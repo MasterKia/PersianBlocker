@@ -2227,8 +2227,13 @@ plaza.ir#@#.ad__header
 par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مفید):upward(aside)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/105
-parsfootball.com###ads-120 > .textwidget > p > a
-parsfootball.com##[class*="block-ads"]
+||parsfootball.com/wp-content/uploads/*.gif$image,1p
+||parsfootball.com/na/wp-content/uploads/*.gif$image,1p
+parsfootball.com###ads-120
+parsfootball.com##.block-ads
+parsfootball.com##.block-ads2
+parsfootball.com##.block-ads4
+parsfootball.com#@#.navad
 
 power-music.ir##^script:has-text(window.open)
 !#if !cap_html_filtering
