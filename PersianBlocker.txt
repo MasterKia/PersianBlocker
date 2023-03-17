@@ -743,14 +743,13 @@ b2n.ir##.banner
 b2n.ir##.abox
 
 bils.ir###iddivtoplevelscript
-bils.ir##div:nth-of-type(3)
+bils.ir##div[style]:nth-of-type(3)
 
 ||byst.ir/ThemesStore/ads
 ||byst.ir/Visit/view
 
-||behmusic.com/wp-content/*/behpopup.js
-behmusic.com##.mp_left > .mpbb_ads.mpb_body
-behmusic.com##.mp_right > .mpbb_ads.mpb_body
+! https://github.com/MasterKia/PersianBlocker/issues/145
+behmusic.com##.mpbb_ads img:upward(.mp_box_x1)
 
 @@||blogfa.com/static/ads/$image,1p
 
