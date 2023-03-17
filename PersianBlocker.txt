@@ -1920,6 +1920,9 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+! https://github.com/MasterKia/PersianBlocker/issues/147
+learnparsi.com##a[href^="https://bit.ly/"]
+
 lordroid.com##.lnk > center > a > img[alt="ADS"]:upward(center)
 lordroid.com##.footer_column > div > ul > li > a:has-text(طراحی سایت)
 
