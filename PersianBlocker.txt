@@ -1921,6 +1921,7 @@ k2cod.com###table10
 
 ! >> L <<
 ! https://github.com/MasterKia/PersianBlocker/issues/147
+||learnparsi.com/wp-content/uploads/*.gif$image,1p
 learnparsi.com##a[href^="https://bit.ly/"]
 
 lordroid.com##.lnk > center > a > img[alt="ADS"]:upward(center)
