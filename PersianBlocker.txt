@@ -584,13 +584,14 @@ akharinnews.com###left2
 akharinnews.com###ads
 akharinnews.com##.yn-bnr:upward(.custom)
 
-||img.cdn.asandl.com/Panel/*.gif
-asandl.com##.game.post
+! https://github.com/MasterKia/PersianBlocker/issues/146
+||img.cdn.asandl.com/Panel^$image,1p
 asandl.com##.content-box
-asandl.com##.box:not(.counter, .post)
-asandl.com##.widget-asan:has(a[rel="nofollow"][target="_blank"])
+asandl.com##.box[class^="asan"]
+asandl.com##article.post.game:not(:has(.button, .post-cat))
 asandl.com##.text-asan
-@@||img.cdn.asandl.com/Panel/AsanDl-3.gif$image,1p
+asandl.com##.widget-asan > span > a:upward(.widget-asan)
+asandl.com###kaprila_linktable
 @@||asandl.com/ads/img/AsanDl-$image,1p
 
 ||arga-mag.com/file/img/*.gif
