@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-16
+! Last modified: 2023-03-17
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2222,7 +2222,15 @@ par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مف
 parsfootball.com###ads-120 > .textwidget > p > a
 parsfootball.com##[class*="block-ads"]
 
-||power-music.ir/sw.js^
+power-music.ir##^script:has-text(window.open)
+!#if !cap_html_filtering
+power-music.ir##+js(nowoif)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+power-music.ir##+js(nowoif)
+!#endif
+||spotyfile.com^$domain=power-music.ir
+||power-music.ir/sw.js^$script,1p
 power-music.ir##.ytn-hamsan
 power-music.ir##.yn-bnr
 power-music.ir##.sidbar > p > strong:has-text(پیوندها):upward(.sidbar)
