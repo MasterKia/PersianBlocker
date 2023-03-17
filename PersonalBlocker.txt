@@ -11,7 +11,7 @@
 ||youtube.com/redirect?$doc,removeparam=v
 
 ! https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-remote-fonts
-! *$font,3p,from=[List of domains]
+! *$font,3p,from=~[List of domains]
 
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#header
 ! https://simoahava.com/analytics/server-side-tagging-google-tag-manager/
@@ -26,3 +26,6 @@
 ! "Use your Google Account to sign in to" prompt
 ! https://twitter.com/pgl/status/1592685221111267329
 ||accounts.google.com/gsi/*$xhr,script,3p
+
+||logo.samandehi.ir^$3p
+||trustseal.enamad.ir^$3p
