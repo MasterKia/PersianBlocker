@@ -2770,6 +2770,12 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+! https://github.com/MasterKia/PersianBlocker/issues/143
+tak3da.com##+js(aopr, SGPB_POPUP_PARAMS)
+||tak3da.com/wp-content/plugins/popup-builder^$script,1p
+tak3da.com##.container_ads
+tak3da.com##.adss
+
 tarfandha.org##^script:has-text(vc_url)
 !#if !cap_html_filtering
 tarfandha.org##+js(acis, vc_url)
