@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-17
+! Last modified: 2023-03-18
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2107,6 +2107,10 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+! https://github.com/MasterKia/PersianBlocker/issues/148
+||nabzefanavari.ir/files/adv^$image,1p
+nabzefanavari.ir##.txt-box:has(> .txt_adv_content)
+
 ||namayesh.com/assets/ads^$image
 ! ^ no $1p, because it's used by mihanvideo.com
 ||namayesh.com/configuration/v1/video/*/lazyads^$xhr,1p
