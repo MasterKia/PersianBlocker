@@ -36,6 +36,7 @@ www.reddit.com##+js(aeld, touchmove)
 www.reddit.com##body:style(pointer-events: auto !important;)
 www.reddit.com##body.scroll-disabled:style(overflow: visible !important; position: static !important;)
 www.reddit.com##body.scroll-is-blocked:style(overflow: visible !important; position: static !important;)
+www.reddit.com##^xpromo-nsfw-blocking-modal
 www.reddit.com##xpromo-app-selector
 www.reddit.com##xpromo-new-app-selector
 www.reddit.com##.XPromoPopup
