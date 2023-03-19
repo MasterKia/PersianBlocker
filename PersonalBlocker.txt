@@ -5,6 +5,10 @@
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+! https://filters.adtidy.org/extension/ublock/filters/3.txt
+! https://filters.adtidy.org/extension/ublock/filters/18.txt
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142820
 ||youtube.com/redirect?$doc,removeparam=event
 ||youtube.com/redirect?$doc,removeparam=redir_token
