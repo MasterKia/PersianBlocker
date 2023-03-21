@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-03-20
+! Last modified: 2023-03-21
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1956,6 +1956,12 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+my.mci.ir##+js(set, window.screen.width, 0)
+my.mci.ir##+js(set, window.screen.height, 0)
+my.mci.ir##+js(set, navigator.appVersion, '')
+my.mci.ir##+js(set, navigator.userAgent, '')
+my.mci.ir##+js(set, navigator.appName, '')
+
 ||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,1p
 ||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,1p
 ||mihanvideo.com/log^$xhr,1p
