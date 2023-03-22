@@ -12,6 +12,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
+! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
 ||websocket.*/?u=*&s=$websocket,1p
 
 ! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
@@ -1238,7 +1239,6 @@ eghtesadnews.com##.advs-wrapper
 ! https://github.com/MasterKia/PersianBlocker/issues/85
 eghtesadonline.com##+js(aeld, scroll)
 ||eghtesadonline.com/servev2/*.gif
-||websocket.eghtesadonline.com^$all
 eghtesadonline.com##[href*="/advertisements/triggered/"]
 eghtesadonline.com##.zxc
 eghtesadonline.com###carousel:remove()
@@ -1655,7 +1655,6 @@ itresan.com##.listing-item-blog:has(a[href*="/author/ads/"])
 
 ! https://github.com/MasterKia/PersianBlocker/issues/22
 ||ilna.ir/servev2/*.gif
-||websocket.ilna.ir$all
 ilna.ir##[href^="/advertisements/"]
 ilna.ir##.zxc
 !#if !env_mobile
@@ -1773,7 +1772,6 @@ khabarvarzeshi.com###box358
 
 ! https://github.com/MasterKia/PersianBlocker/issues/101
 ||khanefootball.com/aec.min.js^
-||websocket.khanefootball.com^$all
 khanefootball.com##.zxc_home
 khanefootball.com##.zxc
 khanefootball.com##.mrauto
@@ -2214,7 +2212,6 @@ namnak.com##.Dr.D2.Cu.o
 
 ! >> O <<
 ! https://github.com/MasterKia/PersianBlocker/issues/93
-||websocket.55online.news^$all
 ||55online.news/aec.min.js^
 ||55online.news/rss-files.php^
 55online.news##.zxc_home
@@ -2531,7 +2528,6 @@ sariasan.com##.ush_image_2
 sariasan.com##.widget > h3:has-text(مطالب مفید):upward(.widget)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/125
-||websocket.sobhtazeh.news^$all
 ||sobhtazeh.news/rss-file.php^$xhr
 ||sobhtazeh.news/player/vast.js^$script
 ||sobhtazeh.news/player/vastlink.js^$script
@@ -3152,7 +3148,6 @@ uploadboy.com##[id^="mediaad"]:upward(.text-center)
 
 ! >> V <<
 ! https://github.com/MasterKia/PersianBlocker/issues/121
-||websocket.varandaz.com^$all
 varandaz.com##.zxc
 varandaz.com##.zxc_matni
 varandaz.com##.zxc-visible-fixed
