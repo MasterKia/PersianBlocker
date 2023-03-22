@@ -2522,6 +2522,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/150
+||cdn.sargarme.com/uploads/*.gif$image,1p
+sargarme.com##.ads2
+
 ! https://github.com/MasterKia/PersianBlocker/issues/142
 sariasan.com##.ush_image_2
 sariasan.com##.widget > h3:has-text(مطالب مفید):upward(.widget)
