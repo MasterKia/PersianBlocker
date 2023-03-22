@@ -2646,14 +2646,13 @@ sakhtafzarmag.com##.dinu:upward(.widget)
 seemorgh.com##.bannergroup
 seemorgh.com##.bannergroupsam-full-width
 
-sarzamindownload.com##+js(set, BetterJsPop, noopFunc)
-||sarzamindownload.com/ppjs/
-||sarzamindownload.com/images/banners/
-sarzamindownload.com##.GSADSTop
-sarzamindownload.com##.GSLeftSide.col-lg-3.col-md-3.col-sm-12.col-xs-12 > div.widget_style_funcs.GSBlock > div > .widget_baslik.-baslik.sutunbaslik.title
-sarzamindownload.com##div.widget_style_funcs.GSBlock:nth-of-type(2) > div > .GSblock
-sarzamindownload.com##div.OpenTable:nth-of-type(2)
-sarzamindownload.com##div.OpenTable:nth-of-type(3)
+||sarzamindownload.com/images/banners^$image,1p
+sarzamindownload.com##.OpenTable5
+sarzamindownload.com##.OpenTable > div > center > a[rel="nofollow"] > .img-responsive:upward(.OpenTable)
+sarzamindownload.com##.GSBlock > div > .title > h3:has-text(لینک های ویژه):upward(.GSBlock)
+sarzamindownload.com##.OpenTable > h2:has-text(مقالات):upward(.OpenTable)
+sarzamindownload.com##.GSLiveTab > .tab_container1 > #tab3 > h2:has-text(مقالات):upward(.GSLiveTab)
+sarzamindownload.com##.GSAdsLR
 @@||sarzamindownload.com/images/Ads_Place.jpg$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92877
