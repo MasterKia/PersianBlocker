@@ -3017,11 +3017,15 @@ tinn.ir##[href^="/advertisements/"]
 tinn.ir##.type-resource-image
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96925
-||tgju.org/cdn-cgi/apps/head
-||static.accessban.com/advertisement/
-||static.accessban.com/images/advertisement/
-||api.accessban.com/v1/advertisement/
-tgju.org###popup-layer-container
+||tgju.org/cdn-cgi/apps/head^$script,1p
+||api.tgju.org/v1/advertisement^$xhr,1p
+tgju.org##^script:has-text(ad.setAttribute)
+!#if !cap_html_filtering
+tgju.org##+js(acis, document.getElementById, ad)
+!#endif
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+tgju.org##+js(acis, document.getElementById, ad)
+!#endif
 tgju.org##.advertise
 tgju.org##.bottom-left-ad
 tgju.org##.bottom-right-ad
