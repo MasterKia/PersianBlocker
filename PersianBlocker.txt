@@ -11,6 +11,9 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
+! bazdeh.org, charbzaban.com, chetor.com, digiro.ir, dlfox.com, filmin.info, gahar.ir, ghatar.com, itresan.com, jobsacademy.ir, konkur.info, learnparsi.com, movienama.com, mihand.ir, modirnameh.ir, netpaak.com, parsfootball.com, pezeshket.com, p30konkor.com, pedal.ir, softsaaz.ir, sakhtafzar.com, technet24.ir, techrato.com
+/wp-content/uploads/*.gif^$image,1p
+
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
 ||websocket.*/?u=*&s=$websocket,1p
@@ -708,7 +711,6 @@ apktops.ir##.asiatech
 blogsazan.com###macy-container > article > .articlebox > a[href*="/blogsazan.com/mag/reportage"]:upward(article)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/124
-||bazdeh.org/wp-content/uploads/*.gif$image
 ||bazdeh.org/wp-content/plugins/better-post-views^$script
 bazdeh.org##.vfozk
 bazdeh.org##.widget > .section-heading > .h-text:has-text(لینکستون):upward(.widget)
@@ -854,7 +856,6 @@ cafejozve.ir###kaprila_linktable
 ||chaapaar.ir/ads^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/69
-||charbzaban.com/wp-content/uploads/*.gif
 charbzaban.com##.widget:has(.widgettitle:has-text(/پیشنهاد|مفید/))
 charbzaban.com##figcaption
 !#if env_mobile
@@ -865,7 +866,6 @@ charbzaban.com##.at_bottom
 !#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/35
-||chetor.com/wp-content/uploads/*.gif
 chetor.com###custom_html-51
 chetor.com##.linkbox:upward(4)
 chetor.com#@#.ads-block
@@ -989,7 +989,6 @@ download1music.ir##section li:not(:has([href^="https://download1music.ir/"]))
 download1music.ir##.d1yekta
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-||digiro.ir/wp-content/uploads/*.gif
 digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
 digiro.ir##.uizv
 digiro.ir##.texttab
@@ -1003,7 +1002,6 @@ digiro.ir##.main-term-3705
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131661
 ||dlfox.com/wp-admin/admin-ajax.php?action=adwised
-||cdn.dlfox.com/wp-content/uploads/*.gif
 .gif^$image,domain=dlfox.com
 dlfox.com##a[href*="gameriver.ir"]
 dlfox.com##a[href*="dlfox.com/adspage"] > img
@@ -1282,8 +1280,6 @@ farsifilm.ir##.aside-inner > .widget-sidebar > .title:has-text(/بنر شمار�
 
 filmino.me##.flex-ad-body
 
-||filmin.info/wp-content/uploads/*.gif
-
 ||20file.org/script/p2.js^
 ||cdn.jsdelivr.net^$domain=20file.org
 20file.org##.container55
@@ -1410,7 +1406,6 @@ fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
 ! https://github.com/MasterKia/PersianBlocker/issues/151
-||gahar.ir/wp-content/uploads/*.gif$image,1p
 gahar.ir##.post-ad-box
 gahar.ir##.text-ads
 
@@ -1424,9 +1419,6 @@ gharbtv.com##.bottom-ads
 7ganj.ir#@#.herald-ad
 7ganj.ir##.herald-ad:not(:has(a[href*="kurdsoft"])):not(:has(a[href*="7ganj.ir"]))
 7ganj.ir##.herald-sidebar .widget:has(.widget-title:has-text(تبلیغات)) p:not(:has(a[href*="kurdsoft"])):not(:has(a[href*="7ganj.ir"]))
-
-! https://github.com/MasterKia/PersianBlocker/issues/67
-||ghatar.com/wp-content/uploads/*.gif
 
 ||getandroid.ir/Files/js/landinga.js
 
@@ -1649,7 +1641,6 @@ irannaz.com##div.CBS.CenterBlock:nth-of-type(5)
 irannaz.com##div.CBS.CenterBlock:nth-of-type(6)
 
 ||itresan.com/wp-content/cache/busting^
-||itresan.com/wp-content/uploads/*.gif
 itresan.com###NR-Ads
 itresan.com##.listing-item-blog:has(a[href*="/author/ads/"])
 
@@ -1705,9 +1696,6 @@ jafekri.com##style:has-text(@media print):remove()
 ||podbean.com/player^$xhr,removeparam=referrer
 ||podbean.com/pb^$media,removeparam=pbss
 podbean.com##.download-dialog
-
-! https://github.com/MasterKia/PersianBlocker/issues/128
-||jobsacademy.ir/wp-content/uploads/*.gif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/61
 ||dummyimage.com^$domain=jahaneghtesad.com
@@ -1818,7 +1806,6 @@ konkur.in###mobileBottomAd
 !#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/32
-||konkur.info/wp-content/uploads/*.gif
 konkur.info##.size-large.attachment-large
 konkur.info##.elementor-element-d41b3d1
 konkur.info##.adsside
@@ -1926,7 +1913,6 @@ k2cod.com###table10
 
 ! >> L <<
 ! https://github.com/MasterKia/PersianBlocker/issues/147
-||learnparsi.com/wp-content/uploads/*.gif$image,1p
 learnparsi.com##a[href^="https://bit.ly/"]
 
 lordroid.com##.lnk > center > a > img[alt="ADS"]:upward(center)
@@ -1978,7 +1964,6 @@ my.mci.ir,pwa.mci.ir##+js(set, navigator.appName, '')
 ||mihanvideo.com/log^$xhr,1p
 mihanvideo.com##.side-ads
 
-||movienama.com/wp-content/uploads/*.gif$image
 movienama.com##.opanel-ads
 
 ! https://github.com/MasterKia/PersianBlocker/issues/108
@@ -1991,7 +1976,6 @@ minevisam.com##.srjtbaungo
 ||affiliate.malltina.com^$all
 ||sentry.malltina.com^$all
 
-||mihand.ir/wp-content/uploads/*.gif
 mihand.ir##.entry:has(.title:has-text(تبلیغات))
 mihand.ir##.text-ads
 
@@ -2002,7 +1986,6 @@ moviemag.ir##.banneritem:has(a[href*="/banners/click/"])
 moviemag.ir##.eb-inst
 
 ! https://github.com/MasterKia/PersianBlocker/issues/79
-||modirnameh.ir/wp-content/uploads/*.gif
 modirnameh.ir##.sezfvg
 modirnameh.ir###sezfvg-2
 modirnameh.ir##.sticky-column:not(:has(a[href*="modirnameh.ir"]))
@@ -2179,7 +2162,6 @@ netnevesht.com#@#.widget-ad
 nicmusic.net#@#.boxads
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-||netpaak.com/wp-content/uploads/*.gif
 netpaak.com##.stream-item-above-post
 netpaak.com##.stream-item-widget
 netpaak.com###text-5
@@ -2246,12 +2228,9 @@ plaza.ir##.post > .post__content > .post__category:has-text(رپورتاژ آگ�
 plaza.ir#@#.ad__header
 
 ! https://github.com/MasterKia/PersianBlocker/issues/103
-||par30media.com/wp-content/uploads/*.gif
 par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مفید):upward(aside)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/105
-||parsfootball.com/wp-content/uploads/*.gif$image,1p
-||parsfootball.com/na/wp-content/uploads/*.gif$image,1p
 parsfootball.com###ads-120
 parsfootball.com##.block-ads
 parsfootball.com##.block-ads2
@@ -2276,7 +2255,6 @@ parsroid.net##.my-single-t-p
 ||parsaspace.com/Content/new/js/analytics.js^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/45
-||pezeshket.com/wp-content/uploads/*.gif
 pezeshket.com###stream-item-widget-3
 pezeshket.com##.dialog-lightbox-message
 pezeshket.com#@#.widget-ad-image
@@ -2294,7 +2272,6 @@ pichak.net##center:nth-of-type(2) > center
 pichak.net##body > div > font
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-||p30konkor.com/wp-content/uploads/*.gif
 p30konkor.com###header-ad1
 p30konkor.com###p30konkor-ads-p div:has(p > a[rel]):not(:has(a[href*="p30konkor.com"]))
 p30konkor.com###p30konkor-ads-p a[rel="follow"]
@@ -2367,7 +2344,6 @@ pgnews.ir##div > div > a.toolt > .onsc
 ! TODO: Modify pgnews.ir/templates/ainews/jquery-1.11.0.min.js to block ads
 
 ! https://github.com/MasterKia/PersianBlocker/issues/13
-||pedal.ir/wp-content/uploads/*.gif
 pedal.ir##.stream-item-top
 pedal.ir##.widget_custom_html:has(img[src*=".gif"])
 pedal.ir###custom_html-108
@@ -2724,7 +2700,6 @@ subf2m.ir##.news-box
 subf2m.ir##.widgets.bg-custom.box
 
 ||softsaaz.ir/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js
-||softsaaz.ir/wp-content/uploads/*.gif
 softsaaz.ir##.stream-item
 
 skinak.ir##+js(nostif, show_modal)
@@ -2782,7 +2757,6 @@ salamdl.rip##.hidden-xs.hidden-sm.block
 ||media.salamatnews.com/d/*.gif?
 
 ||sakhtafzar.com/wp-json/wpstatistics/
-||sakhtafzar.com/wp-content/uploads/*.gif
 sakhtafzar.com##.bannersHome
 
 ! ||safarme.ir/Files/SystemFiles/Templates/Portal/*/Scripts/newpages.j
@@ -2917,9 +2891,6 @@ techfars.com##.right-ads
 techfars.com##.left-ads
 techfars.com##:not(:matches-path(/category/website/reportage/)) .box:has-text(رپورتاژ آگهی)
 
-! https://github.com/MasterKia/PersianBlocker/issues/127
-||technet24.ir/wp-content/uploads/*.gif
-
 takblog.net###popbox-blackout
 takblog.net###box_1398
 
@@ -2947,7 +2918,6 @@ trainbit.com##+js(nano-stb, , , 0)
 ||tafrihi.com/wp-content/plugins/simple-ads
 
 ! https://github.com/MasterKia/PersianBlocker/issues/132
-||techrato.com/wp-content/uploads/*.gif$image,1p
 techrato.com##.tab-cpc
 techrato.com##.tab-dpd-post
 techrato.com##div[class^="ads"]
