@@ -1461,16 +1461,10 @@ gsm.ir##[href^="/ads/"]
 gsm.ir##.sidebar_tabliq
 
 ! https://github.com/MasterKia/PersianBlocker/issues/8
-||gamefa.com/wp-content/uploads/*/*.gif
-||gamefa.com/wp-content/uploads/*/ad
-||gamefa.com/wp-content/uploads/*/gamefabanner
-||gamefa.com/wp-content/uploads/*/banner
 gamefa.com##.baners
 gamefa.com###image-advertise
-gamefa.com##.fix-ads
-gamefa.com##.single-advertise:nth-of-type(3)
-gamefa.com###fix-advertise
-! TODO: Remove ".fix-ads"
+gamefa.com##.content-ads
+gamefa.com##.single-advertise > a > img:upward(.single-advertise)
 
 ||ghatreh.com/ads^
 ||ghatreh.com/skins/default/js/najva.js^
