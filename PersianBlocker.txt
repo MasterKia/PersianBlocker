@@ -1409,6 +1409,11 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+! https://github.com/MasterKia/PersianBlocker/issues/151
+||gahar.ir/wp-content/uploads/*.gif$image,1p
+gahar.ir##.post-ad-box
+gahar.ir##.text-ads
+
 gharbtv.com##.card-ads
 gharbtv.com##.bottom-ads
 
