@@ -517,6 +517,11 @@ logo.samandehi.ir##^responseheader(set-cookie)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://github.com/MasterKia/PersianBlocker/issues/152
+anzalweb.ir##.ads-side
+anzalweb.ir##aside > div > span > a.ani[target="_blank"][title]:upward(div)
+anzalweb.ir##:not(:matches-path(/category/%D8%B1%D9%BE%D8%B1%D8%AA%D8%A7%DA%98)) article > footer > span.post-meta-cat:has-text(رپرتاژ):upward(article)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/144
 alldriver.ir###kaprila_linktable
 alldriver.ir###popular
