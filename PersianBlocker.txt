@@ -12,7 +12,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|pezeshket.com|p30konkor.com|sakhtafzar.com|techrato.com
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|sakhtafzar.com|techrato.com
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
@@ -2254,11 +2254,9 @@ parsroid.net##.my-single-t-p
 ||parsaspace.com/Content/new/js/analytics.js^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/45
-pezeshket.com###stream-item-widget-3
-pezeshket.com##.dialog-lightbox-message
-pezeshket.com#@#.widget-ad-image
-pezeshket.com#@#.stream-item-widget
-@@||pezeshket.com/wp-content/uploads/2022/07/%D9%BE%D8%B1%D8%B3%D8%B4-%D9%88-%D9%BE%D8%A7%D8%B3%D8%AE.gif
+pezeshket.com##div[class] > a > img#adinmag1:upward(div[class])
+pezeshket.com##.code-block-7 > p:has-text(مطالب پیشنهادی):upward(.code-block-7)
+pezeshket.com##.dialog-lightbox-widget-content a[href*="i.y3t.ir"]:upward(.dialog-lightbox-widget-content)
 
 ||pichak.net/nohe/amar.js
 ||pichak.net/ads/
