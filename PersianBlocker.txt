@@ -2508,12 +2508,11 @@ sobhtazeh.news##.zxc
 sobhtazeh.news##.vebgardi
 
 ! https://github.com/MasterKia/PersianBlocker/issues/126
-||shabakeh-mag.com/sites/default/files/images/body/*.gif
-||shabakeh-mag.com/sites/default/files/styles/shabake2_popular/public/images/ad^
-||shabakeh-mag.com/modules/statistics^
+||shabakeh-mag.com/sites/default/files/*.gif^$image,1p
+||shabakeh-mag.com/sites/default/files/styles/shabake2_popular/public/images/ad^$image,1p
+||shabakeh-mag.com/modules/statistics/statistics.php^$xhr,1p
 shabakeh-mag.com##.popup-box-wrapper
-shabakeh-mag.com##.ads:not(:has(a[href*="shabakeh-mag.com"]))
-shabakeh-mag.com###block-views-ad-link-block-1
+shabakeh-mag.com##.ads
 shabakeh-mag.com###block-views-shabake2-clone-of-ad-link-block
 shabakeh-mag.com###block-views-ad-link-block-2
 shabakeh-mag.com##.field-name-ads-under-summery
