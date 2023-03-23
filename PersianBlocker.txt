@@ -11,7 +11,8 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
-/wp-content/uploads/*.gif^$image,1p,domain=bazdeh.org|charbzaban.com|chetor.com|digiro.ir|dlfox.com|filmin.info|gahar.ir|ghatar.com|itresan.com|jobsacademy.ir|konkur.info|learnparsi.com|movienama.com|mihand.ir|modirnameh.ir|netpaak.com|parsfootball.com|pezeshket.com|p30konkor.com|pedal.ir|softsaaz.ir|sakhtafzar.com|technet24.ir|techrato.com
+! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|pezeshket.com|p30konkor.com|sakhtafzar.com|techrato.com
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
