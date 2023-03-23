@@ -320,6 +320,8 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||rzb.ir/code/popup^
 
 ! >> S <<
+||spellads.com^$all
+
 ||offers.sapra.ir^$all
 ! Example: gapfilm.ir
 
@@ -2215,6 +2217,8 @@ opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+phonroid.ir##.dlbtnhidden
+
 ! https://github.com/MasterKia/PersianBlocker/issues/139
 ||peivast.com/wp-content/uploads/*.webm$media,1p
 peivast.com##.multi-ads-container
