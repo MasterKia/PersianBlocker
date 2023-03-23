@@ -15,7 +15,7 @@
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
-||websocket.*/?u=*&s=$websocket,1p
+||websocket.*/?u=*&s=$websocket,1p,strict3p
 
 ! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
 !! mybia4music.com, my-film.pw, pedal.ir, vgdl.ir, sakhamusic.ir, avaz-kurd.ir, songestan1.xyz, deltapayam.com, 
