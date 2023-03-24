@@ -34,15 +34,12 @@
 ||logo.samandehi.ir^$3p
 ||trustseal.enamad.ir^$3p
 
-! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_application_spam_on_mobile
+! https://reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_application_spam_on_mobile
 !#if env_mobile
 www.reddit.com##+js(aeld, touchmove)
 www.reddit.com##body:style(pointer-events: auto !important;)
 www.reddit.com##body.scroll-disabled:style(overflow: visible !important; position: static !important;)
 www.reddit.com##body.scroll-is-blocked:style(overflow: visible !important; position: static !important;)
-www.reddit.com##^xpromo-nsfw-blocking-modal
-www.reddit.com##div.prompt
-www.reddit.com##img[id="post-image"]:style(object-fit: fill !important;)
 www.reddit.com##xpromo-app-selector
 www.reddit.com##xpromo-new-app-selector
 www.reddit.com##.XPromoPopup
@@ -53,4 +50,10 @@ www.reddit.com##.bottom-bar, .XPromoBottomBar
 www.reddit.com##.useApp,.TopNav__promoButton
 amp.reddit.com##.upsell_banner
 amp.reddit.com##.AppSelectorModal__body
+www.reddit.com##^xpromo-nsfw-blocking-modal
+www.reddit.com##div.prompt
+www.reddit.com##img[id="post-image"]:style(object-fit: fill !important;)
 !#endif
+
+! https://stallman.org/facebook.html
+||facebook.com^$3p
