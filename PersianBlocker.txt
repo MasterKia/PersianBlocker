@@ -344,6 +344,8 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ! ^ Used by kojaro.com
 
 ||sabavision.com^$all
+||sabaidea.cloud^$all
+
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
@@ -645,18 +647,17 @@ androidgozar.com##.post-sticky:upward(.row)
 androidgozar.com##.ag-agah
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
-||aparat.com^$removeparam=/^utm_/
-||aparat.com^$removeparam=referer
-||dsp.aparat.com/*/dsp/bid?ads_type
-||aparat.com/static/vendor/dox
-||aparat.com/agf
-||aparat.com/external/romeo^
-aparat.com##.side-ads
-aparat.com###sideAds
-aparat.com##.ad-link
-aparat.com##.ad-banner
+||dsp.aparat.com^$all
+||static.cdn.asset.aparat.com/agf-file^$image,1p
+||aparat.com/external/romeo^$xhr
+||aparat.com/static/vendor/dox$script,css
+||aparat.com^$xhr,removeparam=referer
+aparat.com##.announce
+aparat.com##header:style(position: absolute !important;)
+aparat.com##div[type="aparat"]:has(> .link)
 aparat.com##.dsp-ad
-aparat.com##.video-list-wrapper.list-responsive:has(.ad)
+aparat.com##.side-ads
+aparat.com##.promote-puls
 ! TODO: Check for more possible filters
 
 ||aftabir.com/uploads/banners^
