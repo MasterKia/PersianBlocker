@@ -1,8 +1,8 @@
 [AdBlock]
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-# Expires: 5 day
-# Last modified: 2022-03-11
+# Expires: 7 day
+# Last modified: 2022-03-25
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -215,6 +215,7 @@ ads.safarme.ir
 # ^ Used by kojaro.com
 
 sabavision.com
+sabaidea.cloud
 
 # >> T <<
 trustseal.e-rasaneh.ir
