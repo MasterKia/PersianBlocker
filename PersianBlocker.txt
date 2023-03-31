@@ -182,6 +182,7 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ! ^ Used by Digiato, Vigiato, Rooziato
 
 ! >> E <<
+trustseal.enamad.ir##^responseheader(set-cookie)
 !#if adguard
 ||trustseal.enamad.ir^$third-party,cookie
 !#endif
@@ -349,8 +350,11 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
-||trustseal.e-rasaneh.ir^$all
-! Example: anaj.ir
+||trustseal.e-rasaneh.ir^$all,domain=~anaj.ir|~salamatnews.com
+trustseal.e-rasaneh.ir##^responseheader(set-cookie)
+anaj.ir,salamatnews.com##+js(set, jscd, {})
+anaj.ir,salamatnews.com##+js(set, document.URL, undefined)
+anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 
 ||triboon.net^$all
 
