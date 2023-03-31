@@ -2598,15 +2598,19 @@ sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
 
 ! https://github.com/MasterKia/PersianBlocker/commit/b1113d568e008e898fe79226bc0c6e2dc82eaadd
+! https://github.com/MasterKia/PersianBlocker/issues/155
 ||shomanews.com/box.php^$3p
-||shomanews.com/player/vastlink.js^
-||shomanews.com/player/vast.js^
-||shomanews.com/rss-rasa.php^
-shomanews.com##.mnb
+||cdn.shomanews.com/servev2/*.gif$image,1p
+||shomanews.com/rss-rasa.php^$xhr,1p
+||shomanews.com/rss-files.php^$xhr,1p
+||shomanews.com/player/vastlink.js^$script,1p
+||shomanews.com/player/vast.js^$script,1p
+shomanews.com##.mnb_wrapper
 shomanews.com##.mauto_div
-shomanews.com##.generalBoxStyle:has-text(تبلیغات متنی)
-shomanews.com##.mt16:has(span:has-text(از دست ندهید))
-shomanews.com##.noagahi:not(:has(a[itemprop="url"]))
+shomanews.com###inline_agahi_z0
+shomanews.com##.generalBoxStyle[data-element-name="FRONT_M"]
+shomanews.com##.generalBoxStyle[data-element-name="SHARE_NEWS"]
+shomanews.com##.noagahi.otherMedia
 shomanews.com##.row_one_content:style(width: 100% !important;)
 
 ||stnews.ir/ads/
