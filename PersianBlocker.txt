@@ -1792,22 +1792,15 @@ khabareazad.com##[class^="zxc"]
 khabareazad.com##.sticky_notify
 
 ! https://github.com/MasterKia/PersianBlocker/issues/33
-||konkur.in/image/ads/
-@@||dl.konkur.in/image/ads/gold.png$image,1p
-konkur.in###HeaderImg
-konkur.in##[id^="tabligh"]
-konkur.in##.sidebar-taliq:style(visibility: hidden !important;)
-konkur.in##.text-center:has-text(پست تبلیغاتی):upward(3)
-konkur.in##.tabliqat-text
-konkur.in##.m-top10:has-text(تبلیغات)
-!#if env_mobile
-konkur.in##.vvv
-konkur.in###mobileBottomAd
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
-konkur.in##.vvv
-konkur.in###mobileBottomAd
-!#endif
+.gif^$image,3p,domain=konkur.in
+||dl.konkur.in/image/ads^$image,1p
+||konkur.in/wp-json/wpstatistics^$xhr,1p
+konkur.in##.part-content-wordpres > .title-section:has-text(پست تبلیغاتی):upward(.part-content-wordpres)
+konkur.in##.small-tab-news > .sidebar-news > ul:has-text(تبلیغات متنی):upward(.small-tab-news)
+konkur.in##section.tabliqat-text > header:has-text(تبلیغات متنی):upward(section.tabliqat-text)
+@@||dl.konkur.in/image/ads/G-logo.jpg^$image,1p
+@@||dl.konkur.in/image/ads/Tlogo.png^$image,1p
+@@||dl.konkur.in/image/ads/gold.png^$image,1p
 
 ! https://github.com/MasterKia/PersianBlocker/issues/32
 konkur.info##.size-large.attachment-large
