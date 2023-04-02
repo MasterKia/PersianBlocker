@@ -537,9 +537,6 @@ androidparsi.ir##^script:has-text(vc_url)
 !#if !cap_html_filtering
 androidparsi.ir##+js(acis, vc_url)
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-androidparsi.ir##+js(acis, vc_url)
-!#endif
 androidparsi.ir##.app_ads_banner
 
 avaz-kurd.ir##.page-body > .post:not(article) > .yn-bnr:empty:upward(.post)
@@ -729,9 +726,6 @@ bandmoviez.one##^script:has-text(protoUrl)
 !#if !cap_html_filtering
 bandmoviez.one##+js(acis, document.onclick, checkCookie)
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-bandmoviez.one##+js(acis, document.onclick, checkCookie)
-!#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/98
 bikarsho.ir##.stream-item
@@ -787,9 +781,6 @@ bartarinha.ir##.others_web
 !#if env_mobile
 bartarinha.ir##.fixed_adv_mob
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-bartarinha.ir##.fixed_adv_mob
-!#endif
 
 ||barato.ir/wp-content/*/ad/
 barato.ir###featured > .owl-stage-outer
@@ -813,11 +804,6 @@ borna.news##[href^="/advertisements/"]
 borna.news##.side_adv
 borna.news##.webgardi
 !#if !env_mobile
-borna.news##.cols_cnt:style(max-width: 95% !important;)
-borna.news##.first_col, .n_first_col:style(width: 70% !important;)
-borna.news##.second_col, .n_second_col:style(width: 30% !important;)
-!#endif
-!#if (!adguard_app_android && !adguard_app_ios)
 borna.news##.cols_cnt:style(max-width: 95% !important;)
 borna.news##.first_col, .n_first_col:style(width: 70% !important;)
 borna.news##.second_col, .n_second_col:style(width: 30% !important;)
@@ -871,9 +857,6 @@ charbzaban.com##figcaption
 !#if env_mobile
 charbzaban.com##.at_bottom
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-charbzaban.com##.at_bottom
-!#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/35
 chetor.com###custom_html-51
@@ -891,11 +874,6 @@ coffeeapps.ir##^script[id^="wpcp_"]
 coffeeapps.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
 coffeeapps.ir##^style:has-text(@media print)
 !#if !cap_html_filtering
-coffeeapps.ir##+js(aopr, nocontext)
-coffeeapps.ir##+js(acis, disableSelection, reEnable)
-coffeeapps.ir##style:has-text(@media print):remove()
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 coffeeapps.ir##+js(aopr, nocontext)
 coffeeapps.ir##+js(acis, disableSelection, reEnable)
 coffeeapps.ir##style:has-text(@media print):remove()
@@ -940,9 +918,6 @@ dailymobile.ir##^script:has-text(vc_url)
 !#if !cap_html_filtering
 dailymobile.ir##+js(acis, vc_url)
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-dailymobile.ir##+js(acis, vc_url)
-!#endif
 ||parsaspace.com^$image,3p,domain=dailymobile.ir
 dailymobile.ir##.adsboxfix
 dailymobile.ir##div[style*="position: fixed; right: 0px; bottom: 0px;"]:has(> .close-fixedSd)
@@ -974,9 +949,6 @@ darooyab.ir###rightPanelContent > div > .a_class1:not(.a_class1[href*="darooyab.
 !#if env_mobile
 darooyab.ir##.DivContent_BottomOfPageAdvertising
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-darooyab.ir##.DivContent_BottomOfPageAdvertising
-!#endif
 
 ||ta.dideo.ir/ad^
 
@@ -1003,9 +975,6 @@ digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
 digiro.ir##.uizv
 digiro.ir##.texttab
 !#if env_mobile
-digiro.ir##.main-term-3705
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 digiro.ir##.main-term-3705
 !#endif
 
@@ -1101,9 +1070,6 @@ digiato.com##.homeMainBanner
 !#if env_mobile
 digiato.com##.digiBannerMobile
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-digiato.com##.digiBannerMobile
-!#endif
 digiato.com##.todaysNewsList__sidebar
 digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی)).rowList > li:has(a[href*="/promoted/"])
@@ -1127,10 +1093,6 @@ digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward([class^="product-list"])
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
 !#if env_mobile
-digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
-digikala.com##[class*="BaseLayoutStaticFooterAppInstall"]
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="BaseLayoutStaticFooterAppInstall"]
 !#endif
@@ -1255,9 +1217,6 @@ eghtesadonline.com##.talfighat-BS
 eghtesadonline.com##.shopping_list
 eghtesadonline.com##.backlink
 !#if !env_mobile
-eghtesadonline.com##.right-news-wrap:style(width: 100% !important;)
-!#endif
-!#if (!adguard_app_android && !adguard_app_ios)
 eghtesadonline.com##.right-news-wrap:style(width: 100% !important;)
 !#endif
 
@@ -1450,12 +1409,6 @@ gostaresh.news##.right_col:style(width: 95% !important;)
 gostaresh.news##.page_first_clm:style(width: 70% !important;)
 gostaresh.news##.page_second_clm:style(width: 30% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-gostaresh.news##.main_wrapper:style(max-width: 95% !important;)
-gostaresh.news##.right_col:style(width: 95% !important;)
-gostaresh.news##.page_first_clm:style(width: 70% !important;)
-gostaresh.news##.page_second_clm:style(width: 30% !important;)
-!#endif
 
 gamesib.ir###next1-231
 gamesib.ir##.asd_top
@@ -1508,9 +1461,6 @@ gadgetnews.net##.widget_text
 gadgetnews.net##.ads-post
 gadgetnews.net###ad14
 !#if env_mobile
-gadgetnews.net##.sticky-ad
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 gadgetnews.net##.sticky-ad
 !#endif
 
@@ -1656,14 +1606,7 @@ ilna.ir##.zxc
 ilna.ir##.xcon12:style(margin: auto !important;)
 ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-ilna.ir##.xcon12:style(margin: auto !important;)
-ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
-!#endif
 !#if env_mobile
-ilna.ir##.zxc-mobile
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 ilna.ir##.zxc-mobile
 !#endif
 
@@ -1711,9 +1654,6 @@ jeyran.net##+js(acis, document.oncontextmenu)
 jeyran.net##.content_item:has(a[href*="/category/ads/"])
 jeyran.net##.sidebar-area .image
 !#if !env_mobile
-jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
-!#endif
-!#if (!adguard_app_android && !adguard_app_ios)
 jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
 !#endif
 
@@ -1782,10 +1722,6 @@ khaandaniha.ir###textads-contents
 khaandaniha.ir##.col-md-21:style(width: 70% !important;)
 khaandaniha.ir##.col-md-9:style(width: 30% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-khaandaniha.ir##.col-md-21:style(width: 70% !important;)
-khaandaniha.ir##.col-md-9:style(width: 30% !important;)
-!#endif
 
 ||khabareazad.com/aec.min.js^
 khabareazad.com##[class^="zxc"]
@@ -1846,10 +1782,6 @@ kojaro.com##.homepage-content
 kojaro.com##.mobileBanner
 kojaro.com##.article-mobile-inContent
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-kojaro.com##.mobileBanner
-kojaro.com##.article-mobile-inContent
-!#endif
 @@||images.kojaro.com/assets/ad/advertise-$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
@@ -1866,15 +1798,7 @@ khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !impor
 khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
 khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !important;)
-khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
-khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
-!#endif
 !#if env_mobile
-khabaronline.ir###ads-container:has-text(خواندنی ها)
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 khabaronline.ir###ads-container:has-text(خواندنی ها)
 !#endif
 
@@ -1946,9 +1870,6 @@ musickhone.com##^script:has-text(window.open)
 !#if !cap_html_filtering
 musickhone.com##+js(nowoif)
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-musickhone.com##+js(nowoif)
-!#endif
 
 my.mci.ir,pwa.mci.ir##+js(set, window.screen.width, 0)
 my.mci.ir,pwa.mci.ir##+js(set, window.screen.height, 0)
@@ -1995,14 +1916,7 @@ mosalasonline.com##.sticky_notify
 !#if env_mobile
 mosalasonline.com##.mobile-visible-fixed
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-mosalasonline.com##.mobile-visible-fixed
-!#endif
 !#if !env_mobile
-mosalasonline.com##.news-col-1:style(width: 70% !important;)
-mosalasonline.com##.news-col-2:style(width: 30% !important;)
-!#endif
-!#if (!adguard_app_android && !adguard_app_ios)
 mosalasonline.com##.news-col-1:style(width: 70% !important;)
 mosalasonline.com##.news-col-2:style(width: 30% !important;)
 !#endif
@@ -2035,9 +1949,6 @@ msbmusic.ir##+js(set, needpop, 0)
 
 mybia4music.com##^script:has-text(pa_vc_url)
 !#if !cap_html_filtering
-mybia4music.com##+js(acis, pa_vc_url)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 mybia4music.com##+js(acis, pa_vc_url)
 !#endif
 mybia4music.com##.ads-banner
@@ -2129,13 +2040,7 @@ niniban.com##.padding_news_right_adv, .padd-news-advertise
 !#if !env_mobile
 niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
-!#endif
 !#if env_mobile
-niniban.com##.instant_news_2
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 niniban.com##.instant_news_2
 !#endif
 
@@ -2218,9 +2123,6 @@ public-psychology.ir##^script[src^="data:text/javascript;base64,ZG9jdW"][src$="h
 !#if !cap_html_filtering
 public-psychology.ir##+js(acis, document.oncontextmenu, , /^data:/)
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-public-psychology.ir##+js(acis, document.oncontextmenu, , /^data:/)
-!#endif
 public-psychology.ir##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 phonroid.ir##.dlbtnhidden
@@ -2248,9 +2150,6 @@ parsfootball.com#@#.navad
 
 power-music.ir##^script:has-text(window.open)
 !#if !cap_html_filtering
-power-music.ir##+js(nowoif)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 power-music.ir##+js(nowoif)
 !#endif
 ||spotyfile.com^$domain=power-music.ir
@@ -2285,9 +2184,6 @@ p30konkor.com###p30konkor-ads-p a[rel="follow"]
 p30konkor.com##.widget:has(.h-text:has-text(لینک های پیشنهادی))
 p30konkor.com##.vc_col-sm-4:style(width: 100% !important;)
 !#if env_mobile
-p30konkor.com###parandeh-b2
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 p30konkor.com###parandeh-b2
 !#endif
 
@@ -2364,9 +2260,6 @@ patoghu.com##.tabd
 !#if env_mobile
 patoghu.com##.cntmobad
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-patoghu.com##.cntmobad
-!#endif
 
 parstools.com##.widget_whmcs_ads_widget.widget
 parstools.com##.wpb_content_element.sidebar.wpb_widgetised_column
@@ -2390,9 +2283,6 @@ par30games.net##.fixedbanner
 par30games.net##.sidebar-box-shop
 par30games.net##.ads
 !#if env_mobile
-par30games.net##.mobilebanner
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 par30games.net##.mobilebanner
 !#endif
 @@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p
@@ -2441,9 +2331,6 @@ rouydad24.ir##.tabligh-logo
 !#if !env_mobile
 rouydad24.ir##.container, .main:style(width: 95% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-rouydad24.ir##.container, .main:style(width: 95% !important;)
-!#endif
 
 ||rizy.ir/img/*.gif
 
@@ -2475,10 +2362,6 @@ rokna.net##.box-doc > .documentary-news-cnt > header:has-text(بازرگانی):
 rokna.net##.various-cnt > header:has-text(بازرگانی):upward(.various-cnt)
 rokna.net##.news-col-1 #rssbank:upward(.container)
 !#if env_mobile
-rokna.net##.top_fixed_mob:remove()
-rokna.net##.zxc_c9
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 rokna.net##.top_fixed_mob:remove()
 rokna.net##.zxc_c9
 !#endif
@@ -2567,10 +2450,6 @@ setare.com##.cyt-ad-content
 shomavaeghtesad.com##.zxc
 shomavaeghtesad.com##.adv
 !#if !env_mobile 
-shomavaeghtesad.com##.column_1:style(width: 70% !important;)
-shomavaeghtesad.com##.column_2:style(width: 30% !important;)
-!#endif
-!#if (!adguard_app_android && !adguard_app_ios)
 shomavaeghtesad.com##.column_1:style(width: 70% !important;)
 shomavaeghtesad.com##.column_2:style(width: 30% !important;)
 !#endif
@@ -2748,11 +2627,6 @@ shahrsakhtafzar.com###logoads
 shahrsakhtafzar.com##.ads2colmobile
 shahrsakhtafzar.com##.mobile-fix-bottom
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-shahrsakhtafzar.com###logoads
-shahrsakhtafzar.com##.ads2colmobile
-shahrsakhtafzar.com##.mobile-fix-bottom
-!#endif
 
 sakhtafzar.com#@#.ads-title
 sakhtafzar.com#@#.ads-content
@@ -2806,9 +2680,6 @@ tak3da.com##.adss
 
 tarfandha.org##^script:has-text(vc_url)
 !#if !cap_html_filtering
-tarfandha.org##+js(acis, vc_url)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 tarfandha.org##+js(acis, vc_url)
 !#endif
 tarfandha.org##.textads
@@ -2875,11 +2746,6 @@ technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 
 ! ^ Causes infinite loading
 torob.com##.seller-element.shop-card:has(.click_vijhe)
 !#if env_mobile
-torob.com##.sellers_section:not(:has(.modal-header)) > div > div:has(.click_vijhe)
-torob.com##.sellers_section > div > div > div > div > div > div > div:has(.click_vijhe)
-torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 torob.com##.sellers_section:not(:has(.modal-header)) > div > div:has(.click_vijhe)
 torob.com##.sellers_section > div > div > div > div > div > div > div:has(.click_vijhe)
 torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
@@ -3020,9 +2886,6 @@ tinn.ir##.type-resource-image
 ||api.tgju.org/v1/advertisement^$xhr,1p
 tgju.org##^script:has-text(ad.setAttribute)
 !#if !cap_html_filtering
-tgju.org##+js(acis, document.getElementById, ad)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
 tgju.org##+js(acis, document.getElementById, ad)
 !#endif
 tgju.org##.advertise
@@ -3243,10 +3106,6 @@ xip.li##.form-inline:others()
 yektapress.com##.col-2:style(width: 60% !important;)
 yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
 !#endif
-!#if (!adguard_app_android && !adguard_app_ios)
-yektapress.com##.col-2:style(width: 60% !important;)
-yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
-!#endif
 
 ||yektablog.net/js/adjs.php
 yektablog.net###popbox-blackout
@@ -3280,9 +3139,6 @@ zibamoon.com##.LeftSide > .TableOfContent > div[style="text-align:center;"]:has-
 !#if env_mobile
 zibamoon.com##.MobileBannerArea
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-zibamoon.com##.MobileBannerArea
-!#endif
 
 zohur12.ir##.sideads
 
@@ -3292,20 +3148,14 @@ zohur12.ir##.sideads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110569
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 zoomg.ir##^script:has-text(bannersAsJson)
-!#if !cap_html_filtering
+! !#if !cap_html_filtering
 zoomg.ir##+js(aopr, banner)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-zoomg.ir##+js(aopr, banner)
-!#endif
+! !#endif
 ||zoomg.ir/common/visitcount^$xhr,1p
 ||cdn.zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg$image,1p
 zoomg.ir##.main-top-ads
 zoomg.ir##.wide-ad-row
 !#if env_mobile
-zoomg.ir###mobileBannerAfterTags
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 zoomg.ir###mobileBannerAfterTags
 !#endif
 @@||cdn.zoomg.ir/banners/demo/advertise-zoomg.jpg$image,1p
@@ -3315,12 +3165,9 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 zoomit.ir##^script:has-text(bannersAsJson)
-!#if !cap_html_filtering
+! !#if !cap_html_filtering
 zoomit.ir##+js(aopr, banner)
-!#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
-zoomit.ir##+js(aopr, banner)
-!#endif
+! !#endif
 zoomit.ir##+js(no-xhr-if, /ads|visit/)
 ||api2.zoomit.ir/ads^$all
 ||api2.zoomit.ir/editorial/api/groupings/visit^$all
@@ -3332,9 +3179,6 @@ zoomit.ir##[class*="BrowseArticleItem___StyledFlex"]:has(a[href*="/pr/"])
 zoomit.ir##[class*="SupporterText"]:upward([class^="col__Col"])
 zoomit.ir##footer a[href*="parspack.com?utm_source=zoomit"]:upward(.col-sm-5)
 !#if env_mobile
-zoomit.ir##.price-sticky
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 zoomit.ir##.price-sticky
 !#endif
 
@@ -3593,87 +3437,6 @@ www.google.com##.g a[href*="zinofilm.ir"]> h3::after:style(content: ' [دارا�
 www.google.com##.g a[href*="glp.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="hastidl.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#if env_mobile
-www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="uptvs.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="netpaak.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hexdownload.co"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filimserial.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="gapfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filimo.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="cooldl.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="naabmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="upera.tv"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="upera.shop"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="namava.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="sorenmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="pishgammovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="marzfun.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="par30media.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="sansorha.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="karanmovie.org"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="film2irani.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="cinemayek.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="ponoco.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="roozdl1.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="gharbtv.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="film2serial.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="irantv.me"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hetfilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filmin.info"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="emimovie.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hivamovie.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="ir-dl.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="nama.tv"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="far30dl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hamtamovie.us"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="donyamovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="balamovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="tikfilm.co"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="fastmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="vipofilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="bossfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="movienama.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="film2movie.asia"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="serialfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="yoozdl.top"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="skymovies.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filmino.me"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filmeno.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="tizmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="dlpersian.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="jaheshtv.org"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="montmovie.co"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hamrahmoviez.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="plus.telewebion.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filmnet.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="funofilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="wilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="upmedia.movie"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="modernfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="movineh.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="niikidaily.info"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="dlrozaneh.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="farsifilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="movielandz.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="mer30download.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filmsky.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="nilz.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="lovinfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="centerdl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="fardisfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="tvrooz.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="bi3-seda.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="disfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="myavanet.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="jaheshmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="farafilm.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="parsafilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="zinofilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="glp.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hastidl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-!#endif
-!#if (adguard_app_android || adguard_app_ios)
 www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="uptvs.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
