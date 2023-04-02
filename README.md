@@ -8,9 +8,7 @@
 
 این لیست جزو لیست های پیش‌فرض افزونه **uBlock Origin** و **AdGuard** می‌باشد.
 
-## ~برای حذف تبلیغات سافت98 [اینجا کلیک کنید](https://github.com/MasterKia/PersianBlocker/issues/40)~
-
-اگر کسی به جاوااسکریپت تسلط داره و مایل به نوشتن یک Userscript برای خنثی کردنِ ضدمسدودساز سافت۹۸ هست، توی گروه تلگرام  به من اطلاع بده.
+## برای حذف تبلیغات سافت98 [اینجا کلیک کنید](https://github.com/MasterKia/PersianBlocker/issues/40)
 
 ***
 
