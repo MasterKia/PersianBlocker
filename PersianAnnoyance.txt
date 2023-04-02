@@ -1,0 +1,16 @@
+[uBlock Origin]
+! Title: PersianBlocker
+! Description: لیستی برای مسدود کردن موارد آزاردهنده در سایت‌های پارسی‌زبان (مانند خود-تبلیغی)
+! Expires: 7 days
+! Last modified: 2023-04-02
+! Homepage: https://github.com/MasterKia/PersianBlocker
+! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
+
+! مشکل/پیشنهاد: https://github.com/MasterKia/PersianBlocker/issues
+! مشارکت: https://github.com/MasterKia/PersianBlocker/pulls
+
+||faradars.org/banner/embed/header_external^$frame,1p,domain=blog.faradars.org
+blog.faradars.org##.header-ban
+blog.faradars.org##.fdb-course-mobile-wrapper
+blog.faradars.org###kaprila_linktable
+blog.faradars.org##article.post > .the-content .faradars-courses-single
