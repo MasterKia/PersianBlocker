@@ -1869,6 +1869,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! To counter Online Malicious URL Blocklist
+||mehtikahrizi.ir^$badfilter
+
 musickhone.com##^script:has-text(window.open)
 !#if !cap_html_filtering
 musickhone.com##+js(nowoif)
@@ -2950,6 +2953,11 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+! To counter Online Malicious URL Blocklist
+||uploadkon.ir^$badfilter
+||uploadkon.ir/styles/UploadKon/assets/img/ad.png^$image,1p
+uploadkon.ir##.ad-link
+
 uploadgoogle.ir##+js(nowoif)
 
 uptrack.ir##[href*="b2n.ir"]
