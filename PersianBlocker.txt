@@ -12,7 +12,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! rouydad24.ir
-/files/fa/adv^$image,1p,domain=ir|asriran.com
+/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
 !! basirat.ir, khootoot.ir
