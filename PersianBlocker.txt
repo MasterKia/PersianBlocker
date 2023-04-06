@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-04-04
+! Last modified: 2023-04-06
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -911,6 +911,12 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/169
+^utm_source=dehlinks^$doc,removeparam=/^utm_/
+||dehlinks.ir/image/*.gif^$image,1p
+dehlinks.ir###kaprila_linktable
+dehlinks.ir###mediaad-vFkp
+
 ! https://github.com/MasterKia/PersianBlocker/issues/140
 dailymobile.ir##^script:has-text(vc_url)
 !#if !cap_html_filtering
