@@ -277,6 +277,8 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||on-click.ir^$all
 
 ! >> P <<
+||pooye-ads.com^$all
+
 ||promizer.com^$all
 ! ^ Example: eghtesadonline.com
 
