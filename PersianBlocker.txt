@@ -1246,6 +1246,9 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+fontyab.com##+js(set, time1, 0)
+fontyab.com##+js(set, time30, 0)
+
 ||filmsky.ir/wp-content/plugins/layered-popups^$script,xhr
 filmsky.ir##.widget > .widget_title:has-text(پیوندهای مفید):upward(.widget)
 
