@@ -11,6 +11,9 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
+! rouydad24.ir
+/files/fa/adv^$image,1p,domain=ir|asriran.com
+
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
 !! basirat.ir, khootoot.ir
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com
@@ -575,7 +578,6 @@ abadis.ir##x
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96707
 asriran.com##+js(no-xhr-if, /fa/generate/userid)
 ! ||asriran.com/fa/generate/userid^
-||asriran.com/files/fa/adv^
 ||asriran.com/media/jwplayer//vast.js^
 ||asriran.com/media/vendors/videojs/js/videojs-preroll.js^
 ||asriran.com/media/vendors/videojs/css/videojs-preroll.css^
@@ -2332,7 +2334,7 @@ rasm.io##[class^="RequireAuth_mainBox"]
 rasm.io##[class*="hsCode_LimitedItem"]:style(-webkit-filter: none !important; filter: none !important; pointer-events: auto !important;)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/52
-rouydad24.ir##.tabligh-logo
+! https://github.com/MasterKia/PersianBlocker/issues/163
 !#if !env_mobile
 rouydad24.ir##.container, .main:style(width: 95% !important;)
 !#endif
