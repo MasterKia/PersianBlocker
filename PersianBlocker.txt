@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 1402-01-24
+! Last modified: 1402-01-25
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -979,9 +979,10 @@ download1music.ir##section li:not(:has([href^="https://download1music.ir/"]))
 download1music.ir##.d1yekta
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-digiro.ir##.vc_col-sm-9 .type-post:has(a[href*="/author/ads/"])
-digiro.ir##.uizv
-digiro.ir##.texttab
+! https://github.com/uBlockOrigin/uAssets/issues/17575
+digiro.ir##div[itemtype="https://schema.org/WPAdBlock"]
+digiro.ir##.main-term-none > .listing > .type-post > .item-inner > .post-meta > .post-author-a > .author:has-text(واحد تبلیغات):upward(.type-post)
+digiro.ir##.main-term-none > .listing > .type-post > .item-inner > .featured > .term-badges:has-text(رپورتاژ آگهی):upward(.type-post)
 !#if env_mobile
 digiro.ir##.main-term-3705
 !#endif
