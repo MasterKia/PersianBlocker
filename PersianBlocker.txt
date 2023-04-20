@@ -1103,7 +1103,8 @@ digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center
 digikala.com##[class*="ProductContent"]:has(.mr-auto.text-caption.ai-center)
 !#if env_mobile
 digikala.com##.flex-wrap > .border-b:has(.mr-auto.text-caption.ai-center)
-digikala.com##[class*="BaseLayoutStaticFooterAppInstall"]
+digikala.com##div[class^="product-list_ProductList__item"] .text-caption.mr-auto:upward(div[class^="product-list_ProductList__item"])
+digikala.com##div[class*="BaseLayoutStaticFooterAppInstall"]
 !#endif
 ! digikala.com##[class*="fakeBadge"]:style(font-size: 1.4rem !important;)
 ! digikala.com##.text-caption-strong:has-text(غیراصل):style(font-size: 1.9rem !important; border-radius: 12px !important; color: var(--color-hint-text-caution) !important; background-color: rgba(var(--color-hint-object-caution-rgb),.2); padding-right: calc(2 * var(--spacing-base)) !important; padding-left: calc(2 * var(--spacing-base)) !important; margin-bottom: calc(1 * var(--spacing-base)) !important;)
