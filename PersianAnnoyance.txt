@@ -9,6 +9,11 @@
 ! مشکل/پیشنهاد: https://github.com/MasterKia/PersianBlocker/issues
 ! مشارکت: https://github.com/MasterKia/PersianBlocker/pulls
 
+! https://github.com/MasterKia/PersianBlocker/issues/174
+emojo.ir##a[href^="https://mojogift.com"]
+emojo.ir##a[href^="https://iranmojo.com"]
+emojo.ir##a[href="https://www.youtube.com/iranmojo"]
+
 ||faradars.org/banner/embed/header_external^$frame,1p,domain=blog.faradars.org
 blog.faradars.org##.header-ban
 blog.faradars.org##.fdb-course-mobile-wrapper
