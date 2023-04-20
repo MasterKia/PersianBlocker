@@ -718,6 +718,12 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+! https://github.com/MasterKia/PersianBlocker/issues/173
+||bazimag.com/images/*.gif^$image,1p
+||bazimag.com/images/Advertise^$image,1p
+bazimag.com###middlead
+bazimag.com###yt_spotlight3 .klatest-items-div > .modtitle:has-text(تبلیغات متنی):upward(.klatest-items-div)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/123
 blogsazan.com###macy-container > article > .articlebox > a[href*="/blogsazan.com/mag/reportage"]:upward(article)
 
