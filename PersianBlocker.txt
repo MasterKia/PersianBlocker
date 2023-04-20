@@ -1140,6 +1140,10 @@ download.ir##aside > .widget .textwidget-title:has-text(تبلیغات):upward(.
 download.ir##aside img[alt="جایگاه تبلیغات"]
 
 ! >> E <<
+! https://github.com/MasterKia/PersianBlocker/issues/174
+emojo.ir##.emojo-ad
+emojo.ir##.pzbkcvuqrn
+
 ! https://github.com/MasterKia/PersianBlocker/issues/122
 ||elmevarzesh.com/loader.js^$script
 elmevarzesh.com###middle a > img[title*="تبلیغات"]
