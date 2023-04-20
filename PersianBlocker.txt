@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 1402-01-25
+! Last modified: 1402-01-31
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2027,6 +2027,10 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+||oscaranimation.in^$all
+*$script,3p,domain=nex11music.ir
+nex11music.ir##.side_left > .side > .title:has-text(تبلیغات متنی):upward(.side)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/148
 nabzefanavari.ir##.txt-box:has(> .txt_adv_content)
 
