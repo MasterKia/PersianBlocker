@@ -19,7 +19,7 @@
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
@@ -1442,10 +1442,12 @@ gsm.ir##[href^="/ads/"]
 gsm.ir##.sidebar_tabliq
 
 ! https://github.com/MasterKia/PersianBlocker/issues/8
-gamefa.com##.baners
+! https://github.com/MasterKia/PersianBlocker/issues/170
+gamefa.com###top-banners
 gamefa.com###image-advertise
 gamefa.com##.content-ads
-gamefa.com##.single-advertise > a > img:upward(.single-advertise)
+gamefa.com###fix-advertise
+gamefa.com##:not(:matches-path(/author/post/)) #posts-body > .posts > .box > .d-block > .border-bottom .row .image > span.text-white:has-text(رپرتاژ آگهی):upward(.d-block)
 
 ||ghatreh.com/ads^
 ||ghatreh.com/skins/default/js/najva.js^
