@@ -1,8 +1,8 @@
 [uBlock Origin]
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-! Expires: 2 days
-! Last modified: 1402-02-01
+! Expires: 4 days
+! Last modified: 1402-02-02
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -534,7 +534,7 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ! https://github.com/MasterKia/PersianBlocker/issues/152
 anzalweb.ir##.ads-side
 anzalweb.ir##aside > div > span > a.ani[target="_blank"][title]:upward(div)
-anzalweb.ir##:not(:matches-path(/category/%D8%B1%D9%BE%D8%B1%D8%AA%D8%A7%DA%98)) article > footer > span.post-meta-cat:has-text(رپرتاژ):upward(article)
+anzalweb.ir##:not(:matches-path(/category/رپرتاژ/)) article > footer > span.post-meta-cat:has-text(رپرتاژ):upward(article)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/144
 alldriver.ir###kaprila_linktable
@@ -1043,7 +1043,7 @@ donya-e-eqtesad.com##.general-box:has(.box-header:has-text(وب گردی))
 downloadsoftware.ir##.top-ads
 downloadsoftware.ir##.ads-fix-post
 downloadsoftware.ir##.ads-matni
-downloadsoftware.ir##:not(:matches-path(/%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98)) .art-post > .head-post > .cat-post:has-text(رپورتاژ):upward(.art-post)
+downloadsoftware.ir##:not(:matches-path(/رپورتاژ)) .art-post > .head-post > .cat-post:has-text(رپورتاژ):upward(.art-post)
 
 ||dunro.com/dist/najva-messaging-sw.js
 ||analytics.dunro.com
@@ -2833,7 +2833,7 @@ techrato.com##.tab-cpc
 techrato.com##.tab-dpd-post
 techrato.com##div[class^="ads"]
 techrato.com##.widget > p > #KajAds_Panel:upward(.widget)
-techrato.com##:not(:matches-path(/tag/%D8%B1%D9%BE%D9%88%D8%B1%D8%AA%D8%A7%DA%98-%D8%A2%DA%AF%D9%87%DB%8C/)) .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)
+techrato.com##:not(:matches-path(/tag/رپورتاژ-آگهی/)) .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)
 
 tigatravel.com##+js(nostif, /^/)
 ||tigatravel.com/set_cookie_popup.php
