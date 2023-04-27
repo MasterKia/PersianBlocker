@@ -19,7 +19,7 @@
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
@@ -136,6 +136,7 @@
 ||abzarfa.com/tools/ip^$script
 
 ! >> B <<
+||backlink.ir^$all
 ||boorantech.com^$all
 
 ! https://github.com/MasterKia/PersianBlocker/issues/123
@@ -402,12 +403,12 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||toppopup.com^$all
 ||counter.toolsir.com^$all
 
-||takskin.com/tools/online/
-||takskin.com/tools/show-ip/
-||takskin.com/abzar/norightclick/
+||takskin.com/tools/online^$script,3p
+||takskin.com/tools/show-ip^$script,3p
+||takskin.com/abzar/norightclick/norightclick.js^$script,3p
 
-||tool.4tools.ir/tools/click-c/click-c.js
-||tool.4tools.ir/tools/click-l/click-l.js
+||tool.4tools.ir/tools/click-c/click-c.js^$script,3p
+||tool.4tools.ir/tools/click-l/click-l.js^$script,3p
 
 ! >> U <<
 ||userfriendly.ir^$all
@@ -448,9 +449,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ! >> Z <<
 ||zarpop.com^$all
 ||zarpop.ir^$all
-
-||zanboor.net^$all
-! TODO: Remove zanboor.net, but some websites still link to it
 
 !-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------!
 
@@ -2958,8 +2956,7 @@ talab.org##.Topadver
 taktemp.com##.link-ads
 taktemp.com##.topbanners
 
-||backlink.ir^$image,domain=takskin.com
-takskin.com##div.style-1.colored.box:nth-of-type(6)
+takskin.com##div.col-md-3 > .box.style-1 > .box-header:has-text(/تبلیغات رپورتاژ|لوگو اسپانسر/):upward(.box)
 
 taknaz.ir##.Topadver
 taknaz.ir##.leftads
