@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 7 day
-# Last modified: 1402-01-31
+# Last modified: 1402-02-07
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -54,6 +54,7 @@ affstat.digikala.com
 affiliate.digikala.com
 
 # >> B <<
+backlink.ir
 behtarinseo.ir
 boorantech.com
 behinava.com
@@ -270,8 +271,6 @@ yekbux.com
 
 # >> Z <<
 zarpop.com
-zanboor.net
-# TODO: Remove zanboor.net, but some websites still link to it
 
 #-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------#
 
