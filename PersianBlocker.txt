@@ -253,6 +253,9 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 
 ! >> M <<
 ||ir.mihanstore.net^$all
+||maxstars.ir/theme/images/ads$image,1p
+maxstars.ir###popuplink
+maxstars.ir##[id^="ad-"]
 ! Example: uploadgoogle.ir
 
 ||metrix.ir^$all
