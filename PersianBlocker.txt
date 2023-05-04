@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 1402-02-04
+! Last modified: 1402-02-14
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1888,6 +1888,15 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/uBlockOrigin/uAssets/issues/17858
+! https://github.com/AdguardTeam/AdguardFilters/issues/149605
+||berkechat.top/ajax/login.codes^$xhr,1p
+||berkechat.top/ajax/chat.codes^$xhr,1p
+||maxstars.ir/ajax/login.codes^$xhr,1p
+||maxstars.ir/ajax/chat.codes^$xhr,1p
+maxstars.ir##a[href="https://www.tarhpardaz.ir"]
+maxstars.ir##a[href="http://www.asalchat.skin"]
+
 ! To counter Online Malicious URL Blocklist
 ||mehtikahrizi.ir^$badfilter
 
