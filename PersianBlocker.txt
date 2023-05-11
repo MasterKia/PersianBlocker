@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 1402-02-14
+! Last modified: 1402-02-21
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -1703,6 +1703,10 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+khodrotak.com##a[href^="/advertisements/triggered/"]
+khodrotak.com##section.other_news > header:has-text(رپرتاژ)
+khodrotak.com##section.other_news > header:has-text(رپرتاژ) + div
+
 ! https://github.com/MasterKia/PersianBlocker/issues/134
 ||khabarerooz.com/servev2/*.gif$image,1p
 ||khabarerooz.com/linkhelpers^$xhr,1p
