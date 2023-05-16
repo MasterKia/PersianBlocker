@@ -59,6 +59,6 @@ www.reddit.com##img[id="post-image"]:style(object-fit: fill !important;)
 ||facebook.com^$3p
 
 ! https://raw.githubusercontent.com/StylishThemes/GitHub-code-wrap/master/github-code-wrap.user.css
-github.com##.blob-code-inner, .markdown-body pre > code, .markdown-body .highlight > pre:style(white-space: pre-wrap !important; overflow-wrap: anywhere !important;)
-github.com##body:not(.nowrap) .blob-code-inner, body:not(.nowrap) .markdown-body pre > code, body:not(.nowrap) .markdown-body .highlight > pre:style(white-space: pre-wrap !important; overflow-wrap: anywhere !important; display: block !important;)
-github.com##body:not(.nowrap) td.blob-code-inner:style(display: table-cell !important;)
+!github.com##.blob-code-inner, .markdown-body pre > code, .markdown-body .highlight > pre:style(white-space: pre-wrap !important; overflow-wrap: anywhere !important;)
+!github.com##body:not(.nowrap) .blob-code-inner, body:not(.nowrap) .markdown-body pre > code, body:not(.nowrap) .markdown-body .highlight > pre:style(white-space: pre-wrap !important; overflow-wrap: anywhere !important; display: block !important;)
+!github.com##body:not(.nowrap) td.blob-code-inner:style(display: table-cell !important;)
