@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 4 days
-! Last modified: 1402-02-21
+! Last modified: 1402-03-05
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2880,16 +2880,12 @@ telewebion.com##.rmp-ad-container
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1145684991
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78854099
-^utm_source=takhfifan^$doc,removeparam=/^utm_/
-^utm_source=takhfifan^$doc,removeparam=tatoken
-@@||takhfifan.com/static/matomo.js
-||takhfifan.com/matomo.js^
-||takhfifan.com/mtc.js^
+^utm_source=takhfifan^$doc,removeparam=/^utm_|tatoken/
 ! takhfifan.com##+js(nostif, redirect_url)
-! takhfifan.com##+js(rc, filter, , complete)
-takhfifan.com##+js(ra, disabled, , stay)
-takhfifan.com##.mask
-takhfifan.com##.filter:style(filter:none !important)
+||takhfifan.com/static/matomo.js^$script,1p
+takhfifan.com##input.filter:remove-attr(disabled)
+takhfifan.com##input.filter:remove-class(filter)
+takhfifan.com##div.mask
 
 tourismonline.co##.stream-item-mag.mag-box
 tourismonline.co##.stream-item-above-post.stream-item
