@@ -2,7 +2,7 @@
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 # Expires: 7 day
-# Last modified: 1402-02-07
+# Last modified: 1402-03-05
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -76,6 +76,7 @@ congoro.com
 congoro.ir
 
 # >> D <<
+daneshin.ir
 24d.ir
 l.24d.ir
 
