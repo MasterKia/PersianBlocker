@@ -2882,6 +2882,8 @@ telewebion.com##.rmp-ad-container
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78854099
 ^utm_source=takhfifan^$doc,removeparam=/^utm_|tatoken/
 ! takhfifan.com##+js(nostif, redirect_url)
+takhfifan.com##+js(set, _paq, [])
+takhfifan.com##+js(set, _paq.push, noopFunc)
 ||takhfifan.com/static/matomo.js^$script,1p
 takhfifan.com##input.filter:remove-attr(disabled)
 takhfifan.com##input.filter:remove-class(filter)
