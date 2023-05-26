@@ -264,7 +264,7 @@ https://basic.rethinkdns.com
  
  </div>
  
-**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_) + [Iran Hosted Domains](https://github.com/MasterKia/iran-hosted-domains) (_AGPL-3.0 License_)
+**PersianBlocker** (_AGPL-3.0 License_) 🤝 [Adblock-Iran](https://github.com/farrokhi/adblock-iran) (_BSD 2-Clause License_) + [uBOPa](https://github.com/nimasaj/uBOPa/) (_MIT License_) + [Adblock Farsi](https://github.com/SlashArash/adblockfa) (_Beerware License_) + [uBlock-Iran](https://github.com/mboveiri/ublock-iran) (_CC0-1.0 License_) + [Adblock Persian](https://ideone.com/K452p) + [Unwanted-Iranian](https://github.com/DRSDavidSoft/additional-hosts/blob/master/domains/blacklist/unwanted-iranian.txt) (_MIT License_) + [لیست هشدار وب‌آموز](https://webamoozcom.github.io/warning-list/) (_MIT License_)
 
 <div dir="rtl">
   
@@ -293,7 +293,7 @@ https://basic.rethinkdns.com
 
 \- لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))
 
-\- [لیست Iran Hosted Domains](https://github.com/bootmortis/iran-hosted-domains/blob/main/README.fa.md#%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D9%88-%DA%AF%D8%B1%D8%A7%D9%85%DB%8C%D8%AF%D8%A7%D8%B4%D8%AA)
+\- [لیست Iran Hosted Domains](https://github.com/MasterKia/iran-hosted-domains/blob/main/README.fa.md)
 
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
