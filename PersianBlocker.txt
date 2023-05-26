@@ -172,6 +172,7 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||congoro.ir^$all
 
 ! >> D <<
+||daneshin.ir^$all
 ||24d.ir^$all
 ||l.24d.ir^$all
 
