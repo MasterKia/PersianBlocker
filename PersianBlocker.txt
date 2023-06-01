@@ -2057,6 +2057,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+najiremix.ir##+js(nowoif)
+
 ||oscaranimation.in^$all
 *$script,3p,domain=nex11music.ir
 nex11music.ir##.side_left > .side > .title:has-text(تبلیغات متنی):upward(.side)
