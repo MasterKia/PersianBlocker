@@ -962,7 +962,7 @@ deltapayam.com##.bd-sidebar > div > .widget > .block-title:has-text(تبلیغا
 digiato.com##.digiBannerArea
 
 ! https://github.com/MasterKia/PersianBlocker/commit/26c10ed9dbd342000990334905f345ddecbe6bb6#commitcomment-87467148
-darooyab.ir###rightPanelContent > div > .a_class1:not(.a_class1[href*="darooyab.ir"])
+||darooyab.ir/Content/AdvertisementImages^$image,1p
 !#if env_mobile
 darooyab.ir##.DivContent_BottomOfPageAdvertising
 !#endif
