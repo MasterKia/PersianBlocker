@@ -1899,6 +1899,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||counter.mahanmusic.net^$all
+
 ! https://github.com/uBlockOrigin/uAssets/issues/17858
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149605
 ||berkechat.top/ajax/login.codes^$xhr,1p
