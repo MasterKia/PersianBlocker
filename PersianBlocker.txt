@@ -1527,6 +1527,9 @@ hamshahrionline.ir###ads-container > .box > header:has-text(وبگردی):upward
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+! https://github.com/MasterKia/PersianBlocker/issues/165
+||iranzamin.news/img/new/ads-$image,1p
+
 irancircle.com##.q2am-page-advert
 
 iranidata.com##.m-ads:upward(.sidebar-left-item.content)
