@@ -921,6 +921,9 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/162
+didarnews.ir##div.col-2:style(width: 100% !important;)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/169
 ^utm_source=dehlinks^$doc,removeparam=/^utm_/
 ||dehlinks.ir/image/*.gif^$image,1p
