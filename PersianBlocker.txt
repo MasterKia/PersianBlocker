@@ -14,7 +14,7 @@
 /files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
-!! basirat.ir, khootoot.ir
+!! basirat.ir, khootoot.ir, didarnews.ir, 598.ir
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
