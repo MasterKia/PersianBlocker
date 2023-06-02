@@ -2696,7 +2696,8 @@ salamdl.rip###ads-text
 salamdl.rip##.hideOnMobile
 salamdl.rip##.hidden-xs.hidden-sm.block
 
-||media.salamatnews.com/d/*.gif?
+! https://github.com/MasterKia/PersianBlocker/issues/153
+salamatnews.com##.ads.box
 
 ||sakhtafzar.com/wp-json/wpstatistics/
 sakhtafzar.com##.bannersHome
