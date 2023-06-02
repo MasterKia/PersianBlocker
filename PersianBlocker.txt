@@ -2213,9 +2213,8 @@ parsroid.net##.my-single-t-p
 ||parsaspace.com/Content/new/js/analytics.js^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/45
-pezeshket.com##div[class] > a > img#adinmag1:upward(div[class])
-pezeshket.com##.code-block-7 > p:has-text(مطالب پیشنهادی):upward(.code-block-7)
-pezeshket.com##.dialog-lightbox-widget-content a[href*="i.y3t.ir"]:upward(.dialog-lightbox-widget-content)
+pezeshket.com#@#.stream-item-widget
+pezeshket.com#@#.widget-ad-image
 
 ||pichak.net/nohe/amar.js
 ||pichak.net/ads/
