@@ -1570,7 +1570,13 @@ imvbox.com##div[class^="cr-banner-"]
 ||ipsite.ir^$all
 ! ^ Used by bils.ir (ipsite.ir/JSShow/js20212022.js)
 
-||analytics.irancell.ir^
+||analytics.irancell.ir^$all
+||apptracking.irancell.ir^$all
+my.irancell.ir##+js(json-prune, allRow1 allRow2 recommendeds award entertainment finance shop travel productivity education download *.link *.image)
+my.irancell.ir##div[data-testid^="filterItem_tab"]
+my.irancell.ir##div[data-testid="more-Button-TestId"]
+my.irancell.ir##div[tabindex]:has(div[data-testid^="specialServices"])
+my.irancell.ir##div[style="display: flex; flex-flow: column nowrap; justify-content: center; align-items: center;"]:has(img[alt="Advertisement"])
 
 ! https://github.com/MasterKia/PersianBlocker/pull/2
 idehalmag.com##.primary-sidebar-widget:has(a[rel*=sponsored])
