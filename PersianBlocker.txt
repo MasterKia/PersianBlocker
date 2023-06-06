@@ -235,8 +235,9 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||api.karpishe.com^$all
 ! Example: asrkhabar.com
 
-||kilipo.com/themes/default/player/plugins/vast/ads
-||kilipo.com/themes/default/player/plugins/ads
+||kilipo.com/themes/vidplay/js/Fingerprintjs2^$script
+||kilipo.com/themes/vidplay/player/plugins/ads^$script,css,xhr
+||kilipo.com/themes/vidplay/player/plugins/vast^$script,css,xhr
 
 ||kajads.com^$all
 ||ads.karzar.net^$all
@@ -1797,7 +1798,6 @@ mag.khanoumi.com##.widget-ad-image
 ||cdn.khodrobank.com/images/banners/
 khodrobank.com##.mobile-fixed-banner
 
-||kilipo.com/themes/default/js/Fingerprintjs
 kilipo.com##.ads-placment
 ! TODO: Report cookie notice to EasyList Cookie
 
