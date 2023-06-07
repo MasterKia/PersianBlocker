@@ -3016,6 +3016,7 @@ uploadkon.ir##.ad-link
 
 uploadgoogle.ir##+js(nowoif)
 
+uptrack.ir##+js(nowoif)
 uptrack.ir##a[href*="utm_source=uptrack"]
 uptrack.ir##aside.widget_text > div.aside_box_title:has-text(لینک های ویژه):upward(aside.widget_text)
 
