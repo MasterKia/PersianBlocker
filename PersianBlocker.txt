@@ -3016,8 +3016,8 @@ uploadkon.ir##.ad-link
 
 uploadgoogle.ir##+js(nowoif)
 
-uptrack.ir##[href*="b2n.ir"]
-uptrack.ir##.aside_box:has(.aside_box_title:has-text(لینک های ویژه))
+uptrack.ir##a[href*="utm_source=uptrack"]
+uptrack.ir##aside.widget_text > div.aside_box_title:has-text(لینک های ویژه):upward(aside.widget_text)
 
 uplod.ir##.free_ad_con
 uplod.ir##.footer-back-link
