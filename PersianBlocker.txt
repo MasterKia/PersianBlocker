@@ -1648,9 +1648,13 @@ ilna.ir##.zxc-mobile
 
 ! https://github.com/MasterKia/PersianBlocker/issues/26
 ! https://github.com/MasterKia/PersianBlocker/issues/92
-||isna.ir/rest/visit^
-isna.ir##.ads
-isna.ir##.col-md-7:style(width: 75% !important;)
+||isna.ir/sd/*.gif^$image,1p
+||isna.ir/rest/visit^$xhr,1p
+isna.ir##div.owl-item:has(> li[id^="ad"])
+isna.ir##section.box.ads
+!#if !env_mobile
+isna.ir##div.col-md-7:style(width: 75% !important;)
+!#endif
 
 itgheymat.com##.ads-box
 
