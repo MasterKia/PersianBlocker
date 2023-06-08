@@ -3224,6 +3224,7 @@ zoomg.ir##+js(aopr, banner)
 ||cdn.zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg$image,1p
 zoomg.ir##.main-top-ads
 zoomg.ir##.wide-ad-row
+zoomg.ir##div.a1-banner
 !#if env_mobile
 zoomg.ir###mobileBannerAfterTags
 !#endif
