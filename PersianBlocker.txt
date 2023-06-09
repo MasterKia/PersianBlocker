@@ -1726,6 +1726,15 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+kihanb.ir##^script:has-text(document.oncontextmenu=)
+kihanb.ir##^style:has-text(user-select)
+kihanb.ir##^style[media="print"]:has-text(display:none)
+!#if !cap_html_filtering
+kihanb.ir##+js(rmnt, script, document.oncontextmenu=)
+kihanb.ir##style:has-text(user-select):remove()
+kihanb.ir##style[media="print"]:has-text(display:none):remove()
+!#endif
+
 khodrotak.com##a[href^="/advertisements/triggered/"]
 khodrotak.com##section.other_news > header:has-text(رپرتاژ)
 khodrotak.com##section.other_news > header:has-text(رپرتاژ) + div
@@ -2177,12 +2186,8 @@ namnak.com##.Dr.D2.Cu.o
 98oldmusics.site##+js(nowoif)
 98oldmusics.site##[id^="ads-"]:upward(.panel)
 
-opizo.me##+js(aeld, blur)
-! https://github.com/uBlockOrigin/uAssets/commit/9eb324a7dff561f00b270f076a5ed31ad841ab17#commitcomment-82863816
-!#if ext_ublock
-opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/):others()
-opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
-!#endif
+opizo.me##+js(set, count, 0)
+opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 
 omidnamehnews.ir##.adspanel
 
