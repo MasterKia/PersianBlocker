@@ -18,7 +18,7 @@
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
@@ -1461,16 +1461,13 @@ gamefa.com##:not(:matches-path(/author/post/)) #posts-body > .posts > .box > .d-
 ghatreh.com##.tads
 ghatreh.com##table > tbody > tr > td > .dagh > strong:has-text(اخبار تبلیغاتی)
 
-||graphiran.com/wp-content/uploads/*/ads
-graphiran.com##div#leftcol-up:nth-of-type(1)
-graphiran.com##div#leftcol-body:nth-of-type(2)
-graphiran.com##div#rightcol-up:nth-of-type(1)
-graphiran.com##div#rightcol-body:nth-of-type(2)
-graphiran.com##div#leftcol-down:nth-of-type(3)
-graphiran.com##div#rightcol-down:nth-of-type(3)
-graphiran.com##.banner-center
-graphiran.com###leftcol > center
-graphiran.com###centercol > center > center
+||graphiran.com/wp-content/uploads/2014/11/ads468.png^$image,1p
+||graphiran.com/wp-content/uploads/2018/08/ds240.png^$image,1p
+graphiran.com##div.post:has(a[href^="https://www.tarhdokan.com/"])
+graphiran.com##div[id$="col-up"]:has-text(تبلیغات)
+graphiran.com##div[id$="col-up"]:has-text(تبلیغات) + div[id$="col-body"]
+graphiran.com##ul#tabligh
+graphiran.com##ul#tablighc
 
 ! https://github.com/MasterKia/PersianBlocker/pull/16
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1187678746
