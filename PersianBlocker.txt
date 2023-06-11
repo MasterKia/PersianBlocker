@@ -530,6 +530,11 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+!#if !env_mobile
+ac.ir##+js(set, chromeOS, true)
+!#endif
+||ac.ir/common/scripts/analytics/meetingLaunchIA.js^$script,1p
+
 avapedia.com##figure.size-full.wp-block-image
 
 ! https://github.com/MasterKia/PersianBlocker/issues/152
