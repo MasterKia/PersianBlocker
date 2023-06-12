@@ -2333,14 +2333,12 @@ pedal.ir##.stream-item-top
 pedal.ir##.widget_custom_html:has(img[src*=".gif"])
 pedal.ir###custom_html-108
 
-||patoghu.com/analytics.js
-||patoghu.com/n/d/n.js
-||patoghu.com/n/d/w1.js
-||img.patoghu.com^$script
-patoghu.com##.bigtab-cont
-patoghu.com##.tabd
+||patoghu.com/n/d^$script,1p
+||patoghu.com/analytics.js^$script,1p
+||img.patoghu.com/patoghu-$script,1p
+||img.patoghu.com/new^$image,1p
 !#if env_mobile
-patoghu.com##.cntmobad
+patoghu.com##div.cntmobad
 !#endif
 
 parstools.com##.widget_whmcs_ads_widget.widget
