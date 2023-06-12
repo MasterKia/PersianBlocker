@@ -3005,10 +3005,8 @@ taktemp.com##.topbanners
 
 takskin.com##div.col-md-3 > .box.style-1 > .box-header:has-text(/تبلیغات رپورتاژ|لوگو اسپانسر/):upward(.box)
 
-taknaz.ir##.Topadver
-taknaz.ir##.leftads
-taknaz.ir##div.Relement.Bstyle.RBC:nth-of-type(5)
-taknaz.ir##.ads120000
+taknaz.ir##section#LeftPanel > div.leftads
+taknaz.ir##section#RightPanel > div.RBC > div.CCTS:has-text(تبلیغات متنی):upward(div.RBC)
 
 20tayi.ir##.e3lan
 20tayi.ir###text-2
