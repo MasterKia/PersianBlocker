@@ -2194,6 +2194,11 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||payju.ir/sites/default/files/*.gif^$image,1p
+||payju.ir/sites/all/themes/peyjo/ads^$image,1p
+payju.ir##div.block-simpleads
+@@/advertise/*$image,1p,domain=payju.ir
+
 ! https://github.com/MasterKia/PersianBlocker/issues/168
 ||i1.payamekhabar.ir/dbox/photos^$image,1p
 payamekhabar.ir##.weblink
