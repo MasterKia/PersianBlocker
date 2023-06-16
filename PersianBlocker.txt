@@ -1418,7 +1418,9 @@ gharbtv.com##.bottom-ads
 7ganj.ir##.herald-ad:not(:has(a[href*="kurdsoft"])):not(:has(a[href*="7ganj.ir"]))
 7ganj.ir##.herald-sidebar .widget:has(.widget-title:has-text(تبلیغات)) p:not(:has(a[href*="kurdsoft"])):not(:has(a[href*="7ganj.ir"]))
 
-||getandroid.ir/Files/js/landinga.js
+getandroid.ir##+js(nowoif)
+||getandroid.ir/Files/js/landing$script,1p
+getandroid.ir##div[class*="linkads"]
 
 gold-team.org##+js(nano-sib)
 gold-team.org##.size-full.attachment-full
