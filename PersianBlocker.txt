@@ -11,7 +11,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! rouydad24.ir
-/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press
+/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
 !! basirat.ir, khootoot.ir, didarnews.ir, 598.ir
@@ -171,7 +171,9 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||congoro.ir^$all
 
 ! >> D <<
+||daartads.com^$all
 ||daneshin.ir^$all
+
 ||24d.ir^$all
 ||l.24d.ir^$all
 
@@ -2118,12 +2120,14 @@ nab-music.com##+js(aopr, vc_url)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/72
 ! https://github.com/MasterKia/PersianBlocker/pull/81
-niniban.com##[href*="l.24d.ir"]
-niniban.com##.fixed_box_adv
-niniban.com##.box:has(a[href*="/ads/redirect"])
-niniban.com##.padding_news_right_adv, .padd-news-advertise
+||niniban.com/files/fa/adv^$image,1p
+||niniban.com/DaartAds.min$script,css,1p
+niniban.com##div.all_adv_mrg
+niniban.com##div.padding_news_right_adv
+niniban.com##div.box:has(img[alt="icon_ads"])
+niniban.com##div.fixed_box_adv
 !#if !env_mobile
-niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
+niniban.com##div.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)
 !#endif
 !#if env_mobile
 niniban.com##.instant_news_2
