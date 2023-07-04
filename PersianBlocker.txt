@@ -11,7 +11,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! rouydad24.ir
-/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com
+/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
 !! basirat.ir, khootoot.ir, didarnews.ir, 598.ir
@@ -530,6 +530,9 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://github.com/MasterKia/PersianBlocker/issues/183
+ana.press##div.back_links
+
 !#if !env_mobile
 ac.ir##+js(set, chromeOS, true)
 !#endif
