@@ -10,7 +10,7 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
-! rouydad24.ir, ibena.ir
+! rouydad24.ir, ibena.ir, tejaratemrouz.ir, irdc.ir
 /files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com|vananews.com|barghnews.com
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
@@ -2764,6 +2764,8 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+tejaratemrouz.ir##div.col3:has(div.txt_adv_content)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/143
 tak3da.com##+js(aopr, SGPB_POPUP_PARAMS)
 ||tak3da.com/wp-content/plugins/popup-builder^$script,1p
