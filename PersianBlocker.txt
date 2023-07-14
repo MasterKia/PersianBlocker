@@ -3445,7 +3445,7 @@ zoomtech.org##div.zoomtech-banner
 !-------------------v Malware/Phishing Sites v-----------------!
 ! https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
 ! https://farnet.io/1401/08/324594/rubika-is-detected-as-malware/
-||rubika.ir^$all,domain=~web.rubika.ir
+||rubika.ir^$all,domain=~web.rubika.ir|~m.rubika.ir
 
 ! https://nitter.net/designbazzz/status/1641797300275036163?t=63Lj4RJ5U40VDwwV-fQpKA&s=19
 ||fillvpn.com^$all
