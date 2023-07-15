@@ -8,7 +8,7 @@
 
 این لیست جزو لیست های پیش‌فرض افزونه **uBlock Origin** و **AdGuard** می‌باشد.
 
-## برای حذف تبلیغات سافت98 [اینجا کلیک کنید](https://github.com/MasterKia/PersianBlocker/issues/40)
+## برای حذف تبلیغات سافت98 کافیه لیست Quick-Fixes توی افزونه uBlock Origin رو بروز کنید. [ماجرا چیه؟](https://github.com/MasterKia/PersianBlocker/issues/40)
 
 ***
 
@@ -20,13 +20,31 @@
 
 ***
 
-#### لیست PersianAnnoyances
+### لیست PersianAnnoyances
 
 برای پنهان کردن موارد آزاردهنده و رو مخی  در سایت های پارسی‌زبان
 
 نشانی‌ لیست:
 
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianAnnoyance.txt
+
+***
+### دکمه دانلود برنامه از کافه بازار (بدون نصب)
+
+
+<details>
+  <summary>اینجا کلیک کنید و فیلتری که نشون داده میشه رو در بخش My filters افزونه uBlock Origin استفاده کنید:</summary>
+  
+  ```adb
+cafebazaar.ir##+js(rpnt, script, /window.__NUXT__=/, const main=function(button){const url=button.href;const pkg=new URL(url).searchParams.get('id');fetch("https://api.cafebazaar.ir/rest-v1/process/AppDownloadInfoRequest"\,{mode:"cors"\,method:"post"\,headers:{Accept:"application/json"\,"Content-type":"application/json"\,}\,body:JSON.stringify({properties:{language:2\,clientVersionCode:1100301\,androidClientInfo:{sdkVersion:22\,cpu:"x86\,armeabi-v7a\,armeabi"\,}\,clientVersion:"11.3.1"\,isKidsEnabled:false\,}\,singleRequest:{appDownloadInfoRequest:{downloadStatus:1\,packageName:pkg\,referrers:[]\,}\,}\,})\,}).then(response=>{if(response.ok&&response.status===200){return response.json()}}).then(data=>{if(!data.singleReply||!data.singleReply.appDownloadInfoReply){return};const token=data.singleReply.appDownloadInfoReply.token;const cdnPrefix=data.singleReply.appDownloadInfoReply.cdnPrefix[0];const packageSize=(data.singleReply.appDownloadInfoReply.packageSize/1024)/1024;const versionCode=data.singleReply.appDownloadInfoReply.versionCode||0;const downloadLink=`${cdnPrefix}apks/${token}.apk`;const newButton=document.createElement('a');newButton.className='AppInstallBtn newbtn';newButton.href=downloadLink;newButton.title=`نسخه:${versionCode}`;newButton.setAttribute('data-color'\,'primary');newButton.setAttribute('data-size'\,'lg');newButton.innerHTML=`⬇️دانلود(${packageSize.toFixed(2)}مگابایت)`;button.parentNode.insertBefore(newButton\,button.parentNode.childNodes[0]);button.parentNode.removeChild(button)}).catch(error=>{})};document.addEventListener('DOMContentLoaded'\,()=>{const buttonSelector='div.DetailsPageHeader__desktop a.AppInstallBtn';const button=document.querySelector(buttonSelector);if(button){main(button)};const targetNode=document.querySelector('body');const observer=new MutationObserver(function(mutationsList){const button=document.querySelector(buttonSelector);if(button&&button.href.startsWith('bazaar://')){main(button)}});observer.observe(targetNode\,{childList:true\,subtree:true})});window.__NUXT__=)  
+  ```
+
+منبع:
+
+https://chrome.google.com/webstore/detail/cafebazaar-apk-downloader/imnogedkmanognaahdphhfhgehlfgdoh
+  
+</details>
+
 
 ***
 
