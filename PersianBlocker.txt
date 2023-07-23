@@ -1798,6 +1798,7 @@ khabareazad.com##.sticky_notify
 konkur.in##.part-content-wordpres > .title-section:has-text(پست تبلیغاتی):upward(.part-content-wordpres)
 konkur.in##.small-tab-news > .sidebar-news > ul:has-text(تبلیغات متنی):upward(.small-tab-news)
 konkur.in##section.tabliqat-text > header:has-text(تبلیغات متنی):upward(section.tabliqat-text)
+konkur.in##div[id^="tabligh"]
 !#if env_mobile
 konkur.in##.mobileBottomAd
 !#endif
