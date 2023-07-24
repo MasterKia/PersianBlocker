@@ -1728,6 +1728,7 @@ jahannews.com##.hidden-xs.col-sm-4.col-md-4.col-lg-4
 jesarat.com##.widget_custom_html
 jesarat.com##aside:nth-of-type(2)
 
+||jobinja.ir^$doc,removeparam=_ref
 jobinja.ir##.c-forceToLogin__overlay
 jobinja.ir##.c-forceToLogin__message.o-box
 jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !important)
