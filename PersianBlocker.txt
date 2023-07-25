@@ -532,6 +532,11 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+||farazsms.com^$3p,domain=appreview.ir
+||appreview.ir/advertisement/counter^$xhr,1p
+appreview.ir##a[onclick^="increase_ad_click_count"]
+appreview.ir##:not(:matches-path(/category/رپرتاژ-آگهی)) .archive-blog > article > figure > .entry-category:has-text(رپرتاژ آگهی):upward(article)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/183
 ana.press##div.back_links
 
