@@ -2170,9 +2170,12 @@ netpaak.com##.stream-item-above-post
 netpaak.com##.stream-item-widget
 netpaak.com###text-5
 
+play.namava.ir##+js(json-prune, result.commercialUrl result.watermark)
 ||sentry.namava.ir^$all
 ! ||namava.ir/api/v1.0/users/anonymous-info
 ! TODO: Remove arbitrary IP limitaion
+||namava.ir/PlayReports^$xhr,1p
+||ws.namava.ir/?%27UserToken=*&client_info=^$websocket,1p
 
 nodud.com##.advertorial
 
