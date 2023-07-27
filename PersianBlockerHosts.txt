@@ -312,6 +312,8 @@ ammaar.delivery.zeerak.cloud
 # >> E <<
 
 # >> F <<
+vast.filmnet.ir
+
 # https://github.com/MasterKia/PersianBlocker/issues/107
 analytics.football360.ir
 
