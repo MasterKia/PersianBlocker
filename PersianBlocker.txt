@@ -1279,6 +1279,10 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+filmnet.ir##+js(json-prune, trace data.vast_url data.ads)
+||vast.filmnet.ir^$xhr,1p
+filmnet.ir##div#player-container svg[width="48"][height="48"][viewBox="0 0 64 64"] > g[opacity="0.6"]:upward(svg)
+
 fontyab.com##+js(set, time1, 0)
 fontyab.com##+js(set, time30, 0)
 
