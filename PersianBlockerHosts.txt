@@ -559,8 +559,5 @@ mogo-crypto.net
 #-------------------------^ Scam Sites ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
-# https://nitter.net/designbazzz/status/1641797300275036163?t=63Lj4RJ5U40VDwwV-fQpKA&s=19
-fillvpn.com
-sharapako.com
 
 #-------------------^ Malware/Phishing Sites ^-----------------#
