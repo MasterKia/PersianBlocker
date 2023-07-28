@@ -353,6 +353,7 @@ sentry.malltina.com
 
 # >> N <<
 sentry.namava.ir
+ws.namava.ir
 
 stc.ninisite.com
 # >> O <<
