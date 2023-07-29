@@ -892,6 +892,10 @@ chetor.com#@#.ads-block
 @@||chetor.com/wp-content/uploads/2021/07/book-banner.1250.240.2.gif$image,1p
 
 ||sentry.cafebazaar.org^$all
+!#if env_mobile
+cafebazaar.ir##div.DownloadSheet.BottomSheet
+cafebazaar.ir##html:style(overflow: auto !important;)
+!#endif
 
 ! coffeeapps.ir##+js(nowoif)
 ||coffeeapps.ir/cof-p.php^
