@@ -2504,6 +2504,18 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/186
+sclinic.ir##^script:has-text(document.oncontextmenu =)
+sclinic.ir##^script[id^="wpcp_"]
+sclinic.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+sclinic.ir##^style:has-text(@media print)
+!#if !cap_html_filtering
+sclinic.ir##+js(rmnt, script, document.oncontextmenu =)
+sclinic.ir##+js(aopr, nocontext)
+sclinic.ir##+js(acs, disableSelection, reEnable)
+sclinic.ir##style:has-text(@media print):remove()
+!#endif
+
 ! https://github.com/MasterKia/PersianBlocker/issues/149
 shanbemag.com##.qxsbniv
 
