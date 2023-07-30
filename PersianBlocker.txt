@@ -360,7 +360,7 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
-||trustseal.e-rasaneh.ir^,domain=~anaj.ir|~salamatnews.com
+||trustseal.e-rasaneh.ir^$domain=~anaj.ir|~salamatnews.com
 trustseal.e-rasaneh.ir##^responseheader(set-cookie)
 anaj.ir,salamatnews.com##+js(set, jscd, {})
 anaj.ir,salamatnews.com##+js(set, document.URL, undefined)
@@ -569,7 +569,7 @@ avaz-kurd.ir##.sidebar-right > .box > .title:has-text(لینک های مفید):
 
 ||analytics.asiatech.ir^
 
-||192.168.10.113^,domain=airport.ir
+||192.168.10.113^$domain=airport.ir
 
 artmusics.top##+js(nowoif)
 ||artmusics.top/directory/?app=$all
@@ -3484,7 +3484,7 @@ zoomtech.org##div.zoomtech-banner
 !-------------------v Malware/Phishing Sites v-----------------!
 ! https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
 ! https://farnet.io/1401/08/324594/rubika-is-detected-as-malware/
-||rubika.ir^,domain=~web.rubika.ir|~m.rubika.ir
+||rubika.ir^$domain=~web.rubika.ir|~m.rubika.ir
 
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
