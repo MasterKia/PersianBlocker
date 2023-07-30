@@ -78,20 +78,20 @@
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
-||adverge.ir^$all
-||adrooz.com^$all
-||affilio.ir^$all
-||analyt.ir^$all
+||adverge.ir^
+||adrooz.com^
+||affilio.ir^
+||analyt.ir^
 
-||scripts-ads.s3.ir-thr-at1.arvanstorage.com^$all
-||error-tracking.arvancloud.com^$all
+||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
+||error-tracking.arvancloud.com^
 
-||adexo.ir^$all
-||adskav.com^$all
-||advn.ir^$all
+||adexo.ir^
+||adskav.com^
+||advn.ir^
 
-||amaroid.net^$all
-||lnk.amaroid.net^$all
+||amaroid.net^
+||lnk.amaroid.net^
 
 !#if adguard
 ||aparat.com^$third-party,cookie
@@ -100,29 +100,29 @@
 ||asreasia.com/piwik
 
 ||aasaam.com^$3p
-||analytics.aasaam.com^$all
-||analytics-*.aasaam.com^$all
+||analytics.aasaam.com^
+||analytics-*.aasaam.com^
 
-||adwised.com^$all
-||adwisedfs.com^$all
-||adwised.azureedge.net^$all
+||adwised.com^
+||adwisedfs.com^
+||adwised.azureedge.net^
 ! TODO: Remove adwised.azureedge.net, but navatv.com still links to it
 
-||adivery.com^$all
-||adnegah.net^$all
-||adpulse.ir^$all
-||adsima.net^$all
-||adtrace.io^$all
+||adivery.com^
+||adnegah.net^
+||adpulse.ir^
+||adsima.net^
+||adtrace.io^
 ||akhbarrasmi.com^$3p
-||affili.ir^$all
-||amarfa.ir^$all
+||affili.ir^
+||amarfa.ir^
 
-||ayyaar.ir^$all
+||ayyaar.ir^
 ! ^ Used by irna.ir
 
-||adro.co^$all
-||affstat.adro.co^$all
-||adro.ir^$all
+||adro.co^
+||affstat.adro.co^
+||adro.ir^
 
 ||1abzar.ir/abzar/tools/porbazdid^$script,3p
 ||1abzar.ir/abzar/tools/stat^$script,3p
@@ -135,8 +135,8 @@
 ||abzarfa.com/tools/ip^$script
 
 ! >> B <<
-||backlink.ir^$all
-||boorantech.com^$all
+||backlink.ir^
+||boorantech.com^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/123
 blogsazan.com##.ads_link8
@@ -148,47 +148,47 @@ blogsazan.com##.hamsandiv
 blogsazan.com##.blog-home-ads-blog
 blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 10px; text-align:center; font-size:13px;"] > a:upward(.main_content)
 
-||behinava.com^$all
-||radar.bayan.ir^$all
-||behtarinseo.ir^$all
-||backority.ir^$all
+||behinava.com^
+||radar.bayan.ir^
+||behtarinseo.ir^
+||backority.ir^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99240
 ||blogfa.com/a^$script,1p
 
 ! >> C <<
-||cayot.ir^$all
+||cayot.ir^
 ! Example: tamasha.com/v/DDlMB
 
-||chavosh.org^$all
-||ck.chavosh.org^$all
+||chavosh.org^
+||ck.chavosh.org^
 
-||clickaval.com^$all
-||clickyab.com^$all
-||chabok.io^$all
+||clickaval.com^
+||clickyab.com^
+||chabok.io^
 
-||congoro.com^$all
-||congoro.ir^$all
+||congoro.com^
+||congoro.ir^
 
 ! >> D <<
-||daartads.com^$all
-||daneshin.ir^$all
+||daartads.com^
+||daneshin.ir^
 
-||24d.ir^$all
-||l.24d.ir^$all
+||24d.ir^
+||l.24d.ir^
 
-||davedbux.ir^$all
+||davedbux.ir^
 
-||denutility.com^$all
+||denutility.com^
 ! ^ Used by eghtesadnews.com
 
-||deemanetwork.com^$all
-||deema.agency^$all
-||deemaagency.ir^$all
+||deemanetwork.com^
+||deema.agency^
+||deemaagency.ir^
 
 ! https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79983
-||click.digiato.com^$all
+||click.digiato.com^
 ! ^ Used by Digiato, Vigiato, Rooziato
 
 ! >> E <<
@@ -200,20 +200,20 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||e-earn.ir^$3p
 
 ! >> F <<
-||facepop.org^$all
-||farsbux.ir^$all
-||fastclick.ir^$all
+||facepop.org^
+||farsbux.ir^
+||fastclick.ir^
 ||fa-tools.ir/code/rightclick/right-click1.js
 ||widget.fafait.net^$3p
 
-||farakav.com^$all
-||ads.farakav.com^$all
+||farakav.com^
+||ads.farakav.com^
 
 ! >> G <<
 
 ! >> H <<
 ||hamravesh.com^$3p
-||sentry.hamravesh.com^$all
+||sentry.hamravesh.com^
 ! Example: behtarino.com
 
 !  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, 
@@ -222,107 +222,107 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||cdn.hostdl.com/banners/*.gif$image,3p,domain=~soft98.ir
 ||cdn.hostdl.com/assets/*.gif$image,3p,domain=~soft98.ir
 
-||hantana.org^$all
+||hantana.org^
 
 ! >> I <<
-||intrack.ir^$all
+||intrack.ir^
 
-||geoip.imber.live^$all
+||geoip.imber.live^
 ! ^ Example: malltina.com
 
 ! >> J <<
-||jetbux.ir^$all
+||jetbux.ir^
 
 ! >> K <<
-||api.karpishe.com^$all
+||api.karpishe.com^
 ! Example: asrkhabar.com
 
 ||kilipo.com/themes/vidplay/js/Fingerprintjs2^$script
 ||kilipo.com/themes/vidplay/player/plugins/ads^$script,css,xhr
 ||kilipo.com/themes/vidplay/player/plugins/vast^$script,css,xhr
 
-||kajads.com^$all
-||ads.karzar.net^$all
-||kaprila.com^$all
+||kajads.com^
+||ads.karzar.net^
+||kaprila.com^
 
 ||k2cod.com/ip/show-ip
 ||k2cod.com/statistics/
 
 ! >> L <<
-||linkfars.com^$all
-||landyab.com^$all
+||linkfars.com^
+||landyab.com^
 ||linksaz.net^$3p
 ||linkyar.com^$3p
 
 ! >> M <<
-||ir.mihanstore.net^$all
+||ir.mihanstore.net^
 ! Example: uploadgoogle.ir
 
-||metrix.ir^$all
-||mediaad.org^$all
-||magnetadservices.com^$all
-||merita.ir^$all
-||mitrarank.ir^$all
+||metrix.ir^
+||mediaad.org^
+||magnetadservices.com^
+||merita.ir^
+||mitrarank.ir^
 
 ! >> N <<
 ||nastooh.ir^$3p
-||analytics.nastooh.ir^$all
+||analytics.nastooh.ir^
 ! Example: sahebkhabar.ir
 
-||newswidget.net^$all
-||vidomusic.org^$all
-||pantatec.ae^$all
+||newswidget.net^
+||vidomusic.org^
+||pantatec.ae^
 ! Used by mosalasonline.com
 
-||najva.com^$all
-||netbina.com^$all
+||najva.com^
+||netbina.com^
 
 ! >> O <<
-||on-click.ir^$all
+||on-click.ir^
 
 ! >> P <<
-||pooye-ads.com^$all
+||pooye-ads.com^
 
-||promizer.com^$all
+||promizer.com^
 ! ^ Example: eghtesadonline.com
 
-||phonroid.com^$all
+||phonroid.com^
 ! ^ Example: par30games.net
 
-||popina.ir^$all
+||popina.ir^
 
-||popunder.ir^$all
+||popunder.ir^
 ! TODO: Remove it, Used by marzfun.com
 
-||popupdl.ir^$all
-||popland.info^$all
+||popupdl.ir^
+||popland.info^
 
 ||peyvandha.ir^$3p
-||10.10.34.*^$all
+||10.10.34.*^
 ! ^ Example: imovie-dl.org
 
-||phoenixad.io^$all
-||partclick.ir^$all
-||persianrank.ir^$all
-||popgozar.com^$all
-||popupplus.ir^$all
-||popupme.net^$all
-||pushe.co^$all
-||p30rank.ir^$all
-||publica.ir^$all
+||phoenixad.io^
+||partclick.ir^
+||persianrank.ir^
+||popgozar.com^
+||popupplus.ir^
+||popupme.net^
+||pushe.co^
+||p30rank.ir^
+||publica.ir^
 
 ||parsiblog.com/ga.js
 
 ! >> Q <<
 
 ! >> R <<
-||rankirani.ir^$all
+||rankirani.ir^
 ||rasaaa.com^$3p
 
 ^utm_source=rokhdad^$doc,removeparam=/^utm_/
 ||rokhdad.news^$3p
 
-||rssbank.ir^$all
+||rssbank.ir^
 
 ||rizy.ir/js/ads.js
 
@@ -331,16 +331,16 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||rzb.ir/code/popup^
 
 ! >> S <<
-||spellads.com^$all
+||spellads.com^
 
-||offers.sapra.ir^$all
+||offers.sapra.ir^
 ! Example: gapfilm.ir
 
 ||shahrekhabar.com^$3p
-||statsfa.com^$all
-||slideskin.ir/ads/pop.php^$all
+||statsfa.com^
+||slideskin.ir/ads/pop.php^
 
-||sendword.ir^$all
+||sendword.ir^
 ! Used by i-video.ir
 
 logo.samandehi.ir##^responseheader(set-cookie)
@@ -348,25 +348,25 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
 
-||sanjagh.com^$all
-||sanjagh.net^$all
+||sanjagh.com^
+||sanjagh.net^
 
-||ads.safarme.ir^$all
+||ads.safarme.ir^
 ! ^ Used by kojaro.com
 
-||sabavision.com^$all
-||sabaidea.cloud^$all
+||sabavision.com^
+||sabaidea.cloud^
 
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
-||trustseal.e-rasaneh.ir^$all,domain=~anaj.ir|~salamatnews.com
+||trustseal.e-rasaneh.ir^,domain=~anaj.ir|~salamatnews.com
 trustseal.e-rasaneh.ir##^responseheader(set-cookie)
 anaj.ir,salamatnews.com##+js(set, jscd, {})
 anaj.ir,salamatnews.com##+js(set, document.URL, undefined)
 anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 
-||triboon.net^$all
+||triboon.net^
 
 @@||tamasha.com/embed^$frame,3p
 ||tamasha.com/embed^$3p,removeparam=vastUrl
@@ -374,16 +374,16 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||tamasha.com/dist/*/js/tracker.min.js^$script
 ! Example: ejiga.com/w/SQxMqtz
 
-||te1.ir^$all
-||talapop.ir^$all
+||te1.ir^
+||talapop.ir^
 
 ||titr.online^$3p
 ! ^ Used by my-film.pw
 
-||tabligheirani.ir^$all
-||tbli.ir^$all
+||tabligheirani.ir^
+||tbli.ir^
 
-||tavoos.net^$all
+||tavoos.net^
 @@||player.tavoos.net/jwplayer.js$script,3p
 @@||player.tavoos.net/jwplayer.core.controls.html5.js$script,3p
 @@||player.tavoos.net/jwplayer.core.controls.js$script,3p
@@ -399,12 +399,12 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 @@||tavoos.net/tavoos_player/jwplayer/assets/$image,3p
 ! ^ Example: alef.ir/news/4010916082.html
 
-||cashback.takhfifan.com^$all
+||cashback.takhfifan.com^
 ! Example: https://portal.server.ir/cart.php?a=confproduct&i=0
 
-||tapsell.ir^$all
-||toppopup.com^$all
-||counter.toolsir.com^$all
+||tapsell.ir^
+||toppopup.com^
+||counter.toolsir.com^
 
 ||takskin.com/tools/online^$script,3p
 ||takskin.com/tools/show-ip^$script,3p
@@ -414,30 +414,30 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||tool.4tools.ir/tools/click-l/click-l.js^$script,3p
 
 ! >> U <<
-||userfriendly.ir^$all
+||userfriendly.ir^
 ! ^ Used by bils.ir
 
-||utopclick.com^$all
-||utop.ir^$all
+||utopclick.com^
+||utop.ir^
 
 ! >> V <<
-||vatanclick.ir^$all
+||vatanclick.ir^
 
 ! >> W <<
 ||webgozar.ir/c.aspx?Code=*&t=counter$script,3p
 ||webgozar.com/c.aspx?Code=*&t=counter$script,3p
 
-||wideads.com^$all
+||wideads.com^
 
 ! >> X <<
-||xjs.lol^$all
-||xmlx.lol^$all
+||xjs.lol^
+||xmlx.lol^
 ! avaz-kurd.ir, power-music.ir
 
 ! >> Y <<
-||yelloadwise.ir^$all
+||yelloadwise.ir^
 
-||yektanet.com^$all
+||yektanet.com^
 @@||video.cdn.yektanet.com/video-$script,3p,domain=gostaresh.news
 @@||native-ad-placement-cdn.yektanet.com/static/video_scripts//video-$script,3p,domain=gostaresh.news
 @@||native-ad-placement-cdn.yektanet.com/static/video_scripts/video-$script,3p,domain=fararu.com
@@ -447,11 +447,11 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 @@||yektanet.com/static/vast-client.js^$script,3p,domain=fararu.com|gostaresh.news
 @@||yektanet.com/static/silvermine-videojs-quality-selector.min.js^$script,3p,domain=fararu.com|gostaresh.news
 
-||yekbux.com^$all
+||yekbux.com^
 
 ! >> Z <<
-||zarpop.com^$all
-||zarpop.ir^$all
+||zarpop.com^
+||zarpop.ir^
 
 !-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------!
 
@@ -567,9 +567,9 @@ avaz-kurd.ir##.page-body > .post:not(article) > .yn-bnr:empty:upward(.post)
 avaz-kurd.ir##.page-body > .post:not(article) > [id^="pos-article-"]:empty:upward(.post)
 avaz-kurd.ir##.sidebar-right > .box > .title:has-text(لینک های مفید):upward(.box)
 
-||analytics.asiatech.ir^$all
+||analytics.asiatech.ir^
 
-||192.168.10.113^$all,domain=airport.ir
+||192.168.10.113^,domain=airport.ir
 
 artmusics.top##+js(nowoif)
 ||artmusics.top/directory/?app=$all
@@ -667,7 +667,7 @@ androidgozar.com##.post-sticky:upward(.row)
 androidgozar.com##.ag-agah
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
-||dsp.aparat.com^$all
+||dsp.aparat.com^
 ||static.cdn.asset.aparat.com/agf-file^$image,1p
 ||aparat.com/external/romeo^$xhr
 ||aparat.com/static/vendor/dox$script,css
@@ -760,7 +760,7 @@ bandmoviez.one##+js(acis, document.onclick, checkCookie)
 bikarsho.ir##.stream-item
 bikarsho.ir##.stream-item-widget
 
-||metrix.behtarino.com^$all
+||metrix.behtarino.com^
 
 ||static.bourse24.ir/images/ads^
 bourse24.ir##[href*="bourse24.ir/ads/click/"]
@@ -769,9 +769,9 @@ bourse24.ir##.ads-margin-bot
 biainobokhor.ir##div.step:nth-of-type(3)::after:style(content: 'هشدار از طرف لیست PersianBlocker: با ثبت کردن این اطلاعات، این سایت می‌تواند آدرس خانه و همه اطلاعات شما که در حساب‌کاربری اسنپ‌فود ثبت شده است را مشاهده کند و یا حتی اقدام به تغییر اطلاعات و ثبت سفارش کند. از این سایت با ریسک خودتان استفاده کنید و بعد از اتمام بررسی، دکمه "خروج" در سایت اسنپ‌فود را زده تا Token شما لغو شده و دسترسی این سایت به حساب‌کاربری شما قطع شود.' !important; color: #E6000D !important; margin-top: 20px !important;)
 ! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1198560570
 ||bama.ir^$removeparam=/^utm_/
-||apm.bama.ir^$all
-||bama.ir/api/car/detail/visit^$all
-||bama.ir/NormalUser/Scripts/PageJS/userTracking.js^$all
+||apm.bama.ir^
+||bama.ir/api/car/detail/visit^
+||bama.ir/NormalUser/Scripts/PageJS/userTracking.js^
 
 ||behrah.com/tabligh.js
 
@@ -891,7 +891,7 @@ chetor.com#@#.ads-block
 @@||chetor.com/wp-content/uploads/2016/04/instagram-banner.chetor-media2.gif$image,1p
 @@||chetor.com/wp-content/uploads/2021/07/book-banner.1250.240.2.gif$image,1p
 
-||sentry.cafebazaar.org^$all
+||sentry.cafebazaar.org^
 !#if env_mobile
 cafebazaar.ir##div.DownloadSheet.BottomSheet
 cafebazaar.ir##html:style(overflow: auto !important;)
@@ -1123,11 +1123,11 @@ digikala.com##+js(json-prune, data.intrack)
 ||digikala.com^$removeparam=cpcAdToken
 ||digikala.com/sw.js
 ||digikala.com/tracker^
-||tracker.digikala.com^$all
-||new-sentry.digikala.com^$all
-||analytics.digikala.com^$all
-||affstat.digikala.com^$all
-||affiliate.digikala.com^$all
+||tracker.digikala.com^
+||new-sentry.digikala.com^
+||analytics.digikala.com^
+||affstat.digikala.com^
+||affiliate.digikala.com^
 digikala.com##.radius-large-lg:has([class*="SponsoredBrandCarousel"])
 digikala.com##.mb-4:has(.mr-auto.text-caption.ai-center)
 digikala.com##[class*="VerticalProductCard"]:has(.mr-auto.text-caption.ai-center):upward([class^="product-list"])
@@ -1149,7 +1149,7 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||digistyle.com^$removeparam=/^utm_/
 ||digistyle.com/tracker^
 
-||sentry-new.divar.ir^$all
+||sentry-new.divar.ir^
 ||ammaar.delivery.zeerak.cloud
 
 ||doostihaa.com/wp-content/plugins/jw-player-7-for-wp-premium/jwplayer/gapro.js
@@ -1311,7 +1311,7 @@ filmino.me##.flex-ad-body
 filmha.top##.abvertise > .container > a:not(a[href="https://t.me/filmha_top"])
 
 ! https://github.com/MasterKia/PersianBlocker/issues/107
-||analytics.football360.ir^$all
+||analytics.football360.ir^
 ||football360.ir/api/advertisements^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/42
@@ -1330,10 +1330,10 @@ farachart.com##.p-single.blog-post:upward(1):style(width: 100% !important;)
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1179570047
 ! https://github.com/MasterKia/PersianBlocker/pull/71
-||fb-gw.bef.rest^$all
-||api.footballi.net/api/*/user/init^$all
-||api.footballi.net/api/*/news/visit^$all
-||sentry.footballiapp.com^$all
+||fb-gw.bef.rest^
+||api.footballi.net/api/*/user/init^
+||api.footballi.net/api/*/news/visit^
+||sentry.footballiapp.com^
 ||footballi.net/assets/shared-application/scripts/analytics
 ||footballi.net/assets/shared-application/scripts/jwplayer/vast.js
 ||footballi.net/video/*/undefined/vast.js
@@ -1596,11 +1596,11 @@ imna.ir##.box:has(header:has-text(تبلیغات متنی))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115273
 imvbox.com##div[class^="cr-banner-"]
 
-||ipsite.ir^$all
+||ipsite.ir^
 ! ^ Used by bils.ir (ipsite.ir/JSShow/js20212022.js)
 
-||analytics.irancell.ir^$all
-||apptracking.irancell.ir^$all
+||analytics.irancell.ir^
+||apptracking.irancell.ir^
 my.irancell.ir##+js(json-prune, allRow1 allRow2 recommendeds award entertainment finance shop travel productivity education download *.link *.image)
 my.irancell.ir##div[data-testid^="filterItem_tab"]
 my.irancell.ir##div[data-testid="more-Button-TestId"]
@@ -1951,7 +1951,7 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
-||counter.mahanmusic.net^$all
+||counter.mahanmusic.net^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17858
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149605
@@ -1987,11 +1987,11 @@ movienama.com##.opanel-ads
 minevisam.com##.srjtbaungo
 
 ||magland.ir/banner_images^
-||analytic.magland.ir^$all
+||analytic.magland.ir^
 
 ! ||malltina.com^$removeparam=/^upn_/
-||affiliate.malltina.com^$all
-||sentry.malltina.com^$all
+||affiliate.malltina.com^
+||sentry.malltina.com^
 
 mihand.ir##.entry:has(.title:has-text(تبلیغات))
 mihand.ir##.text-ads
@@ -2123,7 +2123,7 @@ naslmusic.ir##+js(nowoif)
 
 najiremix.ir##+js(nowoif)
 
-||oscaranimation.in^$all
+||oscaranimation.in^
 *$script,3p,domain=nex11music.ir
 nex11music.ir##.side_left > .side > .title:has-text(تبلیغات متنی):upward(.side)
 
@@ -2180,7 +2180,7 @@ netpaak.com###text-5
 
 play.namava.ir##+js(json-prune, result.commercialUrl result.watermark)
 play.namava.ir##+js(no-xhr-if, PlayReports)
-||sentry.namava.ir^$all
+||sentry.namava.ir^
 ! ||namava.ir/api/v1.0/users/anonymous-info
 ! TODO: Remove arbitrary IP limitaion
 ||ws.namava.ir/?%27UserToken=*&client_info=^$websocket,1p
@@ -2252,7 +2252,7 @@ phonroid.ir##.dlbtnhidden
 ||peivast.com/wp-content/uploads/*.webm$media,1p
 peivast.com##.multi-ads-container
 
-||analytics.plaza.ir^$all
+||analytics.plaza.ir^
 ||plaza.ir/location/find-client-location^$xhr,1p
 ||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xhr,1p
 plaza.ir##.ad--content
@@ -2426,7 +2426,7 @@ forum.p30world.com#@##ad_global_above_footer
 ! 8pic.ir##*[class*="main"]:has-text(تبلیغ)
 
 ! >> Q <<
-||sentry.quera.org^$all
+||sentry.quera.org^
 
 ! >> R <<
 ! https://github.com/MasterKia/PersianBlocker/issues/154
@@ -2844,7 +2844,7 @@ tamasha.com##+js(cookie-remover, tracker_visitor_id)
 ! Example: tamasha.com/v/DDlMB
 
 ! https://github.com/MasterKia/PersianBlocker/issues/47
-||ad.technews-iran.com^$all
+||ad.technews-iran.com^
 ||app.technews-iran.com^$removeparam=_gl
 ||app.technews-iran.com^$removeparam=_ga
 ||technews-iran.com/wp-content/cache/min/*/amp-ad-
@@ -3179,8 +3179,8 @@ varoone.ir##.ads468
 ||static.varzesh3.com/js/ads.js^
 ||biz.varzesh3.com/vast^
 ||biz.varzesh3.com/events/view^
-||news-view-api.varzesh3.com^$all
-||video-view-api.varzesh3.com^$all
+||news-view-api.varzesh3.com^
+||video-view-api.varzesh3.com^
 varzesh3.com##.left-side-ad-col
 varzesh3.com##.right-ads
 varzesh3.com##.adbox:not(.adbar)
@@ -3307,9 +3307,9 @@ zoomit.ir##^script:has-text(bannersAsJson)
 zoomit.ir##+js(aopr, banner)
 ! !#endif
 zoomit.ir##+js(no-xhr-if, /ads|visit/)
-||api2.zoomit.ir/ads^$all
-||api2.zoomit.ir/editorial/api/groupings/visit^$all
-||analytics.zoomit.ir^$all
+||api2.zoomit.ir/ads^
+||api2.zoomit.ir/editorial/api/groupings/visit^
+||analytics.zoomit.ir^
 zoomit.ir##.wide-adv-row
 zoomit.ir##[class^="AdvertisingParser"]
 zoomit.ir##[class^="DisplaySkeleton__DisplayRoot"]
@@ -3484,7 +3484,7 @@ zoomtech.org##div.zoomtech-banner
 !-------------------v Malware/Phishing Sites v-----------------!
 ! https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
 ! https://farnet.io/1401/08/324594/rubika-is-detected-as-malware/
-||rubika.ir^$all,domain=~web.rubika.ir|~m.rubika.ir
+||rubika.ir^,domain=~web.rubika.ir|~m.rubika.ir
 
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
