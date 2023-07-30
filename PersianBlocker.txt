@@ -2853,25 +2853,25 @@ technews-iran.com##.col-xs-12 > article:has(a[href*="/category/pr/"])
 technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 100% !important; margin-right: 0 !important;)
 
 ^utm_source=Torob^$doc,removeparam=/^utm_/
-||api.torob.com^$removeparam=android_app_ver
-||api.torob.com^$removeparam=pre_prk
-||api.torob.com^$removeparam=source
-||api.torob.com^$removeparam=uid
-||api.torob.com^$removeparam=discover_method
-||api.torob.com^$removeparam=_bt__experiment
+||api.torob.com^$xhr,1p,removeparam=android_app_ver
+||api.torob.com^$xhr,1p,removeparam=pre_prk
+||api.torob.com^$xhr,1p,removeparam=source
+||api.torob.com^$xhr,1p,removeparam=uid
+||api.torob.com^$xhr,1p,removeparam=discover_method
+||api.torob.com^$xhr,1p,removeparam=_bt__experiment
 ! ||api.torob.com^$removeparam=search_id
 ! ^ Sometimes causes infinite loading
-||api.torob.com^$removeparam=suid
-||api.torob.com^$removeparam=bvid
-||api.torob.com^$removeparam=session_id
-||api.torob.com^$removeparam=is_adv
-||api.torob.com^$removeparam=btn
-||api.torob.com^$removeparam=shop_rank
-||api.torob.com^$removeparam=device
-||api.torob.com^$removeparam=_url_referrer
-||api.torob.com^$removeparam=_http_referrer
-||api.torob.com^$removeparam=_ft__shop_score
-||api.torob.com^$removeparam=_ft__ab_test
+||api.torob.com^$xhr,1p,removeparam=suid
+||api.torob.com^$xhr,1p,removeparam=bvid
+||api.torob.com^$xhr,1p,removeparam=session_id
+||api.torob.com^$xhr,1p,removeparam=is_adv
+||api.torob.com^$xhr,1p,removeparam=btn
+||api.torob.com^$xhr,1p,removeparam=shop_rank
+||api.torob.com^$xhr,1p,removeparam=device
+||api.torob.com^$xhr,1p,removeparam=_url_referrer
+||api.torob.com^$xhr,1p,removeparam=_http_referrer
+||api.torob.com^$xhr,1p,removeparam=_ft__shop_score
+||api.torob.com^$xhr,1p,removeparam=_ft__ab_test
 ! ||api.torob.com/*/base-product/details-log-click^
 ! ^ Causes infinite loading
 torob.com##.seller-element.shop-card:has(.click_vijhe)
