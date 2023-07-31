@@ -1287,6 +1287,11 @@ estekhtam.com#@#.ads-bottom
 ! TODO: Investigate more filters
 
 ! >> F <<
+! https://github.com/MasterKia/PersianBlocker/issues/189
+footofan.com#@#.ad-custom-size
+footofan.com#@#.ad-cat
+footofan.com##div.ad-cat:not(div.ad-custom-size)
+
 ||filimo.com/external/romeo^$xhr,1p
 ||filimo.com/external/visitpost^$xhr,1p
 filimo.com##section.player-container div.filimo-logo-filimo
