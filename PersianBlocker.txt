@@ -3323,10 +3323,15 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
+zoomit.ir##^script:has-text(bannersAsJson)
+!#if !cap_html_filtering
+zoomit.ir##+js(aopr, bannerAsJson)
+!#endif
 ||api2.zoomit.ir/ads^$xhr,image,1p
 ||api2.zoomit.ir/editorial/api/articles/*/visit^$xhr,1p
 ||analytics.zoomit.ir^
 zoomit.ir##div[class^="AdvertisingParser"]
+zoomit.ir##div.price-sticky
 
 zoomtech.org##div.zoomtech-banner
 
