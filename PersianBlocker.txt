@@ -364,6 +364,9 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
+||theforge.ir^
+! Seen on zoomit.ir
+
 ||trustseal.e-rasaneh.ir^$domain=~anaj.ir|~salamatnews.com
 trustseal.e-rasaneh.ir##^responseheader(set-cookie)
 anaj.ir,salamatnews.com##+js(set, jscd, {})
