@@ -3323,23 +3323,10 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
-zoomit.ir##^script:has-text(bannersAsJson)
-! !#if !cap_html_filtering
-zoomit.ir##+js(aopr, banner)
-! !#endif
-zoomit.ir##+js(no-xhr-if, /ads|visit/)
-||api2.zoomit.ir/ads^
-||api2.zoomit.ir/editorial/api/groupings/visit^
+||api2.zoomit.ir/ads^$xhr,image,1p
+||api2.zoomit.ir/editorial/api/articles/*/visit^$xhr,1p
 ||analytics.zoomit.ir^
-zoomit.ir##.wide-adv-row
-zoomit.ir##[class^="AdvertisingParser"]
-zoomit.ir##[class^="DisplaySkeleton__DisplayRoot"]
-zoomit.ir##[class*="BrowseArticleItem___StyledFlex"]:has(a[href*="/pr/"])
-zoomit.ir##[class*="SupporterText"]:upward([class^="col__Col"])
-zoomit.ir##footer a[href*="parspack.com?utm_source=zoomit"]:upward(.col-sm-5)
-!#if env_mobile
-zoomit.ir##.price-sticky
-!#endif
+zoomit.ir##div[class^="AdvertisingParser"]
 
 zoomtech.org##div.zoomtech-banner
 
