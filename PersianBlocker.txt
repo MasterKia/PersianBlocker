@@ -3324,9 +3324,9 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 zoomit.ir##^script:has-text(bannersAsJson)
-!#if !cap_html_filtering
+! !#if !cap_html_filtering
 zoomit.ir##+js(aopr, bannerAsJson)
-!#endif
+! !#endif
 ||api2.zoomit.ir/ads^$xhr,image,1p
 ||api2.zoomit.ir/editorial/api/articles/*/visit^$xhr,1p
 ||analytics.zoomit.ir^
