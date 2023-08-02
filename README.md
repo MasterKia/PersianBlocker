@@ -316,6 +316,9 @@ https://basic.rethinkdns.com
 \- [سایت مرجع همه لیست ها (Filterlists.com)](https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist)
 
 \- [ابزار V2RayGen](https://github.com/SonyaCore/V2RayGen/tree/6dd75a68b25184009551a49182c211d451ee1549#block-list-sources)
+
+\- [ابزار 3x-ui](https://github.com/MHSanaei/3x-ui/commit/b805bf62229ef4a1211b6bc1e7603c07b12b9653)
+
   
 </div>  
 
