@@ -2974,12 +2974,13 @@ tabnak.ir###cycle_adv_tabnak
 ! https://github.com/MasterKia/PersianBlocker/issues/24
 tabnakjavan.com#@#.top_adv
 
+player.telewebion.com##+js(json-prune, body.productStatus)
 ! ||checks.telewebion.com
 ||adengine.telewebion.com^
 ||rokhdad.telewebion.com^
 ||analytics.telewebion.com^
+||gateway.telewebion.com/broker/api/v1/message/twplayer^$xhr,1p,method=POST
 telewebion.com##.rmp-ad-container
-! TODO: Remove arbitrary IP limitaion
 
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1145684991
 ! https://github.com/MasterKia/PersianBlocker/commit/95d658b142fc88014fad465373e07ceeb75f2fc6#commitcomment-78854099
