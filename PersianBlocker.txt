@@ -2975,8 +2975,9 @@ tabnak.ir###cycle_adv_tabnak
 tabnakjavan.com#@#.top_adv
 
 ! ||checks.telewebion.com
-||adengine.telewebion.com
-||rokhdad.telewebion.com
+||adengine.telewebion.com^
+||rokhdad.telewebion.com^
+||analytics.telewebion.com^
 telewebion.com##.rmp-ad-container
 ! TODO: Remove arbitrary IP limitaion
 
