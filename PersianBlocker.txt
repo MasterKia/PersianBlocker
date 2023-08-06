@@ -3282,6 +3282,8 @@ yasdl.com##.sidebar-textads
 yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
+zeemusic.ir##+js(nowoif)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/188
 ||cdnfa.com/*.gif^$image,3p,domain=zendegionline.ir
 zendegionline.ir##.home-ads
