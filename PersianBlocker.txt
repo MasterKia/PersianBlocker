@@ -1963,6 +1963,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+magbazi.com##div.ads_fix_top
+magbazi.com##div.text_ads_box
+
 ||counter.mahanmusic.net^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17858
