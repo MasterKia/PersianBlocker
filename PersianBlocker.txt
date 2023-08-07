@@ -997,6 +997,7 @@ darooyab.ir##.DivContent_BottomOfPageAdvertising
 !#endif
 
 ||ta.dideo.ir/ad^
+||dideo.tv/ad/adPack^$xhr,1p
 
 delgarm.com##[href*="/banners/click/"]
 delgarm.com##.weblink
