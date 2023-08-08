@@ -2132,6 +2132,9 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+! https://github.com/MasterKia/PersianBlocker/issues/193
+||fs.noorgram.ir/pic/*.gif^$image,1p
+
 naslmusic.ir##+js(nowoif)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/166
