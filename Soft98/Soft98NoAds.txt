@@ -5,4 +5,14 @@
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
-soft98.ir,~forum.soft98.ir##a > img:upward(a):style(clip-path: circle(0) !important;)
+!#if env_chromium
+soft98.ir,~forum.soft98.i##:has(> a > img):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.i##:has(> *[style*="display"][style*="clip-path"][style*="important"][style*="none"] > img):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##:has(> * > img[style*="display"][style*="clip-path"][style*="important"][style*="none"]):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##:has(> * > img:not(img[src^="https://cdn.soft98.ir/"][src$=".jpg"])):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##:has(> * > img[width][height]):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##:has(> * > img[src$=".gif"]):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##[style]:has(> * > * > * > a[href*="linkdoni.soft98.ir" i]):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##:has(> * > * ~ a[href] > [style]):style(clip-path: circle(0) !important;)
+soft98.ir,~forum.soft98.ir##:has(> * > a[href*="smostafa" i]):style(clip-path: circle(0) !important;)
+!#endif
