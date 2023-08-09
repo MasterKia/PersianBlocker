@@ -8,7 +8,7 @@
 
 این لیست جزو لیست های پیش‌فرض افزونه **uBlock Origin** و **AdGuard** می‌باشد.
 
-## برای حذف تبلیغات سافت98 کافیه لیست Quick-Fixes توی افزونه uBlock Origin رو بروز کنید. [ماجرا چیه؟](https://github.com/MasterKia/PersianBlocker/issues/40)
+## برای حذف تبلیغات سافت98 کافیه آخرین پیام رو اینجا بخونید؛https://github.com/MasterKia/PersianBlocker/issues/40
 
 ***
 
@@ -318,6 +318,8 @@ https://basic.rethinkdns.com
 \- [ابزار V2RayGen](https://github.com/SonyaCore/V2RayGen/tree/6dd75a68b25184009551a49182c211d451ee1549#block-list-sources)
 
 \- [ابزار 3x-ui](https://github.com/MHSanaei/3x-ui/commit/b805bf62229ef4a1211b6bc1e7603c07b12b9653)
+
+\- ابزار های [Iran-v2ray-rules](https://github.com/Chocolate4U/Iran-v2ray-rules) و [Iran-sing-box-rules](https://github.com/Chocolate4U/Iran-sing-box-rules) و [Iran-clash-rules](https://github.com/Chocolate4U/Iran-clash-rules) 
 
   
 </div>  
