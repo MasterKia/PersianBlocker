@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Soft98.ir: Remove ads/حذف تبلیغات
+// @name         Soft98.ir: Remove ads / حذف تبلیغات
 // @namespace    https://github.com/MasterKia/PersianBlocker
 // @match        http://*.soft98.ir/*
 // @match        https://*.soft98.ir/*
