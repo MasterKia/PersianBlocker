@@ -310,8 +310,8 @@ new-sentry.digikala.com
 # analytics.digikala.com
 # ^ Shows online visitors
 
-sentry-new.divar.ir
-ammaar.delivery.zeerak.cloud
+sentry.divar.cloud
+actionlog.divar.ir
 
 # >> E <<
 
