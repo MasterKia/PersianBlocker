@@ -3507,6 +3507,9 @@ zoomtech.org##div.zoomtech-banner
 ! https://github.com/Webamoozcom/warning-list/discussions/171
 ||mogo-crypto.net^$doc
 
+! https://github.com/Webamoozcom/warning-list/discussions/174
+||tinancefa.org^$doc
+
 !-------------------------^ Scam Sites ^-----------------------!
 
 !-------------------v Malware/Phishing Sites v-----------------!
