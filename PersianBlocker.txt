@@ -1157,8 +1157,10 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||digistyle.com^$removeparam=/^utm_/
 ||digistyle.com/tracker^
 
-||sentry-new.divar.ir^
-||ammaar.delivery.zeerak.cloud
+||sentry.divar.cloud^
+||actionlog.divar.ir^
+||divar.ir/g-scripts^$script,1p
+||api.divar.ir/v1/client-exporter/send-report^$beacon,1p
 
 ||doostihaa.com/wp-content/plugins/jw-player-7-for-wp-premium/jwplayer/gapro.js
 doostihaa.com##.adsfix_box
