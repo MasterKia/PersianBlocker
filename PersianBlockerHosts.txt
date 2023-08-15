@@ -561,6 +561,9 @@ unitedsolarinfinity.com
 # https://github.com/Webamoozcom/warning-list/discussions/171
 mogo-crypto.net
 
+# https://github.com/Webamoozcom/warning-list/discussions/174
+tinancefa.org
+
 #-------------------------^ Scam Sites ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
