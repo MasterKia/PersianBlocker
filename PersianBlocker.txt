@@ -1157,8 +1157,8 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||digistyle.com^$removeparam=/^utm_/
 ||digistyle.com/tracker^
 
-||sentry.divar.cloud^
-||actionlog.divar.ir^
+||sentry.divar.cloud^$3p,domain=divar.ir
+||actionlog.divar.ir^$1p
 ||divar.ir/g-scripts^$script,1p
 ||api.divar.ir/v1/client-exporter/send-report^$beacon,1p
 
