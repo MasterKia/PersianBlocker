@@ -2148,8 +2148,9 @@ naslmusic.ir##+js(nowoif)
 najiremix.ir##+js(nowoif)
 
 ||oscaranimation.in^
-*$script,3p,domain=nex11music.ir
-nex11music.ir##.side_left > .side > .title:has-text(تبلیغات متنی):upward(.side)
+||xxx.atlas-music.ir/tab.php^$frame,3p
+*$script,3p,domain=nex11music.ir|show-music.ir
+nex11music.ir,show-music.ir##div.side_left > div.side > div.title:has-text(تبلیغات متنی):upward(div.side)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/148
 nabzefanavari.ir##.txt-box:has(> .txt_adv_content)
