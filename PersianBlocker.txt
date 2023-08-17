@@ -2252,6 +2252,11 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||paziresh24.com/patient/api/webvitals^$beacon,1p,method=POST
+||search.paziresh24.com/seapi/stat^$xhr,1p,method=POST
+||search.paziresh24.com/seapi/stat/position^$xhr,1p
+||paziresh24.com/services/collector^$xhr,1p,method=POST
+
 ! https://github.com/MasterKia/PersianBlocker/issues/192
 ||pluginyab.ir/ads^$image,1p
 pluginyab.ir##div.ssad
