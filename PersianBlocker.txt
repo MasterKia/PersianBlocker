@@ -2906,6 +2906,8 @@ technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 
 ||api.torob.com^$doc,xhr,1p,removeparam=_http_referrer
 ||api.torob.com^$doc,xhr,1p,removeparam=_ft__shop_score
 ||api.torob.com^$doc,xhr,1p,removeparam=_ft__ab_test
+||api.torob.com^$doc,xhr,1p,removeparam=user_id
+||api.torob.com/v4/product-page/redirect^$doc,removeparam=search_id
 ! ||api.torob.com/*/base-product/details-log-click^
 ! ^ Causes infinite loading
 torob.com##div.buy_box > a.cheapest-seller-wrapper > div.online_seller div.online_badge:has-text(آگهی):upward(div.buy_box)
