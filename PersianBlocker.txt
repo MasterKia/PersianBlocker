@@ -2908,11 +2908,12 @@ technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 
 ||api.torob.com^$xhr,1p,removeparam=_ft__ab_test
 ! ||api.torob.com/*/base-product/details-log-click^
 ! ^ Causes infinite loading
-torob.com##.seller-element.shop-card:has(.click_vijhe)
+torob.com##div.buy_box > a.cheapest-seller-wrapper > div.online_seller div.online_badge:has-text(آگهی):upward(div.buy_box)
+torob.com##div.shop-card.seller-element:has(> div.shop-info > div#vijhe_small)
 !#if env_mobile
-torob.com##.sellers_section:not(:has(.modal-header)) > div > div:has(.click_vijhe)
-torob.com##.sellers_section > div > div > div > div > div > div > div:has(.click_vijhe)
-torob.com##[class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"] > [class^="jsx-"]:has-text(نصب شود)
+torob.com##+js(set-cookie, home_app_install_banner, 3)
+torob.com##+js(json-prune, props.pageProps.show_app_install_banner)
+torob.com##div.sellers_section > div > div[class^="jsx-"]:has(> a.seller-element > div.seller-element > div.click_vijhe)
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12411
