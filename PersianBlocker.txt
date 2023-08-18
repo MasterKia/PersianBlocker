@@ -2617,6 +2617,9 @@ shomavaeghtesad.com##.column_2:style(width: 30% !important;)
 !#endif
 
 ||sheypoor.com/js/analytics-
+!#if env_mobile
+sheypoor.com##div#app-suggest-new
+!#endif
 
 shereno.com##.b_box
 shereno.com##.widget:has(.widget_title:has-text(پیوند))
@@ -2913,7 +2916,9 @@ technews-iran.com##.col-12.col-md-8:style(max-width: 100% !important; flex: 0 0 
 torob.com##div.buy_box > a.cheapest-seller-wrapper > div.online_seller div.online_badge:has-text(آگهی):upward(div.buy_box)
 torob.com##div.shop-card.seller-element:has(> div.shop-info > div#vijhe_small)
 !#if env_mobile
-torob.com##+js(set-cookie, home_app_install_banner, 3)
+torob.com##+js(set-cookie, home_app_install_banner, 10)
+torob.com##+js(set-cookie, install_declined_count, 10)
+torob.com##+js(set-cookie, install_declined_v2, true)
 torob.com##+js(json-prune, props.pageProps.show_app_install_banner)
 torob.com##div.sellers_section > div > div[class^="jsx-"]:has(> a.seller-element > div.seller-element > div.click_vijhe)
 !#endif
