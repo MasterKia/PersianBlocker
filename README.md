@@ -319,6 +319,8 @@ https://basic.rethinkdns.com
 
 \- [ابزار 3x-ui](https://github.com/MHSanaei/3x-ui/commit/b805bf62229ef4a1211b6bc1e7603c07b12b9653)
 
+\- [ابزار x-ui](https://github.com/alireza0/x-ui/pull/478/commits/78171dd6a420a084a7d5ce805b25f2ae08db0044)
+
 \- ابزار های [Iran-v2ray-rules](https://github.com/Chocolate4U/Iran-v2ray-rules) و [Iran-sing-box-rules](https://github.com/Chocolate4U/Iran-sing-box-rules) و [Iran-clash-rules](https://github.com/Chocolate4U/Iran-clash-rules) 
 
   
