@@ -1550,13 +1550,8 @@ honarehzendegi.com#@#.logo-ad
 ||gourls.ir^$popup
 hamisheonline.com##+js(acis, document.onclick, Hamisheonlinepaps)
 
-! TODO
-!#if ext_devbuild
 hamtamovie.*##+js(href-sanitizer, a[href^="https://hamtamovie.im/dl/?url="], ?url)
-!#endif
 hamtamovie.*##section#left-side > aside > h4:has-text(تبلیغات):upward(aside)
-hamtamovie.*##a#btnDownload:style(display: block !important;)
-hamtamovie.*##a#btnDownload:others()
 
 ||harfetaze.com/wp-content/uploads/ads/
 harfetaze.com##.sidebar-right
