@@ -431,8 +431,10 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||vatanclick.ir^
 
 ! >> W <<
-||webgozar.ir/c.aspx?Code=*&t=counter$script,3p
-||webgozar.com/c.aspx?Code=*&t=counter$script,3p
+||webgozar.ir^$xhr,3p
+||webgozar.com^$xhr,3p
+||webgozar.ir/c.aspx?Code=*&t=counter^$script,3p
+||webgozar.com/c.aspx?Code=*&t=counter^$script,3p
 
 ||wideads.com^
 
