@@ -11,7 +11,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! Popup: needpop / vc_url
-artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir##+js(nowoif)
+artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir##+js(nowoif)
 
 ! rouydad24.ir, ibena.ir, tejaratemrouz.ir, irdc.ir
 /files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com|vananews.com|barghnews.com
@@ -902,7 +902,6 @@ cafebazaar.ir##div.DownloadSheet.BottomSheet
 cafebazaar.ir##html:style(overflow: auto !important;)
 !#endif
 
-! coffeeapps.ir##+js(nowoif)
 ||coffeeapps.ir/cof-p.php^
 ||coffeeapps.ir/wp-content/plugins/wp-content-copy-protector^
 coffeeapps.ir##^script[id^="wpcp_"]
@@ -1988,10 +1987,7 @@ maxstars.ir##a[href="http://www.asalchat.skin"]
 ! To counter Online Malicious URL Blocklist
 ||mehtikahrizi.ir^$badfilter
 
-musickhone.com##^script:has-text(window.open)
-!#if !cap_html_filtering
 musickhone.com##+js(nowoif)
-!#endif
 
 my.mci.ir,pwa.mci.ir##+js(set, window.screen.width, 0)
 my.mci.ir,pwa.mci.ir##+js(set, window.screen.height, 0)
@@ -2245,9 +2241,6 @@ namnak.com##.Dr.D2.Cu.o
 55online.news###webgardi_list:upward(.section_cnt)
 55online.news##.zxc_matni
 
-98oldmusics.site##+js(nowoif)
-98oldmusics.site##[id^="ads-"]:upward(.panel)
-
 opizo.me##+js(set, count, 0)
 opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 
@@ -2305,10 +2298,7 @@ parsfootball.com##.block-ads2
 parsfootball.com##.block-ads4
 parsfootball.com#@#.navad
 
-power-music.ir##^script:has-text(window.open)
-!#if !cap_html_filtering
 power-music.ir##+js(nowoif)
-!#endif
 ||spotyfile.com^$domain=power-music.ir
 ||power-music.ir/sw.js^$script,1p
 power-music.ir##.ytn-hamsan
@@ -3303,8 +3293,6 @@ yasdl.com##.sidebar-textads
 yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
-zeemusic.ir##+js(nowoif)
-
 ! https://github.com/MasterKia/PersianBlocker/issues/188
 ||cdnfa.com/*.gif^$image,3p,domain=zendegionline.ir
 zendegionline.ir##.home-ads
