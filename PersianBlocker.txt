@@ -1286,9 +1286,12 @@ ensafnews.com##.stream-item-widget
 
 estekhtam.com#@#.ads-bottom
 
-||api.enama.ir/Ads/
-||api.enama.ir/WebFiles/_AdsBanner/
-! TODO: Investigate more filters
+||api.enama.ir/Ads^$xhr
+||api.enama.ir/Object/AdsView^$xhr
+||api-w.enama.ir//Object/Visited^$xhr
+||api.enama.ir/webfiles/_AdsBanner^$image
+||api.enama.ir/demo//vast.js^$script
+enama.ir##div.avdDiv
 
 ! >> F <<
 ! https://github.com/MasterKia/PersianBlocker/issues/194
