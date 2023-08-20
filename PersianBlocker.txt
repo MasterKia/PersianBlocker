@@ -2353,10 +2353,10 @@ plus.ir##.top-ad
 
 picofile.com##.aa-container
 
-||parsnaz.com/ads
-parsnaz.com##.Res005
-parsnaz.com##.WCBC
-parsnaz.com##.topadver
+||parsnaz.com/ads^$image,1p
+||parsnaz.com/ads-link^$image,1p
+parsnaz.com##div[class^="topadvers"]
+parsnaz.com##body > div#warpper:style(max-width: 90% !important;)
 
 ||persiangfx.com/tab/banner/
 persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > .sidebar-box-content
