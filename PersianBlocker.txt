@@ -1967,6 +1967,13 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+musicpars3.ir##+js(nowoif)
+
+musicdays.ir##div.e3lan
+musicdays.ir##div.widget#text-15
+
+musicguitars.ir##+js(nowoif)
+
 magbazi.com##div.ads_fix_top
 magbazi.com##div.text_ads_box
 
