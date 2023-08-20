@@ -2390,10 +2390,8 @@ persianv.com#@#.ads-text
 
 ||pishkhan.com/pishkhaanads/
 
-! ||pgnews.ir/templates/ainews/jquery-1.11.0.min.js$script,1p
-||pgnews.ir/uploads/*.gif
-pgnews.ir##div > div > a.toolt > .onsc
-! TODO: Modify pgnews.ir/templates/ainews/jquery-1.11.0.min.js to block ads
+||pgnews.ir/uploads/*.gif^$image,1p
+pgnews.ir##a[href*="&m_name=ads"]
 
 ! https://github.com/MasterKia/PersianBlocker/issues/13
 pedal.ir##.stream-item-top
