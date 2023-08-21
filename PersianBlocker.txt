@@ -2961,10 +2961,7 @@ techrato.com##div[class^="ads"]
 techrato.com##.widget > p > #KajAds_Panel:upward(.widget)
 techrato.com##:not(:matches-path(/tag/رپورتاژ-آگهی/)) .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)
 
-tigatravel.com##+js(nostif, /^/)
-||tigatravel.com/set_cookie_popup.php
-tigatravel.com##.fade
-tigatravel.com##.popup_block
+tigatravel.com##+js(aost, document.createElement, join_telegram)
 
 ||takro.net/cdn-cgi/zaraz/
 ||takro.net/cdn-cgi/apps/head
