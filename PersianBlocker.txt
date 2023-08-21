@@ -431,10 +431,10 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||vatanclick.ir^
 
 ! >> W <<
-||webgozar.ir^$xhr,3p
-||webgozar.com^$xhr,3p
-||webgozar.ir/c.aspx?Code=*&t=counter^$script,3p
-||webgozar.com/c.aspx?Code=*&t=counter^$script,3p
+||webgozar.ir^$3p
+||webgozar.com^$3p
+@@||webgozar.ir/c.aspx?Code=*&t=poll^$script,3p
+@@||webgozar.com/poll/vote.aspx?Code=$frame,3p
 
 ||wideads.com^
 
@@ -3224,6 +3224,10 @@ vista.ir##[href^="/ad/"]
 vista.ir##.textad
 
 ! >> W <<
+||webgozar.com/adimg^$image,1p
+webgozar.com##div.topAds
+webgozar.com##div.colRight div[class^="adsBox"]
+
 ! https://github.com/MasterKia/PersianBlocker/issues/29
 ||wcity4.site/wp-json/wp-statistics^
 
