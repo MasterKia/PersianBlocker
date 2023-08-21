@@ -11,7 +11,7 @@
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
 ! Popup: needpop / vc_url
-artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir##+js(nowoif)
+artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir##+js(nowoif)
 
 ! rouydad24.ir, ibena.ir, tejaratemrouz.ir, irdc.ir
 /files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com|vananews.com|barghnews.com
@@ -2143,7 +2143,12 @@ naslmusic.ir##+js(nowoif)
 ! https://github.com/MasterKia/PersianBlocker/issues/166
 ||dl.3danews.ir/wp-content/uploads/*.gif^$domain=nabakhabar.ir,3p
 
-najiremix.ir##+js(nowoif)
+*$script,3p,domain=najiremix.ir
+||najiremix.ir^$csp=frame-src 'none'
+najiremix.ir##^script:has-text(window.location=)
+!#if !cap_html_filtering
+najiremix.ir##+js(rmnt, script, window.location=)
+!#endif
 
 ||oscaranimation.in^
 ||xxx.atlas-music.ir/tab.php^$frame,3p
