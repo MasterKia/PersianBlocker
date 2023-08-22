@@ -2533,6 +2533,9 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+skyroom.online##+js(json-prune, result.adsText result.adsLink)
+skyroom.online##div.banner:has(> a > img)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/186
 sclinic.ir##^script:has-text(document.oncontextmenu =)
 sclinic.ir##^script[id^="wpcp_"]
