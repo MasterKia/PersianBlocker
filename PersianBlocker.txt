@@ -10,7 +10,7 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
-! Popup: needpop / vc_url
+! Popup: needpop (vc_url)
 artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir##+js(nowoif)
 
 ! rouydad24.ir, ibena.ir, tejaratemrouz.ir, irdc.ir
@@ -2252,6 +2252,9 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+!#if env_mobile
+paziresh24.com##+js(set-cookie, closeAppBanner, true)
+!#endif
 ||paziresh24.com/patient/api/webvitals^$beacon,1p,method=POST
 ||search.paziresh24.com/seapi/stat^$xhr,1p,method=POST
 ||search.paziresh24.com/seapi/stat/position^$xhr,1p
