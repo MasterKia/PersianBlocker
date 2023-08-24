@@ -95,22 +95,20 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir##
 ||advn.ir^
 
 ||amaroid.net^
-||lnk.amaroid.net^
+! ||lnk.amaroid.net^
 
 !#if adguard
 ||aparat.com^$third-party,cookie
 !#endif
 
-||asreasia.com/piwik
+||asreasia.com/piwik^$script,3p
 
 ||aasaam.com^$3p
-||analytics.aasaam.com^
-||analytics-*.aasaam.com^
+! ||analytics.aasaam.com^
+! ||analytics-*.aasaam.com^
 
 ||adwised.com^
 ||adwisedfs.com^
-||adwised.azureedge.net^
-! TODO: Remove adwised.azureedge.net, but navatv.com still links to it
 
 ||adivery.com^
 ||adnegah.net^
@@ -125,7 +123,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir##
 ! ^ Used by irna.ir
 
 ||adro.co^
-||affstat.adro.co^
+! ||affstat.adro.co^
 ||adro.ir^
 
 ||1abzar.ir/abzar/tools/porbazdid^$script,3p
