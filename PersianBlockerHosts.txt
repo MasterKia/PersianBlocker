@@ -33,8 +33,6 @@ analytics-*.aasaam.com
 
 adwised.com
 adwisedfs.com
-adwised.azureedge.net
-# TODO: Remove adwised.azureedge.net, but navatv.com and baran-music.com still links to it
 
 adivery.com
 adnegah.net
@@ -49,6 +47,7 @@ ayyaar.ir
 adro.co
 affstat.adro.co
 adro.ir
+
 affstat.digikala.com
 affiliate.digikala.com
 
