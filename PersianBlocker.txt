@@ -2205,10 +2205,13 @@ play.namava.ir##+js(no-xhr-if, PlayReports)
 
 nodud.com##.advertorial
 
-||ninifile.com/content/js/niniVastAdsJs
-||stc.ninisite.com
-ninisite.com##.ad-wrapper
-ninisite.com###forum-native-ad
+||stc.ninisite.com^$1p
+||ninifile.com/statics/tabl^$image,3p,domain=ninisite.com
+||ninifile.com/content/js/niniVastAdsJs.min.js^$script,3p,domain=ninisite.com
+ninisite.com##div.up-ad:has(div.ad-wrapper)
+ninisite.com##div.ad-wrapper
+ninisite.com##div#forum-native-ad
+ninisite.com#@#.footer__subscribe
 
 ||niksalehi.com/newspaper/wp-content/themes/new_niksalehi/counter_view.php
 niksalehi.com##.banner_sidebar
