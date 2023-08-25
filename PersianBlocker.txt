@@ -739,6 +739,8 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+/assets/images/*.gif^$image,1p,domain=/\x62\x69\x61\x75\x70\x6C\x6F\x61\x64\x2E\x63\x6F\x6D/
+
 app.blubank.com##+js(aeld, contextmenu, preventDefault)
 app.blubank.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
