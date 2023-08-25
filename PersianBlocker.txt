@@ -1438,6 +1438,9 @@ fa-tools.ir##.t-adv
 fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
+games4online.ir##a[target="_blank"]:has(> img[src*="/Gif/"][src$=".gif"])
+games4online.ir##a[target="_blank"]:has(> img[src*="/files/"][src$=".gif"])
+
 ! https://github.com/MasterKia/PersianBlocker/issues/151
 gahar.ir##.post-ad-box
 gahar.ir##.text-ads
