@@ -3348,12 +3348,8 @@ zoomg.ir###mobileBannerAfterTags
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 ! https://github.com/MasterKia/PersianBlocker/issues/195
 ||theforge.ir/intake/v2/rum/events^$xhr,3p,domain=zoomit.ir
-zoomit.ir##^script:has-text(banner)
-! !#if !cap_html_filtering
-zoomit.ir##+js(aopr, banner)
-! !#endif
-||api2.zoomit.ir/ads^$xhr,image,1p
-||api2.zoomit.ir/editorial/api/articles/*/visit^$xhr,1p
+||zoomit.ir/ads^$xhr,image,1p
+||zoomit.ir/editorial/api/articles/*/visit^$xhr,1p
 ||analytics.zoomit.ir^
 zoomit.ir##div[class^="AdvertisingParser"]
 zoomit.ir##div.price-sticky
