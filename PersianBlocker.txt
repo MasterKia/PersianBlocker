@@ -3524,6 +3524,7 @@ zoomtech.org##div.zoomtech-banner
 ! https://farnet.io/1401/08/324594/rubika-is-detected-as-malware/
 ||rubika.ir^$domain=~web.rubika.ir|~m.rubika.ir
 
+||wibodir.com^$all
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
 !-------------------------v Warning for video censorship sites v-----------------------!
