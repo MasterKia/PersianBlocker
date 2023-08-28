@@ -2959,7 +2959,8 @@ techna.news##[class="widget_text sidebar-box"]:has-text(وبگردی)
 texahang.org##.myside.right-sidebar
 ! TODO: Check again for new sidebar
 
-trainbit.com##+js(nano-stb, , , 0)
+trainbit.com##section#downloadbox > div#indicatorr
+trainbit.com##section#downloadbox > input#btnDownload:style(display: block !important;)
 
 ||tafrihi.com/wp-content/plugins/simple-ads
 
