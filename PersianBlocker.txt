@@ -2753,15 +2753,14 @@ subf2m.ir##p:has(> a[href^="https://shirazsocial.com"])
 ||softsaaz.ir/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js
 softsaaz.ir##.stream-item
 
-skinak.ir##+js(nostif, show_modal)
-||up.skinak.ir/up/skinak/ads/
-@@||up.skinak.ir/up/skinak/upload/93/7/10/skinak-468x60.gif
-skinak.ir##.morders
-skinak.ir##.textads2
-skinak.ir##.main-ads
-skinak.ir##.ads-title
-skinak.ir###ads3
-! TODO: Chrome blocks popup from pop.skinak.ir and buttons on top
+.gif^$image,domain=skinak.ir
+skinak.ir##div.dadsd
+skinak.ir##article.morders
+skinak.ir##div.right-body:has(> div.text div.adsr)
+skinak.ir##div.left-body:has(> div.left-title:has-text(لینک دوستان))
+skinak.ir##div.left-body:has(> div.text div.text-ads)
+skinak.ir##a[class^="skinak-text-ads"]
+skinak.ir##div.footer-block-1:has(> a[class^="text-ads"])
 
 ||simcart.com/upload/banner
 simcart.com##.bannerLarge
