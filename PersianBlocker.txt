@@ -2534,6 +2534,9 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+s-moshaver.com##+js(aeld, contextmenu)
+s-moshaver.com##+js(set, disableSelection, noopFunc)
+
 skyroom.online##+js(json-prune, result.adsText result.adsLink)
 skyroom.online##div.banner:has(> a > img)
 
