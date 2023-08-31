@@ -3526,6 +3526,7 @@ zoomtech.org##div.zoomtech-banner
 ||rubika.ir^$domain=~web.rubika.ir|~m.rubika.ir
 
 ||wibodir.com^$all
+||eh-ra-z-se-na.org^$all
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
 !-------------------------v Warning for video censorship sites v-----------------------!
