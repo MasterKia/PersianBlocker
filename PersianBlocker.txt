@@ -2829,6 +2829,11 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+tmk.ir##+js(json-prune, data, data.vast data.content data.ad_id)
+||tamashakhoneh.ir/src/video/intro.mp4^$media,3p,domain=tmk.ir,redirect=noopmp3-0.1s
+||tmk.ir/v1/jwplayer6/ping.gif^$image,1p
+||tmk.ir/src/jw/jwpsrv.js^$script,1p
+
 tejaratemrouz.ir##div.col3:has(div.txt_adv_content)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/143
