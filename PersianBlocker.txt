@@ -3193,9 +3193,9 @@ vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 ||sentry.virgool.io^$1p
 ||countly.virgool.io/sdk/web/countly.min.js^$script,1p
 virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
-virgool.io##.js-userLogin-popup
+virgool.io##div.js-userLogin-popup
 virgool.io##div.feedAdsBox
-virgool.io##aside.postSidebar-block-item:has(> a[href^="https://l.vrgl.ir/r?l="][target="_blank"])
+virgool.io##aside.postSidebar-block-item:has(> a[href^="https://l.vrgl.ir/r?l="][target="_blank"]:has-text(تبلیغات))
 
 ! https://github.com/MasterKia/PersianBlocker/pull/10
 ! https://github.com/MasterKia/PersianBlocker/pull/15
