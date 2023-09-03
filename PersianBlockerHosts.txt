@@ -291,6 +291,9 @@ ads.akaup.com
 ads.alaatv.com
 
 # >> B <<
+posthog.basalam.com
+sentry.basalam.com
+
 metrix.behtarino.com
 apm.bama.ir
 
