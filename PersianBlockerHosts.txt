@@ -571,4 +571,6 @@ tinancefa.org
 #-------------------v Malware/Phishing Sites v-----------------#
 wibodir.com
 eh-ra-z-se-na.org
+ebl-hot.com
+
 #-------------------^ Malware/Phishing Sites ^-----------------#
