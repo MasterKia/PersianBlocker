@@ -3540,6 +3540,8 @@ zoomtech.org##div.zoomtech-banner
 
 ||wibodir.com^$all
 ||eh-ra-z-se-na.org^$all
+||ebl-hot.com^$all
+
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
 !-------------------------v Warning for video censorship sites v-----------------------!
