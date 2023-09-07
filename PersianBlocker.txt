@@ -114,7 +114,11 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir##
 ||adnegah.net^
 ||adpulse.ir^
 ||adsima.net^
+
 ||adtrace.io^
+! https://twitter.com/Nikolaona/status/1699167838697652322
+||adtrace.world^
+
 ||akhbarrasmi.com^$3p
 ||affili.ir^
 ||amarfa.ir^
