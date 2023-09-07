@@ -38,7 +38,11 @@ adivery.com
 adnegah.net
 adpulse.ir
 adsima.net
+
 adtrace.io
+# https://twitter.com/Nikolaona/status/1699167838697652322
+adtrace.world
+
 affili.ir
 amarfa.ir
 ayyaar.ir
