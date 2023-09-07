@@ -40,6 +40,7 @@ adpulse.ir
 adsima.net
 
 adtrace.io
+adtrace.ir
 # https://twitter.com/Nikolaona/status/1699167838697652322
 adtrace.world
 
