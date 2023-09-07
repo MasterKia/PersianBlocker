@@ -3195,7 +3195,7 @@ vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
 virgool.io##div.js-userLogin-popup
 virgool.io##div.feedAdsBox
-virgool.io##aside.postSidebar-block-item:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"]:has-text(تبلیغات))
+virgool.io##aside[class]:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"]:has-text(تبلیغات))
 virgool.io##article[data-post-id] > div.post-content > div.post-body a[href^="https://l.vrgl.ir/r?ad=1&l=http"]
 
 ! https://github.com/MasterKia/PersianBlocker/pull/10
