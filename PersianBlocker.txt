@@ -2153,6 +2153,7 @@ najiremix.ir##^script:has-text(window.location=)
 !#if !cap_html_filtering
 najiremix.ir##+js(rmnt, script, window.location=)
 !#endif
+najiremix.ir##div.is_ads
 
 ||oscaranimation.in^
 ||xxx.atlas-music.ir/tab.php^$frame,3p
