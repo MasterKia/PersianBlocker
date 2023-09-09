@@ -154,6 +154,13 @@ blogsazan.com##.blog_right_bar > .main_title:has-text(آخرین مطالب مج
 blogsazan.com##.hamsandiv
 blogsazan.com##.blog-home-ads-blog
 blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 10px; text-align:center; font-size:13px;"] > a:upward(.main_content)
+! https://github.com/MasterKia/PersianBlocker/issues/197
+eramblog.com##div#macy-container > article:has(> div.articlebox > div.icons:has-text(تبلیغات)):remove()
+eramblog.com##a[href^="https://eramblog.com/direct_link/?ads="][rel="nofollow"][target="_blank"]
+eramblog.com##div[class^="ads_link"]
+eramblog.com##div.main_title:has(> span:has-text(مطالب پیشنهادی از سراسر وب))
+eramblog.com##div.blog-home-ads-blog
+eramblog.com##div.main_content[style="border-radius:10px;"]:has(> div[style="padding: 10px; text-align:center; font-size:13px;"])
 
 ||behinava.com^
 ||radar.bayan.ir^
