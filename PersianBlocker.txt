@@ -556,6 +556,8 @@ ana.press##div.back_links
 ac.ir##+js(set, chromeOS, true)
 !#endif
 ||ac.ir/common/scripts/analytics/meetingLaunchIA.js^$script,1p
+ac.ir##input[id="PreparePrint"]:watch-attr(disabled):remove-attr(disabled)
+ac.ir##body[style^="background-image: url(\"/_images/nonprintable.gif\")"]:style(background-image: unset !important;)
 
 avapedia.com##figure.size-full.wp-block-image
 
