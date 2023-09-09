@@ -21,7 +21,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir##
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net
+/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
@@ -1581,6 +1581,10 @@ hamshahrionline.ir###ads-container > .box > header:has-text(وبگردی):upward
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+ifixit.ir#@#.advert-image
+ifixit.ir#@#.block-advert
+ifixit.ir#@#.advert-wrap
+
 ! https://github.com/MasterKia/PersianBlocker/issues/165
 ||iranzamin.news/img/new/ads-$image,1p
 
