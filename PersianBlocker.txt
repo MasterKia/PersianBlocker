@@ -1723,6 +1723,8 @@ itgheymat.com##.ads-box
 itbazar.com###slideshow[class="rounded"]
 itbazar.com###banners-position-14
 
+||www.iranjib.ir/uploads/*.gif
+
 ||irna.ir/rest/visit
 irna.ir##.ads.box
 
