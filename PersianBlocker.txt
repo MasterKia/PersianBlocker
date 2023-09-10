@@ -1676,12 +1676,12 @@ icoff.ee###sidebar-alt
 
 ||iraniandog.com/iss
 
-||iranjib.ir/js/analytics
-||iranjib.ir/hitup.php
-iranjib.ir##.htmlad
-iranjib.ir##.biga
-iranjib.ir###pos-article-display-70266
-iranjib.ir###mainadv
+! https://github.com/MasterKia/PersianBlocker/pull/198
+||iranjib.ir/uploads/*.gif^$image,1p
+||iranjib.ir/js/analytics$script,1p
+iranjib.ir##a[href^="https://www.iranjib.ir/ra.php?adid="]:not([title="اینستاگرام ایران جیب"])
+iranjib.ir##div[id^="pos-article-display-"][style="min-height:400px"]
+iranjib.ir##div#column3 > table.sidea > tbody > tr:has(> td > div.mybox > h4:has-text(تبلیغات متنی))
 
 ||irannaz.com/ax/
 irannaz.com##.Top2Adssss
