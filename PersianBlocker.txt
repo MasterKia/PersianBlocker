@@ -1316,6 +1316,8 @@ estekhtam.com#@#.ads-bottom
 enama.ir##div.avdDiv
 
 ! >> F <<
+ftdigital.ir##a[href="https://maktabsharif.ir/"]
+
 ! https://github.com/MasterKia/PersianBlocker/issues/194
 forsatnet.ir##div.col-md-12 > div.card:has(> a > img[src$=".gif"])
 
