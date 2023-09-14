@@ -57,6 +57,8 @@ affstat.digikala.com
 affiliate.digikala.com
 
 # >> B <<
+binoads.ir
+bl9.ir
 backlink.ir
 behtarinseo.ir
 boorantech.com
