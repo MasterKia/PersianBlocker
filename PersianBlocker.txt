@@ -142,6 +142,8 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||abzarfa.com/tools/ip^$script
 
 ! >> B <<
+||binoads.ir^
+||bl9.ir^
 ||backlink.ir^
 ||boorantech.com^
 
@@ -822,14 +824,15 @@ bultannews.com##.parent_txt_adv_container2
 binanews.ir##+js(set, openTelegram, noopFunc)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/31
-||bartarinha.ir/statics/
-||bartarinha.ir/servev*/*.gif
-bartarinha.ir##.zxc
-bartarinha.ir##.all_adv
-bartarinha.ir##.reportage
-bartarinha.ir##.others_web
+||bartarinha.ir/servev2/*.gif^$image,1p
+||novin.com^$image,3p,domain=bartarinha.ir
+bartarinha.ir##div.zxc
+bartarinha.ir##div.all_adv
+bartarinha.ir##section.reportage
+bartarinha.ir##section.text_type_holder:has(> header.header_section > h4:has-text(تبلیغات متنی))
+bartarinha.ir##div.others_web
 !#if env_mobile
-bartarinha.ir##.fixed_adv_mob
+bartarinha.ir##div.sticky_zxc
 !#endif
 
 ||barato.ir/wp-content/*/ad/
