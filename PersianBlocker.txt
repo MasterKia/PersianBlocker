@@ -1316,6 +1316,7 @@ estekhtam.com#@#.ads-bottom
 enama.ir##div.avdDiv
 
 ! >> F <<
+! https://github.com/MasterKia/PersianBlocker/issues/199
 ftdigital.ir##a[href="https://maktabsharif.ir/"]
 
 ! https://github.com/MasterKia/PersianBlocker/issues/194
