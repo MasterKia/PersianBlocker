@@ -573,6 +573,9 @@ mogo-crypto.net
 # https://github.com/Webamoozcom/warning-list/discussions/174
 tinancefa.org
 
+# https://www.webamooz.com/1402/06/25/
+laxsson.com
+
 #-------------------------^ Scam Sites ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
