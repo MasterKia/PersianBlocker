@@ -265,6 +265,7 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||k2cod.com/statistics/
 
 ! >> L <<
+||laxsson.com^
 ||linkfars.com^
 ||landyab.com^
 ||linksaz.net^$3p
