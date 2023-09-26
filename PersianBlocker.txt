@@ -1047,15 +1047,17 @@ digiro.ir##.main-term-3705
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131661
-||dlfox.com/wp-admin/admin-ajax.php?action=adwised
-.gif^$image,domain=dlfox.com
-dlfox.com##a[href*="gameriver.ir"]
-dlfox.com##a[href*="dlfox.com/adspage"] > img
-dlfox.com##.WK_ads
-dlfox.com##.shbanner_cover:upward(div[class^="col"])
-dlfox.com##.home_mid_ads
-dlfox.com##.ADS_wrapper
-dlfox.com##.blog_list
+! https://github.com/AdguardTeam/AdguardFilters/issues/159968
+||dlfox.com/wp-admin/admin-ajax.php?action=adwised_$xhr,1p
+.gif^$image,3p,domain=dlfox.com
+dlfox.com##header.recent_news_wrapper > ul.news_text > li:has-text(تبلیغ :)
+dlfox.com##a:has(> img.ads_pic)
+dlfox.com##a:has(> img.shbanner)
+dlfox.com##div.shbanner_cover
+dlfox.com##div.ADS_wrapper
+dlfox.com##a[href="https://farsisaz.com/"][target="_blank"][rel="noopener"]
+dlfox.com##div.widget_content:has(> ul.blog_list)
+dlfox.com##form#captch_form > input[name="_wp_http_referer"]:remove()
 
 ||tadv.didestan.net
 ||didestan.com/*/script/vast
