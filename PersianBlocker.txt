@@ -2552,6 +2552,12 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/203
+sabtta.com##a[href="https://sahamir-ac.com/"]
+sabtta.com##a[href="https://veriacco.com/"]
+sabtta.com##a[href="https://academy-eris.com/"]
+sabtta.com##a[href="https://sarafer.com/"]
+
 ! https://github.com/MasterKia/PersianBlocker/issues/202
 shahanmusic.ir##+js(aopr, show_wpcp_message)
 shahanmusic.ir##+js(set-attr, img[data-src], src, [data-src])
