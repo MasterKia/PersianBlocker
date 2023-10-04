@@ -21,7 +21,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net
+/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
@@ -306,13 +306,7 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ! ^ Example: eghtesadonline.com
 
 ||phonroid.com^
-! ^ Example: par30games.net
-
 ||popina.ir^
-
-||popunder.ir^
-! TODO: Remove it, Used by marzfun.com
-
 ||popupdl.ir^
 ||popland.info^
 
@@ -2451,16 +2445,12 @@ parsipet.ir##.body_wrapper > div:nth-of-type(4)
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/9
 ! https://github.com/MasterKia/PersianBlocker/pull/19
-par30games.net##[href^="https://playpod.ir/"]
-par30games.net##.top-large-ads
-par30games.net##.fixedadv:upward(3)
-par30games.net##.fixedbanner
-par30games.net##.sidebar-box-shop
-par30games.net##.ads
-!#if env_mobile
-par30games.net##.mobilebanner
-!#endif
-@@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p
+! https://community.brave.com/t/reporting-remaining-ads/508217/4
+par30games.net##body:style(background-image: none !important;)
+par30games.net##article.fixedadv:not(:has(> div.fixedadvcontent > a[href="https://www.youtube.com/c/Par30Game"]))
+par30games.net##section.sidebar-box-shop
+par30games.net##div.adbox
+par30games.net##a[data-wpel-link="external"][href*="arongroups"]
 
 ||paperhub.ir/images/*.gif
 
