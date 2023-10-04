@@ -3564,6 +3564,9 @@ zoomtech.org##div.zoomtech-banner
 ! https://webamooz.com/1402/06/25/%D9%84%D8%A7%DA%A9%D8%B3%D9%88%D9%86-laxxson-%DA%A9%D9%84%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%D9%86%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA/
 ||laxsson.com^$all
 
+! https://github.com/Blockunity/Warning-List/discussions/44
+||tradergpt.ai^$all
+
 !-------------------------^ Scam Sites ^-----------------------!
 
 !-------------------v Malware/Phishing Sites v-----------------!
