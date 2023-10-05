@@ -3273,8 +3273,7 @@ varoone.ir##.textads
 varoone.ir##.ads120
 varoone.ir##.ads468
 
-||vajehyab.com^$removeparam=/^utm_/
-||vajehyab.com/img/ads
+vajehyab.com##a[href^="/url/"][target="_blank"]:has(> img)
 
 ||biz-cdn.varzesh3.com/banners^
 ||static.varzesh3.com/js/ads.js^
