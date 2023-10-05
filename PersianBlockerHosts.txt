@@ -282,6 +282,7 @@ yektanet.com
 yekbux.com
 
 # >> Z <<
+zarad.net
 zarpop.com
 
 #-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------#
