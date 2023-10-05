@@ -1985,6 +1985,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||counter.musicsweb.ir^$1p
+||plugin.my-pishvaz.com^$3p,domain=musicsweb.ir
+
 musicdays.ir##div.e3lan
 musicdays.ir##div.widget#text-15
 
