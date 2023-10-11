@@ -300,6 +300,9 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||on-click.ir^
 
 ! >> P <<
+! musicsweb.ir, upmusics.com
+||plugin.my-pishvaz.com^$xhr,3p
+
 ||pooye-ads.com^
 
 ||promizer.com^
@@ -2003,7 +2006,6 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 
 ! >> M <<
 ||counter.musicsweb.ir^$1p
-||plugin.my-pishvaz.com^$3p,domain=musicsweb.ir
 
 musicdays.ir##div.e3lan
 musicdays.ir##div.widget#text-15
@@ -3193,8 +3195,8 @@ uplod.ir##.logo_full_view
 ||upera.tv^$removeparam=ref
 ! ||affil.charkhoneh.com^$removeparam=affiliateId
 
-||upmusics.com/najva.js
-upmusics.com##.upbu
+||upmusics.com/mtnir.js^$script,1p
+upmusics.com##div.upbu
 
 ||uptvs.com/wp-contents/plugins/viewstats
 ! uptvs.com###anetwork-PB
