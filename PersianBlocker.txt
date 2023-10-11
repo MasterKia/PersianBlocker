@@ -2577,6 +2577,14 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://t.me/PersianBlocker/4610/6550
+||safarmarket.com/api/ads^$xhr,1p
+||safarmarket.com/api/core/analytics^$xhr,1p
+||safarmarket.com/api/v1/trace/traceFlight^$xhr,1p,redirect=noop.txt
+||safarmarket.com/api/v1/trace^$image,3p
+^safarmarketId=$doc,removeparam=safarmarketId
+safarmarket.com##div.adsLoader
+
 ! https://github.com/MasterKia/PersianBlocker/issues/203
 sabtta.com##a[href="https://sahamir-ac.com/"]
 sabtta.com##a[href="https://veriacco.com/"]
