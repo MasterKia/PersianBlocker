@@ -2508,8 +2508,13 @@ rayamag.com##.mybannerimg
 ||rahnamato.ir/common/visitcount^
 rahnamato.ir##.c-advertisement
 
-rasm.io##[class^="RequireAuth_mainBox"]
-rasm.io##[class*="hsCode_LimitedItem"]:style(-webkit-filter: none !important; filter: none !important; pointer-events: auto !important;)
+rasm.io##div[class*="company_company__ads--ab"]
+! https://rasm.io/company/10103509868/%D8%A8%D8%A7%D9%86%DA%A9%20%D9%82%D8%B1%D8%B6%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D9%87%20%D9%85%D9%87%D8%B1%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/
+rasm.io##+js(set-local-storage-item, VisitedCompanies, $remove$)
+rasm.io##div[class*="blockByVisit_blockByVisit__container"]
+! https://rasm.io/hs/250200/%D9%BE%DB%8C%D8%B1%DB%8C%D8%AA%20%D8%A2%D9%87%D9%86%20%D8%AA%D9%81%D8%AA%D9%87%20%D9%86%D8%B4%D8%AF%D9%87./
+rasm.io##div[class^="RequireAuth_mainBox"]
+rasm.io##div.MuiGrid-root[class*="hsCode_LimitedItem__"]:style(-webkit-filter: none !important; filter: none !important; pointer-events: auto !important;)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/52
 ! https://github.com/MasterKia/PersianBlocker/issues/163
