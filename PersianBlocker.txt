@@ -1704,13 +1704,8 @@ iranjib.ir##a[href^="https://www.iranjib.ir/ra.php?adid="]:not([title="اینس�
 iranjib.ir##div[id^="pos-article-display-"][style="min-height:400px"]
 iranjib.ir##div#column3 > table.sidea > tbody > tr:has(> td > div.mybox > h4:has-text(تبلیغات متنی))
 
-||irannaz.com/ax/
-irannaz.com##.Top2Adssss
-irannaz.com###topAdver
-irannaz.com##div.CBS.CenterBlock:nth-of-type(2)
-irannaz.com##div.CBS.CenterBlock:nth-of-type(3)
-irannaz.com##div.CBS.CenterBlock:nth-of-type(5)
-irannaz.com##div.CBS.CenterBlock:nth-of-type(6)
+||irannaz.com/ax/*.gif^$image,1p
+irannaz.com##div.CenterBlock:has(> div.Tadsb2)
 
 ||itresan.com/wp-content/cache/busting^
 itresan.com###NR-Ads
