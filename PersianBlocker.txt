@@ -1952,11 +1952,8 @@ khabarfoori.com##.rowTwo .right_side, .rowTwo .column_1:style(width: 100% !impor
 ketabesabz.com##+js(set, KetabrahPopup, noopFunc)
 ketabesabz.com##div.white-block:nth-of-type(2)
 
-||kalakamuz.ir/wp-content/uploads/ad
-kalakamuz.ir##div.black.row.box
-kalakamuz.ir##.textads
-kalakamuz.ir##.middle.inner-el.container > div.row.box:nth-of-type(2)
-kalakamuz.ir##.go-left.main > div.row.box:nth-of-type(1)
+kalakamuz.ir##div.main > div.box:has(> p > a[href="http://botsaz.com/"])
+kalakamuz.ir##div.sidebar > div.box:has(div.row:has-text(تبلیغات))
 
 kafebook.ir##.im-header-ad
 
