@@ -1745,6 +1745,12 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+! https://github.com/MasterKia/PersianBlocker/issues/204
+javan-musics.com##+js(aeld, load, contextmenu)
+javan-musics.com##+js(ra, onmousedown|onselectstart, body)
+javan-musics.com#@#.adstop
+.gif^$image,3p,domain=javan-musics.com
+
 ! https://github.com/MasterKia/PersianBlocker/issues/141
 jafekri.com##^script[id^="wccp_"]
 jafekri.com##*:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
