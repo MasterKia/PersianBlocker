@@ -552,6 +552,9 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+androidify.ir##div#ZAD
+androidify.ir##div.ml-4.space-right-delt > div.bg-all-box:has(> div.yn-bnr)
+
 ||farazsms.com^$3p,domain=appreview.ir
 ||appreview.ir/advertisement/counter^$xhr,1p
 appreview.ir##a[onclick^="increase_ad_click_count"]
@@ -2003,6 +2006,13 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+miniroid.com#@#.adBox
+miniroid.com##section.adBox:has(> div.row > div > a[rel$="sponsored"])
+miniroid.com##section.ads
+@@||miniroid.com/img/ads/whatsapp-dl.jpg^$image,1p
+@@||miniroid.com/img/ads/instagram-dl.png^$image,1p
+@@||miniroid.com/img/ads/Telegram-wdl.jpg^$image,1p
+
 ||counter.musicsweb.ir^$1p
 
 musicdays.ir##div.e3lan
@@ -2578,6 +2588,8 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+silasdl.ir##section.sidebar-left-item:has(> div.custom-html-widget > p > a[target="_blank"][rel="noopener"] > img)
+
 ! https://t.me/PersianBlocker/4610/6550
 ||safarmarket.com/api/ads^$xhr,1p
 ||safarmarket.com/api/core/analytics^$xhr,1p
@@ -2896,6 +2908,10 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+tinroid.ir##+js(aopr, tinPa)
+||tinroid.ir/images/ads^$image,1p
+tinroid.ir##div.bnr-ads
+
 tmk.ir##+js(json-prune, data, data.vast data.content data.ad_id)
 ||tamashakhoneh.ir/src/video/intro.mp4^$media,3p,domain=tmk.ir,redirect=noopmp3-0.1s
 ||tmk.ir/v1/jwplayer6/ping.gif^$image,1p
