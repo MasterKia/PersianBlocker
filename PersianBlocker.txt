@@ -2588,6 +2588,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! On sepehrtv.ir:
+||analytics.eirib.ir^
+||statistics.iriborg.ir^
+
 silasdl.ir##section.sidebar-left-item:has(> div.custom-html-widget > p > a[target="_blank"][rel="noopener"] > img)
 
 ! https://t.me/PersianBlocker/4610/6550
