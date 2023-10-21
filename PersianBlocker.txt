@@ -1467,12 +1467,10 @@ farsroid.com#@#.place-ads
 ||analysis.faradars.org
 
 ! https://github.com/MasterKia/PersianBlocker/pull/39
-||media.farsnews.ir/Uploaded/Files/Documents/*.gif
-||farsnews.ir/api/recordnewstextvisit?id=
-||tracker.farsnews.ir^
-farsnews.ir##.ad-mobile-none
-farsnews.ir##.ads-native
-farsnews.ir#@#div.alert-cookie
+||media.farsnews.ir/Uploaded/Files/Documents/*.gif^$image,1p
+||farsnews.ir/api/recordnewstextvisit?id=$xhr,1p
+farsnews.ir##aside.ad-mobile-none
+farsnews.ir##div.ads-native
 
 fa-tools.ir##.adv
 fa-tools.ir##.list
