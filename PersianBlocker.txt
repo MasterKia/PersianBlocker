@@ -219,7 +219,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||facepop.org^
 ||farsbux.ir^
 ||fastclick.ir^
-||fa-tools.ir/code/rightclick/right-click1.js
 ||widget.fafait.net^$3p
 
 ||farakav.com^
@@ -1471,11 +1470,6 @@ farsroid.com#@#.place-ads
 ||farsnews.ir/api/recordnewstextvisit?id=$xhr,1p
 farsnews.ir##aside.ad-mobile-none
 farsnews.ir##div.ads-native
-
-fa-tools.ir##.adv
-fa-tools.ir##.list
-fa-tools.ir##.t-adv
-fa-tools.ir##div.post:nth-of-type(2)
 
 ! >> G <<
 games4online.ir##a[target="_blank"]:has(> img[src*="/Gif/"][src$=".gif"])
