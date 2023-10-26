@@ -694,6 +694,7 @@ androidgozar.com##.ag-agah
 ||aparat.com/external/romeo^$xhr
 ||aparat.com/static/vendor/dox$script,css
 ||aparat.com^$xhr,removeparam=referer
+aparat.com##div.video-list:has(> div > div:has(span.ad:has-text(AD)))
 aparat.com##.announce
 aparat.com##header:style(position: absolute !important;)
 aparat.com##div[type="aparat"]:has(> .link)
