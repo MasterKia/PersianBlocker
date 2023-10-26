@@ -756,6 +756,10 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+||bargozideha.com/ddd.html^$frame,1p
+bargozideha.com##div[style]:has(> iframe[src="/ddd.html"])
+bargozideha.com##aside > div.sec_right > div.menu_box > div.margin > ul > li:has(> a[href*="bargozideha.com/reportage/"])
+
 ||posthog.basalam.com^$1p
 ||khabarchin.basalam.com^$1p,redirect=noop.txt
 ||sentry.basalam.com^$1p
@@ -2175,6 +2179,13 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+noorlib.ir##+js(aeld, copy, [native code])
+||noorlib.ir/inoorCDN/ads^$xhr,1p
+||noorlib.ir/sentry^$1p
+||noorlib.ir/api/book/insertClientBookVisitLog^$xhr,1p,method=post
+||noorlib.ir/api/user/setUserFootprintOnBook^$xhr,1p,method=post
+||noorlib.ir/api/user/registerUserStudyLog^$xhr,1p,method=post
+
 ! https://github.com/MasterKia/PersianBlocker/issues/193
 ||fs.noorgram.ir/pic/*.gif^$image,1p
 
@@ -2297,6 +2308,9 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||dl.prozhedownload.com/pd/*.gif^$image,1p
+prozhedownload.com##div.advertop
+
 !#if env_mobile
 paziresh24.com##+js(set-cookie, closeAppBanner, true)
 !#endif
