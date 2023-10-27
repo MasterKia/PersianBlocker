@@ -1609,6 +1609,9 @@ hamshahrionline.ir###ads-container > .box > header:has-text(وبگردی):upward
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+||iica.ir/images/*.gif^$image,1p
+iica.ir##div.t3-contentwindows1:has(a[target="_blank"] > img[src$=".gif"])
+
 ifixit.ir#@#.advert-image
 ifixit.ir#@#.block-advert
 ifixit.ir#@#.advert-wrap
