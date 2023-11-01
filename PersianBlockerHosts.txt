@@ -299,6 +299,8 @@ ads.akaup.com
 ads.alaatv.com
 
 # >> B <<
+sentry.bale.sh
+
 posthog.basalam.com
 sentry.basalam.com
 
