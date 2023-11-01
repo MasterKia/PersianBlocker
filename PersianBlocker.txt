@@ -23,6 +23,9 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
 /wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net
 
+! itna.ir, migna.ir
+/images/advertise^$image,1p,domain=ir|bazimag.com|jahannews.com
+
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
 ! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
 ||websocket.*/?u=*&s=$websocket,1p,strict3p
@@ -781,7 +784,6 @@ app.blubank.com##*:style(-webkit-touch-callout: default !important; -webkit-user
 
 ! https://github.com/MasterKia/PersianBlocker/issues/173
 ||bazimag.com/images/*.gif^$image,1p
-||bazimag.com/images/Advertise^$image,1p
 bazimag.com###middlead
 bazimag.com###yt_spotlight3 .klatest-items-div > .modtitle:has-text(تبلیغات متنی):upward(.klatest-items-div)
 
@@ -1692,7 +1694,6 @@ iwo.ir##+js(nano-sib)
 ||iranart.news/statics
 iranart.news##.type-resource-image
 
-||itna.ir/images/advertise/
 itna.ir##.advertise_default
 
 imgurl.ir##.tab_box
@@ -1803,7 +1804,6 @@ jalebamooz.com###block-3
 jalebamooz.com###block-4
 jalebamooz.com##li:has([href^="https://jalebamooz.com/reportage/"])
 
-||jahannews.com/images/advertise/
 jahannews.com##.col-xs-36.col-sm-4.col-md-4.col-lg-4
 jahannews.com##.hidden-xs.col-sm-4.col-md-4.col-lg-4
 
