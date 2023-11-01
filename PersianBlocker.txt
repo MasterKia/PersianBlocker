@@ -757,6 +757,15 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+||sentry.bale.sh^$3p,domain=bale.ai
+||web.bale.ai/static/js/web-vitals.$script,1p
+||next-api.bale.ai/bale.seraj_proxy.v1.SerajProxy/SendSerajEvent^$xhr,1p,method=options|post
+||next-api.bale.ai/bale.advertisement.v1.Advertisement/GetAdProvider^$xhr,1p,method=options|post
+||next-api.bale.ai/bale.presence.v1.Presence/SetOnline^$xhr,1p,method=options|post
+||next-api.bale.ai/bale.presence.v1.Presence/Typing^$xhr,1p,method=options|post
+||next-api.bale.ai/bale.presence.v1.Presence/StopTyping^$xhr,1p,method=options|post
+! ||next-api.bale.ai/bale.messaging.v2.Messaging/MessageRead^$xhr,1p,method=options|post
+
 ||bargozideha.com/ddd.html^$frame,1p
 bargozideha.com##div[style]:has(> iframe[src="/ddd.html"])
 bargozideha.com##aside > div.sec_right > div.menu_box > div.margin > ul > li:has(> a[href*="bargozideha.com/reportage/"])
