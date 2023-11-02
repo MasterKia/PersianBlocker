@@ -297,6 +297,7 @@ ads.akairan.com
 ads.akaup.com
 
 ads.alaatv.com
+sentry.alaatv.com
 
 # >> B <<
 sentry.bale.sh
