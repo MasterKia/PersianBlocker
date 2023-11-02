@@ -740,8 +740,10 @@ aftabnews.ir##.adv_l
 aftabnews.ir##.adv_r_news2
 
 alaatv.com##+js(acis, watermarkAdData)
-||nodes.alaatv.com/upload/vast/xml/
-||ads.alaatv.com^
+alaatv.com##+js(set-session-storage-item, sentryReplaySession, $remove$)
+||nodes.alaatv.com/upload/vast/xml^$xhr,1p
+||ads.alaatv.com^$1p
+alaatv.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 androidsharp.com###toshare-dl-link
 ||iranroid.com^$image,domain=androidsharp.com
