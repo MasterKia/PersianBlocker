@@ -286,6 +286,11 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||mitrarank.ir^
 
 ! >> N <<
+||niloblog.com/ads.js^$script,1p
+||niloblog.com/js/web.gif^$image,1p
+niloblog.com##bloglinkdumpblock
+niloblog.com##bloglinksblock
+
 ||nastooh.ir^$3p
 ||analytics.nastooh.ir^
 ! Example: sahebkhabar.ir
@@ -2192,6 +2197,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+||niloblog.com/images/ads^$image,1p
+
 noorlib.ir##+js(aeld, copy, [native code])
 ||noorlib.ir/inoorCDN/ads^$xhr,1p
 ||noorlib.ir/sentry^$1p
