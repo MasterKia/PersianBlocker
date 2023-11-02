@@ -3323,10 +3323,9 @@ vgdl.ir##.bottom_ads
 vgdl.ir##.fix_ads
 @@||vgdl.ir/wp-content/uploads/*/how-to-fix-error-vgdl.ir_.gif$image,1p
 
-||vazeh.com/cdn-cgi/apps/head
-||vazeh.com/banners/
-||sahandpress.ir/loader$domain=vazeh.com
-vazeh.com##div.side22:nth-of-type(1)
+*$3p,script,from=vazeh.com,to=sahandpress.ir|jaarchee.ir
+||vazeh.com/banners/us/*.gif^$image,1p
+vazeh.com##div.main > div.mainx1 > div:has(> span.side-title:has-text(تبلیغات))
 
 ||up.varoone.ir/view/*/adv
 ||up.varoone.ir/view/*/*.gif
