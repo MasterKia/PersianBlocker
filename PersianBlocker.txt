@@ -3354,9 +3354,9 @@ video-learn.ir#@#.header-adv
 
 ||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager^
 
-||vista.ir/ads^
-vista.ir##[href^="/ad/"]
-vista.ir##.textad
+||vista.ir/ads^$image,1p
+vista.ir##a[href^="/ad/"][target="_blank"]
+vista.ir##a.textad
 
 ! >> W <<
 ||webgozar.com/adimg^$image,1p
