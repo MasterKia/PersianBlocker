@@ -1219,10 +1219,9 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||api.divar.ir/*/actionlog^$beacon,1p
 ||api.divar.ir/*/client-exporter/send-report^$beacon,1p
 
-||doostihaa.com/wp-content/plugins/jw-player-7-for-wp-premium/jwplayer/gapro.js
-doostihaa.com##.adsfix_box
-doostihaa.com##.ads_txtcv
-doostihaa.com##aside.lefts_sides:nth-of-type(6)
+doostihaa.com##div.adsfix_box:has(> div[id^="mediaad"])
+doostihaa.com##aside.lefts_sides:has(> div.txt_letfs > ul.ads_txtcv)
+! TODO: Change upera.shop/ref/3m8/ckAdbr90 to upera.shop/ckAdbr90 using urltransform to prevent tracking
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ! https://github.com/MasterKia/PersianBlocker/issues/100
