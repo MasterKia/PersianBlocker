@@ -2453,13 +2453,12 @@ p30konkor.com###parandeh-b2
 par30dl.net##div.sidebar-home:has(> div.wbox > strong:has-text(تبلیغات))
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-||p30day.ir/images/tabligh
-p30day.ir##.ads
-p30day.ir##.banners
-p30day.ir##.afc_popup
-p30day.ir##.textAds
+||p30day.ir/images/tabligh$image,media,1p
+p30day.ir##.dtnoppu
+p30day.ir##section.ads
+p30day.ir##section.banners
 p30day.ir##.adsblockpop
-p30day.ir###kaprila_linktable
+p30day.ir##section.textAds
 
 ||parsiblog.com/adv/
 ||imencms.com/mobile/ptadv.jpg
