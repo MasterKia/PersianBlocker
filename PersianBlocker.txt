@@ -559,6 +559,12 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://github.com/MasterKia/PersianBlocker/issues/210
+||ads.aftab.cc^$image,1p,strict3p
+||links.aftab.cc/js.php^$script,1p
+aftab.cc##div[style="text-align:right; margin:10px;"]:has(> a[href="http://ads.aftab.cc"])
+aftab.cc##div.panel:has(> div#collapse_Linkestan)
+
 androidify.ir##div#ZAD
 androidify.ir##div.ml-4.space-right-delt > div.bg-all-box:has(> div.yn-bnr)
 
