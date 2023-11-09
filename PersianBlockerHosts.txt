@@ -354,6 +354,8 @@ websocket.ilna.ir
 # >> J <<
 
 # >> K <<
+kar-sentry.karnameh.com
+
 # https://github.com/MasterKia/PersianBlocker/issues/101
 websocket.khanefootball.com
 
