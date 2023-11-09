@@ -3689,6 +3689,7 @@ zoomtech.org##div.zoomtech-banner
 
 !-------------------------v Warning for video censorship sites v-----------------------!
 ! https://github.com/MasterKia/PersianBlocker/issues/119
+!#if !env_mobile
 www.google.com##.g a[href*="filmr.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="doostihaa.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="uptvs.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3770,7 +3771,7 @@ www.google.com##.g a[href*="filimiano.com"]> h3::after:style(content: ' [دار�
 www.google.com##.g a[href*="filmbaz.co"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="filmekade.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="5download.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-!#if env_mobile
+!#else
 www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="uptvs.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4019,6 +4020,52 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="filmekade.c
 search.brave.com##div#results > div.snippet > a.result-header[href*="5download.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 !-------------------------^ Warning for video censorship sites ^-----------------------!
+
+!-------------------------v Warning for game censorship sites v-----------------------!
+!#if !env_mobile
+www.google.com##.g a[href*="download.ir"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="magbazi.com"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="par30dl.net"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="vgdl.ir"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="bosgame.ir"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="darkroid.ir"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="miniroid.com"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="tinroid.ir"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="par30games.net"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="p30day.ir"]> h3::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+!#else
+www.google.com##a[href*="download.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="magbazi.com"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="par30dl.net"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="vgdl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="bosgame.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="darkroid.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="miniroid.com"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="tinroid.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="par30games.net"] div[role="link"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+!#endif
+
+duckduckgo.com##a[data-testid="result-title-a"][href*="download.ir"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="magbazi.com"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="par30dl.net"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="vgdl.ir"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="bosgame.ir"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="darkroid.ir"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="miniroid.com"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="tinroid.ir"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="par30games.net"]::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+
+search.brave.com##div#results > div.snippet > a.result-header[href*="download.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="magbazi.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="par30dl.net"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="vgdl.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="bosgame.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="darkroid.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="miniroid.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="tinroid.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="par30games.net"] > span.snippet-title::after:style(content: ' [دارای حذفیات لینک دانلود] ' !important; color: #E6000D !important;)
+
+!-------------------------^ Warning for game censorship sites ^-----------------------!
 
 !-------------------------v Tajikistan sites v-----------------------!
 ! https://github.com/MasterKia/PersianBlocker/issues/116
