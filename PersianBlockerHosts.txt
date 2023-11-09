@@ -332,6 +332,8 @@ actionlog.divar.ir
 # >> E <<
 
 # >> F <<
+sentry.fidibo.net
+
 vast.filmnet.ir
 
 # https://github.com/MasterKia/PersianBlocker/issues/107
