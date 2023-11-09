@@ -3342,15 +3342,7 @@ virgool.io##article[data-post-id] > div.post-content > div.post-body a[href^="ht
 
 ! https://github.com/MasterKia/PersianBlocker/pull/10
 ! https://github.com/MasterKia/PersianBlocker/pull/15
-||vgdl.ir/wp-content/uploads/*/*.gif
-||vgdl.ir/wp-content/uploads/*/*-ad-*$image
-vgdl.ir##.stream-item-top-wrapper
-vgdl.ir##.stream-item-above-post
-vgdl.ir#@#.stream-item-widget
-vgdl.ir##.stream-item-widget:has(a[href*="faradars.org"])
-vgdl.ir##.bottom_ads
-vgdl.ir##.fix_ads
-@@||vgdl.ir/wp-content/uploads/*/how-to-fix-error-vgdl.ir_.gif$image,1p
+vgdl.ir##div#ads__start_of_the_post
 
 *$3p,script,from=vazeh.com,to=sahandpress.ir|jaarchee.ir
 ||vazeh.com/banners/us/*.gif^$image,1p
