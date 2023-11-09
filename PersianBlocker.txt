@@ -222,6 +222,9 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||e-earn.ir^$3p
 
 ! >> F <<
+! https://c.filimium.com/meta/affiliate12/1?camp=W4hAv6Cy
+||c.filimium.com/meta/affiliate$doc
+
 ||facepop.org^
 ||farsbux.ir^
 ||fastclick.ir^
@@ -1003,6 +1006,9 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+darkroid.ir##a[rel="nofollow"]:has(> img[title="تبلیغات"])
+darkroid.ir##a.dl-btn:has(> span:has-text(ads))
+
 ||my-pu.sh^
 ||puuush.me^
 delta3da.cam##div.adv
