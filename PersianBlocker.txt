@@ -66,9 +66,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 !#endif
 ###kaprila_linktable
 
-! Fake download button
-##div#ZAD
-
 ! /statics/*$xhr
 ! .ir/ads/
 
@@ -2047,6 +2044,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+mobomod.com##div#Abox-mobo
+
 moddinggame.ir##div#ZAD
 
 miniroid.com#@#.adBox
