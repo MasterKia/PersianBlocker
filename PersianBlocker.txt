@@ -1218,6 +1218,7 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||divar.ir/g-scripts^$script,1p
 ||api.divar.ir/*/actionlog^$beacon,1p
 ||api.divar.ir/*/client-exporter/send-report^$beacon,1p
+divar.ir##a.button-row-item[href^="https://open-platform-redirect.divar.ir?app_slug=karnameh_price_report"] > div.kt-button > span.kt-text-truncate::after:style(content: ' (۱۰ هزار تومان)' !important;)
 
 doostihaa.com##div.adsfix_box:has(> div[id^="mediaad"])
 doostihaa.com##aside.lefts_sides:has(> div.txt_letfs > ul.ads_txtcv)
