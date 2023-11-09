@@ -290,6 +290,9 @@ zarpop.com
 #-------------------------v Site-Specific Filters v-----------------------#
 
 # >> A <<
+# https://github.com/MasterKia/PersianBlocker/issues/210
+ads.aftab.cc
+
 analytics.asiatech.ir
 dsp.aparat.com
 
