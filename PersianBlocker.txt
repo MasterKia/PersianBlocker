@@ -2231,7 +2231,7 @@ myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 ! >> N <<
 ||niloblog.com/images/ads^$image,1p
 
-noorlib.ir##+js(aeld, copy, [native code])
+noorlib.ir##+js(aeld, copy, throw)
 ||noorlib.ir/inoorCDN/ads^$xhr,1p
 ||noorlib.ir/sentry^$1p
 ||noorlib.ir/api/book/insertClientBookVisitLog^$xhr,1p,method=post
