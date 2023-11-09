@@ -1428,7 +1428,11 @@ farachart.com##.sidebar > :has(.widget-title:has-text(تبلیغات))
 farachart.com##.kpl_linktable
 farachart.com##.p-single.blog-post:upward(1):style(width: 100% !important;)
 
-||fidibo.com^$removeparam=/^utm_/
+! fidibo.com##+js(no-xhr-if, identity/device method:POST)
+fidibo.com##+js(set, navigator.userAgent, '')
+fidibo.com##+js(set, navigator.appVersion, '')
+fidibo.com##+js(set, navigator.appName, '')
+||sentry.fidibo.net^$3p,domain=fidibo.com
 
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1179570047
