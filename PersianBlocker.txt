@@ -1218,6 +1218,7 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||divar.ir/g-scripts^$script,1p
 ||api.divar.ir/*/actionlog^$beacon,1p
 ||api.divar.ir/*/client-exporter/send-report^$beacon,1p
+||open-platform-redirect.divar.ir^$doc,removeparam=source
 divar.ir##a.button-row-item[href^="https://open-platform-redirect.divar.ir?app_slug=karnameh_price_report"] > div.kt-button > span.kt-text-truncate::after:style(content: ' (۱۰ هزار تومان)' !important;)
 
 doostihaa.com##div.adsfix_box:has(> div[id^="mediaad"])
@@ -1832,6 +1833,10 @@ jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+||kar-sentry.karnameh.com^$1p
+! مقایسه با قیمت خودروهای مشابه
+||rest.karnameh.com/api/event_logs^$xhr,1p
+
 kihanb.ir##^script:has-text(document.oncontextmenu=)
 kihanb.ir##^style:has-text(user-select)
 kihanb.ir##^style[media="print"]:has-text(display:none)
