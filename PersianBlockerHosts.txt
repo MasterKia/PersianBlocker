@@ -357,6 +357,8 @@ apptracking.irancell.ir
 
 websocket.ilna.ir
 # >> J <<
+sentry.alibaba.ir
+tracker.jabama.com
 
 # >> K <<
 kar-sentry.karnameh.com
