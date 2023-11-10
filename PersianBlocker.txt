@@ -1787,6 +1787,9 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+||sentry.alibaba.ir^
+||tracker.jabama.com^$1p
+
 ! https://github.com/MasterKia/PersianBlocker/issues/204
 javan-musics.com##+js(aeld, load, contextmenu)
 javan-musics.com##+js(ra, onmousedown|onselectstart, body)
