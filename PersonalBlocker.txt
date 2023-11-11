@@ -19,7 +19,8 @@
 
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#header
 ! https://simoahava.com/analytics/server-side-tagging-google-tag-manager/
-*$1p,strict3p,script,header=via:1.1 google
+! *$1p,strict3p,script,header=via:1.1 google
+! False positive: https://gyazo.com/8bf2805f45d8297bc49f912ada6e4de7
 
 ! https://github.com/gorhill/uBlock/wiki/Privacy-stuff#gravatar-et-al
 ||gravatar.com^$3p
