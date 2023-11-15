@@ -1251,6 +1251,8 @@ download.ir##aside > .widget .textwidget-title:has-text(تبلیغات):upward(.
 download.ir##aside img[alt="جایگاه تبلیغات"]
 
 ! >> E <<
+web.eitaa.com##div.chatlist-parts > div.chatlist-top > ul.ads-dialog-box
+
 ! https://github.com/MasterKia/PersianBlocker/issues/174
 emojo.ir##.emojo-ad
 emojo.ir##.pzbkcvuqrn
