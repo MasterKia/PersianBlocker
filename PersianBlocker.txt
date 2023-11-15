@@ -3421,6 +3421,9 @@ xip.li##+js(set, count, 0)
 xip.li##.form-inline:others()
 
 ! >> Y <<
+! Tracking on custom pages
+||api.yek.link/api/domain/*/view^$xhr,1p,method=options|post
+
 ! https://github.com/MasterKia/PersianBlocker/issues/175
 youc.ir##.stream-item
 youc.ir##.widget > .widget-title:has-text(تبلیغات):upward(.widget)
