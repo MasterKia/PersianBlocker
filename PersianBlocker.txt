@@ -310,8 +310,8 @@ niloblog.com##bloglinksblock
 ||on-click.ir^
 
 ! >> P <<
-! musicsweb.ir, upmusics.com
-||plugin.my-pishvaz.com^$xhr,3p
+! musicsweb.ir, upmusics.com, musicdel.ir
+||my-pishvaz.com^$3p
 
 ||pooye-ads.com^
 
@@ -2055,6 +2055,13 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+musicdel.ir##+js(set, runScript, false)
+||danialtaherifar.ir^$3p,domain=musicdel.ir
+||musicdel.ir/danga4.js^$script,1p
+||musicdel.ir/source.gif^$image,1p
+musicdel.ir##div[class^="yektabanner"]
+musicdel.ir##div[style]:has(> div.yn-bnr)
+
 music-fa.com##body:style(cursor: unset !important;)
 
 mobomod.com##div#Abox-mobo
