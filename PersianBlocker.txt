@@ -562,6 +562,9 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+alfehrest.com##div.box > div.box_head:style(position: unset !important;)
+alfehrest.com##body:style(cursor: unset !important;)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/210
 ||ads.aftab.cc^$image,1p,strict3p
 ||links.aftab.cc/js.php^$script,1p
@@ -2052,6 +2055,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+music-fa.com##body:style(cursor: unset !important;)
+
 mobomod.com##div#Abox-mobo
 
 moddinggame.ir##div#ZAD
