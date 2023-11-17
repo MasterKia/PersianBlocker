@@ -1375,6 +1375,10 @@ estekhtam.com#@#.ads-bottom
 enama.ir##div.avdDiv
 
 ! >> F <<
+fileboro.com##+js(acis, document.onselectstart, killCopy)
+fileboro.com##+js(aopw, document.oncopy)
+fileboro.com##div.ads-content
+
 ||filmtarin.com^$3p,domain=fastmobile.ir
 fastmobile.ir##a[href^="https://arongroups.site/"]
 fastmobile.ir##div#ADbox-1
