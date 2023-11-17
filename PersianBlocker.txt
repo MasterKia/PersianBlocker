@@ -85,6 +85,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||alaqsastorm.com/aqsa/ads.php^$image,3p
 ||adverge.ir^
 ||adrooz.com^
 ||affilio.ir^
