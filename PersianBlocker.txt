@@ -4051,38 +4051,38 @@ www.google.com##.g a[href*="filmazon."]> h3::after:style(content: ' [اشترا�
 www.google.com##.g a[href*="30nama.com"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##.g a[href*="4kdownload.org"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#else
-www.google.com##a[href*="mygolchindl.top"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="golchindl2.top"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="pinkfilm.me"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="filmazon."] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="30nama.com"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="4kdownload.org"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="mygolchindl.top"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="golchindl2.top"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="pinkfilm.me"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="filmazon."] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="30nama.com"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="4kdownload.org"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#endif
 
-duckduckgo.com##a[data-testid="result-title-a"][href*="mygolchindl.top"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="golchindl2.top"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="pinkfilm.me"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="filmazon."]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="30nama.com"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="4kdownload.org"]::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="mygolchindl.top"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="golchindl2.top"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="pinkfilm.me"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="filmazon."]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="30nama.com"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="4kdownload.org"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
-search.brave.com##div#results > div.snippet > a.result-header[href*="mygolchindl.top"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a.result-header[href*="golchindl2.top"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a.result-header[href*="pinkfilm.me"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a.result-header[href*="filmazon."] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a.result-header[href*="30nama.com"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a.result-header[href*="4kdownload.org"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="mygolchindl.top"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="golchindl2.top"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="pinkfilm.me"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="filmazon."] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="30nama.com"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="4kdownload.org"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
 ! نیمه‌اشتراکی
 !#if !env_mobile
-www.google.com##.g a[href*="//filmkio"]> h3::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##.g a[href*="//filmkio"]> h3::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important; font-weight: bold !important;)
 !#else
-www.google.com##a[href*="//filmkio"] div[role="link"]::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="//filmkio"] div[role="link"]::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#endif
 
-duckduckgo.com##a[data-testid="result-title-a"][href*="//filmkio"]::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="//filmkio"]::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
-search.brave.com##div#results > div.snippet > a.result-header[href*="//filmkio"] > span.snippet-title::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="//filmkio"] > span.snippet-title::after:style(content: ' [نیمه‌اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
 !-------------------------^ Warning for video censorship sites ^-----------------------!
 
