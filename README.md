@@ -350,4 +350,7 @@ https://basic.rethinkdns.com
 
 ***
 
+🄯 All Wrongs Reversed.
+
 ![](http://profile-counter.glitch.me/MasterKia/count.svg)
+
