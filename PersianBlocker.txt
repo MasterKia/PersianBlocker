@@ -1796,6 +1796,9 @@ irna.ir##.ads.box
 ||irlanguage.com/themes/Mashhadteam-Default/script/ga.js
 
 ! >> J <<
+jobvision.ir##+js(no-xhr-if, candidatelogapi method:POST)
+||jobvision.ir/assets/js/webengage-min-$script,1p
+
 ||sentry.alibaba.ir^
 ||tracker.jabama.com^$1p
 
