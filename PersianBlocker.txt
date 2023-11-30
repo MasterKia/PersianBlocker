@@ -2063,6 +2063,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! https://github.com/MasterKia/PersianBlocker/issues/211
+mediat.ir##div.widget-ad-image
+mediat.ir##div.ad-wrap
+! TODO: Remove "لینک های کاربردی"
+
 musicdel.ir##+js(set, runScript, false)
 ||danialtaherifar.ir^$3p,domain=musicdel.ir
 ||musicdel.ir/danga4.js^$script,1p
