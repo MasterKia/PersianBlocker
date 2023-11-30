@@ -2590,6 +2590,8 @@ forum.p30world.com#@##ad_global_above_footer
 ||sentry.quera.org^
 
 ! >> R <<
+||raavito.com/ws/usage/submit^$xhr,1p,method=post
+
 rastikerdar.blog.ir##body > div#wrp::before:style(content: '«مرد نکونام نمیرد هرگز / مرده آن است که نامش به نکویی نبرند»' !important; color: #E6000D !important; font-weight: bold !important;)
 rastikerdar.blog.ir##body > div#wrp > div.main_menu::before:style(content: 'روحت شاد صابر جان. (PersianBlocker)' !important; color: #E6000D !important; font-weight: bold !important;)
 
