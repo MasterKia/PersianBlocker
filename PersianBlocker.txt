@@ -2684,6 +2684,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/213
+7sobh.com##div.container-ads
+7sobh.com##div.left-ads
+
 ! On sepehrtv.ir:
 ||analytics.eirib.ir^
 ||statistics.iriborg.ir^
