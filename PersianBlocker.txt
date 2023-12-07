@@ -10,6 +10,9 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
+! download.ir, fastmobile.ir, par30games.net
+~arongroups.site##a[href^="https://arongroups.site/"]
+
 ! Popup: needpop (vc_url)
 artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,musichi.ir,likeemusic.ir##+js(nowoif)
 
@@ -1249,11 +1252,10 @@ doostihaa.com##aside.lefts_sides:has(> div.txt_letfs > ul.ads_txtcv)
 downloadha.com##div.popup-ads
 downloadha.com##div.ads
 
-||download.ir/api/geoip$xhr,1p
-download.ir##.top-full-ads
-download.ir##.parsi-ads:upward(.widget)
-download.ir##aside > .widget .textwidget-title:has-text(تبلیغات):upward(.widget)
-download.ir##aside img[alt="جایگاه تبلیغات"]
+||analytics.hostiran.net^
+||vidiran.com^$3p,domain=download.ir
+download.ir##div.top-full-ads
+download.ir##div.textwidget:has(> div.parsi-ads)
 
 ! >> E <<
 web.eitaa.com##div.chatlist-parts > div.chatlist-top > ul.ads-dialog-box
@@ -1382,7 +1384,6 @@ fileboro.com##+js(aopw, document.oncopy)
 fileboro.com##div.ads-content
 
 ||filmtarin.com^$3p,domain=fastmobile.ir
-fastmobile.ir##a[href^="https://arongroups.site/"]
 fastmobile.ir##div#ADbox-1
 fastmobile.ir##div#phon
 
@@ -2286,7 +2287,6 @@ najiremix.ir##^script:has-text(window.location=)
 najiremix.ir##+js(rmnt, script, window.location=)
 !#endif
 najiremix.ir##div.is_ads
-najiremix.ir##a[href^="https://arongroups.co/"]
 
 ||oscaranimation.in^
 ||xxx.atlas-music.ir/tab.php^$frame,3p
@@ -2573,7 +2573,6 @@ par30games.net##body:style(background-image: none !important;)
 par30games.net##article.fixedadv:not(:has(> div.fixedadvcontent > a[href="https://www.youtube.com/c/Par30Game"]))
 par30games.net##section.sidebar-box-shop
 par30games.net##div.adbox
-par30games.net##a[data-wpel-link="external"][href*="arongroups"]
 
 ||paperhub.ir/images/*.gif
 
