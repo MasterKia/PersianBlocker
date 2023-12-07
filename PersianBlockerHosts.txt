@@ -348,6 +348,7 @@ tracker.farsnews.ir
 # >> G <<
 
 # >> H <<
+analytics.hostiran.net
 hiads.hidoctor.ir
 
 # >> I <<
