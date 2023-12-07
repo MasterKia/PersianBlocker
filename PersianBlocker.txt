@@ -311,6 +311,8 @@ niloblog.com##bloglinksblock
 ||on-click.ir^
 
 ! >> P <<
+||pushq.ir^
+
 ! musicsweb.ir, upmusics.com, musicdel.ir
 ||my-pishvaz.com^$3p
 
@@ -325,7 +327,7 @@ niloblog.com##bloglinksblock
 ||popland.info^
 
 ||peyvandha.ir^$3p
-||10.10.34.*^
+||10.10.34.$frame,3p
 ! ^ Example: imovie-dl.org
 
 ||phoenixad.io^
@@ -1638,8 +1640,10 @@ hamisheonline.com##+js(acis, document.onclick, Hamisheonlinepaps)
 hamtamovie.*##+js(href-sanitizer, a[href^="https://hamtamovie.im/dl/?url="], ?url)
 hamtamovie.*##section#left-side > aside > h4:has-text(تبلیغات):upward(aside)
 
-||harfetaze.com/wp-content/uploads/ads/
-harfetaze.com##.sidebar-right
+! https://github.com/MasterKia/PersianBlocker/issues/214
+harfetaze.com##div.container > div.ads
+harfetaze.com##div.box:has(> div.ads)
+harfetaze.com##aside.sidebar-right > div.box:has(> div.title > h4.title-text:has-text(تبلیغات متنی))
 
 ||hadana.ir/wp-content/plugins/better-ads
 
