@@ -3373,6 +3373,8 @@ vipofilm.com##aside > .title:has-text(تبلیغات):upward(aside)
 vakil.net##+js(acis, document.oncontextmenu)
 vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
+! https://github.com/MasterKia/PersianBlocker/issues/215
+virgool.io##+js(href-sanitizer, article[data-post-id] > div.post-content > div.post-body a[href^="https://l.vrgl.ir/r?"][href*="&l=http"], ?l)
 ||virgool.io^$removeparam=source
 ||sentry.virgool.io^$1p
 ||countly.virgool.io/sdk/web/countly.min.js^$script,1p
@@ -3380,7 +3382,6 @@ virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(va
 virgool.io##div.js-userLogin-popup
 virgool.io##div.feedAdsBox
 virgool.io##aside[class]:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"]:has-text(تبلیغات))
-virgool.io##article[data-post-id] > div.post-content > div.post-body a[href^="https://l.vrgl.ir/r?ad=1&l=http"]
 
 ! https://github.com/MasterKia/PersianBlocker/pull/10
 ! https://github.com/MasterKia/PersianBlocker/pull/15
