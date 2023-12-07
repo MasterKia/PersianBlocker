@@ -169,6 +169,7 @@ oscaranimation.in
 on-click.ir
 
 # >> P <<
+pushq.ir
 pooye-ads.com
 
 promizer.com
