@@ -10,8 +10,9 @@
 
 !  لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود
 !-------------------------v Experimental Generic Filters v-----------------------!
-! download.ir, fastmobile.ir, par30games.net
-~arongroups.site##a[href^="https://arongroups.site/"]
+! download.ir, fastmobile.ir, par30games.net, roozdl1.ir
+~arongroups.site,~arongroups.co##a[href^="https://arongroups.site/"]
+~arongroups.site,~arongroups.co##a[href^="https://arongroups.co/"]
 
 ! Popup: needpop (vc_url)
 artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,musichi.ir,likeemusic.ir##+js(nowoif)
