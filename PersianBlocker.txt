@@ -569,6 +569,9 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+! https://baniwak.com/5096/%d8%af%d8%a7%d9%86%d9%84%d9%88%d8%af-%d9%81%db%8c%d9%84%d9%85-family-switch
+||arnr.ir^$removeparam=ref
+
 alfehrest.com##div.box > div.box_head:style(position: unset !important;)
 alfehrest.com##body:style(cursor: unset !important;)
 
