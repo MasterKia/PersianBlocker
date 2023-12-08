@@ -313,6 +313,7 @@ niloblog.com##bloglinksblock
 
 ! >> O <<
 ||on-click.ir^
+||onclick.ir^
 
 ! >> P <<
 ||pushq.ir^
@@ -1687,9 +1688,8 @@ iranstar.com##.ads-div-block
 iranstar.com###floating-region-zone
 
 ! https://github.com/MasterKia/PersianBlocker/issues/50
-||ifilo.net^$removeparam=/^utm_/
-ifilo.net##.si.au._m0.sd.vb:style(max-height: 100% !important;)
-ifilo.net#@#.adver
+! https://github.com/AdguardTeam/AdguardFilters/issues/168036
+||ifilo.net/onclick^
 
 itarfand.com##+js(acis, jQuery, contextmenu)
 itarfand.com##.sin-part
