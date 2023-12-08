@@ -3374,11 +3374,11 @@ vakil.net##+js(acis, document.oncontextmenu)
 vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/215
-virgool.io##+js(href-sanitizer, article[data-post-id] > div.post-content > div.post-body a[href^="https://l.vrgl.ir/r?"][href*="&l=http"], ?l)
-||virgool.io^$removeparam=source
+virgool.io##+js(href-sanitizer, a[href^="https://l.vrgl.ir/r?"][href*="&l=http"], ?l)
+||virgool.io^$doc,removeparam=source
 ||sentry.virgool.io^$1p
 ||countly.virgool.io/sdk/web/countly.min.js^$script,1p
-virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
+! virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
 virgool.io##div.js-userLogin-popup
 virgool.io##div.feedAdsBox
 virgool.io##aside[class]:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"]:has-text(تبلیغات))
