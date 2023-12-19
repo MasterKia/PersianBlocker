@@ -1534,6 +1534,9 @@ farsnews.ir##aside.ad-mobile-none
 farsnews.ir##div.ads-native
 
 ! >> G <<
+||mihanwebhost.com^$image,3p,domain=gamemods.ir
+gamemods.ir##div#sidebar > aside > section.widget_text:has(> a > h5:has-text(تبلیغات))
+
 games4online.ir##a[target="_blank"]:has(> img[src*="/Gif/"][src$=".gif"])
 games4online.ir##a[target="_blank"]:has(> img[src*="/files/"][src$=".gif"])
 
