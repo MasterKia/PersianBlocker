@@ -316,6 +316,7 @@ niloblog.com##bloglinksblock
 ||onclick.ir^
 
 ! >> P <<
+||pegah.tech^
 ||pushq.ir^
 
 ! musicsweb.ir, upmusics.com, musicdel.ir
