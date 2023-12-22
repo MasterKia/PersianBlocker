@@ -449,6 +449,8 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||tool.4tools.ir/tools/click-l/click-l.js^$script,3p
 
 ! >> U <<
+||usermap.net^
+
 ||userfriendly.ir^
 ! ^ Used by bils.ir
 
