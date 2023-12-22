@@ -1537,6 +1537,8 @@ farsnews.ir##aside.ad-mobile-none
 farsnews.ir##div.ads-native
 
 ! >> G <<
+ganjipakhsh.com##+js(aeld, , t.preventDefault)
+
 ||mihanwebhost.com^$image,3p,domain=gamemods.ir
 gamemods.ir##div#sidebar > aside > section.widget_text:has(> a > h5:has-text(تبلیغات))
 
