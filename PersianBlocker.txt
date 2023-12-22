@@ -3153,9 +3153,12 @@ techna.news##[class="widget_text sidebar-box"]:has-text(تبلیغ)
 techna.news##[class="widget_text sidebar-box"]:has-text(وبگردی)
 ! techna.news##div[class="widget_text sidebar-box"]:has(div[id*="kaprila_"])
 
-||technolife.ir/image/deema
-||technolife.ir/image/najva
-||technolife.ir/image/yekta
+||technolife.ir/image/affili.js^$script,1p
+||technolife.ir/image/sanjagh.js^$script,1p
+||technolife.ir/image/najvaScript.js^$script,1p
+||technolife.ir/image/deema0.js^$script,1p
+||technolife.ir/image/deemaScript.js^$script,1p
+||technolife.ir/image/yektanetScript.js^$script,1p
 
 ||tabanmusic.com/p-pop/
 texahang.org##.myside.right-sidebar
