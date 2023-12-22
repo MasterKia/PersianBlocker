@@ -2726,7 +2726,7 @@ sabtta.com##a[href="https://sarafer.com/"]
 shahanmusic.ir##+js(aopr, show_wpcp_message)
 shahanmusic.ir##+js(set-attr, img[data-src], src, [data-src])
 shahanmusic.ir##img[data-src]:style(opacity: 1 !important;)
-shahanmusic.ir##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+shahanmusic.ir##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: revert !important;)
 ! TODO: Fix dark mode
 
 s-moshaver.com##+js(aeld, contextmenu)
