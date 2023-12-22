@@ -1,7 +1,7 @@
 [AdBlock]
 # Title: PersianBlocker (Hosts)
 # Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-# Expires: 7 day
+# Expires: 7 days
 # Homepage: https://github.com/MasterKia/PersianBlocker
 # License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -171,6 +171,7 @@ on-click.ir
 onclick.ir
 
 # >> P <<
+pegah.tech
 pushq.ir
 pooye-ads.com
 
