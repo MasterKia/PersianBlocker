@@ -802,6 +802,8 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+bizma.ir##+js(aeld, /contextmenu|copy|cut/, return"undefined")
+
 ||sentry.bale.sh^$3p,domain=bale.ai
 ||web.bale.ai/static/js/web-vitals.$script,1p
 ||next-api.bale.ai/bale.seraj_proxy.v1.SerajProxy/SendSerajEvent^$xhr,1p,method=options|post
