@@ -433,7 +433,7 @@ video-view-api.varzesh3.com
 analytics.zoomit.ir
 #-------------------------^ Site-Specific Filters ^-----------------------#
 
-#-------------------------v Scam Sites v-----------------------#
+#-------------------------v WebAmooz Warning List v-----------------------#
 # https://webamoozcom.github.io/warning-list/
 
 
@@ -600,11 +600,12 @@ laxsson.com
 # https://github.com/Blockunity/Warning-List/discussions/44
 tradergpt.ai
 
-#-------------------------^ Scam Sites ^-----------------------#
+#-------------------------^ WebAmooz Warning List ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
 wibodir.com
 eh-ra-z-se-na.org
 ebl-hot.com
+iranuschsahm.sbs
 
 #-------------------^ Malware/Phishing Sites ^-----------------#
