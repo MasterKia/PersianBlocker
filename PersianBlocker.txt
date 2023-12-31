@@ -3581,7 +3581,7 @@ zoomtech.org##div.zoomtech-banner
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
 
-!-------------------------v Scam Sites v-----------------------!
+!-------------------------v WebAmooz Warning List v-----------------------!
 ! https://webamoozcom.github.io/warning-list/
 
 ! Discussion?
@@ -3746,7 +3746,7 @@ zoomtech.org##div.zoomtech-banner
 ! https://github.com/Blockunity/Warning-List/discussions/44
 ||tradergpt.ai^$all
 
-!-------------------------^ Scam Sites ^-----------------------!
+!-------------------------^ WebAmooz Warning List ^-----------------------!
 
 !-------------------v Malware/Phishing Sites v-----------------!
 ! https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
@@ -3756,6 +3756,7 @@ zoomtech.org##div.zoomtech-banner
 ||wibodir.com^$all
 ||eh-ra-z-se-na.org^$all
 ||ebl-hot.com^$all
+||iranuschsahm.sbs^$all
 
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
