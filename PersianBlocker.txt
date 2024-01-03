@@ -2547,12 +2547,10 @@ persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
 p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
-p30download.ir##div.tabliq-468
-p30download.ir##div.fixed-post:has(a[href*="mtm_campaign=p30download"])
-p30download.ir##div.sidebar-tabliq
-p30download.ir##div.basic-list-links
-p30download.ir##div.text-tab
-p30download.ir##div#footer-wrapper > div.copyright-wrapper > div#copyright > *:not(p)
+p30download.ir##main#main-content > div.tabliq-468
+p30download.ir##aside#sidebar > div.widget:has(> h4:has-text(تبلیغات))
+p30download.ir##aside#sidebar > div.basic-list-linkz
+p30download.ir##aside#sidebar > div.text-ag:has(> h4:has-text(تبلیغات متنی))
 
 ||film.persianv.com/frontend/js/ads/
 persianv.com##.ads_box
