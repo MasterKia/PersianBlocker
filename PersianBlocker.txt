@@ -1527,15 +1527,18 @@ farnet.io##.content-column:not(> .archive-title:has-text(رپرتاژ تبلیغ
 farnet.io###site-footer .col-sm-4:has(a[rel="noopener"][target="_blank"])
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
-farsroid.com##+js(aopr, faPa)
-||farsroid.com/js/?url=$script
-! ||farsroid.com/api/os-info$xhr
-farsroid.com##.swiper-wrapper > .swiper-slide:not(:has(a[href*="farsroid.com/"]))
-farsroid.com##.site-middle-banners
-farsroid.com##.gtm-farsroid-ads
-farsroid.com##.download-link-ads-below
-farsroid.com##.cas-pubg.cas
-farsroid.com##.ads-dashed-banner
+!#if cap_html_filtering
+farsroid.com##^script:has-text(ads_app_downloads)
+!#else
+farsroid.com##+js(rmnt, script, ads_app_downloads)
+!#endif
+||farsroid.com/js/?url=$script,1p
+farsroid.com##header.site-header > div.container > nav.site-top-nav > ul.grid-row > li:has(> a[href][rel="dofollow"][target="_blank"]:is([href^="https://1000gem.org/"],[href^="https://kifpool.me/"], [href^="https://dicardo.com/"]))
+farsroid.com##div.site-middle-banners:has(> div.banner > a.farsroid-ads)
+farsroid.com##div.single-text-ads
+farsroid.com##article.post-single-box > div.post-content > p:has(> a[href="https://www.farsroid.com/download-imo-android/"][target="_blank"][rel="noopener"])
+farsroid.com##div.download-link-ads-below
+farsroid.com##div.cas
 farsroid.com#@#.place-ads
 
 ||analysis.faradars.org
