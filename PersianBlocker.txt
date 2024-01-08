@@ -3263,15 +3263,15 @@ tinn.ir##[href^="/advertisements/"]
 tinn.ir##.type-resource-image
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96925
-||tgju.org/cdn-cgi/apps/head^$script,1p
-||api.tgju.org/v1/advertisement^$xhr,1p
+!#if cap_html_filtering
 tgju.org##^script:has-text(ad.setAttribute)
-!#if !cap_html_filtering
-tgju.org##+js(acis, document.getElementById, ad)
+!#else
+tgju.org##+js(rmnt, script, ad.setAttribute)
 !#endif
-tgju.org##.advertise
-tgju.org##.bottom-left-ad
-tgju.org##.bottom-right-ad
+||static.tgju.org/advertisement^$image,1p
+tgju.org##ul.advertise
+tgju.org##div.bottom-left-ad
+tgju.org##div.bottom-right-ad
 
 tejaratnews.com##.tj-ad-box
 tejaratnews.com##.home-web-surfing
