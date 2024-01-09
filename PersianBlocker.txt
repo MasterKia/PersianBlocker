@@ -2092,6 +2092,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+magiran.com##div.blur-text
+
 mohandescenter.ir##div.col-12 div#ctl00_topModule1_pnlTop:has(> div.divleftmod > div.py-2 > strong:has-text(جت سئو))
 
 ! https://github.com/MasterKia/PersianBlocker/issues/211
