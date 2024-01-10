@@ -415,6 +415,9 @@ analytics.telewebion.com
 # >> U <<
 
 # >> V <<
+# https://github.com/MasterKia/PersianBlocker/issues/219
+analytics.jeldnews.com
+
 sentry.virgool.io
 
 # https://github.com/MasterKia/PersianBlocker/issues/121
