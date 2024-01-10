@@ -3392,6 +3392,10 @@ uploadboy.com##body:style(overflow: auto !important;)
 uploadboy.com##div.ads
 
 ! >> V <<
+! https://github.com/MasterKia/PersianBlocker/issues/219
+||analytics.jeldnews.com^
+||varazendegi.com/_next/image?url=*.gif^$image,1p
+
 vananews.com##div.style-text-adv
 vananews.com##div.col-ms-36 > section:has(div.txt_adv_content)
 vananews.com##div.row > section:has(a[href*="/ads/redirect/"])
