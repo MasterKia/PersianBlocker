@@ -1867,10 +1867,11 @@ jeyran.net##.sidebar-area .image
 jeyran.net##.main-content > .row > .content, .main-conten:style(max-width: 99% !important; flex: 0 0 99% !important;)
 !#endif
 
-||jabeh.com/assets/videojs-contrib-ads
-||jabeh.com/assets/videojs.ima.min.js
-||jabeh.com/assets/videojs.ima.min.css
-||jabeh.com/analytics^
+||jabeh.com/analytics^$xhr
+||cdni.jabeh.com/videojs.ads.min.js^$script
+||cdni.jabeh.com/videojs.ads.min.css^$css
+||cdni.jabeh.com/videojs.ima.min.js^$script
+jabeh.com##div.video-area > div > div.d-flex:has(> a[href^="/c/"][aria-label="bebin"] > img)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
 jalebamooz.com##.stream-item-top-wrapper
