@@ -1539,6 +1539,10 @@ farsroid.com##div.single-text-ads
 farsroid.com##article.post-single-box > div.post-content > p:has(> a[href="https://www.farsroid.com/download-imo-android/"][target="_blank"][rel="noopener"])
 farsroid.com##div.download-link-ads-below
 farsroid.com##div.cas
+!#if env_mobile
+farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"]))
+farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads)
+!#endif
 farsroid.com#@#.place-ads
 
 ||analysis.faradars.org
