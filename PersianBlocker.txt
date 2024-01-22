@@ -3778,6 +3778,7 @@ zoomtech.org##div.zoomtech-banner
 ||eh-ra-z-se-na.org^$all
 ||ebl-hot.com^$all
 ||iranuschsahm.sbs^$all
+||seownae.space^$all
 
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
