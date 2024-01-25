@@ -1030,6 +1030,10 @@ click.ir##.clads-inner
 @@||caffecinema.com/media/banners/telegram-$image,1p
 
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/221
+||dana.ir/dana/static/Ads^$image,1p
+dana.ir##div.col-md-12 > div.sidebar-box:has(> div.row > div.text-center > a[target="_blank"][title] > h4.text-dark[style])
+
 darkroid.ir##a[rel="nofollow"]:has(> img[title="تبلیغات"])
 darkroid.ir##a.dl-btn:has(> span:has-text(ads))
 
