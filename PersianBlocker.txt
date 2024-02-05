@@ -1362,6 +1362,7 @@ eghtesadnews.com##.advs-wrapper
 ! https://github.com/MasterKia/PersianBlocker/issues/223
 ||media.eghtesadonline.com/d/*.gif^$image,1p
 eghtesadonline.com##section.ads
+eghtesadonline.com##section.box.list:has(> header > h2:has-text(وبگردی))
 
 elmefarda.com##+js(aeld, contextmenu)
 elmefarda.com##div#post p:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
