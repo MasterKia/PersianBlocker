@@ -31,7 +31,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 /images/advertise^$image,1p,domain=ir|bazimag.com|jahannews.com
 
 ! https://publicwww.com/websites/%22var+socketAccess+%3D%22/
-! websocket.eghtesadonline.com, websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
+! websocket.ilna.ir, websocket.khanefootball.com, websocket.55online.news, websocket.sobhtazeh.news, websocket.varandaz.com
 ||websocket.*/?u=*&s=$websocket,1p,strict3p
 
 ! applicationha.com, androidgozar.com, downloadkral.com, gold-team.org, iranecar.com, icoff.ee, koolakmag.ir,
@@ -40,7 +40,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 /wp-admin/admin-ajax.php?postviews_id=$xhr,1p
 
 ! afkarnews.com, bartarinha.ir, donya-e-eqtesad.com, etemadonline.com, ecoiran.com, eghtesadnews.com,
-!! eghtesadonline.com, fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
+!! fardanews.com, gostaresh.news, ilna.ir, khabareazad.com, khabarfoori.com, mosalasonline.com, 
 !!! moroornews.com, mojnews.com, rokna.net, sharghdaily.com, shomavaeghtesad.com, shayanews.com, 55online.news, 
 !!!! sobhtazeh.news, varandaz.com
 !#if env_mobile
@@ -1359,18 +1359,9 @@ eghtesadnews.com##.advs-wrapper
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95321
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-eghtesadonline.com##+js(aeld, scroll)
-||eghtesadonline.com/servev2/*.gif
-eghtesadonline.com##[href*="/advertisements/triggered/"]
-eghtesadonline.com##.zxc
-eghtesadonline.com###carousel:remove()
-eghtesadonline.com##.tiny_linky_boxes
-eghtesadonline.com##.talfighat-BS
-eghtesadonline.com##.shopping_list
-eghtesadonline.com##.backlink
-!#if !env_mobile
-eghtesadonline.com##.right-news-wrap:style(width: 100% !important;)
-!#endif
+! https://github.com/MasterKia/PersianBlocker/issues/223
+||media.eghtesadonline.com/d/*.gif^$image,1p
+eghtesadonline.com##section.ads
 
 elmefarda.com##+js(aeld, contextmenu)
 elmefarda.com##div#post p:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
