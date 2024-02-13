@@ -2917,6 +2917,8 @@ seemorgh.com##.bannergroup
 seemorgh.com##.bannergroupsam-full-width
 
 ||sarzamindownload.com/images/banners^$image,1p
+||sarzamindownload.com/ppjs/free/freepop.js^$script,1p
+||oneshare.ir^$popup,popunder
 sarzamindownload.com##.OpenTable5
 sarzamindownload.com##.OpenTable > div > center > a[rel="nofollow"] > .img-responsive:upward(.OpenTable)
 sarzamindownload.com##.GSBlock > div > .title > h3:has-text(لینک های ویژه):upward(.GSBlock)
