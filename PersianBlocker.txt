@@ -1524,22 +1524,21 @@ farnet.io###site-footer .col-sm-4:has(a[rel="noopener"][target="_blank"])
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 !#if cap_html_filtering
-farsroid.com##^script:has-text(ads_app_downloads)
+farsroid.com##^script:has-text(ads_app_name)
 !#else
-farsroid.com##+js(rmnt, script, ads_app_downloads)
+farsroid.com##+js(rmnt, script, ads_app_name)
 !#endif
-||farsroid.com/js/?url=$script,1p
-farsroid.com##header.site-header > div.container > nav.site-top-nav > ul.grid-row > li:has(> a[href][rel="dofollow"][target="_blank"]:is([href^="https://1000gem.org/"],[href^="https://kifpool.me/"], [href^="https://dicardo.com/"]))
-farsroid.com##div.site-middle-banners:has(> div.banner > a.farsroid-ads)
+farsroid.com##+js(nowoif)
+farsroid.com##div.site-middle-banners
 farsroid.com##div.single-text-ads
-farsroid.com##article.post-single-box > div.post-content > p:has(> a[href="https://www.farsroid.com/download-imo-android/"][target="_blank"][rel="noopener"])
-farsroid.com##div.download-link-ads-below
+farsroid.com##div.labeled-dw-ads
 farsroid.com##div.cas
+farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img)
 !#if env_mobile
 farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"]))
 farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads)
 !#endif
-farsroid.com#@#.place-ads
+farsroid.com##li.ads-download
 
 ||analysis.faradars.org
 
