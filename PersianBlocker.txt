@@ -803,6 +803,7 @@ apktops.ir##.asiatech
 
 ! >> B <<
 ||binaopt.com/wp-content/uploads/*.webm^$media,1p
+binaopt.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 bizma.ir##+js(aeld, /contextmenu|copy|cut/, return"undefined")
 
