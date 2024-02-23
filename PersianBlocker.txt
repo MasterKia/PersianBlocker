@@ -1528,6 +1528,7 @@ farsroid.com##^script:has-text(ads_app_name)
 !#else
 farsroid.com##+js(rmnt, script, ads_app_name)
 !#endif
+farsroid.com##+js(aopr, ma_custom.ads_blocker_detect.init)
 farsroid.com##+js(nowoif)
 farsroid.com##div.site-middle-banners
 farsroid.com##div.single-text-ads
