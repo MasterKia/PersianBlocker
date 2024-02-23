@@ -337,6 +337,8 @@ https://basic.rethinkdns.com
 
 \- ابزار های [Iran-v2ray-rules](https://github.com/Chocolate4U/Iran-v2ray-rules) و [Iran-sing-box-rules](https://github.com/Chocolate4U/Iran-sing-box-rules) و [Iran-clash-rules](https://github.com/Chocolate4U/Iran-clash-rules) 
 
+\- [ابزار V2RayAggregator](https://github.com/mahdibland/V2RayAggregator/commit/75e1ae0c58614525dc3fb97e476c4942797030ca)
+
   
 </div>  
 
