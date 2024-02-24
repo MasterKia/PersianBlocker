@@ -1533,8 +1533,8 @@ farsroid.com##+js(rmnt, script, ads_app_name)
 !#endif
 farsroid.com##+js(aopr, ma_custom.ads_blocker_detect.init)
 farsroid.com##+js(nowoif)
-farsroid.com##div.site-middle-banners
-farsroid.com##div.single-text-ads
+farsroid.com##div.site-middle-banners:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+farsroid.com##div.single-text-ads:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
 farsroid.com##div.labeled-dw-ads
 farsroid.com##div.cas
 farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img)
