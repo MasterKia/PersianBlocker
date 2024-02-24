@@ -89,6 +89,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||anetwork.ir^
 ||alaqsastorm.com/aqsa/ads.php^$image,3p
 ||adverge.ir^
 ||adrooz.com^
@@ -2629,6 +2630,9 @@ forum.p30world.com#@##ad_global_above_footer
 ||sentry.quera.org^
 
 ! >> R <<
+! https://github.com/AdguardTeam/AdguardFilters/issues/172968
+real-madrid.ir##div.adv
+
 ! https://github.com/MasterKia/PersianBlocker/issues/217
 rbiran.ir##main > div.container-fluid.my-3:has(> div.row.mb-2 > div.col-lg-4 > a[target="_blank"] > img.w-100[style="border-radius: 10px;"])
 
