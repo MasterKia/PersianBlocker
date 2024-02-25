@@ -1742,11 +1742,13 @@ imvbox.com##div[class^="cr-banner-"]
 
 ||analytics.irancell.ir^
 ||apptracking.irancell.ir^
-my.irancell.ir##+js(json-prune, allRow1 allRow2 recommendeds award entertainment finance shop travel productivity education download *.link *.image)
-my.irancell.ir##div[data-testid^="filterItem_tab"]
-my.irancell.ir##div[data-testid="more-Button-TestId"]
-my.irancell.ir##div[tabindex]:has(div[data-testid^="specialServices"])
-my.irancell.ir##div[style="display: flex; flex-flow: column nowrap; justify-content: center; align-items: center;"]:has(img[alt="Advertisement"])
+||cdn-ngmy.irancell.ir/assets/images/ads^$image,1p,domain=my.irancell.ir
+my.irancell.ir##div[class^="css-"][tabindex="0"][style="transition-duration: 0s;"]:has(> div[class^="css-"] > div[class^="css-"] > div[class^="css-"][style] > div[class^="css-"][dir="auto"][data-testid="yourGoodMood"])
+my.irancell.ir##div[class^="css-"][dir="auto"][data-testid="favoritesSuperAppTitle"]
+my.irancell.ir##div[class^="css-"][dir="auto"][data-testid="favoritesSuperAppTitle"] + div[class^="css-"]:has(> div[class^="css-"] > div[class^="css-"][style] > div[class^="css-"][tabindex="0"][style="transition-duration: 0s;"])
+my.irancell.ir##div[class^="css-"][dir="auto"]:has-text(بازارگاه)
+my.irancell.ir##div[class^="css-"][dir="auto"]:has-text(بازارگاه) + div[class^="css-"]:empty + div[class^="css-"]:has(> div[class^="css-"][style] > div[class^="css-"]:empty + div[class^="css-"][style] > div[style="width: 25%;"] > div[tabindex="0"][style="transition-duration: 0s;"])
+my.irancell.ir##div[style]:has(> div[style] > div[style] > div[tabindex][role="link"] > img[alt="Advertisement"])
 
 ! https://github.com/MasterKia/PersianBlocker/pull/2
 idehalmag.com##.primary-sidebar-widget:has(a[rel*=sponsored])
