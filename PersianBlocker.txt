@@ -1537,14 +1537,14 @@ farsroid.com##+js(nowoif)
 ||farsroid.com/wp-content/themes/farsroid/assets/js/custom.js^$script,1p,replace=/== "none"/== "done"/g
 farsroid.com##div.site-middle-banners:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
 farsroid.com##div.single-text-ads:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
-farsroid.com##div.labeled-dw-ads
-farsroid.com##div.cas
-farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img)
+farsroid.com##div.labeled-dw-ads:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+farsroid.com##div.cas:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img):style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
 !#if env_mobile
-farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"]))
-farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads)
+farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"])):style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads):style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
 !#endif
-farsroid.com##li.ads-download
+farsroid.com##li.ads-download:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
 
 ||analysis.faradars.org
 
