@@ -3483,6 +3483,9 @@ vista.ir##a[href^="/ad/"][target="_blank"]
 vista.ir##a.textad
 
 ! >> W <<
+||gateway.wisgoon.com/services/vast^$xhr,image,1p
+wisgoon.com##div.tb-box
+
 ||webgozar.com/adimg^$image,1p
 webgozar.com##div.topAds
 webgozar.com##div.colRight div[class^="adsBox"]
