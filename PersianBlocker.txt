@@ -2723,6 +2723,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/225
+||static.shahrekhabar.com/banner/*.gif^$image,1p
+shahrekhabar.com##a[target="_blank"][href*="utm_content=shahrekhabar"] > img[style="margin-top: 0px;margin-bottom: 0px;margin-left: auto;margin-right: auto;"]
+
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3061
 subkade.ir##+js(aeld, click, return"undefined", elements, a.indirect[data-get])
 subkade.ir##+js(set-attr, a.indirect[data-get], href, [data-get])
