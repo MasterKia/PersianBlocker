@@ -1534,16 +1534,17 @@ farsroid.com##+js(rmnt, script, ads_app_name)
 !#endif
 farsroid.com##+js(nowoif)
 !farsroid.com##+js(aopr, ma_custom.ads_blocker_detect.init)
-farsroid.com##div.site-middle-banners:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
-farsroid.com##div.single-text-ads:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
-farsroid.com##div.labeled-dw-ads:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
-farsroid.com##div.cas:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
-farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img):style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+! https://github.com/AdguardTeam/AdguardFilters/issues/173927
+farsroid.com##div.labeled-dw-ads:style(position: absolute !important; top: -10000px !important;)
+farsroid.com##div.site-middle-banners:style(position: absolute !important; top: -10000px !important;)
+farsroid.com##div.single-text-ads:style(position: absolute !important; top: -10000px !important;)
+farsroid.com##div.cas:style(position: absolute !important; top: -10000px !important;)
+farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img):style(position: absolute !important; top: -10000px !important;)
 !#if env_mobile
-farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"])):style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
-farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads):style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"])):style(position: absolute !important; top: -10000px !important;)
+farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads):style(position: absolute !important; top: -10000px !important;)
 !#endif
-farsroid.com##li.ads-download:style(max-height: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+farsroid.com##li.ads-download:style(position: absolute !important; top: -10000px !important;)
 
 ||analysis.faradars.org
 
