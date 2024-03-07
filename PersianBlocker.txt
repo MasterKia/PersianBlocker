@@ -2099,6 +2099,13 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+!#if cap_html_filtering
+musiceman.net##^script:has-text(/popTimes_|document\.onkeydown|'contextmenu'/)
+!#else
+musiceman.net##+js(rmnt, script, /popTimes_|document\.onkeydown|'contextmenu'/)
+!#endif
+musiceman.net##+js(remove-attr, onmousedown|onselectstart, body)
+
 magiran.com##div.blur-text
 
 mohandescenter.ir##div.col-12 div#ctl00_topModule1_pnlTop:has(> div.divleftmod > div.py-2 > strong:has-text(جت سئو))
