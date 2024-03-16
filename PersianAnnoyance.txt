@@ -19,3 +19,6 @@ blog.faradars.org##.header-ban
 blog.faradars.org##.fdb-course-mobile-wrapper
 blog.faradars.org###kaprila_linktable
 blog.faradars.org##article.post > .the-content .faradars-courses-single
+
+! https://github.com/MasterKia/PersianBlocker/issues/4#issuecomment-1179569977
+zoomg.ir##.beforesource
