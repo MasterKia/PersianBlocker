@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
-! Expires: 6h
+! Expires: 5d
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
@@ -2583,9 +2583,7 @@ persianv.com#@#.ads-text
 pgnews.ir##a[href*="&m_name=ads"]
 
 ! https://github.com/MasterKia/PersianBlocker/issues/13
-pedal.ir##.stream-item-top
-pedal.ir##.widget_custom_html:has(img[src*=".gif"])
-pedal.ir###custom_html-108
+pedal.ir##div.dotline-sticky
 
 ||patoghu.com/n/d^$script,1p
 ||patoghu.com/analytics.js^$script,1p
