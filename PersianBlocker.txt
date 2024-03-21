@@ -3219,9 +3219,18 @@ techna.news##[class="widget_text sidebar-box"]:has-text(وبگردی)
 ||technolife.ir/image/deemaScript.js^$script,1p
 ||technolife.ir/image/yektanetScript.js^$script,1p
 
-||tabanmusic.com/p-pop/
-texahang.org##.myside.right-sidebar
-! TODO: Check again for new sidebar
+||rentinal.info^$script,3p
+! https://rentinal.info/pop2/popmain.js
+||tabanmusic.com/p-pop^$script
+tabanmusic.com,texahang.org,iran-music.com##+js(aeld, load, contextmenu)
+tabanmusic.com,texahang.org,iran-music.com##+js(ra, onmousedown|onselectstart, body)
+!#if cap_html_filtering
+iran-music.com##^script:has-text(popTimes_)
+!#else
+iran-music.com##+js(rmnt, script, popTimes_)
+!#endif
+texahang.org##div.ads-site
+texahang.org##div.right-sidebar > aside:has(> div.tit-side:has-text(پیوندهای داغ))
 
 trainbit.com##section#downloadbox > div#indicatorr
 trainbit.com##section#downloadbox > input#btnDownload:style(display: block !important;)
