@@ -2635,6 +2635,9 @@ forum.p30world.com#@##ad_global_above_footer
 ! 8pic.ir##*[class*="main"]:has-text(تبلیغ)
 
 ! >> Q <<
+||qnama.ir/ipop.js^$script,1p
+qnama.ir##div#ads1
+
 ||sentry.quera.org^
 
 ! >> R <<
