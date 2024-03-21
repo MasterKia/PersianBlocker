@@ -2100,6 +2100,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+mimplus.ir##div#icontent:style(display: block !important;)
+
 !#if cap_html_filtering
 musiceman.net##^script:has-text(/popTimes_|document\.onkeydown|'contextmenu'/)
 !#else
