@@ -3466,7 +3466,7 @@ virgool.io##+js(href-sanitizer, a[href^="https://l.vrgl.ir/r?"][href*="&l=http"]
 ! virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
 virgool.io##div.js-userLogin-popup
 virgool.io##div.feedAdsBox
-virgool.io##aside[class]:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"]:has-text(تبلیغات))
+virgool.io##aside.mt-5:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"] img[alt="تبلیغات در ویرگول"])
 
 ! https://github.com/MasterKia/PersianBlocker/pull/10
 ! https://github.com/MasterKia/PersianBlocker/pull/15
