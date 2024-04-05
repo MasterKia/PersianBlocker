@@ -879,6 +879,7 @@ bils.ir##div[style]:nth-of-type(3)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/145
 behmusic.com##div.mp_box:has(> div.mpbb_ads a[target="_blank"] > img[alt][title])
+behmusic.com##body:style(cursor: revert !important;)
 
 @@||blogfa.com/static/ads/$image,1p
 
