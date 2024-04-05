@@ -2100,6 +2100,10 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+musictag.ir##+js(nowoif)
+||counter.musictag.ir^$1p
+musictag.ir##body:style(cursor: revert !important;)
+
 ! melodify.app - Ads when switching songs
 ||melodify.pw/serve/v1/limitation/*.mp3^$xhr,3p,domain=melodify.app,redirect=noopmp3-0.1s
 
