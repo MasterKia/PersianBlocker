@@ -3829,6 +3829,7 @@ zoomtech.org##div.zoomtech-banner
 ||ebl-hot.com^$all
 ||iranuschsahm.sbs^$all
 ||seownae.space^$all
+||maeshhtr.com^$all
 
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
