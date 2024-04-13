@@ -2742,6 +2742,11 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||soorban.com/adsimg^$image,1p
+||soorban.com/images/stories/banners^$image,1p
+soorban.com##div.ecbox2:has(> div.ec_body2 > div.adswrapper)
+soorban.com##div.ecbox:has(div.ads_text, div.text-ads)
+
 ! https://github.com/MasterKia/PersianBlocker/issues/225
 ||static.shahrekhabar.com/banner/*.gif^$image,1p
 shahrekhabar.com##a[target="_blank"][href*="utm_content=shahrekhabar"] > img[style="margin-top: 0px;margin-bottom: 0px;margin-left: auto;margin-right: auto;"]
