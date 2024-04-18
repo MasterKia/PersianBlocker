@@ -3509,6 +3509,9 @@ vajehyab.com##a[href^="/url/"][target="_blank"]:has(> img)
 varzesh3.com##.left-side-ad-col
 varzesh3.com##.right-ads
 varzesh3.com##.adbox:not(.adbar)
+!#if env_mobile
+varzesh3.com##div.android-app-promot
+!#endif
 
 ||video-learn.ir/code/popup^
 video-learn.ir#@#.header-adv
