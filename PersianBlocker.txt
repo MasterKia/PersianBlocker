@@ -2581,10 +2581,11 @@ persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
 p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
+||p30download.ir/page/files/*.gif^$image,1p
 p30download.ir##main#main-content > div.tabliq-468
-p30download.ir##aside#sidebar > div.widget:has(> h4:has-text(تبلیغات))
-p30download.ir##aside#sidebar > div.basic-list-linkz
-p30download.ir##aside#sidebar > div.text-ag:has(> h4:has-text(تبلیغات متنی))
+p30download.ir##aside#sidebar > div.sidebar-tb
+p30download.ir##aside#sidebar > div.basic-list-ld
+p30download.ir##aside#sidebar > div.text-tb
 
 ||film.persianv.com/frontend/js/ads/
 persianv.com##.ads_box
