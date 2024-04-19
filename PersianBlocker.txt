@@ -1624,11 +1624,12 @@ gsm.ir##.sidebar_tabliq
 
 ! https://github.com/MasterKia/PersianBlocker/issues/8
 ! https://github.com/MasterKia/PersianBlocker/issues/170
-gamefa.com###top-banners
-gamefa.com###image-advertise
-gamefa.com##.content-ads
-gamefa.com###fix-advertise
-gamefa.com##:not(:matches-path(/author/post/)) #posts-body > .posts > .box > .d-block > .border-bottom .row .image > span.text-white:has-text(رپرتاژ آگهی):upward(.d-block)
+! https://github.com/AdguardTeam/AdguardFilters/issues/176811
+gamefa.com##header.header-part div.banner:has(> div.d-table-cell > a.d-block > img)
+gamefa.com##section#top-banners
+gamefa.com##section#image-advertise
+gamefa.com##div.content-ads
+gamefa.com##div#fix-advertise
 
 ||ghatreh.com/ads^
 ||ghatreh.com/skins/default/js/najva.js^
