@@ -1630,6 +1630,8 @@ gamefa.com##section#top-banners
 gamefa.com##section#image-advertise
 gamefa.com##div.content-ads
 gamefa.com##div#fix-advertise
+! https://github.com/AdguardTeam/AdguardFilters/issues/177317
+en.gamefa.com##div.single-advertise
 
 ||ghatreh.com/ads^
 ||ghatreh.com/skins/default/js/najva.js^
