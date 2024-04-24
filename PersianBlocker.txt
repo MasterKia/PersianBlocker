@@ -2887,7 +2887,7 @@ shomavaeghtesad.com##.column_2:style(width: 30% !important;)
 !#endif
 
 sheypoor.com##main.mainV2 div:has(> section > a > div > div > span:has-text(تبلیغات))
-sheypoor.com##main.mainV2 div:has(> section > div > h3 > p:has-text(/^Ad$/))
+sheypoor.com##main.mainV2 div:has(> section > div > div > h2 > p:has-text(/^Ad$/))
 !#if env_mobile
 sheypoor.com##div#app-suggest-new
 !#endif
