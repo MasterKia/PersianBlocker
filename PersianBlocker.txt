@@ -25,7 +25,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com
+/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com|farachart.com
 
 ! itna.ir, migna.ir
 /images/advertise^$image,1p,domain=ir|bazimag.com|jahannews.com
@@ -1456,15 +1456,8 @@ filmha.top##.abvertise > .container > a:not(a[href="https://t.me/filmha_top"])
 ||football360.ir/api/advertisements^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/42
-||farachart.com/wp-content/plugins/google-analytics-for-wordpress^
-||farachart.com/wp-content/plugins/ultimate-member/assets/js/um-gdpr
-||farachart.com/wp-content/uploads/pum/pum-site-scripts
-||farachart.com/wp-content/plugins/adrotate-pro^
-farachart.com##.top-banner-ads
-farachart.com##.clearfix.boxed-content-wrapper img[alt="Advertising"]
-farachart.com##.sidebar > :has(.widget-title:has-text(تبلیغات))
-farachart.com##.kpl_linktable
-farachart.com##.p-single.blog-post:upward(1):style(width: 100% !important;)
+farachart.com##div.sidebar > div.widget:has(> div.widget-head > h3:has-text(تبلیغات))
+farachart.com##div.g:has(> div.g-col > span[style]:has-text(تبلیغات)):has( div.post-link-box1)
 
 ! fidibo.com##+js(no-xhr-if, identity/device method:POST)
 fidibo.com##+js(set, navigator.userAgent, '')
