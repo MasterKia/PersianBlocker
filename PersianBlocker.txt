@@ -1550,7 +1550,7 @@ farsroid.com##div.cas:style(position: absolute !important; top: -10000px !import
 farsroid.com##p:has(> a[href="https://www.farsroid.com/download-imo-android/"] > img):style(position: absolute !important; top: -10000px !important;)
 !#if env_mobile
 farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrapper > div.swiper-container > div.swiper-wrapper > div.farsroid-ads:has(> a.farsroid-ads:not(a[href*="farsroid.com/"])):style(position: absolute !important; top: -10000px !important;)
-farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads):style(position: absolute !important; top: -10000px !important;)
+farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads)
 !#endif
 farsroid.com##li.ads-download:style(position: absolute !important; top: -10000px !important;)
 
