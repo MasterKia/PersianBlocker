@@ -574,6 +574,8 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+||appahang5.com/cdn/ads^$image,1p
+
 ! alibaba.ir##+js(json-prune, data.0.attributes.loadingBanner.0.image)
 ||alibaba.ir/adtrace-latest.min.js^$script,1p
 alibaba.ir##div.loading-banner-modal.is-loading > div.loading-banner.is-brand > div.loading-banner__frame
