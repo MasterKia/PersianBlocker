@@ -713,12 +713,10 @@ arga-mag.com##.bottom-ad
 arga-mag.com##.main:style(width: 74.3% !important;)
 arga-mag.com##.col-sm-push-2:style(right: unset !important;)
 
-||androidina.net/analytics.js^
-||androidina.net/images/asiatech_
-androidina.net##.ads
-androidina.net###ads-sticky
-androidina.net##.col-md-12 > .title:has-text(لینک دوستان)
-androidina.net###ads-text
+||androidina.net/analytics.js^$script,1p
+androidina.net##header + div#slider
+androidina.net##div.ads
+androidina.net##div#ads-sticky
 
 amazing.ir##.widget > .widget-top:has-text(آگهی متنی):upward(.widget)
 
