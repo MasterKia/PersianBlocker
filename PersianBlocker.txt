@@ -2582,6 +2582,8 @@ p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
 ||p30download.ir/page/*.gif^$image,1p
+p30download.ir##main#main-content > div[class^="tabliq-"]
+p30download.ir##aside#sidebar > div[style="width: 100%;height: 250px;margin: 0px auto 10px;"]
 p30download.ir##aside#sidebar > div:has(> h4:has-text(/ت.*?ب.*?ل.*?ی.*?غ.*?ا.*?ت/))
 p30download.ir##aside#sidebar > div:has(> h4:has-text(/ل.*?ی.*?ن.*?ک.*?د.*?و.*?ن.*?ی/))
 p30download.ir##div.support-center
