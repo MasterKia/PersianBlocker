@@ -2749,6 +2749,9 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/232
+*$image,3p,from=scienceforfree.blog.ir,to=parsvds.com|numberland.ir
+
 ||soorban.com/adsimg^$image,1p
 ||soorban.com/images/stories/banners^$image,1p
 soorban.com##div.ecbox2:has(> div.ec_body2 > div.adswrapper)
