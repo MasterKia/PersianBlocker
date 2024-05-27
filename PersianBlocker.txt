@@ -3491,6 +3491,7 @@ virgool.io##+js(href-sanitizer, a[href^="https://l.vrgl.ir/r?"][href*="&l=http"]
 ||virgool.io^$doc,removeparam=source
 ||sentry.virgool.io^$1p
 ||countly.virgool.io/sdk/web/countly.min.js^$script,1p
+||virgool.io/api2/app/users/relatedAds^$xhr,1p
 ! virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
 virgool.io##div.js-userLogin-popup
 virgool.io##div.feedAdsBox
