@@ -2461,6 +2461,10 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+||persiansub.com/images/*.gif^$image,1p
+persiansub.com##div.big-banner
+persiansub.com##div.adv
+
 ||dl.prozhedownload.com/pd/*.gif^$image,1p
 prozhedownload.com##div.advertop
 
