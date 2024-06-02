@@ -2423,10 +2423,9 @@ nodud.com##.advertorial
 
 ||stc.ninisite.com^$1p
 ||ninifile.com/statics/tabl^$image,3p,domain=ninisite.com
-||ninifile.com/content/js/niniVastAdsJs.min.js^$script,3p,domain=ninisite.com
-ninisite.com##div.up-ad:has(div.ad-wrapper)
-ninisite.com##div.ad-wrapper
+ninisite.com##div.up-ad
 ninisite.com##div#forum-native-ad
+ninisite.com##div.ad-wrapper
 ninisite.com#@#.footer__subscribe
 
 ||niksalehi.com/newspaper/wp-content/themes/new_niksalehi/counter_view.php
