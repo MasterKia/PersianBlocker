@@ -3457,6 +3457,8 @@ up44.ir##.full2.box.right
 uploadboy.com##+js(cookie-remover, /captcha_key|last_file|_scrs_/)
 ||uploadboy.com/banner^$image,1p
 ||uploadboy.com/images/*.gif^$image,1p
+||uploadb.com/banner^$image,1p
+||uploadb.com/images/*.gif^$image,1p
 uploadboy.com##input[type="hidden"]:is(input[name="usr_login"],input[name="referer"], input#usr_resolution, input#usr_os, input#usr_browser):remove()
 uploadboy.com##div#popupModal
 uploadboy.com##div.modal-backdrop
