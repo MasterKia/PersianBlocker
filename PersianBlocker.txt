@@ -822,6 +822,7 @@ bizma.ir##+js(aeld, /contextmenu|copy|cut/, return"undefined")
 ||next-api.bale.ai/bale.presence.v1.Presence/Typing^$xhr,1p,method=options|post
 ||next-api.bale.ai/bale.presence.v1.Presence/StopTyping^$xhr,1p,method=options|post
 ! ||next-api.bale.ai/bale.messaging.v2.Messaging/MessageRead^$xhr,1p,method=options|post
+web.bale.ai##div[data-viewport-type="element"] > div > div[class^="DialogAd_DialogWrapper"]
 
 ||bargozideha.com/ddd.html^$frame,1p
 bargozideha.com##div[style]:has(> iframe[src="/ddd.html"])
