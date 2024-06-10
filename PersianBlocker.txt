@@ -4338,6 +4338,7 @@ www.google.com##.g a[href*="fox.cfd"]> h3::after:style(content: ' [اشتراک�
 www.google.com##.g a[href*="bollywood1.sbs"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##.g a[href*="//filmkio"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##.g a[href*="dlfars.ir"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##.g a[href*="king-movie.net"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#else
 www.google.com##a[href*="mygolchindl.top"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##a[href*="//golchindl"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
@@ -4371,6 +4372,7 @@ www.google.com##a[href*="fox.cfd"] div[role="link"]::after:style(content: ' [ا�
 www.google.com##a[href*="bollywood1.sbs"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##a[href*="//filmkio"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##a[href*="dlfars.ir"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="king-movie.net"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="mygolchindl.top"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
@@ -4405,6 +4407,7 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="fox.cfd"]::after:style(co
 duckduckgo.com##a[data-testid="result-title-a"][href*="bollywood1.sbs"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="//filmkio"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="dlfars.ir"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="king-movie.net"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
 search.brave.com##div#results > div.snippet > a.result-header[href*="mygolchindl.top"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="//golchindl"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
@@ -4438,6 +4441,7 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="fox.cfd"] >
 search.brave.com##div#results > div.snippet > a.result-header[href*="bollywood1.sbs"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="//filmkio"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="dlfars.ir"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="king-movie.net"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
 ! نیمه‌اشتراکی
 !#if !env_mobile
