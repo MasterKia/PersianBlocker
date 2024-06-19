@@ -1294,6 +1294,7 @@ downloadha.com##div.ads
 
 ||analytics.hostiran.net^
 ||vidiran.com^$3p,domain=download.ir
+download.ir##article#post-fix-ads
 download.ir##div.top-full-ads
 download.ir##div.textwidget:has(> div.parsi-ads)
 
