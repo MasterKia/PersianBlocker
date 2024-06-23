@@ -606,11 +606,6 @@ tradergpt.ai
 #-------------------------^ WebAmooz Warning List ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
-wibodir.com
-eh-ra-z-se-na.org
-ebl-hot.com
-iranuschsahm.sbs
-seownae.space
-maeshhtr.com
+meashstis.ir
 
 #-------------------^ Malware/Phishing Sites ^-----------------#
