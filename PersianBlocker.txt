@@ -363,6 +363,7 @@ niloblog.com##bloglinksblock
 
 ||rozblog.com/include/rozblog_ads_js
 /include/rozblog_ads_js
+||rozblog.com/code/popup^$script,1p
 ||rzb.ir/code/popup^
 
 ! >> S <<
