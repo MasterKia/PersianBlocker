@@ -12,6 +12,7 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
+adtodate.ir
 adrooz.com
 affilio.ir
 analyt.ir
