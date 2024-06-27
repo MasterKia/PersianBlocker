@@ -88,6 +88,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||adtodate.ir^
 ||anetwork.ir^
 ||alaqsastorm.com/aqsa/ads.php^$image,3p
 ||adverge.ir^
@@ -501,8 +502,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Non-Persian Ads/Trackers/Annoyances Filters Used In Persian Websites v-----------------------!
 
 ! >> A <<
-||adtodate.net^$3p
-
 ! >> B <<
 ! >> C <<
 ! >> D <<
@@ -2727,22 +2726,10 @@ rozup.ir##.txtad
 rozup.ir##.center.body_c > div:nth-of-type(2)
 rozup.ir##.center.body_c > div > div
 
-||rokna.net/rss-files.php^
-rokna.net##.zxc
-rokna.net##.zxc-header-zxc
-rokna.net##.home-zxc
-rokna.net##.adv-cnt
-rokna.net##.zxc-padding-custom
-rokna.net##.side_txt_zxc
-rokna.net##.sanjagh
-rokna.net##.padding-bottom-8
-rokna.net##.box-doc > .documentary-news-cnt > header:has-text(بازرگانی):upward(.box-doc)
-rokna.net##.various-cnt > header:has-text(بازرگانی):upward(.various-cnt)
-rokna.net##.news-col-1 #rssbank:upward(.container)
-!#if env_mobile
-rokna.net##.top_fixed_mob:remove()
-rokna.net##.zxc_c9
-!#endif
+rokna.net##div.margin-bottom-16 > section.various-cnt:has(> header.default-header > h2.title:has-text(بازرگانی))
+rokna.net##div.side_txt_zxc
+rokna.net##header.default-header-2 > h2.title:has-text(وبگردی)
+rokna.net##ul#rssbank
 
 ||irancarpet.net^$image,domain=rouzegar.com
 rouzegar.com##.widget_better-ads
