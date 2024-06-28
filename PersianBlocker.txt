@@ -3410,8 +3410,8 @@ tamin.ir#@#.ads2
 ! >> U <<
 ! To counter Online Malicious URL Blocklist
 ||uploadkon.ir^$badfilter
-||uploadkon.ir/styles/UploadKon/assets/img/ad.png^$image,1p
-uploadkon.ir##.ad-link
+uploadkon.ir##div.ads
+uploadkon.ir##li.ad-link
 
 uploadgoogle.ir##+js(nowoif)
 
