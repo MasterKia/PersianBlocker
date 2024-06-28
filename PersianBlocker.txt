@@ -3408,6 +3408,9 @@ tamin.ir#@#.ads2
 @@||tamin.ir/content/ads/
 
 ! >> U <<
+upsara.com##img[alt="ads"]
+upsara.com##div.ads
+
 ! To counter Online Malicious URL Blocklist
 ||uploadkon.ir^$badfilter
 uploadkon.ir##div.ads
