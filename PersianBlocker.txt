@@ -2140,7 +2140,7 @@ mohandescenter.ir##div.col-12 div#ctl00_topModule1_pnlTop:has(> div.divleftmod >
 ! https://github.com/MasterKia/PersianBlocker/issues/211
 mediat.ir##div.widget-ad-image
 mediat.ir##div.ad-wrap
-! TODO: Remove "لینک های کاربردی"
+mediat.ir##div.elementor > section > div.elementor-container:has(h2.heading-title:has-text(لینک‌های کاربردی))
 
 musicdel.ir##+js(set, runScript, false)
 ||danialtaherifar.ir^$3p,domain=musicdel.ir
