@@ -1207,12 +1207,12 @@ downloadly.ir##.postfixedafterpost:upward(.g-cols)
 downloadly.ir###faradars
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109129
-||digiboy.ir/wp-content/img/sponsors^
-||digiboy.ir/wp-content/img/sidebar^
-||digiboy.ir/wp-content/img/header^
-digiboy.ir###header-bar
-digiboy.ir##.sidebar-digiads
-digiboy.ir##.slider-tab-ring:not(:has(>:has-text(دیدگاه)))
+||digiboy.ir/wp-content/img/header^$image,1p
+||digiboy.ir/wp-content/img/sidebar^$image,1p
+||digiboy.ir/wp-content/img/sponsors^$image,1p
+digiboy.ir##div#header-bar
+digiboy.ir##div.slider-tab-ring:has(> h4.extra-menu:has-text(حامیان ما))
+digiboy.ir##div.slider-tab-ring:has(> div.textwidget p > a)
 
 ||ads.dabi.ir
 ||dabi.ir/images/page-ads
