@@ -2654,12 +2654,11 @@ forum.p30world.com###ad_global_below_navbar
 forum.p30world.com##.ad_global_header
 forum.p30world.com#@##ad_global_above_footer
 
-||1pezeshk.com/wp-content/plugins/post-views-counter
-1pezeshk.com##.adcontainer
-1pezeshk.com##.widget_better_rss_widget.widget.primary-sidebar-widget.w-t.h-ni
-1pezeshk.com##.insert-post-ads
-1pezeshk.com##.enhanced-text-widget.widget_text.vc-widget.widget.w-nt.h-ni
-1pezeshk.com##.xjehomzgnw
+1pezeshk.com##div#custom_html-4
+1pezeshk.com##div.wpb_column:has(h3.section-heading:has-text(رپورتاژ))
+1pezeshk.com##div#custom_html-3:has(p.section-heading:has-text(رپورتاژ))
+1pezeshk.com##div.wpb_column:has(div.section-heading:has-text(آگهی متنی))
+1pezeshk.com##div.wbie:has(div.section-heading:has-text(آگهی متنی))
 
 8pic.ir##.main22
 8pic.ir##.links_footer
