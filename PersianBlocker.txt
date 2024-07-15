@@ -577,7 +577,8 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 
 ! alibaba.ir##+js(json-prune, data.0.attributes.loadingBanner.0.image)
 ||alibaba.ir/adtrace-latest.min.js^$script,1p
-alibaba.ir##div.loading-banner-modal.is-loading > div.loading-banner.is-brand > div.loading-banner__frame
+alibaba.ir##div.loading-banner-modal.is-loading:remove()
+alibaba.ir##div#modal_container > span.a-modal-backdrop
 
 ||aboutall.ir/Administrator/files/Baner^$image,1p
 aboutall.ir##div#BodyMain > div#Body > div#Content > div[style] > div.Box:has(> div.CenterSmall > div.AdsBanerDiv)
