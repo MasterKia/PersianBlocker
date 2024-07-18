@@ -2085,6 +2085,10 @@ k2cod.com##.bgleftmenu > div > div
 k2cod.com###table10
 
 ! >> L <<
+lenz.ir##+js(aeld, contextmenu, preventDefault, elements, div#rmpPlayer)
+||lenz.ir/api/v3/frequents/playrecord^$xhr,1p,method=post
+||lenz.ir/api/v3/frequents/playheartbit^$xhr,1p,method=post
+
 ! https://github.com/MasterKia/PersianBlocker/issues/147
 learnparsi.com##a[href^="https://bit.ly/"]
 
