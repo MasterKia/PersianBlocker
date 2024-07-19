@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Title: PersianBlocker
+! Title: PersianAnnoyance
 ! Description: لیستی برای مسدود کردن موارد آزاردهنده در سایت‌های پارسی‌زبان (مانند خود-تبلیغی)
 ! Expires: 7 days
 ! Last modified: 2023-04-02
