@@ -1414,6 +1414,9 @@ estekhtam.com#@#.ads-bottom
 enama.ir##div.avdDiv
 
 ! >> F <<
+||analytics.fam.ir^$1p
+||fam.ir/ngx_pagespeed_beacon^$xhr,1p,method=post
+
 fileboro.com##+js(acis, document.onselectstart, killCopy)
 fileboro.com##+js(aopw, document.oncopy)
 fileboro.com##div.ads-content
