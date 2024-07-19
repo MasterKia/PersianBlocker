@@ -339,6 +339,8 @@ actionlog.divar.ir
 # >> E <<
 
 # >> F <<
+analytics.fam.ir
+
 sentry.fidibo.net
 
 vast.filmnet.ir
