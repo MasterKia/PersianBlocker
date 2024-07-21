@@ -344,6 +344,7 @@ analytics.fam.ir
 sentry.fidibo.net
 
 vast.filmnet.ir
+sentry.filmnet.ir
 
 # https://github.com/MasterKia/PersianBlocker/issues/107
 analytics.football360.ir
