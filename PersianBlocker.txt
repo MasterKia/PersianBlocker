@@ -1279,8 +1279,10 @@ digikala.com##.user-select-none:style(-webkit-touch-callout: default !important;
 ||api.divar.ir/*/actionlog^$beacon,1p
 ||api.divar.ir/*/client-exporter/send-report^$beacon,1p
 ||open-platform-redirect.divar.ir^$doc,removeparam=source
+||divarcdn.com/ssp/ads^$image,3p,domain=divar.ir
 divar.ir##div.kt-modal__contents > div.kt-modal__body a.button-row-item[href^="https://open-platform-redirect.divar.ir?app_slug=karnameh_price_evaluation"] > div.kt-button > span.kt-text-truncate::after:style(content: ' (۱۰ هزار تومان)' !important;)
 divar.ir##div#post-list-container-id a[href^="https://a-banners.divar.ir/auction/?ext_link_data="]:has(> div.kt-inset-banner > picture.kt-image-block > source[data-srcset^="https://a-banners.divarcdn.com/ssp/ads/media/image"])
+divar.ir##main > div[class^="item"]:has(img[src*="divarcdn.com/ssp/ads/"])
 
 doostihaa.com##div.adsfix_box
 doostihaa.com##aside.lefts_sides:has(> div.txt_letfs > ul.ads_txtcv)
