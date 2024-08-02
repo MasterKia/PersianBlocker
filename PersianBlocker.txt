@@ -294,6 +294,11 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||merita.ir^
 ||mitrarank.ir^
 
+! Aug 2, 2024 https://mihantrader.com
+||mihantrader.com/media/images/ad/*$image
+mihantrader.com##.border-dm.bg-dark-dm-2.mb-3.mt-2.text-white.card
+mihantrader.com##.mt-5.bg-dark-dm-2.text-white.card
+
 ! >> N <<
 ||niloblog.com/ads.js^$script,1p
 ||niloblog.com/js/web.gif^$image,1p
