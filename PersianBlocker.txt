@@ -145,6 +145,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||1abzar.ir/abzar/tools/post-view^$script,3p
 ||1abzaar.ir/abzar/tools/no-selects.js^$script,3p
 ||1abzaar.ir/abzar/tools/no-rightclick.js^$script,3p
+||1abzar.ir/abzar/tools/behesht/?mod=$script,3p
 
 ||abzarfa.com/services/minicounter^$script
 ||abzarfa.com/services/onlineusres^$script
