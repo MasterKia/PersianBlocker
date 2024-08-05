@@ -1369,9 +1369,9 @@ e-teb.com##.ads
 brain.be-teb.com##.medicaldirectory-sidebar:nth-of-type(5) > .claims.sidebar-content > .cbp-l-project-details-title > span
 ravan.e-teb.com##div.medicaldirectory-sidebar:nth-of-type(6) > .claims.sidebar-content > .cbp-l-project-details-title > span
 
-entekhab.ir##.attention > header:has-text(وبگردی):upward(.attention)
-entekhab.ir##.news-web
 entekhab.ir##div.tabligh
+entekhab.ir##div.sp_ln_box_title:has-text(نیازمندیها)
+entekhab.ir##div.txt_adv_content
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104314
 ||eghtesadnews.com^$removeparam=rssRedirect
