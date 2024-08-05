@@ -2130,6 +2130,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+mastertest.ir##div.post-content > div.fusion-builder-row-1 > div.fusion-row:has(> div.fusion-layout-column a[data-wpel-link="external"])
+
 ! https://github.com/MasterKia/PersianBlocker/pull/243
 ||mihantrader.com/media/images/ad^$image,1p
 mihantrader.com##div.text-white:has(> div:has-text(AD))
