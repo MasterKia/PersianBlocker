@@ -82,6 +82,7 @@ congoro.com
 congoro.ir
 
 # >> D <<
+dezhino.com
 daartads.com
 daneshin.ir
 
@@ -330,8 +331,7 @@ ads.dabi.ir
 
 tracker.digikala.com
 new-sentry.digikala.com
-# analytics.digikala.com
-# ^ Shows online visitors
+
 
 sentry.divar.cloud
 actionlog.divar.ir
