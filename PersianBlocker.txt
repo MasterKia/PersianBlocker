@@ -3969,6 +3969,9 @@ www.google.com##.g a[href*="icinemaa.com"]> h3::after:style(content: ' [دارا
 www.google.com##.g a[href*="coolaks.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="24movie.net"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="hexdl.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="persianvid.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="clickfiles.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="filmdoon.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#else
 www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4080,6 +4083,9 @@ www.google.com##a[href*="icinemaa.com"] div[role="link"]::after:style(content: '
 www.google.com##a[href*="coolaks.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="24movie.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="hexdl.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="persianvid.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="clickfiles.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="filmdoon.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4192,6 +4198,9 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="icinemaa.com"]::after:sty
 duckduckgo.com##a[data-testid="result-title-a"][href*="coolaks.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="24movie.net"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="hexdl.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="persianvid.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="clickfiles.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="filmdoon.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 search.brave.com##div#results > div.snippet > a.result-header[href*="filmr.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="doostihaa.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4303,6 +4312,9 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="icinemaa.co
 search.brave.com##div#results > div.snippet > a.result-header[href*="coolaks.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="24movie.net"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="hexdl.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="persianvid.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="clickfiles.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="filmdoon.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 ! اشتراکی
 !#if !env_mobile
@@ -4338,6 +4350,10 @@ www.google.com##.g a[href*="fox.cfd"]> h3::after:style(content: ' [اشتراک�
 www.google.com##.g a[href*="bollywood1.sbs"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##.g a[href*="dlfars.ir"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##.g a[href*="king-movie.net"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##.g a[href*="dlday.click"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##.g a[href*="oxymovie.com"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##.g a[href*="animelist.tv"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##.g a[href*="playrooz.com"]> h3::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#else
 www.google.com##a[href*="mygolchindl.top"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##a[href*="//golchindl"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
@@ -4371,6 +4387,10 @@ www.google.com##a[href*="fox.cfd"] div[role="link"]::after:style(content: ' [ا�
 www.google.com##a[href*="bollywood1.sbs"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##a[href*="dlfars.ir"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 www.google.com##a[href*="king-movie.net"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="dlday.click"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="oxymovie.com"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="animelist.tv"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+www.google.com##a[href*="playrooz.com"] div[role="link"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="mygolchindl.top"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
@@ -4405,6 +4425,10 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="fox.cfd"]::after:style(co
 duckduckgo.com##a[data-testid="result-title-a"][href*="bollywood1.sbs"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="dlfars.ir"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="king-movie.net"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="dlday.click"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="oxymovie.com"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="animelist.tv"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="playrooz.com"]::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
 search.brave.com##div#results > div.snippet > a.result-header[href*="mygolchindl.top"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="//golchindl"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
@@ -4438,6 +4462,10 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="fox.cfd"] >
 search.brave.com##div#results > div.snippet > a.result-header[href*="bollywood1.sbs"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="dlfars.ir"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="king-movie.net"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="dlday.click"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="oxymovie.com"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="animelist.tv"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="playrooz.com"] > span.snippet-title::after:style(content: ' [اشتراکی] ' !important; color: #64b502 !important; font-weight: bold !important;)
 
 ! نیمه‌اشتراکی
 !#if !env_mobile
