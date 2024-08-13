@@ -1406,6 +1406,7 @@ fileboro.com##div.ads-content
 ||filmtarin.com^$3p,domain=fastmobile.ir
 fastmobile.ir##div#ADbox-1
 fastmobile.ir##div#phon
+fastmobile.ir##div.floating-banner
 
 ! https://github.com/MasterKia/PersianBlocker/issues/199
 ftdigital.ir##a[href="https://maktabsharif.ir/"]
