@@ -573,6 +573,8 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+appnab.ir##div#ZAD
+
 androidtime.com##div.single-text-ads
 androidtime.com##div.block-content[class*="a.d.s-sidebar"]
 
