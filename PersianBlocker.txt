@@ -2599,8 +2599,9 @@ p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
 
 ||p30download.ir/page/*.gif^$image,1p
-p30download.ir##main#main-content > div[class^="tabliq-"]
+p30download.ir##[id*="kaprila"]
 p30download.ir##aside > div:not(:has(a[href*="/entry/"]))
+p30download.ir##aside > div:has(a[href*="links.p30download.ir"], a[class][target="_blank"][title][rel="nofollow"])
 p30download.ir##div.copyright-wrapper > div#copyright > a
 
 ||film.persianv.com/frontend/js/ads/
