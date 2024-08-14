@@ -2981,13 +2981,10 @@ sarzamindownload.com##.GSAdsLR
 @@||sarzamindownload.com/images/Ads_Place.jpg$image,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92877
-||softgozar.com/Image/SiteAde/
-softgozar.com###advBan
-softgozar.com##.adv_text
-softgozar.com###RightPan
-softgozar.com###PopAlert
-softgozar.com##.AdvertiseD2Ban
-softgozar.com##.DTOPBan
+||softgozar.com/Image/SiteAde^$image,1p
+softgozar.com##div#advBan
+softgozar.com##div#advBan2
+softgozar.com##div#left_panel > div#RightPan:has(ul.adv_text)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/40
 ! soft98.ir: Addressed in uBlock Origin Quick-Fixes list
