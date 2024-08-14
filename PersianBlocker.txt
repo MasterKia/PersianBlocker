@@ -2623,6 +2623,7 @@ pedal.ir##div.dotline-sticky
 ||patoghu.com/analytics.js^$script,1p
 ||img.patoghu.com/patoghu-$script,1p
 ||img.patoghu.com/new^$image,1p
+patoghu.com##div.wblock > a[href*="patoghu.com/repotaz/"]
 !#if env_mobile
 patoghu.com##div.cntmobad
 !#endif
