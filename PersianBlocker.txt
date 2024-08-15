@@ -2467,6 +2467,12 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+!#if cap_html_filtering
+persian-fa.ir##^script:has-text(displayCountryInConsole)
+!#else
+persian-fa.ir##+js(rmnt, script, displayCountryInConsole)
+!#endif
+
 ||persiansub.com/images/*.gif^$image,1p
 persiansub.com##div.big-banner
 persiansub.com##div.adv
