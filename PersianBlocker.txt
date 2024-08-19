@@ -3476,6 +3476,12 @@ uploadboy.com##body:style(overflow: auto !important;)
 uploadboy.com##div.ads
 
 ! >> V <<
+!#if cap_html_filtering
+vaamfaa.ir##^script:has-text(Event.MOUSEDOWN)
+!#else
+vaamfaa.ir##+js(rmnt, script, Event.MOUSEDOWN)
+!#endif
+
 ! https://github.com/MasterKia/PersianBlocker/issues/219
 ||analytics.jeldnews.com^
 ||varazendegi.com/_next/image?url=*.gif^$image,1p
