@@ -1681,8 +1681,8 @@ honarehzendegi.com#@#.logo-ad
 ||gourls.ir^$popup
 hamisheonline.com##+js(acis, document.onclick, Hamisheonlinepaps)
 
-hamtamovie.*##+js(href-sanitizer, a[href^="https://hamtamovie.im/dl/?url="], ?url)
-hamtamovie.*##section#left-side > aside > h4:has-text(تبلیغات):upward(aside)
+hamtamovie.nl##+js(href-sanitizer, a[href^="https://hamtamovie.nl/dl/?url="], ?url)
+hamtamovie.nl##section#left-side > aside > h4:has-text(تبلیغات):upward(aside)
 
 ! https://github.com/MasterKia/PersianBlocker/issues/214
 harfetaze.com##div.container > div.ads
@@ -3914,7 +3914,7 @@ www.google.com##.g a[href*="hivamovie.com"]> h3::after:style(content: ' [دار�
 www.google.com##.g a[href*="ir-dl.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="nama.tv"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="far30dl.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##.g a[href*="hamtamovie.im"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="hamtamovie.nl"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="donyamovie.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="tikfilm.co"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="fastmovie.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4028,7 +4028,7 @@ www.google.com##a[href*="hivamovie.com"] div[role="link"]::after:style(content: 
 www.google.com##a[href*="ir-dl.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="nama.tv"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="far30dl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##a[href*="hamtamovie.im"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="hamtamovie.nl"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="donyamovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="tikfilm.co"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="fastmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4144,7 +4144,7 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="hivamovie.com"]::after:st
 duckduckgo.com##a[data-testid="result-title-a"][href*="ir-dl.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="nama.tv"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="far30dl.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-duckduckgo.com##a[data-testid="result-title-a"][href*="hamtamovie.im"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="hamtamovie.nl"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="donyamovie.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="tikfilm.co"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="fastmovie.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4259,7 +4259,7 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="hivamovie.c
 search.brave.com##div#results > div.snippet > a.result-header[href*="ir-dl.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="nama.tv"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="far30dl.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a.result-header[href*="hamtamovie.im"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="hamtamovie.nl"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="donyamovie.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="tikfilm.co"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="fastmovie.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
