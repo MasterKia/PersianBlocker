@@ -1559,6 +1559,11 @@ farsnews.ir##aside.ad-mobile-none
 farsnews.ir##div.ads-native
 
 ! >> G <<
+! https://github.com/uBlockOrigin/uAssets/issues/25012
+||gooya.com/ad/ads.php^$frame,1p
+||gooya.com/ad/banners^$image,1p
+||news.gooya.com/*.gif^$image,1p
+
 ! https://github.com/MasterKia/PersianBlocker/issues/233
 gameeroid.com##span#is_count, span#is_not:remove()
 gameeroid.com##a#is_link:style(display: inline-block !important;)
