@@ -759,6 +759,9 @@ aparat.com##.dsp-ad
 aparat.com##.side-ads
 aparat.com##.promote-puls
 ! TODO: Check for more possible filters
+||ads.asset.aparat.com^
+||aparatsport.com/sport_ads.xml^$xhr
+||aparatsport.com/external/romeo^$xhr
 
 ||aftabir.com/uploads/banners^
 ! ||aftabir.com/uploads/reportages^
