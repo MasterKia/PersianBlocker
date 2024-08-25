@@ -303,6 +303,7 @@ ads.aftab.cc
 
 analytics.asiatech.ir
 dsp.aparat.com
+ads.asset.aparat.com
 
 ads.akairan.com
 ads.akaup.com
