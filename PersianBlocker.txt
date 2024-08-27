@@ -820,6 +820,8 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+babapart.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
 barcanews.org##+js(set, adsShow, true)
 barcanews.org##div.sidebar_ads
 
@@ -1031,7 +1033,11 @@ cooldl.net#@#.ads-content
 
 computeruser.ir##.after-post-ads
 
-||car.ir/najva
+||car.last-cdn.com/uploads/files/*.gif^$image,3p,domain=car.ir
+car.ir##div.ads
+!#if env_mobile
+car.ir##div.mobilefixads
+!#endif
 
 ||citna.ir/?q=simpleads
 ||citna.ir/sites/default/files/googleanalytics/analytics
