@@ -1,0 +1,34 @@
+{
+  "name": "PersianBlocker",
+  "author": "MasterKia",
+  "license": "AGPLv3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterKia/PersianBlocker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MasterKia/PersianBlocker/issues"
+  },
+  "homepage": "https://github.com/MasterKia/PersianBlocker#readme",
+  "scripts": {
+    "build": "node assets/scripts/build.js",
+    "lint": "pnpm lint:ab && pnpm lint:md",
+    "lint:ab": "aglint",
+    "lint:md": "markdownlint .",
+    "prepare": "node .husky/install.mjs"
+  },
+  "lint-staged": {
+    "sections/**/*.txt": "aglint",
+    "*.md": "markdownlint"
+  },
+  "devDependencies": {
+    "@adguard/aglint": "^2.0.8",
+    "@adguard/dead-domains-linter": "^1.0.19",
+    "dateformat": "^4.6.3",
+    "husky": "^9.0.7",
+    "lint-staged": "^15.2.1",
+    "markdownlint": "^0.32.1",
+    "markdownlint-cli": "^0.37.0"
+  },
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+}
