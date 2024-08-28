@@ -1,0 +1,223 @@
+name: Dead Domains Check
+
+env:
+  NODE_VERSION: 20
+
+on:
+  schedule:
+    # Run the job on every Monday at 8:00 AM UTC
+    - cron: '0 8 * * 1'
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/dead-domains-check.yml'
+  workflow_dispatch:
+
+jobs:
+  dead-domains-check:
+    name: Run dead domains check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out to repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Export dead domains to a file
+        run: pnpm dead-domains-linter --export dead-domains.txt
+
+      - name: Read dead domains from the file
+        id: read-dead-domains
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { readFile } = require('fs').promises;
+
+            const deadDomains = (await readFile('dead-domains.txt', 'utf8'))
+              .split(/\r?\n/)
+              .filter(Boolean);
+
+            // Add warning to the console
+            for (const domain of deadDomains) {
+              core.warning(`Possible dead domain: ${domain}`);
+            }
+
+            core.setOutput('has_dead_domains', deadDomains.length > 0 ? 'true' : 'false');
+            core.setOutput('dead_domains', deadDomains);
+
+      - name: Close previous issue(s)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Automated dead domains report';
+
+            // Close previous issues which have the same title and opened by github-actions[bot]
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+            });
+
+            const previousIssues = issues.filter(issue => {
+              const isBot = issue.user.login === 'github-actions[bot]';
+
+              return issue.title === title && isBot;
+            });
+
+            for (const previousIssue of previousIssues) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: previousIssue.number,
+                state: 'closed',
+              });
+
+              core.info(`Closed previous issue #${previousIssue.number}`);
+            }
+
+      - name: Close previous pull request(s)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Close previous pull requests which have the branch name 'fix/dead-domains-<number>'
+            // and opened by github-actions[bot]
+            const { data: pullRequests } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+            });
+
+            const previousPullRequests = pullRequests.filter(pullRequest => {
+              const branchName = pullRequest.head.ref;
+              const isAutomatedFix = branchName.startsWith('fix/dead-domains-');
+              const isBot = pullRequest.user.login === 'github-actions[bot]';
+
+              return isAutomatedFix && isBot;
+            });
+
+            for (const previousPullRequest of previousPullRequests) {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: previousPullRequest.number,
+                state: 'closed',
+              });
+
+              core.info(`Closed previous pull request #${previousPullRequest.number}`);
+            }
+
+            // Delete the branch of the closed pull requests
+            for (const previousPullRequest of previousPullRequests) {
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `heads/${previousPullRequest.head.ref}`,
+              });
+
+              core.info(`Deleted branch ${previousPullRequest.head.ref}`);
+            }
+
+      - name: Open an issue if there are dead domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        id: open-issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const deadDomains = JSON.parse(${{ toJson(steps.read-dead-domains.outputs.dead_domains) }});
+            const title = 'Automated dead domains report';
+
+            const { data: issue } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body: [
+                'The following domains are possibly dead:',
+                '',
+                '<details>',
+                '<summary>Click to expand</summary>',
+                '',
+                `${deadDomains.map(domain => `- ${domain}`).join('\n')}`,
+                '',
+                '</details>',
+                '',
+                'Please note that this is an automated report and some low-traffic websites may be incorrectly marked as dead.',
+                'For more information, see https://github.com/AdguardTeam/DeadDomainsLinter/blob/master/README.md',
+              ].join('\n'),
+              labels: ['dead website'],
+            });
+
+            core.setOutput('issue_number', issue.number);
+            core.info(`Issue #${issue.number} opened (${title})`);
+
+      - name: Create a new branch for the automated fix
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        id: create-branch
+        run: |
+          branch_name="fix/dead-domains-${{ steps.open-issue.outputs.issue_number }}"
+          git checkout -b $branch_name
+
+          echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+
+      - name: Perform the automated fix
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        run: |
+          pnpm dead-domains-linter --auto --import dead-domains.txt
+
+      - name: Stage changes for the automated fix
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add "dead-domains.txt" to the .gitignore if it's not there
+          if ! grep -q "dead-domains.txt" .gitignore; then
+            echo "dead-domains.txt" >> .gitignore
+          fi
+
+          git add -A
+
+      - name: Commit and push the automated fix
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        run: |
+          git commit -m "Automated dead domains fix (#${{ steps.open-issue.outputs.issue_number }})"
+          git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
+
+      - name: Create a pull request for the automated fix
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pullRequest } = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Automated dead domains fix',
+              head: '${{ steps.create-branch.outputs.branch_name }}',
+              base: context.ref.replace('refs/heads/', ''),
+              body: [
+                'This is an automated pull request to fix #${{ steps.open-issue.outputs.issue_number }}.',
+                '',
+                'Please note that this is an automated fix and some low-traffic websites may be incorrectly marked as dead.',
+                'For more information, see https://github.com/AdguardTeam/DeadDomainsLinter/blob/master/README.md',
+              ].join('\n'),
+            });
+
+            core.info(`Pull request #${pullRequest.number} opened`);
+
+            // Add labels to the pull request
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pullRequest.number,
+              labels: ['dead website'],
+            });
