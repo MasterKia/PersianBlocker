@@ -2924,10 +2924,18 @@ sedayiran.com##.adv_top
 searchline.ir##+js(acis, document.oncontextmenu)
 searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-||snappfood.ir/*/track^
+||api.snapp.doctor/tweety/api/v1/journey^$xhr,1p,method=post
+snapp.doctor#@#.ads-banner
 !#if env_mobile
 snapp.doctor##main > div[class^="sc-"]:has(> div.install-container)
 !#endif
+||ingest-data-afra.snappfood.dev^$3p,domain=snappfood.ir
+||snappfood.ir/mobile/v2/user/load^$xhr,1p,method=post
+! ||snappfood.ir^$xhr,1p,method=get,removeparam=optionalClient
+! ||snappfood.ir^$xhr,1p,method=get,removeparam=client
+||snappfood.ir^$xhr,1p,method=get,removeparam=deviceType
+||snappfood.ir^$xhr,1p,method=get,removeparam=appVersion
+||snappfood.ir^$xhr,1p,method=get,removeparam=UDID
 
 sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
