@@ -1134,6 +1134,12 @@ delgarm.com##.weblink
 1da.ir##.khp-site-info p
 1ea.ir##.phoenixad
 1ea.ir##a[rel="dofollow"]
+! https://2ad.ir/c1b7cjEW
+themez.top##+js(set, blurred, false)
+||themez.top/*.gif^$image,1p
+themez.top##div.aspace[style]
+||hutvtpbhvmae.com^
+||lnremmfpc.com^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
 ||download1music.ir/wp-content/themes/d1m/ads.jpg
