@@ -3683,35 +3683,24 @@ zibamoon.com##.MobileBannerArea
 
 zohur12.ir##.sideads
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/28759
-! https://github.com/AdguardTeam/AdguardFilters/issues/78626
-! https://github.com/AdguardTeam/AdguardFilters/issues/79988
-! https://github.com/AdguardTeam/AdguardFilters/issues/110569
-! https://github.com/MasterKia/PersianBlocker/issues/4
-zoomg.ir##^script:has-text(bannersAsJson)
-! !#if !cap_html_filtering
-zoomg.ir##+js(aopr, banner)
-! !#endif
-||zoomg.ir/common/visitcount^$xhr,1p
-||cdn.zoomg.ir/Themes/Zoomg.ir/Content/css/img/AD.svg$image,1p
-zoomg.ir##.main-top-ads
-zoomg.ir##.wide-ad-row
-zoomg.ir##div.a1-banner
-!#if env_mobile
-zoomg.ir###mobileBannerAfterTags
-!#endif
-@@||cdn.zoomg.ir/banners/demo/advertise-zoomg.jpg$image,1p
 
+! zoomit.ir
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79988
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 ! https://github.com/MasterKia/PersianBlocker/issues/195
-||theforge.ir/intake/v2/rum/events^$xhr,3p,domain=zoomit.ir
-||zoomit.ir/ads^$xhr,image,1p
-||zoomit.ir/editorial/api/articles/*/visit^$xhr,1p
+! zoomg.ir
+! https://github.com/AdguardTeam/AdguardFilters/issues/28759
+! https://github.com/AdguardTeam/AdguardFilters/issues/78626
+! https://github.com/AdguardTeam/AdguardFilters/issues/79988
+! https://github.com/AdguardTeam/AdguardFilters/issues/110569
+! https://github.com/MasterKia/PersianBlocker/issues/4
 ||analytics.zoomit.ir^
-zoomit.ir##div[class^="AdvertisingParser"]
+||theforge.ir^
+/ads^$xhr,1p,domain=zoomit.ir|zoomg.ir
+/editorial/api/articles/*/visit^$xhr,1p,domain=zoomit.ir|zoomg.ir
+zoomit.ir,zoomg.ir##div[class^="AdvertisingParser"]
 zoomit.ir##div.price-sticky
 zoomit.ir##div.Product-BannerHeader
 
