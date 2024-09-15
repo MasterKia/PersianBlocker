@@ -3536,14 +3536,15 @@ vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-selec
 
 ! https://github.com/MasterKia/PersianBlocker/issues/215
 virgool.io##+js(href-sanitizer, a[href^="https://l.vrgl.ir/r?"][href*="&l=http"], ?l)
-||virgool.io^$doc,removeparam=source
+||countly.virgool.io^$1p
 ||sentry.virgool.io^$1p
-||countly.virgool.io/sdk/web/countly.min.js^$script,1p
 ||virgool.io/api2/app/users/relatedAds^$xhr,1p
-! virgool.io##input[type="hidden"]:is(input#log_id, input#log_code):remove-attr(value)
+||virgool.io/api/v1.4/post^$xhr,1p,method=post
+||virgool.io/api2/app/posts/*/ad^$xhr,1p
+||virgool.io/api2/app/session/start^$xhr,1p,method=post
+||virgool.io/api2/app/session/read-ratio^$xhr,1p,method=post
 virgool.io##div.js-userLogin-popup
-virgool.io##div.feedAdsBox
-virgool.io##aside.mt-5:has(> a[href^="https://l.vrgl.ir/r?l=http"][target="_blank"] img[alt="تبلیغات در ویرگول"])
+virgool.io##div.is-justify-content-flex-end > a#js-register-button + div[style]:has(> input[placeholder^="شماره موبایل"])
 
 ! https://github.com/MasterKia/PersianBlocker/pull/10
 ! https://github.com/MasterKia/PersianBlocker/pull/15
