@@ -426,6 +426,7 @@ analytics.telewebion.com
 analytics.jeldnews.com
 
 sentry.virgool.io
+countly.virgool.io
 
 # https://github.com/MasterKia/PersianBlocker/issues/121
 websocket.varandaz.com
