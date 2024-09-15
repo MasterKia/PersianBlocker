@@ -2761,9 +2761,8 @@ roozno.com##.adv-box
 
 ||rondbaz.com/js/analytics.js
 
-||rond.ir/Content/SimBannerFile/Files/
-||rond.ir/Content/images/homeImages/blank-loading.png
-rond.ir##.banner-box
+||rond.ir/api/ns/common/web/advertisement/page^$xhr,1p
+rond.ir##section.ads-section
 
 rastannews.ir##.all_ads
 
