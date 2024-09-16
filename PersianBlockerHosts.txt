@@ -237,9 +237,6 @@ sabavision.com
 sabaidea.cloud
 
 # >> T <<
-theforge.ir
-# Seen on zoomit.ir
-
 trustseal.e-rasaneh.ir
 # Example: anaj.ir
 
