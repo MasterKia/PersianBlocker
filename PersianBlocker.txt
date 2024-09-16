@@ -3697,7 +3697,7 @@ zohur12.ir##.sideads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110569
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ||analytics.zoomit.ir^
-||theforge.ir^
+||theforge.ir/intake/v2/rum/events^$xhr,3p,domain=zoomit.ir|zoomg.ir
 /ads^$xhr,1p,domain=zoomit.ir|zoomg.ir
 /editorial/api/articles/*/visit^$xhr,1p,domain=zoomit.ir|zoomg.ir
 zoomit.ir,zoomg.ir##div[class^="AdvertisingParser"]
