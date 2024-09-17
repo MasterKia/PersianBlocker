@@ -1291,6 +1291,7 @@ doostihaa.com##aside.lefts_sides:has(> div.txt_letfs > ul.ads_txtcv)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42827
 ! https://github.com/MasterKia/PersianBlocker/issues/100
+downloadha.com##+js(aeld, DOMContentLoaded, ajax_tptn_tracker)
 ||downloadha.com/pic/top-posts-ads.png^$image,xhr
 ||downloadha.com/pic/*.gif^$image,1p
 downloadha.com##div.popup-ads
