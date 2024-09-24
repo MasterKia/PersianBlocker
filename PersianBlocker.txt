@@ -1267,6 +1267,8 @@ www.digikala.com##div#ProductListPagesWrapper > section[class*="product-list_Pro
 www.digikala.com##div#ProductListPagesWrapper > section > div[class^="product-list_ProductList__pagesContainer"] > div[class^="product-list_ProductList__item__"]:has(> a[href*="?ad_variant_id"])
 ! Ads in product page
 www.digikala.com##div.flex.w-full > div.grow.min-w-0 > div[class*="styles_PdpProductContent__s"]:has(> div.break-words > div.text-body-2:has-text(آگهی‌شده))
+! https://www.digikala.com/search/category-mobile-phone/product-list/?brands%5B0%5D=1662&has_selling_stock=1&sort=20
+digikala.com##div.py-2:has(> div.items-center > div.swiper-container > div.swiper-wrapper > div.swiper-slide > div.h-full > div.flex > span.text-caption:has-text(سفارشی))
 
 ||digikalajet.com^$removeparam=/promo/
 ||digikalajet.com^$removeparam=/^utm_/
