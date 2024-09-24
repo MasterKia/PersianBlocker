@@ -3539,7 +3539,7 @@ virgool.io##+js(href-sanitizer, a[href^="https://l.vrgl.ir/r?"][href*="&l=http"]
 ||countly.virgool.io^$1p
 ||sentry.virgool.io^$1p
 ||virgool.io/api2/app/users/relatedAds^$xhr,1p
-||virgool.io/api/v1.4/post^$xhr,1p,method=post
+/^https?:\/\/virgool\.io\/api/v1\.4\/post\/[0-9a-z]+$/$domain=virgool.io,xhr,1p,method=post
 ||virgool.io/api2/app/posts/*/ad^$xhr,1p
 ||virgool.io/api2/app/session/start^$xhr,1p,method=post
 ||virgool.io/api2/app/session/read-ratio^$xhr,1p,method=post
