@@ -3703,9 +3703,7 @@ zohur12.ir##.sideads
 ||theforge.ir/intake/v2/rum/events^$xhr,3p,domain=zoomit.ir|zoomg.ir
 /ads^$xhr,1p,domain=zoomit.ir|zoomg.ir
 /editorial/api/articles/*/visit^$xhr,1p,domain=zoomit.ir|zoomg.ir
-zoomit.ir,zoomg.ir##div[class^="AdvertisingParser"]
-zoomit.ir##div.price-sticky
-zoomit.ir##div.Product-BannerHeader
+zoomit.ir,zoomg.ir##div[class][width="100%"][height="100%"][style]:empty:matches-css-after(animation: 1.6s linear 0.5s infinite waveKeyframe):upward(3)
 
 zoomtech.org##div.zoomtech-banner
 
