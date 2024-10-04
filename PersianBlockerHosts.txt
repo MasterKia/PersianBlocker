@@ -404,6 +404,7 @@ sentry.quera.org
 
 # >> S <<
 ingest-data-afra.snappfood.dev
+errortracking.snapp.site
 
 # https://github.com/MasterKia/PersianBlocker/issues/125
 websocket.sobhtazeh.news
