@@ -2944,6 +2944,9 @@ snapp.doctor##main > div[class^="sc-"]:has(> div.install-container)
 ||snappfood.ir^$xhr,1p,method=get,removeparam=deviceType
 ||snappfood.ir^$xhr,1p,method=get,removeparam=appVersion
 ||snappfood.ir^$xhr,1p,method=get,removeparam=UDID
+! Snapp Taxi
+app.snapp.taxi##+js(json-prune, data.geocampaigns)
+||errortracking.snapp.site^
 
 sornamusic.ir##.textwidget
 sornamusic.ir##aside:nth-of-type(5)
