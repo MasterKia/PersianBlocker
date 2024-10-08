@@ -401,6 +401,7 @@ analytics.plaza.ir
 sentry.quera.org
 
 # >> R <<
+a.reymit.ir
 
 # >> S <<
 ingest-data-afra.snappfood.dev
