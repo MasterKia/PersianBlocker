@@ -2695,6 +2695,10 @@ qnama.ir##div#ads1
 ||sentry.quera.org^
 
 ! >> R <<
+! https://github.com/MasterKia/PersianBlocker/issues/218 -- Ads on https://sargarme.com/ratatouille-2-movie-release-sequel-explained/
+||a.reymit.ir^
+reymit.ir##div.featured-holder > div.owl-carousel > div.owl-stage-outer > div.owl-stage > div.owl-item:has(> div.item > div > div.placeholder > iframe[src^="https://a.reymit.ir/"]):remove()
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172968
 real-madrid.ir##div.adv
 
