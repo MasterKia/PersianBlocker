@@ -17,8 +17,8 @@
 ! Popup: needpop (vc_url)
 artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,musichi.ir,likeemusic.ir,appiroid.ir,androidtime.com##+js(nowoif)
 
-! rouydad24.ir, ibena.ir, tejaratemrouz.ir, irdc.ir
-/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com|vananews.com|barghnews.com|niniban.com|eghtesadonline.com|borna.news
+! rouydad24.ir, ibena.ir, tejaratemrouz.ir, irdc.ir, 598.ir
+/files/fa/adv^$image,1p,domain=ir|asriran.com|parsine.com|ana.press|niniban.com|vananews.com|barghnews.com|niniban.com|eghtesadonline.com|borna.news|seratnews.com
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
 !! basirat.ir, khootoot.ir, didarnews.ir, 598.ir
