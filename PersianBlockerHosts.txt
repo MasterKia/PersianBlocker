@@ -219,6 +219,10 @@ rankirani.ir
 rssbank.ir
 
 # >> S <<
+spellpop.ir
+
+spellads.com
+
 offers.sapra.ir
 # Example: gapfilm.ir
 
