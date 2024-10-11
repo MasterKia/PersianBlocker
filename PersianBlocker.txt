@@ -369,6 +369,8 @@ niloblog.com##bloglinksblock
 ||rzb.ir/code/popup^
 
 ! >> S <<
+||spellpop.ir^
+
 ||spellads.com^
 
 ||offers.sapra.ir^
@@ -2127,6 +2129,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||spotyfile.com/ip-jf.js^$script,3p
+||skmusic.ir^$media,3p,domain=music-irani.com
+
 mastertest.ir##div.post-content > div.fusion-builder-row-1 > div.fusion-row:has(> div.fusion-layout-column a[data-wpel-link="external"])
 
 ! https://github.com/MasterKia/PersianBlocker/pull/243
