@@ -2930,7 +2930,7 @@ snapp.doctor#@#.ads-banner
 snapp.doctor##main > div[class^="sc-"]:has(> div.install-container)
 !#endif
 ||ingest-data-afra.snappfood.dev^$3p,domain=snappfood.ir
-! ||snappfood.ir/mobile/v2/user/load^$xhr,1p,method=post
+! ||snappfood.ir/mobile/v2/user/load^$xhr,1p,method=post -- https://github.com/MasterKia/PersianBlocker/issues/261
 ! ||snappfood.ir^$xhr,1p,method=get,removeparam=optionalClient
 ! ||snappfood.ir^$xhr,1p,method=get,removeparam=client
 ||snappfood.ir^$xhr,1p,method=get,removeparam=deviceType
