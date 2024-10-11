@@ -3688,6 +3688,7 @@ zohur12.ir##.sideads
 ! https://github.com/MasterKia/PersianBlocker/issues/4
 ! https://github.com/MasterKia/PersianBlocker/issues/99
 ! https://github.com/MasterKia/PersianBlocker/issues/195
+! https://github.com/AdguardTeam/AdguardFilters/issues/190567
 ! zoomg.ir
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28759
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78626
@@ -3698,8 +3699,7 @@ zohur12.ir##.sideads
 ||theforge.ir/intake/v2/rum/events^$xhr,3p,domain=zoomit.ir|zoomg.ir
 /ads^$xhr,1p,domain=zoomit.ir|zoomg.ir
 /editorial/api/articles/*/visit^$xhr,1p,domain=zoomit.ir|zoomg.ir
-zoomit.ir,zoomg.ir##div[class][width="100%"][height="100%"][style]:empty:matches-css-after(animation: 1.6s linear 0.5s infinite waveKeyframe):upward(3)
-
+zoomit.ir,zoomg.ir##div[class][width="100%"][height="100%"][style]:empty:upward(3)
 zoomtech.org##div.zoomtech-banner
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
