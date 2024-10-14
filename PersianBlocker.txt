@@ -3705,6 +3705,7 @@ zohur12.ir##.sideads
 /ads^$xhr,1p,domain=zoomit.ir|zoomg.ir
 /editorial/api/articles/*/visit^$xhr,1p,domain=zoomit.ir|zoomg.ir
 zoomit.ir,zoomg.ir##div[class][width="100%"][height="100%"][style]:empty:upward(3)
+zoomit.ir,zoomg.ir##div[class][width="100%"][height="100%"][style]:empty:matches-css-after(animation: 1.6s linear 0.5s infinite normal none running waveKeyframe):upward(3)
 zoomtech.org##div.zoomtech-banner
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
