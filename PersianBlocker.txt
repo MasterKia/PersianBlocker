@@ -2568,13 +2568,22 @@ pichak.net##center:nth-of-type(2) > center
 pichak.net##body > div > font
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
-p30konkor.com###header-ad1
-p30konkor.com###p30konkor-ads-p div:has(p > a[rel]):not(:has(a[href*="p30konkor.com"]))
-p30konkor.com###p30konkor-ads-p a[rel="follow"]
-p30konkor.com##.widget:has(.h-text:has-text(لینک های پیشنهادی))
-p30konkor.com##.vc_col-sm-4:style(width: 100% !important;)
+!#if cap_html_filtering
+p30konkor.com##^script[id^="wpcp_"]
+p30konkor.com##^style:has-text(@media print)
+!#else
+p30konkor.com##+js(aopr, nocontext)
+p30konkor.com##+js(acs, disableSelection, reEnable)
+p30konkor.com##style:has-text(@media print):remove()
+!#endif
+p30konkor.com##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+||p30konkor.com/wp-json/wordpress-popular-posts/v2/views/$xhr,1p,method=post
+p30konkor.com##div#header-ad1
+p30konkor.com##div.adcontainer div#p30konkor-ads-p > div.bs-vc-wrapper > div#bf-color-white:has(p > a[rel="noopener"]):not(:has(a[href*="p30konkor.com"]))
+p30konkor.com##div.adcontainer div#p30konkor-ads-p > div.bs-vc-wrapper > div.vc_col-sm-4:style(width: 100% !important;)
+p30konkor.com##div.adcontainer div.vc_row:has(div[itemtype$="AdBlock"][data-adid]):last-of-type
 !#if env_mobile
-p30konkor.com###parandeh-b2
+p30konkor.com##div#parandeh-b2
 !#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/196
