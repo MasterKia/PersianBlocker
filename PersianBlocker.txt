@@ -25,8 +25,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir, appiroid.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com|farachart.com|farsiro.com|techtik.com|androidtime.com|baarzesh.net
-
+/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com|farachart.com|farsiro.com|techtik.com|androidtime.com|baarzesh.net|p30world.com
 ! itna.ir, migna.ir
 /images/advertise^$image,1p,domain=ir|bazimag.com|jahannews.com
 
@@ -2673,11 +2672,14 @@ par30games.net##div.adbox
 
 ||paperhub.ir/images/*.gif
 
-p30world.com##.post-ads
-p30world.com##.sidebar-ads
-forum.p30world.com###ad_global_below_navbar
-forum.p30world.com##.ad_global_header
-forum.p30world.com#@##ad_global_above_footer
+p30world.com##div.post-ads
+p30world.com##div.sidebar-ads
+forum.p30world.com##div.ad_global_header
+forum.p30world.com##div#ad_global_below_navbar
+forum.p30world.com##div#ad_global_above_footer
+!#if env_mobile
+forum.p30world.com##div.navbar > form.notices > ol > li:has-text(تبلیغات)
+!#endif
 
 1pezeshk.com##div#custom_html-4
 1pezeshk.com##div.wpb_column:has(h3.section-heading:has-text(رپورتاژ))
