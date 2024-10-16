@@ -575,6 +575,9 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+autosafkar.com##+js(aeld, scroll, return"undefined")
+||autosafkar.com/app/uploads/*.gif^$image,1p
+
 appnab.ir##div#ZAD
 
 androidtime.com##div.single-text-ads
