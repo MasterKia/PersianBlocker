@@ -3432,6 +3432,7 @@ tasnimnews.com##.col-md-9:style(width: 100% !important;)
 ||tarafdari.com/advertise^$xhr,1p
 ||tarafdari.com/sites/all/themes/hope/images/ad_home_page.jpg^$image,1p
 ||tarafdari.com/sites/all/themes/hope/images/advertise^$image,1p
+||tarafdari.com/modules/statistics/statistics.php^$xhr,1p,method=post
 tarafdari.com##aside.column-side > div.block:has(> div.block-title:has-text(وبگردی))
 !#if env_mobile
 tarafdari.com##section.mediaad-sticky
