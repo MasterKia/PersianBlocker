@@ -2476,6 +2476,8 @@ opizo.me##form[action^="link/topPageSubmit/"], div#linkStr:others()
 omidnamehnews.ir##.adspanel
 
 ! >> P <<
+parallelsanat.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
 !#if cap_html_filtering
 persian-fa.ir##^script:has-text(displayCountryInConsole)
 !#else
