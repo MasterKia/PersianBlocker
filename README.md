@@ -210,15 +210,15 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز HOSTS (مانند AdAway یا HostsMan) 🕳</h4></summary>
 
-نسخه `0.0.0.0` (پیشنهادی):
+~~نسخه `0.0.0.0` (پیشنهادی):~~
 
 ~~https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/zero/HOSTS~~
 
-نسخه `127.0.0.1` :
+~~نسخه `127.0.0.1` :~~
 
 ~~https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/HOSTS~~
 
-این دو نسخه از لیست [PersianBlockerHosts](https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt) دیگر بروز نمی‌شوند زیرا نیاز به بروزرسانی دستی دارند که کاری وقت‌گیر است. اگه کسی می‌تونه یه GitHub Actions بنویسه که فایل PersianBlocekrHosts.txt رو بگیره و به اول هر خطش یه 127.0.0.1 یا 0.0.0.0 اضافه کنه، لطفاً یه PR بفرسته. ممنون :)
+این دو نسخه از لیست [PersianBlockerHosts](https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt) دیگر بروز نمی‌شوند زیرا نیاز به بروزرسانی دستی دارند که کاری وقت‌گیر است. اگه کسی می‌تونه یه GitHub Actions بنویسه که فایل PersianBlockerHosts.txt رو بگیره و به اول هر خطش یه 127.0.0.1 یا 0.0.0.0 اضافه کنه، لطفاً یه PR بفرسته. ممنون :)
 
 
 </details>
