@@ -212,14 +212,15 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 
 نسخه `0.0.0.0` (پیشنهادی):
 
-https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/zero/HOSTS
+~~https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/zero/HOSTS~~
 
 نسخه `127.0.0.1` :
 
-https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/HOSTS
+~~https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/hosts/HOSTS~~
+
+این دو نسخه از لیست [PersianBlockerHosts](https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt) دیگر بروز نمی‌شوند زیرا نیاز به بروزرسانی دستی دارند که کاری وقت‌گیر است. اگه کسی می‌تونه یه GitHub Actions بنویسه که فایل PersianBlocekrHosts.txt رو بگیره و به اول هر خطش یه 127.0.0.1 یا 0.0.0.0 اضافه کنه، لطفاً یه PR بفرسته. ممنون :)
 
 
-با سپاس از [@mohsenr7596](https://github.com/mohsenr7596).
 </details>
 
 <details>
