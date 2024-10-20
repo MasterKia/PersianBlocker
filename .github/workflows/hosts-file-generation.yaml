@@ -1,0 +1,39 @@
+name: Process Hosts File
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  process_hosts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    #- name: Install dependencies
+      #run: pip install -r requirements.txt
+
+    - name: Process Hosts File
+      run: python .github/workflows/hosts-generation.py
+
+    - name: Generate hosts file with 0.0.0.0
+      run: sed 's|127.0.0.1|0.0.0.0|g' hosts > hosts-0
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "Update processed hosts file" || echo "No changes to commit"
+        git push
