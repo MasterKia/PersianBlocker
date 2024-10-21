@@ -1682,6 +1682,8 @@ gadgetnews.net##.sticky-ad
 !#endif
 
 ! >> H <<
+hadese24.ir##div.full-ad-box
+
 ! https://github.com/MasterKia/PersianBlocker/issues/176
 honarfardi.com##aside.sidebar .widget:has(a.external)
 
