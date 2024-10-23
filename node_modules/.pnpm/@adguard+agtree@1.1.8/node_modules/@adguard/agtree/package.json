@@ -1,0 +1,115 @@
+{
+  "name": "@adguard/agtree",
+  "version": "1.1.8",
+  "description": "Universal adblock filter list parser.",
+  "keywords": [
+    "adblock",
+    "filter",
+    "list",
+    "parser",
+    "ast"
+  ],
+  "author": "Adguard Software Ltd.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdguardTeam/tsurlfilter.git",
+    "directory": "packages/agtree"
+  },
+  "bugs": {
+    "url": "https://github.com/AdguardTeam/tsurlfilter/issues"
+  },
+  "homepage": "https://github.com/AdguardTeam/tsurlfilter/tree/master/packages/agtree#readme",
+  "type": "module",
+  "main": "dist/agtree.cjs",
+  "module": "dist/agtree.esm.js",
+  "browser": "dist/agtree.umd.min.js",
+  "types": "dist/agtree.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/agtree.d.ts",
+      "import": "./dist/agtree.esm.js",
+      "require": "./dist/agtree.cjs"
+    },
+    "./es": "./dist/agtree.esm.js",
+    "./iife": "./dist/agtree.iife.min.js",
+    "./umd": "./dist/agtree.umd.min.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@rollup/plugin-alias": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@rollup/plugin-yaml": "^4.1.1",
+    "@swc/core": "^1.3.100",
+    "@swc/helpers": "^0.5.3",
+    "@swc/jest": "^0.2.29",
+    "@types/clone-deep": "^4.0.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.3",
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^20.2.3",
+    "@types/semver": "^7.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import-newlines": "^1.3.1",
+    "eslint-plugin-jsdoc": "^46.4.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^9.3.2",
+    "jest": "^29.5.0",
+    "js-yaml": "^4.1.0",
+    "jsdoc": "^4.0.2",
+    "markdownlint": "^0.29.0",
+    "markdownlint-cli": "^0.35.0",
+    "regenerator-runtime": "^0.14.0",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.25.3",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-node-externals": "^6.1.1",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "superstruct": "^1.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.4",
+    "yaml-jest-transform": "^2.0.2",
+    "zod": "^3.22.2"
+  },
+  "dependencies": {
+    "@adguard/ecss-tree": "^1.0.8",
+    "@adguard/scriptlets": "^1.9.61",
+    "clone-deep": "^4.0.1",
+    "json5": "^2.2.3",
+    "semver": "^7.5.3",
+    "tldts": "^5.7.112",
+    "xregexp": "^5.1.1"
+  },
+  "scripts": {
+    "build": "pnpm clean && pnpm build-types && pnpm build-txt && pnpm rollup --config rollup.config.ts --configPlugin typescript && pnpm clean-types",
+    "build-txt": "node --no-warnings=ExperimentalWarning --loader ts-node/esm scripts/build-txt.ts",
+    "build-types": "tsc --declaration --emitDeclarationOnly --outdir dist/types",
+    "check-compatibility-tables": "node --no-warnings=ExperimentalWarning --loader ts-node/esm scripts/check-compatibility-tables.ts",
+    "check-types": "tsc --noEmit",
+    "clean": "rimraf dist",
+    "clean-types": "rimraf dist/types",
+    "coverage": "jest --runInBand --coverage",
+    "increment": "pnpm version patch --no-git-tag-version",
+    "lint": "pnpm lint:ts && pnpm lint:md",
+    "lint:md": "markdownlint .",
+    "lint:ts": "eslint . --cache --ext .ts",
+    "precommit": "pnpm check-types && pnpm lint && pnpm test",
+    "test": "jest --runInBand"
+  }
+}

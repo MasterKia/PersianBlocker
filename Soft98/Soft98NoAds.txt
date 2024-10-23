@@ -6,8 +6,8 @@
 ! Licence: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 
 !#if env_chromium
-soft98.ir,~forum.soft98.i##:has(> a > img):style(clip-path: circle(0) !important;)
-soft98.ir,~forum.soft98.i##:has(> *[style*="display"][style*="clip-path"][style*="important"][style*="none"] > img):style(clip-path: circle(0) !important;)
+soft98.ir##:has(> a > img):style(clip-path: circle(0) !important;)
+soft98.ir##:has(> *[style*="display"][style*="clip-path"][style*="important"][style*="none"] > img):style(clip-path: circle(0) !important;)
 soft98.ir,~forum.soft98.ir##:has(> * > img[style*="display"][style*="clip-path"][style*="important"][style*="none"]):style(clip-path: circle(0) !important;)
 soft98.ir,~forum.soft98.ir##:has(> * > img:not(img[src^="https://cdn.soft98.ir/"][src$=".jpg"], img[src^="https://cdn.soft98.ir/"][src$=".png"])):style(clip-path: circle(0) !important;)
 soft98.ir,~forum.soft98.ir##:has(> * > img[width][height]):style(clip-path: circle(0) !important;)
