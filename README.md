@@ -210,11 +210,11 @@ https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHo
 <details>
   <summary dir="rtl"><h4>🕳 راه‌اندازی در مسدودساز HOSTS (مانند AdAway یا HostsMan) 🕳</h4></summary>
 
-نسخه `0.0.0.0` (پیشنهادی):
+نسخه `127.0.0.1` (پیشنهادی):
 
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/refs/heads/main/hosts
 
-نسخه `127.0.0.1` :
+نسخه `0.0.0.0` :
 
 https://raw.githubusercontent.com/MasterKia/PersianBlocker/refs/heads/main/hosts-0
 
