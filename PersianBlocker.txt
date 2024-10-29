@@ -2133,6 +2133,8 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+mihmansho.com##div.body-main-out.select-lock:remove-class(select-lock)
+
 ||spotyfile.com/ip-jf.js^$script,3p
 ||skmusic.ir^$media,3p,domain=music-irani.com
 
