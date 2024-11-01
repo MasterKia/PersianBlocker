@@ -812,6 +812,9 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+behtaraneh.ir##+js(aeld, load, contextmenu)
+behtaraneh.ir##+js(remove-attr, onmousedown|onselectstart, body)
+
 babapart.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 barcanews.org##+js(set, adsShow, true)
