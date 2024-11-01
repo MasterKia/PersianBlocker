@@ -2931,9 +2931,10 @@ shomavaeghtesad.com##.column_1:style(width: 70% !important;)
 shomavaeghtesad.com##.column_2:style(width: 30% !important;)
 !#endif
 
+||sentry.mielse.com^
+||sheypoor.com/banner/tapsell/image^$image,1p
 sheypoor.com##main.mainV2 div:has(> section > a > div > div > span:has-text(تبلیغات))
 sheypoor.com##main.mainV2 div:has(> section > div > div > h2 > p:has-text(/^Ad$/))
-sheypoor.com##a[href^="https://www.sheypoor.com/banner/tapsell/"]
 !#if env_mobile
 sheypoor.com##div#app-suggest-new
 !#endif
