@@ -408,6 +408,9 @@ sentry.quera.org
 a.reymit.ir
 
 # >> S <<
+# sheypoor.com
+sentry.mielse.com
+
 ingest-data-afra.snappfood.dev
 errortracking.snapp.site
 
