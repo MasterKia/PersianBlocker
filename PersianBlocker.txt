@@ -362,10 +362,7 @@ niloblog.com##bloglinksblock
 
 ||rizy.ir/js/ads.js
 
-||rozblog.com/include/rozblog_ads_js
-/include/rozblog_ads_js
-||rozblog.com/code/popup^$script,1p
-||rzb.ir/code/popup^
+||rozblog.com/theme/ads/banner.html^$frame
 
 ! >> S <<
 ||spellpop.ir^
