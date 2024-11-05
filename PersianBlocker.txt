@@ -2601,7 +2601,7 @@ p30konkor.com##div#parandeh-b2
 !#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/196
-par30dl.net##div.sidebar-home:has(> div.wbox > strong:has-text(تبلیغات))
+par30dl.net##div#sponser-dl-btn
 
 ! https://github.com/MasterKia/PersianBlocker/issues/85
 ||p30day.ir/images/tabligh$image,media,1p
