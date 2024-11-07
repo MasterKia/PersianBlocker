@@ -1559,6 +1559,7 @@ farsroid.com##section.homepage-slider > div.container > div.homepage-slider-wrap
 farsroid.com##div.mobile-sticky-banner:has(> a.farsroid-ads)
 !#endif
 farsroid.com##li.ads-download:style(position: absolute !important; top: -10000px !important;)
+farsroid.com##nav.site-top-nav > ul.grid-row > li:has(> a[rel="dofollow"])
 
 ||analysis.faradars.org
 
