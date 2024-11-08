@@ -809,6 +809,10 @@ apktops.ir##[id^="linkcat"] > ul > li:not(:has(a[href*="apktops.ir"]))
 apktops.ir##.asiatech
 
 ! >> B <<
+!#if env_mobile
+balad.ir##div[class^="DownloadAppBanner_container"]
+!#endif
+
 behtaraneh.ir##+js(aeld, load, contextmenu)
 behtaraneh.ir##+js(remove-attr, onmousedown|onselectstart, body)
 
