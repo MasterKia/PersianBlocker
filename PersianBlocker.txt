@@ -2359,6 +2359,11 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+||stats.nournews.ir/nournews.js^$script,1p
+||nournews.ir/media/Photo/*.webp^$image,1p
+||nournews.ir/media/Photo/*.gif^$image,1p
+nournews.ir##div#Ads_Fix_pnlMain
+
 ||api.zin.co.com/assets/as/load.js^$script,3p
 ||files.niniplus.com/uploads2/advertise^$image,1p
 
