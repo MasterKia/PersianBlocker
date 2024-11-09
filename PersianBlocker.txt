@@ -2045,16 +2045,11 @@ khabarfarsi.com###block-block-120
 ||karpishe.com/api/shared/log^
 
 ! https://github.com/MasterKia/PersianBlocker/issues/4
-||kojaro.com/kojaro/ui/js/banner.js
-kojaro.com##.banner-wrapper
-kojaro.com##.advertisement-in-topic
-kojaro.com##.bannercontainer
-kojaro.com##.homepage-content
-!#if env_mobile
-kojaro.com##.mobileBanner
-kojaro.com##.article-mobile-inContent
-!#endif
-@@||images.kojaro.com/assets/ad/advertise-$image,1p
+*$frame,3p,domain=kojaro.com
+||images.kojaro.com/*.gif^$image,1p
+||kojaro.com/kojaro/ui/js/banner.js^$script,1p
+kojaro.com##div.wideheader-b1:has(> div.bannercontainer)
+kojaro.com##div.mobileBanner
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33437
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101735
