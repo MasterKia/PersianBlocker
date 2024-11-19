@@ -25,7 +25,8 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 /files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir, appiroid.ir
-/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com|farachart.com|farsiro.com|techtik.com|androidtime.com|baarzesh.net|p30world.com
+/wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com|farachart.com|farsiro.com|techtik.com|androidtime.com|baarzesh.net|p30world.com|shahrebours.com
+
 ! itna.ir, migna.ir
 /images/advertise^$image,1p,domain=ir|bazimag.com|jahannews.com
 
@@ -2800,6 +2801,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/278
+shahrebours.com##div.shortcode-wrapper > p > a.backlink-into
+shahrebours.com#@#.box_ads
+
 ! https://github.com/MasterKia/PersianBlocker/issues/279
 ||media.sedayebourse.ir/d/*.gif^$image,1p
 sedayebourse.ir##section.ads
