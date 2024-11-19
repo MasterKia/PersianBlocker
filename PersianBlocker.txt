@@ -2800,6 +2800,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||media.sedayebourse.ir/d/*.gif^$image,1p
+sedayebourse.ir##section.ads
+sedayebourse.ir#@##ads-container
+
 ! https://github.com/MasterKia/PersianBlocker/issues/232
 *$image,3p,from=scienceforfree.blog.ir,to=parsvds.com|numberland.ir
 
