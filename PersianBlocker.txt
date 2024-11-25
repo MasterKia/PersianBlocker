@@ -3158,12 +3158,11 @@ sakhtafzar.com##.bannersHome
 ! ||safarme.ir/Files/SystemFiles/Templates/Portal/*/Scripts/newpages.j
 ! TODO: Ask uAssest to remove the notifiction permission
 
-||saednews.com/bnr-ad/
-||saednews.com/res-ac/templates/saednews/banners/
-saednews.com##.w-100.justify-content-center.d-flex
-saednews.com##.mb-3.top-1.sticky-top
-saednews.com###header-banner-4
-saednews.com###rt-backlinks-pos
+saednews.com##+js(aeld, DOMContentLoaded, videojs.ads)
+saednews.com##+js(aopr, fixedPostGroups)
+||saednews.com/bnr-ad^$image,1p
+saednews.com##div.px-3:has(a > span:has-text(AD))
+saednews.com##div#rt-backlinks-pos
 
 ! https://github.com/MasterKia/PersianBlocker/issues/133
 ||media.saat24.news/d/*.gif$image,1p
