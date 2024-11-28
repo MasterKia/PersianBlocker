@@ -349,7 +349,8 @@ niloblog.com##bloglinksblock
 ||p30rank.ir^
 ||publica.ir^
 
-||parsiblog.com/ga.js
+||parsiblog.com/ga.js^$script,1p
+parsiblog.com##body > div:first-of-type:has(a[style][href^="www.parsiblog.com/adv"])
 
 ! >> Q <<
 
