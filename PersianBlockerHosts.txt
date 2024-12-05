@@ -173,6 +173,7 @@ on-click.ir
 onclick.ir
 
 # >> P <<
+pelikan-network.ir
 pegah.tech
 pushq.ir
 pooye-ads.com
