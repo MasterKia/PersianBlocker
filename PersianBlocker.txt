@@ -322,6 +322,7 @@ niloblog.com##bloglinksblock
 ||onclick.ir^
 
 ! >> P <<
+||pelikan-network.ir^
 ||pegah.tech^
 ||pushq.ir^
 
