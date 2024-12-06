@@ -369,6 +369,9 @@ parsiblog.com##body > div:first-of-type:has(a[style][href^="www.parsiblog.com/ad
 ||rozblog.com/theme/ads/banner.html^$frame
 
 ! >> S <<
+! power-music.ir, skmusic.ir, music-week.ir
+||spotyfile.com^$script,3p
+
 ||spellpop.ir^
 
 ||spellads.com^
@@ -2141,7 +2144,6 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! >> M <<
 mihmansho.com##div.body-main-out.select-lock:remove-class(select-lock)
 
-||spotyfile.com/ip-jf.js^$script,3p
 ||skmusic.ir^$media,3p,domain=music-irani.com
 
 mastertest.ir##div.post-content > div.fusion-builder-row-1 > div.fusion-row:has(> div.fusion-layout-column a[data-wpel-link="external"])
@@ -2569,7 +2571,6 @@ parsfootball.com##.block-ads4
 parsfootball.com#@#.navad
 
 power-music.ir##+js(nowoif)
-||spotyfile.com^$domain=power-music.ir
 ||power-music.ir/sw.js^$script,1p
 power-music.ir##.ytn-hamsan
 power-music.ir##.yn-bnr
