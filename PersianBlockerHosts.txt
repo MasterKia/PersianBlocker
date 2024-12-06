@@ -21,6 +21,8 @@ scripts-ads.s3.ir-thr-at1.arvanstorage.com
 error-tracking.arvancloud.com
 
 adexo.ir
+adexofiles.ir
+
 adskav.com
 advn.ir
 
