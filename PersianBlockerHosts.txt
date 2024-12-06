@@ -220,6 +220,9 @@ rankirani.ir
 rssbank.ir
 
 # >> S <<
+# power-music.ir, skmusic.ir, music-week.ir
+spotyfile.com
+
 spellpop.ir
 
 spellads.com
