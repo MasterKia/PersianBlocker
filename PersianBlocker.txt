@@ -2726,6 +2726,8 @@ qnama.ir##div#ads1
 ||sentry.quera.org^
 
 ! >> R <<
+rebec.ir##+js(aeld, /contextmenu|keydown|dragstart|mousemove/, return"undefined")
+
 ! https://github.com/MasterKia/PersianBlocker/issues/285
 rasmio.com##div[class*="company_company__ads--ab"]
 
