@@ -1581,10 +1581,8 @@ farsroid.com##nav.site-top-nav > ul.grid-row > li:has(> a[rel="dofollow"])
 ||analysis.faradars.org
 
 ! https://github.com/MasterKia/PersianBlocker/pull/39
-||media.farsnews.ir/Uploaded/Files/Documents/*.gif^$image,1p
-||farsnews.ir/api/recordnewstextvisit?id=$xhr,1p
-farsnews.ir##aside.ad-mobile-none
-farsnews.ir##div.ads-native
+||api.farsnews.ir/log^$xhr,1p
+farsnews.ir##div[class^="not-first"] a[rel^="sponsored"]
 
 ! >> G <<
 ! https://github.com/uBlockOrigin/uAssets/issues/25012
