@@ -1845,15 +1845,12 @@ itresan.com###NR-Ads
 itresan.com##.listing-item-blog:has(a[href*="/author/ads/"])
 
 ! https://github.com/MasterKia/PersianBlocker/issues/22
-||ilna.ir/servev2/*.gif
-ilna.ir##[href^="/advertisements/"]
-ilna.ir##.zxc
-!#if !env_mobile
-ilna.ir##.xcon12:style(margin: auto !important;)
-ilna.ir##.ml120:style(margin-left: 5% !important; margin-bottom: 5% !important;)
-!#endif
+||cdn.ilna.ir/servev2/*.gif^$image,1p
+ilna.ir##div.zxc_mb
+ilna.ir##div.text_adv
+ilna.ir#@#.adv_title
 !#if env_mobile
-ilna.ir##.zxc-mobile
+ilna.ir##div#adv_mobile_sticky
 !#endif
 
 ! https://github.com/MasterKia/PersianBlocker/issues/26
