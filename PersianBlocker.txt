@@ -2727,7 +2727,7 @@ forum.p30world.com##div.navbar > form.notices > ol > li:has-text(تبلیغات)
 ||qnama.ir/ipop.js^$script,1p
 qnama.ir##div#ads1
 
-||sentry.quera.org^
+||sentry.querastaff.ir^
 
 ! >> R <<
 rebec.ir##+js(aeld, /contextmenu|keydown|dragstart|mousemove/, return"undefined")
