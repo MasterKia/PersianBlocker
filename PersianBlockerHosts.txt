@@ -388,6 +388,9 @@ websocket.khanefootball.com
 # >> L <<
 
 # >> M <<
+sentry.mci.dev
+# On zarebin.ir
+
 counter.musicsweb.ir
 counter.mahanmusic.net
 analytic.magland.ir
