@@ -3723,6 +3723,18 @@ yasdl.com##.sidebar-textads
 yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
+zarebin.ir##+js(href-sanitizer, div#link-container > a[data-sentry-element="Link"], ?url)
+||zarebin.ir/platform/api/supervisor/v1/events^$1p,method=post
+||zarebin.ir/we/api/v1/web-enrich/elements?qsrc=user^$xhr,1p,method=post
+||zarebin.ir/media/detail^$removeparam=q
+||zarebin.ir/media/detail^$removeparam=publisher
+||zarebin.ir/media/detail^$removeparam=origin
+||cafevdo.zarebin.ir/api/v1/accounts/action^$xhr,1p,method=post
+||cafevdo.zarebin.ir/api/v1/events^$xhr,1p,method=post
+||sentry.mci.dev^
+||hamrahi.cloud/drive-endpoint.log^$xhr,3p
+||hamrahi.cloud/video-timeline.log^$xhr,3p
+
 zaya.io##div.header-banners
 
 ! https://github.com/MasterKia/PersianBlocker/issues/188
