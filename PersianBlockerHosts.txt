@@ -411,7 +411,7 @@ websocket.55online.news
 analytics.plaza.ir
 
 # >> Q <<
-sentry.quera.org
+sentry.querastaff.ir
 
 # >> R <<
 a.reymit.ir
