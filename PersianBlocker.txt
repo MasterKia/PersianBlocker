@@ -2368,6 +2368,8 @@ myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 
 ! >> N <<
+nospam.ir##div#contents a[rel$="sponsored"]
+
 !#if env_mobile
 neshan.org##div#download_app_suggestion_dialog
 !#endif
