@@ -3561,6 +3561,8 @@ uploadboy.com##body:style(overflow: auto !important;)
 uploadboy.com##div.ads
 
 ! >> V <<
+||api.virasty.com/log^$xhr,1p
+
 !#if cap_html_filtering
 vaamfaa.ir##^script:has-text(Event.MOUSEDOWN)
 !#else
