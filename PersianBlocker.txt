@@ -484,6 +484,12 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ! avaz-kurd.ir, power-music.ir
 
 ! >> Y <<
+! https://yek.link/hamdam, https://sales.yek.link/
+||api.yek.link/api/landing/click^$xhr,1p
+||api.yeklinks.ir/api/landing/click^$xhr,3p
+||api.yeklinks.ir/api/domain/*/view^$xhr,3p
+||sentry.yektanet.tech^
+
 ||yelloadwise.ir^
 
 ||yektanet.com^
@@ -3691,9 +3697,6 @@ xip.li##+js(set, count, 0)
 xip.li##.form-inline:others()
 
 ! >> Y <<
-! Tracking on custom pages
-||api.yek.link/api/domain/*/view^$xhr,1p,method=options|post
-
 ! https://github.com/MasterKia/PersianBlocker/issues/175
 youc.ir##.stream-item
 youc.ir##.widget > .widget-title:has-text(تبلیغات):upward(.widget)
