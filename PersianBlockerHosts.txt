@@ -293,7 +293,10 @@ xmlx.lol
 
 # >> Y <<
 yelloadwise.ir
+
 yektanet.com
+sentry.yektanet.tech
+
 yekbux.com
 
 # >> Z <<
