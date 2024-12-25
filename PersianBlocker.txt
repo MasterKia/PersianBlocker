@@ -484,12 +484,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ! avaz-kurd.ir, power-music.ir
 
 ! >> Y <<
-! https://yek.link/hamdam, https://sales.yek.link/
-||api.yek.link/api/landing/click^$xhr,1p
-||api.yeklinks.ir/api/landing/click^$xhr,3p
-||api.yeklinks.ir/api/domain/*/view^$xhr,3p
-||sentry.yektanet.tech^
-
 ||yelloadwise.ir^
 
 ||yektanet.com^
@@ -501,6 +495,11 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 @@||cdn.yektanet.com/fonts/$font,3p,domain=fararu.com|gostaresh.news
 @@||yektanet.com/static/vast-client.js^$script,3p,domain=fararu.com|gostaresh.news
 @@||yektanet.com/static/silvermine-videojs-quality-selector.min.js^$script,3p,domain=fararu.com|gostaresh.news
+! https://yek.link/hamdam, https://sales.yek.link/
+||api.yek.link/api/landing/click^$xhr,1p
+||api.yeklinks.ir/api/landing/click^$xhr,3p
+||api.yeklinks.ir/api/domain/*/view^$xhr,3p
+||sentry.yektanet.tech^
 
 ||yekbux.com^
 
