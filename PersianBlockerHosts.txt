@@ -638,6 +638,6 @@ tradergpt.ai
 #-------------------------^ WebAmooz Warning List ^-----------------------#
 
 #-------------------v Malware/Phishing Sites v-----------------#
-meashstis.ir
+mat-pnu.ir
 
 #-------------------^ Malware/Phishing Sites ^-----------------#
