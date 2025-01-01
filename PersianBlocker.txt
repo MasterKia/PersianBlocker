@@ -324,6 +324,7 @@ niloblog.com##bloglinksblock
 ||onclick.ir^
 
 ! >> P <<
+||perlika.com^
 ||pelikan-network.ir^
 ||pegah.tech^
 ||pushq.ir^
@@ -2151,6 +2152,9 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+||melkana.com/ngx_pagespeed_beacon?url=$xhr,1p
+melkana.com##div.sidebar:style(user-select: text !important;)
+
 mihmansho.com##div.body-main-out.select-lock:remove-class(select-lock)
 
 ||skmusic.ir^$media,3p,domain=music-irani.com
