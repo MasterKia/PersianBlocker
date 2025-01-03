@@ -384,6 +384,8 @@ sentry.alibaba.ir
 tracker.jabama.com
 
 # >> K <<
+logapi.karbord.io
+
 kar-sentry.karnameh.com
 
 # https://github.com/MasterKia/PersianBlocker/issues/101
