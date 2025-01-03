@@ -1953,6 +1953,10 @@ jobinja.ir##div.c-forceToLogin__content:style(filter: none !important; opacity: 
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
 ! >> K <<
+karbord.io##+js(no-fetch-if, SearchiaClick)
+||logapi.karbord.io^
+
+
 kamapress.com##div.ads-list
 
 ||kar-sentry.karnameh.com^$1p
