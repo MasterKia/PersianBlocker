@@ -3670,6 +3670,7 @@ vista.ir##a.textad
 
 ! >> W <<
 ||gateway.wisgoon.com/services/vast^$xhr,image,1p
+||imasdk.googleapis.com/js/core/bridge*.html$frame,important,domain=wisgoon.com
 wisgoon.com##div.tb-box
 
 ||webgozar.com/adimg^$image,1p
