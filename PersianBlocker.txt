@@ -156,6 +156,8 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||abzarfa.com/tools/ip^$script
 
 ! >> B <<
+blog.ir##+js(set, constant.copyText, '')
+
 ||binoads.ir^
 ||bl9.ir^
 ||backlink.ir^
