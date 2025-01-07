@@ -3489,6 +3489,11 @@ tasnimnews.com##.ads-footer
 tasnimnews.com##.col-md-9:style(width: 100% !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88769
+!#if cap_html_filtering
+tarafdari.com##^script:has-text(showScrollAlert)
+!#else
+tarafdari.com##+js(rmnt, script, showScrollAlert)
+!#endif
 ||tarafdari.com/advertise^$xhr,1p
 ||tarafdari.com/sites/all/themes/hope/images/ad_home_page.jpg^$image,1p
 ||tarafdari.com/sites/all/themes/hope/images/advertise^$image,1p
