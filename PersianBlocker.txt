@@ -4102,6 +4102,8 @@ www.google.com##.g a[href*="filmdoon.com"]> h3::after:style(content: ' [دارا
 www.google.com##.g a[href*="zaminmovie.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="danofilm.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##.g a[href*="yoozmovie.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="upko.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##.g a[href*="filmzi.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#else
 www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4219,6 +4221,8 @@ www.google.com##a[href*="filmdoon.com"] div[role="link"]::after:style(content: '
 www.google.com##a[href*="zaminmovie.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="danofilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##a[href*="yoozmovie.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="upko.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+www.google.com##a[href*="filmzi.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 !#endif
 
 duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4337,6 +4341,8 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="filmdoon.com"]::after:sty
 duckduckgo.com##a[data-testid="result-title-a"][href*="zaminmovie.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="danofilm.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##a[data-testid="result-title-a"][href*="yoozmovie.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="upko.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+duckduckgo.com##a[data-testid="result-title-a"][href*="filmzi.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 search.brave.com##div#results > div.snippet > a.result-header[href*="filmr.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="doostihaa.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4454,6 +4460,8 @@ search.brave.com##div#results > div.snippet > a.result-header[href*="filmdoon.co
 search.brave.com##div#results > div.snippet > a.result-header[href*="zaminmovie.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="danofilm.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a.result-header[href*="yoozmovie.com"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="upko.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+search.brave.com##div#results > div.snippet > a.result-header[href*="filmzi.ir"] > span.snippet-title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 ! اشتراکی
 !#if !env_mobile
