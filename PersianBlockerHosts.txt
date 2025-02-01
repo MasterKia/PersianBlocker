@@ -60,6 +60,7 @@ affstat.digikala.com
 affiliate.digikala.com
 
 # >> B <<
+bitad.ir
 binoads.ir
 bl9.ir
 backlink.ir
