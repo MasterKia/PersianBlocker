@@ -2836,6 +2836,8 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+||solahangs.com/popup.js^$script,1p
+
 ! https://github.com/MasterKia/PersianBlocker/issues/278
 shahrebours.com##div.shortcode-wrapper > p > a.backlink-into
 shahrebours.com#@#.box_ads
