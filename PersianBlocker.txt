@@ -2119,6 +2119,9 @@ kalakamuz.ir##div.main > div.box:has(> p > a[href="http://botsaz.com/"])
 kalakamuz.ir##div.sidebar > div.box:has(div.row:has-text(تبلیغات))
 
 kafebook.ir##.im-header-ad
+kafebook.ir###ribp-float-banner
+kafebook.ir##.container.im-top-ad
+kafebook.ir##.im-entry-top-ad
 
 k2cod.com###table4 > tbody > tr > td > table > tbody > tr > td > center
 k2cod.com##table#table9.bgtable:nth-of-type(13)
