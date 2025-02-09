@@ -3721,6 +3721,8 @@ wikihoax.org##.widget_media_image.widget.container-wrapper
 webgoo.ir###kaprila_linktable_left
 webgoo.ir##.left-block-top
 
+wiki.ahlolbait.com###wiki_ads_link
+
 ! >> X <<
 xip.li##+js(set, count, 0)
 xip.li##.form-inline:others()
