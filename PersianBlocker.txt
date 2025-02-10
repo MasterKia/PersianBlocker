@@ -2511,6 +2511,7 @@ niksalehi.com##.box-custom.box_other
 ||via.placeholder.com^$domain=nex1music.ir
 @@||nex1music.ir/upload/ads/$image,1p
 
+||namnak.com/statistics/update^$xhr,1p
 namnak.com##aside > div.border-t:has(> div#ads-sidebar-top, > div.backlinks)
 
 ||namakstan.net/wp-content/cache/busting/1/gtm-
