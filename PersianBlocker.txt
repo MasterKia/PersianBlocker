@@ -2118,10 +2118,11 @@ ketabesabz.com##div.white-block:nth-of-type(2)
 kalakamuz.ir##div.main > div.box:has(> p > a[href="http://botsaz.com/"])
 kalakamuz.ir##div.sidebar > div.box:has(div.row:has-text(تبلیغات))
 
-kafebook.ir##.im-header-ad
-kafebook.ir###ribp-float-banner
-kafebook.ir##.container.im-top-ad
-kafebook.ir##.im-entry-top-ad
+! https://github.com/MasterKia/PersianBlocker/pull/288
+kafebook.ir##div.im-header-ad
+kafebook.ir##div.im-top-ad
+kafebook.ir##div.im-entry-top-ad
+kafebook.ir##div.ribp-banners
 
 k2cod.com###table4 > tbody > tr > td > table > tbody > tr > td > center
 k2cod.com##table#table9.bgtable:nth-of-type(13)
