@@ -3685,6 +3685,9 @@ vista.ir##a[href^="/ad/"][target="_blank"]
 vista.ir##a.textad
 
 ! >> W <<
+! https://github.com/MasterKia/PersianBlocker/pull/288
+||ahlolbait.com/ads/script.js^$script,1p
+
 ||gateway.wisgoon.com/services/vast^$xhr,image,1p
 ||imasdk.googleapis.com/js/core/bridge*.html$frame,important,domain=wisgoon.com
 wisgoon.com##div.tb-box
@@ -3720,8 +3723,6 @@ wikihoax.org##.widget_media_image.widget.container-wrapper
 
 webgoo.ir###kaprila_linktable_left
 webgoo.ir##.left-block-top
-
-wiki.ahlolbait.com###wiki_ads_link
 
 ! >> X <<
 xip.li##+js(set, count, 0)
