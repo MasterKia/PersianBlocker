@@ -312,9 +312,8 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 niloblog.com##bloglinkdumpblock
 niloblog.com##bloglinksblock
 
-||nastooh.ir^$3p
 ||analytics.nastooh.ir^
-! Example: sahebkhabar.ir
+! Example: sahebkhabar.ir, TTS on behzisti.ir
 
 ||newswidget.net^
 ||vidomusic.org^
