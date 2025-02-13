@@ -395,6 +395,10 @@ websocket.khanefootball.com
 # >> L <<
 
 # >> M <<
+# Referral links disguised as movie download links
+# https://mediawach. com/introducing-telegram-app-for-mobile-standard-and-premium-versions/
+mediawach.com
+
 sentry.mci.dev
 # On zarebin.ir
 
