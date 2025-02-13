@@ -2168,6 +2168,11 @@ lahzeakhar.com##+js(set, customnotify, noopFunc)
 ! ||lahzeakhar.com/sw.js
 
 ! >> M <<
+! Referral links disguised as movie download links
+! https://mediawach. com/introducing-telegram-app-for-mobile-standard-and-premium-versions/
+||github.com/Rcycc/-$doc
+||mediawach.com^
+
 ||melkana.com/ngx_pagespeed_beacon?url=$xhr,1p
 melkana.com##div.sidebar:style(user-select: text !important;)
 
