@@ -648,4 +648,9 @@ tradergpt.ai
 #-------------------v Malware/Phishing Sites v-----------------#
 mat-pnu.ir
 
+# https://github.com/MasterKia/PersianBlocker/issues/291
+# https://support.google.com/chrome/thread/292146023?hl=en&msgid=292530924
+# https://storage.googleapis.com/support-forums-api/attachment/thread-292146023-803929150591620091.jpg
+androidupdate.download
+
 #-------------------^ Malware/Phishing Sites ^-----------------#
