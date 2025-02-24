@@ -1439,11 +1439,6 @@ enama.ir##div.avdDiv
 
 ! >> F <<
 fontchi.com##+js(href-sanitizer, a[href^="/goto/"], ?url -base64)
-!#if cap_html_filtering
-fontchi.com##^script:has-text(document.body.oncopy)
-!#else
-fontchi.com##+js(rmnt, script, document.body.oncopy)
-!#endif
 
 filmekade.ir##div.banner-ads
 
