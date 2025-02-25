@@ -322,7 +322,7 @@ https://basic.rethinkdns.com
 
 \- [لیست جامع OISD (در نسخه Full)](https://oisd.nl/includedlists/full)
 
-\- لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))
+\- ~~لیست جامع Energized Protection (در نسخه Regional) ([در دست پیگیری](https://github.com/EnergizedProtection/block/pull/926))~~
 
 \- [لیست Iran Hosted Domains](https://github.com/MasterKia/iran-hosted-domains/blob/main/README.fa.md)
 
