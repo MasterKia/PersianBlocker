@@ -4003,6 +4003,10 @@ zoomtech.org##div.zoomtech-banner
 ! https://storage.googleapis.com/support-forums-api/attachment/thread-292146023-803929150591620091.jpg
 ||androidupdate.download^$all
 
+! AdlIran scam
+||159.100.22.89^$all
+||ewpb.site^$all
+
 !-------------------^ Malware/Phishing Sites ^-----------------!
 
 !-------------------------v Warning for video censorship sites v-----------------------!
