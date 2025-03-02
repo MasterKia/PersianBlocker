@@ -653,4 +653,8 @@ mat-pnu.ir
 # https://storage.googleapis.com/support-forums-api/attachment/thread-292146023-803929150591620091.jpg
 androidupdate.download
 
+# AdlIran scam
+159.100.22.89
+ewpb.site
+
 #-------------------^ Malware/Phishing Sites ^-----------------#
