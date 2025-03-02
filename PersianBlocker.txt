@@ -2872,13 +2872,10 @@ soorban.com##div.ecbox:has(div.ads_text, div.text-ads)
 shahrekhabar.com##a[target="_blank"][href*="utm_content=shahrekhabar"] > img[style="margin-top: 0px;margin-bottom: 0px;margin-left: auto;margin-right: auto;"]
 
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3061
-subkade.ir##+js(aeld, click, return"undefined", elements, a.indirect[data-get])
-subkade.ir##+js(set-attr, a.indirect[data-get], href, [data-get])
-subkade.ir##+js(ra, oncontextmenu, a.indirect[data-get])
+subkade.ir##+js(nano-sib, countdown)
+subkade.ir##div.sk-side:has(> div.sk-side-title:has-text(/لینک‌های پیشنهادی|منتخب پیشنهاد امروز|روز/))
+subkade.ir##div.sk-section:has(> div[class*="sponsor-"])
 subkade.ir##html:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-subkade.ir##div.sk-side:has(> div.sk-side-body ul > li > a[href]:is([href="https://49tinymovie.site/"], [href="https://zarfilm.com/"], [href="https://anime-list.net/"]))
-subkade.ir##aside.widget-area > div > div.sk-side:has(> div.sk-side-title > h2:has-text(دانلود فیلم و سریال جدید))
-subkade.ir##aside.widget-area > div > div.sk-side:has(> div.sk-side-title > h2:has-text(لوازم جانبی کامپیوتر و موبایل))
 
 ! https://github.com/MasterKia/PersianBlocker/issues/213
 7sobh.com##div.container-ads
