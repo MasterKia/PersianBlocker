@@ -1710,6 +1710,9 @@ gadgetnews.net##.sticky-ad
 !#endif
 
 ! >> H <<
+! https://github.com/MasterKia/PersianBlocker/issues/292
+hellodigi.ir##div#sp-right > div.sp-column > div.sp-module:has(> h3.sp-module-title:has-text(حامیان ما))
+
 hadese24.ir##div.full-ad-box
 
 ! https://github.com/MasterKia/PersianBlocker/issues/176
