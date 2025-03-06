@@ -2941,8 +2941,9 @@ shanbemag.com##.qxsbniv
 sargarme.com##.ads2
 
 ! https://github.com/MasterKia/PersianBlocker/issues/142
-sariasan.com##.ush_image_2
-sariasan.com##.widget > h3:has-text(مطالب مفید):upward(.widget)
+! https://github.com/MasterKia/PersianBlocker/issues/286
+||sariasan.com/upload/*.gif^$image,1p
+sariasan.com##div.top-banner
 
 ! https://github.com/MasterKia/PersianBlocker/issues/125
 ||sobhtazeh.news/rss-file.php^$xhr
