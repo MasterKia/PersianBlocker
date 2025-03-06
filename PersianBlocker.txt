@@ -2851,6 +2851,10 @@ rastannews.ir##.all_ads
 rajanews.com###block-block-22.ads
 
 ! >> S <<
+! https://github.com/MasterKia/PersianBlocker/issues/289
+safheeghtesad.ir##div.vw_d
+safheeghtesad.ir##div.home_middle4
+
 ||solahangs.com/popup.js^$script,1p
 
 ! https://github.com/MasterKia/PersianBlocker/issues/278
