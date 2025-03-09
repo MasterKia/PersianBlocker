@@ -1855,9 +1855,8 @@ iranjib.ir##div#column3 > table.sidea > tbody > tr:has(> td > div.mybox > h4:has
 ||irannaz.com/ax/*.gif^$image,1p
 irannaz.com##div.CenterBlock:has(> div.Tadsb2)
 
-||itresan.com/wp-content/cache/busting^
-itresan.com###NR-Ads
-itresan.com##.listing-item-blog:has(a[href*="/author/ads/"])
+! https://github.com/MasterKia/PersianBlocker/issues/293
+itresan.com##div.tabligh
 
 ! https://github.com/MasterKia/PersianBlocker/issues/22
 ||cdn.ilna.ir/servev2/*.gif^$image,1p
