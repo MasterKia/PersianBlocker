@@ -2761,6 +2761,8 @@ qnama.ir##div#ads1
 ||sentry.querastaff.ir^
 
 ! >> R <<
+play.radiojavan.com##+js(set, appConfig.skips_limit, 60000)
+
 rebec.ir##+js(aeld, /contextmenu|keydown|dragstart|mousemove/, return"undefined")
 
 ! https://github.com/MasterKia/PersianBlocker/issues/285
