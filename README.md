@@ -259,9 +259,12 @@ https://basic.rethinkdns.com
 
 <details>
   <summary dir="rtl"><h4>⛓ راه‌اندازی در آیفون ⛓</h4></summary>
+اپلیکیشن [Adguard adblock](https://apps.apple.com/us/app/adguard-adblock-privacy/id1047223162) را نصب کنید و از تب دوم (Protection) روی گزینه Safari protection بزنید. سپس گزینه Filters وبعد Language‪-‬specific بزنید و گزینه Persian Blocker را پیدا و فعال کنید. 
+‫(‬درصورت خرید اپ امکان ست کردن Custom Filters هم وجود خواهد داشت ولی اگر فقط از این ریپو استفاده میکنید به آن نیاز پیدا نخواهید کرد.)
+برای فعال‌سازی افزونه داخل مرورگر Safari مطابق آموزش خود ادگارد به اینجا بروید: 
+Settings/Safari/Extensions
+و همه گزینه‌های AdGuard را فعال کنید.
 
-تا جایی که میدونم توی آیفون _هیچ راهی_ برای نصب افزونه‌های مسدودساز در سافاری یا حتی فایرفاکس وجود نداره.  
-  
 </details>
 
 # 🤝 مشارکت
