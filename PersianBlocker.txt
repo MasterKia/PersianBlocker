@@ -2247,9 +2247,6 @@ magbazi.com##div.text_ads_box
 maxstars.ir##a[href="https://www.tarhpardaz.ir"]
 maxstars.ir##a[href="http://www.asalchat.skin"]
 
-! To counter Online Malicious URL Blocklist
-||mehtikahrizi.ir^$badfilter
-
 musickhone.com##+js(nowoif)
 
 my.mci.ir,pwa.mci.ir##+js(set, window.screen.width, 0)
@@ -3546,8 +3543,6 @@ tamin.ir#@#.ads2
 upsara.com##img[alt="ads"]
 upsara.com##div.ads
 
-! To counter Online Malicious URL Blocklist
-||uploadkon.ir^$badfilter
 uploadkon.ir##div.ads
 uploadkon.ir##li.ad-link
 
