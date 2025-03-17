@@ -253,6 +253,9 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||hamravesh.com^$3p
 ||sentry.hamravesh.com^
 ! Example: behtarino.com
+||notifhub.com^
+||hamserver.ir^$3p
+! Example: androidha.com
 
 !  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, 
 !! cdn.hostdl.com/img/p30day.gif, cdn.hostdl.com/banners/asandownload.gif
@@ -811,8 +814,8 @@ androidsharp.com###toshare-dl-link
 
 ariapix.net##.textads
 
-androidha.com##.app_introduce
-androidha.com##.ads_place
+androidha.com##div.download_ad_box
+androidha.com##div.arh_appad
 
 ||static.accpress.com/baner/
 accpress.com###text-25
