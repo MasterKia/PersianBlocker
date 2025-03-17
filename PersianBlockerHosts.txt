@@ -120,6 +120,8 @@ ads.farakav.com
 # >> H <<
 sentry.hamravesh.com
 # Example: behtarino.com
+notifhub.com
+# Example: androidha.com
 
 hantana.org
 
