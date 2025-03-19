@@ -1756,6 +1756,10 @@ hamshahrionline.ir###ads-container > .box > header:has-text(وبگردی):upward
 hamshahrionline.ir#@##ads-container
 
 ! >> I <<
+||ivnanews.ir/storage//photos/*.gif^$image,1p
+ivnanews.ir##div.advertising
+ivnanews.ir##div.responsive-image:has(> a[rel$="sponsored"])
+
 ||iica.ir/images/*.gif^$image,1p
 iica.ir##div.t3-contentwindows1:has(a[target="_blank"] > img[src$=".gif"])
 
@@ -3651,7 +3655,9 @@ virgool.io##div.is-justify-content-flex-end > a#js-register-button + div[style]:
 ! https://github.com/MasterKia/PersianBlocker/pull/15
 vgdl.ir##div#ads__start_of_the_post
 
-*$3p,script,from=vazeh.com,to=sahandpress.ir|jaarchee.ir
+||sahandpress.ir^$script,3p
+! ivnanews.ir, vazeh.com
+||jaarchee.ir^$script,3p
 ||vazeh.com/banners/us/*.gif^$image,1p
 vazeh.com##div.main > div.mainx1 > div:has(> span.side-title:has-text(تبلیغات))
 
