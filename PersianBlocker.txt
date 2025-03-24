@@ -3824,6 +3824,12 @@ zohur12.ir##.sideads
 /editorial/api/articles/*/visit^$xhr,1p,domain=zoomit.ir|zoomg.ir
 zoomit.ir,zoomg.ir,kojaro.com##div[class^="sc-"]:has(> div[class^="sc-"][rowcount][columncount] > div[class^="sc-"][maxwidth][maxheight])
 zoomtech.org##div.zoomtech-banner
+! zoomit.ir/product
+zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit.ir/catalog/store-links/"][href*="/click?url=http"], ?url)
+||api2.zoomit.ir/catalog/api/products/*/visit^$xhr,1p,method=post
+zoomit.ir##div#price div.bg-card:has(> div[role="button"] > div.relative div[variant="subhead"][font-weight="bold"][lineheight="1.6"]):style(opacity: 0.5 !important; filter: blur(0.4px) !important; transition: border .3s ease, opacity .3s ease !important;)
+zoomit.ir##div#price div.bg-card:has(> div[role="button"] > div.relative div[variant="subhead"][font-weight="bold"][lineheight="1.6"]):hover:style(opacity: 1 !important; filter: blur(0) !important;)
+zoomit.ir##div#price div.bg-card:has(> div[role="button"] > div.relative div[variant="subhead"][font-weight="bold"][lineheight="1.6"]):active:style(opacity: 1 !important; filter: blur(0) !important;)
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
 
