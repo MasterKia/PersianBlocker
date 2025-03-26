@@ -1,4 +1,9 @@
+import re
+
 def process_hosts_file(input_file, output_file):
+    # Regular expression to match lines starting with an IP address
+    ip_pattern = re.compile(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')
+
     # Read the local file, remove whitespace, comments, and sort the lines
     with open(input_file, 'r') as file:
         lines = file.readlines()
@@ -7,7 +12,11 @@ def process_hosts_file(input_file, output_file):
     for line in lines:
         # Remove whitespace and comments
         stripped_line = line.strip()
-        if not stripped_line or stripped_line.startswith('#') or stripped_line.startswith('[AdBlock]') or stripped_line.startswith('10.10'):
+        if (not stripped_line or
+            stripped_line.startswith('#') or
+            stripped_line.startswith('[AdBlock]') or
+            stripped_line.startswith('10.10') or
+            ip_pattern.match(stripped_line)):
             continue
         processed_lines.append(stripped_line)
 
@@ -25,4 +34,3 @@ if __name__ == "__main__":
     output_file = "hosts"
     process_hosts_file(input_file, output_file)
     print(f"Processed hosts file saved as {output_file}")
-
