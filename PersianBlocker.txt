@@ -494,6 +494,7 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 
 ! >> Y <<
 ||yelloadwise.ir^
+||ylad.ir^
 
 ||yektanet.com^
 @@||video.cdn.yektanet.com/video-$script,3p,domain=gostaresh.news
