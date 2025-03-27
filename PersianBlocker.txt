@@ -3432,6 +3432,8 @@ player.telewebion.com##+js(json-prune, body.productStatus)
 ||gateway.telewebion.com/broker/api/v1/message/twplayer^$xhr,1p,method=POST
 ||gateway.telewebion.com/broker/api/v1/message/archive^$xhr,1p,method=POST
 ||gateway.telewebion.com/broker/api/v1/message/live^$xhr,1p,method=options|post
+||data.telewebion.com/broker/api/v1/message/vod-player^$xhr,1p,method=post
+||hadeseh.simra.cloud^
 telewebion.com##.rmp-ad-container
 telewebion.com##app-channel div.live-box:style(width: 100% !important;)
 
