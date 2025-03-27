@@ -446,6 +446,7 @@ ad.technews-iran.com
 
 adengine.telewebion.com
 analytics.telewebion.com
+hadeseh.simra.cloud
 
 # >> U <<
 
