@@ -297,6 +297,7 @@ xmlx.lol
 
 # >> Y <<
 yelloadwise.ir
+ylad.ir
 
 yektanet.com
 sentry.yektanet.tech
