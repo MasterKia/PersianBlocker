@@ -596,6 +596,15 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 !-------------------------v Site-Specific Filters v-----------------------!
 
 ! >> A <<
+anesthesianotes.ir##^script[id^="wpcp_"]
+anesthesianotes.ir##body:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+anesthesianotes.ir##^style:has-text(@media print)
+!#if !cap_html_filtering
+anesthesianotes.ir##+js(aopr, nocontext)
+anesthesianotes.ir##+js(acis, disableSelection, reEnable)
+anesthesianotes.ir##style:has-text(@media print):remove()
+!#endif
+
 autosafkar.com##+js(aeld, scroll, return"undefined")
 ||autosafkar.com/app/uploads/*.gif^$image,1p
 
