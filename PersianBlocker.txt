@@ -1454,8 +1454,9 @@ fontchi.com##+js(href-sanitizer, a[href^="/goto/"], ?url -base64)
 
 filmekade.ir##div.banner-ads
 
+! https://github.com/uBlockOrigin/uAssets/issues/27841
+fam.ir##+js(json-prune, props.children.[].props.children.[].props.children.props.advertisment)
 ||analytics.fam.ir^$1p
-||fam.ir/ngx_pagespeed_beacon^$xhr,1p,method=post
 
 fileboro.com##+js(acis, document.onselectstart, killCopy)
 fileboro.com##+js(aopw, document.oncopy)
