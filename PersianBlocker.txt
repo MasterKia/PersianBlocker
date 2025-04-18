@@ -3248,6 +3248,8 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
 
 ! >> T <<
+tajmusics.com##div.th_bnr
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186949
 ||tajrobe.wiki/images/ads^$image,1p
 tajrobe.wiki##div.ads
