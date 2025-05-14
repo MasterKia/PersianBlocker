@@ -782,7 +782,8 @@ aparat.com##div[type="aparat"]:has(> .link)
 aparat.com##.dsp-ad
 aparat.com##.side-ads
 aparat.com##.promote-puls
-! TODO: Check for more possible filters
+! Hide login box obscuring playlist
+aparat.com##.login-box! TODO: Check for more possible filters
 ||ads.asset.aparat.com^
 ||aparatsport.com/sport_ads.xml^$xhr
 ||aparatsport.com/external/romeo^$xhr
