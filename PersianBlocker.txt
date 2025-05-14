@@ -784,6 +784,8 @@ aparat.com##.side-ads
 aparat.com##.promote-puls
 ! Hide login box obscuring playlist
 aparat.com##.login-box! TODO: Check for more possible filters
+! Bypass daily watch limitations
+aparat.com##js+(set-local-storage-item, forceLoginPlayerLimit, $remove$)
 ||ads.asset.aparat.com^
 ||aparatsport.com/sport_ads.xml^$xhr
 ||aparatsport.com/external/romeo^$xhr
