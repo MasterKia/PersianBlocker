@@ -54,3 +54,6 @@ zoomit.ir##div[class][flexdirection][gap][flexwrap][justifycontent]:has(> div[cl
 ||mali3.com/wp-content/uploads/*.gif^
 mali3.com##.sidebar-area:has(> a[href] > img[width="330"][height="150"][alt=""])
 mali3.com##.code-block:has(> a[target="_blank"][rel] > img[alt][width="800"][height="100"])
+
+! web.rubika.ir
+web.rubika.ir##rb-chat-ads-container
