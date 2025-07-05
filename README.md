@@ -1,1 +1,3 @@
-To be filled
+https://t.me/PersianBlocker
+
+https://matrix.to/#/#PersianBlocker:matrix.org
