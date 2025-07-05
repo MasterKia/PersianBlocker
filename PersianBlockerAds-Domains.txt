@@ -1,6 +1,24 @@
+# Title: PersianBlockerAds-Domains
+# Last modified: %timestamp%
+# Expires: 5 days
+# Description: Filters to block ads in Persian websites 
+# License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+# Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+#
+# GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+# GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+# General #
+# ==VVV== #
 adexo.ir
 adverge.ir
 yektanet.com
 mediaad.org
 popupdl.ir
 kaprila.com
+sabavision.com
+
+# Specific #
+# ===VV=== #
+# aparat.com
+dsp.aparat.com
