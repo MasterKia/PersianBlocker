@@ -16,6 +16,9 @@
 ! trustseal.e-rasaneh.ir (e.g. zoomit.ir)
 ||trustseal.e-rasaneh.ir/Trustseal^$method=post
 
+! sentry.sabaidea.cloud (e.g. aparat.com)
+||sentry.sabaidea.cloud^
+
 
 ! Specific !
 ! ===VV=== !
@@ -28,3 +31,4 @@
 
 ! aparat.com
 ||aparat.com/external/romeo/init^
+||aparat.com/gogol^
