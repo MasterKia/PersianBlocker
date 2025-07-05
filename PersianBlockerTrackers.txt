@@ -30,5 +30,5 @@
 ||sentry.theforge.ir^
 
 ! aparat.com
-||aparat.com/external/romeo/init^
+||aparat.com/external/romeo^
 ||aparat.com/gogol^
