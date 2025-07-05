@@ -57,3 +57,6 @@ mali3.com##.code-block:has(> a[target="_blank"][rel] > img[alt][width="800"][hei
 
 ! web.rubika.ir
 web.rubika.ir##rb-chat-ads-container
+
+! web.eitaa.com
+web.eitaa.com##.ads-active
