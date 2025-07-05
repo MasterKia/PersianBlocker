@@ -1,0 +1,32 @@
+! Title: 🔵 PersianBlockerNG 🔵
+! Last modified: %timestamp%
+! Expires: 5 days
+! Description: Filters to block ads in Persian websites 
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+!
+! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+
+!#include PersianBlockerAds.txt
+
+
+!#include PersianBlockerTrackers.txt
+
+
+! !#include PersianBlockerAnnoyances.txt
+
+
+!#if env_mobile
+!#include PersianBlockerMobile.txt
+!#endif
+!#if (adguard && adguard_app_android)
+!#include PersianBlockerMobile.txt
+!#endif
+!#if (adguard && adguard_app_ios)
+!#include PersianBlockerMobile.txt
+!#endif
+!#if (adguard && adguard_ext_android_cb)
+!#include PersianBlockerMobile.txt
+!#endif
