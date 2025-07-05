@@ -60,3 +60,6 @@ web.rubika.ir##rb-chat-ads-container
 
 ! web.eitaa.com
 web.eitaa.com##.ads-active
+
+! web.shad.ir
+web.shad.ir##rb-chat-ads-container
