@@ -21,6 +21,8 @@
 ! blogfa.com (e.g. daylight.blogfa.com)
 ||blogfa.com/a^$script
 
+||sabavision.com^
+
 
 ! Specific !
 ! ===VV=== !
@@ -63,3 +65,6 @@ web.eitaa.com##.ads-active
 
 ! web.shad.ir
 web.shad.ir##rb-chat-ads-container
+
+! aparat.com
+||dsp.aparat.com^
