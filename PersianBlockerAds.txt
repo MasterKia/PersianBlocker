@@ -49,3 +49,8 @@ zoomit.ir##div[class^="__className"]> div[class] > div[class]:has(> div[rowcount
 zoomit.ir##div[class][flexdirection="column"][gap][flexwrap][justifycontent="flex-end"] > div[class][spacing]:has(> div[class][rowcount][columncount] > div[class] > a[target="_blank"][rel="sponsored"])
 ! In-post Ads:
 zoomit.ir##div[class][flexdirection][gap][flexwrap][justifycontent]:has(> div[class][spacing] > div[class][rowcount="1"][columncount] > div[class] > a[target="_blank"][style][href^="https://b2n.ir/"] > img[alt][data-code][loading="lazy"][decoding="async"][data-nimg][style])
+
+! mali3.com
+||mali3.com/wp-content/uploads/*.gif^
+mali3.com##.sidebar-area:has(> a[href] > img[width="330"][height="150"][alt=""])
+mali3.com##.code-block:has(> a[target="_blank"][rel] > img[alt][width="800"][height="100"])
