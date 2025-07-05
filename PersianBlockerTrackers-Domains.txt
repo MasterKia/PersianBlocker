@@ -1,0 +1,30 @@
+# Title: PersianBlockerTrackers-Domains
+# Last modified: %timestamp%
+# Expires: 7 days
+# Description: Filters to block trackers in Persian websites 
+# License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+# Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+#
+# GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+# GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+# General #
+# ==VVV== #
+metrix.ir
+intrack.ir
+
+# trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
+trustseal.e-rasaneh.ir
+
+
+# Specific #
+# ===VV=== #
+# digikala.com
+tracker.digikala.com
+
+# zoomit.ir
+analytics.zoomit.ir
+sentry.theforge.ir
+
+# aparat.com
+aparat.com/external/romeo/init
