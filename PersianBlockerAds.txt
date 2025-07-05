@@ -1,0 +1,51 @@
+! Title: PersianBlockerAds
+! Last modified: %timestamp%
+! Expires: 5 days
+! Description: Filters to block ads in Persian websites 
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+!
+! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+
+! General !
+! ==VVV== !
+||adexo.ir^
+||adverge.ir^
+||yektanet.com^
+||mediaad.org^
+||popupdl.ir^
+||kaprila.com^
+
+! blogfa.com (e.g. daylight.blogfa.com)
+||blogfa.com/a^$script
+
+
+! Specific !
+! ===VV=== !
+! abadis.ir
+||abadis.ir/libs/async/ads.min.js^
+abadis.ir##x
+
+! dlfox.com
+||dlfox.com/wp-content/uploads/*.gif^
+||isarclinic.com^$image,domain=dlfox.com
+||cdkeyshare.ir^$image,domain=dlfox.com
+dlfox.com##.textwidget > a[href="www.dlfox.com"]:has(> img[alt="dlfox"])
+dlfox.com##.ads_area_small_banner p:has(> a[target="_blank"] > img[alt])
+dlfox.com##.home_mid_ads
+dlfox.com##.ADS_wrapper
+dlfox.com##.single_post_banner
+dlfox.com##.banner_small_dlbox_b
+
+! download.ir
+||download.ir/wp-content/uploads/*.gif^
+
+! zoomit.ir
+! Header Ads:
+zoomit.ir##div[class^="__className"]> div[class] > div[class]:has(> div[rowcount="1"][columncount="1"] > div[class] > a[target="_blank"][rel="sponsored"])
+! Sidebar Ads:
+zoomit.ir##div[class][flexdirection="column"][gap][flexwrap][justifycontent="flex-end"] > div[class][spacing]:has(> div[class][rowcount][columncount] > div[class] > a[target="_blank"][rel="sponsored"])
+! In-post Ads:
+zoomit.ir##div[class][flexdirection][gap][flexwrap][justifycontent]:has(> div[class][spacing] > div[class][rowcount="1"][columncount] > div[class] > a[target="_blank"][style][href^="https://b2n.ir/"] > img[alt][data-code][loading="lazy"][decoding="async"][data-nimg][style])
