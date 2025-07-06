@@ -11,14 +11,18 @@
 ! Ads:
 !#include PersianBlockerAds.txt
 
+
 ! Trackers:
 !#include PersianBlockerTrackers.txt
+
 
 ! Annoyances (Disabled):
 ! !#include PersianBlockerAnnoyances.txt
 
+
 ! Video Censorship:
 !#include PersianBlockerCensor.txt
+
 
 ! Mobile (Firefox Android, Cromite, AdGuard for Android, AdGuard for iOS, AdGuard for Safari, Samsung Internet)
 !#if env_mobile
