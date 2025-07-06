@@ -30,3 +30,9 @@ sentry.theforge.ir
 
 # aparat.com
 aparat.com/external/romeo/init
+
+# telewebion.com
+hadeseh.telewebion.com
+
+# alaatv.com
+sentry.alaatv.com
