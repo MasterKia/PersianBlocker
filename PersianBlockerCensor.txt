@@ -1,1 +1,22 @@
+! Title: PersianBlockerCensor
+! Last modified: %timestamp%
+! Expires: 7 days
+! Description: Filters to block video censorship in Persian websites 
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+!
+! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
+! General !
+! ==VVV== !
+
+
+! Specific !
+! ===VV=== !
+! doostihaa.com ("نسخه اول دوبله فارسی سانسور شده")
+www.google.com##a[href*="doostihaa.com/"] > h3::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+www.bing.com##a[href*="doostihaa.com/"][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]::before:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
+duckduckgo.com##a[href*="doostihaa.com/"][data-testid="result-title-a"]::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+search.brave.com##a[href*="doostihaa.com/"][class$="heading-serpresult"]::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+zarebin.ir##a[href*="doostihaa.com/"][class^="!text-link"]::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
