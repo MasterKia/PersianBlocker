@@ -77,3 +77,6 @@ sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 
 ! telewebion.com
 ||adengine.telewebion.com^
+
+! digikala.com
+www.digikala.com##article:has(> .items-center .mr-auto > .mr-1 > svg[style="width: 14px; height: 14px; fill: var(--color-ad);"]) .text-neutral-500::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;)
