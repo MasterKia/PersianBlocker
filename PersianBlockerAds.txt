@@ -71,3 +71,9 @@ web.shad.ir##rb-chat-ads-container
 
 ! nazriyab.app
 nazriyab.app##.header-ex
+
+! sheypoor.com
+sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
+
+! telewebion.com
+||adengine.telewebion.com^
