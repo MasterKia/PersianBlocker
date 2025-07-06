@@ -32,3 +32,10 @@
 ! aparat.com
 ||aparat.com/external/romeo^
 ||aparat.com/gogol^
+
+! telewebion.com
+||hadeseh.telewebion.com^
+||data.telewebion.com/broker/api/v1/message/page-view^
+
+! alaatv.com
+||sentry.alaatv.com^
