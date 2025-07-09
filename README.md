@@ -34,7 +34,9 @@ uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker 
 
 ***
 
-## <a name="AdGuard"></a> AdGuard
+<h1 align="center">
+<a name="AdGuard"></a> AdGuard
+</h1>
 
 AdGuard is a fast and lightweight ad blocking browser extension that effectively blocks all types of ads and trackers on all web pages. We focus on advanced privacy protection features to not just block known trackers, but prevent web sites from building your shadow profile. Unlike its standalone counterparts (AG for Windows, Mac), the browser extension is completely free and open source. You can learn more about [the difference](https://adguard.com/compare.html) here.
 
@@ -60,7 +62,9 @@ The latest stable version of AdGuard browser extension is available in
 
 ***
 
-## AdGuard for Windows
+<h1 align="center">
+<a name="AdGuard"></a> AdGuard for Windows
+</h1>
 
 AdGuard for Windows will not only block all types of ads in any browser and application,
 but also offers the highest level of online privacy protection.
@@ -69,7 +73,9 @@ To get more information and to download AdGuard for Windows, visit our website h
 
 ***
 
-## AdGuard for Android
+<h1 align="center">
+<a name="AdGuard"></a> AdGuard for Android
+</h1>
 
 AdGuard for Android is a unique tool that blocks ads in apps and browsers even without ROOT privileges, protects your privacy, and helps you manage your apps. AdGuard gives you options of running it either VPN or HTTP proxy mode and allows to set up custom DNS settings (with DNSCrypt support).
 
@@ -77,13 +83,17 @@ To get more information and to download AdGuard for Android, visit our website h
 
 ***
 
-## AdGuard for iOS
+<h1 align="center">
+<a name="AdGuard"></a> AdGuard for iOS
+</h1>
 
 AdGuard for iOS is an app that blocks ads in Safari browser at exceptional level, and also provides additional Premium features like configurable DNS settings, encrypted DNS support (DOH, DOT, DNSCrypt), and custom ad blocking subscriptions. To get more information and to download AdGuard for iOS, visit our website.
 
 ***
 
-## AdGuard for Safari
+<h1 align="center">
+<a name="AdGuard"></a> AdGuard for Safari
+</h1>
 
 Ad blocking extensions for Safari are having hard time since Apple [started to force everyone](https://adguard.com/en/blog/safari-adblock-extensions/) to use the new SDK. AdGuard extension is supposed to bring back the high quality ad blocking back to Safari.
 
@@ -100,7 +110,9 @@ AdGuard for Safari is based on the Safari native content blocking API, which mak
 
 ***
 
-## AdGuard for Mac
+<h1 align="center">
+<a name="AdGuard"></a> AdGuard for Mac
+</h1>
 
 With all above said, there is a solution that is even more effective than AG Safari extension. I mean, of course, [AdGuard for Mac](https://adguard.com/adguard-mac/overview.html). It can:
 
@@ -112,7 +124,10 @@ You can [try it out for free](https://adguard.com/en/download.html?os=mac&show=1
 
 ***
 
-## Rethink DNS + Firewall + VPN for Android
+<h1 align="center">
+<a name="AdGuard"></a> Rethink DNS + Firewall + VPN for Android
+</h1>
+
 A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS client with blocklists.
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
