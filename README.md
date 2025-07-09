@@ -51,8 +51,6 @@ The latest stable version of AdGuard browser extension is available in
 
 ***
 
-***
-
 ## Rethink DNS + Firewall + VPN for Android
 A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS client with blocklists.
 
