@@ -16,6 +16,8 @@
 uBlock Origin (uBO)
 </h1>
 
+uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker for Chromium and Firefox. It blocks ads, trackers, coin miners, popups, annoying anti-blockers, malware sites, etc., by default using EasyList, EasyPrivacy, Peter Lowe's Blocklist, Online Malicious URL Blocklist, and uBO filter lists. There are many other lists available to block even more. Hosts files are also supported. uBO uses the EasyList filter syntax and extends the syntax to work with custom rules and filters.
+
 | Browser   | Install from ... | Status |
 | :-------: | ---------------- | ------ |
 | <img src="https://github.com/user-attachments/assets/b0136512-56a5-4856-8c50-4971c957a24f" alt="Get uBlock Origin for Firefox"> | <a href="https://addons.mozilla.org/addon/ublock-origin/">Firefox Add-ons</a> | [uBO works best on Firefox](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox) |
@@ -27,6 +29,8 @@ uBlock Origin (uBO)
 ***
 
 ## <a name="AdGuard"></a> AdGuard
+
+AdGuard is a fast and lightweight ad blocking browser extension that effectively blocks all types of ads and trackers on all web pages. We focus on advanced privacy protection features to not just block known trackers, but prevent web sites from building your shadow profile. Unlike its standalone counterparts (AG for Windows, Mac), the browser extension is completely free and open source. You can learn more about [the difference](https://adguard.com/compare.html) here.
 
 ### <a name="installation-chrome"></a> Chrome and Chromium-based browsers
 
