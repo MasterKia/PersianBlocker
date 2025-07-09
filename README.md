@@ -52,6 +52,32 @@ You can get AdGuard Extension [from there](https://agrd.io/extension_opera).
 The latest stable version of AdGuard browser extension is available in
 [Microsoft Store](https://agrd.io/extension_edge).
 
+***
+
+## AdGuard for Safari
+
+Ad blocking extensions for Safari are having hard time since Apple [started to force everyone](https://adguard.com/en/blog/safari-adblock-extensions/) to use the new SDK. AdGuard extension is supposed to bring back the high quality ad blocking back to Safari.
+
+Unlike other major ad blockers, AdGuard provides some extra features you are used to have with the traditional (now deprecated) extensions:
+
+* Managing protection from Safari
+* Choose among popular filter subscription
+* Custom filters
+* Creating your own filtering rules
+* Manual blocking tool
+* Allowlisting websites
+
+AdGuard for Safari is based on the Safari native content blocking API, which makes it lightning fast, but somewhat limited in capabilities. For instance, Safari limits the number of rules a content blocker can have.
+
+## Better yet, there is a full-fledged AdGuard for Mac
+
+With all above said, there is a solution that is even more effective than AG Safari extension. I mean, of course, [AdGuard for Mac](https://adguard.com/adguard-mac/overview.html). It can:
+
+* filter your traffic in all browsers and apps on your Mac
+* have an unlimited number of filter rules
+* provide a better filtering quality (due to the lack of browser API restrictions)
+
+You can [try it out for free](https://adguard.com/en/download.html?os=mac&show=1).
 
 ***
 
