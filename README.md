@@ -1,4 +1,8 @@
-[![Please don't upload to GitHub](https://nogithub.codeberg.page/badge.svg)](https://nogithub.codeberg.page)     [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)    ![GitHub Repo stars](https://img.shields.io/github/stars/MasterKia/PersianBlocker?style=social&logo=github&label=Stars)          
+[![Please don't upload to GitHub](https://nogithub.codeberg.page/badge.svg)](https://nogithub.codeberg.page)
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/MasterKia/PersianBlocker?style=social&logo=github&label=Stars)          
 
 [![jsDelivr Stats](https://data.jsdelivr.com/v1/package/gh/MasterKia/PersianBlocker/badge)](https://www.jsdelivr.com/package/gh/MasterKia/PersianBlocker)
 
