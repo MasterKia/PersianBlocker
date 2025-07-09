@@ -60,6 +60,29 @@ The latest stable version of AdGuard browser extension is available in
 
 ***
 
+## AdGuard for Windows
+
+AdGuard for Windows will not only block all types of ads in any browser and application,
+but also offers the highest level of online privacy protection.
+
+To get more information and to download AdGuard for Windows, visit our website https://adguard.com/.
+
+***
+
+## AdGuard for Android
+
+AdGuard for Android is a unique tool that blocks ads in apps and browsers even without ROOT privileges, protects your privacy, and helps you manage your apps. AdGuard gives you options of running it either VPN or HTTP proxy mode and allows to set up custom DNS settings (with DNSCrypt support).
+
+To get more information and to download AdGuard for Android, visit our website https://adguard.com/.
+
+***
+
+## AdGuard for iOS
+
+AdGuard for iOS is an app that blocks ads in Safari browser at exceptional level, and also provides additional Premium features like configurable DNS settings, encrypted DNS support (DOH, DOT, DNSCrypt), and custom ad blocking subscriptions. To get more information and to download AdGuard for iOS, visit our website.
+
+***
+
 ## AdGuard for Safari
 
 Ad blocking extensions for Safari are having hard time since Apple [started to force everyone](https://adguard.com/en/blog/safari-adblock-extensions/) to use the new SDK. AdGuard extension is supposed to bring back the high quality ad blocking back to Safari.
@@ -75,7 +98,9 @@ Unlike other major ad blockers, AdGuard provides some extra features you are use
 
 AdGuard for Safari is based on the Safari native content blocking API, which makes it lightning fast, but somewhat limited in capabilities. For instance, Safari limits the number of rules a content blocker can have.
 
-## Better yet, there is a full-fledged AdGuard for Mac
+***
+
+## AdGuard for Mac
 
 With all above said, there is a solution that is even more effective than AG Safari extension. I mean, of course, [AdGuard for Mac](https://adguard.com/adguard-mac/overview.html). It can:
 
