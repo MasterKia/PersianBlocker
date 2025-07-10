@@ -4,6 +4,8 @@
 
 [![GNU - GNU Project](https://img.shields.io/badge/GNU-Free_Software-red)](https://www.gnu.org/)          [![Donate to GNU](https://img.shields.io/badge/Donate%20to%20GNU-%23FF4500?style=flat)](https://www.gnu.org/donate)
 
+[![Support Stallman](https://img.shields.io/badge/Support-Stallman-yellow?style=flat-square)](https://stallmansupport.org)
+
      
 [![Please don't upload to GitHub](https://nogithub.codeberg.page/badge.svg)](https://nogithub.codeberg.page)
 
