@@ -19,6 +19,9 @@
 ! sentry.sabaidea.cloud (e.g. aparat.com)
 ||sentry.sabaidea.cloud^
 
+! Google Account Login (e.g. gama.ir)
+||accounts.google.com/gsi^$~script,from=ir
+
 
 ! Specific !
 ! ===VV=== !
