@@ -1,6 +1,6 @@
 <h1 align="center">
 
-[![FSF - Free Software](https://img.shields.io/badge/FSF-Free_Software-brightgreen)](https://www.fsf.org/)          [![Donate to FSF](https://img.shields.io/badge/Donate%20to%20GNU-%234E9A06?style=flat)](https://www.fsf.org/donate) 
+[![FSF - Free Software](https://img.shields.io/badge/FSF-Free_Software-brightgreen)](https://www.fsf.org/)          [![Donate to FSF](https://img.shields.io/badge/Donate%20to%20FSF-%234E9A06?style=flat)](https://www.fsf.org/donate) 
 
 [![GNU - GNU Project](https://img.shields.io/badge/GNU-Free_Software-red)](https://www.gnu.org/)          [![Donate to GNU](https://img.shields.io/badge/Donate%20to%20GNU-%23FF4500?style=flat)](https://www.gnu.org/donate)
 
