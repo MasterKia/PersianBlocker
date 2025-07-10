@@ -1,6 +1,6 @@
 <h1 align="center">
 
-[![FSF - Free Software](https://img.shields.io/badge/FSF-Free_Software-brightgreen)](https://www.fsf.org/)          [![Donate to FSF](https://img.shields.io/badge/Donate%20to%20FSF-%234E9A06?style=flat)](https://www.fsf.org/donate) 
+[![FSF - Free Software Foundation](https://img.shields.io/badge/FSF-Free_Software-brightgreen)](https://www.fsf.org/)          [![Donate to FSF](https://img.shields.io/badge/Donate%20to%20FSF-%234E9A06?style=flat)](https://www.fsf.org/donate) 
 
 [![GNU - GNU Project](https://img.shields.io/badge/GNU-Free_Software-red)](https://www.gnu.org/)          [![Donate to GNU](https://img.shields.io/badge/Donate%20to%20GNU-%23FF4500?style=flat)](https://www.gnu.org/donate)
 
@@ -161,5 +161,24 @@ In other words, Rethink DNS + Firewall has three primary modes, VPN, DNS, and Fi
 ![4](https://github.com/celzero/rethink-app/assets/56958445/a2032d44-f07c-45e9-801b-7abe0cac0ead)
 ![5](https://github.com/celzero/rethink-app/assets/56958445/b9973e69-d45e-4be9-bd42-b80fb2768ec5)
 
+
+***
+
+<h1 align="center">
+V2RayAggregator
+</h1>
+
+The automation functions of this repository are all implemented based on `GitHub Actions`
+
+Test the speed of each free node pool on the network and the nodes shared by bloggers to screen out relatively stable and high-speed nodes, and then import them into the warehouse for sharing records.
+
+The speed measurement function is implemented in the `GitHub Actions` environment using [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest), so there are many nodes in the United States, which cannot well represent the node availability in the domestic network environment.
+
+## Features
+- Lots of sources 😯
+- Remove all duplicate nodes 🤤
+- Providing nodes in major formats (YAML, clash, v2ray, base64) 🦋
+- No additional conversion to prevent breaking the nodes 🌿
+- Filtering best nodes by testing them and sorting them based on their average speed 🍀
 
 ***
