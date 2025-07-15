@@ -2,7 +2,7 @@
 
 [![FSF - Free Software Foundation](https://img.shields.io/badge/FSF-Free_Software_Foundation-brightgreen)](https://www.fsf.org/)          [![Donate to FSF](https://img.shields.io/badge/Donate%20to%20FSF-%234E9A06?style=flat)](https://www.fsf.org/donate) 
 
-[![GNU - GNU Project](https://img.shields.io/badge/GNU-GNU_Operating_System-red)](https://www.gnu.org/)          [![Donate to GNU](https://img.shields.io/badge/Donate%20to%20GNU-%23FF4500?style=flat)](https://www.gnu.org/donate)
+[![GNU - GNU Project](https://img.shields.io/badge/GNU-GNU/Linux_Operating_System-red)](https://www.gnu.org/)          [![Donate to GNU](https://img.shields.io/badge/Donate%20to%20GNU-%23FF4500?style=flat)](https://www.gnu.org/donate)
 
 [![Support Stallman](https://img.shields.io/badge/Support-Stallman-yellow?style=flat-square)](https://stallmansupport.org)
 
