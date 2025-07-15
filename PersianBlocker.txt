@@ -3850,6 +3850,9 @@ zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit
 zoomit.ir##div#price div.bg-card:has(> div[role="button"] > div.relative div[variant="subhead"][font-weight="bold"][lineheight="1.6"]):style(opacity: 0.5 !important; filter: blur(0.4px) !important; transition: border .3s ease, opacity .3s ease !important;)
 zoomit.ir##div#price div.bg-card:has(> div[role="button"] > div.relative div[variant="subhead"][font-weight="bold"][lineheight="1.6"]):hover:style(opacity: 1 !important; filter: blur(0) !important;)
 zoomit.ir##div#price div.bg-card:has(> div[role="button"] > div.relative div[variant="subhead"][font-weight="bold"][lineheight="1.6"]):active:style(opacity: 1 !important; filter: blur(0) !important;)
+! Zoomit.ir - Remove paid links & divider
+www.zoomit.ir##:xpath(//a[starts-with(@href, "https://www.zoomit.ir/pr/")])
+www.zoomit.ir##:xpath(//a[starts-with(@href, "https://www.zoomit.ir/pr/")]/following-sibling::div[contains(@class, "bg-borderPrimary")][1])
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
 
