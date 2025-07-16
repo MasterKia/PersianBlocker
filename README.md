@@ -1,5 +1,16 @@
-<h1 align="center">
+<h4 align="center">
+     
+> “Trust me, sweetheart, donating now is a hell of a lot cheaper than paying for your own damned soul later.” — John Constantine (probably)
 
+[![Donate XMR](https://img.shields.io/badge/Donate-XMR-FFA500?style=flat&logo=monero)](monero:82XUSZ3q2zpSt89HLhpSRGVD72Jf8vrfhjgijBFmDbgX26M9HgeAou2dQ8mqi3eoUAXWYNLorrgHNCH15oZDSuznMcZQeWr)
+
+
+`82XUSZ3q2zpSt89HLhpSRGVD72Jf8vrfhjgijBFmDbgX26M9HgeAou2dQ8mqi3eoUAXWYNLorrgHNCH15oZDSuznMcZQeWr`
+
+</h3>
+
+<h1 align="center">
+     
 [![FSF - Free Software Foundation](https://img.shields.io/badge/FSF-Free_Software_Foundation-brightgreen)](https://www.fsf.org/)          [![Donate to FSF](https://img.shields.io/badge/Donate%20to%20FSF-%234E9A06?style=flat)](https://www.fsf.org/donate) 
 
 [![GNU - GNU Project](https://img.shields.io/badge/GNU-GNU/Linux_Operating_System-red)](https://www.gnu.org/)          [![Donate to GNU](https://img.shields.io/badge/Donate%20to%20GNU-%23FF4500?style=flat)](https://www.gnu.org/donate)
@@ -17,7 +28,6 @@
 
 
 [![Telegram Group](https://img.shields.io/endpoint?color=neon&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FPersianBlocker)](https://telegram.dog/PersianBlocker)         [![Matrix](https://img.shields.io/matrix/PersianBlocker%3Amatrix.org?server_fqdn=matrix.org&style=flat&logo=matrix)](https://matrix.to/#/#PersianBlocker:matrix.org)
-
 
 </h1>
 
