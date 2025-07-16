@@ -21,3 +21,7 @@ dlfox.com##ul.blog_list
 ||download.ir/wp-content/uploads/2022/10/Hostiran-ads.jpg^
 download.ir###kaprila_linktable
 download.ir##.parsi-ads
+
+! digikala.com (e.g. digikala.com/mag/)
+digikala.com##.dkmag-plp-wrapper
+digikala.com##.product-cta-wrapper
