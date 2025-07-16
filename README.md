@@ -213,5 +213,24 @@ EnergizedProtection
 
 Related link: https://github.com/EnergizedProtection/block/issues/1042
 
+The Energized Protection system is a powerful and flexible solution designed to shield your devices from ads, trackers, and malware—no matter what operating system you use. By combining protection packs from trusted sources, it ensures a secure browsing experience across all platforms, including Windows, macOS, Linux, and mobile devices. Whether you're on a phone, laptop, or desktop, Energized Protection provides seamless, reliable security to keep your digital experience smooth and secure.
+
+***
+
+<h1 align="center">
+FilterLists.com
+</h1>
+
+Related link: https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist
+
+***
+
+<h1 align="center">
+V2RayGen/XRayGen
+</h1>
+
+A Fast and Automated Script for XRay/V2Ray Server Setup.
+
+Related link: https://github.com/SonyaCore/V2RayGen?tab=readme-ov-file#block-list-sources
 
 ***
