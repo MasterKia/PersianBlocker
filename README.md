@@ -174,7 +174,7 @@ In other words, Rethink DNS + Firewall has three primary modes, VPN, DNS, and Fi
 V2RayAggregator
 </h1>
 
-Related link: https://github.com/mahdibland/V2RayAggregator/commit/75e1ae0c58614525dc3fb97e476c4942797030ca
+Related link: https://github.com/mahdibland/V2RayAggregator?tab=readme-ov-file#credit
 
 The automation functions of this repository are all implemented based on `GitHub Actions`
 
