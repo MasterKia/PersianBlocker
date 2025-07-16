@@ -225,7 +225,7 @@ Related link: https://github.com/SonyaCore/V2RayGen?tab=readme-ov-file#block-lis
 
 ***
 <h1 align="center">
-Brave browser
+Brave Browser
 </h1>
 
 Related link: https://github.com/brave/adblock-resources/blob/50d0a69fbfbe6e2f0a50b6e1535a32b6e853688a/filter_lists/list_catalog.json#L682-L698
