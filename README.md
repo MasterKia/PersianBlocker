@@ -37,7 +37,7 @@
 uBlock Origin (uBO)
 </h1>
 
-Commit link: https://github.com/uBlockOrigin/uAssets/discussions/13259
+Related link: https://github.com/uBlockOrigin/uAssets/discussions/13259
 
 uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker for Chromium and Firefox. It blocks ads, trackers, coin miners, popups, annoying anti-blockers, malware sites, etc., by default using EasyList, EasyPrivacy, Peter Lowe's Blocklist, Online Malicious URL Blocklist, and uBO filter lists. There are many other lists available to block even more. Hosts files are also supported. uBO uses the EasyList filter syntax and extends the syntax to work with custom rules and filters.
 
@@ -55,7 +55,7 @@ uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker 
 <a name="AdGuard"></a> AdGuard
 </h1>
 
-Commit link: ...
+Related link: ...
 
 AdGuard is a fast and lightweight ad blocking browser extension that effectively blocks all types of ads and trackers on all web pages. We focus on advanced privacy protection features to not just block known trackers, but prevent web sites from building your shadow profile. Unlike its standalone counterparts (AG for Windows, Mac), the browser extension is completely free and open source. You can learn more about [the difference](https://adguard.com/compare.html) here.
 
@@ -147,7 +147,7 @@ You can [try it out for free](https://adguard.com/en/download.html?os=mac&show=1
 <a name="AdGuard"></a> Rethink DNS + Firewall + VPN for Android
 </h1>
 
-Commit link: https://github.com/celzero/rethink-app/issues/569
+Related link: https://github.com/celzero/rethink-app/issues/569
 
 A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS client with blocklists.
 
@@ -174,7 +174,7 @@ In other words, Rethink DNS + Firewall has three primary modes, VPN, DNS, and Fi
 V2RayAggregator
 </h1>
 
-Commit link: https://github.com/mahdibland/V2RayAggregator/commit/75e1ae0c58614525dc3fb97e476c4942797030ca
+Related link: https://github.com/mahdibland/V2RayAggregator/commit/75e1ae0c58614525dc3fb97e476c4942797030ca
 
 The automation functions of this repository are all implemented based on `GitHub Actions`
 
@@ -195,7 +195,7 @@ The speed measurement function is implemented in the `GitHub Actions` environmen
 Chocolate4U
 </h1>
 
-Commit link: https://github.com/Chocolate4U/Iran-v2ray-rules/blob/release/ads.txt
+Related link: https://github.com/Chocolate4U/Iran-v2ray-rules/blob/release/ads.txt
 
 This is an Enhanced and All-in-One set of geo-location routing files optimized for Iranian users to use in v2ray/xray/Clash/Clash.Meta/sing-box and all their compatible clients.
 
@@ -204,5 +204,14 @@ This is an Enhanced and All-in-One set of geo-location routing files optimized f
 :bulb: For Clash geolocation rules please refer to [Iran Clash Rules](https://github.com/Chocolate4U/Iran-clash-rules)
 
 :bulb: For Clash geolocation rules please refer to [Iran V2Ray Rules](https://github.com/Chocolate4U/Iran-v2ray-rules)
+
+***
+
+<h1 align="center">
+EnergizedProtection
+</h1>
+
+Related link: https://github.com/EnergizedProtection/block/issues/1042
+
 
 ***
