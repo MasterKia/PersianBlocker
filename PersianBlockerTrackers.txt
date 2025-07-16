@@ -42,3 +42,8 @@
 
 ! alaatv.com
 ||sentry.alaatv.com^
+
+! divar.ir
+||api.divar.ir/v8/actionlog^
+||api.divar.ir/v1/client-exporter/send-report^
+||sentry.divar.cloud^
