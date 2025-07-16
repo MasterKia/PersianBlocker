@@ -80,3 +80,14 @@ sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 
 ! digikala.com
 www.digikala.com##article:has(> .items-center .mr-auto > .mr-1 > svg[style="width: 14px; height: 14px; fill: var(--color-ad);"]) .text-neutral-500::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;)
+
+! jobinja.ir
+jobinja.ir##body:style(cursor: unset !important;)
+jobinja.ir##.c-forceToLogin__overlay
+jobinja.ir##.c-forceToLogin__message
+jobinja.ir##.c-forceToLogin__content:style(filter: none !important; -webkit-filter: none !important; opacity:1 !important;)
+
+! divar.ir
+||api.divar.ir/v8/ad-auction^
+||a-banners.divarcdn.com/ssp/ads^
+divar.ir##.kt-inset-banner
