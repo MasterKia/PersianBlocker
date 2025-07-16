@@ -91,3 +91,11 @@ jobinja.ir##.c-forceToLogin__content:style(filter: none !important; -webkit-filt
 ||api.divar.ir/v8/ad-auction^
 ||a-banners.divarcdn.com/ssp/ads^
 divar.ir##.kt-inset-banner
+
+! farsroid.com
+farsroid.com##.site-top-nav > .grid-row > li > a[rel="dofollow"][target="_blank"]
+farsroid.com##.farsroid-ads
+farsroid.com##.single-text-ads
+farsroid.com##.labeled-dw-ads
+farsroid.com##.ads-download
+farsroid.com##.ads-dashed-banner
