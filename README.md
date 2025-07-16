@@ -147,7 +147,7 @@ You can [try it out for free](https://adguard.com/en/download.html?os=mac&show=1
 <a name="AdGuard"></a> Rethink DNS + Firewall + VPN for Android
 </h1>
 
-Commit link: ...
+Commit link: https://github.com/celzero/rethink-app/issues/569
 
 A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS client with blocklists.
 
