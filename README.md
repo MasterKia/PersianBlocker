@@ -168,6 +168,8 @@ In other words, Rethink DNS + Firewall has three primary modes, VPN, DNS, and Fi
 V2RayAggregator
 </h1>
 
+Commit link: https://github.com/mahdibland/V2RayAggregator/commit/75e1ae0c58614525dc3fb97e476c4942797030ca
+
 The automation functions of this repository are all implemented based on `GitHub Actions`
 
 Test the speed of each free node pool on the network and the nodes shared by bloggers to screen out relatively stable and high-speed nodes, and then import them into the warehouse for sharing records.
@@ -186,6 +188,8 @@ The speed measurement function is implemented in the `GitHub Actions` environmen
 <h1 align="center">
 Chocolate4U
 </h1>
+
+Commit link: https://github.com/Chocolate4U/Iran-v2ray-rules/blob/release/ads.txt
 
 This is an Enhanced and All-in-One set of geo-location routing files optimized for Iranian users to use in v2ray/xray/Clash/Clash.Meta/sing-box and all their compatible clients.
 
