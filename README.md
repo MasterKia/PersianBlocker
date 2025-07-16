@@ -21,13 +21,6 @@
 
 </h1>
 
-
-
-
-
-
-
-
 ***
 
 <h1 align="center">
@@ -55,7 +48,7 @@ uBlock Origin (uBO) is a CPU and memory-efficient wide-spectrum content blocker 
 <a name="AdGuard"></a> AdGuard
 </h1>
 
-Related link: ...
+Related link: https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/ThirdParty/filter_235_PersianBlocker
 
 AdGuard is a fast and lightweight ad blocking browser extension that effectively blocks all types of ads and trackers on all web pages. We focus on advanced privacy protection features to not just block known trackers, but prevent web sites from building your shadow profile. Unlike its standalone counterparts (AG for Windows, Mac), the browser extension is completely free and open source. You can learn more about [the difference](https://adguard.com/compare.html) here.
 
@@ -206,7 +199,6 @@ This is an Enhanced and All-in-One set of geo-location routing files optimized f
 :bulb: For Clash geolocation rules please refer to [Iran V2Ray Rules](https://github.com/Chocolate4U/Iran-v2ray-rules)
 
 ***
-
 <h1 align="center">
 EnergizedProtection
 </h1>
@@ -216,7 +208,6 @@ Related link: https://github.com/EnergizedProtection/block/issues/1042
 The Energized Protection system is a powerful and flexible solution designed to shield your devices from ads, trackers, and malware—no matter what operating system you use. By combining protection packs from trusted sources, it ensures a secure browsing experience across all platforms, including Windows, macOS, Linux, and mobile devices. Whether you're on a phone, laptop, or desktop, Energized Protection provides seamless, reliable security to keep your digital experience smooth and secure.
 
 ***
-
 <h1 align="center">
 FilterLists.com
 </h1>
@@ -224,7 +215,6 @@ FilterLists.com
 Related link: https://filterlists.com/lists/persianblocker-official-regional-persianiranian-domains-and-cosmetic-blocklist
 
 ***
-
 <h1 align="center">
 V2RayGen/XRayGen
 </h1>
@@ -233,4 +223,10 @@ A Fast and Automated Script for XRay/V2Ray Server Setup.
 
 Related link: https://github.com/SonyaCore/V2RayGen?tab=readme-ov-file#block-list-sources
 
+***
+<h1 align="center">
+Brave browser
+</h1>
+
+Related link: https://github.com/brave/adblock-resources/blob/50d0a69fbfbe6e2f0a50b6e1535a32b6e853688a/filter_lists/list_catalog.json#L682-L698
 ***
