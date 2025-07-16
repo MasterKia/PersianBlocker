@@ -4,9 +4,6 @@
 
 [![Donate XMR](https://img.shields.io/badge/Donate-XMR-FFA500?style=flat&logo=monero)](monero:82XUSZ3q2zpSt89HLhpSRGVD72Jf8vrfhjgijBFmDbgX26M9HgeAou2dQ8mqi3eoUAXWYNLorrgHNCH15oZDSuznMcZQeWr?recipient_name=Kia&tx_description=PersianBlocker)
 
-[]()
-
-
 `82XUSZ3q2zpSt89HLhpSRGVD72Jf8vrfhjgijBFmDbgX26M9HgeAou2dQ8mqi3eoUAXWYNLorrgHNCH15oZDSuznMcZQeWr`
 
 </h3>
