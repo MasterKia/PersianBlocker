@@ -182,3 +182,17 @@ The speed measurement function is implemented in the `GitHub Actions` environmen
 - Filtering best nodes by testing them and sorting them based on their average speed 🍀
 
 ***
+
+<h1 align="center">
+Chocolate4U
+</h1>
+
+This is an Enhanced and All-in-One set of geo-location routing files optimized for Iranian users to use in v2ray/xray/Clash/Clash.Meta/sing-box and all their compatible clients.
+
+:bulb: For Sing-Box geolocation rules please refer to [Iran Sing-Box Rules](https://github.com/Chocolate4U/Iran-sing-box-rules)
+
+:bulb: For Clash geolocation rules please refer to [Iran Clash Rules](https://github.com/Chocolate4U/Iran-clash-rules)
+
+:bulb: For Clash geolocation rules please refer to [Iran V2Ray Rules](https://github.com/Chocolate4U/Iran-v2ray-rules)
+
+***
