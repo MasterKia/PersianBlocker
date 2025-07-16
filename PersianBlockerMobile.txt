@@ -1,1 +1,18 @@
+! Title: PersianBlockerMobile
+! Last modified: %timestamp%
+! Expires: 5 days
+! Description: Filters to block ads in Persian websites on mobile browsers
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+!
+! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
+
+! General !
+! ==VVV== !
+
+! Specific !
+! ===VV=== !
+! farsroid.com
+farsroid.com###ma_top_alert
