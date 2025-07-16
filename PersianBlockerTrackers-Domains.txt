@@ -36,3 +36,6 @@ hadeseh.telewebion.com
 
 # alaatv.com
 sentry.alaatv.com
+
+# divar.ir 
+sentry.divar.cloud
