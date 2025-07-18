@@ -30,3 +30,6 @@ adengine.telewebion.com
 
 # divar.ir 
 a-banners.divarcdn.com
+
+# beytoote.com
+adsc.beytoote.com
