@@ -39,3 +39,6 @@ sentry.alaatv.com
 
 # divar.ir 
 sentry.divar.cloud
+
+# jobvision.ir 
+candidatelogapi.jobvision.ir
