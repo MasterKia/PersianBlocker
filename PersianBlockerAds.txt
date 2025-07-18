@@ -17,12 +17,24 @@
 ||mediaad.org^
 ||popupdl.ir^
 ||kaprila.com^
+||sabavision.com^
+||chavosh.org^
 
 ! blogfa.com (e.g. daylight.blogfa.com)
 ||blogfa.com/a^$script
 
-||sabavision.com^
-
+||tavoos.net^
+! namayesh.com, film.tebyan.net
+@@||player.tavoos.net/jwplayer.js^$script
+@@||cdn.tavoos.net/services/smoothie/loader-mobile.js^$script
+@@||cdn.tavoos.net/services/sticky/loader.min.js^$script
+@@||cdn.tavoos.net/assets^$image,font
+@@||tavoos.net/tavoos_contents^$image
+@@||player.tavoos.net/tavoos-player.css^$stylesheet
+@@||player.tavoos.net/jwplayer.core.controls.js^$script
+@@||player.tavoos.net/jwplayer.core.controls.html5.js
+@@||player.tavoos.net/provider.hlsjs.js^$script
+@@||player.tavoos.net/assets^$image,font
 
 ! Specific !
 ! ===VV=== !
@@ -99,3 +111,10 @@ farsroid.com##.single-text-ads
 farsroid.com##.labeled-dw-ads
 farsroid.com##.ads-download
 farsroid.com##.ads-dashed-banner
+
+! alef.ir
+alef.ir##a[href="https://www.yektanet.com/"][target="_blank"]
+alef.ir##a[href="https://panel.triboon.net/"][target="_blank"]
+
+! virgool.io
+||virgool.io/api2/app/posts/*/ad^
