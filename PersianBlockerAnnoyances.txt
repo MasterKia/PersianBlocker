@@ -10,7 +10,9 @@
 
 ! General !
 ! ==VVV== !
-
+! Tracking scripts in every site
+||logo.samandehi.ir^
+||trustseal.e-rasaneh.ir^
 
 ! Specific !
 ! ===VV=== !
