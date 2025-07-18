@@ -118,3 +118,6 @@ alef.ir##a[href="https://panel.triboon.net/"][target="_blank"]
 
 ! virgool.io
 ||virgool.io/api2/app/posts/*/ad^
+
+! setare.com
+setare.com##.chavosh-ad-box
