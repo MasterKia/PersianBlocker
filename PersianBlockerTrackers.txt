@@ -47,3 +47,6 @@
 ||api.divar.ir/v8/actionlog^
 ||api.divar.ir/v1/client-exporter/send-report^
 ||sentry.divar.cloud^
+
+! jobvision.ir
+||candidatelogapi.jobvision.ir/api/v1/JobPostActionLog/AddToQueue^
