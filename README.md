@@ -228,9 +228,9 @@ Related link: https://filterlists.com/lists/persianblocker-official-regional-per
 V2RayGen/XRayGen
 </h1>
 
-A Fast and Automated Script for XRay/V2Ray Server Setup.
-
 Related link: https://github.com/SonyaCore/V2RayGen?tab=readme-ov-file#block-list-sources
+
+A Fast and Automated Script for XRay/V2Ray Server Setup.
 
 ***
 <h1 align="center">
