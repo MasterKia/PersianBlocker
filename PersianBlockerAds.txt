@@ -121,3 +121,9 @@ alef.ir##a[href="https://panel.triboon.net/"][target="_blank"]
 
 ! setare.com
 setare.com##.chavosh-ad-box
+
+! beytoote.com
+||adsc.beytoote.com^
+||storage.beytoote.com/images/adsbeytoote^
+beytoote.com##.countclick
+beytoote.com##div[class*="pcfadv"]
