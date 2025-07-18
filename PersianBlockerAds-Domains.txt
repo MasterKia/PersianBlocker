@@ -17,6 +17,8 @@ mediaad.org
 popupdl.ir
 kaprila.com
 sabavision.com
+tavoos.net
+chavosh.org
 
 # Specific #
 # ===VV=== #
