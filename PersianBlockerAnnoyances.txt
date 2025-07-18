@@ -14,14 +14,17 @@
 
 ! Specific !
 ! ===VV=== !
-! dlfox.com
+! dlfox.com (WebGardi)
 dlfox.com##ul.blog_list
 
-! download.ir
+! download.ir (Self-promotion, WebGardi)
 ||download.ir/wp-content/uploads/2022/10/Hostiran-ads.jpg^
 download.ir###kaprila_linktable
 download.ir##.parsi-ads
 
-! digikala.com (e.g. digikala.com/mag/)
+! digikala.com (Self-promotion, e.g. digikala.com/mag/)
 digikala.com##.dkmag-plp-wrapper
 digikala.com##.product-cta-wrapper
+
+! setare.com (WebGardi)
+setare.com###brxe-itmmyk
