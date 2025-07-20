@@ -131,3 +131,6 @@ beytoote.com##div[class*="pcfadv"]
 ! tgju.org
 ||static.tgju.org/advertisement^
 tgju.org##.bottom-right-ad
+
+! ninisite.com
+ninisite.com###forum-native-ad
