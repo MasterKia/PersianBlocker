@@ -127,3 +127,7 @@ setare.com##.chavosh-ad-box
 ||storage.beytoote.com/images/adsbeytoote^
 beytoote.com##.countclick
 beytoote.com##div[class*="pcfadv"]
+
+! tgju.org
+||static.tgju.org/advertisement^
+tgju.org##.bottom-right-ad
