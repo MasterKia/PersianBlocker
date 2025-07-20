@@ -50,3 +50,6 @@
 
 ! jobvision.ir
 ||candidatelogapi.jobvision.ir/api/v1/JobPostActionLog/AddToQueue^
+
+! ninisite.com
+||stc.ninisite.com/s/atv^
