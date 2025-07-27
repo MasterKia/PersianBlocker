@@ -134,3 +134,11 @@ tgju.org##.bottom-right-ad
 
 ! ninisite.com
 ninisite.com###forum-native-ad
+
+! tabnak.ir
+||cdn.tabnak.ir/files/fa/adv^
+
+! footballitarin.com
+! https://github.com/MasterKia/PersianBlocker/issues/307
+||blogger.googleusercontent.com/img^$domain=footballitarin.com
+||footballitarin.com/agahi^
