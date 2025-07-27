@@ -27,6 +27,10 @@
 ! ===VV=== !
 ! digikala.com
 ||tracker.digikala.com^
+||dgka.me^$removeparam=promo_name
+||dgka.me^$removeparam=promo_position
+||dgka.me^$removeparam=promo_creative
+||dgka.me^$removeparam=bCode
 
 ! zoomit.ir
 ||analytics.zoomit.ir^
