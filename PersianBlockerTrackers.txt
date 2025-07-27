@@ -53,3 +53,6 @@
 
 ! ninisite.com
 ||stc.ninisite.com/s/atv^
+
+! footballitarin.com
+||inmobi.com^$domain=footballitarin.com
