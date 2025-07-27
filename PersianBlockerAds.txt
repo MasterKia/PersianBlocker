@@ -160,3 +160,6 @@ ninisite.com###forum-native-ad
 aparat.com##.banner-ads
 ! In the corner:
 aparat.com##.promote-puls
+
+! sharghdaily.com
+||cdn.sharghdaily.com/servev2^
