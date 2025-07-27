@@ -42,3 +42,6 @@ sentry.divar.cloud
 
 # jobvision.ir 
 candidatelogapi.jobvision.ir
+
+# zarebin.ir
+sentry.mci.dev
