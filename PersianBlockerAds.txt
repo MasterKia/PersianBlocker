@@ -142,3 +142,10 @@ ninisite.com###forum-native-ad
 ! https://github.com/MasterKia/PersianBlocker/issues/307
 ||blogger.googleusercontent.com/img^$domain=footballitarin.com
 ||footballitarin.com/agahi^
+
+! aparat.com
+! https://github.com/MasterKia/PersianBlocker/issues/304#issuecomment-3044430691
+! Under the video:
+aparat.com##.banner-ads
+! In the corner:
+aparat.com##.promote-puls
