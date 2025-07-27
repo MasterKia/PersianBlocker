@@ -22,6 +22,11 @@ kaprila.com
 sabavision.com
 tavoos.net
 chavosh.org
+adtrace.io
+# (e.g. sharghdaily.com)
+ads.karzar.net
+# pelikan.media (e.g. sharghdaily.com)
+pelikan-network.ir
 
 # Specific #
 # ===VV=== #
