@@ -12,7 +12,7 @@
 ! General !
 ! ==VVV== !
 ||adexo.ir^
-! (e.g. sharghdaily.com)
+! (e.g. sharghdaily.com):
 ||adexofiles.ir^
 
 ||adverge.ir^
@@ -22,12 +22,17 @@
 ||kaprila.com^
 ||sabavision.com^
 ||chavosh.org^
+||adtrace.io^
+! (e.g. sharghdaily.com):
+||ads.karzar.net^
+! pelikan.media (e.g. sharghdaily.com):
+||pelikan-network.ir^
 
-! blogfa.com (e.g. daylight.blogfa.com)
+! blogfa.com (e.g. daylight.blogfa.com):
 ||blogfa.com/a^$script
 
 ||tavoos.net^
-! namayesh.com, film.tebyan.net
+! namayesh.com, film.tebyan.net:
 @@||player.tavoos.net/jwplayer.js^$script
 @@||cdn.tavoos.net/services/smoothie/loader-mobile.js^$script
 @@||cdn.tavoos.net/services/sticky/loader.min.js^$script
