@@ -1,4 +1,4 @@
-! Title: PersianBlockerAnnoyances
+! Title: 😫 PersianBlocker Annoyances 😫
 ! Last modified: %timestamp%
 ! Expires: 7 days
 ! Description: Filters to block annoyances in Persian websites 
@@ -17,10 +17,10 @@
 
 ! Specific !
 ! ===VV=== !
-! dlfox.com (WebGardi)
-dlfox.com##ul.blog_list
+! dlfox.com (وبگردی)
+dlfox.com##.blog_list
 
-! download.ir (Self-promotion, WebGardi)
+! download.ir (Self-promotion, وبگردی)
 ||download.ir/wp-content/uploads/2022/10/Hostiran-ads.jpg^
 download.ir###kaprila_linktable
 download.ir##.parsi-ads
@@ -29,5 +29,8 @@ download.ir##.parsi-ads
 digikala.com##.dkmag-plp-wrapper
 digikala.com##.product-cta-wrapper
 
-! setare.com (WebGardi)
+! setare.com (وبگردی)
 setare.com###brxe-itmmyk
+
+! sharghdaily.com (تبلیغات متنی)
+sharghdaily.com##.zxc_back_link
