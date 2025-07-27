@@ -1,7 +1,7 @@
-! Title: 🔵 PersianBlockerNG 🔵
+! Title: ☀️ PersianBlockerNG ☀️
 ! Last modified: %timestamp%
 ! Expires: 5 days
-! Description: Filters to block ads in Persian websites 
+! Description: Filters to block ads, trackers and annoyances in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
 ! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
 !
