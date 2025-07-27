@@ -24,6 +24,15 @@
 !#include PersianBlockerCensor.txt
 
 
+! Half-Price (NimBaha) Sites:
+!#include PersianBlockerHalfPrice.txt
+
+
+! Phishing and Malware:
+!#include PersianBlockerPhishing.txt
+!#include PersianBlockerMalware.txt
+
+
 ! Mobile (Firefox Android, Cromite, AdGuard for Android, AdGuard for iOS, AdGuard for Safari, Samsung Internet)
 !#if env_mobile
 !#include PersianBlockerMobile.txt
