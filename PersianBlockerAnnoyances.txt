@@ -13,6 +13,7 @@
 ! Tracking scripts in every site
 ||logo.samandehi.ir^
 ||trustseal.e-rasaneh.ir^
+||trustseal.enamad.ir^
 
 ! Specific !
 ! ===VV=== !
