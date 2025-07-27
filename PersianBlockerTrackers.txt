@@ -65,3 +65,7 @@
 ! https://github.com/MasterKia/PersianBlocker/issues/304#issuecomment-3044430691
 aparat.com##+js(set-local-storage-item, videoPlayedCount, $remove$)
 aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
+
+! zarebin.ir
+||zarebin.ir/platform/api/supervisor/v1/events/^
+||sentry.mci.dev^
