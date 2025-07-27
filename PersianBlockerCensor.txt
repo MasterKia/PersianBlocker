@@ -20,10 +20,10 @@
 ! google.com
 www.google.com##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"]) > h3::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
 ! bing.com
-www.bing.com##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])[href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]::before:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
+www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::before:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
 ! duckduckgo.com
-duckduckgo.com##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])[data-testid="result-title-a"]::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
 ! search.brave.com
-search.brave.com##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])[class$="heading-serpresult"]::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+search.brave.com##a[href][class$="heading-serpresult"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
 ! zarebin.ir
 zarebin.ir##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])[class^="!text-link"]::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
