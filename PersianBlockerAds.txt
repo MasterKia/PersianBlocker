@@ -12,6 +12,9 @@
 ! General !
 ! ==VVV== !
 ||adexo.ir^
+! (e.g. sharghdaily.com)
+||adexofiles.ir^
+
 ||adverge.ir^
 ||yektanet.com^
 ||mediaad.org^
