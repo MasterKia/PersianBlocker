@@ -8,7 +8,7 @@
 # GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
 # GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
-# Tracking scripts in every site
+# Tracking scripts in every Persian site
 logo.samandehi.ir
 trustseal.e-rasaneh.ir
 trustseal.enamad.ir
