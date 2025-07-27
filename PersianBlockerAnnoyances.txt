@@ -10,10 +10,16 @@
 
 ! General !
 ! ==VVV== !
-! Tracking scripts in every site
-||logo.samandehi.ir^
-||trustseal.e-rasaneh.ir^
-||trustseal.enamad.ir^
+! Tracking scripts in every Persian site
+||logo.samandehi.ir^$3p
+||trustseal.e-rasaneh.ir^$3p
+||trustseal.enamad.ir^$3p
+! trustseal.enamad.ir - نماد تجارت الکترونیکی - The box:
+*##a[href^="https://trustseal.enamad.ir/?id="][href*="&Code="]:style(display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(135deg,#e60026,#ff3355); border-radius:1.5rem; padding:2rem; color: #fff; font-weight: bold; font-size: 1.2rem; box-shadow: 0.75rem 1.5rem rgba(230,0,38,.5); border:3px solid rgba(255,204,213,.5); text-align:center; transition:transform .3s ease; animation:glow 3s ease-in-out infinite alternate;)
+! trustseal.enamad.ir - نماد تجارت الکترونیکی - The text:
+*##a[href^="https://trustseal.enamad.ir/?id="][href*="&Code="]::before:style(content: "🌟 (این سایت احتمالاً نماد تجارت الکترونیکی دارد) 🌟"; white-space: pre-wrap; font-size: large;)
+! trustseal.enamad.ir - نماد تجارت الکترونیکی - The effect:
+*##a[href^="https://trustseal.enamad.ir/?id="][href*="&Code="]:hover:style(transform: scale(1.05);)
 
 ! Specific !
 ! ===VV=== !
