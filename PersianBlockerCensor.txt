@@ -18,18 +18,24 @@
 ! doostihaa.com: "نسخه اول دوبله فارسی سانسور شده"
 ! zardfilm.in: "تابع قوانین و مقررات"
 ! cooldl.net: upera.tv download links
+! soft98.ir: Hostile behavior against users with content blockers
 
 ! google.com
 www.google.com##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"]) > h3::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+www.google.com##a[href]:where([href*="soft98.ir/"]) > h3::after:style(content: ' ⚠️ ضد کاربر | Anti-user ⚠️ ' !important; color: red !important; font-weight: bold !important;)
 
 ! bing.com
 www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::before:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
+www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="soft98.ir/"])::before:style(content: ' ⚠️ ضد کاربر | Anti-user ⚠️ ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
 
 ! duckduckgo.com
 duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="soft98.ir/"])::after:style(content: ' ⚠️ ضد کاربر | Anti-user ⚠️ ' !important; color: red !important; font-weight: bold !important;)
 
 ! search.brave.com
 search.brave.com##a[href][class$="heading-serpresult"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+search.brave.com##a[href][class$="heading-serpresult"]:where([href*="soft98.ir/"])::after:style(content: ' ⚠️ ضد کاربر | Anti-user ⚠️ ' !important; color: red !important; font-weight: bold !important;)
 
 ! zarebin.ir
 zarebin.ir##a[href][class^="!text-link"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"])::after:style(content: ' 🔞 (سانسور شده) 🔞 ' !important; color: red !important; font-weight: bold !important;)
+zarebin.ir##a[href][class^="!text-link"]:where([href*="soft98.ir/"])::after:style(content: ' ⚠️ ضد کاربر | Anti-user ⚠️ ' !important; color: red !important; font-weight: bold !important;)
