@@ -163,3 +163,10 @@ aparat.com##.promote-puls
 
 ! sharghdaily.com
 ||cdn.sharghdaily.com/servev2^
+
+! soft98.ir
+! https://github.com/uBlockOrigin/uAssets/issues/14480
+! https://github.com/MasterKia/PersianBlocker/issues/40
+! There's a better version using `$replace` but it's a trusted filter, so it's only available in uBlock Origin.
+soft98.ir,~forum.soft98.ir##+js(aost, NodeList.prototype.forEach, /\bRi[@\s][^\t]+\/application\.min\.packed\.js/)
+soft98.ir,~forum.soft98.ir###abddh > *, div:has(> header + div > [data-href="https://cdn.hostdl.com/goto/soft98"]), section:has(> header + div > div > div > a[href*="utm_"]), [data-href^="https://padvish.com/"]
