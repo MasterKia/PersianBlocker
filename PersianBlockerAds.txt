@@ -167,6 +167,4 @@ aparat.com##.promote-puls
 ! soft98.ir
 ! https://github.com/uBlockOrigin/uAssets/issues/14480
 ! https://github.com/MasterKia/PersianBlocker/issues/40
-! There's a better version using `$replace` but it's a trusted filter, so it's only available in uBlock Origin.
-soft98.ir,~forum.soft98.ir##+js(aost, NodeList.prototype.forEach, /\bRi[@\s][^\t]+\/application\.min\.packed\.js/)
-soft98.ir,~forum.soft98.ir###abddh > *, div:has(> header + div > [data-href="https://cdn.hostdl.com/goto/soft98"]), section:has(> header + div > div > div > a[href*="utm_"]), [data-href^="https://padvish.com/"]
+soft98.ir,~forum.soft98.ir##html::before:style(content: ' ⚠️ سایت سافت98 یک سایت ضدکاربر است، یعنی به انتخاب و آزادی کاربران خود احترام نمیگذارد و به کاربرانی که افزونه های مسدودکننده تبلیغ دارند، اجازه استفاده از سایت را نمیدهد. پیشنهاد میشود از سایت های جایگزینی که به انتخاب کاربر احترام میگذارند استفاده نمایید. (تیم PersianBlocker) ⚠️ ' !important; color: red !important; font-weight: bold !important; font-size: x-large !important; overflow: visible !important; z-index: 856985698569 !important; position: absolute !important; background-color: black !important;)
