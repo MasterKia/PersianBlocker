@@ -16,12 +16,15 @@
 ! trustseal.e-rasaneh.ir (e.g. zoomit.ir)
 ||trustseal.e-rasaneh.ir/Trustseal^$method=post
 
-! sentry.sabaidea.cloud (e.g. aparat.com)
+! aparat.com
 ||sentry.sabaidea.cloud^
 
 ! Google Account Login (e.g. gama.ir)
 ||accounts.google.com/gsi^$~script,from=ir
 
+! rokna.net
+||bl9.ir^
+||analyt.ir^
 
 ! Specific !
 ! ===VV=== !
@@ -69,3 +72,9 @@ aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
 ! zarebin.ir
 ||zarebin.ir/platform/api/supervisor/v1/events/^
 ||sentry.mci.dev^
+
+! digikala.com
+||new-sentry.digikala.com^
+
+! pod.ir
+||accounts.pod.ir/js/fingerprint2.min.js^
