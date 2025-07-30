@@ -10,10 +10,6 @@
 
 # General #
 # ==VVV== #
-adexo.ir
-# (e.g. sharghdaily.com)
-adexofiles.ir
-
 adverge.ir
 yektanet.com
 mediaad.org
@@ -23,10 +19,21 @@ sabavision.com
 tavoos.net
 chavosh.org
 adtrace.io
+pushe.co
+sanjagh.com
+
+adexo.ir
+# (e.g. sharghdaily.com)
+adexofiles.ir
+
 # (e.g. sharghdaily.com)
 ads.karzar.net
+
 # pelikan.media (e.g. sharghdaily.com)
 pelikan-network.ir
+
+# rokna.net
+binoads.ir
 
 # Specific #
 # ===VV=== #
