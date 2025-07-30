@@ -40,3 +40,16 @@ setare.com###brxe-itmmyk
 
 ! sharghdaily.com (تبلیغات متنی)
 sharghdaily.com##.zxc_back_link
+
+! tabnak.ir (الی گشت)
+tabnak.ir###eligashtHeader
+tabnak.ir###adveriseContainersecondTemplate
+
+! rokna.net
+! وبگردی داخل پست:
+||rokna.net/linkhelpers^
+! وبگردی پایین پست:
+||rokna.net/VIEW_E2.json?id=
+rokna.net##.news-bottom-link
+! تبلیغات متنی:
+rokna.net##.side_txt_zxc
