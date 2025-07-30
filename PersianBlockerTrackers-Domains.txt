@@ -8,28 +8,30 @@
 # GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
 # GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
-# General #
-# ==VVV== #
+### General ###
+### ==VVV== ###
 metrix.ir
 intrack.ir
 
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
 trustseal.e-rasaneh.ir
 
-# sentry.sabaidea.cloud (e.g. aparat.com)
+# aparat.com
 sentry.sabaidea.cloud
 
-# Specific #
-# ===VV=== #
+# rokna.net
+bl9.ir
+analyt.ir
+
+### Specific ###
+### ===VV=== ###
 # digikala.com
 tracker.digikala.com
+new-sentry.digikala.com
 
 # zoomit.ir
 analytics.zoomit.ir
 sentry.theforge.ir
-
-# aparat.com
-aparat.com/external/romeo/init
 
 # telewebion.com
 hadeseh.telewebion.com
