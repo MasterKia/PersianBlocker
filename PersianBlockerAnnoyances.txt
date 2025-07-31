@@ -53,3 +53,6 @@ tabnak.ir###adveriseContainersecondTemplate
 rokna.net##.news-bottom-link
 ! تبلیغات متنی:
 rokna.net##.side_txt_zxc
+
+! donya-e-eqtesad.com (وبگردی)
+donya-e-eqtesad.com##.general-box:has(> .global-header > .topic_border > .headerw > h3 > a[title="وب‌گردی"])
