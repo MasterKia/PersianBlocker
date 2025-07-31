@@ -179,3 +179,7 @@ soft98.ir,~forum.soft98.ir##html::before:style(content: ' ⚠️ این وبسا
 ! rokna.net
 rokna.net##.zxc-padding-custom
 rokna.net##.zxc
+
+! par30games.net 
+||par30games.net/wp-content/uploads/*.gif^
+par30games.net##.top-large-ads
