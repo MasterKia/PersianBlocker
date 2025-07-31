@@ -40,6 +40,22 @@ Matrix room: https://matrix.to/#/#PersianBlocker:matrix.org
 <sub>
 <img src="https://github.com/gorhill/uBlock/blob/master/src/img/ublock.svg" height="38" width="38">
 </sub>
+BreakFree
+</h1>
+
+Related link:
+
+sing-box configurations for plug-n-play usage, using freely available sources.
+
+📣 Our Telegram: https://BreakRealFree.t.me
+🎁 Donate: https://demarcush.github.io/#-donation
+
+***
+
+<h1 align="center">
+<sub>
+<img src="https://github.com/gorhill/uBlock/blob/master/src/img/ublock.svg" height="38" width="38">
+</sub>
 uBlock Origin (uBO)
 </h1>
 
