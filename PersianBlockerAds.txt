@@ -51,6 +51,10 @@
 ! rokna.net
 ||binoads.ir^
 
+! par30games.net
+||yektabanner.com^
+
+
 !!! Specific !!!
 !!! ===VV=== !!!
 ! abadis.ir
