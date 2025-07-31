@@ -12,6 +12,7 @@
 ### ==VVV== ###
 metrix.ir
 intrack.ir
+affilio.ir
 
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
 trustseal.e-rasaneh.ir
@@ -25,13 +26,14 @@ analyt.ir
 
 ### Specific ###
 ### ===VV=== ###
-# digikala.com
+# digikala.com:
 tracker.digikala.com
 new-sentry.digikala.com
 
-# zoomit.ir
-analytics.zoomit.ir
+# zoomit.ir, zoomg.ir:
 sentry.theforge.ir
+# zoomit.ir:
+analytics.zoomit.ir
 
 # telewebion.com
 hadeseh.telewebion.com
