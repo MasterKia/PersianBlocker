@@ -57,7 +57,7 @@
 ! These news websites all have a common advertisment format.
 ! sharghdaily.com: cdn.sharghdaily.com/servev2
 ! donya-e-eqtesad.com: cdn.donya-e-eqtesad.com/servev2
-||cdn.*/servev2^$domain=donya-e-eqtesad.com|sharghdaily.com,image,1p
+||cdn.*/servev2^$from=donya-e-eqtesad.com|sharghdaily.com,image,1p
 ! rokna.net, donya-e-eqtesad.com:
 ##.zxc
 ##.zxc-padding-custom
