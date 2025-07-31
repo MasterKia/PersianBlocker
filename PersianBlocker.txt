@@ -16,7 +16,7 @@
 !#include PersianBlockerTrackers.txt
 
 
-! Annoyances (Disabled):
+! Annoyances (Disabled, please use manually - غیرفعال، لطفا به صورت دستی استفاده کنید):
 ! !#include PersianBlockerAnnoyances.txt
 
 
@@ -24,7 +24,7 @@
 !#include PersianBlockerCensor.txt
 
 
-! Half-Price (NimBaha) Sites:
+! Half-Price (نیم بها) Sites:
 !#include PersianBlockerHalfPrice.txt
 
 
