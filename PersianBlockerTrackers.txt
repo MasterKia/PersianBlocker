@@ -12,6 +12,7 @@
 ! ==VVV== !
 ||metrix.ir^
 ||intrack.ir^
+||affilio.ir^
 
 ! trustseal.e-rasaneh.ir (e.g. zoomit.ir)
 ||trustseal.e-rasaneh.ir/Trustseal^$method=post
@@ -35,9 +36,12 @@
 ||dgka.me^$removeparam=promo_creative
 ||dgka.me^$removeparam=bCode
 
+! zoomit.ir, zoomg.ir
+||sentry.theforge.ir^
 ! zoomit.ir
 ||analytics.zoomit.ir^
-||sentry.theforge.ir^
+! zoomg.ir
+||zoomg.ir/editorial/api/articles/*/visit^
 
 ! aparat.com
 ||aparat.com/external/romeo^
