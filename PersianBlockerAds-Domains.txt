@@ -35,6 +35,9 @@ pelikan-network.ir
 # rokna.net
 binoads.ir
 
+# par30games.net
+yektabanner.com
+
 # Specific #
 # ===VV=== #
 # aparat.com
@@ -48,3 +51,4 @@ a-banners.divarcdn.com
 
 # beytoote.com
 adsc.beytoote.com
+
