@@ -187,3 +187,6 @@ rokna.net##.zxc
 ! par30games.net 
 ||par30games.net/wp-content/uploads/*.gif^
 par30games.net##.top-large-ads
+
+! shahrekhabar.com
+||static.shahrekhabar.com/banner/*.gif^
