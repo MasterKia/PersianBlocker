@@ -190,3 +190,10 @@ par30games.net##.top-large-ads
 
 ! shahrekhabar.com
 ||static.shahrekhabar.com/banner/*.gif^
+
+! mobile.ir
+||mobile.ir/Static/b^
+! Header ads:
+mobile.ir##.b
+! Sidebar ads:
+mobile.ir##.apnl
