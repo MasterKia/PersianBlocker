@@ -56,3 +56,6 @@ rokna.net##.side_txt_zxc
 
 ! donya-e-eqtesad.com (وبگردی)
 donya-e-eqtesad.com##.general-box:has(> .global-header > .topic_border > .headerw > h3 > a[title="وب‌گردی"])
+
+! yasdl.com (تبلیغات متنی)
+yasdl.com##.sidebar-textads
