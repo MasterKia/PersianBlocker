@@ -11,6 +11,7 @@
 ! Include the old list for now:
 !#include PersianBlocker-Deprecated.txt
 
+
 ! Ads:
 !#include PersianBlockerAds.txt
 
