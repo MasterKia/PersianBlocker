@@ -104,6 +104,12 @@ web.eitaa.com##.ads-active
 ! web.shad.ir
 web.shad.ir##rb-chat-ads-container
 
+! shad.ir
+shad.ir##.bannerWrapImg
+
+! my.shad.ir
+my.shad.ir##rb-chat-ads-container
+
 ! aparat.com
 ||dsp.aparat.com^
 
