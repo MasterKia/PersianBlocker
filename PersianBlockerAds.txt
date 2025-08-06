@@ -101,8 +101,9 @@ web.rubika.ir##rb-chat-ads-container
 ! web.eitaa.com
 web.eitaa.com##.ads-active
 
-! web.shad.ir
-web.shad.ir##rb-chat-ads-container
+! shad.ir
+shad.ir##.bannerWrapImg
+shad.ir##rb-chat-ads-container
 
 ! aparat.com
 ||dsp.aparat.com^
