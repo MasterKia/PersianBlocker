@@ -8,6 +8,9 @@
 ! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
 ! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
+! Include the old list for now:
+!#include PersianBlocker-Deprecated.txt
+
 ! Ads:
 !#include PersianBlockerAds.txt
 
