@@ -210,7 +210,14 @@ yasdl.com##.top-ads-wrap:style(width: 0px !important; height: 0px !important;)
 ! In-post ads:
 yasdl.com##.fixed-post
 
-! downloadha.com
+! downloadha.com:
 ||cdn.hostdl.com/assets/downloadha.gif^
 downloadha.com##.popup-ads
 downloadha.com##.ads
+
+! varzesh3.com:
+||biz-cdn.varzesh3.com/banners^
+varzesh3.com##.adbox
+varzesh3.com##[data-ad]
+! video.varzesh3.com:
+||biz.varzesh3.com/vast^
