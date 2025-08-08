@@ -22,7 +22,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 ! meliyat.ir, aftabnews.ir, eghtesadgardan.ir, entekhab.ir, nabzefanavari.ir, boursenews.ir, snn.ir,
 !! basirat.ir, khootoot.ir, didarnews.ir, 598.ir
-/files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|fararu.com|iraneconomist.com|khordad.news
+/files/adv^$image,1p,domain=ir|asrkhabar.com|bultannews.com|yektapress.com|roozno.com|iraneconomist.com|khordad.news
 
 ! digiro.ir, gahar.ir, jobsacademy.ir, mihand.ir, modirnameh.ir, pedal.ir, softsaaz.ir, technet24.ir, appiroid.ir
 /wp-content/uploads/*.gif^$image,1p,domain=ir|~ifixit.ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|p30konkor.com|rozmusic.com|shanbemag.com|sakhtafzar.com|techrato.com|bazicenter.com|avalnews.com|gamefa.com|takskin.com|avapedia.com|honarfardi.com|graphiran.com|tasvirezendegi.com|par30dl.net|par30games.net|elmefarda.com|asbe-bokhar.com|binaopt.com|farachart.com|farsiro.com|techtik.com|androidtime.com|baarzesh.net|p30world.com|shahrebours.com|kamapress.com|kaliboys.com|fontchi.com|namnak.com|tejaratnews.com
@@ -1556,9 +1556,6 @@ fardanews.com##.zxc-stik
 fardanews.com##.others_media
 fardanews.com##.sticky_notify2
 fardanews.com##.n-first-col-left:style(width: 100% !important;)
-
-fararu.com##.news_slider_sec2
-fararu.com##.webgardi_adv
 
 ||filcin.com/site/show-adv
 
