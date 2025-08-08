@@ -3692,19 +3692,6 @@ varoone.ir##.ads468
 
 vajehyab.com##a[href^="/url/"][target="_blank"]:has(> img)
 
-||biz-cdn.varzesh3.com/banners^
-||static.varzesh3.com/js/ads.js^
-||biz.varzesh3.com/vast^
-||biz.varzesh3.com/events/view^
-||news-view-api.varzesh3.com^
-||video-view-api.varzesh3.com^
-varzesh3.com##.left-side-ad-col
-varzesh3.com##.right-ads
-varzesh3.com##.adbox:not(.adbar)
-!#if env_mobile
-varzesh3.com##div.android-app-promot
-!#endif
-
 ||video-learn.ir/code/popup^
 video-learn.ir#@#.header-adv
 
