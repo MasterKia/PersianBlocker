@@ -23,32 +23,36 @@ pushe.co
 sanjagh.com
 
 adexo.ir
-# (e.g. sharghdaily.com)
+# (e.g. sharghdaily.com):
 adexofiles.ir
 
-# (e.g. sharghdaily.com)
+# (e.g. sharghdaily.com):
 ads.karzar.net
 
-# pelikan.media (e.g. sharghdaily.com)
+# pelikan.media (e.g. sharghdaily.com):
 pelikan-network.ir
 
-# rokna.net
+# rokna.net:
 binoads.ir
 
-# par30games.net
+# par30games.net:
 yektabanner.com
 
 # Specific #
 # ===VV=== #
-# aparat.com
+# aparat.com:
 dsp.aparat.com
 
-# telewebion.com
+# telewebion.com:
 adengine.telewebion.com
 
-# divar.ir 
+# divar.ir:
 a-banners.divarcdn.com
 
-# beytoote.com
+# beytoote.com:
 adsc.beytoote.com
 
+# varzesh3.com:
+biz-cdn.varzesh3.com
+# video.varzesh3.com:
+biz.varzesh3.com
