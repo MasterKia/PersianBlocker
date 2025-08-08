@@ -54,11 +54,11 @@
 ! par30games.net
 ||yektabanner.com^
 
-! These news websites all have a common advertisment format.
-! sharghdaily.com: cdn.sharghdaily.com/servev2
-! donya-e-eqtesad.com: cdn.donya-e-eqtesad.com/servev2
-||cdn.*/servev2^$from=donya-e-eqtesad.com|sharghdaily.com,image,1p
-! rokna.net, donya-e-eqtesad.com:
+! These news websites all have a common advertisment format:
+! cdn.sharghdaily.com/servev2/, cdn.donya-e-eqtesad.com/servev2/, cdn.fararu.com/servev2/, etc
+! donya-e-eqtesad.com, sharghdaily.com, fararu.com:
+||cdn.*/servev2^$from=donya-e-eqtesad.com|sharghdaily.com|fararu.com,image,1p
+! donya-e-eqtesad.com, rokna.net:
 ##.zxc
 ##.zxc-padding-custom
 
