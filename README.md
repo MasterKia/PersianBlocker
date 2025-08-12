@@ -35,6 +35,15 @@ Matrix room: https://matrix.to/#/#PersianBlocker:matrix.org
 </h1>
 
 ***
+<h1 align="center">
+Android & iOS content blocking extensions and apps:
+     
+https://fmhy.net/android-iosguide#android-adblocking
+
+https://fmhy.net/android-iosguide#ios-adblocking
+</h1>
+
+***
 
 <h1 align="center">
 🆓 BreakFree
