@@ -137,6 +137,9 @@ divar.ir##.kt-inset-banner
 
 ! farsroid.com
 farsroid.com##.site-top-nav > .grid-row > li > a[rel="dofollow"][target="_blank"]
+farsroid.com##[href="https://tradingfinder.com/fa/products/indicators/mt4/trade-panel-prop-drawdawn-limiter-free-download/"]
+farsroid.com##[href="https://www.farsroid.com/app-telegram-android/"]
+farsroid.com##[href="https://www.farsroid.com/rubika-android/"]
 farsroid.com##.farsroid-ads
 farsroid.com##.single-text-ads
 farsroid.com##.labeled-dw-ads
