@@ -40,6 +40,8 @@
 ||sentry.theforge.ir^
 ! zoomit.ir
 ||analytics.zoomit.ir^
+! zoomit.ir/product/
+zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit.ir/catalog/store-links/"][href*="/click?url=http"], ?url)
 ! zoomg.ir
 ||zoomg.ir/editorial/api/articles/*/visit^
 
