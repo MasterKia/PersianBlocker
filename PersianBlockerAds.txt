@@ -221,3 +221,8 @@ varzesh3.com##.adbox
 varzesh3.com##[data-ad]
 ! video.varzesh3.com:
 ||biz.varzesh3.com/vast^
+
+! faraazin.ir
+||faraazin.ir/api/setting/banners^
+! EasyList Breakage:
+faraazin.ir#@#.ads-title
