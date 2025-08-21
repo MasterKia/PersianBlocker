@@ -222,7 +222,13 @@ varzesh3.com##[data-ad]
 ! video.varzesh3.com:
 ||biz.varzesh3.com/vast^
 
-! faraazin.ir
+! faraazin.ir:
 ||faraazin.ir/api/setting/banners^
 ! EasyList Breakage:
 faraazin.ir#@#.ads-title
+
+! iranianuk.com:
+! https://github.com/AdguardTeam/AdguardFilters/issues/211084
+||iranianuk.com/db/pages/files/ads^
+iranianuk.com##.ads
+iranianuk.com##.banners_container
