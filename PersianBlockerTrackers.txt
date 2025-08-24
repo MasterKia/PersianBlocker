@@ -54,7 +54,14 @@ zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit
 ||data.telewebion.com/broker/api/v1/message/page-view^
 
 ! alaatv.com
+alaatv.com##+js(set, Metrix, {})
+alaatv.com##+js(set, Metrix.deauthorizeUser, noopFunc)
+alaatv.com##+js(set, Metrix.init, noopFunc)
+alaatv.com##+js(set, zebline, {})
+alaatv.com##+js(set, zebline.event, {})
+alaatv.com##+js(set, zebline.event.track, noopFunc)
 ||sentry.alaatv.com^
+
 
 ! divar.ir
 ||api.divar.ir/v8/actionlog^
