@@ -84,12 +84,12 @@ dlfox.com##.banner_small_dlbox_b
 ||download.ir/wp-content/uploads/*.gif^
 
 ! zoomit.ir
-! Header Ads:
-zoomit.ir##div[class^="__className"]> div[class] > div[class]:has(> div[rowcount="1"][columncount="1"] > div[class] > a[target="_blank"][rel="sponsored"])
-! Sidebar Ads:
-zoomit.ir##div[class][flexdirection="column"][gap][flexwrap][justifycontent="flex-end"] > div[class][spacing]:has(> div[class][rowcount][columncount] > div[class] > a[target="_blank"][rel="sponsored"])
-! In-post Ads:
-zoomit.ir##div[class][flexdirection][gap][flexwrap][justifycontent]:has(> div[class][spacing] > div[class][rowcount="1"][columncount] > div[class] > a[target="_blank"][style][href^="https://b2n.ir/"] > img[alt][data-code][loading="lazy"][decoding="async"][data-nimg][style])
+||zoomit.ir/ads/api^
+! Header ads:
+zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
+! Other ads:
+zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="648"][maxheight="167"])
+zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="300"][maxheight="250"])
 
 ! mali3.com
 ||mali3.com/wp-content/uploads/*.gif^
