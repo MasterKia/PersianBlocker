@@ -232,3 +232,7 @@ faraazin.ir#@#.ads-title
 ||iranianuk.com/db/pages/files/ads^
 iranianuk.com##.ads
 iranianuk.com##.banners_container
+
+! alaatv.com
+||nodes.alaatv.com/upload/vast/xml^
+alaatv.com##*:style(user-select: text !important; -webkit-user-select: text !important;)
