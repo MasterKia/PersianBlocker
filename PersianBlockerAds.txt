@@ -238,3 +238,9 @@ iranianuk.com##.banners_container
 ! alaatv.com
 ||nodes.alaatv.com/upload/vast/xml^
 alaatv.com##*:style(user-select: text !important; -webkit-user-select: text !important;)
+
+! filmzi.tv
+! https://github.com/AdguardTeam/AdguardFilters/issues/211800
+||filmzi.tv/ads/api^
+filmzi.tv##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
+filmzi.tv##div[class^="sc-"][spacing="[object Object]"]:has(> div[class^="sc-"][rowcount][columncount])
