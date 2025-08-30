@@ -390,7 +390,6 @@ parsiblog.com##body > div:first-of-type:has(a[style][href^="www.parsiblog.com/ad
 ! Example: gapfilm.ir
 
 ||shahrekhabar.com^$3p
-||statsfa.com^
 ||slideskin.ir/ads/pop.php^
 
 ||sendword.ir^
