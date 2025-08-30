@@ -59,3 +59,9 @@ donya-e-eqtesad.com##.general-box:has(> .global-header > .topic_border > .header
 
 ! yasdl.com (تبلیغات متنی)
 yasdl.com##.sidebar-textads
+
+! lioncomputer.com (Self promotion)
+lioncomputer.com##.pb-4
+lioncomputer.com##main:style(margin-top: 0 !important)
+lioncomputer.com##header:style(height: 120px !important; padding-top: 15px !important)
+lioncomputer.com##header.fixed:style(height: 70px !important)
