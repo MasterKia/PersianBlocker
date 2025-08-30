@@ -1,0 +1,63 @@
+name: Patch Last Modified Timestamp
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    name: Patch Last Modified
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0 # fetch full history
+
+      - name: Patch last-updated field
+        run: |
+          for commit in $(git rev-list ${{ github.event.before }}..${{ github.sha }}); do
+            CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r $commit -- '*.txt')
+            AUTHOR=$(git show -s --format='%an <%ae>' $commit)
+
+            # Skip commits made by GitHub Actions bot
+            if [[ "$AUTHOR" == "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" ]]; then
+              continue
+            fi
+
+            for f in $CHANGED_FILES; do
+              # Make sure file still exists (not deleted)
+              if [[ -f "$f" ]]; then
+                # Get last commit date for that file
+                COMMIT_DATE=$(git format-patch -1 $commit --stdout | grep '^Date:' | head -n1 | cut -d' ' -f2-)
+
+                # Replace whatever is after "! Last modified: " with commit date
+                if sed --version >/dev/null 2>&1; then
+                  sed -i "0,/^! Last modified: /s|^! Last modified: .*|! Last modified: $COMMIT_DATE|" "$f"
+                fi
+              fi
+            done
+          done
+
+      - name: Commit changes (if any)
+        run: |
+          if [[ -n $(git diff) ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -u
+            git commit -m "Update modified filter lists with last commit timestamp"
+            git push origin main
+          fi
