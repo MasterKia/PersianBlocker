@@ -28,6 +28,8 @@
 
 [![Telegram Group](https://img.shields.io/endpoint?color=neon&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FPersianBlocker)](https://telegram.dog/PersianBlocker)         [![Matrix](https://img.shields.io/matrix/PersianBlocker%3Amatrix.org?server_fqdn=matrix.org&style=flat&logo=matrix)](https://matrix.to/#/#PersianBlocker:matrix.org)
 
+[GitHub discussions](https://github.com/MasterKia/PersianBlocker/discussions/49)
+
 Telegram group: [@PersianBlocker](https://telegram.dog/PersianBlocker)
 
 Matrix room: https://matrix.to/#/#PersianBlocker:matrix.org
