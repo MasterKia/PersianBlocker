@@ -23,7 +23,7 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/MasterKia/PersianBlocker?style=social&logo=github&label=Stars)          
 
-[![jsDelivr Stats](https://data.jsdelivr.com/v1/package/gh/MasterKia/PersianBlocker/badge)](https://www.jsdelivr.com/package/gh/MasterKia/PersianBlocker)
+[![jsDelivr Stats](https://data.jsdelivr.com/v1/package/gh/MasterKia/PersianBlocker/badge)](https://www.jsdelivr.com/package/gh/MasterKia/PersianBlocker?tab=stats)
 
 
 [![Telegram Group](https://img.shields.io/endpoint?color=neon&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FPersianBlocker)](https://telegram.dog/PersianBlocker)         [![Matrix](https://img.shields.io/matrix/PersianBlocker%3Amatrix.org?server_fqdn=matrix.org&style=flat&logo=matrix)](https://matrix.to/#/#PersianBlocker:matrix.org)
