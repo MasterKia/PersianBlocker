@@ -30,9 +30,9 @@
 
 GitHub Discussions: https://github.com/MasterKia/PersianBlocker/discussions/49
 
-Telegram group: [@PersianBlocker](https://telegram.dog/PersianBlocker)
+Telegram Group: [@PersianBlocker](https://telegram.dog/PersianBlocker)
 
-Matrix room: https://matrix.to/#/#PersianBlocker:matrix.org
+Matrix Room: https://matrix.to/#/#PersianBlocker:matrix.org
 
 
 </h1>
