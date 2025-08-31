@@ -1,5 +1,5 @@
 ! Title: PersianBlockerAds
-! Last modified: %timestamp%
+! Last modified: 2025-08-29 13:53:35 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
