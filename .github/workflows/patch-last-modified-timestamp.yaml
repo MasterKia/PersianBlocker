@@ -29,27 +29,23 @@ jobs:
 
       - name: Patch last-updated field
         run: |
-          for commit in $(git rev-list ${{ github.event.before }}..${{ github.sha }}); do
-            CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r $commit -- '*.txt')
-            AUTHOR=$(git show -s --format='%an <%ae>' $commit)
+          for f in $(git ls-files -- '*.txt'); do
+            COMMIT_HASH=$(git log -1 --pretty=format:'%H' -- "$f")
+
+            AUTHOR=$(git log -1 --pretty=format:'%an <%ae>' "$f")
 
             # Skip commits made by GitHub Actions bot
             if [[ "$AUTHOR" == "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" ]]; then
               continue
             fi
 
-            for f in $CHANGED_FILES; do
-              # Make sure file still exists (not deleted)
-              if [[ -f "$f" ]]; then
                 # Get last commit date for that file
-                COMMIT_DATE=$(git format-patch -1 $commit --stdout | grep '^Date:' | head -n1 | cut -d' ' -f2-)
+                COMMIT_DATE=$(git log -1 --pretty=format:'%ci' -- "$f")
 
-                # Replace whatever is after "! Last modified: " with commit date
-                if sed --version >/dev/null 2>&1; then
-                  sed -i "0,/^! Last modified: /s|^! Last modified: .*|! Last modified: $COMMIT_DATE|" "$f"
-                fi
-              fi
-            done
+            # Replace whatever is after "! Last modified: " with commit date
+            if sed --version >/dev/null 2>&1; then
+              sed -i "0,/^! Last modified: /s|^! Last modified: .*|! Last modified: $COMMIT_DATE|" "$f"
+            fi
           done
 
       - name: Commit changes (if any)
