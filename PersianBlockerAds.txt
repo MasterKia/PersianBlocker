@@ -83,13 +83,14 @@ dlfox.com##.banner_small_dlbox_b
 ! download.ir
 ||download.ir/wp-content/uploads/*.gif^
 
-! zoomit.ir
-||zoomit.ir/ads/api^
+! zoomit.ir, zoomg.ir
+! https://github.com/MasterKia/PersianBlocker/issues/330
+/ads/api^$domain=zoomit.ir|zoomg.ir
 ! Header ads:
-zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
 ! Other ads:
-zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="648"][maxheight="167"])
-zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="300"][maxheight="250"])
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="648"][maxheight="167"])
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="300"][maxheight="250"])
 
 ! mali3.com
 ||mali3.com/wp-content/uploads/*.gif^
