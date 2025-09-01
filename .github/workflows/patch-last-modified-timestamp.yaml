@@ -30,8 +30,6 @@ jobs:
       - name: Patch last-updated field
         run: |
           for f in $(git ls-files -- '*.txt'); do
-            COMMIT_HASH=$(git log -1 --pretty=format:'%H' -- "$f")
-
             AUTHOR=$(git log -1 --pretty=format:'%an <%ae>' "$f")
 
             # Skip commits made by GitHub Actions bot
