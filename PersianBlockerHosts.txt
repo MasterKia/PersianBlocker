@@ -12,22 +12,8 @@
 
 #-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
 # >> A <<
-adtodate.ir
-adrooz.com
-affilio.ir
-analyt.ir
-
 scripts-ads.s3.ir-thr-at1.arvanstorage.com
 error-tracking.arvancloud.com
-
-adexo.ir
-adexofiles.ir
-
-adskav.com
-advn.ir
-
-amaroid.net
-lnk.amaroid.net
 
 analytics.aasaam.com
 analytics-2.aasaam.com
