@@ -38,7 +38,7 @@ jobs:
             fi
 
             # Get last commit date for that file
-            COMMIT_DATE=$(git log -1 --format=%cI "$f")
+            COMMIT_DATE=$(git log -1 --pretty=format:'%ci' -- "$f")
 
             # Replace whatever is after "! Last modified: " with commit date
             if sed --version >/dev/null 2>&1; then
