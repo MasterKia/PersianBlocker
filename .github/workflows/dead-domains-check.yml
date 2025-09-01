@@ -10,8 +10,6 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - README.md
     paths:
       - '.github/workflows/dead-domains-check.yml'
   workflow_dispatch:
