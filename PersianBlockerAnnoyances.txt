@@ -60,6 +60,6 @@ donya-e-eqtesad.com##.general-box:has(> .global-header > .topic_border > .header
 ! yasdl.com (تبلیغات متنی)
 yasdl.com##.sidebar-textads
 
-! lioncomputer.com (خود تبلیغی)
+! lioncomputer.com (خود-تبلیغی)
 ! https://github.com/MasterKia/PersianBlocker/issues/318
 lioncomputer.com##header > a[href^="https://www.lioncomputer.com/banner/redirect/"]
