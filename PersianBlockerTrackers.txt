@@ -91,3 +91,6 @@ aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
 
 ! pod.ir
 ||accounts.pod.ir/js/fingerprint2.min.js^
+
+! statsfa.com
+||statsfa.com/api/event^
