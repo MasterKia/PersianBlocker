@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: ☀️ PersianBlockerNG ☀️
 ! Last modified: %timestamp%
 ! Expires: 5 days
@@ -8,7 +9,26 @@
 ! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
 ! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
-! Include the old list for now:
+! لیستی برای برگرداندن آزادی کاربران، چون هر کاربر این آزادی را دارد که چه چیزی وارد مرورگرش می‌شود و چه چیزی وارد نمی‌شود !
+! فَروَهَر یا فرِّ کیانی، نماد فناناپذیری:
+!                              ████                          !
+!                             ████                           !
+!                             ████                           !
+!                       ███   ████                           !
+!                       ██████████                           !
+!                       ██████████                           !
+!████████████████████████████████████████████████████████████!
+!████████████████████████████████████████████████████████████!
+! ███████████████████████████████ ██████████████████████████ !
+!   ██████████████████████████████████████████████████████   !
+!        ████████████████████████████████████████████        !
+!                       ██████████████                       !
+!                   ██ ██ ██████████ ██ ██                   !
+!                   ████ ████████████ ████                   !
+!                        ████████████                        !
+
+
+! Include the old list for now, will be removed in the future:
 !#include PersianBlocker-Deprecated.txt
 
 

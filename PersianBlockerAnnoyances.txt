@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: 😫 PersianBlocker Annoyances 😫
 ! Last modified: %timestamp%
 ! Expires: 7 days
@@ -54,12 +55,20 @@ rokna.net##.news-bottom-link
 ! تبلیغات متنی:
 rokna.net##.side_txt_zxc
 
-! donya-e-eqtesad.com (وبگردی)
+! donya-e-eqtesad.com (وبگردی):
 donya-e-eqtesad.com##.general-box:has(> .global-header > .topic_border > .headerw > h3 > a[title="وب‌گردی"])
 
-! yasdl.com (تبلیغات متنی)
+! yasdl.com (تبلیغات متنی):
 yasdl.com##.sidebar-textads
 
-! lioncomputer.com (خود-تبلیغی)
+! lioncomputer.com (خود-تبلیغی):
 ! https://github.com/MasterKia/PersianBlocker/issues/318
 lioncomputer.com##header > a[href^="https://www.lioncomputer.com/banner/redirect/"]
+
+! ronevis.ir (وبگردی): 
+ronevis.ir##table:has(.wp-rss-aggregator)
+
+! khabaronline.ir (وبگردی و تبلیغات متنی):
+khabaronline.ir##.backlink
+khabaronline.ir##.box.bullet-icons:has(> header > h2 > span:has-text(پایگاه فکر و فرهنگ مبلغ))
+khabaronline.ir##.box.bullet-icons:has(> header > h2 > span:has-text(خدمات گردشگری))

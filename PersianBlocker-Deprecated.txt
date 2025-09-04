@@ -413,8 +413,9 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
-||trustseal.e-rasaneh.ir^$domain=~anaj.ir|~salamatnews.com
-trustseal.e-rasaneh.ir##^responseheader(set-cookie)
+! 2025-09-04, commented:
+!!||trustseal.e-rasaneh.ir^$domain=~anaj.ir|~salamatnews.com
+!!trustseal.e-rasaneh.ir##^responseheader(set-cookie)
 anaj.ir,salamatnews.com##+js(set, jscd, {})
 anaj.ir,salamatnews.com##+js(set, document.URL, undefined)
 anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
@@ -2066,24 +2067,6 @@ khabarfarsi.com###block-block-120
 ||kojaro.com/kojaro/ui/js/banner.js^$script,1p
 kojaro.com##div.wideheader-b1:has(> div.bannercontainer)
 kojaro.com##div.mobileBanner
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/33437
-! https://github.com/AdguardTeam/AdguardFilters/issues/101735
-! https://github.com/MasterKia/PersianBlocker/issues/41
-khabaronline.ir###header-ad
-khabaronline.ir##.ads
-khabaronline.ir##[href^="/redirect/ads/"]
-khabaronline.ir##.bg-gray-links.box
-khabaronline.ir#@##ads-container
-khabaronline.ir###ads-container > .list-thumbs.title-only.list.box
-!#if !env_mobile
-khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !important;)
-khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
-khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
-!#endif
-!#if env_mobile
-khabaronline.ir###ads-container:has-text(خواندنی ها)
-!#endif
 
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
 

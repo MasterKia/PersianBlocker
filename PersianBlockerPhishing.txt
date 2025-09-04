@@ -1,2 +1,4 @@
+[uBlock Origin]
+
 ! سایت مهاجرت کلاهبرداری با 800 شاکی
 ||alast.group^

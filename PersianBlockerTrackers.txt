@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: PersianBlockerTrackers
 ! Last modified: %timestamp%
 ! Expires: 7 days
