@@ -2067,24 +2067,6 @@ khabarfarsi.com###block-block-120
 kojaro.com##div.wideheader-b1:has(> div.bannercontainer)
 kojaro.com##div.mobileBanner
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/33437
-! https://github.com/AdguardTeam/AdguardFilters/issues/101735
-! https://github.com/MasterKia/PersianBlocker/issues/41
-khabaronline.ir###header-ad
-khabaronline.ir##.ads
-khabaronline.ir##[href^="/redirect/ads/"]
-khabaronline.ir##.bg-gray-links.box
-khabaronline.ir#@##ads-container
-khabaronline.ir###ads-container > .list-thumbs.title-only.list.box
-!#if !env_mobile
-khabaronline.ir##.container:style(max-width: 95% !important; flex-grow: 1 !important;)
-khabaronline.ir##.main-content:style(max-width: 60% !important; flex: 0 0 60% !important;)
-khabaronline.ir##.col-md-3:style(max-width: 40% !important; flex: 0 0 40% !important;)
-!#endif
-!#if env_mobile
-khabaronline.ir###ads-container:has-text(خواندنی ها)
-!#endif
-
 koolakmag.ir##.widget_custom_html.widget.container-wrapper.widget_text
 
 khabarpu.com##+js(nano-stb, document.getElementById, *, 0.01)
