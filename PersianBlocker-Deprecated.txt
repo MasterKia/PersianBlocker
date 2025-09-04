@@ -413,8 +413,9 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
 
 ! >> T <<
-||trustseal.e-rasaneh.ir^$domain=~anaj.ir|~salamatnews.com
-trustseal.e-rasaneh.ir##^responseheader(set-cookie)
+! 2025-09-04, commented:
+!!||trustseal.e-rasaneh.ir^$domain=~anaj.ir|~salamatnews.com
+!!trustseal.e-rasaneh.ir##^responseheader(set-cookie)
 anaj.ir,salamatnews.com##+js(set, jscd, {})
 anaj.ir,salamatnews.com##+js(set, document.URL, undefined)
 anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
