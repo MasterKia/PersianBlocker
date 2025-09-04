@@ -13,9 +13,11 @@
 metrix.ir
 intrack.ir
 affilio.ir
+usermap.net
 
+# تا اطلاع ثانوی غیرفعال شد.
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
-trustseal.e-rasaneh.ir
+## trustseal.e-rasaneh.ir
 
 # aparat.com
 sentry.sabaidea.cloud
@@ -23,6 +25,10 @@ sentry.sabaidea.cloud
 # rokna.net
 bl9.ir
 analyt.ir
+
+# They offer tracking services, but they also offer polls:
+## webgozar.com
+## webgozar.ir
 
 ### Specific ###
 ### ===VV=== ###
