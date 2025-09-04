@@ -248,3 +248,6 @@ filmzi.tv##div[class^="sc-"][spacing="[object Object]"]:has(> div[class^="sc-"][
 
 ! wikihoghoogh.net
 wikihoghoogh.net###siteNotice
+
+! avaz-kurd.ir, power-music.ir
+avaz-kurd.ir, power-music.ir##.btn-app
