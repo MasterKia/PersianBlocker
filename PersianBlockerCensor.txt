@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: PersianBlockerCensor
 ! Last modified: 2025-09-01 09:58:24 +0330
 ! Expires: 7 days
