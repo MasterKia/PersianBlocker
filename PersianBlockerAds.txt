@@ -23,6 +23,7 @@
 ||pushe.co^
 ||sanjagh.com^
 ||najva.com^
+||sorenad.com^
 
 ||adexo.ir^
 ! (e.g. sharghdaily.com):
@@ -50,10 +51,10 @@
 @@||player.tavoos.net/provider.hlsjs.js^$script
 @@||player.tavoos.net/assets^$image,font
 
-! rokna.net
+! rokna.net:
 ||binoads.ir^
 
-! par30games.net
+! par30games.net:
 ||yektabanner.com^
 
 ! These news websites all have a common advertisment format:
@@ -63,6 +64,9 @@
 ! donya-e-eqtesad.com, rokna.net:
 ##.zxc
 ##.zxc-padding-custom
+
+! ronveis.ir:
+||mihanstore.net/partner^
 
 !!! Specific !!!
 !!! ===VV=== !!!
@@ -256,3 +260,7 @@ wikihoghoogh.net###siteNotice
 
 ! avaz-kurd.ir, power-music.ir
 avaz-kurd.ir, power-music.ir##.btn-app
+
+! ronvevis.ir
+ronevis.ir##table:has(.wp-rss-aggregator)
+ronevis.ir##.posts-ads
