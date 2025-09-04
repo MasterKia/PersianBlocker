@@ -259,7 +259,7 @@ filmzi.tv##div[class^="sc-"][spacing="[object Object]"]:has(> div[class^="sc-"][
 wikihoghoogh.net###siteNotice
 
 ! avaz-kurd.ir, power-music.ir
-avaz-kurd.ir, power-music.ir##.btn-app
+avaz-kurd.ir,power-music.ir##.btn-app
 
 ! ronvevis.ir
 ronevis.ir##.posts-ads
