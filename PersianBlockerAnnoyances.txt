@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: 😫 PersianBlocker Annoyances 😫
-! Last modified: %timestamp%
+! Last modified: Thu, 4 Sep 2025 23:38:35 +0330
 ! Expires: 7 days
 ! Description: Filters to block annoyances in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
