@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0 # fetch full history
@@ -30,8 +30,6 @@ jobs:
       - name: Patch last-updated field
         run: |
           for f in $(git ls-files -- '*.txt'); do
-            COMMIT_HASH=$(git log -1 --pretty=format:'%H' -- "$f")
-
             AUTHOR=$(git log -1 --pretty=format:'%an <%ae>' "$f")
 
             # Skip commits made by GitHub Actions bot
@@ -40,7 +38,7 @@ jobs:
             fi
 
             # Get last commit date for that file
-            COMMIT_DATE=$(git log -1 --pretty=format:'%ci' -- "$f")
+            COMMIT_DATE=$(git format-patch -1 $commit --stdout | grep '^Date:' | head -n1 | cut -d' ' -f2-)
 
             # Replace whatever is after "! Last modified: " with commit date
             if sed --version >/dev/null 2>&1; then
