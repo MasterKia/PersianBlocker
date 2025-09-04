@@ -262,5 +262,4 @@ wikihoghoogh.net###siteNotice
 avaz-kurd.ir, power-music.ir##.btn-app
 
 ! ronvevis.ir
-ronevis.ir##table:has(.wp-rss-aggregator)
 ronevis.ir##.posts-ads
