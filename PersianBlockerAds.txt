@@ -181,6 +181,11 @@ aparat.com##.banner-ads
 ! In the corner:
 aparat.com##.promote-puls
 
+! soft98.ir:
+! https://github.com/uBlockOrigin/uAssets/issues/14480
+! https://github.com/MasterKia/PersianBlocker/issues/40
+soft98.ir,~forum.soft98.ir##img[src^="https://img.soft98.ir/"]:upward(1):style(clip-path: circle(0) !important;)
+
 ! par30games.net 
 ||par30games.net/wp-content/uploads/*.gif^
 par30games.net##.top-large-ads
