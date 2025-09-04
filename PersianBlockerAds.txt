@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: PersianBlockerAds
 ! Last modified: 2025-09-04 13:17:06 +0330
 ! Expires: 5 days
