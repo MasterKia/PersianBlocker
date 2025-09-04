@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: 😫 PersianBlocker Annoyances 😫
 ! Last modified: 2025-09-02 20:17:41 +0330
 ! Expires: 7 days
