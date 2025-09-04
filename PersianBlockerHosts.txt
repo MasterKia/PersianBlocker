@@ -257,42 +257,7 @@ tapsell.ir
 toppopup.com
 counter.toolsir.com
 
-# >> U <<
-usermap.net
 
-userfriendly.ir
-# ^ Used by bils.ir
-
-utopclick.com
-utop.ir
-
-# >> V <<
-vatanclick.ir
-
-# >> W <<
-# webgozar.com
-# webgozar.ir
-# ^ They have tracking, but they also have polls
-
-wideads.com
-
-# >> X <<
-xjs.lol
-xmlx.lol
-# avaz-kurd.ir, power-music.ir
-
-# >> Y <<
-yelloadwise.ir
-ylad.ir
-
-yektanet.com
-sentry.yektanet.tech
-
-yekbux.com
-
-# >> Z <<
-zarad.net
-zarpop.com
 
 #-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------#
 
