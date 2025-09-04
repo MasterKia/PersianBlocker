@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: PersianBlockerMobile
 ! Last modified: 2025-08-24 17:25:08 +0330
 ! Expires: 5 days
