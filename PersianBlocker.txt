@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: ☀️ PersianBlockerNG ☀️
 ! Last modified: 2025-08-06 23:10:49 +0330
 ! Expires: 5 days
