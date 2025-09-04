@@ -67,3 +67,8 @@ lioncomputer.com##header > a[href^="https://www.lioncomputer.com/banner/redirect
 
 ! ronevis.ir (وبگردی): 
 ronevis.ir##table:has(.wp-rss-aggregator)
+
+! khabaronline.ir (وبگردی و تبلیغات متنی):
+khabaronline.ir##.backlink
+khabaronline.ir##.box.bullet-icons:has(> header > h2 > span:has-text(پایگاه فکر و فرهنگ مبلغ))
+khabaronline.ir##.box.bullet-icons:has(> header > h2 > span:has-text(خدمات گردشگری))
