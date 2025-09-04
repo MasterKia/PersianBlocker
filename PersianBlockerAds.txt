@@ -263,3 +263,10 @@ avaz-kurd.ir, power-music.ir##.btn-app
 
 ! ronvevis.ir
 ronevis.ir##.posts-ads
+
+! khabaronline.ir:
+! https://github.com/AdguardTeam/AdguardFilters/issues/33437
+! https://github.com/AdguardTeam/AdguardFilters/issues/101735
+! https://github.com/MasterKia/PersianBlocker/issues/41
+||cdn.bartarinha.ir/servev2^$image,from=khabaronline.ir
+khabaronline.ir##.cyt-ads-block
