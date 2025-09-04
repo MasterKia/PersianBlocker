@@ -84,14 +84,18 @@ dlfox.com##.banner_small_dlbox_b
 ! download.ir
 ||download.ir/wp-content/uploads/*.gif^
 
-! zoomit.ir, zoomg.ir
+! zoomit.ir, zoomg.ir, pedal.ir, filmzi.tv/filmzi.com
+! https://github.com/MasterKia/PersianBlocker/issues/310
 ! https://github.com/MasterKia/PersianBlocker/issues/330
-/ads/api^$domain=zoomit.ir|zoomg.ir
+/ads/api^$domain=zoomit.ir|zoomg.ir|pedal.ir|filmzi.tv|filmzi.com
 ! Header ads:
 zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
 ! Other ads:
 zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="648"][maxheight="167"])
 zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="300"][maxheight="250"])
+! All ads:
+pedal.ir,filmzi.com##div[class^="sc-"][rowcount][columncount="1"]:has(> div[class^="sc-"] > a[rel="sponsored"])
+pedal.ir,filmzi.com##div[class^="sc-"][spacing="[object Object]"]:has( > span:has-text(تبلیغات))
 
 ! mali3.com
 ||mali3.com/wp-content/uploads/*.gif^
