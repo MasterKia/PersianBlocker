@@ -1,0 +1,65 @@
+# Title: PersianBlockerAds-Hosts
+# Last modified: %timestamp%
+# Expires: 5 days
+# Description: Filters to block ads in Persian websites 
+# License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+# Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+#
+# GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+# GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+# General #
+# ==VVV== #
+0.0.0.0 adverge.ir
+0.0.0.0 yektanet.com
+0.0.0.0 mediaad.org
+0.0.0.0 popupdl.ir
+0.0.0.0 kaprila.com
+0.0.0.0 sabavision.com
+0.0.0.0 tavoos.net
+0.0.0.0 chavosh.org
+0.0.0.0 adtrace.io
+0.0.0.0 pushe.co
+0.0.0.0 sanjagh.com
+0.0.0.0 najva.com
+0.0.0.0 utop.ir
+0.0.0.0 vatanclick.ir
+0.0.0.0 sorenad.com
+
+0.0.0.0 yelloadwise.ir
+0.0.0.0 ylad.ir
+
+0.0.0.0 adexo.ir
+# (e.g. sharghdaily.com):
+0.0.0.0 adexofiles.ir
+
+# (e.g. sharghdaily.com):
+0.0.0.0 ads.karzar.net
+
+# pelikan.media (e.g. sharghdaily.com):
+0.0.0.0  pelikan-network.ir
+
+# rokna.net:
+0.0.0.0 binoads.ir
+
+# par30games.net:
+0.0.0.0 yektabanner.com
+
+# Specific #
+# ===VV=== #
+# aparat.com:
+0.0.0.0 dsp.aparat.com
+
+# telewebion.com:
+0.0.0.0 adengine.telewebion.com
+
+# divar.ir:
+0.0.0.0 a-banners.divarcdn.com
+
+# beytoote.com:
+0.0.0.0 adsc.beytoote.com
+
+# varzesh3.com:
+0.0.0.0 biz-cdn.varzesh3.com
+# video.varzesh3.com:
+0.0.0.0 biz.varzesh3.com
