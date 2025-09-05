@@ -1,3 +1,4 @@
+[AdBlock]
 # Title: PersianBlockerAds-Hosts
 # Last modified: %timestamp%
 # Expires: 5 days
