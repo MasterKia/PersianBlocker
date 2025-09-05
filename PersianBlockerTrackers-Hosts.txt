@@ -1,0 +1,58 @@
+[AdBlock]
+# Title: PersianBlockerTrackers-Hosts
+# Last modified: %timestamp%
+# Expires: 7 days
+# Description: Filters to block trackers in Persian websites 
+# License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+# Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+#
+# GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
+# GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+
+### General ###
+### ==VVV== ###
+0.0.0.0 metrix.ir
+0.0.0.0 intrack.ir
+0.0.0.0 affilio.ir
+0.0.0.0 usermap.net
+
+# تا اطلاع ثانوی غیرفعال شد.
+# trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
+## 0.0.0.0 trustseal.e-rasaneh.ir
+
+# aparat.com
+0.0.0.0 sentry.sabaidea.cloud
+
+# rokna.net
+0.0.0.0 bl9.ir
+0.0.0.0 analyt.ir
+
+# They offer tracking services, but they also offer polls:
+## 0.0.0.0 webgozar.com
+## 0.0.0.0 webgozar.ir
+
+### Specific ###
+### ===VV=== ###
+# digikala.com:
+0.0.0.0 tracker.digikala.com
+0.0.0.0 new-sentry.digikala.com
+
+# zoomit.ir, zoomg.ir:
+0.0.0.0 sentry.theforge.ir
+# zoomit.ir:
+0.0.0.0 analytics.zoomit.ir
+
+# telewebion.com
+0.0.0.0 hadeseh.telewebion.com
+
+# alaatv.com
+0.0.0.0 sentry.alaatv.com
+
+# divar.ir 
+0.0.0.0 sentry.divar.cloud
+
+# jobvision.ir 
+0.0.0.0 candidatelogapi.jobvision.ir
+
+# zarebin.ir
+0.0.0.0 sentry.mci.dev
