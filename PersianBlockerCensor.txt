@@ -16,36 +16,42 @@
 ! Specific !
 ! ===VV=== !
 
-! cooldl.net, hexdl.com, modernfilm.ir, vipofilm.com, upmedia.movie: upera.tv or upera.shop download links
+! دارای حذفیات (سانسور شده):
+! cooldl.net, hexdl.com, modernfilm.ir, vipofilm.com,
+! upmedia.movie, filmr.ir, uptvs.com, netpaak.com, hexdownload.co/hexdl.com,
+! filimserial.ir, naabmovie.ir, upera.tv/upera.shop: upera.tv or upera.shop download links
 
 ! doostihaa.com: "نسخه اول دوبله فارسی سانسور شده"
 ! zardfilm.in: "تابع قوانین و مقررات"
 ! gapfilm.ir: "فعالیت‌های سایت گپ فیلم تابع قوانین و مقررات جمهوری اسلامی ایران است"
+! filimo.com: No reason specified
 
+! اشتراکی:
 ! filmazon.my: https://filmazon.my/subscription
 
 ! soft98.ir: Hostile behavior against users with content blockers
 
 
 ! google.com:
-www.google.com##a[href]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"]) > h3::after:style(content: ' ✂️ (سانسور شده) ✂️ ' !important; color: red !important; font-weight: bold !important;)
+www.google.com##a[href]:where([href*="netpaak.com/"], [href*="hexdownload.co/"], [href*="hexdl.com/"], [href*="filimserial.ir/"], [href*="naabmovie.ir/"], [href*="upera.tv/"], [href*="upera.shop/"], [href*="uptvs.com/"], [href*="filmr.ir/"], [href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"]) > h3::after:style(content: ' ✂️ (دارای حذفیات) ✂️ ' !important; color: red !important; font-weight: bold !important;)
 www.google.com##a[href]:where([href*="filmazon.my/"]) > h3::after:style(content: ' 💰 (اشتراکی) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
 
 ! bing.com:
-www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::before:style(content: ' ✂️ (سانسور شده) ✂️ ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
+www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="netpaak.com/"], [href*="hexdownload.co/"], [href*="hexdl.com/"], [href*="filimserial.ir/"], [href*="naabmovie.ir/"], [href*="upera.tv/"], [href*="upera.shop/"], [href*="uptvs.com/"], [href*="filmr.ir/"], [href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::before:style(content: ' ✂️ (دارای حذفیات) ✂️ ' !important; color: red !important; font-weight: bold !important; font-size: large !important;)
 www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="filmazon.my/"])::before:style(content: ' 💰 (اشتراکی) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
 
 ! duckduckgo.com:
-duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::after:style(content: ' ✂️ (سانسور شده) ✂️ ' !important; color: red !important; font-weight: bold !important;)
+duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="netpaak.com/"], [href*="hexdownload.co/"], [href*="hexdl.com/"], [href*="filimserial.ir/"], [href*="naabmovie.ir/"], [href*="upera.tv/"], [href*="upera.shop/"], [href*="uptvs.com/"], [href*="filmr.ir/"], [href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::after:style(content: ' ✂️ (دارای حذفیات) ✂️ ' !important; color: red !important; font-weight: bold !important;)
 duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="filmazon.my/"])::after:style(content: ' 💰 (اشتراکی) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
 
 ! search.brave.com:
-search.brave.com##a[href][class$="heading-serpresult"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::after:style(content: ' ✂️ (سانسور شده) ✂️ ' !important; color: red !important; font-weight: bold !important;)
+search.brave.com##a[href][class$="heading-serpresult"]:where([href*="netpaak.com/"], [href*="hexdownload.co/"], [href*="hexdl.com/"], [href*="filimserial.ir/"], [href*="naabmovie.ir/"], [href*="upera.tv/"], [href*="upera.shop/"], [href*="uptvs.com/"], [href*="filmr.ir/"], [href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::after:style(content: ' ✂️ (دارای حذفیات) ✂️ ' !important; color: red !important; font-weight: bold !important;)
 search.brave.com##a[href][class$="heading-serpresult"]:where([href*="filmazon.my/"])::after:style(content: ' 💰 (اشتراکی) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
 
 ! zarebin.ir:
-zarebin.ir##a[href][class^="!text-link"]:where([href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::after:style(content: ' ✂️ (سانسور شده) ✂️ ' !important; color: red !important; font-weight: bold !important;)
+zarebin.ir##a[href][class^="!text-link"]:where([href*="netpaak.com/"], [href*="hexdownload.co/"], [href*="hexdl.com/"], [href*="filimserial.ir/"], [href*="naabmovie.ir/"], [href*="upera.tv/"], [href*="upera.shop/"], [href*="uptvs.com/"], [href*="filmr.ir/"], [href*="doostihaa.com/"], [href*="zardfilm.in/"], [href*="cooldl.net/"], [href*="dlrozaneh.ir/"], [href*="gapfilm.ir/"], [href*="hexdl.com/"], [href*="modernfilm.ir/"], [href*="vipofilm.com/"], [href*="upmedia.movie/"], [href*="filimo.com/"])::after:style(content: ' ✂️ (دارای حذفیات) ✂️ ' !important; color: red !important; font-weight: bold !important;)
 zarebin.ir##a[href][class^="!text-link"]:where([href*="filmazon.my/"])::after:style(content: ' 💰 (اشتراکی) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
+
 
 ! soft98.ir:
 ! https://github.com/uBlockOrigin/uAssets/issues/14480
