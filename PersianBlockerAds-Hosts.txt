@@ -51,6 +51,10 @@
 # aparat.com:
 0.0.0.0 dsp.aparat.com
 
+# soft98.ir
+0.0.0.0 img.soft98.ir
+0.0.0.0 file3.soft98.ir
+
 # telewebion.com:
 0.0.0.0 adengine.telewebion.com
 
