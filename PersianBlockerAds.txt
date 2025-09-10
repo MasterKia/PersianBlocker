@@ -76,8 +76,8 @@ abadis.ir##x
 
 ! dlfox.com
 ||dlfox.com/wp-content/uploads/*.gif^
-||isarclinic.com^$image,domain=dlfox.com
-||cdkeyshare.ir^$image,domain=dlfox.com
+||isarclinic.com^$image,from=dlfox.com
+||cdkeyshare.ir^$image,from=dlfox.com
 dlfox.com##.textwidget > a[href="www.dlfox.com"]:has(> img[alt="dlfox"])
 dlfox.com##.ads_area_small_banner p:has(> a[target="_blank"] > img[alt])
 dlfox.com##.home_mid_ads
@@ -91,7 +91,7 @@ dlfox.com##.banner_small_dlbox_b
 ! zoomit.ir, zoomg.ir, pedal.ir, filmzi.tv/filmzi.com
 ! https://github.com/MasterKia/PersianBlocker/issues/310
 ! https://github.com/MasterKia/PersianBlocker/issues/330
-/ads/api^$domain=zoomit.ir|zoomg.ir|pedal.ir|filmzi.tv|filmzi.com
+/ads/api^$from=zoomit.ir|zoomg.ir|pedal.ir|filmzi.tv|filmzi.com
 ! Header ads:
 zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
 ! Other ads:
@@ -181,7 +181,7 @@ ninisite.com###forum-native-ad
 
 ! footballitarin.com
 ! https://github.com/MasterKia/PersianBlocker/issues/307
-||blogger.googleusercontent.com/img^$domain=footballitarin.com
+||blogger.googleusercontent.com/img^$from=footballitarin.com
 ||footballitarin.com/agahi^
 
 ! aparat.com
@@ -266,3 +266,8 @@ ronevis.ir##.posts-ads
 ! https://github.com/MasterKia/PersianBlocker/issues/41
 ||cdn.bartarinha.ir/servev2^$image,from=khabaronline.ir
 khabaronline.ir##.cyt-ads-block
+
+! namnak.com
+||talajat.net^$from=namnak.com
+namnak.com##.namank-ad
+namnak.com###implant-ad-container
