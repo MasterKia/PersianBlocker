@@ -74,4 +74,5 @@ khabaronline.ir##.box.bullet-icons:has(> header > h2 > span:has-text(پایگا�
 khabaronline.ir##.box.bullet-icons:has(> header > h2 > span:has-text(خدمات گردشگری))
 
 ! namnak.com (تبلیغات متنی):
+namnak.com##aside > .border-t:has(> div.backlinks)
 namnak.com###footer-content-ads
