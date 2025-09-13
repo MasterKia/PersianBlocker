@@ -276,3 +276,6 @@ khabaronline.ir##.cyt-ads-block
 ||talajat.net^$from=namnak.com
 namnak.com##.namank-ad
 namnak.com###implant-ad-container
+
+! offerdaily.ir
+offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64)
