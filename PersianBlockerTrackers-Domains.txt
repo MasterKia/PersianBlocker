@@ -14,6 +14,7 @@ metrix.ir
 intrack.ir
 affilio.ir
 usermap.net
+analyticsdaily.ir
 
 # تا اطلاع ثانوی غیرفعال شد.
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
