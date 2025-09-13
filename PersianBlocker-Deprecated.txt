@@ -572,9 +572,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ! ^ Used by barato.ir, dailymobile.ir
 
 ! >> U <<
-||useinsider.com^$3p
-! ^ Used by Sheypoor.com
-
 ||uptrendsdata.com^$3p
 ! ^ Used by aftabir.com
 
@@ -2963,14 +2960,6 @@ shomavaeghtesad.com##.adv
 !#if !env_mobile 
 shomavaeghtesad.com##.column_1:style(width: 70% !important;)
 shomavaeghtesad.com##.column_2:style(width: 30% !important;)
-!#endif
-
-||sentry.mielse.com^
-||sheypoor.com/banner/tapsell/image^$image,1p
-sheypoor.com##main.mainV2 div:has(> section > a > div > div > span:has-text(تبلیغات))
-sheypoor.com##main.mainV2 div:has(> section > div > div > h2 > p:has-text(/^Ad$/))
-!#if env_mobile
-sheypoor.com##div#app-suggest-new
 !#endif
 
 shereno.com##.b_box
