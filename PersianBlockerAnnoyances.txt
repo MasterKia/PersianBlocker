@@ -24,8 +24,9 @@
 
 ! Specific !
 ! ===VV=== !
-! dlfox.com (وبگردی)
+! dlfox.com (وبگردی و محل تبلیغات شما):
 dlfox.com##.blog_list
+dlfox.com##.shbanner
 
 ! download.ir (Self-promotion, وبگردی)
 ||download.ir/wp-content/uploads/2022/10/Hostiran-ads.jpg^
