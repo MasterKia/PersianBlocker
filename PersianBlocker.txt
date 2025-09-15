@@ -40,8 +40,8 @@
 !#include PersianBlockerTrackers.txt
 
 
-! Annoyances (Disabled, please use manually - غیرفعال، لطفا به صورت دستی استفاده کنید):
-! !#include PersianBlockerAnnoyances.txt
+! Annoyances
+!#include PersianBlockerAnnoyances.txt
 
 
 ! Video Censorship:
