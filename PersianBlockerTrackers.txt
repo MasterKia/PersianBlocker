@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerTrackers
-! Last modified: Sat, 13 Sep 2025 13:50:15 +0330
+! Last modified: Sun, 21 Sep 2025 16:31:22 +0330
 ! Expires: 7 days
 ! Description: Filters to block trackers in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
