@@ -20,10 +20,10 @@ analyticsdaily.ir
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
 ## trustseal.e-rasaneh.ir
 
-# aparat.com
+# aparat.com:
 sentry.sabaidea.cloud
 
-# rokna.net
+# rokna.net:
 bl9.ir
 analyt.ir
 
@@ -42,17 +42,20 @@ sentry.theforge.ir
 # zoomit.ir:
 analytics.zoomit.ir
 
-# telewebion.com
+# telewebion.com:
 hadeseh.telewebion.com
 
-# alaatv.com
+# alaatv.com:
 sentry.alaatv.com
 
-# divar.ir 
+# divar.ir: 
 sentry.divar.cloud
 
-# jobvision.ir 
+# jobvision.ir: 
 candidatelogapi.jobvision.ir
 
-# zarebin.ir
+# zarebin.ir:
 sentry.mci.dev
+
+# football360.ir:
+analytics.football360.ir
