@@ -45,6 +45,9 @@ binoads.ir
 # par30games.net:
 yektabanner.com
 
+# football360.ir:
+arvanvads.ir
+
 # Specific #
 # ===VV=== #
 # aparat.com:
