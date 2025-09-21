@@ -46,6 +46,9 @@
 # par30games.net:
 0.0.0.0 yektabanner.com
 
+# football360.ir:
+0.0.0.0 arvanvads.ir
+
 # Specific #
 # ===VV=== #
 # aparat.com:
