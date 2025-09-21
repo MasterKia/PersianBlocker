@@ -68,6 +68,10 @@
 ! ronveis.ir:
 ||mihanstore.net/partner^
 
+! football360.ir:
+||napi.arvancloud.ir/vod/channels/*/ads^
+||arvanvads.ir^
+
 !!! Specific !!!
 !!! ===VV=== !!!
 ! abadis.ir
@@ -279,3 +283,8 @@ namnak.com###implant-ad-container
 
 ! offerdaily.ir
 offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64)
+
+! football360.ir
+! https://github.com/MasterKia/PersianBlocker/issues/107
+||football360.ir/api/advertisements^
+football360.ir##section[class^="style_adsSection"]
