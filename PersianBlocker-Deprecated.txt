@@ -1499,10 +1499,6 @@ filmino.me##.flex-ad-body
 
 filmha.top##.abvertise > .container > a:not(a[href="https://t.me/filmha_top"])
 
-! https://github.com/MasterKia/PersianBlocker/issues/107
-||analytics.football360.ir^
-||football360.ir/api/advertisements^
-
 ! https://github.com/MasterKia/PersianBlocker/issues/42
 farachart.com##div.sidebar > div.widget:has(> div.widget-head > h3:has-text(تبلیغات))
 farachart.com##div.g:has(> div.g-col > span[style]:has-text(تبلیغات)):has( div.post-link-box1)
