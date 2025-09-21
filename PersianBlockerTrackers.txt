@@ -17,46 +17,46 @@
 ||usermap.net^
 ||analyticsdaily.ir^
 
-! trustseal.e-rasaneh.ir (e.g. zoomit.ir)
+! trustseal.e-rasaneh.ir (e.g. zoomit.ir):
 ||trustseal.e-rasaneh.ir/Trustseal^$method=post
 
-! aparat.com
+! aparat.com:
 ||sentry.sabaidea.cloud^
 
-! Google Account Login (e.g. gama.ir)
+! Google Account Login (e.g. gama.ir):
 ||accounts.google.com/gsi^$~script,from=ir
 
-! rokna.net
+! rokna.net:
 ||bl9.ir^
 ||analyt.ir^
 
 ! Specific !
 ! ===VV=== !
-! digikala.com
+! digikala.com:
 ||tracker.digikala.com^
 ||dgka.me^$removeparam=promo_name
 ||dgka.me^$removeparam=promo_position
 ||dgka.me^$removeparam=promo_creative
 ||dgka.me^$removeparam=bCode
 
-! zoomit.ir, zoomg.ir
+! zoomit.ir, zoomg.ir:
 ||sentry.theforge.ir^
-! zoomit.ir
+! zoomit.ir:
 ||analytics.zoomit.ir^
 ! zoomit.ir/product/
 zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit.ir/catalog/store-links/"][href*="/click?url=http"], ?url)
-! zoomg.ir
+! zoomg.ir:
 ||zoomg.ir/editorial/api/articles/*/visit^
 
-! aparat.com
+! aparat.com:
 ||aparat.com/external/romeo^
 ||aparat.com/gogol^
 
-! telewebion.com
+! telewebion.com:
 ||hadeseh.telewebion.com^
 ||data.telewebion.com/broker/api/v1/message/page-view^
 
-! alaatv.com
+! alaatv.com:
 alaatv.com##+js(set, Metrix, {})
 alaatv.com##+js(set, Metrix.deauthorizeUser, noopFunc)
 alaatv.com##+js(set, Metrix.init, noopFunc)
@@ -65,32 +65,34 @@ alaatv.com##+js(set, zebline.event, {})
 alaatv.com##+js(set, zebline.event.track, noopFunc)
 ||sentry.alaatv.com^
 
-
-! divar.ir
+! divar.ir:
 ||api.divar.ir/v8/actionlog^
 ||api.divar.ir/v1/client-exporter/send-report^
 ||sentry.divar.cloud^
 
-! jobvision.ir
+! jobvision.ir:
 ||candidatelogapi.jobvision.ir/api/v1/JobPostActionLog/AddToQueue^
 
-! ninisite.com
+! ninisite.com:
 ||stc.ninisite.com/s/atv^
 
-! footballitarin.com
+! footballitarin.com:
 ||inmobi.com^$domain=footballitarin.com
 
-! aparat.com
+! aparat.com:
 ! https://github.com/MasterKia/PersianBlocker/issues/304#issuecomment-3044430691
 aparat.com##+js(set-local-storage-item, videoPlayedCount, $remove$)
 aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
 
-! zarebin.ir
+! zarebin.ir:
 ||zarebin.ir/platform/api/supervisor/v1/events/^
 ||sentry.mci.dev^
 
-! digikala.com
+! digikala.com:
 ||new-sentry.digikala.com^
 
-! pod.ir
+! pod.ir:
 ||accounts.pod.ir/js/fingerprint2.min.js^
+
+! football360.ir:
+||analytics.football360.ir^
