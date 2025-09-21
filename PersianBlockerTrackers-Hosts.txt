@@ -21,10 +21,10 @@
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
 ## 0.0.0.0 trustseal.e-rasaneh.ir
 
-# aparat.com
+# aparat.com:
 0.0.0.0 sentry.sabaidea.cloud
 
-# rokna.net
+# rokna.net:
 0.0.0.0 bl9.ir
 0.0.0.0 analyt.ir
 
@@ -43,17 +43,20 @@
 # zoomit.ir:
 0.0.0.0 analytics.zoomit.ir
 
-# telewebion.com
+# telewebion.com:
 0.0.0.0 hadeseh.telewebion.com
 
-# alaatv.com
+# alaatv.com:
 0.0.0.0 sentry.alaatv.com
 
-# divar.ir 
+# divar.ir: 
 0.0.0.0 sentry.divar.cloud
 
-# jobvision.ir 
+# jobvision.ir:
 0.0.0.0 candidatelogapi.jobvision.ir
 
-# zarebin.ir
+# zarebin.ir:
 0.0.0.0 sentry.mci.dev
+
+# football360.ir:
+0.0.0.0 analytics.football360.ir
