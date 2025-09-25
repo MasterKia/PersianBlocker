@@ -66,3 +66,7 @@ adsc.beytoote.com
 biz-cdn.varzesh3.com
 # video.varzesh3.com:
 biz.varzesh3.com
+
+# shahvani.com:
+ovrjkuavda.com
+jtoaxlbas.com
