@@ -74,11 +74,11 @@
 
 !!! Specific !!!
 !!! ===VV=== !!!
-! abadis.ir
+! abadis.ir:
 ||abadis.ir/libs/async/ads.min.js^
 abadis.ir##x
 
-! dlfox.com
+! dlfox.com:
 ||dlfox.com/wp-content/uploads/*.gif^
 ||isarclinic.com^$image,from=dlfox.com
 ||cdkeyshare.ir^$image,from=dlfox.com
@@ -89,10 +89,10 @@ dlfox.com##.ADS_wrapper
 dlfox.com##.single_post_banner
 dlfox.com##.banner_small_dlbox_b
 
-! download.ir
+! download.ir:
 ||download.ir/wp-content/uploads/*.gif^
 
-! zoomit.ir, zoomg.ir, pedal.ir, filmzi.tv/filmzi.com
+! zoomit.ir, zoomg.ir, pedal.ir, filmzi.tv/filmzi.com:
 ! https://github.com/MasterKia/PersianBlocker/issues/310
 ! https://github.com/MasterKia/PersianBlocker/issues/330
 /ads/api^$from=zoomit.ir|zoomg.ir|pedal.ir|filmzi.tv|filmzi.com
@@ -110,51 +110,48 @@ zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="s
 pedal.ir,filmzi.com##div[class^="sc-"][rowcount][columncount="1"]:has(> div[class^="sc-"] > a[rel="sponsored"])
 pedal.ir,filmzi.com##div[class^="sc-"][spacing="[object Object]"]:has( > span:has-text(تبلیغات))
 
-! mali3.com
+! mali3.com:
 ||mali3.com/wp-content/uploads/*.gif^
 mali3.com##.sidebar-area:has(> a[href] > img[width="330"][height="150"][alt=""])
 mali3.com##.code-block:has(> a[target="_blank"][rel] > img[alt][width="800"][height="100"])
 
-! web.rubika.ir
+! web.rubika.ir:
 web.rubika.ir##rb-chat-ads-container
 
-! web.eitaa.com
+! web.eitaa.com:
 web.eitaa.com##.ads-active
 
 ! shad.ir
 shad.ir##.bannerWrapImg
 shad.ir##rb-chat-ads-container
 
-! aparat.com
-||dsp.aparat.com^
-
-! nazriyab.app
+! nazriyab.app:
 nazriyab.app##.header-ex
 
-! sheypoor.com
+! sheypoor.com:
 sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 
-! telewebion.com
+! telewebion.com:
 ||adengine.telewebion.com^
 
-! digikala.com
+! digikala.com:
 ! Ads in search results:
 www.digikala.com##article > .items-center .mr-auto > .mr-1 > svg[style$="fill: var(--color-ad);"] .text-neutral-500::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;  font-size: large !important;)
 ! Ads in https://www.digikala.com/incredible-offers/ results:
 www.digikala.com##div[class^="product-list_ProductList__item__"][data-product-index] > .block > .h-full[data-testid="product-card"] > article > .items-center:has(> .ml-1 > img[src="/statics/img/svg/productCard/topBadge/PromotedIncredibleOffer.svg"])::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;)
 
-! jobinja.ir
+! jobinja.ir:
 jobinja.ir##body:style(cursor: unset !important;)
 jobinja.ir##.c-forceToLogin__overlay
 jobinja.ir##.c-forceToLogin__message
 jobinja.ir##.c-forceToLogin__content:style(filter: none !important; -webkit-filter: none !important; opacity:1 !important;)
 
-! divar.ir
+! divar.ir:
 ||api.divar.ir/v8/ad-auction^
 ||a-banners.divarcdn.com/ssp/ads^
 divar.ir##.kt-inset-banner
 
-! farsroid.com
+! farsroid.com:
 farsroid.com##.site-top-nav > .grid-row > li > a[rel="dofollow"][target="_blank"]
 farsroid.com##.farsroid-ads
 farsroid.com##.single-text-ads
@@ -162,39 +159,40 @@ farsroid.com##.labeled-dw-ads
 farsroid.com##.ads-download
 farsroid.com##.ads-dashed-banner
 
-! alef.ir
+! alef.ir:
 alef.ir##a[href="https://www.yektanet.com/"][target="_blank"]
 alef.ir##a[href="https://panel.triboon.net/"][target="_blank"]
 
-! virgool.io
+! virgool.io:
 ||virgool.io/api2/app/posts/*/ad^
 
-! setare.com
+! setare.com:
 setare.com##.chavosh-ad-box
 
-! beytoote.com
+! beytoote.com:
 ||adsc.beytoote.com^
 ||storage.beytoote.com/images/adsbeytoote^
 beytoote.com##.countclick
 beytoote.com##div[class*="pcfadv"]
 
-! tgju.org
+! tgju.org:
 ||static.tgju.org/advertisement^
 tgju.org##.bottom-right-ad
 
-! ninisite.com
+! ninisite.com:
 ninisite.com###forum-native-ad
 
-! tabnak.ir
+! tabnak.ir:
 ||cdn.tabnak.ir/files/fa/adv^
 
-! footballitarin.com
+! footballitarin.com:
 ! https://github.com/MasterKia/PersianBlocker/issues/307
 ||blogger.googleusercontent.com/img^$from=footballitarin.com
 ||footballitarin.com/agahi^
 
-! aparat.com
+! aparat.com:
 ! https://github.com/MasterKia/PersianBlocker/issues/304#issuecomment-3044430691
+||dsp.aparat.com^
 ! Under the video:
 aparat.com##.banner-ads
 ! In the corner:
@@ -205,21 +203,21 @@ aparat.com##.promote-puls
 ! https://github.com/MasterKia/PersianBlocker/issues/40
 soft98.ir,~forum.soft98.ir##img[src^="https://img.soft98.ir/"]:upward(1):style(clip-path: circle(0) !important;)
 
-! par30games.net 
+! par30games.net:
 ||par30games.net/wp-content/uploads/*.gif^
 par30games.net##.top-large-ads
 
-! shahrekhabar.com
+! shahrekhabar.com:
 ||static.shahrekhabar.com/banner/*.gif^
 
-! mobile.ir
+! mobile.ir:
 ||mobile.ir/Static/b^
 ! Header ads:
 mobile.ir##.b
 ! Sidebar ads:
 mobile.ir##.apnl
 
-! yasdl.com
+! yasdl.com:
 ||yasdl.com/wp-content/uploads/*.gif^
 ! Header ads:
 !yasdl.com##.top-ads-wrap
@@ -250,23 +248,23 @@ faraazin.ir#@#.ads-title
 iranianuk.com##.ads
 iranianuk.com##.banners_container
 
-! alaatv.com
+! alaatv.com:
 ||nodes.alaatv.com/upload/vast/xml^
 alaatv.com##*:style(user-select: text !important; -webkit-user-select: text !important;)
 
-! filmzi.tv
+! filmzi.tv:
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211800
 ||filmzi.tv/ads/api^
 filmzi.tv##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
 filmzi.tv##div[class^="sc-"][spacing="[object Object]"]:has(> div[class^="sc-"][rowcount][columncount])
 
-! wikihoghoogh.net
+! wikihoghoogh.net:
 wikihoghoogh.net###siteNotice
 
-! avaz-kurd.ir, power-music.ir
+! avaz-kurd.ir, power-music.ir:
 avaz-kurd.ir,power-music.ir##.btn-app
 
-! ronvevis.ir
+! ronvevis.ir:
 ronevis.ir##.posts-ads
 
 ! khabaronline.ir:
@@ -276,15 +274,20 @@ ronevis.ir##.posts-ads
 ||cdn.bartarinha.ir/servev2^$image,from=khabaronline.ir
 khabaronline.ir##.cyt-ads-block
 
-! namnak.com
+! namnak.com:
 ||talajat.net^$from=namnak.com
 namnak.com##.namank-ad
 namnak.com###implant-ad-container
 
-! offerdaily.ir
+! offerdaily.ir:
 offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64)
 
-! football360.ir
+! football360.ir:
 ! https://github.com/MasterKia/PersianBlocker/issues/107
 ||football360.ir/api/advertisements^
 football360.ir##section[class^="style_adsSection"]
+
+! shahvani.com:
+||ovrjkuavda.com^
+||jtoaxlbas.com^
+||shahvani.com/static/images/*.gif^
