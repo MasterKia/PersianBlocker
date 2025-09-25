@@ -98,17 +98,16 @@ dlfox.com##.banner_small_dlbox_b
 /ads/api^$from=zoomit.ir|zoomg.ir|pedal.ir|filmzi.tv|filmzi.com
 ! Header ads:
 zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc-"][maxwidth="1920"][maxheight="192"])
-! Sponsored articles (zoomit.ir mainpage):
+! Other ads:
+zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth][maxheight])
+! All ads:
+pedal.ir,filmzi.com##div[class^="sc-"][rowcount][columncount="1"]:has(> div[class^="sc-"] > a[rel="sponsored"])
+pedal.ir,filmzi.com##div[class^="sc-"][spacing="[object Object]"]:has( > span:has-text(تبلیغات))
+! Sponsored articles (https://www.zoomit.ir/ mainpage):
 zoomit.ir##div.mt-4 > a[href^="https://www.zoomit.ir/pr/"]
 zoomit.ir##div.mt-4 > a[href^="https://www.zoomit.ir/pr/"] + .bg-borderPrimary
 ! Sponsored articles (https://www.zoomit.ir/archive):
 zoomit.ir##div[class^="sc-"][flexdirection="column"][flexwrap="nowrap"] > .flex > .scroll-m-16:has(> a[href^="https://www.zoomit.ir/pr/"])
-! Other ads:
-zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="648"][maxheight="167"])
-zoomit.ir,zoomg.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="300"][maxheight="250"])
-! All ads:
-pedal.ir,filmzi.com##div[class^="sc-"][rowcount][columncount="1"]:has(> div[class^="sc-"] > a[rel="sponsored"])
-pedal.ir,filmzi.com##div[class^="sc-"][spacing="[object Object]"]:has( > span:has-text(تبلیغات))
 
 ! mali3.com:
 ||mali3.com/wp-content/uploads/*.gif^
