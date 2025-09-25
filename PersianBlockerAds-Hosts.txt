@@ -67,3 +67,7 @@
 0.0.0.0 biz-cdn.varzesh3.com
 # video.varzesh3.com:
 0.0.0.0 biz.varzesh3.com
+
+# shahvani.com:
+0.0.0.0 ovrjkuavda.com
+0.0.0.0 jtoaxlbas.com
