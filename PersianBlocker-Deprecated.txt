@@ -1246,8 +1246,6 @@ digiato.com##.todaysNewsList__sidebar
 digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی)).rowList > li:has(a[href*="/promoted/"])
 
-||tracker.digikala.com^
-||new-sentry.digikala.com^
 ||www.digikala.com^$doc,removeparam=promo_name
 ||www.digikala.com^$doc,removeparam=promo_position
 ||www.digikala.com^$doc,removeparam=promo_creative
@@ -3641,14 +3639,12 @@ yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
 zarebin.ir##+js(href-sanitizer, div#link-container > a[data-sentry-element="Link"], ?url)
-||zarebin.ir/platform/api/supervisor/v1/events^$1p,method=post
 ||zarebin.ir/we/api/v1/web-enrich/elements?qsrc=user^$xhr,1p,method=post
 ||zarebin.ir/media/detail^$removeparam=q
 ||zarebin.ir/media/detail^$removeparam=publisher
 ||zarebin.ir/media/detail^$removeparam=origin
 ||cafevdo.zarebin.ir/api/v1/accounts/action^$xhr,1p,method=post
 ||cafevdo.zarebin.ir/api/v1/events^$xhr,1p,method=post
-||sentry.mci.dev^
 ||hamrahi.cloud/drive-endpoint.log^$xhr,3p
 ||hamrahi.cloud/video-timeline.log^$xhr,3p
 
