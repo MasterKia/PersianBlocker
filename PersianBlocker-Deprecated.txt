@@ -738,7 +738,6 @@ androidgozar.com##.post-sticky:upward(.row)
 androidgozar.com##.ag-agah
 
 ! https://github.com/MasterKia/PersianBlocker/issues/3
-||dsp.aparat.com^
 ||static.cdn.asset.aparat.com/agf-file^$image,1p
 ||aparat.com/static/vendor/dox$script,css
 ||aparat.com^$xhr,removeparam=referer
@@ -747,7 +746,6 @@ aparat.com##.announce
 aparat.com##div[type="aparat"]:has(> .link)
 aparat.com##.dsp-ad
 aparat.com##.side-ads
-aparat.com##.promote-puls
 ! TODO: Check for more possible filters
 ||ads.asset.aparat.com^
 ||aparatsport.com/sport_ads.xml^$xhr
@@ -949,8 +947,6 @@ beautyhome.ir###ad-hoc-2
 ||ads.beytoote.com
 beytoote.com###headerbar
 beytoote.com###bil_fix_top_pc
-beytoote.com##.countclick
-beytoote.com##div[class^="pcfadv"]
 beytoote.com##.content-slider
 beytoote.com##.hamsan-container
 beytoote.com##.m-banner-r
