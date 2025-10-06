@@ -93,8 +93,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||anetwork.ir^
 ||alaqsastorm.com/aqsa/ads.php^$image,3p
 ||adrooz.com^
-||affilio.ir^
-||analyt.ir^
 
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
 ||error-tracking.arvancloud.com^
@@ -159,7 +157,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 blog.ir##+js(set, constant.copyText, '')
 
-||bl9.ir^
 ||backlink.ir^
 ||boorantech.com^
 
@@ -259,8 +256,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||hantana.org^
 
 ! >> I <<
-||intrack.ir^
-
 ||geoip.imber.live^
 ! ^ Example: malltina.com
 
@@ -293,7 +288,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||ir.mihanstore.net^
 ! Example: uploadgoogle.ir
 
-||metrix.ir^
 ||magnetadservices.com^
 ||merita.ir^
 ||mitrarank.ir^
@@ -452,8 +446,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||tool.4tools.ir/tools/click-l/click-l.js^$script,3p
 
 ! >> U <<
-||usermap.net^
-
 ||userfriendly.ir^
 ! ^ Used by bils.ir
 
@@ -689,8 +681,6 @@ applicationha.com##.baner
 anaj.ir##.tab_news > a[href*="gameup.ir"]
 
 ||abadis.ir/ajaxcmd/stat/$badfilter
-||abadis.ir/libs/async/ads.min.js^$script,1p
-abadis.ir##x
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96707
 asriran.com##div.click1000_allcontent
@@ -753,7 +743,6 @@ androidgozar.com##.ag-agah
 ! https://github.com/MasterKia/PersianBlocker/issues/3
 ||dsp.aparat.com^
 ||static.cdn.asset.aparat.com/agf-file^$image,1p
-||aparat.com/external/romeo^$xhr
 ||aparat.com/static/vendor/dox$script,css
 ||aparat.com^$xhr,removeparam=referer
 aparat.com##div.video-list:has(> div > div:has(span.ad:has-text(AD)))
@@ -1279,7 +1268,6 @@ digikala.com##div.py-2:has(> div.items-center > div.swiper-container > div.swipe
 ||digistyle.com^$removeparam=/^utm_/
 ||digistyle.com/tracker^
 
-||sentry.divar.cloud^$3p,domain=divar.ir
 ||actionlog.divar.ir^$1p
 ||divar.ir/g-scripts^$script,1p
 ||api.divar.ir/*/actionlog^$beacon,1p
