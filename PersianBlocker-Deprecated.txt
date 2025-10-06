@@ -92,7 +92,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||adtodate.ir^
 ||anetwork.ir^
 ||alaqsastorm.com/aqsa/ads.php^$image,3p
-||adverge.ir^
 ||adrooz.com^
 ||affilio.ir^
 ||analyt.ir^
@@ -127,7 +126,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||adpulse.ir^
 ||adsima.net^
 
-||adtrace.io^
 ||adtrace.ir^
 ! https://twitter.com/Nikolaona/status/1699167838697652322
 ||adtrace.world^
@@ -161,7 +159,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 blog.ir##+js(set, constant.copyText, '')
 
-||binoads.ir^
 ||bl9.ir^
 ||backlink.ir^
 ||boorantech.com^
@@ -188,14 +185,10 @@ eramblog.com##div.main_content[style="border-radius:10px;"]:has(> div[style="pad
 ||behtarinseo.ir^
 ||backority.ir^
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/99240
-||blogfa.com/a^$script,1p
-
 ! >> C <<
 ||cayot.ir^
 ! Example: tamasha.com/v/DDlMB
 
-||chavosh.org^
 ||ck.chavosh.org^
 
 ||clickaval.com^
@@ -283,8 +276,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||kilipo.com/themes/vidplay/player/plugins/vast^$script,css,xhr
 
 ||kajads.com^
-||ads.karzar.net^
-||kaprila.com^
 
 ||k2cod.com/ip/show-ip
 ||k2cod.com/statistics/
@@ -303,7 +294,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ! Example: uploadgoogle.ir
 
 ||metrix.ir^
-||mediaad.org^
 ||magnetadservices.com^
 ||merita.ir^
 ||mitrarank.ir^
@@ -331,7 +321,6 @@ niloblog.com##bloglinksblock
 
 ! >> P <<
 ||perlika.com^
-||pelikan-network.ir^
 ||pegah.tech^
 ||pushq.ir^
 
@@ -342,7 +331,6 @@ niloblog.com##bloglinksblock
 ||promizer.com^
 ||phonroid.com^
 ||popina.ir^
-||popupdl.ir^
 ||popland.info^
 
 ||peyvandha.ir^$3p
@@ -355,7 +343,6 @@ niloblog.com##bloglinksblock
 ||popgozar.com^
 ||popupplus.ir^
 ||popupme.net^
-||pushe.co^
 ||p30rank.ir^
 ||publica.ir^
 
@@ -401,13 +388,11 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
 
-||sanjagh.com^
 ||sanjagh.net^
 
 ||ads.safarme.ir^
 ! ^ Used by kojaro.com
 
-||sabavision.com^
 ||sabaidea.cloud^
 
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
@@ -437,7 +422,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||tabligheirani.ir^
 ||tbli.ir^
 
-||tavoos.net^
 @@||player.tavoos.net/jwplayer.js$script,3p
 @@||player.tavoos.net/jwplayer.core.controls.html5.js$script,3p
 @@||player.tavoos.net/jwplayer.core.controls.js$script,3p
@@ -496,7 +480,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||yelloadwise.ir^
 ||ylad.ir^
 
-||yektanet.com^
 @@||video.cdn.yektanet.com/video-$script,3p,domain=gostaresh.news
 @@||native-ad-placement-cdn.yektanet.com/static/video_scripts//video-$script,3p,domain=gostaresh.news
 @@||native-ad-placement-cdn.yektanet.com/static/video_scripts/video-$script,3p,domain=fararu.com
@@ -1933,9 +1916,6 @@ jesarat.com##.widget_custom_html
 jesarat.com##aside:nth-of-type(2)
 
 ||jobinja.ir^$doc,removeparam=_ref
-jobinja.ir##div.c-forceToLogin__message
-jobinja.ir##div.c-forceToLogin__overlay
-jobinja.ir##div.c-forceToLogin__content:style(filter: none !important; opacity: 1 !important;)
 
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
