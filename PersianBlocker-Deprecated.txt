@@ -949,7 +949,6 @@ beautyhome.ir###ad-hoc-2
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96101
 ||beytoote.com/ads/socket.io.js
 ||beytoote.com/html_ads/
-||storage.beytoote.com/images/adsbeytoote/
 ||ads.beytoote.com
 beytoote.com###headerbar
 beytoote.com###bil_fix_top_pc
@@ -1272,7 +1271,6 @@ digikala.com##div.py-2:has(> div.items-center > div.swiper-container > div.swipe
 ||api.divar.ir/*/client-exporter/send-report^$beacon,1p
 ||open-platform-redirect.divar.ir^$doc,removeparam=source
 ||divarcdn.com/ssp/ads^$image,3p,domain=divar.ir
-||api.divar.ir/v8/ad-auction^$xhr,1p
 divar.ir##div.kt-modal__contents > div.kt-modal__body a.button-row-item[href^="https://open-platform-redirect.divar.ir?app_slug=karnameh_price_evaluation"] > div.kt-button > span.kt-text-truncate::after:style(content: ' (۱۰ هزار تومان)' !important;)
 divar.ir##div.kt-inset-banner
 divar.ir##main > div[class^="item"]:has(img[src*="divarcdn.com/ssp/ads/"])
@@ -3365,7 +3363,6 @@ tgju.org##^script:has-text(ad.setAttribute)
 !#else
 tgju.org##+js(rmnt, script, ad.setAttribute)
 !#endif
-||static.tgju.org/advertisement^$image,1p
 tgju.org##ul.advertise
 tgju.org##div.bottom-left-ad
 tgju.org##div.bottom-right-ad
