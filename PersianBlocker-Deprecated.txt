@@ -64,12 +64,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ##.side_txt_zxc
 ! ##.zxc_c9
 
-! cafejozve.ir, downloadly.ir, download.ir, p30day.ir, webgoo.ir
-!#if env_mobile
-*###kaprila_linktable
-!#endif
-###kaprila_linktable
-
 ! /statics/*$xhr
 ! .ir/ads/
 
