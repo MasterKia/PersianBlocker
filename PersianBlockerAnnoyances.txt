@@ -10,6 +10,7 @@
 ! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
 
 ! General !
+###kaprila_linktable
 ! ==VVV== !
 ! Tracking scripts in every Persian site - (موقتا غیرفعال شد، تا دوباره تصمیم گیری شود)
 !! ||logo.samandehi.ir^$3p
@@ -29,7 +30,6 @@ dlfox.com##.blog_list
 
 ! download.ir (Self-promotion, وبگردی)
 ||download.ir/wp-content/uploads/2022/10/Hostiran-ads.jpg^
-download.ir###kaprila_linktable
 download.ir##.parsi-ads
 
 ! digikala.com (Self-promotion, e.g. digikala.com/mag/)
