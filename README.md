@@ -34,6 +34,7 @@ Telegram Group: [@PersianBlocker](https://telegram.dog/PersianBlocker)
 
 Matrix Room: https://matrix.to/#/#PersianBlocker:matrix.org
 
+[PersianBlockerAnnoyances](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerAnnoyances.txt&title=PersianBlockerAnnoyances)
 
 </h1>
 
