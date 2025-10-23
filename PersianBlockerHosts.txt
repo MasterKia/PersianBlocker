@@ -612,7 +612,6 @@ mat-pnu.ir
 androidupdate.download
 
 # AdlIran scam
-159.100.22.89
 ewpb.site
 
 #-------------------^ Malware/Phishing Sites ^-----------------#
