@@ -1,0 +1,12 @@
+! Title: PersianBlocker Social Widgets
+! Version: %timestamp%
+! Expires: 5 days
+! Description: Filters to Block Social Widgets in Persian Websites
+! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
+! Homepage: https://github.com/MasterKia/PersianBlocker
+!
+! GitHub issues: https://github.com/MasterKia/PersianBlocker/issues/issues
+! GitHub pull requests: https://github.com/MasterKia/PersianBlocker/pulls
+
+! mci.ir
+mci.ir##.social.container-fluid
