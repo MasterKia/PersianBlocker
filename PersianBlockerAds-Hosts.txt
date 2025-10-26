@@ -1,6 +1,6 @@
 [AdBlock]
 # Title: PersianBlockerAds-Hosts
-# Last modified: %timestamp%
+# Version: %timestamp%
 # Expires: 5 days
 # Description: Filters to block ads in Persian websites 
 # License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
