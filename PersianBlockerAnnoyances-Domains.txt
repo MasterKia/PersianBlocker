@@ -1,5 +1,5 @@
 # Title: PersianBlockerAnnoyances-Domains
-# Version: %timestamp%
+# Version: 27July2025v1
 # Expires: 7 days
 # Description: Filters to block annoyances in Persian websites 
 # License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
