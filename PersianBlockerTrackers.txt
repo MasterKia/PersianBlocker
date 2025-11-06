@@ -16,6 +16,7 @@
 ||affilio.ir^
 ||usermap.net^
 ||analyticsdaily.ir^
+||kntr.ir^
 
 ! trustseal.e-rasaneh.ir (e.g. zoomit.ir):
 ||trustseal.e-rasaneh.ir/Trustseal^$method=post
