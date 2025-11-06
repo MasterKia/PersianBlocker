@@ -1,5 +1,5 @@
 # Title: PersianBlockerAds-Domains
-# Last modified: %timestamp%
+# Version: 25September2025v1
 # Expires: 5 days
 # Description: Filters to block ads in Persian websites 
 # License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
