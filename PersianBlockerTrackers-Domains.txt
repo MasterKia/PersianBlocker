@@ -15,6 +15,7 @@ intrack.ir
 affilio.ir
 usermap.net
 analyticsdaily.ir
+kntr.ir
 
 # تا اطلاع ثانوی غیرفعال شد.
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
@@ -59,6 +60,3 @@ sentry.mci.dev
 
 # football360.ir:
 analytics.football360.ir
-
-# kntr.ir:
-kntr.ir
