@@ -27,6 +27,9 @@
 0.0.0.0 vatanclick.ir
 0.0.0.0 sorenad.com
 
+0.0.0.0 on-click.ir
+0.0.0.0 onclick.ir
+
 0.0.0.0 yelloadwise.ir
 0.0.0.0 ylad.ir
 
