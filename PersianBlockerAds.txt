@@ -298,3 +298,7 @@ football360.ir##section[class^="style_adsSection"]
 
 ! shabakehchi.com:
 shabakehchi.com##a[title][target="_blank"][rel="nofollow noopener"]:has(img[width][height])
+
+! gold-team.org:
+gold-team.org##+js(nano-sib)
+gold-team.org##.rd-el-widget_ads:not(:has(> .rd-ads > a[href="https://gold-team.org/faq/"]))
