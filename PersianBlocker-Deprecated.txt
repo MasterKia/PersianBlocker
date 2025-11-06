@@ -1610,10 +1610,6 @@ getandroid.ir##+js(nowoif)
 ||getandroid.ir/Files/js/landing$script,1p
 getandroid.ir##div[class*="linkads"]
 
-gold-team.org##+js(nano-sib)
-gold-team.org##.size-full.attachment-full
-gold-team.org##.aligncenter.wp-image-9273.size-full
-
 ||tarfandha.org/pop/popmain.js^$script
 gamesetup.ir##.sidebar > .box > .behtarinbacklink:upward(.box)
 
