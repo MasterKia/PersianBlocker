@@ -73,8 +73,9 @@
 ||mihanstore.net/partner^
 
 ! football360.ir:
-||napi.arvancloud.ir/vod/channels/*/ads^
+! ||napi.arvancloud.ir/vod/channels/*/ads^
 ||arvanvads.ir^
+||arvanvads.ir/*.mp4^$domain=football360.ir,redirect=noopmp4-1s
 
 !!! Specific !!!
 !!! ===VV=== !!!
