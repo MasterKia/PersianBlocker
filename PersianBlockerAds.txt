@@ -295,3 +295,6 @@ football360.ir##section[class^="style_adsSection"]
 ||ovrjkuavda.com^
 ||jtoaxlbas.com^
 ||shahvani.com/static/images/*.gif^
+
+! shabakehchi.com:
+shabakehchi.com##a[title][target="_blank"][rel="nofollow noopener"]:has(img[width][height])
