@@ -59,3 +59,6 @@ sentry.mci.dev
 
 # football360.ir:
 analytics.football360.ir
+
+# kntr.ir:
+kntr.ir
