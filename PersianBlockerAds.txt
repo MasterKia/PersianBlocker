@@ -25,6 +25,10 @@
 ||najva.com^
 ||sorenad.com^
 
+||on-click.ir^
+||onclick.ir^
+@@||api.onclick.ir/ifilo/vast.xml^$xhr,domain=ifilo.net
+
 ||adexo.ir^
 ! (e.g. sharghdaily.com):
 ||adexofiles.ir^
