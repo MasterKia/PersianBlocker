@@ -1,5 +1,5 @@
 # Title: PersianBlockerTrackers-Domains
-# Last modified: %timestamp%
+# Version: 21September2025v1
 # Expires: 7 days
 # Description: Filters to block trackers in Persian websites 
 # License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
