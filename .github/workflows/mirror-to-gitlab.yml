@@ -1,0 +1,19 @@
+name: Mirror to GitLab
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mirror GitHub → GitLab
+        run: |
+          git clone https://github.com/MasterKia/PersianBlocker.git
+          cd PersianBlocker
+          git remote set-url origin https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/idk/PersianBlocker.git
+          git push -u origin main
+
