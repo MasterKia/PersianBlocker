@@ -14,6 +14,6 @@ jobs:
         run: |
           git clone https://github.com/MasterKia/PersianBlocker.git
           cd PersianBlocker
-          git remote set-url origin https://oauth2:${{ secrets.GITLAB_TOKEN }}@codeberg.org/KhodeKiaa/PersianBlocker.git
+          git remote set-url origin https://oauth2:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/KhodeKiaa/PersianBlocker.git
           git push -u origin main
 
