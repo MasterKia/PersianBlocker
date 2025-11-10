@@ -1,4 +1,4 @@
-name: Mirror to GitLab
+name: Mirror to Codeberg
 
 on:
   push:
@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mirror GitHub → GitLab
+      - name: Mirror GitHub → Codeberg
         run: |
           git clone https://github.com/MasterKia/PersianBlocker.git
           cd PersianBlocker
-          git remote set-url origin https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/idk/PersianBlocker.git
+          git remote set-url origin https://oauth2:${{ secrets.GITLAB_TOKEN }}@codeberg.org/KhodeKiaa/PersianBlocker.git
           git push -u origin main
 
