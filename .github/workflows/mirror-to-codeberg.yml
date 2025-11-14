@@ -1,0 +1,19 @@
+name: Mirror to Codeberg
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mirror GitHub → Codeberg
+        run: |
+          git clone https://github.com/MasterKia/PersianBlocker.git
+          cd PersianBlocker
+          git remote set-url origin https://oauth2:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/KhodeKiaa/PersianBlocker.git
+          git push -u origin main
+
