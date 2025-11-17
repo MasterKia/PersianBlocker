@@ -268,3 +268,6 @@ Brave Browser
 
 Related link: https://github.com/brave/adblock-resources/blob/50d0a69fbfbe6e2f0a50b6e1535a32b6e853688a/filter_lists/list_catalog.json#L682-L698
 ***
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MasterKia/PersianBlocker&type=date&legend=top-left)](https://www.star-history.com/#MasterKia/PersianBlocker&type=date&legend=top-left)
