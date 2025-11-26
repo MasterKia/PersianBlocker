@@ -1239,7 +1239,6 @@ downloadly.ir###page-content > .wpb_row:has(a[href*="faradars.org"])
 downloadly.ir###kaprila_downloadly_ir_static-post:upward(.g-cols)
 downloadly.ir###kaprila_downloadly_ir_top-side:upward(.g-cols)
 downloadly.ir###kaprila_downloadly_ir_side-2:upward(.g-cols)
-downloadly.ir###kaprila_linktable:upward(.g-cols)
 downloadly.ir##.postfixedafterpost:upward(.g-cols)
 downloadly.ir###faradars
 
