@@ -141,6 +141,8 @@ sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 www.digikala.com##article > .items-center .mr-auto > .mr-1 > svg[style$="fill: var(--color-ad);"] .text-neutral-500::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;  font-size: large !important;)
 ! Ads in https://www.digikala.com/incredible-offers/ results:
 www.digikala.com##div[class^="product-list_ProductList__item__"][data-product-index] > .block > .h-full[data-testid="product-card"] > article > .items-center:has(> .ml-1 > img[src="/statics/img/svg/productCard/topBadge/PromotedIncredibleOffer.svg"])::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;)
+! Header ads:
+www.digikala.com##a[href^="https://tabdeal.org/"].w-full
 
 ! jobinja.ir:
 jobinja.ir##body:style(cursor: unset !important;)
