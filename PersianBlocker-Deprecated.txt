@@ -685,8 +685,6 @@ applicationha.com##.baner
 anaj.ir##.tab_news > a[href*="gameup.ir"]
 
 ||abadis.ir/ajaxcmd/stat/$badfilter
-||abadis.ir/libs/async/ads.min.js^$script,1p
-abadis.ir##x
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96707
 asriran.com##div.click1000_allcontent
