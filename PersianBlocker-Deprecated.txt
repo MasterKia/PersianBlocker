@@ -3298,7 +3298,6 @@ tabnak.ir###cycle_adv_tabnak
 tabnakjavan.com#@#.top_adv
 
 player.telewebion.com##+js(json-prune, body.productStatus)
-||adengine.telewebion.com^
 ||analytics.telewebion.com^
 ||gateway.telewebion.com/broker/api/v1/message/twplayer^$xhr,1p,method=POST
 ||gateway.telewebion.com/broker/api/v1/message/archive^$xhr,1p,method=POST
