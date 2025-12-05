@@ -2244,8 +2244,6 @@ mopon.ir##+js(aeld, click, 720)
 ||myket.ir^$removeparam=/^utm_/
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56886
-mobile.ir##.b
-mobile.ir##.apnl
 mobile.ir###bottombanner
 
 ||meghdadit.com/api/Subscriber/is-firsttime-user
