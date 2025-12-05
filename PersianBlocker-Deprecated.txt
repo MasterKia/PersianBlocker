@@ -274,7 +274,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||kilipo.com/themes/vidplay/player/plugins/vast^$script,css,xhr
 
 ||kajads.com^
-||ads.karzar.net^
 
 ||k2cod.com/ip/show-ip
 ||k2cod.com/statistics/
