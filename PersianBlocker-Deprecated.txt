@@ -92,10 +92,7 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||adtodate.ir^
 ||anetwork.ir^
 ||alaqsastorm.com/aqsa/ads.php^$image,3p
-||adverge.ir^
 ||adrooz.com^
-||affilio.ir^
-||analyt.ir^
 
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
 ||error-tracking.arvancloud.com^
@@ -127,7 +124,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||adpulse.ir^
 ||adsima.net^
 
-||adtrace.io^
 ||adtrace.ir^
 ! https://twitter.com/Nikolaona/status/1699167838697652322
 ||adtrace.world^
@@ -161,8 +157,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 
 blog.ir##+js(set, constant.copyText, '')
 
-||binoads.ir^
-||bl9.ir^
 ||backlink.ir^
 ||boorantech.com^
 
@@ -195,7 +189,6 @@ eramblog.com##div.main_content[style="border-radius:10px;"]:has(> div[style="pad
 ||cayot.ir^
 ! Example: tamasha.com/v/DDlMB
 
-||chavosh.org^
 ||ck.chavosh.org^
 
 ||clickaval.com^
@@ -266,8 +259,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||hantana.org^
 
 ! >> I <<
-||intrack.ir^
-
 ||geoip.imber.live^
 ! ^ Example: malltina.com
 
@@ -284,7 +275,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 
 ||kajads.com^
 ||ads.karzar.net^
-||kaprila.com^
 
 ||k2cod.com/ip/show-ip
 ||k2cod.com/statistics/
@@ -302,8 +292,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||ir.mihanstore.net^
 ! Example: uploadgoogle.ir
 
-||metrix.ir^
-||mediaad.org^
 ||magnetadservices.com^
 ||merita.ir^
 ||mitrarank.ir^
@@ -340,7 +328,6 @@ niloblog.com##bloglinksblock
 ||promizer.com^
 ||phonroid.com^
 ||popina.ir^
-||popupdl.ir^
 ||popland.info^
 
 ||peyvandha.ir^$3p
@@ -353,7 +340,6 @@ niloblog.com##bloglinksblock
 ||popgozar.com^
 ||popupplus.ir^
 ||popupme.net^
-||pushe.co^
 ||p30rank.ir^
 ||publica.ir^
 
@@ -399,13 +385,11 @@ logo.samandehi.ir##^responseheader(set-cookie)
 ||logo.samandehi.ir^$third-party,cookie
 !#endif
 
-||sanjagh.com^
 ||sanjagh.net^
 
 ||ads.safarme.ir^
 ! ^ Used by kojaro.com
 
-||sabavision.com^
 ||sabaidea.cloud^
 
 ||seyedrezabazyar.com/codetools/files/close-right-click.js
@@ -466,8 +450,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||tool.4tools.ir/tools/click-l/click-l.js^$script,3p
 
 ! >> U <<
-||usermap.net^
-
 ||userfriendly.ir^
 ! ^ Used by bils.ir
 
@@ -494,7 +476,6 @@ anaj.ir,salamatnews.com##+js(set, document.referrer, undefined)
 ||yelloadwise.ir^
 ||ylad.ir^
 
-||yektanet.com^
 @@||video.cdn.yektanet.com/video-$script,3p,domain=gostaresh.news
 @@||native-ad-placement-cdn.yektanet.com/static/video_scripts//video-$script,3p,domain=gostaresh.news
 @@||native-ad-placement-cdn.yektanet.com/static/video_scripts/video-$script,3p,domain=fararu.com
@@ -1271,8 +1252,6 @@ digiato.com##.todaysNewsList__sidebar
 digiato.com##.todaysNewsList__posts:style(max-width: 100% !important; flex-grow: 1 !important)
 digiato.com###primary:not(> .categoriesPageHead:has-text(رپورتاژ آگهی)).rowList > li:has(a[href*="/promoted/"])
 
-||tracker.digikala.com^
-||new-sentry.digikala.com^
 ||www.digikala.com^$doc,removeparam=promo_name
 ||www.digikala.com^$doc,removeparam=promo_position
 ||www.digikala.com^$doc,removeparam=promo_creative
@@ -1293,7 +1272,6 @@ digikala.com##div.py-2:has(> div.items-center > div.swiper-container > div.swipe
 ||digistyle.com^$removeparam=/^utm_/
 ||digistyle.com/tracker^
 
-||sentry.divar.cloud^$3p,domain=divar.ir
 ||actionlog.divar.ir^$1p
 ||divar.ir/g-scripts^$script,1p
 ||api.divar.ir/*/actionlog^$beacon,1p
@@ -1926,9 +1904,6 @@ jesarat.com##.widget_custom_html
 jesarat.com##aside:nth-of-type(2)
 
 ||jobinja.ir^$doc,removeparam=_ref
-jobinja.ir##div.c-forceToLogin__message
-jobinja.ir##div.c-forceToLogin__overlay
-jobinja.ir##div.c-forceToLogin__content:style(filter: none !important; opacity: 1 !important;)
 
 ||javanmobile.com/wp-content/cache/min/*/wp-content/plugins/adrotate
 
@@ -3673,7 +3648,6 @@ zarebin.ir##+js(href-sanitizer, div#link-container > a[data-sentry-element="Link
 ||zarebin.ir/media/detail^$removeparam=origin
 ||cafevdo.zarebin.ir/api/v1/accounts/action^$xhr,1p,method=post
 ||cafevdo.zarebin.ir/api/v1/events^$xhr,1p,method=post
-||sentry.mci.dev^
 ||hamrahi.cloud/drive-endpoint.log^$xhr,3p
 ||hamrahi.cloud/video-timeline.log^$xhr,3p
 
