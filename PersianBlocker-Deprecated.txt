@@ -948,7 +948,6 @@ beautyhome.ir###ad-hoc-2
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96101
 ||beytoote.com/ads/socket.io.js
 ||beytoote.com/html_ads/
-||storage.beytoote.com/images/adsbeytoote/
 ||ads.beytoote.com
 beytoote.com###headerbar
 beytoote.com###bil_fix_top_pc
@@ -3350,7 +3349,6 @@ tgju.org##^script:has-text(ad.setAttribute)
 !#else
 tgju.org##+js(rmnt, script, ad.setAttribute)
 !#endif
-||static.tgju.org/advertisement^$image,1p
 tgju.org##ul.advertise
 tgju.org##div.bottom-left-ad
 tgju.org##div.bottom-right-ad
