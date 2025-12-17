@@ -186,8 +186,6 @@ eramblog.com##div.main_content[style="border-radius:10px;"]:has(> div[style="pad
 ||cayot.ir^
 ! Example: tamasha.com/v/DDlMB
 
-||ck.chavosh.org^
-
 ||clickaval.com^
 ||clickyab.com^
 ||chabok.io^
