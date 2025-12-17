@@ -3627,7 +3627,6 @@ yeknet.ir##+js(aopr, needpop)
 
 ! >> Z <<
 zarebin.ir##+js(href-sanitizer, div#link-container > a[data-sentry-element="Link"], ?url)
-||zarebin.ir/platform/api/supervisor/v1/events^$1p,method=post
 ||zarebin.ir/we/api/v1/web-enrich/elements?qsrc=user^$xhr,1p,method=post
 ||zarebin.ir/media/detail^$removeparam=q
 ||zarebin.ir/media/detail^$removeparam=publisher
