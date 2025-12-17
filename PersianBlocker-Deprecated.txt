@@ -97,9 +97,6 @@ artmusics.top,musicpars3.ir,musicguitars.ir,subf2m.ir,zeemusic.ir,najiremix.ir,m
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
 ||error-tracking.arvancloud.com^
 
-||adexo.ir^
-||adexofiles.ir^
-
 ||adskav.com^
 ||advn.ir^
 
