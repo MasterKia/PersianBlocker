@@ -23,7 +23,7 @@
 google.com##a[href]:where([href*="par30games.net/"]) > h3::after:style(content: ' 💰 (نیم بها) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
 
 ! bing.com:
-www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="par30games.net/"])::before:style(content: ' 💰 (نیم بها) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
+bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images/search?view=detail"]:where([href*="par30games.net/"])::before:style(content: ' 💰 (نیم بها) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
 
 ! duckduckgo.com:
 duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="par30games.net/"])::after:style(content: ' 💰 (نیم بها) 💰 ' !important; color: yellow !important; font-weight: bold !important; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;)
