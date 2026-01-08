@@ -80,3 +80,5 @@ namnak.com###footer-content-ads
 ! tarafdari.com (وبگردی):
 tarafdari.com##.block:has(> a > .block-title:has-text(وبگردی))
 
+! karzar.net (اعضای ویژه کارزار):
+karzar.net##.home-section-special-member
