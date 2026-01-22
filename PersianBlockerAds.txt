@@ -234,6 +234,9 @@ yasdl.com##.fixed-post
 downloadha.com##.popup-ads
 downloadha.com##.ads
 
+! download.ir:
+download.ir##.dlm-ads-part
+
 ! varzesh3.com:
 ||biz-cdn.varzesh3.com/banners^
 varzesh3.com##.adbox
