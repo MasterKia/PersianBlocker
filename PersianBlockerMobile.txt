@@ -26,3 +26,6 @@ zoomit.ir##div[class^="sc-"][rowcount="1"][columncount="1"]:has(> div[class^="sc
 ! Other ads:
 zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="390"][maxheight="450"])
 zoomit.ir##div[class^="sc-"][rowcount][columncount]:has(> div[class^="sc-"][maxwidth="390"][maxheight="183"])
+
+! digiato.com
+digiato.com##.digiad-fixed
