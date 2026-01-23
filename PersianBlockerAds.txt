@@ -96,6 +96,9 @@ dlfox.com##.banner_small_dlbox_b
 
 ! download.ir:
 ||download.ir/wp-content/uploads/*.gif^
+download.ir##.top_header_banner_a3
+download.ir##.ads
+download.ir##.dlm-ads-part
 
 ! zoomit.ir, zoomg.ir, pedal.ir, filmzi.tv/filmzi.com:
 ! https://github.com/MasterKia/PersianBlocker/issues/310
