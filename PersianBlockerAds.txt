@@ -96,6 +96,9 @@ dlfox.com##.banner_small_dlbox_b
 
 ! download.ir:
 ||download.ir/wp-content/uploads/*.gif^
+download.ir##.top_header_banner_a3
+download.ir##.ads
+download.ir##.dlm-ads-part
 
 ! zoomit.ir, zoomg.ir, pedal.ir, filmzi.tv/filmzi.com:
 ! https://github.com/MasterKia/PersianBlocker/issues/310
@@ -233,9 +236,6 @@ yasdl.com##.fixed-post
 ||cdn.hostdl.com/assets/downloadha.gif^
 downloadha.com##.popup-ads
 downloadha.com##.ads
-
-! download.ir:
-download.ir##.dlm-ads-part
 
 ! varzesh3.com:
 ||biz-cdn.varzesh3.com/banners^
