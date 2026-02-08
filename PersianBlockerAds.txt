@@ -312,6 +312,9 @@ gold-team.org##.rd-el-widget_ads:not(:has(> .rd-ads > a[href="https://gold-team.
 ! https://github.com/MasterKia/PersianBlocker/issues/344
 ganjoor.net##a[href^="https://click.kntr.ir/"]
 
+! shomanews.com:
+||shomanews.com/uploads/advertisement^
+
 ! rajanews.com:
 rajanews.com##.ads
 
