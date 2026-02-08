@@ -204,6 +204,8 @@ ninisite.com###forum-native-ad
 aparat.com##.banner-ads
 ! In the corner:
 aparat.com##.promote-puls
+! ring.ir ads in recommended videos:
+aparat.com##.ad-product-thumb
 
 ! soft98.ir:
 ! https://github.com/uBlockOrigin/uAssets/issues/14480
