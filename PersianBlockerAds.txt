@@ -311,4 +311,4 @@ gold-team.org##.rd-el-widget_ads:not(:has(> .rd-ads > a[href="https://gold-team.
 ganjoor.net##a[href^="https://click.kntr.ir/"]
 
 ! bultannews.com:
-bultannews.com##.adv
+||bultannews.com/files/fa/adv^
