@@ -215,6 +215,7 @@ soft98.ir,~forum.soft98.ir##img[src^="https://img.soft98.ir/"]:upward(1):style(c
 ! par30games.net:
 ||par30games.net/wp-content/uploads/*.gif^
 par30games.net##.top-large-ads
+par30games.net##.fixedbanner
 
 ! shahrekhabar.com:
 ||static.shahrekhabar.com/banner/*.gif^
