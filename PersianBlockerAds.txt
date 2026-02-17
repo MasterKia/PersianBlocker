@@ -323,3 +323,6 @@ rajanews.com##.ads
 
 ! rooziato.com:
 rooziato.com##.digiad-item
+
+! hamrah-mechanic.com:
+||hamrah-mechanic.com/mag/wp-content/uploads/*.gif^
