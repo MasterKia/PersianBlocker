@@ -326,3 +326,7 @@ rooziato.com##.digiad-item
 
 ! hamrah-mechanic.com:
 ||hamrah-mechanic.com/mag/wp-content/uploads/*.gif^
+
+! p30download.ir:
+! https://github.com/MasterKia/PersianBlocker/issues/357
+p30download.ir##.text-aga
