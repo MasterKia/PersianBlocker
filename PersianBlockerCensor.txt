@@ -72,7 +72,6 @@ www.bing.com##a[href][href*="&mediaurl="][target="_blank"][title][href^="/images
 duckduckgo.com##a[href][data-testid="result-title-a"]:where([href*="soft98.ir/"])::after:style(content: ' ⚠️ ضد کاربر | Anti-User ⚠️ ' !important; color: red !important; font-weight: bold !important;)
 search.brave.com##a[href][class$="heading-serpresult"]:where([href*="soft98.ir/"])::after:style(content: ' ⚠️ ضد کاربر | Anti-User ⚠️ ' !important; color: red !important; font-weight: bold !important;)
 zarebin.ir##a[href][class^="!text-link"]:where([href*="soft98.ir/"])::after:style(content: ' ⚠️ ضد کاربر | Anti-User ⚠️ ' !important; color: red !important; font-weight: bold !important;)
-||soft98.ir^$script
 soft98.ir,~forum.soft98.ir##img[src^="https://img.soft98.ir/"]:upward(1):style(clip-path: circle(0) !important;)
 soft98.ir,~forum.soft98.ir##html:style(position: static !important; transform: none !important; filter: none !important; -webkit-filter: none !important; backdrop-filter: none !important; opacity: 1 !important; visibility: visible !important; mix-blend-mode: normal !important; clip-path: none !important;)
 soft98.ir,~forum.soft98.ir##body:style(filter: none !important; -webkit-filter: none !important; backdrop-filter: none !important; opacity: 1 !important; visibility: visible !important; mix-blend-mode: normal !important; clip-path: none !important;)
