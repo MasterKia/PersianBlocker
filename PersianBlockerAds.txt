@@ -334,3 +334,6 @@ p30download.ir##.text-aga
 ! darkroid.ir:
 ||rozup.ir/view/4190453/pop.js^
 darkroid.ir##.app-dl-modal-papa
+
+! blogsazan.com:
+blogsazan.com##center > [href^="https://blogsazan.com/direct_link/?ads"]
