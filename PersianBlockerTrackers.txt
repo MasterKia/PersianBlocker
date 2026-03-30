@@ -97,3 +97,6 @@ aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
 
 ! football360.ir:
 ||analytics.football360.ir^
+
+! search.bertina.ir:
+||analytics.bertina.ir^
