@@ -139,6 +139,9 @@ sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 ! telewebion.com:
 ||adengine.telewebion.com^
 
+! telewebion.ir:
+||ads.telewebion.ir^
+
 ! digikala.com:
 ! Ads in search results:
 www.digikala.com##article > .items-center .mr-auto > .mr-1 > svg[style$="fill: var(--color-ad);"] .text-neutral-500::after:style(content: ' 🚫 (تبلیغ) 🚫 ' !important; color: red !important; font-weight: bold !important;  font-size: large !important;)
