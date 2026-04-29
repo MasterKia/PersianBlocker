@@ -17,6 +17,7 @@
 ! ===VV=== !
 ! farsroid.com
 farsroid.com###ma_top_alert
+farsroid.com##.site-middle-banners
 
 ! zoomit.ir
 ! Header ads:

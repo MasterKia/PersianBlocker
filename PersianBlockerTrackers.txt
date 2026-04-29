@@ -97,3 +97,13 @@ aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
 
 ! football360.ir:
 ||analytics.football360.ir^
+
+! search.bertina.ir:
+search.bertina.ir##+js(href-sanitizer, a[href^="/api/click?dest="], ?dest -base64)
+||analytics.bertina.ir^
+
+! gapgpt.app:
+||gapgpt.app/api/v1/logs/event^
+
+! web.bale.ai:
+||sentry.bale.sh^

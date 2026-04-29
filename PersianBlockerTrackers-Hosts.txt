@@ -61,3 +61,9 @@
 
 # football360.ir:
 0.0.0.0 analytics.football360.ir
+
+# search.bertina.ir:
+0.0.0.0 analytics.bertina.ir
+
+# web.bale.ai:
+0.0.0.0 sentry.bale.sh
