@@ -2672,16 +2672,6 @@ parsnews.com##.adv_img
 parsipet.ir##.ad_global_header
 parsipet.ir##.body_wrapper > div:nth-of-type(4)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/83232
-! https://github.com/MasterKia/PersianBlocker/issues/4
-! https://github.com/MasterKia/PersianBlocker/issues/9
-! https://github.com/MasterKia/PersianBlocker/pull/19
-! https://community.brave.com/t/reporting-remaining-ads/508217/4
-par30games.net##body:style(background-image: none !important;)
-par30games.net##article.fixedadv:not(:has(> div.fixedadvcontent > a[href="https://www.youtube.com/c/Par30Game"]))
-par30games.net##section.sidebar-box-shop
-par30games.net##div.adbox
-
 ||paperhub.ir/images/*.gif
 
 p30world.com##div.post-ads
