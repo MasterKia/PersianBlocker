@@ -136,11 +136,10 @@ nazriyab.app##.header-ex
 ! sheypoor.com:
 sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
 
-! telewebion.com:
-||adengine.telewebion.com^
-
 ! telewebion.ir:
-||ads.telewebion.ir^
+||hadeseh.simra.cloud^
+||adengine.telewebion.ir^
+||data.telewebion.ir/broker/api/v1/message^$method=post
 
 ! digikala.com:
 ! Ads in search results:
