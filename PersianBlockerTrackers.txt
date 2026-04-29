@@ -100,3 +100,9 @@ aparat.com##+js(set-session-storage-item, videoWatchCount, $remove$)
 
 ! search.bertina.ir:
 ||analytics.bertina.ir^
+
+! gapgpt.app:
+||gapgpt.app/api/v1/logs/event^
+
+! web.bale.ai:
+||sentry.bale.sh^

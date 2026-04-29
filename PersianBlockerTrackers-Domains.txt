@@ -63,3 +63,6 @@ analytics.football360.ir
 
 # search.bertina.ir:
 analytics.bertina.ir
+
+# web.bale.ai:
+sentry.bale.sh
