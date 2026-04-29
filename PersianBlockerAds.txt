@@ -336,4 +336,4 @@ p30download.ir##.text-aga
 darkroid.ir##.app-dl-modal-papa
 
 ! search.bertina.ir:
-search.bertina.ir##[data-ad-id]:style(display: none !important;)
+search.bertina.ir##[data-ad-id]
