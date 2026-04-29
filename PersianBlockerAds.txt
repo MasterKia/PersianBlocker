@@ -305,12 +305,16 @@ football360.ir##section[class^="style_adsSection"]
 shabakehchi.com##a[title][target="_blank"][rel="nofollow noopener"]:has(img[width][height])
 
 ! gold-team.org:
+||gold-team.org/wp-content/uploads/*.gif^
 gold-team.org##+js(nano-sib)
-gold-team.org##.rd-el-widget_ads:not(:has(> .rd-ads > a[href="https://gold-team.org/faq/"]))
 
 ! ganjoor.net:
 ! https://github.com/MasterKia/PersianBlocker/issues/344
 ganjoor.net##a[href^="https://click.kntr.ir/"]
+
+! par30dl.net:
+||bitpin.ir^$image,from=par30dl.net
+par30dl.net###tabl-bottom-of-header
 
 ! shomanews.com:
 ||shomanews.com/uploads/advertisement^
@@ -337,3 +341,22 @@ darkroid.ir##.app-dl-modal-papa
 
 ! movieyaab.ir:
 movieyaab.ir##.ad-offer-card
+
+! up.20script.ir:
+up.20script.ir##+js(nano-stb, tick)
+up.20script.ir##.k-banner
+
+! blogsazan.com:
+blogsazan.com##center > [href^="https://blogsazan.com/direct_link/?ads"]
+
+! my.files.ir:
+my.files.ir##.ad-host
+
+! gapgpt.app:
+gapgpt.app##.ad-response-block
+
+! web.bale.ai:
+web.bale.ai##div[data-testid="dialog-ad"]
+
+! boursepress.ir:
+boursepress.ir##.sysbanner
