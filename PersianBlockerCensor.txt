@@ -32,7 +32,9 @@
 ! fastmovie.ir: "سانسور شده"
 
 ! اشتراکی:
-! filmazon.my: https://filmazon.my/subscription ! animegate.ir: https://animegate.ir/user ! animegate.net: https://animegate.net/user
+! filmazon.my: https://filmazon.my/subscription
+! animegate.ir, animegate.net: https://animegate.ir/user, https://animegate.net/user
+
 
 ! soft98.ir: Hostile behavior against users with content blockers
 
