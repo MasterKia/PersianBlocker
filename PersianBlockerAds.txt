@@ -336,5 +336,4 @@ p30download.ir##.text-aga
 darkroid.ir##.app-dl-modal-papa
 
 ! gapgpt.app:
-gapgpt.app##.native-ad-dialog
 gapgpt.app##.ad-response-block
