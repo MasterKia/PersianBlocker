@@ -80,3 +80,5 @@ namnak.com###footer-content-ads
 ! tarafdari.com (وبگردی):
 tarafdari.com##.block:has(> a > .block-title:has-text(وبگردی))
 
+! gapgpt.app (خود-تبلیغی):
+gapgpt.app##.limit-box

@@ -849,16 +849,6 @@ binaopt.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sel
 
 bizma.ir##+js(aeld, /contextmenu|copy|cut/, return"undefined")
 
-||sentry.bale.sh^$3p,domain=bale.ai
-||web.bale.ai/static/js/web-vitals.$script,1p
-||next-api.bale.ai/bale.seraj_proxy.v1.SerajProxy/SendSerajEvent^$xhr,1p,method=options|post
-||next-api.bale.ai/bale.advertisement.v1.Advertisement/GetAdProvider^$xhr,1p,method=options|post
-||next-api.bale.ai/bale.presence.v1.Presence/SetOnline^$xhr,1p,method=options|post
-||next-api.bale.ai/bale.presence.v1.Presence/Typing^$xhr,1p,method=options|post
-||next-api.bale.ai/bale.presence.v1.Presence/StopTyping^$xhr,1p,method=options|post
-! ||next-api.bale.ai/bale.messaging.v2.Messaging/MessageRead^$xhr,1p,method=options|post
-web.bale.ai##div[data-viewport-type="element"] > div > div[class^="DialogAd_DialogWrapper"]
-
 ||bargozideha.com/ddd.html^$frame,1p
 bargozideha.com##div[style]:has(> iframe[src="/ddd.html"])
 bargozideha.com##aside > div.sec_right > div.menu_box > div.margin > ul > li:has(> a[href*="bargozideha.com/reportage/"])
@@ -2671,16 +2661,6 @@ parsnews.com##.adv_img
 
 parsipet.ir##.ad_global_header
 parsipet.ir##.body_wrapper > div:nth-of-type(4)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/83232
-! https://github.com/MasterKia/PersianBlocker/issues/4
-! https://github.com/MasterKia/PersianBlocker/issues/9
-! https://github.com/MasterKia/PersianBlocker/pull/19
-! https://community.brave.com/t/reporting-remaining-ads/508217/4
-par30games.net##body:style(background-image: none !important;)
-par30games.net##article.fixedadv:not(:has(> div.fixedadvcontent > a[href="https://www.youtube.com/c/Par30Game"]))
-par30games.net##section.sidebar-box-shop
-par30games.net##div.adbox
 
 ||paperhub.ir/images/*.gif
 
