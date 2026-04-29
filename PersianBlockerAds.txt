@@ -337,4 +337,3 @@ darkroid.ir##.app-dl-modal-papa
 
 ! web.bale.ai:
 web.bale.ai##div[data-testid="dialog-ad"]
-web.bale.ai##div[data-sentry-component="createSponsoredMessageItem"]
