@@ -305,7 +305,6 @@ shabakehchi.com##a[title][target="_blank"][rel="nofollow noopener"]:has(img[widt
 ! gold-team.org:
 ||gold-team.org/wp-content/uploads/*.gif^
 gold-team.org##+js(nano-sib)
-gold-team.org##.rd-el-widget_ads:not(:has(> .rd-ads > a[href="https://gold-team.org/faq/"]))
 
 ! ganjoor.net:
 ! https://github.com/MasterKia/PersianBlocker/issues/344
