@@ -336,4 +336,5 @@ p30download.ir##.text-aga
 darkroid.ir##.app-dl-modal-papa
 
 ! up.20script.ir:
+up.20script.ir##+js(nano-stb, tick)
 up.20script.ir##.k-banner
