@@ -313,7 +313,8 @@ gold-team.org##.rd-el-widget_ads:not(:has(> .rd-ads > a[href="https://gold-team.
 ganjoor.net##a[href^="https://click.kntr.ir/"]
 
 ! par30dl.net:
-||par30dl.net/wp-content/uploads/*.gif^
+||bitpin.ir^$image,from=par30dl.net
+par30dl.net###tabl-bottom-of-header
 
 ! shomanews.com:
 ||shomanews.com/uploads/advertisement^
