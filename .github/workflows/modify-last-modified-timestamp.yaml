@@ -1,4 +1,4 @@
-name: Patch Last Modified Timestamp
+name: Modify Last Modified Timestamp
 
 on:
   push:
@@ -6,41 +6,33 @@ on:
       - main
     paths-ignore:
       - README.md
-  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-permissions:
-  contents: write
-
 jobs:
   patch:
-    if: github.actor != 'github-actions[bot]'
-    name: Patch Last Modified
+    name: modify
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v5
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
           ref: main
-          fetch-depth: 0 # fetch full history
+          fetch-depth: 0
 
-      - name: Patch last-updated field
+      - name: Modify last-updated field
         run: |
-          for f in $(git ls-files -- '*.txt'); do
-            AUTHOR=$(git log -1 --pretty=format:'%an <%ae>' "$f")
+          for f in $(git ls-files *.txt); do
+            COMMIT_DATE=$(git log -1 --format=%aD $f)
+            AUTHOR=$(git log -1 --pretty=format:%an $f)
 
             # Skip commits made by GitHub Actions bot
-            if [[ "$AUTHOR" == "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" ]]; then
+            if [[ "$AUTHOR" == "github-actions[bot]" ]]; then
               continue
             fi
 
-            # Get last commit date for that file
-            COMMIT_DATE=$(git format-patch -1 $commit --stdout | grep '^Date:' | head -n1 | cut -d' ' -f2-)
-
-            # Replace whatever is after "! Last modified: " with commit date
             if sed --version >/dev/null 2>&1; then
               sed -i "0,/^! Last modified: /s|^! Last modified: .*|! Last modified: $COMMIT_DATE|" "$f"
             fi
@@ -51,7 +43,7 @@ jobs:
           if [[ -n $(git diff) ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -u
+            git add -A
             git commit -m "Update modified filter lists with last commit timestamp"
-            git push origin main
+            git push -u origin main
           fi
