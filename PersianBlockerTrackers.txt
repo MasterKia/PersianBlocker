@@ -107,3 +107,6 @@ search.bertina.ir##+js(href-sanitizer, a[href^="/api/click?dest="], ?dest -base6
 
 ! web.bale.ai:
 ||sentry.bale.sh^
+
+! linkdooni.site:
+||hooshang-umami-rjslgcdoxg.liara.run/api/send^
