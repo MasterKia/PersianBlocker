@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerAds
-! Last modified: Sat, 9 May 2026 07:39:18 +0330
+! Last modified: Sun, 10 May 2026 12:35:58 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
