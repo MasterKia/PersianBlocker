@@ -657,7 +657,8 @@ ana.press##div.back_links
 !#if !env_mobile
 ac.ir##+js(set, chromeOS, true)
 !#endif
-||ac.ir/common/scripts/analytics/meetingLaunchIA.js^$script,1p
+! https://github.com/AdguardTeam/AdguardFilters/issues/231021
+!||ac.ir/common/scripts/analytics/meetingLaunchIA.js^$script,1p
 ac.ir##input[id="PreparePrint"]:watch-attr(disabled):remove-attr(disabled)
 ac.ir##body[style^="background-image: url(\"/_images/nonprintable.gif\")"]:style(background-image: unset !important;)
 
