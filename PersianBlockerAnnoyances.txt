@@ -80,5 +80,8 @@ namnak.com###footer-content-ads
 ! tarafdari.com (وبگردی):
 tarafdari.com##.block:has(> a > .block-title:has-text(وبگردی))
 
+! web.bale.ai (پیشنهاد برای شما):
+web.bale.ai##div[data-sentry-component^="SuggestedBots"]
+
 ! gapgpt.app (خود-تبلیغی):
 gapgpt.app##.limit-box
