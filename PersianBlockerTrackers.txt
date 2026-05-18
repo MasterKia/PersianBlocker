@@ -23,6 +23,8 @@
 
 ! aparat.com:
 ||sentry.sabaidea.cloud^
+! aparat.com/shorts:
+||aparat.com/external/roost/v1/b/watchtime^
 
 ! Google Account Login (e.g. gama.ir):
 ||accounts.google.com/gsi^$~script,from=ir
