@@ -3,11 +3,11 @@
 ! Last modified: Sun, 10 May 2026 12:35:58 +0330
 ! Expires: 5 days
 ! Description: Filters to block ads in Persian websites 
-! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
-! Homepage: https://codeberg.org/KhodeKiaa/PersianBlocker
+! License: https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE
+! Homepage: https://github.com/MasterKia/PersianBlocker
 !
-! GitHub issues: https://codeberg.org/KhodeKiaa/PersianBlocker/issues
-! GitHub pull requests: https://codeberg.org/KhodeKiaa/PersianBlocker/pulls
+! GitHub issues: https://github.com/MasterKia/PersianBlocker/issues
+! GitHub pull requests: https://github.com/MasterKia/PersianBlocker/pulls
 
 
 !!! General !!!
@@ -396,3 +396,6 @@ digiform.ir##body:style(cursor: revert !important; -webkit-touch-callout: defaul
 
 ! epoll.pro:
 app.epoll.pro##*:style(cursor: revert !important; -webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
+
+! hamkelasi.ir:
+hamkelasi.ir##+js(nano-sib, countdown)
