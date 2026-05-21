@@ -43,11 +43,10 @@
 ||dgka.me^$removeparam=bCode
 
 ! zoomit.ir, zoomg.ir:
-||sentry.theforge.ir^
+||sentry01.theforge.ir^
 ! zoomit.ir:
 ||analytics.zoomit.ir^
-! zoomit.ir/product/
-zoomit.ir##+js(href-sanitizer, a[variant="contained"][href^="https://api2.zoomit.ir/catalog/store-links/"][href*="/click?url=http"], ?url)
+||analytics.qalam.group^
 ! zoomg.ir:
 ||zoomg.ir/editorial/api/articles/*/visit^
 
