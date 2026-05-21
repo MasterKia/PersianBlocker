@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: PersianBlockerCensor
-! Last modified: Wed, 29 Apr 2026 20:34:28 +0330
+! Last modified: Thu, 21 May 2026 12:49:14 +0330
 ! Expires: 7 days
 ! Description: Filters to block video censorship in Persian websites 
 ! License: https://codeberg.org/KhodeKiaa/PersianBlocker/src/branch/main/LICENSE
