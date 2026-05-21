@@ -40,9 +40,10 @@
 0.0.0.0 new-sentry.digikala.com
 
 # zoomit.ir, zoomg.ir:
-0.0.0.0 sentry.theforge.ir
+0.0.0.0 sentry01.theforge.ir
 # zoomit.ir:
 0.0.0.0 analytics.zoomit.ir
+0.0.0.0 analytics.qalam.group
 
 # telewebion.com:
 0.0.0.0 hadeseh.telewebion.com
