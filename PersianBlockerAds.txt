@@ -399,3 +399,6 @@ app.epoll.pro##*:style(cursor: revert !important; -webkit-touch-callout: default
 
 ! hamkelasi.ir:
 hamkelasi.ir##+js(nano-sib, countdown)
+
+! androidha.com:
+androidha.com##.arh_banner
