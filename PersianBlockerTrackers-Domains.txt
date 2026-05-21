@@ -39,9 +39,10 @@ tracker.digikala.com
 new-sentry.digikala.com
 
 # zoomit.ir, zoomg.ir:
-sentry.theforge.ir
+sentry01.theforge.ir
 # zoomit.ir:
 analytics.zoomit.ir
+analytics.qalam.group
 
 # telewebion.com:
 hadeseh.telewebion.com
