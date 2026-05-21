@@ -181,6 +181,12 @@ alef.ir##a[href="https://panel.triboon.net/"][target="_blank"]
 
 ! virgool.io:
 ||virgool.io/api2/app/posts/*/ad^
+! Header ads:
+||virgool.io/api2/app/banners^
+virgool.io##body > div:has(> div > a[rel="sponsored"])
+! Popup ads:
+virgool.io###app-portal > div:has(a[rel="sponsored"] > img[alt="Ad"])
+virgool.io##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 
 ! setare.com:
 setare.com##.chavosh-ad-box
