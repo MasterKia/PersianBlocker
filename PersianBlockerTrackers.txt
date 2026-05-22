@@ -113,3 +113,7 @@ search.bertina.ir##+js(href-sanitizer, a[href^="/api/click?dest="], ?dest -base6
 
 ! linkdooni.site:
 ||hooshang-umami-rjslgcdoxg.liara.run/api/send^
+
+! offerdaily.ir:
+offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64 ?b64 -base64)
+offerdaily.ir##+js(href-sanitizer, a[href^="https://dgkl.io/api/v1/Click/b/"][href*="?b64="], ?b64 -base64)
