@@ -299,9 +299,6 @@ khabaronline.ir##.cyt-ads-block
 namnak.com##.namank-ad
 namnak.com###implant-ad-container
 
-! offerdaily.ir:
-offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64)
-
 ! football360.ir:
 ! https://github.com/MasterKia/PersianBlocker/issues/107
 ||football360.ir/api/advertisements^
