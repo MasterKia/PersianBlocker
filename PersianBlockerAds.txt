@@ -405,3 +405,8 @@ hamkelasi.ir##+js(nano-sib, countdown)
 
 ! androidha.com:
 androidha.com##.arh_banner
+
+! takhfif.co:
+takhfif.co##.lepopup-popup-overlay
+takhfif.co##.lepopup-popup-container
+takhfif.co##.page-container > a[href^="https://www.filimo.com/m/"]
