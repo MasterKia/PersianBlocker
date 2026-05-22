@@ -13,10 +13,12 @@
 ! ==VVV== !
 ||metrix.ir^
 ||intrack.ir^
-||affilio.ir^
 ||usermap.net^
 ||analyticsdaily.ir^
 ||kntr.ir^
+
+||affilio.ir^
+||aflo.ir^
 
 ! trustseal.e-rasaneh.ir (e.g. zoomit.ir):
 ||trustseal.e-rasaneh.ir/Trustseal^$method=post
