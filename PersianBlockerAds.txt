@@ -439,5 +439,6 @@ vigiato.net##.ad_728_90
 ||ahlolbait.com/ads/script.js^
 
 ! agahinet.com:
+! EasyList Breakage:
 agahinet.com#@#.adv-box
 @@||agahinet.com/adv^
