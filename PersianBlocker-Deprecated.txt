@@ -3626,59 +3626,7 @@ yektapress.com##.col-2:style(width: 60% !important;)
 yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
 !#endif
 
-||yektablog.net/js/adjs.php
-yektablog.net###popbox-blackout
-yektablog.net###box_1398
-
-! https://github.com/uBlockOrigin/uAssets/issues/13610#issuecomment-1148656995
-!#if adguard
-yun.ir#%#//scriptlet('set-cookie-reload', 'bypasstimer', '10')
-!#endif
-*$frame,domain=yun.ir
-||yun.ir/advertisement^
-yun.ir##.advertisements
-
-yasdl.com##.ads-block
-yasdl.com##.top-ads
-yasdl.com##.row.fixed-post.post
-yasdl.com##.sidebar-textads
-
-yeknet.ir##+js(aopr, needpop)
-
 ! >> Z <<
-zarebin.ir##+js(href-sanitizer, div#link-container > a[data-sentry-element="Link"], ?url)
-||zarebin.ir/platform/api/supervisor/v1/events^$1p,method=post
-||zarebin.ir/we/api/v1/web-enrich/elements?qsrc=user^$xhr,1p,method=post
-||zarebin.ir/media/detail^$removeparam=q
-||zarebin.ir/media/detail^$removeparam=publisher
-||zarebin.ir/media/detail^$removeparam=origin
-||cafevdo.zarebin.ir/api/v1/accounts/action^$xhr,1p,method=post
-||cafevdo.zarebin.ir/api/v1/events^$xhr,1p,method=post
-||sentry.mci.dev^
-||hamrahi.cloud/drive-endpoint.log^$xhr,3p
-||hamrahi.cloud/video-timeline.log^$xhr,3p
-
-zaya.io##div.header-banners
-
-! https://github.com/MasterKia/PersianBlocker/issues/188
-||cdnfa.com/*.gif^$image,3p,domain=zendegionline.ir
-zendegionline.ir##.home-ads
-zendegionline.ir##.sidebar-ads
-
-||zinofilm.ir/wp-json/wp-statistics^$xhr,1p
-
-! https://github.com/MasterKia/PersianBlocker/issues/30
-||zibamoon.com/Files/Ads/$image,1p
-zibamoon.com##.BannerA
-zibamoon.com###BannerHome
-zibamoon.com##div[id^="BehinAva"]
-zibamoon.com##.DetailArea > .AdAreaDetail
-zibamoon.com##.LeftSide > .TableOfContent > div[style="text-align:center;"]:has-text(صفحات مرتبط):upward(.TableOfContent)
-!#if env_mobile
-zibamoon.com##.MobileBannerArea
-!#endif
-
-zohur12.ir##.sideads
 
 !-------------------------^ Site-Specific Filters ^-----------------------!
 
