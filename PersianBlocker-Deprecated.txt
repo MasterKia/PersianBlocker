@@ -3443,8 +3443,6 @@ upsara.com##div.ads
 uploadkon.ir##div.ads
 uploadkon.ir##li.ad-link
 
-uploadgoogle.ir##+js(nowoif)
-
 uptrack.ir##+js(nowoif)
 uptrack.ir##a[href*="utm_source=uptrack"]
 uptrack.ir##aside.widget_text > div.aside_box_title:has-text(لینک های ویژه):upward(aside.widget_text)
@@ -3564,67 +3562,14 @@ vajehyab.com##a[href^="/url/"][target="_blank"]:has(> img)
 ||video-learn.ir/code/popup^
 video-learn.ir#@#.header-adv
 
-||vigiato.net/wp-content/plugins/duracelltomi-google-tag-manager^
-
-||vista.ir/ads^$image,1p
-vista.ir##a[href^="/ad/"][target="_blank"]
-vista.ir##a.textad
-
 ! >> W <<
-! https://github.com/MasterKia/PersianBlocker/pull/288
-||ahlolbait.com/ads/script.js^$script,1p
 
-||gateway.wisgoon.com/services/vast^$xhr,image,1p
-||imasdk.googleapis.com/js/core/bridge*.html$frame,important,domain=wisgoon.com
-wisgoon.com##div.tb-box
-
-||webgozar.com/adimg^$image,1p
-webgozar.com##div.topAds
-webgozar.com##div.colRight div[class^="adsBox"]
-
-! https://github.com/MasterKia/PersianBlocker/issues/29
-||wcity4.site/wp-json/wp-statistics^
-
-wikisemnan.com###text-12
-wikisemnan.com###text-24
-wikisemnan.com#@#.ads-image
-
-||webii.ir/Images/Banner^
-||webii.ir/images/loading.svg
-webii.ir###slider-box
-webii.ir##.mortabet-links
-webii.ir##div.row:nth-of-type(2) > .col-xs-12 > .category-side-ads
-webii.ir#@#.ads-sidebar
-webii.ir#@#.ads-box
-@@||webii.ir/upload/ads/$image,1p
-
-||wikihoax.org/wp-content/plugins/eazy-ad-unblocker^
-||wikihoax.org/wp-content/cache/busting/1/wp-content/plugins/eazy-ad-unblocker^
-||wikihoax.org/wp-content/uploads/*/ads
-wikihoax.org##.two-ad-banners
-wikihoax.org##.widget-ad-image
-wikihoax.org##.stream-item-widget
-wikihoax.org##.adsBanner
-wikihoax.org##.widget_media_image.widget.container-wrapper
-
-webgoo.ir###kaprila_linktable_left
-webgoo.ir##.left-block-top
 
 ! >> X <<
-xip.li##+js(set, count, 0)
-xip.li##.form-inline:others()
+
 
 ! >> Y <<
-! https://github.com/MasterKia/PersianBlocker/issues/175
-youc.ir##.stream-item
-youc.ir##.widget > .widget-title:has-text(تبلیغات):upward(.widget)
-youc.ir##:not(:matches-path(/author/d-reportages)) ul#posts-container > li.post-item > .post-details > .post-meta > .author-meta:has-text(دپارتمان تبلیغات):upward(li.post-item)
 
-! https://github.com/MasterKia/PersianBlocker/issues/36
-!#if !env_mobile
-yektapress.com##.col-2:style(width: 60% !important;)
-yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
-!#endif
 
 ! >> Z <<
 
