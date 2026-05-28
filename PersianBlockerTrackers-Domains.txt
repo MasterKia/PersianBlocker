@@ -69,3 +69,10 @@ analytics.bertina.ir
 
 # web.bale.ai:
 sentry.bale.sh
+
+# ahlolbait.com:
+# https://github.com/MasterKia/PersianBlocker/pull/288
+log.ahlolbait.com
+
+# vigiato.net:
+matomo.parto.media
