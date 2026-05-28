@@ -415,3 +415,7 @@ takhfif.co##.page-container > a[href^="https://www.filimo.com/m/"]
 
 ! mashaghelkadeh.com:
 mashaghelkadeh.com#@#.related-ads
+
+! yektablog.net:
+||yektablog.net/js/adjs.php^
+yektablog.net###popbox-blackout
