@@ -419,3 +419,17 @@ mashaghelkadeh.com#@#.related-ads
 ! yektablog.net:
 ||yektablog.net/js/adjs.php^
 yektablog.net###popbox-blackout
+
+! wikisemnan.com:
+wikisemnan.com###text-12
+wikisemnan.com###text-24
+wikisemnan.com#@#.ads-image
+
+! wisgoon.com:
+||gateway.wisgoon.com/services/vast^
+||imasdk.googleapis.com/js/core/bridge*.html^$important,from=wisgoon.com
+
+! vigiato.net:
+||parto.media/serve^
+vigiato.net##.ad_290_290
+vigiato.net##.ad_728_90
