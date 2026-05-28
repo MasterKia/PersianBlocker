@@ -433,3 +433,7 @@ wikisemnan.com#@#.ads-image
 ||parto.media/serve^
 vigiato.net##.ad_290_290
 vigiato.net##.ad_728_90
+
+! ahlolbait.com:
+! https://github.com/MasterKia/PersianBlocker/pull/288
+||ahlolbait.com/ads/script.js^
