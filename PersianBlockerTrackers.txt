@@ -117,3 +117,10 @@ search.bertina.ir##+js(href-sanitizer, a[href^="/api/click?dest="], ?dest -base6
 ! offerdaily.ir:
 offerdaily.ir##+js(href-sanitizer, a[href^="https://offerdaily.ir/index.php?do=go&url="], ?url -base64 ?b64 -base64)
 offerdaily.ir##+js(href-sanitizer, a[href^="https://dgkl.io/api/v1/Click/b/"][href*="?b64="], ?b64 -base64)
+
+! ahlolbait.com:
+! https://github.com/MasterKia/PersianBlocker/pull/288
+||log.ahlolbait.com^
+
+! vigiato.net:
+||matomo.parto.media^
