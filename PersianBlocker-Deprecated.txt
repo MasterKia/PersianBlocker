@@ -3769,9 +3769,6 @@ video-learn.ir#@#.header-adv
 !-------------------------v Warning for video censorship sites v-----------------------!
 ! https://github.com/MasterKia/PersianBlocker/issues/119
 ! Desktop
-www.google.com##div#search span[jsaction] > a[href*="bossfilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##div#search span[jsaction] > a[href*="movienama.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##div#search span[jsaction] > a[href*="film2movie.asia"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#search span[jsaction] > a[href*="serialfilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#search span[jsaction] > a[href*="yoozdl.top"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#search span[jsaction] > a[href*="skymovies.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3849,9 +3846,6 @@ www.google.com##div#search span[jsaction] > a[href*="yoozmovie.com"]> h3::after:
 www.google.com##div#search span[jsaction] > a[href*="upko.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#search span[jsaction] > a[href*="filmzi.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Mobile
-www.google.com##div#gsr a[href*="bossfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##div#gsr a[href*="movienama.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-www.google.com##div#gsr a[href*="film2movie.asia"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#gsr a[href*="serialfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#gsr a[href*="yoozdl.top"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 www.google.com##div#gsr a[href*="skymovies.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -3931,9 +3925,6 @@ www.google.com##div#gsr a[href*="upko.ir"] div[role="link"]::after:style(content
 www.google.com##div#gsr a[href*="filmzi.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 
-duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="bossfilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="movienama.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="film2movie.asia"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="serialfilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="yoozdl.top"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="skymovies.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
@@ -4013,9 +4004,6 @@ duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="up
 duckduckgo.com##ol.react-results--main a[data-testid="result-title-a"][href*="filmzi.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 
 
-search.brave.com##div#results > div.snippet > a[href*="bossfilm.ir"] div.title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a[href*="movienama.com"] div.title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
-search.brave.com##div#results > div.snippet > a[href*="film2movie.asia"] div.title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a[href*="serialfilm.ir"] div.title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a[href*="yoozdl.top"] div.title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 search.brave.com##div#results > div.snippet > a[href*="skymovies.ir"] div.title::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
