@@ -124,3 +124,7 @@ offerdaily.ir##+js(href-sanitizer, a[href^="https://dgkl.io/api/v1/Click/b/"][hr
 
 ! vigiato.net:
 ||matomo.parto.media^
+
+! web.eitaa.com:
+! https://github.com/MasterKia/PersianBlocker/issues/395
+web.eitaa.com##+js(href-sanitizer, a[data-original-url], ?url)
