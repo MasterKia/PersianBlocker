@@ -442,3 +442,7 @@ vigiato.net##.ad_728_90
 ! EasyList Breakage:
 agahinet.com#@#.adv-box
 @@||agahinet.com/adv^
+
+! web.eitaa.com:
+web.eitaa.com##.ads-dialog-box
+
