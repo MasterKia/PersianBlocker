@@ -446,3 +446,5 @@ agahinet.com#@#.adv-box
 ! web.eitaa.com:
 web.eitaa.com##.ads-dialog-box
 
+! mobileweb.bankmellat.ir:
+mobileweb.bankmellat.ir##.noSelect:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; user-select: text !important;)
