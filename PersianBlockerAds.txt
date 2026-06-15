@@ -141,7 +141,8 @@ shad.ir##rb-chat-ads-container
 nazriyab.app##.header-ex
 
 ! sheypoor.com:
-sheypoor.com##button[data-test-id^="link-to-https://www.sheypoor.com/banner/"]
+||sheypoor.com/banner/external/image^
+sheypoor.com##div:has(> a[href^="https://banners.sheypoor.com/banner/"])
 
 ! telewebion.ir:
 ||hadeseh.simra.cloud^
