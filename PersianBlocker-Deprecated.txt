@@ -254,7 +254,6 @@ trustseal.enamad.ir##^responseheader(set-cookie)
 ||sentry.hamravesh.com^
 ! Example: behtarino.com
 ||notifhub.com^
-||hamserver.ir^$3p
 ! Example: androidha.com
 
 !  cdn.hostdl.com/assets/downloadha.gif, cdn.hostdl.com/img/mihandownload.gif, 
