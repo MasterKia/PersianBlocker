@@ -20,9 +20,9 @@
 0.0.0.0 affilio.ir
 0.0.0.0 aflo.ir
 
-# تا اطلاع ثانوی غیرفعال شد.
+# Breaks "نماد اعتماد".
 # trustseal.e-rasaneh.ir/Trustseal (e.g. zoomit.ir)
-## 0.0.0.0 trustseal.e-rasaneh.ir
+# 0.0.0.0 trustseal.e-rasaneh.ir
 
 # aparat.com:
 0.0.0.0 sentry.sabaidea.cloud
