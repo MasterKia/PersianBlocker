@@ -35,6 +35,7 @@ download.ir##.parsi-ads
 ! digikala.com (Self-promotion, e.g. digikala.com/mag/)
 digikala.com##.dkmag-plp-wrapper
 digikala.com##.product-cta-wrapper
+www.digikala.com##div[data-product-index]:has(span.text-neutral-500:has-text(سفارشی))
 
 ! setare.com (وبگردی)
 setare.com###brxe-itmmyk
