@@ -452,3 +452,7 @@ mobileweb.bankmellat.ir##.noSelect:style(-webkit-touch-callout: default !importa
 
 ! bama.ir:
 ||bama.ir/uploads/BamaImages/CampaignBanner^
+
+! moddinggame.ir:
+moddinggame.ir##.ads-banner-single
+moddinggame.ir##.ahi-custom-wrapper-1
