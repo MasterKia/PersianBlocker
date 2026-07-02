@@ -1,10 +1,7 @@
-<h4 align="center">
-     
-> “Trust me, sweetheart, donating now is a hell of a lot cheaper than paying for your own damned soul later.” — John Constantine (probably)
+<h3 align="center">
 
-[![Donate XMR](https://img.shields.io/badge/Donate-XMR-FFA500?style=flat&logo=monero)](monero:82XUSZ3q2zpSt89HLhpSRGVD72Jf8vrfhjgijBFmDbgX26M9HgeAou2dQ8mqi3eoUAXWYNLorrgHNCH15oZDSuznMcZQeWr?recipient_name=Kia&tx_description=PersianBlocker)
-
-`82XUSZ3q2zpSt89HLhpSRGVD72Jf8vrfhjgijBFmDbgX26M9HgeAou2dQ8mqi3eoUAXWYNLorrgHNCH15oZDSuznMcZQeWr`
+![Sayyed Ali “Master” Kia](static/masterkia.jpg)
+> 🕯️ Sayyed Ali “Master” Kia, the original author and maintainer of PersianBlocker, has recently passed away. May he receive the peace he was denied in this life. 🖤
 
 </h3>
 
