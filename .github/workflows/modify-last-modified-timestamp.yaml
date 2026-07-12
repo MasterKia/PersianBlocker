@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  patch:
+  modify:
     name: modify
     runs-on: ubuntu-latest
     steps:
@@ -24,18 +24,9 @@ jobs:
 
       - name: Modify last-updated field
         run: |
-          for f in $(git ls-files *.txt); do
-            COMMIT_DATE=$(git log -1 --format=%aD $f)
-            AUTHOR=$(git log -1 --pretty=format:%an $f)
-
-            # Skip commits made by GitHub Actions bot
-            if [[ "$AUTHOR" == "github-actions[bot]" ]]; then
-              continue
-            fi
-
-            if sed --version >/dev/null 2>&1; then
-              sed -i "0,/^! Last modified: /s|^! Last modified: .*|! Last modified: $COMMIT_DATE|" "$f"
-            fi
+          DATE=$(date -Ru)
+          for f in $(git diff HEAD~1 --name-only); do
+              sed -i "0,/^! Last modified: /s/^\(! Last modified: \).*/\1$DATE/" $f
           done
 
       - name: Commit changes (if any)
